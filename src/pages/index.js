@@ -1,6 +1,6 @@
 import * as React from "react";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import ReactLeafletKml from "react-leaflet-kml";
+import { MapContainer, TileLayer, Marker, Popup, GeoJSON } from "react-leaflet";
+import hash from 'object-hash';
 
 const position = [40.1546, -75.2216];
 const zoom = 12;
@@ -112,13 +112,6 @@ const links = [
     color: "#0D96F2",
   },
   {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    color: "#8EB814",
-  },
-  {
     text: "Build and Host",
     url: "https://www.gatsbyjs.com/cloud",
     badge: true,
@@ -129,17 +122,33 @@ const links = [
 ]
 
 const IndexPage = () => {
-  const [kml, setKml] = React.useState(null);
+
+  const [countyBoundaries, setCountyBoundaryJson] = React.useState(null);
 
   React.useEffect(() => {
     fetch(
-      "/static/Montgomery_County_Boundary.kml"
+      "/static/Montgomery_County_Boundary.geojson"
     )
       .then(res => res.text())
-      .then(kmlText => {
-        const parser = new DOMParser();
-        const kml = parser.parseFromString(kmlText, "text/xml");
-        setKml(kml);
+      .then(jsonText => {
+        const countyBoundaries = JSON.parse(jsonText);
+        setCountyBoundaryJson(countyBoundaries);
+        window.countyBoundaries = countyBoundaries;
+      });
+  }, []);
+
+  const [municipalBoundaries, setMunicipalBoundaryJson] = React.useState(null);
+
+  React.useEffect(() => {
+    fetch(
+      "/static/Montgomery_County_Municipal_Boundaries.geojson"
+    )
+      .then(res => res.text())
+      .then(jsonText => {
+        const municipalBoundaries = JSON.parse(jsonText);
+        //debugger;
+        setMunicipalBoundaryJson(municipalBoundaries);
+        window.municipalBoundaries = municipalBoundaries;
       });
   }, []);
 
@@ -159,8 +168,18 @@ const IndexPage = () => {
             A pretty CSS3 popup. <br /> Easily customizable.
           </Popup>
         </Marker>
+        { countyBoundaries &&
+          <GeoJSON
+            key={/*hash(municipalBoundaries)*/'bbb'}
+            data={countyBoundaries} />
+        }
 
-        {kml && <ReactLeafletKml kml={kml} />}
+        { municipalBoundaries &&
+          <GeoJSON
+            key={/*hash(municipalBoundaries)*/'aaa'}
+            data={municipalBoundaries} />
+        }
+
       </MapContainer>
     </main>
   )
