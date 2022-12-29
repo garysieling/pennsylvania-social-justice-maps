@@ -1,8 +1,9 @@
 import * as React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import ReactLeafletKml from "react-leaflet-kml";
 
 const position = [40.1546, -75.2216];
-const zoom = 15;
+const zoom = 12;
 
 const pageStyles = {
   color: "#232129",
@@ -128,13 +129,27 @@ const links = [
 ]
 
 const IndexPage = () => {
+  const [kml, setKml] = React.useState(null);
+
+  React.useEffect(() => {
+    fetch(
+      "/static/Montgomery_County_Boundary.kml"
+    )
+      .then(res => res.text())
+      .then(kmlText => {
+        const parser = new DOMParser();
+        const kml = parser.parseFromString(kmlText, "text/xml");
+        setKml(kml);
+      });
+  }, []);
+
   return (
     <main style={pageStyles}>
       <h1 style={headingStyles}>
-        Maps
+        Map
       </h1>
 
-      <MapContainer style={{ height: '400px' }} center={position} zoom={zoom} scrollWheelZoom={false}>
+      <MapContainer style={{ height: '400px' }} center={position} zoom={zoom} scrollWheelZoom={true}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -144,12 +159,9 @@ const IndexPage = () => {
             A pretty CSS3 popup. <br /> Easily customizable.
           </Popup>
         </Marker>
+
+        {kml && <ReactLeafletKml kml={kml} />}
       </MapContainer>
-      
-      <img
-        alt="Gatsby G Logo"
-        src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
-      />
     </main>
   )
 }
