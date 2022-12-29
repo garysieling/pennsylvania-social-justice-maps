@@ -1,0 +1,27 @@
+{
+  "name": "montgomery-county-pa-maps",
+  "version": "1.0.0",
+  "private": true,
+  "description": "montgomery-county-pa-maps",
+  "author": "Gary Sieling",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@mdx-js/react": "^2.2.1",
+    "@theme-ui/mdx": "^0.15.4",
+    "gatsby": "^5.3.3",
+    "gatsby-plugin-theme-ui": "^0.15.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "theme-ui": "^0.15.4"
+  }
+}
