@@ -106,7 +106,39 @@ const facets = [
     key: 2,
     loaded: false,
     source: '/static/Montgomery_County_Municipal_Boundaries.geojson'
+  },
+  {
+    title: 'School Districts',
+    key: 3,
+    loaded: false,
+    source: '/static/Montgomery_County_School_Districts.geojson'
+  },
+  {
+    title: 'Police Departments',
+    key: 4,
+    loaded: false,
+    source: '/static/Montgomery_County_Police_Districts.geojson'
+  },
+  /*{
+    // TODO find a shapefile of the 2022 magesterial districts
+    title: 'Courts',
+    key: 5,
+    loaded: false,
+    source: '/static/Montgomery_County_Police_Districts.geojson'
+  },*/
+  {
+    // TODO what is this for?
+    title: 'JPO Districts',
+    key: 6,
+    loaded: false,
+    source: '/static/Montgomery_County_-_JPO_Districts.geojson'
   }
+  /*
+    TODO zip codes
+  */
+  /*
+    TODO legislative districts
+  */
 ]
 
 const IndexPage = () => {
@@ -139,7 +171,7 @@ const IndexPage = () => {
   const facetLayers = 
       boundaries.map(
         (json) => {
-          console.log('hash', hash(json))
+          // TODO cache the hash
           return (
             <GeoJSON
               key={hash(json)}
@@ -165,6 +197,7 @@ const IndexPage = () => {
                   </Label>
                   <ul style={listStyles}>
                     {
+                      // TODO facet control with TOP N
                       facet.boundaries &&
                       facet.boundaries.features.map(
                         (feature) => (
