@@ -1,7 +1,7 @@
 import * as React from "react";
 import { MapContainer, TileLayer, Marker, Popup, GeoJSON } from "react-leaflet";
 import hash from 'object-hash';
-import { Checkbox, Label } from "theme-ui";
+import { Checkbox, Grid, Label } from "theme-ui";
 
 const position = [40.1546, -75.2216];
 const zoom = 12;
@@ -149,52 +149,57 @@ const IndexPage = () => {
       );
 
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>
-        Map
-      </h1>
-
-      <h2 style={headingStyles}>Layers</h2>
-      <ul style={listStyles}>
-        {
-          facets.map(
-            (facet) =>
-              <li key={facet.key} style={listItemStyles}>
-                <Label>
-                 <Checkbox defaultChecked={true} />
-                  {facet.title}
-                </Label>
-                <ul style={listStyles}>
-                  {
-                    facet.boundaries &&
-                    facet.boundaries.features.map(
-                      (feature) => (
-                        <Label>
-                          <Checkbox defaultChecked={true} />
-                          {feature.properties.Name}
-                        </Label>
+    <Grid
+      gap={2} 
+      columns={[2, '0.5fr 3fr']}>
+      <aside>
+        <h2 style={headingStyles}>Layers</h2>
+        <ul style={listStyles}>
+          {
+            facets.map(
+              (facet) =>
+                <li key={facet.key} style={listItemStyles}>
+                  <Label>
+                  <Checkbox defaultChecked={true} />
+                    <b>{facet.title}</b>
+                  </Label>
+                  <ul style={listStyles}>
+                    {
+                      facet.boundaries &&
+                      facet.boundaries.features.map(
+                        (feature) => (
+                          <Label>
+                            <Checkbox defaultChecked={true} />
+                            {feature.properties.Name}
+                          </Label>
+                        )
                       )
-                    )
-                  }
-                </ul>
-              </li>
-          )
-        }
-      </ul>
-
-      <MapContainer style={{ height: '400px' }} center={position} zoom={zoom} scrollWheelZoom={true}>
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-        <Marker position={position}>
-          <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
-          </Popup>
-        </Marker>
-        { facetLayers }
-      </MapContainer>
-    </main>
+                    }
+                  </ul>
+                </li>
+            )
+          }
+        </ul>
+      </aside>
+      <main style={pageStyles}>
+        <h1 style={headingStyles}>
+          Map
+        </h1>
+        
+        <MapContainer style={{ height: '400px' }} center={position} zoom={zoom} scrollWheelZoom={true}>
+          <TileLayer
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          />
+          <Marker position={position}>
+            <Popup>
+              A pretty CSS3 popup. <br /> Easily customizable.
+            </Popup>
+          </Marker>
+          { facetLayers }
+        </MapContainer>
+      </main>
+    </Grid>
   )
 }
 
