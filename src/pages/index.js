@@ -99,43 +99,56 @@ const facets = [
     title: 'County',
     key: 1,
     loaded: false,
-    source: '/static/Montgomery_County_Boundary.geojson'
+    source: '/static/Montgomery_County_Boundary.geojson',
+    nameAttribute: 'Name',
+    whereObtained: 'Montgomery County Public Datasets'
   },
   {
-    title: 'Municipalities',
+    title: 'ZCTA5 2019',
     key: 2,
     loaded: false,
-    source: '/static/Montgomery_County_Municipal_Boundaries.geojson'
+    source: '/static/montco_zcta5.geojson',
+    nameAttribute: 'ZCTA5CE10',
+    // https://www.zillow.com/browse/homes/pa/montgomery-county/
+    whereObtained: 'Converted from https://www2.census.gov/geo/tiger/TIGER2019/ZCTA5/'
+  },
+  /*{
+    title: 'Municipalities',
+    key: 3,
+    loaded: false,
+    source: '/static/Montgomery_County_Municipal_Boundaries.geojson',
+    nameAttribute: 'Name'
   },
   {
     title: 'School Districts',
-    key: 3,
+    key: 4,
     loaded: false,
-    source: '/static/Montgomery_County_School_Districts.geojson'
+    source: '/static/Montgomery_County_School_Districts.geojson',
+    nameAttribute: 'Name'
   },
   {
     title: 'Police Departments',
-    key: 4,
+    key: 5,
     loaded: false,
-    source: '/static/Montgomery_County_Police_Districts.geojson'
-  },
+    source: '/static/Montgomery_County_Police_Districts.geojson',
+    nameAttribute: 'Name'
+  },*/
   /*{
     // TODO find a shapefile of the 2022 magesterial districts
     title: 'Courts',
     key: 5,
     loaded: false,
-    source: '/static/Montgomery_County_Police_Districts.geojson'
+    source: '/static/Montgomery_County_Police_Districts.geojson',
+    nameAttribute: 'Name'
   },*/
-  {
+  /*{
     // TODO what is this for?
     title: 'JPO Districts',
-    key: 6,
+    key: 7,
     loaded: false,
-    source: '/static/Montgomery_County_-_JPO_Districts.geojson'
-  }
-  /*
-    TODO zip codes
-  */
+    source: '/static/Montgomery_County_-_JPO_Districts.geojson',
+    nameAttribute: 'Name'
+  }*/
   /*
     TODO legislative districts
   */
@@ -203,7 +216,7 @@ const IndexPage = () => {
                         (feature) => (
                           <Label>
                             <Checkbox defaultChecked={true} />
-                            {feature.properties.Name}
+                            {feature.properties[facet.nameAttribute]}
                           </Label>
                         )
                       )

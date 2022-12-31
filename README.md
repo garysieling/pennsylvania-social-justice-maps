@@ -7,48 +7,25 @@
   Gatsby minimal starter
 </h1>
 
-## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+Converting Census data:
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+Reference: https://github.com/jgoodall/us-maps
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+Downlaod from here:
 
-2.  **Start developing.**
+https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-geodatabase-file.html
+l
+brew install gdal
 
-    Navigate into your new site’s directory and start it up.
+npm install -g json-minify
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html
 
-3.  **Open the code and start customizing!**
+https://carto.com/blog/zip-codes-spatial-analysis/
+docker run -it -p 6432:5432 -e =POSTGRES_PASSWORD=password postgis/postgis:15-3.3
 
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+FROM tl_2019_us_zcta510
+cd data 
+ogr2ogr -f "GeoJSON" zcta5.geo.json ./tl_2019_us_zcta510.shp
+node zcta_filter.js > montco_zcta5.geojson
