@@ -156,6 +156,25 @@ const facets = [
 
 const IndexPage = () => {
   const [boundaries, addBoundary] = React.useState([]);
+  const [facetsUnselected, selectFacet] = React.useState({});
+  const [itemsUnselected, selectItem] = React.useState({});
+
+  const facetClicker = (e) => {
+    const key = e.target.dataset.key;
+    console.log('facetClicker', key)
+
+    const newSelection = {...facetsUnselected};
+    newSelection[key] = !newSelection[key];
+    selectFacet(newSelection);
+  } 
+
+  const facetItemClicker = (e) => {
+    const key = e.target.dataset.key;
+    console.log('facetItemClicker', key)
+    const newItems = {...itemsUnselected};
+    newItems[key] = !newItems[key];
+    selectItem(newItems);
+  }
 
   console.log('rendering...');
   React.useEffect(() => {
@@ -205,7 +224,12 @@ const IndexPage = () => {
               (facet) =>
                 <li key={facet.key} style={listItemStyles}>
                   <Label>
-                  <Checkbox defaultChecked={true} />
+                    <Checkbox 
+                      checked={!facetsUnselected[facet.key]}
+                      data-key={facet.key}
+                      key={facet.key}
+                      onClick={facetClicker}
+                    />
                     <b>{facet.title}</b>
                   </Label>
                   <ul style={listStyles}>
@@ -213,12 +237,19 @@ const IndexPage = () => {
                       // TODO facet control with TOP N
                       facet.boundaries &&
                       facet.boundaries.features.map(
-                        (feature) => (
-                          <Label>
-                            <Checkbox defaultChecked={true} />
-                            {feature.properties[facet.nameAttribute]}
-                          </Label>
-                        )
+                        (feature) => {
+                          const key = facet.key + '_' + feature.properties[facet.nameAttribute];
+                          return (
+                            <Label key={key} >
+                              <Checkbox 
+                                  data-key={key}
+                                  checked={!itemsUnselected[key]}
+                                  onClick={facetItemClicker} 
+                              />
+                              {feature.properties[facet.nameAttribute]}
+                            </Label>
+                          )
+                        }
                       )
                     }
                   </ul>
