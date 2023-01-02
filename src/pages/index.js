@@ -170,16 +170,14 @@ const IndexPage = () => {
 
   const facetItemClicker = (e) => {
     const key = e.target.dataset.key;
-    console.log('facetItemClicker', key)
     const newItems = {...itemsUnselected};
     newItems[key] = !newItems[key];
     selectItem(newItems);
   }
 
   console.log('rendering...');
-  React.useEffect(() => {
-    console.log('rendering...');
 
+  React.useEffect(() => {
     facets.filter(
       (facet) => !facet.loaded
     ).map(
@@ -188,6 +186,7 @@ const IndexPage = () => {
             .then(res => res.text())
             .then(jsonText => {
               const boundaryJson = JSON.parse(jsonText);
+              boundaryJson.key = facet.key;
               facet.boundaries = boundaryJson;
               facet.loaded = true;
 
@@ -201,7 +200,9 @@ const IndexPage = () => {
 
     console.log('boundaries', boundaries);
   const facetLayers = 
-      boundaries.map(
+      boundaries.filter(
+        (boundary) => !facetsUnselected[boundary.key]
+      ).map(
         (json) => {
           // TODO cache the hash
           return (
