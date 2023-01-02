@@ -94,10 +94,12 @@ const links = [
   },
 ]
 
+let j = 0;
+
 const facets = [
   {
     title: 'County',
-    key: 1,
+    key: '1',
     loaded: false,
     source: '/static/Montgomery_County_Boundary.geojson',
     nameAttribute: 'Name',
@@ -105,7 +107,7 @@ const facets = [
   },
   {
     title: 'ZCTA5 2019',
-    key: 2,
+    key: '2',
     loaded: false,
     source: '/static/montco_zcta5.geojson',
     nameAttribute: 'ZCTA5CE10',
@@ -152,7 +154,13 @@ const facets = [
   /*
     TODO legislative districts
   */
-]
+];
+
+const facetsByKey = {};
+
+for (let i = 0; i < facets.length; i++) {
+  facetsByKey[facets[i].key] = facets[i];
+}
 
 const IndexPage = () => {
   const [boundaries, addBoundary] = React.useState([]);
@@ -161,11 +169,24 @@ const IndexPage = () => {
 
   const facetClicker = (e) => {
     const key = e.target.dataset.key;
-    console.log('facetClicker', key)
 
+    const newSelectionBoolean = !facetsUnselected[key];
     const newSelection = {...facetsUnselected};
-    newSelection[key] = !newSelection[key];
+    newSelection[key] = newSelectionBoolean;
+
+    const newItemsUnselected = {...itemsUnselected};
+
+    const facet = facetsByKey[key];
+
+    const facetValues = facet.values;
+    for (let i = 0; i < facetValues.length; i++) {
+      const itemKey = key + '_' + facetValues[i];
+
+      newItemsUnselected[itemKey] = newSelectionBoolean;
+    }
+
     selectFacet(newSelection);
+    selectItem(newItemsUnselected);
   } 
 
   const facetItemClicker = (e) => {
@@ -174,8 +195,6 @@ const IndexPage = () => {
     newItems[key] = !newItems[key];
     selectItem(newItems);
   }
-
-  console.log('rendering...');
 
   React.useEffect(() => {
     facets.filter(
@@ -187,8 +206,13 @@ const IndexPage = () => {
             .then(jsonText => {
               const boundaryJson = JSON.parse(jsonText);
               boundaryJson.key = facet.key;
+              boundaryJson.facet = facet;
               facet.boundaries = boundaryJson;
               facet.loaded = true;
+
+              facet.values = boundaryJson.features.map(
+                (feature) => feature.properties[facet.nameAttribute]
+              );
 
               addBoundary(
                 arr => [...arr, boundaryJson]
@@ -198,16 +222,20 @@ const IndexPage = () => {
       }
     );
 
-    console.log('boundaries', boundaries);
   const facetLayers = 
-      boundaries.filter(
-        (boundary) => !facetsUnselected[boundary.key]
-      ).map(
+      boundaries.map(
         (json) => {
           // TODO cache the hash
+
           return (
             <GeoJSON
-              key={hash(json)}
+              key={hash(json) + j++}
+              filter={(segment) => {
+                const facet = json.facet;
+
+                const key = facet.key + '_' + segment.properties[facet.nameAttribute];
+                return !itemsUnselected[key];
+              }}
               data={json} />
           );
         }
