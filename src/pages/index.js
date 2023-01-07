@@ -173,8 +173,8 @@ const showAllCount = showMoreCount + 3;
 const IndexPage = () => {
   console.log('rendering...');
   const [boundaries, addBoundary] = React.useState([]);
-  const [facetsUnselected, selectFacet] = React.useState({});
-  const [itemsUnselected, selectItem] = React.useState({});
+  const [facetsSelected, selectFacet] = React.useState({});
+  const [itemsSelected, selectItem] = React.useState({});
   const [showMoreList, updateShowMore] = React.useState({});
 
   const showMore = (title) => {
@@ -187,28 +187,28 @@ const IndexPage = () => {
   const facetClicker = (e) => {
     const key = e.target.dataset.key;
 
-    const newSelectionBoolean = !facetsUnselected[key];
-    const newSelection = {...facetsUnselected};
+    const newSelectionBoolean = !facetsSelected[key];
+    const newSelection = {...facetsSelected};
     newSelection[key] = newSelectionBoolean;
 
-    const newItemsUnselected = {...itemsUnselected};
+    const newItemsSelected = {...itemsSelected};
 
     const facet = facetsByKey[key];
 
     const facetValues = facet.values;
-    for (let i = 0; i < facetValues.length; i++) {
+    /*for (let i = 0; i < facetValues.length; i++) {
       const itemKey = key + '_' + facetValues[i];
 
-      newItemsUnselected[itemKey] = newSelectionBoolean;
-    }
+      newItemsSelected[itemKey] = newSelectionBoolean;
+    }*/
 
     selectFacet(newSelection);
-    selectItem(newItemsUnselected);
+    selectItem(newItemsSelected);
   } 
 
   const facetItemClicker = (e) => {
     const key = e.target.dataset.key;
-    const newItems = {...itemsUnselected};
+    const newItems = {...itemsSelected};
     newItems[key] = !newItems[key];
     selectItem(newItems);
   }
@@ -240,10 +240,12 @@ const IndexPage = () => {
     );
 
   const facetLayers = 
-      boundaries.map(
+      boundaries.filter(
+        (json) => facetsSelected[json.facet.key]
+      ).map(
         (json) => {
           // TODO cache the hash
-
+console.log('including ' + json.facet.title);
           return (
             <GeoJSON
               key={hash(json) + j++}
@@ -251,7 +253,7 @@ const IndexPage = () => {
                 const facet = json.facet;
 
                 const key = facet.key + '_' + segment.properties[facet.nameAttribute];
-                return !itemsUnselected[key];
+                return itemsSelected[key];
               }}
               data={json} />
           );
@@ -272,7 +274,7 @@ const IndexPage = () => {
                   <li key={facet.key} style={listItemStyles}>
                     <Label>
                       <Checkbox 
-                        checked={!facetsUnselected[facet.key]}
+                        checked={facetsSelected[facet.key]}
                         data-key={facet.key}
                         key={facet.key}
                         onClick={facetClicker}
@@ -293,7 +295,7 @@ const IndexPage = () => {
                               <Label key={key} >
                                 <Checkbox 
                                     data-key={key}
-                                    checked={!itemsUnselected[key]}
+                                    checked={itemsSelected[key]}
                                     onClick={facetItemClicker} 
                                 />
                                 {feature.properties[facet.nameAttribute]}
