@@ -1,7 +1,7 @@
 import * as React from "react";
 import { MapContainer, TileLayer, Marker, Popup, GeoJSON } from "react-leaflet";
 import hash from 'object-hash';
-import { Checkbox, Grid, Label } from "theme-ui";
+import { Checkbox, Grid, Label, Link, Button } from "theme-ui";
 
 const position = [40.1546, -75.2216];
 const zoom = 12;
@@ -30,9 +30,10 @@ const codeStyles = {
   borderRadius: 4,
 }
 const listStyles = {
-  marginBottom: 96,
+  marginBottom: 10,
   paddingLeft: 0,
 }
+
 const listItemStyles = {
   fontWeight: 300,
   fontSize: 24,
@@ -166,10 +167,22 @@ for (let i = 0; i < facets.length; i++) {
   facetsByKey[facets[i].key] = facets[i];
 }
 
+const showMoreCount = 5;
+const showAllCount = showMoreCount + 3;
+
 const IndexPage = () => {
+  console.log('rendering...');
   const [boundaries, addBoundary] = React.useState([]);
   const [facetsUnselected, selectFacet] = React.useState({});
   const [itemsUnselected, selectItem] = React.useState({});
+  const [showMoreList, updateShowMore] = React.useState({});
+
+  const showMore = (title) => {
+    console.log('clicked showmore ', title);
+    const newShowMores = Object.assign({}, showMoreList);
+    newShowMores[title] = true;
+    updateShowMore(newShowMores);
+  }
 
   const facetClicker = (e) => {
     const key = e.target.dataset.key;
@@ -255,38 +268,54 @@ const IndexPage = () => {
           {
             facets.map(
               (facet) =>
-                <li key={facet.key} style={listItemStyles}>
-                  <Label>
-                    <Checkbox 
-                      checked={!facetsUnselected[facet.key]}
-                      data-key={facet.key}
-                      key={facet.key}
-                      onClick={facetClicker}
-                    />
-                    <b>{facet.title}</b>
-                  </Label>
-                  <ul style={listStyles}>
-                    {
-                      // TODO facet control with TOP N
-                      facet.boundaries &&
-                      facet.boundaries.features.map(
-                        (feature) => {
-                          const key = facet.key + '_' + feature.properties[facet.nameAttribute];
-                          return (
-                            <Label key={key} >
-                              <Checkbox 
-                                  data-key={key}
-                                  checked={!itemsUnselected[key]}
-                                  onClick={facetItemClicker} 
-                              />
-                              {feature.properties[facet.nameAttribute]}
-                            </Label>
-                          )
-                        }
-                      )
-                    }
-                  </ul>
-                </li>
+                facet.boundaries && (
+                  <li key={facet.key} style={listItemStyles}>
+                    <Label>
+                      <Checkbox 
+                        checked={!facetsUnselected[facet.key]}
+                        data-key={facet.key}
+                        key={facet.key}
+                        onClick={facetClicker}
+                      />
+                      <b>{facet.title}</b>
+                    </Label>
+                    <ul style={listStyles}>
+                      {
+                        facet.boundaries.features.filter(
+                          (value, index) => 
+                            index < showMoreCount ||
+                              facet.boundaries.features.length <= showAllCount ||
+                              showMoreList[facet.title]
+                        ).map(
+                          (feature) => {
+                            const key = facet.key + '_' + feature.properties[facet.nameAttribute];
+                            return (
+                              <Label key={key} >
+                                <Checkbox 
+                                    data-key={key}
+                                    checked={!itemsUnselected[key]}
+                                    onClick={facetItemClicker} 
+                                />
+                                {feature.properties[facet.nameAttribute]}
+                              </Label>
+                            )
+                          }
+                        )
+                      }
+                      {
+                        facet.boundaries && 
+                        facet.boundaries.features.length > showAllCount &&
+                        !showMoreList[facet.title] && (
+                        <li key='showMore'>
+                            <a href="#" onClick={() => showMore(facet.title)}>
+                              Show More
+                            </a>
+                          </li>
+                        )
+                      }
+                    </ul>
+                  </li>
+                )
             )
           }
         </ul>
