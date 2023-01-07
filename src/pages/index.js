@@ -106,7 +106,7 @@ const facets = [
     whereObtained: 'Montgomery County Public Datasets'
   },
   {
-    title: 'ZCTA5 2019',
+    title: 'ZCTA (2019)',
     key: '2',
     loaded: false,
     source: '/static/montco_zcta5.geojson',
@@ -114,35 +114,39 @@ const facets = [
     // https://www.zillow.com/browse/homes/pa/montgomery-county/
     whereObtained: 'Converted from https://www2.census.gov/geo/tiger/TIGER2019/ZCTA5/'
   },
-  /*{
+  {
     title: 'Municipalities',
-    key: 3,
+    key: '3',
     loaded: false,
     source: '/static/Montgomery_County_Municipal_Boundaries.geojson',
-    nameAttribute: 'Name'
+    nameAttribute: 'Name',
+    whereObtained: 'Montgomery County Public Datasets'
   },
   {
     title: 'School Districts',
-    key: 4,
+    key: '4',
     loaded: false,
     source: '/static/Montgomery_County_School_Districts.geojson',
-    nameAttribute: 'Name'
+    nameAttribute: 'Name',
+    whereObtained: 'Montgomery County Public Datasets'
   },
   {
     title: 'Police Departments',
-    key: 5,
+    key: '5',
     loaded: false,
     source: '/static/Montgomery_County_Police_Districts.geojson',
-    nameAttribute: 'Name'
-  },*/
-  /*{
-    // TODO find a shapefile of the 2022 magesterial districts
+    nameAttribute: 'Name',
+    whereObtained: 'Montgomery County Public Datasets'
+  },
+  {
     title: 'Courts',
-    key: 5,
+    key: '6',
     loaded: false,
-    source: '/static/Montgomery_County_Police_Districts.geojson',
-    nameAttribute: 'Name'
-  },*/
+    source: '/static/Montgomery_County_Magisterial_Districts.geojson',
+    nameAttribute: 'District',
+    whereObtained: 'Montgomery County Public Datasets',
+    citation: 'https://data-montcopa.opendata.arcgis.com/datasets/ea654fc7b22f4039a8c3e1e85bcf868f_0/explore?location=40.210302%2C-75.353586%2C10.69'
+  },
   /*{
     // TODO what is this for?
     title: 'JPO Districts',
