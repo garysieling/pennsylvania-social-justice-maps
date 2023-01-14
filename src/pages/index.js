@@ -1,8 +1,9 @@
 import * as React from "react";
 import { MapContainer, TileLayer, Marker, Popup, GeoJSON } from "react-leaflet";
-import hash from 'object-hash';
+import hash from "object-hash";
 import { Checkbox, Grid, Label, Link, Button } from "theme-ui";
 import { cloneDeep } from "lodash";
+import Papa from "papaparse";
 
 const position = [40.1546, -75.2216];
 const zoom = 12;
@@ -162,6 +163,44 @@ const sourceData = [
   */
 ];
 
+let stories = [
+  {
+    name: 'Stories 1',
+    key: '1',
+    loaded: false,
+    source: '/static/points.csv',
+    description: 'Demo'
+  }
+];
+
+
+stories.map(
+  (story) => {
+    Papa.parse(story.source, {
+      download: true,
+      header: true,
+      skipEmptyLines: true,
+      complete: function(results, file) {
+        story.data = results.data.map(
+          (record) => {
+            if (record.lat) {
+              record.lat = parseFloat(record.lat.trim())
+            }
+
+            if (record.lng) {
+              record.lng = parseFloat(record.lng.trim())
+            }
+
+            return record;
+          }
+        )
+        story.loaded = true;
+
+        console.log(stories);
+      }
+    });
+  }
+);
 
 let firstLoad = true;
 
@@ -296,6 +335,21 @@ const IndexPage = () => {
 
   console.timeEnd("render");
 
+  const markers = stories.filter(
+    (story) => story.loaded
+  ).flatMap(
+    (story, storyIndex) =>
+      story.data.map(
+        (record, recordIndex) => (
+          <Marker position={[record.lat, record.lng]} key={storyIndex + '-' + recordIndex}>
+            <Popup>
+              {story.description + ' ' + record.name}
+            </Popup>
+          </Marker>
+        )
+      )
+  );
+
   const result = (
     <Grid
       gap={2} 
@@ -362,16 +416,12 @@ const IndexPage = () => {
           Map
         </h1>
         
-        <MapContainer style={{ height: '400px' }} center={position} zoom={zoom} scrollWheelZoom={true}>
+        <MapContainer style={{ height: '600px' }} center={position} zoom={zoom} scrollWheelZoom={true}>
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-          <Marker position={position}>
-            <Popup>
-              A pretty CSS3 popup. <br /> Easily customizable.
-            </Popup>
-          </Marker>
+          { markers }
           { facetLayers }
         </MapContainer>
       </main>

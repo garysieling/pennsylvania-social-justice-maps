@@ -1,0 +1,4 @@
+name,lat,lng,certainty
+Person 1,40.1540, -75.2213,1
+Person 2,40.1543, -75.2216,2
+Person 3,40.1549, -75.2219,3
