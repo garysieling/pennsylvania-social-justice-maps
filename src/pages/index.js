@@ -1,5 +1,12 @@
 import * as React from "react";
-import { MapContainer, TileLayer, Marker, Popup, GeoJSON } from "react-leaflet";
+import { 
+  MapContainer, 
+  TileLayer, 
+  Marker, 
+  Popup, 
+  GeoJSON,
+  Circle
+} from "react-leaflet";
 import hash from "object-hash";
 import { Checkbox, Grid, Label, Link, Button } from "theme-ui";
 import { cloneDeep } from "lodash";
@@ -191,6 +198,10 @@ stories.map(
               record.lng = parseFloat(record.lng.trim())
             }
 
+            if (record.certainty) {
+              record.certainty = parseInt(record.certainty);
+            }
+
             return record;
           }
         )
@@ -339,14 +350,27 @@ const IndexPage = () => {
     (story) => story.loaded
   ).flatMap(
     (story, storyIndex) =>
-      story.data.map(
-        (record, recordIndex) => (
-          <Marker position={[record.lat, record.lng]} key={storyIndex + '-' + recordIndex}>
-            <Popup>
-              {story.description + ' ' + record.name}
-            </Popup>
-          </Marker>
-        )
+      story.data.flatMap(
+        (record, recordIndex) => {
+          const results = [(
+            <Marker position={[record.lat, record.lng]} key={storyIndex + '-' + recordIndex}>
+              <Popup>
+                {story.description + ' ' + record.name}
+              </Popup>
+            </Marker>
+          )];
+
+          if (record.certainty) {
+            results.push((
+              <Circle 
+                center={[record.lat, record.lng]} 
+                pathOptions={{ fillColor: 'blue' }} 
+                radius={100 * record.certainty} />
+            ));
+          }
+
+          return results;
+        }
       )
   );
 
