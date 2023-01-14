@@ -2,6 +2,7 @@ import * as React from "react";
 import { MapContainer, TileLayer, Marker, Popup, GeoJSON } from "react-leaflet";
 import hash from 'object-hash';
 import { Checkbox, Grid, Label, Link, Button } from "theme-ui";
+import { cloneDeep } from "lodash";
 
 const position = [40.1546, -75.2216];
 const zoom = 12;
@@ -97,9 +98,9 @@ const links = [
 
 let j = 0;
 
-const facets = [
+const sourceData = [
   {
-    title: 'County',
+    name: 'County',
     key: '1',
     loaded: false,
     source: '/static/Montgomery_County_Boundary.geojson',
@@ -107,7 +108,7 @@ const facets = [
     whereObtained: 'Montgomery County Public Datasets'
   },
   {
-    title: 'ZCTA (2019)',
+    name: 'ZCTA (2019)',
     key: '2',
     loaded: false,
     source: '/static/montco_zcta5.geojson',
@@ -116,7 +117,7 @@ const facets = [
     whereObtained: 'Converted from https://www2.census.gov/geo/tiger/TIGER2019/ZCTA5/'
   },
   {
-    title: 'Municipalities',
+    name: 'Municipalities',
     key: '3',
     loaded: false,
     source: '/static/Montgomery_County_Municipal_Boundaries.geojson',
@@ -124,7 +125,7 @@ const facets = [
     whereObtained: 'Montgomery County Public Datasets'
   },
   {
-    title: 'School Districts',
+    name: 'School Districts',
     key: '4',
     loaded: false,
     source: '/static/Montgomery_County_School_Districts.geojson',
@@ -132,7 +133,7 @@ const facets = [
     whereObtained: 'Montgomery County Public Datasets'
   },
   {
-    title: 'Police Departments',
+    name: 'Police Departments',
     key: '5',
     loaded: false,
     source: '/static/Montgomery_County_Police_Districts.geojson',
@@ -140,7 +141,7 @@ const facets = [
     whereObtained: 'Montgomery County Public Datasets'
   },
   {
-    title: 'Courts',
+    name: 'Magesterial Courts',
     key: '6',
     loaded: false,
     source: '/static/Montgomery_County_Magisterial_Districts.geojson',
@@ -150,7 +151,7 @@ const facets = [
   },
   /*{
     // TODO what is this for?
-    title: 'JPO Districts',
+    name: 'JPO Districts',
     key: 7,
     loaded: false,
     source: '/static/Montgomery_County_-_JPO_Districts.geojson',
@@ -161,106 +162,141 @@ const facets = [
   */
 ];
 
-const facetsByKey = {};
 
-for (let i = 0; i < facets.length; i++) {
-  facetsByKey[facets[i].key] = facets[i];
-}
+let firstLoad = true;
 
+// TODO React Router
+// TODO Color coding
+// TODO hover text for additional data about a place
+// TODO Stories
+    // Pins
+    // Sequence of checked things
+    // Spider chart
+    // A chart showing locations vs certainty
+
+let cacheBuster = 0;
 const showMoreCount = 5;
 const showAllCount = showMoreCount + 3;
 
 const IndexPage = () => {
-  console.log('rendering...');
-  const [boundaries, addBoundary] = React.useState([]);
-  const [facetsSelected, selectFacet] = React.useState({});
-  const [itemsSelected, selectItem] = React.useState({});
-  const [showMoreList, updateShowMore] = React.useState({});
+  //const [boundaries, addBoundary] = React.useState([]);
+  const [facets, updateFacets] = React.useState({});
+  //const [facetsSelected, selectFacet] = React.useState({});
+  //const [itemsSelected, selectItem] = React.useState({});
+  //const [showMoreList, updateShowMore] = React.useState({});
 
-  const showMore = (title) => {
-    console.log('clicked showmore ', title);
-    const newShowMores = Object.assign({}, showMoreList);
-    newShowMores[title] = true;
-    updateShowMore(newShowMores);
+  React.useEffect(
+    () => {
+      if (firstLoad) {
+        firstLoad = false;
+        const initialFacetData = {};
+        Promise.all(
+          sourceData.map(
+            (facet) => 
+              fetch(facet.source)
+                .then(res => res.text())
+                .then(jsonText => {
+                  const geojson = JSON.parse(jsonText);
+                  facet.loaded = true;
+
+                  initialFacetData[facet.name] = {
+                    'name': facet.name,
+                    'key': facet.key,
+                    'visible': false,
+                    'showMore': false,
+                    'geojson': geojson,
+                    'nameAttribute': facet.nameAttribute,
+                    'values': {}
+                  };
+
+                  geojson.features.map(
+                    feature => {
+                      const facetValue = feature.properties[facet.nameAttribute];
+
+                      initialFacetData[facet.name].values[facetValue] = {
+                        selected: false
+                      }
+                    }
+                  )
+                })
+          )
+        ).then(
+          responses => {
+            updateFacets(initialFacetData);
+          }
+        );
+      }
+    }
+  )
+
+  const showMore = (facetName) => {
+    console.log('clicked showmore ', facetName);
+    const newFacets = cloneDeep(facets);
+    newFacets[facetName].showMore = true;
+
+    updateFacets(newFacets);
   }
 
   const facetClicker = (e) => {
-    const key = e.target.dataset.key;
+    const facetName = e.target.dataset.facetname;
 
-    const newSelectionBoolean = !facetsSelected[key];
-    const newSelection = {...facetsSelected};
-    newSelection[key] = newSelectionBoolean;
-
-    const newItemsSelected = {...itemsSelected};
-
-    const facet = facetsByKey[key];
-
-    const facetValues = facet.values;
-    /*for (let i = 0; i < facetValues.length; i++) {
-      const itemKey = key + '_' + facetValues[i];
-
-      newItemsSelected[itemKey] = newSelectionBoolean;
-    }*/
-
-    selectFacet(newSelection);
-    selectItem(newItemsSelected);
-  } 
-
-  const facetItemClicker = (e) => {
-    const key = e.target.dataset.key;
-    const newItems = {...itemsSelected};
-    newItems[key] = !newItems[key];
-    selectItem(newItems);
-  }
-
-  React.useEffect(() => {
-    facets.filter(
-      (facet) => !facet.loaded
-    ).map(
-      (facet) => {
-          fetch(facet.source)
-            .then(res => res.text())
-            .then(jsonText => {
-              const boundaryJson = JSON.parse(jsonText);
-              boundaryJson.key = facet.key;
-              boundaryJson.facet = facet;
-              facet.boundaries = boundaryJson;
-              facet.loaded = true;
-
-              facet.values = boundaryJson.features.map(
-                (feature) => feature.properties[facet.nameAttribute]
-              );
-
-              addBoundary(
-                arr => [...arr, boundaryJson]
-              );
-            });
-        });
-      }
-    );
-
-  const facetLayers = 
-      boundaries.filter(
-        (json) => facetsSelected[json.facet.key]
-      ).map(
-        (json) => {
-          // TODO cache the hash
-console.log('including ' + json.facet.title);
-          return (
-            <GeoJSON
-              key={hash(json) + j++}
-              filter={(segment) => {
-                const facet = json.facet;
-
-                const key = facet.key + '_' + segment.properties[facet.nameAttribute];
-                return itemsSelected[key];
-              }}
-              data={json} />
-          );
+    const newFacets = cloneDeep(facets);
+    Object.keys(newFacets[facetName].values)
+      .map(
+        key => {
+          newFacets[facetName].values[key].selected = e.target.checked;
         }
       );
 
-  return (
+    newFacets[facetName].visible = e.target.checked;
+
+    updateFacets(newFacets);
+  } 
+
+  const facetItemClicker = (e) => {
+    const facetName = e.target.dataset.facetname;
+    const facetValue = e.target.dataset.facetvalue;
+
+    const newFacets = cloneDeep(facets);
+    newFacets[facetName].values[facetValue].selected = e.target.checked;
+
+    if (e.target.checked) {
+      newFacets[facetName].visible = true;
+    }
+
+    console.log(newFacets);
+    updateFacets(newFacets);
+  }
+
+  console.time("figuring out layers");
+
+  const layers = Object.keys(facets)
+    .map(
+      (key) => facets[key]
+    );
+
+  const facetLayers = 
+    layers.filter(
+      (layer) => layer.visible
+    ).map(
+      (layer) => {
+        return (
+          <GeoJSON
+            key={layer.name + (cacheBuster++)}
+            filter={(segment, index) => {
+              const facetValue = segment.properties[layer.nameAttribute];
+
+              return facets[layer.name].values[facetValue].selected;
+            }}
+            data={layer.geojson} />
+        );
+      }
+    );
+  console.timeEnd("figuring out layers");
+
+  console.timeEnd("render");
+
+  const result = (
     <Grid
       gap={2} 
       columns={[2, '0.5fr 3fr']}>
@@ -268,56 +304,55 @@ console.log('including ' + json.facet.title);
         <h2 style={headingStyles}>Layers</h2>
         <ul style={listStyles}>
           {
-            facets.map(
-              (facet) =>
-                facet.boundaries && (
-                  <li key={facet.key} style={listItemStyles}>
-                    <Label>
-                      <Checkbox 
-                        checked={facetsSelected[facet.key]}
-                        data-key={facet.key}
-                        key={facet.key}
-                        onClick={facetClicker}
-                      />
-                      <b>{facet.title}</b>
-                    </Label>
-                    <ul style={listStyles}>
-                      {
-                        facet.boundaries.features.filter(
-                          (value, index) => 
-                            index < showMoreCount ||
-                              facet.boundaries.features.length <= showAllCount ||
-                              showMoreList[facet.title]
-                        ).map(
-                          (feature) => {
-                            const key = facet.key + '_' + feature.properties[facet.nameAttribute];
-                            return (
-                              <Label key={key} >
-                                <Checkbox 
-                                    data-key={key}
-                                    checked={itemsSelected[key]}
-                                    onClick={facetItemClicker} 
-                                />
-                                {feature.properties[facet.nameAttribute]}
-                              </Label>
-                            )
-                          }
-                        )
-                      }
-                      {
-                        facet.boundaries && 
-                        facet.boundaries.features.length > showAllCount &&
-                        !showMoreList[facet.title] && (
-                        <li key='showMore'>
-                            <a href="#" onClick={() => showMore(facet.title)}>
-                              Show More
-                            </a>
-                          </li>
-                        )
-                      }
-                    </ul>
-                  </li>
-                )
+            layers.map(
+              (facet) => (
+                <li key={facet.key} style={listItemStyles}>
+                  <Label>
+                    <Checkbox 
+                      data-facetname={facet.name}
+                      checked={!!facets[facet.name].visible}
+                      key={facet.key}
+                      onChange={facetClicker}
+                    />
+                    <b>{facet.name}</b>
+                  </Label>
+                  <ul style={listStyles}>
+                    {
+                      facet.geojson.features.filter(
+                        (value, index) => 
+                          index < showMoreCount ||
+                            facet.geojson.features.length <= showAllCount ||
+                            facets[facet.name].showMore
+                      ).map(
+                        (feature, index) => {
+                          const facetValue = feature.properties[facet.nameAttribute];
+                          return (
+                            <Label key={index} >
+                              <Checkbox 
+                                  data-facetname={facet.name}
+                                  data-facetvalue={facetValue}
+                                  key={facet.key + ' ' + index}
+                                  checked={facet.values[facetValue].selected}
+                                  onChange={facetItemClicker} 
+                              />
+                              {facetValue}
+                            </Label>
+                          )
+                        }
+                      )
+                    }
+                    {
+                      facet.geojson.features.length > showAllCount && (
+                      <li key='showMore'>
+                          <a href="#" onClick={() => showMore(facet.name)}>
+                            Show More
+                          </a>
+                        </li>
+                      )
+                    }
+                  </ul>
+                </li>
+              )
             )
           }
         </ul>
@@ -341,7 +376,11 @@ console.log('including ' + json.facet.title);
         </MapContainer>
       </main>
     </Grid>
-  )
+  );
+
+  console.timeEnd("render");
+  
+  return result;
 }
 
 export default IndexPage
