@@ -12,6 +12,8 @@ import { Checkbox, Grid, Label, Link, Button } from "theme-ui";
 import { cloneDeep } from "lodash";
 import Papa from "papaparse";
 
+import { schemeTableau10 } from 'd3-scale-chromatic';
+
 const position = [40.1546, -75.2216];
 const zoom = 12;
 
@@ -170,18 +172,25 @@ const sourceData = [
   */
 ];
 
+
 let stories = [
   {
     name: 'Stories 1',
     key: '1',
     loaded: false,
     source: '/static/points.csv',
-    description: 'Demo'
+    description: 'Demo',
+    cardinalityType: 'categorical',
+    categoryVariable: 'name'
   }
 ];
 
 stories.map(
   (story) => {
+    const categoricalColors = {};
+    const colorScheme = schemeTableau10;
+    const maxColor = colorScheme.length;
+
     Papa.parse(story.source, {
       download: true,
       header: true,
@@ -199,6 +208,22 @@ stories.map(
 
             if (record.certainty) {
               record.certainty = parseInt(record.certainty);
+            }
+
+            const categoricalValue = record[story.categoryVariable];
+            if (categoricalColors[categoricalValue]) {
+              record.categoricalColor = categoricalColors[categoricalValue];
+            } else {
+              if (Object.keys(categoricalColors) >= maxColor) {
+                throw 'Only 10 colors available'
+              }
+  
+              const colorIndex = Object.keys(categoricalColors).length;
+              const color = colorScheme[colorIndex];
+
+              categoricalColors[categoricalValue] = color;
+
+              record.categoricalColor = color;
             }
 
             return record;
@@ -282,8 +307,7 @@ const IndexPage = () => {
                     feature => {
                       const facetValue = feature.properties[facet.nameAttribute];
 
-                      let facetValueChecked = 
-                        stories.filter(
+                      const selectedFacetFromStory = stories.filter(
                           (story) => story.loaded
                         ).flatMap(
                           (story) => story.data
@@ -293,10 +317,20 @@ const IndexPage = () => {
                           (story) => 
                             story.facet === facet.name &&
                             story.facetvalue === facetValue
-                        ).length > 0;
+                        );
+
+                      let facetValueChecked = selectedFacetFromStory.length > 0;
+
+                      let categoricalColor = 'blue';
+                      if (selectedFacetFromStory.length > 0) {
+                        if (!!selectedFacetFromStory[0].categoricalColor) {
+                          categoricalColor = selectedFacetFromStory[0].categoricalColor;
+                        }
+                      }
 
                       initialFacetData[facet.name].values[facetValue] = {
-                        selected: facetValueChecked
+                        selected: facetValueChecked,
+                        categoricalColor: categoricalColor
                       }
                     }
                   )
@@ -370,6 +404,15 @@ const IndexPage = () => {
 
               return facets[layer.name].values[facetValue].selected;
             }}
+            style={
+              (reference) => {
+                const facetName = layer.name;
+                const facetValue = reference.properties[layer.nameAttribute];
+                return {
+                  color: facets[facetName].values[facetValue].categoricalColor || 'blue'
+                }
+              }
+            }
             data={layer.geojson} />
         );
       }
@@ -396,7 +439,7 @@ const IndexPage = () => {
             results.push((
               <Circle 
                 center={[record.lat, record.lng]} 
-                pathOptions={{ fillColor: 'blue' }} 
+                pathOptions={{ fillColor: record.categoricalColor || 'blue' }} 
                 radius={100 * record.certainty} />
             ));
           }

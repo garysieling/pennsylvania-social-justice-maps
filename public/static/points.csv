@@ -1,8 +1,8 @@
 name,lat,lng,certainty,facet,facetvalue
-Person 1,40.1540, -75.2213,1
-Person 2,40.1543, -75.2216,2
-Person 3,40.1549, -75.2219,3
-Person 4,,,,Police Departments,Springfield Township Police Department
-Person 5,,,,Magesterial Courts,1938-01-01
-Person 6,,,,ZCTA (2019),19002
-Person 7,,,,Municipalities,Ambler
+Person 1,40.1540, -75.2213,1,,
+Person 2,40.1543, -75.2216,2,,
+Person 3,40.1549, -75.2219,3,,
+Person 4,,,,Police Departments,Springfield Township Police Department,
+Person 5,,,,Magesterial Courts,1938-01-01,
+Person 6,,,,ZCTA (2019),19002,
+Person 7,,,,Municipalities,Ambler,
