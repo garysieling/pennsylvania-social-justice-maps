@@ -180,7 +180,6 @@ let stories = [
   }
 ];
 
-
 stories.map(
   (story) => {
     Papa.parse(story.source, {
@@ -216,13 +215,20 @@ stories.map(
 let firstLoad = true;
 
 // TODO React Router
-// TODO Color coding
+// TODO Color coding for intensity
 // TODO hover text for additional data about a place
 // TODO Stories
-    // Pins
-    // Sequence of checked things
-    // Spider chart
-    // A chart showing locations vs certainty
+    // Spider chart (a graph)
+    // Add real data for certainty of the one issue
+    // Add real data to show how some things relate
+
+// "Stories"
+  // List of police depts/chiefs that signed on w/ NAACP
+  // List of police depts implicated by the earlier discussions
+  // Link Zion vs people
+  // List of people i've heard from vs. certainty
+  // BMC group
+
 
 let cacheBuster = 0;
 const showMoreCount = 5;
@@ -249,10 +255,23 @@ const IndexPage = () => {
                   const geojson = JSON.parse(jsonText);
                   facet.loaded = true;
 
+                  // story selects facet
+                  let facetLayerVisible = 
+                    stories.filter(
+                      (story) => story.loaded
+                    ).flatMap(
+                      (story) => story.data
+                    ).filter(
+                      (story) => story.facet && story.facetvalue
+                    ).filter(
+                      (story) => 
+                        story.facet === facet.name
+                    ).length > 0;
+
                   initialFacetData[facet.name] = {
                     'name': facet.name,
                     'key': facet.key,
-                    'visible': false,
+                    'visible': facetLayerVisible,
                     'showMore': false,
                     'geojson': geojson,
                     'nameAttribute': facet.nameAttribute,
@@ -263,8 +282,21 @@ const IndexPage = () => {
                     feature => {
                       const facetValue = feature.properties[facet.nameAttribute];
 
+                      let facetValueChecked = 
+                        stories.filter(
+                          (story) => story.loaded
+                        ).flatMap(
+                          (story) => story.data
+                        ).filter(
+                          (story) => story.facet && story.facetvalue
+                        ).filter(
+                          (story) => 
+                            story.facet === facet.name &&
+                            story.facetvalue === facetValue
+                        ).length > 0;
+
                       initialFacetData[facet.name].values[facetValue] = {
-                        selected: false
+                        selected: facetValueChecked
                       }
                     }
                   )
