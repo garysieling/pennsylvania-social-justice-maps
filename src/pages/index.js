@@ -185,6 +185,15 @@ let stories = [
   }
 ];
 
+// TODO ability to switch through "stories"
+// TODO ability to have range color schemes
+// TODO ability to have sequential color schemas
+// TODO more than the tableau color scheme (to override and make it look better)
+// TODO more contrast between the map and the color scheme 
+// TODO overlay description for the whole story
+// TODO overlay description for each segment of the story
+// TODO real data
+
 stories.map(
   (story) => {
     const categoricalColors = {};
