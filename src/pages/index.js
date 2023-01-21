@@ -5,7 +5,9 @@ import {
   Marker, 
   Popup, 
   GeoJSON,
-  Circle
+  Circle,
+  Polygon,
+  Polyline
 } from "react-leaflet";
 import hash from "object-hash";
 import { Checkbox, Grid, Label, Link, Button } from "theme-ui";
@@ -107,6 +109,8 @@ const links = [
 ]
 
 let j = 0;
+let trim = (value) => value.trim();
+
 
 const sourceData = [
   {
@@ -115,49 +119,77 @@ const sourceData = [
     loaded: false,
     source: '/static/Montgomery_County_Boundary.geojson',
     nameAttribute: 'Name',
-    whereObtained: 'Montgomery County Public Datasets'
+    whereObtained: 'Montgomery County Public Datasets',
+    nameProcessor: trim
   },
   {
-    name: 'ZCTA (2019)',
+    name: 'Zip',
     key: '2',
     loaded: false,
     source: '/static/montco_zcta5.geojson',
     nameAttribute: 'ZCTA5CE10',
     // https://www.zillow.com/browse/homes/pa/montgomery-county/
-    whereObtained: 'Converted from https://www2.census.gov/geo/tiger/TIGER2019/ZCTA5/'
+    whereObtained: 'Converted from https://www2.census.gov/geo/tiger/TIGER2019/ZCTA5/',
+    nameProcessor: trim
   },
   {
-    name: 'Municipalities',
+    name: 'Municipality',
     key: '3',
     loaded: false,
     source: '/static/Montgomery_County_Municipal_Boundaries.geojson',
     nameAttribute: 'Name',
-    whereObtained: 'Montgomery County Public Datasets'
+    whereObtained: 'Montgomery County Public Datasets',
+    nameProcessor: trim
   },
   {
-    name: 'School Districts',
+    name: 'School District',
     key: '4',
     loaded: false,
     source: '/static/Montgomery_County_School_Districts.geojson',
     nameAttribute: 'Name',
-    whereObtained: 'Montgomery County Public Datasets'
+    whereObtained: 'Montgomery County Public Datasets',
+    nameProcessor: trim
   },
   {
-    name: 'Police Departments',
+    name: 'Police Department',
     key: '5',
     loaded: false,
     source: '/static/Montgomery_County_Police_Districts.geojson',
     nameAttribute: 'Name',
-    whereObtained: 'Montgomery County Public Datasets'
+    whereObtained: 'Montgomery County Public Datasets',
+    nameProcessor: (name) => {
+      return name
+        .replace("Police Department", "")
+        .replace("Township", "")
+        .trim();
+    },
+    attributeSource: '/static/police/data.csv',
+    attributeSourceKey: 'Location',
+    attributeNumericAttributes: [
+      'Full Time Civilians',
+      'Full Time Sworn Officers',
+      'Part Time Civilians',
+      'Part Time Sworn Officers'
+    ],
+    attributesToDisplay: [
+      'Chief Name',
+      'Last Update',
+      'Pennsylvania Chief of Police Association Accreditation',
+      'Full Time Civilians',
+      'Full Time Sworn Officers',
+      'Part Time Civilians',
+      'Part Time Sworn Officers'
+    ]
   },
   {
-    name: 'Magesterial Courts',
+    name: 'Magesterial Court District',
     key: '6',
     loaded: false,
     source: '/static/Montgomery_County_Magisterial_Districts.geojson',
     nameAttribute: 'District',
     whereObtained: 'Montgomery County Public Datasets',
-    citation: 'https://data-montcopa.opendata.arcgis.com/datasets/ea654fc7b22f4039a8c3e1e85bcf868f_0/explore?location=40.210302%2C-75.353586%2C10.69'
+    citation: 'https://data-montcopa.opendata.arcgis.com/datasets/ea654fc7b22f4039a8c3e1e85bcf868f_0/explore?location=40.210302%2C-75.353586%2C10.69',
+    nameProcessor: trim
   },
   /*{
     // TODO what is this for?
@@ -165,7 +197,8 @@ const sourceData = [
     key: 7,
     loaded: false,
     source: '/static/Montgomery_County_-_JPO_Districts.geojson',
-    nameAttribute: 'Name'
+    nameAttribute: 'Name',
+    nameProcessor: trim
   }*/
   /*
     TODO legislative districts
@@ -193,6 +226,37 @@ let stories = [
 // TODO overlay description for the whole story
 // TODO overlay description for each segment of the story
 // TODO real data
+
+// TODO a feature to select all overlapping items between the different levels of government
+
+sourceData.filter(
+  (recordType) => !!recordType.attributeSource
+).map(
+  (recordType) => {
+    Papa.parse(recordType.attributeSource, {
+      download: true,
+      header: true,
+      skipEmptyLines: true,
+      complete: function(results, file) {
+        recordType.attributes = {};
+        
+        results.data.map(
+          (row) => {
+            (recordType.attributeNumericAttributes || []).map(
+              (attribute) => {
+                row[attribute] = parseFloat(row[attribute]) || 0;
+              }
+            )
+
+            recordType.attributes[row[recordType.attributeSourceKey]] = row;
+          }
+        )
+
+        console.log('records', recordType.attributes);
+      }
+    });
+  }
+)
 
 stories.map(
   (story) => {
@@ -287,6 +351,15 @@ const IndexPage = () => {
                 .then(res => res.text())
                 .then(jsonText => {
                   const geojson = JSON.parse(jsonText);
+
+                  geojson.features.map(
+                    (value) => {
+                      value.properties[facet.nameAttribute] = facet.nameProcessor(
+                        value.properties[facet.nameAttribute]
+                      );
+                    }
+                  );
+
                   facet.loaded = true;
 
                   // story selects facet
@@ -302,15 +375,14 @@ const IndexPage = () => {
                         story.facet === facet.name
                     ).length > 0;
 
-                  initialFacetData[facet.name] = {
-                    'name': facet.name,
-                    'key': facet.key,
-                    'visible': facetLayerVisible,
-                    'showMore': false,
-                    'geojson': geojson,
-                    'nameAttribute': facet.nameAttribute,
-                    'values': {}
-                  };
+                  initialFacetData[facet.name] = Object.assign(
+                    facet, {
+                      'visible': facetLayerVisible,
+                      'showMore': false,
+                      'geojson': geojson,
+                      'values': {}
+                    }
+                  );
 
                   geojson.features.map(
                     feature => {
@@ -355,7 +427,6 @@ const IndexPage = () => {
   )
 
   const showMore = (facetName) => {
-    console.log('clicked showmore ', facetName);
     const newFacets = cloneDeep(facets);
     newFacets[facetName].showMore = true;
 
@@ -405,6 +476,46 @@ const IndexPage = () => {
       (layer) => layer.visible
     ).map(
       (layer) => {
+        const limeOptions = { color: 'lime' }
+
+        // layer.features.map
+        //layer.geojson.features[0].geometry
+        /*return layer.geojson.features.filter(
+          (segment, index) => {
+            const facetValue = segment.properties[layer.nameAttribute];
+
+            return facets[layer.name].values[facetValue].selected;
+          }
+        ).map(
+          ({geometry, properties}, i) => {
+            const facetName = layer.name;
+            const facetValue = properties[layer.nameAttribute];
+            const styleOptions = {
+              color: facets[facetName].values[facetValue].categoricalColor || 'blue'
+            }
+
+            if (geometry.type === 'Polygon') {
+              debugger;
+              return (
+                <Polygon pathOptions={styleOptions} positions={geometry.coordinates[0]} key={i}>
+                  <Popup>
+                    {JSON.stringify(properties)}
+                  </Popup>
+                </Polygon>
+              );
+            } else {
+              debugger;
+              return (
+                <Polyline pathOptions={styleOptions} positions={geometry.coordinates} key={i}>
+                  <Popup>
+                    {JSON.stringify(properties)}
+                  </Popup>
+                </Polyline>
+              );
+            }
+            
+          });*/
+
         return (
           <GeoJSON
             key={layer.name + (cacheBuster++)}
@@ -412,6 +523,28 @@ const IndexPage = () => {
               const facetValue = segment.properties[layer.nameAttribute];
 
               return facets[layer.name].values[facetValue].selected;
+            }}
+            onEachFeature={(feature, leafletLayer) => {
+                const popupOptions = {
+                    minWidth: 100,
+                    maxWidth: 250,
+                    className: "popup-classname"
+                };
+      
+                leafletLayer.bindPopup(()=>{
+                  const clickedItemName = feature.properties[layer.nameAttribute];
+                  let tooltipContents = '<b>' + layer.name + '</b>: ' + clickedItemName + '<br />';
+                 
+                  if (layer.attributesToDisplay) {
+                    const theseAttributes = layer.attributes[clickedItemName];
+                    layer.attributesToDisplay.map(
+                      (attr) => {
+                        tooltipContents += '<b>' + attr + '</b>: ' + layer.attributes[clickedItemName][attr] + '<br />';
+                      }
+                    );
+                  }
+                  return tooltipContents || '';
+                }, popupOptions);
             }}
             style={
               (reference) => {
@@ -504,7 +637,9 @@ const IndexPage = () => {
                       )
                     }
                     {
-                      facet.geojson.features.length > showAllCount && (
+                      facet.geojson.features.length > showAllCount &&
+                      !facets[facet.name].showMore &&
+                      (
                       <li key='showMore'>
                           <a href="#" onClick={() => showMore(facet.name)}>
                             Show More
