@@ -539,7 +539,13 @@ const IndexPage = () => {
                     const theseAttributes = layer.attributes[clickedItemName];
                     layer.attributesToDisplay.map(
                       (attr) => {
-                        tooltipContents += '<b>' + attr + '</b>: ' + layer.attributes[clickedItemName][attr] + '<br />';
+                        const attributesForSelected = layer.attributes[clickedItemName];
+                        if (attributesForSelected === undefined) {
+                          return 'Unlinked Data - ???';
+                        }
+
+                        const attributeValue = attributesForSelected[attr];
+                        tooltipContents += '<b>' + attr + '</b>: ' + attributeValue + '<br />';
                       }
                     );
                   }
