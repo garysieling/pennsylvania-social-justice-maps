@@ -10,7 +10,23 @@ import {
   Polyline
 } from "react-leaflet";
 import hash from "object-hash";
-import { Checkbox, Grid, Label, Link, Button } from "theme-ui";
+import { 
+  Checkbox, 
+  Grid, 
+  Label, 
+  Link, 
+  Button,
+  IconButton,
+  MenuButton,
+  Progress,
+  Radio,
+  Select,
+  Option,
+  Slider,
+  Spinner,
+  Switch
+} from "theme-ui";
+
 import { cloneDeep } from "lodash";
 import Papa from "papaparse";
 
@@ -208,6 +224,13 @@ const sourceData = [
 
 let stories = [
   {
+    name: 'N/A',
+    key: '0',
+    loaded: true,
+    description: 'N/A',
+    data: []
+  },
+  {
     name: 'Stories 1',
     key: '1',
     loaded: false,
@@ -258,7 +281,10 @@ sourceData.filter(
   }
 )
 
-stories.map(
+// hide for now
+stories.filter(
+  () => false
+).map(
   (story) => {
     const categoricalColors = {};
     const colorScheme = schemeTableau10;
@@ -327,10 +353,91 @@ let firstLoad = true;
   // List of people i've heard from vs. certainty
   // BMC group
 
+// TODO naacp chapters
 
 let cacheBuster = 0;
 const showMoreCount = 5;
 const showAllCount = showMoreCount + 3;
+
+const RenderingEditor = ({layers, facets}) => {
+  const [selectedFacet, selectFacet] = React.useState({});
+  const [selectedAttribute, selectAttribute] = React.useState({});
+  const [attributeType, selectAttributeType] = React.useState({});
+
+  if (selectAttribute) {
+    console.log(selectAttribute);
+  }
+
+  let attributes = [];
+
+  if (facets[selectedFacet]) {
+    attributes = facets[selectedFacet].attributesToDisplay || [];
+  }
+
+  return (
+    <div>
+      <Label>Facet: </Label>
+      <Select 
+        onChange={(e) => {
+          selectFacet(e.target.value);
+        }}>
+        <option key={-1}>N/A</option>
+        {layers.map(
+          (facet, i) => 
+            <option key={i}>{facet.name}</option>
+        )}
+      </Select>
+      <Label>Attribute: </Label>
+      <Select 
+        onChange={(e) => {
+          selectAttribute(e.target.value);
+        }}>
+        <option key={-1}>N/A</option>
+        {attributes.map(
+          (attribute, i) => 
+            <option key={i}>{attribute}</option>
+        )}
+      </Select>
+      <Label>Type: </Label>
+      <Select
+        onChange={(e) => {
+          selectAttributeType(e.target.value);
+        }}>
+        <option>
+          Categorical
+        </option>
+        <option>
+          Ordered
+        </option>
+        <option>
+          Diverging
+        </option>
+      </Select>
+    </div>
+  );
+}
+
+
+const StoryPicker = (props) => {
+  return (
+    <div>
+      Story
+      <Select>
+        {
+          stories.map(
+            (story) => {
+              return (
+                <option>
+                  {story.name}
+                </option>
+              );
+            }
+          )
+        }
+      </Select>
+    </div>
+  )
+}
 
 const IndexPage = () => {
   //const [boundaries, addBoundary] = React.useState([]);
@@ -616,6 +723,8 @@ const IndexPage = () => {
                       onChange={facetClicker}
                     />
                     <b>{facet.name}</b>
+
+                    
                   </Label>
                   <ul style={listStyles}>
                     {
@@ -661,10 +770,10 @@ const IndexPage = () => {
         </ul>
       </aside>
       <main style={pageStyles}>
-        <h1 style={headingStyles}>
-          Map
-        </h1>
-        
+        <div>
+          <StoryPicker selected={'Police'} />
+          <RenderingEditor layers={layers} facets={facets} />
+        </div>
         <MapContainer style={{ height: '600px' }} center={position} zoom={zoom} scrollWheelZoom={true}>
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
