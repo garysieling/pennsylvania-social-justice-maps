@@ -359,10 +359,9 @@ let cacheBuster = 0;
 const showMoreCount = 5;
 const showAllCount = showMoreCount + 3;
 
-const RenderingEditor = ({layers, facets}) => {
+const RenderingEditor = ({layers, facets, setColoration}) => {  
   const [selectedFacet, selectFacet] = React.useState({});
   const [selectedAttribute, selectAttribute] = React.useState({});
-  const [attributeType, selectAttributeType] = React.useState({});
 
   if (selectAttribute) {
     console.log(selectAttribute);
@@ -373,6 +372,8 @@ const RenderingEditor = ({layers, facets}) => {
   if (facets[selectedFacet]) {
     attributes = facets[selectedFacet].attributesToDisplay || [];
   }
+
+
 
   return (
     <div>
@@ -401,8 +402,15 @@ const RenderingEditor = ({layers, facets}) => {
       <Label>Type: </Label>
       <Select
         onChange={(e) => {
-          selectAttributeType(e.target.value);
+          setColoration({
+            facet: selectedFacet, 
+            attribute: selectedAttribute, 
+            categoryType: e.target.value
+          });
         }}>
+        <option>
+          N/A
+        </option>
         <option>
           Categorical
         </option>
@@ -445,6 +453,51 @@ const IndexPage = () => {
   //const [facetsSelected, selectFacet] = React.useState({});
   //const [itemsSelected, selectItem] = React.useState({});
   //const [showMoreList, updateShowMore] = React.useState({});
+
+  const [coloration, setColorStrategy] = React.useState({});
+
+  function setColoration({facet, attribute, categoryType}) {
+    if (!facet || !attribute || !categoryType) {
+      // clear all colors
+      debugger;
+      Object.keys(facets[facet].values).map(
+        (value) => {
+          delete facets[facet].values[value].categoricalColor;
+        }
+      );
+
+      updateFacets(facets);
+    } else if (categoryType === 'Categorical') {
+      const colorScheme = schemeTableau10;
+      const maxColor = colorScheme.length;
+      const categoricalColors = {};
+
+      Object.keys(facets[facet].values).map(
+        (facetValue) => {
+          const record = facets[facet].values[facetValue];
+
+          const categoricalValue = (facets[facet].attributes[facetValue] || {})[attribute] || '';
+          if (categoricalColors[categoricalValue]) {
+            record.categoricalColor = categoricalColors[categoricalValue];
+          } else {
+            const colorIndex = Object.keys(categoricalColors).length;
+            const color = colorScheme[colorIndex % maxColor];
+  
+            categoricalColors[categoricalValue] = color;
+  
+            record.categoricalColor = color;
+          }
+        });
+
+        updateFacets(facets);
+    } else if (categoryType === 'Ordered') {
+      
+    } else if (categoryType === 'Diverging') {
+
+    }
+
+    setColorStrategy({facet, attribute, categoryType});
+  }
 
   React.useEffect(
     () => {
@@ -663,9 +716,13 @@ const IndexPage = () => {
               (reference) => {
                 const facetName = layer.name;
                 const facetValue = reference.properties[layer.nameAttribute];
+
+                const colorFromFacet = facets[facetName].values[facetValue].categoricalColor;
+                const defaultColor = 'blue';
+                
                 return {
-                  color: facets[facetName].values[facetValue].categoricalColor || 'blue'
-                }
+                  color: colorFromFacet || defaultColor
+                };
               }
             }
             data={layer.geojson} />
@@ -772,7 +829,7 @@ const IndexPage = () => {
       <main style={pageStyles}>
         <div>
           <StoryPicker selected={'Police'} />
-          <RenderingEditor layers={layers} facets={facets} />
+          <RenderingEditor layers={layers} facets={facets} setColoration={setColoration}/>
         </div>
         <MapContainer style={{ height: '600px' }} center={position} zoom={zoom} scrollWheelZoom={true}>
           <TileLayer
