@@ -30,7 +30,18 @@ import {
 import { cloneDeep } from "lodash";
 import Papa from "papaparse";
 
-import { schemeTableau10 as categoricalColorScheme } from 'd3-scale-chromatic';
+import { 
+  schemeTableau10 as tileRenderColorScheme,
+  interpolateSpectral,
+  interpolateRdGy,
+  interpolateRdBu,
+  interpolatePuOr,
+  interpolateReds,
+  interpolateTurbo,
+  interpolateGreens,
+  interpolatePlasma,
+  interpolateBlues
+} from 'd3-scale-chromatic';
 
 const position = [40.1546, -75.2216];
 const zoom = 12;
@@ -179,16 +190,18 @@ const sourceData = [
         .replace("Township", "")
         .trim();
     },
-    attributeSource: '/static/police/data.csv',
+    attributeSource: '/static/police/data.tsv',
     attributeSourceKey: 'Location',
     attributeCategoryTypes: {
       'Pennsylvania Chief of Police Association Accreditation': 'Categorical',
+      'Total Employees': 'Ordered',
       'Full Time Civilians': 'Ordered',
       'Full Time Sworn Officers': 'Ordered',
       'Part Time Civilians': 'Ordered',
       'Part Time Sworn Officers': 'Ordered',
     },
     attributeNumericAttributes: [
+      'Total Employees',
       'Full Time Civilians',
       'Full Time Sworn Officers',
       'Part Time Civilians',
@@ -197,6 +210,7 @@ const sourceData = [
     attributesToDisplay: [
       'Chief Name',
       'Last Update',
+      'Total Employees',
       'Pennsylvania Chief of Police Association Accreditation',
       'Full Time Civilians',
       'Full Time Sworn Officers',
@@ -264,6 +278,7 @@ sourceData.filter(
       download: true,
       header: true,
       skipEmptyLines: true,
+
       complete: function(results, file) {
         recordType.attributes = {};
         
@@ -290,8 +305,8 @@ stories.filter(
   () => false
 ).map(
   (story) => {
-    const categoricalColors = {};
-    const colorScheme = categoricalColorScheme;
+    const tileRenderColors = {};
+    const colorScheme = tileRenderColorScheme;
     const maxColor = colorScheme.length;
 
     Papa.parse(story.source, {
@@ -314,19 +329,19 @@ stories.filter(
             }
 
             const categoricalValue = record[story.categoryVariable];
-            if (categoricalColors[categoricalValue]) {
-              record.categoricalColor = categoricalColors[categoricalValue];
+            if (tileRenderColors[categoricalValue]) {
+              record.tileRenderColor = tileRenderColors[categoricalValue];
             } else {
-              if (Object.keys(categoricalColors) >= maxColor) {
+              if (Object.keys(tileRenderColors) >= maxColor) {
                 throw 'Only 10 colors available'
               }
   
-              const colorIndex = Object.keys(categoricalColors).length;
+              const colorIndex = Object.keys(tileRenderColors).length;
               const color = colorScheme[colorIndex];
 
-              categoricalColors[categoricalValue] = color;
+              tileRenderColors[categoricalValue] = color;
 
-              record.categoricalColor = color;
+              record.tileRenderColor = color;
             }
 
             return record;
@@ -449,38 +464,79 @@ const IndexPage = () => {
       // clear all colors
       Object.keys(facets[facet].values).map(
         (value) => {
-          delete facets[facet].values[value].categoricalColor;
+          delete facets[facet].values[value].tileRenderColor;
         }
       );
 
       updateFacets(facets);
     } else if (categoryType === 'Categorical') {
-      const colorScheme = categoricalColorScheme;
+      const colorScheme = tileRenderColorScheme;
       const maxColor = colorScheme.length;
-      const categoricalColors = {};
+      const tileRenderColors = {};
 
       Object.keys(facets[facet].values).map(
         (facetValue) => {
           const record = facets[facet].values[facetValue];
 
           const categoricalValue = (facets[facet].attributes[facetValue] || {})[attribute] || '';
-          if (categoricalColors[categoricalValue]) {
-            record.categoricalColor = categoricalColors[categoricalValue];
+          if (tileRenderColors[categoricalValue]) {
+            record.tileRenderColor = tileRenderColors[categoricalValue];
           } else {
-            const colorIndex = Object.keys(categoricalColors).length;
+            const colorIndex = Object.keys(tileRenderColors).length;
             const color = colorScheme[colorIndex % maxColor];
   
-            categoricalColors[categoricalValue] = color;
+            tileRenderColors[categoricalValue] = color;
   
-            record.categoricalColor = color;
+            record.tileRenderColor = color;
           }
         });
 
         updateFacets(facets);
-    } else if (categoryType === 'Ordered') {
-      
-    } else if (categoryType === 'Diverging') {
+    } else if (
+      categoryType === 'Ordered' ||
+      categoryType === 'Diverging') {
+      let min = null;
+      let max = null;
 
+      Object.keys(facets[facet].values).map(
+        (facetValue) => {
+          const value = (facets[facet].attributes[facetValue] || {})[attribute];
+          if (value) {
+            if (min == null) {
+              min = value;
+            }
+
+            if (max == null) {
+              max = value;
+            }
+
+            if (value > max) { 
+              max = value;
+            }
+
+            if (value < min) {
+              min = value;
+            }
+          }
+        });
+
+      const range = max - min;
+      const colorFn = interpolatePlasma;
+     /* ,
+  interpolateRdBu,
+  interpolatePuOr,
+  interpolateReds,
+  interpolateTurbo,
+  interpolateGreens,
+  interpolateBluesU*/
+
+    Object.keys(facets[facet].values).map(
+      (facetValue) => {
+        const record = facets[facet].values[facetValue];
+
+        const value = (facets[facet].attributes[facetValue] || {})[attribute];
+        record.tileRenderColor = colorFn(1.0 * value / range)
+      });
     }
 
     setColorStrategy({facet, attribute, categoryType});
@@ -549,16 +605,16 @@ const IndexPage = () => {
 
                       let facetValueChecked = selectedFacetFromStory.length > 0;
 
-                      let categoricalColor = 'blue';
+                      let tileRenderColor = 'blue';
                       if (selectedFacetFromStory.length > 0) {
-                        if (!!selectedFacetFromStory[0].categoricalColor) {
-                          categoricalColor = selectedFacetFromStory[0].categoricalColor;
+                        if (!!selectedFacetFromStory[0].tileRenderColor) {
+                          tileRenderColor = selectedFacetFromStory[0].tileRenderColor;
                         }
                       }
 
                       initialFacetData[facet.name].values[facetValue] = {
                         selected: facetValueChecked,
-                        categoricalColor: categoricalColor
+                        tileRenderColor: tileRenderColor
                       }
                     }
                   )
@@ -638,7 +694,7 @@ const IndexPage = () => {
             const facetName = layer.name;
             const facetValue = properties[layer.nameAttribute];
             const styleOptions = {
-              color: facets[facetName].values[facetValue].categoricalColor || 'blue'
+              color: facets[facetName].values[facetValue].tileRenderColor || 'blue'
             }
 
             if (geometry.type === 'Polygon') {
@@ -704,7 +760,7 @@ const IndexPage = () => {
                 const facetName = layer.name;
                 const facetValue = reference.properties[layer.nameAttribute];
 
-                const colorFromFacet = facets[facetName].values[facetValue].categoricalColor;
+                const colorFromFacet = facets[facetName].values[facetValue].tileRenderColor;
                 const defaultColor = 'blue';
                 
                 return {
@@ -738,7 +794,7 @@ const IndexPage = () => {
             results.push((
               <Circle 
                 center={[record.lat, record.lng]} 
-                pathOptions={{ fillColor: record.categoricalColor || 'blue' }} 
+                pathOptions={{ fillColor: record.tileRenderColor || 'blue' }} 
                 radius={100 * record.certainty} />
             ));
           }
