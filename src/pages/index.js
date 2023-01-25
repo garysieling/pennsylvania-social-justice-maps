@@ -181,6 +181,13 @@ const sourceData = [
     },
     attributeSource: '/static/police/data.csv',
     attributeSourceKey: 'Location',
+    attributeCategoryTypes: {
+      'Pennsylvania Chief of Police Association Accreditation': 'Categorical',
+      'Full Time Civilians': 'Ordered',
+      'Full Time Sworn Officers': 'Ordered',
+      'Part Time Civilians': 'Ordered',
+      'Part Time Sworn Officers': 'Ordered',
+    },
     attributeNumericAttributes: [
       'Full Time Civilians',
       'Full Time Sworn Officers',
@@ -377,7 +384,7 @@ const RenderingEditor = ({layers, facets, setColoration}) => {
 
   return (
     <div>
-      <Label>Facet: </Label>
+      <Label>Coloration: </Label>
       <Select 
         onChange={(e) => {
           selectFacet(e.target.value);
@@ -390,36 +397,18 @@ const RenderingEditor = ({layers, facets, setColoration}) => {
       </Select>
       <Label>Attribute: </Label>
       <Select 
+      
         onChange={(e) => {
-          selectAttribute(e.target.value);
+          setColoration({
+            facet: selectedFacet, 
+            attribute: e.target.value
+          });
         }}>
         <option key={-1}>N/A</option>
         {attributes.map(
           (attribute, i) => 
             <option key={i}>{attribute}</option>
         )}
-      </Select>
-      <Label>Type: </Label>
-      <Select
-        onChange={(e) => {
-          setColoration({
-            facet: selectedFacet, 
-            attribute: selectedAttribute, 
-            categoryType: e.target.value
-          });
-        }}>
-        <option>
-          N/A
-        </option>
-        <option>
-          Categorical
-        </option>
-        <option>
-          Ordered
-        </option>
-        <option>
-          Diverging
-        </option>
       </Select>
     </div>
   );
@@ -456,10 +445,10 @@ const IndexPage = () => {
 
   const [coloration, setColorStrategy] = React.useState({});
 
-  function setColoration({facet, attribute, categoryType}) {
+  function setColoration({facet, attribute}) {
+    const categoryType = facets[facet].attributeCategoryTypes[attribute];
     if (!facet || !attribute || !categoryType) {
       // clear all colors
-      debugger;
       Object.keys(facets[facet].values).map(
         (value) => {
           delete facets[facet].values[value].categoricalColor;
