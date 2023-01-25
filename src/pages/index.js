@@ -30,7 +30,7 @@ import {
 import { cloneDeep } from "lodash";
 import Papa from "papaparse";
 
-import { schemeTableau10 } from 'd3-scale-chromatic';
+import { schemeTableau10 as categoricalColorScheme } from 'd3-scale-chromatic';
 
 const position = [40.1546, -75.2216];
 const zoom = 12;
@@ -294,7 +294,7 @@ stories.filter(
 ).map(
   (story) => {
     const categoricalColors = {};
-    const colorScheme = schemeTableau10;
+    const colorScheme = categoricalColorScheme;
     const maxColor = colorScheme.length;
 
     Papa.parse(story.source, {
@@ -457,7 +457,7 @@ const IndexPage = () => {
 
       updateFacets(facets);
     } else if (categoryType === 'Categorical') {
-      const colorScheme = schemeTableau10;
+      const colorScheme = categoricalColorScheme;
       const maxColor = colorScheme.length;
       const categoricalColors = {};
 
