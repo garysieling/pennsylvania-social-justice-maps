@@ -251,11 +251,8 @@ let stories = [
 // TODO ability to switch through "stories"
 // TODO ability to have range color schemes
 // TODO ability to have sequential color schemas
-// TODO more than the tableau color scheme (to override and make it look better)
-// TODO more contrast between the map and the color scheme 
 // TODO overlay description for the whole story
 // TODO overlay description for each segment of the story
-// TODO real data
 
 // TODO a feature to select all overlapping items between the different levels of government
 
@@ -347,7 +344,6 @@ let firstLoad = true;
 
 // TODO React Router
 // TODO Color coding for intensity
-// TODO hover text for additional data about a place
 // TODO Stories
     // Spider chart (a graph)
     // Add real data for certainty of the one issue
@@ -377,27 +373,33 @@ const RenderingEditor = ({layers, facets, setColoration}) => {
   let attributes = [];
 
   if (facets[selectedFacet]) {
-    attributes = facets[selectedFacet].attributesToDisplay || [];
+    attributes = Object.keys(facets[selectedFacet].attributeCategoryTypes) || [];
   }
 
+  const visibleLayers = 
+    layers.filter(
+      ({visible}) => visible
+    ).map(
+      (facet, i) => 
+        <option key={i}>{facet.name}</option>
+    );
 
+  if (visibleLayers.length === 0) {
+    return <div key="colorPicker"></div>
+  }
 
   return (
-    <div>
+    <div key="colorPicker">
       <Label>Coloration: </Label>
       <Select 
         onChange={(e) => {
           selectFacet(e.target.value);
         }}>
         <option key={-1}>N/A</option>
-        {layers.map(
-          (facet, i) => 
-            <option key={i}>{facet.name}</option>
-        )}
+        {visibleLayers}
       </Select>
       <Label>Attribute: </Label>
       <Select 
-      
         onChange={(e) => {
           setColoration({
             facet: selectedFacet, 
@@ -437,11 +439,7 @@ const StoryPicker = (props) => {
 }
 
 const IndexPage = () => {
-  //const [boundaries, addBoundary] = React.useState([]);
   const [facets, updateFacets] = React.useState({});
-  //const [facetsSelected, selectFacet] = React.useState({});
-  //const [itemsSelected, selectItem] = React.useState({});
-  //const [showMoreList, updateShowMore] = React.useState({});
 
   const [coloration, setColorStrategy] = React.useState({});
 
@@ -818,7 +816,11 @@ const IndexPage = () => {
       <main style={pageStyles}>
         <div>
           <StoryPicker selected={'Police'} />
-          <RenderingEditor layers={layers} facets={facets} setColoration={setColoration}/>
+          <RenderingEditor 
+            layers={layers} 
+            facets={facets} 
+            setColoration={setColoration}
+          />
         </div>
         <MapContainer style={{ height: '600px' }} center={position} zoom={zoom} scrollWheelZoom={true}>
           <TileLayer
