@@ -256,9 +256,19 @@ let stories = [
     key: '1',
     loaded: false,
     source: '/static/points.csv',
-    description: 'Demo',
-    cardinalityType: 'categorical',
-    categoryVariable: 'name'
+    description: 'Demo'
+  },
+  {
+    name: 'Ambler NAACP - Police Meeting',
+    key: '2',
+    loaded: false,
+    source: '/static/ambler naacp - meeting.csv'
+  },
+  {
+    name: 'Ambler NAACP - Police Memorandum',
+    key: '2',
+    loaded: false,
+    source: '/static/ambler naacp - memorandum.csv'
   }
 ];
 
@@ -302,7 +312,7 @@ sourceData.filter(
 
 // hide for now
 stories.filter(
-  () => false
+  (story) => !!story.source
 ).map(
   (story) => {
     const tileRenderColors = {};
@@ -314,7 +324,15 @@ stories.filter(
       header: true,
       skipEmptyLines: true,
       complete: function(results, file) {
-        story.data = results.data.map(
+        //const firstRow = Object.values(results[0]);
+
+        //story.description = firstRow[0];
+        //story.link = firstRow[1];
+
+        story.data = results.data.filter(
+          // first row is the description
+          (value, i) => i > 0
+        ).map(
           (record) => {
             if (record.lat) {
               record.lat = parseFloat(record.lat.trim())
@@ -364,6 +382,14 @@ let firstLoad = true;
     // Add real data for certainty of the one issue
     // Add real data to show how some things relate
 
+// A mechanism to turn a list of addresses into an anonmyized dataset
+
+// A mechanism to "join" two+ areas into one unit
+
+// A mechanism to compute the population of an area
+
+// TODO libraries / historical society
+
 // "Stories"
   // List of police depts/chiefs that signed on w/ NAACP
   // List of police depts implicated by the earlier discussions
@@ -372,6 +398,7 @@ let firstLoad = true;
   // BMC group
 
 // TODO naacp chapters
+
 
 let cacheBuster = 0;
 const showMoreCount = 5;
@@ -388,7 +415,7 @@ const RenderingEditor = ({layers, facets, setColoration}) => {
   let attributes = [];
 
   if (facets[selectedFacet]) {
-    attributes = Object.keys(facets[selectedFacet].attributeCategoryTypes) || [];
+    attributes = Object.keys(facets[selectedFacet].attributeCategoryTypes || {}) || [];
   }
 
   const visibleLayers = 
@@ -432,11 +459,11 @@ const RenderingEditor = ({layers, facets, setColoration}) => {
 }
 
 
-const StoryPicker = (props) => {
+const StoryPicker = ({onSelectStory}) => {
   return (
     <div>
-      Story
-      <Select>
+      Story:
+      <Select onChange={(e) => onSelectStory(e)}>
         {
           stories.map(
             (story) => {
@@ -455,8 +482,59 @@ const StoryPicker = (props) => {
 
 const IndexPage = () => {
   const [facets, updateFacets] = React.useState({});
-
+  const [story, selectStory] = React.useState('N/A');
   const [coloration, setColorStrategy] = React.useState({});
+
+  function onSelectStory(e) {
+    console.log('selecting story');
+    const storyName = e.target.value;
+
+    Object.keys(facets).map(
+      (facetName) => {
+        const facet = facets[facetName];
+
+        facet.geojson.features.map(
+          feature => {
+            const facetValue = feature.properties[facet.nameAttribute];
+            const selectedFacetFromStory = stories.filter(
+                (story) => story.loaded
+              ).filter(
+                (story) => story.name === storyName
+              ).flatMap(
+                (story) => story.data
+              ).filter(
+                (story) => story.facet && story.facetvalue
+              ).filter(
+                (story) => 
+                  story.facet === facet.name &&
+                  story.facetvalue === facetValue
+              );
+
+
+            let facetValueChecked = selectedFacetFromStory.length > 0;
+    
+            if (storyName === 'N/A') {
+              facetValueChecked = false;
+            }
+
+            let tileRenderColor = 'blue';
+            if (selectedFacetFromStory.length > 0) {
+              if (!!selectedFacetFromStory[0].tileRenderColor) {
+                tileRenderColor = selectedFacetFromStory[0].tileRenderColor;
+              }
+            }
+    
+            facets[facet.name].values[facetValue].selected = facetValueChecked;
+            facets[facet.name].values[facetValue].tileRenderColor = tileRenderColor;
+          }
+        );
+      }
+    );
+    
+    console.log('refreshing');
+    selectStory(storyName);
+    updateFacets(facets);
+  }
 
   function setColoration({facet, attribute}) {
     const categoryType = facets[facet].attributeCategoryTypes[attribute];
@@ -591,29 +669,10 @@ const IndexPage = () => {
                     feature => {
                       const facetValue = feature.properties[facet.nameAttribute];
 
-                      const selectedFacetFromStory = stories.filter(
-                          (story) => story.loaded
-                        ).flatMap(
-                          (story) => story.data
-                        ).filter(
-                          (story) => story.facet && story.facetvalue
-                        ).filter(
-                          (story) => 
-                            story.facet === facet.name &&
-                            story.facetvalue === facetValue
-                        );
-
-                      let facetValueChecked = selectedFacetFromStory.length > 0;
-
                       let tileRenderColor = 'blue';
-                      if (selectedFacetFromStory.length > 0) {
-                        if (!!selectedFacetFromStory[0].tileRenderColor) {
-                          tileRenderColor = selectedFacetFromStory[0].tileRenderColor;
-                        }
-                      }
 
                       initialFacetData[facet.name].values[facetValue] = {
-                        selected: facetValueChecked,
+                        selected: false,
                         tileRenderColor: tileRenderColor
                       }
                     }
@@ -679,46 +738,6 @@ const IndexPage = () => {
       (layer) => layer.visible
     ).map(
       (layer) => {
-        const limeOptions = { color: 'lime' }
-
-        // layer.features.map
-        //layer.geojson.features[0].geometry
-        /*return layer.geojson.features.filter(
-          (segment, index) => {
-            const facetValue = segment.properties[layer.nameAttribute];
-
-            return facets[layer.name].values[facetValue].selected;
-          }
-        ).map(
-          ({geometry, properties}, i) => {
-            const facetName = layer.name;
-            const facetValue = properties[layer.nameAttribute];
-            const styleOptions = {
-              color: facets[facetName].values[facetValue].tileRenderColor || 'blue'
-            }
-
-            if (geometry.type === 'Polygon') {
-              debugger;
-              return (
-                <Polygon pathOptions={styleOptions} positions={geometry.coordinates[0]} key={i}>
-                  <Popup>
-                    {JSON.stringify(properties)}
-                  </Popup>
-                </Polygon>
-              );
-            } else {
-              debugger;
-              return (
-                <Polyline pathOptions={styleOptions} positions={geometry.coordinates} key={i}>
-                  <Popup>
-                    {JSON.stringify(properties)}
-                  </Popup>
-                </Polyline>
-              );
-            }
-            
-          });*/
-
         return (
           <GeoJSON
             key={layer.name + (cacheBuster++)}
@@ -777,10 +796,12 @@ const IndexPage = () => {
   console.timeEnd("render");
 
   const markers = stories.filter(
-    (story) => story.loaded
+    (story) => story.selected
   ).flatMap(
     (story, storyIndex) =>
-      story.data.flatMap(
+      story.data.filter(
+        (record) => record.lat && record.lng
+      ).flatMap(
         (record, recordIndex) => {
           const results = [(
             <Marker position={[record.lat, record.lng]} key={storyIndex + '-' + recordIndex}>
@@ -871,7 +892,7 @@ const IndexPage = () => {
       </aside>
       <main style={pageStyles}>
         <div>
-          <StoryPicker selected={'Police'} />
+          <StoryPicker onSelectStory={onSelectStory} />
           <RenderingEditor 
             layers={layers} 
             facets={facets} 
