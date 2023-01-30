@@ -249,32 +249,50 @@ let stories = [
     key: '0',
     loaded: true,
     description: 'N/A',
-    data: []
+    data: [],
+    popupFields: []
   },
   {
     name: 'Stories 1',
     key: '1',
     loaded: false,
     source: '/static/points.csv',
-    description: 'Demo'
+    description: 'Demo',
+    popupFields: []
   },
   {
     name: 'Ambler NAACP - Police Meeting',
     key: '2',
     loaded: false,
-    source: '/static/ambler naacp - meeting.csv'
+    source: '/static/ambler naacp - meeting.csv',
+    popupFields: []
   },
   {
     name: 'Ambler NAACP - Police Memorandum',
     key: '2',
     loaded: false,
-    source: '/static/ambler naacp - memorandum.csv'
+    source: '/static/ambler naacp - memorandum.csv',
+    popupFields: []
+  }, 
+  {
+    name: 'My research',
+    key: '3',
+    categoryVariable: 'Characterization',
+    loaded: false,
+    source: '/static/private_ethnography.csv',
+    fuzzyLocations: true,
+    popupFields: [
+      'Speaker Race',
+      'Inferred Target',
+      'Institution', 
+      'Description',
+      'When Heard',
+      'When Occurred',
+      'Location Reference'
+    ]
   }
 ];
 
-// TODO ability to switch through "stories"
-// TODO ability to have range color schemes
-// TODO ability to have sequential color schemas
 // TODO overlay description for the whole story
 // TODO overlay description for each segment of the story
 
@@ -334,12 +352,18 @@ stories.filter(
           (value, i) => i > 0
         ).map(
           (record) => {
-            if (record.lat) {
-              record.lat = parseFloat(record.lat.trim())
+            if (record.latitude) {
+              record.latitude = parseFloat(record.latitude.trim());
+
+              if (story.fuzzyLocations) {
+                record.latitude = record.latitude + (Math.random() - 0.5) / 100.0;
+              }
             }
 
-            if (record.lng) {
-              record.lng = parseFloat(record.lng.trim())
+            if (record.longitude) {
+              record.longitude = parseFloat(record.longitude.trim());
+
+              record.longitude = record.longitude + (Math.random() - 0.5) / 100.0;
             }
 
             if (record.certainty) {
@@ -365,9 +389,10 @@ stories.filter(
             return record;
           }
         )
+
         story.loaded = true;
 
-        console.log(stories);
+        console.log('story ' + story.source, story);
       }
     });
   }
@@ -376,11 +401,8 @@ stories.filter(
 let firstLoad = true;
 
 // TODO React Router
-// TODO Color coding for intensity
 // TODO Stories
     // Spider chart (a graph)
-    // Add real data for certainty of the one issue
-    // Add real data to show how some things relate
 
 // A mechanism to turn a list of addresses into an anonmyized dataset
 
@@ -391,10 +413,7 @@ let firstLoad = true;
 // TODO libraries / historical society
 
 // "Stories"
-  // List of police depts/chiefs that signed on w/ NAACP
-  // List of police depts implicated by the earlier discussions
   // Link Zion vs people
-  // List of people i've heard from vs. certainty
   // BMC group
 
 // TODO naacp chapters
@@ -489,6 +508,13 @@ const IndexPage = () => {
     console.log('selecting story');
     const storyName = e.target.value;
 
+    // re-rendering not a side effect of this, of something later
+    stories.map(
+      (story) => {
+        story.selected = story.name === storyName
+      }
+    )
+  
     Object.keys(facets).map(
       (facetName) => {
         const facet = facets[facetName];
@@ -795,18 +821,28 @@ const IndexPage = () => {
 
   console.timeEnd("render");
 
+  console.log('stories', stories);
   const markers = stories.filter(
     (story) => story.selected
   ).flatMap(
     (story, storyIndex) =>
       story.data.filter(
-        (record) => record.lat && record.lng
+        (record) => record.latitude && record.longitude
       ).flatMap(
         (record, recordIndex) => {
+          let popupContents = 
+            story.popupFields.map(
+              (field) => 
+                <p>
+                  <b>{field}:</b> {record[field]}
+                </p>
+            );
+
+
           const results = [(
-            <Marker position={[record.lat, record.lng]} key={storyIndex + '-' + recordIndex}>
+            <Marker position={[record.latitude, record.longitude]} key={storyIndex + '-' + recordIndex}>
               <Popup>
-                {story.description + ' ' + record.name}
+                {popupContents}
               </Popup>
             </Marker>
           )];
@@ -814,9 +850,9 @@ const IndexPage = () => {
           if (record.certainty) {
             results.push((
               <Circle 
-                center={[record.lat, record.lng]} 
+                center={[record.latitude, record.longitude]} 
                 pathOptions={{ fillColor: record.tileRenderColor || 'blue' }} 
-                radius={100 * record.certainty} />
+                radius={150 * record.certainty} />
             ));
           }
 
