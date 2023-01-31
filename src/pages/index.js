@@ -240,6 +240,8 @@ const sourceData = [
   /*
     TODO legislative districts
   */
+ /* TODO Libraries */
+ /* TODO NAACPs */
 ];
 
 
@@ -295,7 +297,9 @@ let stories = [
 
 // TODO overlay description for the whole story
 // TODO overlay description for each segment of the story
-
+// TODO description of the dataset
+// TODO coloration control for the parts of a story
+// TODO facet control for parts of a story
 // TODO a feature to select all overlapping items between the different levels of government
 
 sourceData.filter(
@@ -415,6 +419,18 @@ let firstLoad = true;
 // "Stories"
   // Link Zion vs people
   // BMC group
+
+// TODO story of "previous" attempt at some discussion
+
+// TODO: something around the building of the food co-op
+
+// TODO: something around historic preservation
+
+// TODO: something around the borough hall move
+
+// TODO: something to demonstrate the school funding stuff
+
+// TODO: something about ADA compliance (sidewalks)
 
 // TODO naacp chapters
 
