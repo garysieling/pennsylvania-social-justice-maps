@@ -422,6 +422,9 @@ stories.filter(
 
 let firstLoad = true;
 
+// TODO There is some sort of major issue w/ switching between "story" mode and regular mode
+//      the colors don't reset and also the range legend doesn't work on the regular one
+
 // TODO React Router
 // TODO Stories
     // Spider chart (a graph)
