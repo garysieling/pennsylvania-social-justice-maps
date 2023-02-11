@@ -1,4 +1,5 @@
 import * as React from "react";
+
 import { 
   MapContainer, 
   TileLayer, 
@@ -9,6 +10,7 @@ import {
   Polygon,
   Polyline
 } from "react-leaflet";
+
 import hash from "object-hash";
 import { 
   Checkbox, 
@@ -45,6 +47,15 @@ import {
 
 const position = [40.1546, -75.2216];
 const zoom = 12;
+
+const DEFAULT_BLUE = '#4E79A7';
+
+const DEFAULT_LEGEND = {
+  type: 'Categorical',
+  attributes: {
+    'All Values': DEFAULT_BLUE
+  }
+};
 
 const pageStyles = {
   color: "#232129",
@@ -252,16 +263,17 @@ let stories = [
     loaded: true,
     description: 'N/A',
     data: [],
-    popupFields: []
+    popupFields: [],
+    legend: cloneDeep(DEFAULT_LEGEND)
   },
-  {
+  /*{
     name: 'Stories 1',
     key: '1',
     loaded: false,
     source: '/static/points.csv',
     description: 'Demo',
     popupFields: []
-  },
+  },*/
   {
     name: 'Ambler NAACP - Police Meeting',
     key: '2',
@@ -337,7 +349,6 @@ stories.filter(
   (story) => !!story.source
 ).map(
   (story) => {
-    const tileRenderColors = {};
     const colorScheme = tileRenderColorScheme;
     const maxColor = colorScheme.length;
 
@@ -350,6 +361,13 @@ stories.filter(
 
         //story.description = firstRow[0];
         //story.link = firstRow[1];
+    //const tileRenderColors = {};
+
+        story.legend = {
+          type: 'Categorical',
+          attribute: story.categoryVariable,
+          attributes: {}
+        };
 
         story.data = results.data.filter(
           // first row is the description
@@ -374,18 +392,18 @@ stories.filter(
               record.certainty = parseInt(record.certainty);
             }
 
-            const categoricalValue = record[story.categoryVariable];
-            if (tileRenderColors[categoricalValue]) {
-              record.tileRenderColor = tileRenderColors[categoricalValue];
+            const categoricalValue = record[story.categoryVariable] || 'All Values';
+            if (story.legend.attributes[categoricalValue]) {
+              record.tileRenderColor = story.legend.attributes[categoricalValue];
             } else {
-              if (Object.keys(tileRenderColors) >= maxColor) {
+              if (Object.keys(story.legend.attributes) >= maxColor) {
                 throw 'Only 10 colors available'
               }
   
-              const colorIndex = Object.keys(tileRenderColors).length;
+              const colorIndex = Object.keys(story.legend.attributes).length;
               const color = colorScheme[colorIndex];
 
-              tileRenderColors[categoricalValue] = color;
+              story.legend.attributes[categoricalValue] = color;
 
               record.tileRenderColor = color;
             }
@@ -422,7 +440,16 @@ let firstLoad = true;
 
 // TODO story of "previous" attempt at some discussion
 
+// TODO: a history of this topic through music
+
+// TODO: research duty to intervene stats
+// TODO: research training budgets vs incidents
+// TODO: research on stats on Act 459
+// TODO: research on Bill 21205 Statewide database of discipline and use of force
+
 // TODO: something around the building of the food co-op
+
+// TODO: there are sheriffs and constables - independent of police?
 
 // TODO: something around historic preservation
 
@@ -434,6 +461,43 @@ let firstLoad = true;
 
 // TODO naacp chapters
 
+// TODO measure of living in the neighborhood
+
+// historical stuff around bb. is there a way to get a list of historical markers?
+    // carve this out into a separate page/app on my website?
+    // list out neighborhoods, churches, events
+
+// TOOD - legend for colors for fillColor: record.tileRenderColor
+  
+/*
+underfunded
+power plants that are toxic
+targetting election districts
+underfunded districts
+
+live free team in philly
+  
+
+airbnb - housing would save a lot of stuff
+
+water access
+
+climate issues
+
+show intersectionality
+
+illustrate systemic racism
+
+lack of affordable housing
+
+history of faith, land
+
+identify where there is power
+
+places where people are marginalized
+
+history of redlining
+*/
 
 let cacheBuster = 0;
 const showMoreCount = 5;
@@ -481,7 +545,7 @@ const RenderingEditor = ({layers, facets, setColoration}) => {
           setColoration({
             facet: selectedFacet, 
             attribute: e.target.value
-          });
+          }, facets);
         }}>
         <option key={-1}>N/A</option>
         {attributes.map(
@@ -500,10 +564,11 @@ const StoryPicker = ({onSelectStory}) => {
       Story:
       <Select onChange={(e) => onSelectStory(e)}>
         {
+          // TODO There are bugs here because this select is not controlled by React
           stories.map(
-            (story) => {
+            (story, i) => {
               return (
-                <option>
+                <option key={i}>
                   {story.name}
                 </option>
               );
@@ -515,26 +580,87 @@ const StoryPicker = ({onSelectStory}) => {
   )
 }
 
+const Legend = ({data}) => {
+  if (!data || !data.attributes) {
+    return <div key="legend" />;
+  }
+
+  const sortedKeys = Object.keys(data.attributes).sort();
+
+  let legendData = null;
+
+  if (data.type === 'Categorical') {
+    legendData = sortedKeys.map(
+      (key, i) => (
+        <div key={i}>
+          <div style={{
+            backgroundColor: data.attributes[key],
+            width: '14px',
+            height: '14px',
+            float: 'left',
+            marginRight: '3px'
+          }}/> {key || 'Unknown'}
+        </div>
+      )
+    );
+  } else {
+    legendData = (
+      <div>
+        <b>Range:</b> {data.min} - {data.max}
+        <div style = {{
+          height: '20px',
+          width: '100%',
+          background: 'linear-gradient(0.25turn, ' + data.colorMin + ', ' + data.colorMax + ')'
+        }} />
+      </div>
+    );
+  }
+
+  return (
+    <div key="legend" style={{paddingLeft: '10px'}}>
+      <h3>Legend</h3>
+      <b>Attribute:</b> {data.attribute}
+      {legendData}
+    </div>
+  );
+}
+
 const IndexPage = () => {
-  const [facets, updateFacets] = React.useState({});
+  const [facets, selectFacets] = React.useState({});
   const [story, selectStory] = React.useState('N/A');
   const [coloration, setColorStrategy] = React.useState({});
+  const [legend, setLegend] = React.useState({});
+
+  const updateFacets = (facets) => {
+    console.log('UPDATE FACETS....');
+    // TODO recompute colors...
+    //setLegend(cloneDeep(DEFAULT_LEGEND));
+    setColorStrategy({});
+    selectStory('N/A');
+
+    setColoration({
+
+    }, facets);
+  }
 
   function onSelectStory(e) {
-    console.log('selecting story');
     const storyName = e.target.value;
+    let newLegend = cloneDeep(DEFAULT_LEGEND);
 
     // re-rendering not a side effect of this, of something later
-    stories.map(
+    stories.forEach(
       (story) => {
-        story.selected = story.name === storyName
+        story.selected = story.name === storyName;
+
+        if (story.selected) {
+          newLegend = story.legend;
+        }
       }
     )
   
     Object.keys(facets).map(
       (facetName) => {
         const facet = facets[facetName];
-
         facet.geojson.features.map(
           feature => {
             const facetValue = feature.properties[facet.nameAttribute];
@@ -552,14 +678,13 @@ const IndexPage = () => {
                   story.facetvalue === facetValue
               );
 
-
             let facetValueChecked = selectedFacetFromStory.length > 0;
     
             if (storyName === 'N/A') {
               facetValueChecked = false;
             }
 
-            let tileRenderColor = 'blue';
+            let tileRenderColor = DEFAULT_BLUE;
             if (selectedFacetFromStory.length > 0) {
               if (!!selectedFacetFromStory[0].tileRenderColor) {
                 tileRenderColor = selectedFacetFromStory[0].tileRenderColor;
@@ -573,93 +698,115 @@ const IndexPage = () => {
       }
     );
     
-    console.log('refreshing');
+    setLegend(newLegend);
     selectStory(storyName);
     updateFacets(facets);
   }
 
-  function setColoration({facet, attribute}) {
-    const categoryType = facets[facet].attributeCategoryTypes[attribute];
-    if (!facet || !attribute || !categoryType) {
+  function setColoration({facet, attribute}, facetsOverride) {
+    let categoryType = 'Categorical';
+    let facetsHere = facetsOverride || facets;
+    
+    let legend = null;
+
+    if (!facet || !attribute) {
+      legend = cloneDeep(DEFAULT_LEGEND);
+
+      console.log('CLEARING COLORS', Object.keys(facetsHere));
+
+     // debugger;
       // clear all colors
-      Object.keys(facets[facet].values).map(
-        (value) => {
-          delete facets[facet].values[value].tileRenderColor;
-        }
-      );
-
-      updateFacets(facets);
-    } else if (categoryType === 'Categorical') {
-      const colorScheme = tileRenderColorScheme;
-      const maxColor = colorScheme.length;
-      const tileRenderColors = {};
-
-      Object.keys(facets[facet].values).map(
-        (facetValue) => {
-          const record = facets[facet].values[facetValue];
-
-          const categoricalValue = (facets[facet].attributes[facetValue] || {})[attribute] || '';
-          if (tileRenderColors[categoricalValue]) {
-            record.tileRenderColor = tileRenderColors[categoricalValue];
-          } else {
-            const colorIndex = Object.keys(tileRenderColors).length;
-            const color = colorScheme[colorIndex % maxColor];
-  
-            tileRenderColors[categoricalValue] = color;
-  
-            record.tileRenderColor = color;
-          }
+      Object.keys(facetsHere,
+        (facetKey) => {
+          console.log('restting colors in ' + facetKey, Object.keys(facetsHere[facetKey].values))
+          debugger;
+          Object.keys(facetsHere[facetKey].values).map(
+            (value) => {
+              debugger;
+              facetsHere[facetKey].values[value].tileRenderColor = DEFAULT_BLUE;
+            }
+          );
         });
+    } else {
+      legend = {};
+      legend.type = categoryType;
+      legend.attribute = attribute;
+      legend.attributes = {};
+        
+      categoryType = facetsHere[facet].attributeCategoryTypes[attribute];
 
-        updateFacets(facets);
-    } else if (
-      categoryType === 'Ordered' ||
-      categoryType === 'Diverging') {
-      let min = null;
-      let max = null;
+      if (categoryType === 'Categorical') {
+        const colorScheme = tileRenderColorScheme;
+        const maxColor = colorScheme.length;
 
-      Object.keys(facets[facet].values).map(
-        (facetValue) => {
-          const value = (facets[facet].attributes[facetValue] || {})[attribute];
-          if (value) {
-            if (min == null) {
-              min = value;
+        Object.keys(facetsHere[facet].values).map(
+          (facetValue) => {
+            const record = facetsHere[facet].values[facetValue];
+
+            const categoricalValue = (facetsHere[facet].attributes[facetValue] || {})[attribute] || '';
+            if (legend.attributes[categoricalValue]) {
+              record.tileRenderColor = legend.attributes[categoricalValue];
+            } else {
+              const colorIndex = Object.keys(legend.attributes).length;
+              const color = colorScheme[colorIndex % maxColor];
+    
+              legend.attributes[categoricalValue] = color;
+    
+              record.tileRenderColor = color;
             }
+          });
+      } else if (
+        categoryType === 'Ordered' ||
+        categoryType === 'Diverging') {
 
-            if (max == null) {
-              max = value;
-            }
+        legend.min = null;
+        legend.max = null;
 
-            if (value > max) { 
-              max = value;
-            }
-
-            if (value < min) {
-              min = value;
-            }
+        Object.keys(facetsHere[facet].values).filter(
+          (facetValue) => {
+            return facetsHere[facet].values[facetValue].selected; //facets[facet].attributes[facetValue];
           }
-        });
+        ).map(
+          (facetValue) => {
+            const value = (facetsHere[facet].attributes[facetValue] || {})[attribute];
+            if (value) {
+              if (legend.min == null) {
+                legend.min = value;
+              }
 
-      const range = max - min;
-      const colorFn = interpolatePlasma;
-     /* ,
-  interpolateRdBu,
-  interpolatePuOr,
-  interpolateReds,
-  interpolateTurbo,
-  interpolateGreens,
-  interpolateBluesU*/
+              if (legend.max == null) {
+                legend.max = value;
+              }
 
-    Object.keys(facets[facet].values).map(
-      (facetValue) => {
-        const record = facets[facet].values[facetValue];
+              if (value > legend.max) { 
+                legend.max = value;
+              }
 
-        const value = (facets[facet].attributes[facetValue] || {})[attribute];
-        record.tileRenderColor = colorFn(1.0 * value / range)
-      });
+              if (value < legend.min) {
+                legend.min = value;
+              }
+            }
+          });
+
+        const range = legend.max - legend.min;
+        const colorFn = interpolatePlasma;
+
+        legend.colorMin = colorFn(0);
+        legend.colorMax = colorFn(1);
+
+        Object.keys(facetsHere[facet].values).map(
+          (facetValue) => {
+            const record = facetsHere[facet].values[facetValue];
+
+            const value = (facetsHere[facet].attributes[facetValue] || {})[attribute];
+            record.tileRenderColor = colorFn(1.0 * value / range)
+          });
+      }
     }
 
+    selectFacets(facetsHere);
     setColorStrategy({facet, attribute, categoryType});
+    setLegend(legend);
   }
 
   React.useEffect(
@@ -711,7 +858,7 @@ const IndexPage = () => {
                     feature => {
                       const facetValue = feature.properties[facet.nameAttribute];
 
-                      let tileRenderColor = 'blue';
+                      let tileRenderColor = DEFAULT_BLUE;
 
                       initialFacetData[facet.name].values[facetValue] = {
                         selected: false,
@@ -764,11 +911,8 @@ const IndexPage = () => {
       newFacets[facetName].visible = true;
     }
 
-    console.log(newFacets);
     updateFacets(newFacets);
   }
-
-  console.time("figuring out layers");
 
   const layers = Object.keys(facets)
     .map(
@@ -822,7 +966,7 @@ const IndexPage = () => {
                 const facetValue = reference.properties[layer.nameAttribute];
 
                 const colorFromFacet = facets[facetName].values[facetValue].tileRenderColor;
-                const defaultColor = 'blue';
+                const defaultColor = DEFAULT_BLUE;
                 
                 return {
                   color: colorFromFacet || defaultColor
@@ -856,7 +1000,7 @@ const IndexPage = () => {
 
 
           const results = [(
-            <Marker position={[record.latitude, record.longitude]} key={storyIndex + '-' + recordIndex}>
+            <Marker color={record.tileRenderColor || 'blue'} position={[record.latitude, record.longitude]} key={storyIndex + '-' + recordIndex}>
               <Popup>
                 {popupContents}
               </Popup>
@@ -867,7 +1011,10 @@ const IndexPage = () => {
             results.push((
               <Circle 
                 center={[record.latitude, record.longitude]} 
-                pathOptions={{ fillColor: record.tileRenderColor || 'blue' }} 
+                pathOptions={{ 
+                  fillColor: record.tileRenderColor || DEFAULT_BLUE,
+                  color: record.tileRenderColor || DEFAULT_BLUE
+                }} 
                 radius={150 * record.certainty} />
             ));
           }
@@ -943,22 +1090,29 @@ const IndexPage = () => {
         </ul>
       </aside>
       <main style={pageStyles}>
-        <div>
-          <StoryPicker onSelectStory={onSelectStory} />
-          <RenderingEditor 
-            layers={layers} 
-            facets={facets} 
-            setColoration={setColoration}
-          />
-        </div>
-        <MapContainer style={{ height: '600px' }} center={position} zoom={zoom} scrollWheelZoom={true}>
-          <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          { markers }
-          { facetLayers }
-        </MapContainer>
+        <Grid
+          gap={2} 
+          columns={[2, '1fr 1fr']}>
+            <div>
+              <StoryPicker onSelectStory={onSelectStory} />
+              <RenderingEditor 
+                layers={layers} 
+                facets={facets} 
+                setColoration={setColoration}
+              />
+            </div>
+            <div>
+              <Legend data={legend} />
+            </div>
+        </Grid>
+          <MapContainer style={{ height: '600px' }} center={position} zoom={zoom} scrollWheelZoom={true}>
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            { markers }
+            { facetLayers }
+          </MapContainer>
       </main>
     </Grid>
   );
