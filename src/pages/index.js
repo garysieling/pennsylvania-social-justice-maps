@@ -588,6 +588,8 @@ const Legend = ({data}) => {
     return <div key="legend" />;
   }
 
+  console.log('!!!!LEGEND DATA', data);
+
   const sortedKeys = Object.keys(data.attributes).sort();
 
   let legendData = null;
@@ -610,10 +612,10 @@ const Legend = ({data}) => {
     legendData = (
       <div>
         <b>Range:</b> {data.min} - {data.max}
-        <div style = {{
+        <div style={{
           height: '20px',
           width: '100%',
-          background: 'linear-gradient(0.25turn, ' + data.colorMin + ', ' + data.colorMax + ')'
+          background: 'linear-gradient(0.25turn, ' + data.colorFn(0) + ',' + data.colorFn(1) + ')'
         }} />
       </div>
     );
@@ -629,22 +631,11 @@ const Legend = ({data}) => {
 }
 
 const IndexPage = () => {
-  const [facets, selectFacets] = React.useState({});
+  const [facets, updateFacets] = React.useState({});
   const [story, selectStory] = React.useState('N/A');
   const [coloration, setColorStrategy] = React.useState({});
   const [legend, setLegend] = React.useState({});
 
-  const updateFacets = (facets) => {
-    console.log('UPDATE FACETS....');
-    // TODO recompute colors...
-    //setLegend(cloneDeep(DEFAULT_LEGEND));
-    setColorStrategy({});
-    selectStory('N/A');
-
-    setColoration({
-
-    }, facets);
-  }
 
   function onSelectStory(e) {
     const storyName = e.target.value;
@@ -706,47 +697,45 @@ const IndexPage = () => {
     updateFacets(facets);
   }
 
-  function setColoration({facet, attribute}, facetsOverride) {
+  function setColoration({facet, attribute}) {
     let categoryType = 'Categorical';
-    let facetsHere = facetsOverride || facets;
     
     let legend = null;
 
     if (!facet || !attribute) {
       legend = cloneDeep(DEFAULT_LEGEND);
 
-      console.log('CLEARING COLORS', Object.keys(facetsHere));
+      console.log('CLEARING COLORS', Object.keys(facets));
 
-     // debugger;
-      // clear all colors
-      Object.keys(facetsHere,
+      // clear all colors - todo - not working
+      Object.keys(facets,
         (facetKey) => {
-          console.log('restting colors in ' + facetKey, Object.keys(facetsHere[facetKey].values))
+          console.log('restting colors in ' + facetKey, Object.keys(facets[facetKey].values))
           debugger;
-          Object.keys(facetsHere[facetKey].values).map(
+          Object.keys(facets[facetKey].values).map(
             (value) => {
-              debugger;
-              facetsHere[facetKey].values[value].tileRenderColor = DEFAULT_BLUE;
+              facets[facetKey].values[value].tileRenderColor = DEFAULT_BLUE;
             }
           );
         });
     } else {
       legend = {};
-      legend.type = categoryType;
       legend.attribute = attribute;
       legend.attributes = {};
         
-      categoryType = facetsHere[facet].attributeCategoryTypes[attribute];
+      categoryType = facets[facet].attributeCategoryTypes[attribute];
 
       if (categoryType === 'Categorical') {
+        legend.type = categoryType;
+
         const colorScheme = tileRenderColorScheme;
         const maxColor = colorScheme.length;
 
-        Object.keys(facetsHere[facet].values).map(
+        Object.keys(facets[facet].values).map(
           (facetValue) => {
-            const record = facetsHere[facet].values[facetValue];
+            const record = facets[facet].values[facetValue];
 
-            const categoricalValue = (facetsHere[facet].attributes[facetValue] || {})[attribute] || '';
+            const categoricalValue = (facets[facet].attributes[facetValue] || {})[attribute] || '';
             if (legend.attributes[categoricalValue]) {
               record.tileRenderColor = legend.attributes[categoricalValue];
             } else {
@@ -761,17 +750,18 @@ const IndexPage = () => {
       } else if (
         categoryType === 'Ordered' ||
         categoryType === 'Diverging') {
+        legend.type = categoryType;
 
         legend.min = null;
         legend.max = null;
 
-        Object.keys(facetsHere[facet].values).filter(
+        Object.keys(facets[facet].values).filter(
           (facetValue) => {
-            return facetsHere[facet].values[facetValue].selected; //facets[facet].attributes[facetValue];
+            return facets[facet].values[facetValue].selected; //facets[facet].attributes[facetValue];
           }
         ).map(
           (facetValue) => {
-            const value = (facetsHere[facet].attributes[facetValue] || {})[attribute];
+            const value = (facets[facet].attributes[facetValue] || {})[attribute];
             if (value) {
               if (legend.min == null) {
                 legend.min = value;
@@ -794,20 +784,19 @@ const IndexPage = () => {
         const range = legend.max - legend.min;
         const colorFn = interpolatePlasma;
 
-        legend.colorMin = colorFn(0);
-        legend.colorMax = colorFn(1);
+        legend.colorFn = interpolatePlasma;
 
-        Object.keys(facetsHere[facet].values).map(
+        Object.keys(facets[facet].values).map(
           (facetValue) => {
-            const record = facetsHere[facet].values[facetValue];
+            const record = facets[facet].values[facetValue];
 
-            const value = (facetsHere[facet].attributes[facetValue] || {})[attribute];
+            const value = (facets[facet].attributes[facetValue] || {})[attribute];
             record.tileRenderColor = colorFn(1.0 * value / range)
           });
       }
     }
 
-    selectFacets(facetsHere);
+    updateFacets(facets);
     setColorStrategy({facet, attribute, categoryType});
     setLegend(legend);
   }
