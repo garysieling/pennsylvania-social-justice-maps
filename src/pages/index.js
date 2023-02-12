@@ -47,6 +47,7 @@ import {
 
 import Legend from './components/Legend';
 import RenderingControls from './components/RenderingControls';
+import Facets from './components/Facets';
 
 const position = [40.1546, -75.2216];
 const zoom = 12;
@@ -65,11 +66,7 @@ const pageStyles = {
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
+
 const headingAccentStyles = {
   color: "#663399",
 }
@@ -789,7 +786,6 @@ const IndexPage = () => {
     }
     
     updateFacets(newFacets);
-
   } 
 
   const facetItemClicker = (e) => {
@@ -808,7 +804,6 @@ const IndexPage = () => {
     }
 
     updateFacets(newFacets);
-    
   }
 
   const layers = Object.keys(facets)
@@ -874,11 +869,7 @@ const IndexPage = () => {
         );
       }
     );
-  console.timeEnd("figuring out layers");
 
-  console.timeEnd("render");
-
-  console.log('stories', stories);
   const markers = stories.filter(
     (story) => story.selected
   ).flatMap(
@@ -926,64 +917,14 @@ const IndexPage = () => {
       gap={2} 
       columns={[2, '0.5fr 3fr']}>
       <aside>
-        <h2 style={headingStyles}>Layers</h2>
-        <ul style={listStyles}>
-          {
-            layers.map(
-              (facet) => (
-                <li key={facet.key} style={listItemStyles}>
-                  <Label>
-                    <Checkbox 
-                      data-facetname={facet.name}
-                      checked={!!facets[facet.name].visible}
-                      key={facet.key}
-                      onChange={facetClicker}
-                    />
-                    <b>{facet.name}</b>
- 
-                  </Label>
-                  <ul style={listStyles}>
-                    {
-                      facet.geojson.features.filter(
-                        (value, index) => 
-                          index < showMoreCount ||
-                            facet.geojson.features.length <= showAllCount ||
-                            facets[facet.name].showMore
-                      ).map(
-                        (feature, index) => {
-                          const facetValue = feature.properties[facet.nameAttribute];
-                          return (
-                            <Label key={index} >
-                              <Checkbox 
-                                  data-facetname={facet.name}
-                                  data-facetvalue={facetValue}
-                                  key={facet.key + ' ' + index}
-                                  checked={facet.values[facetValue].selected}
-                                  onChange={facetItemClicker} 
-                              />
-                              {facetValue}
-                            </Label>
-                          )
-                        }
-                      )
-                    }
-                    {
-                      facet.geojson.features.length > showAllCount &&
-                      !facets[facet.name].showMore &&
-                      (
-                      <li key='showMore'>
-                          <a href="#" onClick={() => showMore(facet.name)}>
-                            Show More
-                          </a>
-                        </li>
-                      )
-                    }
-                  </ul>
-                </li>
-              )
-            )
-          }
-        </ul>
+        <Facets layers={layers} 
+          facets={facets}
+          facetClicker={facetClicker}
+          showMoreCount={showMoreCount}
+          showAllCount={showAllCount}
+          facetItemClicker={facetItemClicker}
+          showMore={showMore}
+        />
       </aside>
       <main style={pageStyles}>
         <Grid
