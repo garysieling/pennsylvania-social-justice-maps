@@ -34,16 +34,9 @@ import Papa from "papaparse";
 
 import { 
   schemeTableau10 as tileRenderColorScheme,
-  interpolateSpectral,
-  interpolateRdGy,
-  interpolateRdBu,
-  interpolatePuOr,
-  interpolateReds,
-  interpolateTurbo,
-  interpolateGreens,
-  interpolatePlasma,
-  interpolateBlues
 } from 'd3-scale-chromatic';
+
+import * as COLOR_SCHEMES from 'd3-scale-chromatic';
 
 import Legend from './components/Legend';
 import RenderingControls from './components/RenderingControls';
@@ -473,8 +466,8 @@ let firstLoad = true;
     // carve this out into a separate page/app on my website?
     // list out neighborhoods, churches, events
 
-// TOOD - legend for colors for fillColor: record.tileRenderColor
-  
+//todo color range changer
+    
 /*
 underfunded
 power plants that are toxic
@@ -530,19 +523,15 @@ const StoryPicker = ({onSelectStory, story}) => {
 }
 
 
-function recomputeColoration({facet, attribute}, facets) {  
+function recomputeColoration({facet, attribute}, colorFn, facets) {  
   let legend = null;
 
   if (!facet || !attribute) {
     legend = cloneDeep(DEFAULT_LEGEND);
 
-    console.log('CLEARING COLORS', Object.keys(facets));
-
     // clear all colors - todo - not working
     Object.keys(facets,
       (facetKey) => {
-        console.log('restting colors in ' + facetKey, Object.keys(facets[facetKey].values))
-        debugger;
         Object.keys(facets[facetKey].values).map(
           (value) => {
             facets[facetKey].values[value].tileRenderColor = DEFAULT_BLUE;
@@ -554,7 +543,8 @@ function recomputeColoration({facet, attribute}, facets) {
     legend.attribute = attribute;
     legend.attributes = {};
     legend.type = facets[facet].attributeCategoryTypes[attribute];
-
+    legend.colorFn = colorFn;
+    
     if (legend.type === 'Categorical') {
       const colorScheme = tileRenderColorScheme;
       const maxColor = colorScheme.length;
@@ -583,7 +573,7 @@ function recomputeColoration({facet, attribute}, facets) {
 
       Object.keys(facets[facet].values).filter(
         (facetValue) => {
-          return facets[facet].values[facetValue].selected; //facets[facet].attributes[facetValue];
+          return facets[facet].values[facetValue].selected; 
         }
       ).map(
         (facetValue) => {
@@ -608,7 +598,7 @@ function recomputeColoration({facet, attribute}, facets) {
         });
 
       const range = legend.max - legend.min;
-      legend.colorFn = interpolatePlasma;
+      legend.colorFn = colorFn;
 
       Object.keys(facets[facet].values).map(
         (facetValue) => {
@@ -632,8 +622,10 @@ const IndexPage = () => {
   const [coloration, setColorStrategy] = React.useState({});
   const [legend, setLegend] = React.useState({});
 
-  function setColoration({facet, attribute}) {
-    const colorationResults = recomputeColoration({facet, attribute}, facets);
+  function setColoration({facet, attribute, colorScheme}) {
+    const colorFn = COLOR_SCHEMES[colorScheme] || COLOR_SCHEMES.interpolatePlasma;
+
+    const colorationResults = recomputeColoration({facet, attribute}, colorFn, facets);
 
     updateFacets(colorationResults.facets);
     setColorStrategy({
