@@ -491,8 +491,6 @@ history of redlining
 */
 
 let cacheBuster = 0;
-const showMoreCount = 5;
-const showAllCount = showMoreCount + 3;
 
 const StoryPicker = ({onSelectStory, story}) => {
   return (
@@ -761,13 +759,6 @@ const IndexPage = () => {
     }
   )
 
-  const showMore = (facetName) => {
-    const newFacets = cloneDeep(facets);
-    newFacets[facetName].showMore = true;
-
-    updateFacets(newFacets);
-  }
-
   const facetClicker = (e) => {
     const facetName = e.target.dataset.facetname;
 
@@ -920,10 +911,7 @@ const IndexPage = () => {
         <Facets layers={layers} 
           facets={facets}
           facetClicker={facetClicker}
-          showMoreCount={showMoreCount}
-          showAllCount={showAllCount}
           facetItemClicker={facetItemClicker}
-          showMore={showMore}
         />
       </aside>
       <main style={pageStyles}>

@@ -2,20 +2,10 @@ import React from 'react';
 
 import { 
     Checkbox, 
-    Grid, 
-    Label, 
-    Link, 
-    Button,
-    IconButton,
-    MenuButton,
-    Progress,
-    Radio,
-    Select,
-    Option,
-    Slider,
-    Spinner,
-    Switch
-  } from "theme-ui";
+    Label
+} from "theme-ui";
+
+import { cloneDeep } from "lodash";
 
 const headingStyles = {
     marginTop: 0,
@@ -36,7 +26,19 @@ const listItemStyles = {
     listStyleType: "none"
 };
 
-const Facets = ({layers, facets, facetClicker, showMoreCount, showAllCount, facetItemClicker, showMore}) => {
+const showMoreCount = 5;
+const showAllCount = showMoreCount + 3;
+
+const Facets = ({layers, facets, facetClicker, facetItemClicker}) => {
+    const [showMore, updateShowMore] = React.useState({});
+
+    const toggleShowMore = (facetName) => {
+        const newShowMore = cloneDeep(showMore);
+        newShowMore[facetName] = true;
+
+        updateShowMore(newShowMore);
+    }
+
     return (
         <>
         <h3 style={headingStyles}>Facets</h3>
@@ -60,7 +62,7 @@ const Facets = ({layers, facets, facetClicker, showMoreCount, showAllCount, face
                         (value, index) => 
                           index < showMoreCount ||
                             facet.geojson.features.length <= showAllCount ||
-                            facets[facet.name].showMore
+                            showMore[facet.name]
                       ).map(
                         (feature, index) => {
                           const facetValue = feature.properties[facet.nameAttribute];
@@ -81,10 +83,10 @@ const Facets = ({layers, facets, facetClicker, showMoreCount, showAllCount, face
                     }
                     {
                       facet.geojson.features.length > showAllCount &&
-                      !facets[facet.name].showMore &&
+                      !showMore[facet.name] &&
                       (
                       <li key='showMore'>
-                          <a href="#" onClick={() => showMore(facet.name)}>
+                          <a href="#" onClick={() => toggleShowMore(facet.name)}>
                             Show More
                           </a>
                         </li>
