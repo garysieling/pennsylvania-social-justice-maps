@@ -23,7 +23,7 @@ const rangeColorSchemes = [
 const RenderingControls = ({layers, facets, setColoration}) => {  
     const [selectedFacet, selectFacet] = React.useState('');
     const [selectedAttribute, selectAttribute] = React.useState('');
-    const [selectedColorScheme, selectColorScheme] = React.useState('Plasma');
+    const [selectedRangeColorScheme, selectRangeColorScheme] = React.useState('Plasma');
 
     let attributes = [];
   
@@ -50,6 +50,12 @@ const RenderingControls = ({layers, facets, setColoration}) => {
           value={selectedFacet}
           onChange={(e) => {
             selectFacet(e.target.value);
+
+            setColoration({
+              facet: e.target.value, 
+              attribute: selectedAttribute,
+              rangeColorScheme: selectedRangeColorScheme
+            }, facets);
           }}>
           <option key={-1}>N/A</option>
           {visibleLayers}
@@ -62,7 +68,7 @@ const RenderingControls = ({layers, facets, setColoration}) => {
             setColoration({
               facet: selectedFacet, 
               attribute: e.target.value,
-              colorScheme: selectedColorScheme
+              rangeColorScheme: selectedRangeColorScheme
             }, facets);
           }}>
           <option key={-1}>N/A</option>
@@ -72,13 +78,13 @@ const RenderingControls = ({layers, facets, setColoration}) => {
           )}
         </Select><Label>Color Scheme: </Label>
         <Select 
-          value={selectedColorScheme}
+          value={selectedRangeColorScheme}
           onChange={(e) => {
-            selectColorScheme(e.target.value);
+            selectRangeColorScheme(e.target.value);
             setColoration({
               facet: selectedFacet, 
               attribute: selectedAttribute,
-              colorScheme: e.target.value
+              rangeColorScheme: e.target.value
             }, facets)
           }}>
           {rangeColorSchemes.map(

@@ -39,6 +39,7 @@ import {
 import * as COLOR_SCHEMES from 'd3-scale-chromatic';
 
 import Legend from './components/Legend';
+import Description from './components/Description';
 import RenderingControls from './components/RenderingControls';
 import Facets from './components/Facets';
 
@@ -254,7 +255,6 @@ let stories = [
     name: 'N/A',
     key: '0',
     loaded: true,
-    description: 'N/A',
     data: [],
     popupFields: [],
     legend: cloneDeep(DEFAULT_LEGEND),
@@ -277,7 +277,7 @@ let stories = [
     description: `
       The Ambler NAACP met publically with several police departments in 2020.
       
-      <a href="https://www.facebook.com/UpperGwyneddPD/posts/shaykh-anwar-muhammad-president-of-the-ambler-area-naacp-members-of-his-executiv/1597643733736356/">Reference</a>
+      <a href="https://www.facebook.com/UpperGwyneddPD/posts/shaykh-anwar-muhammad-president-of-the-ambler-area-naacp-members-of-his-executiv/1597643733736356/">[1]</a>
     `
   },
   {
@@ -290,7 +290,7 @@ let stories = [
       The Ambler NAACP signed a memorandum of understanding with several 
       departments in 2020.
       
-      <a href="https://whyy.org/wp-content/uploads/2021/04/Police-Document-Final.pdf">Reference</a>
+      <a href="https://whyy.org/wp-content/uploads/2021/04/Police-Document-Final.pdf">[1]</a>
     `
   }, 
   {
@@ -315,12 +315,6 @@ let stories = [
   }
 ];
 
-// TODO overlay description for the whole story
-// TODO overlay description for each segment of the story
-// TODO description of the dataset
-// TODO coloration control for the parts of a story
-// TODO facet control for parts of a story
-// TODO a feature to select all overlapping items between the different levels of government
 
 sourceData.filter(
   (recordType) => !!recordType.attributeSource
@@ -418,14 +412,26 @@ stories.filter(
 
 let firstLoad = true;
 
+
+// TODO overlay description for the whole story
+// TODO overlay description for each segment of the story
+// TODO coloration control for the parts of a story
+// TODO facet control for parts of a story
+// TODO a feature to select all overlapping items between the different levels of government
+// TODO categorical facet coloring broke...
+// TODO story with points doesn't clear when you switch off it
+
 // TODO There is some sort of major issue w/ switching between "story" mode and regular mode
 //      the colors don't reset and also the range legend doesn't work on the regular one
 
 // TODO React Router
 // TODO Stories
     // Spider chart (a graph)
+    // or just tie these to areas
+        // maybe some kind of workflow that lets you pick?
 
 // A mechanism to turn a list of addresses into an anonmyized dataset
+  // or tag to the facets?
 
 // A mechanism to "join" two+ areas into one unit
 
@@ -436,8 +442,6 @@ let firstLoad = true;
 // "Stories"
   // Link Zion vs people
   // BMC group
-
-// TODO story of "previous" attempt at some discussion
 
 // TODO: a history of this topic through music
 
@@ -455,6 +459,7 @@ let firstLoad = true;
 // TODO: something around the borough hall move
 
 // TODO: something to demonstrate the school funding stuff
+  // underfundedness
 
 // TODO: something about ADA compliance (sidewalks)
 
@@ -544,7 +549,7 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
     legend.attributes = {};
     legend.type = facets[facet].attributeCategoryTypes[attribute];
     legend.colorFn = colorFn;
-    
+
     if (legend.type === 'Categorical') {
       const colorScheme = tileRenderColorScheme;
       const maxColor = colorScheme.length;
@@ -621,9 +626,10 @@ const IndexPage = () => {
   const [story, selectStory] = React.useState('N/A');
   const [coloration, setColorStrategy] = React.useState({});
   const [legend, setLegend] = React.useState({});
+  const [description, setDescription] = React.useState('');
 
-  function setColoration({facet, attribute, colorScheme}) {
-    const colorFn = COLOR_SCHEMES[colorScheme] || COLOR_SCHEMES.interpolatePlasma;
+  function setColoration({facet, attribute, rangeColorScheme}) {
+    const colorFn = COLOR_SCHEMES[rangeColorScheme] || COLOR_SCHEMES.interpolatePlasma;
 
     const colorationResults = recomputeColoration({facet, attribute}, colorFn, facets);
 
@@ -638,6 +644,7 @@ const IndexPage = () => {
 
   function onSelectStory(e) {
     const storyName = e.target.value;
+    let description = '';
     let newLegend = cloneDeep(DEFAULT_LEGEND);
 
     // re-rendering not a side effect of this, of something later
@@ -647,6 +654,7 @@ const IndexPage = () => {
 
         if (story.selected) {
           newLegend = story.legend;
+          description = story.description;
         }
       }
     )
@@ -694,9 +702,8 @@ const IndexPage = () => {
     setLegend(newLegend);
     selectStory(storyName);
     updateFacets(facets);
+    setDescription(description);
   }
-
-
 
   React.useEffect(
     () => {
@@ -934,6 +941,7 @@ const IndexPage = () => {
               />
             </div>
             <div>
+              <Description description={description} />
               <Legend data={legend} />
             </div>
         </Grid>
