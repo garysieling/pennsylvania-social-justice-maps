@@ -87,9 +87,9 @@ const listStyles = {
 
 const listItemStyles = {
   fontWeight: 300,
-  fontSize: 24,
+  fontSize: 16,
   maxWidth: 560,
-  marginBottom: 30,
+  marginBottom: 10,
   listStyleType: "none"
 }
 
@@ -344,7 +344,6 @@ sourceData.filter(
   }
 )
 
-// hide for now
 stories.filter(
   (story) => !!story.source
 ).map(
@@ -357,22 +356,13 @@ stories.filter(
       header: true,
       skipEmptyLines: true,
       complete: function(results, file) {
-        //const firstRow = Object.values(results[0]);
-
-        //story.description = firstRow[0];
-        //story.link = firstRow[1];
-    //const tileRenderColors = {};
-
         story.legend = {
           type: 'Categorical',
           attribute: story.categoryVariable,
           attributes: {}
         };
 
-        story.data = results.data.filter(
-          // first row is the description
-          (value, i) => i > 0
-        ).map(
+        story.data = results.data.map(
           (record) => {
             if (record.latitude) {
               record.latitude = parseFloat(record.latitude.trim());
@@ -413,8 +403,6 @@ stories.filter(
         )
 
         story.loaded = true;
-
-        console.log('story ' + story.source, story);
       }
     });
   }
@@ -510,10 +498,6 @@ const RenderingEditor = ({layers, facets, setColoration}) => {
   const [selectedFacet, selectFacet] = React.useState({});
   const [selectedAttribute, selectAttribute] = React.useState({});
 
-  if (selectAttribute) {
-    console.log(selectAttribute);
-  }
-
   let attributes = [];
 
   if (facets[selectedFacet]) {
@@ -536,6 +520,7 @@ const RenderingEditor = ({layers, facets, setColoration}) => {
     <div key="colorPicker">
       <Label>Coloration: </Label>
       <Select 
+        value={selectedFacet}
         onChange={(e) => {
           selectFacet(e.target.value);
         }}>
@@ -544,6 +529,7 @@ const RenderingEditor = ({layers, facets, setColoration}) => {
       </Select>
       <Label>Attribute: </Label>
       <Select 
+        value={selectedAttribute}
         onChange={(e) => {
           setColoration({
             facet: selectedFacet, 
@@ -561,11 +547,11 @@ const RenderingEditor = ({layers, facets, setColoration}) => {
 }
 
 
-const StoryPicker = ({onSelectStory}) => {
+const StoryPicker = ({onSelectStory, story}) => {
   return (
     <div>
       Story:
-      <Select onChange={(e) => onSelectStory(e)}>
+      <Select onChange={(e) => onSelectStory(e)} value={story}>
         {
           // TODO There are bugs here because this select is not controlled by React
           stories.map(
@@ -615,7 +601,18 @@ const Legend = ({data}) => {
         <div style={{
           height: '20px',
           width: '100%',
-          background: 'linear-gradient(0.25turn, ' + data.colorFn(0) + ',' + data.colorFn(1) + ')'
+          background: 'linear-gradient(0.25turn, ' +
+             data.colorFn(0) + ',' + 
+             data.colorFn(0.1) +  ',' + 
+             data.colorFn(0.2) +  ',' + 
+             data.colorFn(0.3) +  ',' + 
+             data.colorFn(0.4) +  ',' + 
+             data.colorFn(0.5) +  ',' + 
+             data.colorFn(0.6) + ',' + 
+             data.colorFn(0.7) +  ',' + 
+             data.colorFn(0.8) +  ',' + 
+             data.colorFn(0.9) +  ',' + 
+             data.colorFn(1) + ')'
         }} />
       </div>
     );
@@ -630,12 +627,120 @@ const Legend = ({data}) => {
   );
 }
 
+
+function recomputeColoration({facet, attribute}, facets) {  
+  let legend = null;
+
+  if (!facet || !attribute) {
+    legend = cloneDeep(DEFAULT_LEGEND);
+
+    console.log('CLEARING COLORS', Object.keys(facets));
+
+    // clear all colors - todo - not working
+    Object.keys(facets,
+      (facetKey) => {
+        console.log('restting colors in ' + facetKey, Object.keys(facets[facetKey].values))
+        debugger;
+        Object.keys(facets[facetKey].values).map(
+          (value) => {
+            facets[facetKey].values[value].tileRenderColor = DEFAULT_BLUE;
+          }
+        );
+      });
+  } else {
+    legend = {};
+    legend.attribute = attribute;
+    legend.attributes = {};
+    legend.type = facets[facet].attributeCategoryTypes[attribute];
+
+    if (legend.type === 'Categorical') {
+      const colorScheme = tileRenderColorScheme;
+      const maxColor = colorScheme.length;
+
+      Object.keys(facets[facet].values).map(
+        (facetValue) => {
+          const record = facets[facet].values[facetValue];
+
+          const categoricalValue = (facets[facet].attributes[facetValue] || {})[attribute] || '';
+          if (legend.attributes[categoricalValue]) {
+            record.tileRenderColor = legend.attributes[categoricalValue];
+          } else {
+            const colorIndex = Object.keys(legend.attributes).length;
+            const color = colorScheme[colorIndex % maxColor];
+  
+            legend.attributes[categoricalValue] = color;
+  
+            record.tileRenderColor = color;
+          }
+        });
+    } else if (
+      legend.type === 'Ordered' ||
+      legend.type === 'Diverging') {
+      legend.min = null;
+      legend.max = null;
+
+      Object.keys(facets[facet].values).filter(
+        (facetValue) => {
+          return facets[facet].values[facetValue].selected; //facets[facet].attributes[facetValue];
+        }
+      ).map(
+        (facetValue) => {
+          const value = (facets[facet].attributes[facetValue] || {})[attribute];
+          if (value) {
+            if (legend.min == null) {
+              legend.min = value;
+            }
+
+            if (legend.max == null) {
+              legend.max = value;
+            }
+
+            if (value > legend.max) { 
+              legend.max = value;
+            }
+
+            if (value < legend.min) {
+              legend.min = value;
+            }
+          }
+        });
+
+      const range = legend.max - legend.min;
+      legend.colorFn = interpolatePlasma;
+
+      Object.keys(facets[facet].values).map(
+        (facetValue) => {
+          const record = facets[facet].values[facetValue];
+
+          const value = (facets[facet].attributes[facetValue] || {})[attribute];
+          record.tileRenderColor = legend.colorFn(1.0 * value / range)
+        });
+    }
+  }
+
+  return  {
+    facets,
+    legend
+  };
+}
+
 const IndexPage = () => {
   const [facets, updateFacets] = React.useState({});
   const [story, selectStory] = React.useState('N/A');
   const [coloration, setColorStrategy] = React.useState({});
   const [legend, setLegend] = React.useState({});
 
+  function setColoration({facet, attribute}) {
+    const colorationResults = recomputeColoration({facet, attribute}, facets);
+
+    updateFacets(colorationResults.facets);
+    setColorStrategy({
+      facet: facet, 
+      attribute: attribute
+    });
+
+    setLegend(colorationResults.legend);
+  }
 
   function onSelectStory(e) {
     const storyName = e.target.value;
@@ -697,109 +802,7 @@ const IndexPage = () => {
     updateFacets(facets);
   }
 
-  function setColoration({facet, attribute}) {
-    let categoryType = 'Categorical';
-    
-    let legend = null;
 
-    if (!facet || !attribute) {
-      legend = cloneDeep(DEFAULT_LEGEND);
-
-      console.log('CLEARING COLORS', Object.keys(facets));
-
-      // clear all colors - todo - not working
-      Object.keys(facets,
-        (facetKey) => {
-          console.log('restting colors in ' + facetKey, Object.keys(facets[facetKey].values))
-          debugger;
-          Object.keys(facets[facetKey].values).map(
-            (value) => {
-              facets[facetKey].values[value].tileRenderColor = DEFAULT_BLUE;
-            }
-          );
-        });
-    } else {
-      legend = {};
-      legend.attribute = attribute;
-      legend.attributes = {};
-        
-      categoryType = facets[facet].attributeCategoryTypes[attribute];
-
-      if (categoryType === 'Categorical') {
-        legend.type = categoryType;
-
-        const colorScheme = tileRenderColorScheme;
-        const maxColor = colorScheme.length;
-
-        Object.keys(facets[facet].values).map(
-          (facetValue) => {
-            const record = facets[facet].values[facetValue];
-
-            const categoricalValue = (facets[facet].attributes[facetValue] || {})[attribute] || '';
-            if (legend.attributes[categoricalValue]) {
-              record.tileRenderColor = legend.attributes[categoricalValue];
-            } else {
-              const colorIndex = Object.keys(legend.attributes).length;
-              const color = colorScheme[colorIndex % maxColor];
-    
-              legend.attributes[categoricalValue] = color;
-    
-              record.tileRenderColor = color;
-            }
-          });
-      } else if (
-        categoryType === 'Ordered' ||
-        categoryType === 'Diverging') {
-        legend.type = categoryType;
-
-        legend.min = null;
-        legend.max = null;
-
-        Object.keys(facets[facet].values).filter(
-          (facetValue) => {
-            return facets[facet].values[facetValue].selected; //facets[facet].attributes[facetValue];
-          }
-        ).map(
-          (facetValue) => {
-            const value = (facets[facet].attributes[facetValue] || {})[attribute];
-            if (value) {
-              if (legend.min == null) {
-                legend.min = value;
-              }
-
-              if (legend.max == null) {
-                legend.max = value;
-              }
-
-              if (value > legend.max) { 
-                legend.max = value;
-              }
-
-              if (value < legend.min) {
-                legend.min = value;
-              }
-            }
-          });
-
-        const range = legend.max - legend.min;
-        const colorFn = interpolatePlasma;
-
-        legend.colorFn = interpolatePlasma;
-
-        Object.keys(facets[facet].values).map(
-          (facetValue) => {
-            const record = facets[facet].values[facetValue];
-
-            const value = (facets[facet].attributes[facetValue] || {})[attribute];
-            record.tileRenderColor = colorFn(1.0 * value / range)
-          });
-      }
-    }
-
-    updateFacets(facets);
-    setColorStrategy({facet, attribute, categoryType});
-    setLegend(legend);
-  }
 
   React.useEffect(
     () => {
@@ -889,7 +892,12 @@ const IndexPage = () => {
 
     newFacets[facetName].visible = e.target.checked;
 
+    if (coloration.facet && coloration.attribute) {
+      setColoration(coloration);
+    }
+    
     updateFacets(newFacets);
+
   } 
 
   const facetItemClicker = (e) => {
@@ -903,7 +911,12 @@ const IndexPage = () => {
       newFacets[facetName].visible = true;
     }
 
+    if (coloration.facet && coloration.attribute) {
+      setColoration(coloration);
+    }
+
     updateFacets(newFacets);
+    
   }
 
   const layers = Object.keys(facets)
@@ -1035,8 +1048,7 @@ const IndexPage = () => {
                       onChange={facetClicker}
                     />
                     <b>{facet.name}</b>
-
-                    
+ 
                   </Label>
                   <ul style={listStyles}>
                     {
@@ -1086,7 +1098,7 @@ const IndexPage = () => {
           gap={2} 
           columns={[2, '1fr 1fr']}>
             <div>
-              <StoryPicker onSelectStory={onSelectStory} />
+              <StoryPicker onSelectStory={onSelectStory} story={story} />
               <RenderingEditor 
                 layers={layers} 
                 facets={facets} 
