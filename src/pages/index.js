@@ -264,7 +264,8 @@ let stories = [
     description: 'N/A',
     data: [],
     popupFields: [],
-    legend: cloneDeep(DEFAULT_LEGEND)
+    legend: cloneDeep(DEFAULT_LEGEND),
+    description: ``
   },
   /*{
     name: 'Stories 1',
@@ -279,14 +280,25 @@ let stories = [
     key: '2',
     loaded: false,
     source: '/static/ambler naacp - meeting.csv',
-    popupFields: []
+    popupFields: [],
+    description: `
+      The Ambler NAACP met publically with several police departments in 2020.
+      
+      <a href="https://www.facebook.com/UpperGwyneddPD/posts/shaykh-anwar-muhammad-president-of-the-ambler-area-naacp-members-of-his-executiv/1597643733736356/">Reference</a>
+    `
   },
   {
     name: 'Ambler NAACP - Police Memorandum',
     key: '2',
     loaded: false,
     source: '/static/ambler naacp - memorandum.csv',
-    popupFields: []
+    popupFields: [],
+    description: `
+      The Ambler NAACP signed a memorandum of understanding with several 
+      departments in 2020.
+      
+      <a href="https://whyy.org/wp-content/uploads/2021/04/Police-Document-Final.pdf">Reference</a>
+    `
   }, 
   {
     name: 'My research',
@@ -303,7 +315,10 @@ let stories = [
       'When Heard',
       'When Occurred',
       'Location Reference'
-    ]
+    ], 
+    description: `
+      My personal notes
+    `
   }
 ];
 
