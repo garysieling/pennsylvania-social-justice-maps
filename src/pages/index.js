@@ -472,6 +472,20 @@ let firstLoad = true;
 
 // TODO measure of living in the neighborhood
 
+// TODO shapefiles for delco/chester county
+   // which implies a facet that loads each file, vs one file w/ all
+
+// School district stats
+  // # of kids
+  // demographics
+  // teacher demographics
+  // budget
+  // # of elementary buildings
+  // special ed stats
+  // underfundedness
+  
+// labor stats
+
 // historical stuff around bb. is there a way to get a list of historical markers?
     // carve this out into a separate page/app on my website?
     // list out neighborhoods, churches, events
