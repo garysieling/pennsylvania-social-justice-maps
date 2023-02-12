@@ -45,7 +45,8 @@ import {
   interpolateBlues
 } from 'd3-scale-chromatic';
 
-import Legend from './Legend';
+import Legend from './components/Legend';
+import RenderingControls from './components/RenderingControls';
 
 const position = [40.1546, -75.2216];
 const zoom = 12;
@@ -495,59 +496,6 @@ history of redlining
 let cacheBuster = 0;
 const showMoreCount = 5;
 const showAllCount = showMoreCount + 3;
-
-const RenderingEditor = ({layers, facets, setColoration}) => {  
-  const [selectedFacet, selectFacet] = React.useState({});
-  const [selectedAttribute, selectAttribute] = React.useState({});
-
-  let attributes = [];
-
-  if (facets[selectedFacet]) {
-    attributes = Object.keys(facets[selectedFacet].attributeCategoryTypes || {}) || [];
-  }
-
-  const visibleLayers = 
-    layers.filter(
-      ({visible}) => visible
-    ).map(
-      (facet, i) => 
-        <option key={i}>{facet.name}</option>
-    );
-
-  if (visibleLayers.length === 0) {
-    return <div key="colorPicker"></div>
-  }
-
-  return (
-    <div key="colorPicker">
-      <Label>Coloration: </Label>
-      <Select 
-        value={selectedFacet}
-        onChange={(e) => {
-          selectFacet(e.target.value);
-        }}>
-        <option key={-1}>N/A</option>
-        {visibleLayers}
-      </Select>
-      <Label>Attribute: </Label>
-      <Select 
-        value={selectedAttribute}
-        onChange={(e) => {
-          setColoration({
-            facet: selectedFacet, 
-            attribute: e.target.value
-          }, facets);
-        }}>
-        <option key={-1}>N/A</option>
-        {attributes.map(
-          (attribute, i) => 
-            <option key={i}>{attribute}</option>
-        )}
-      </Select>
-    </div>
-  );
-}
-
 
 const StoryPicker = ({onSelectStory, story}) => {
   return (
@@ -1043,7 +991,7 @@ const IndexPage = () => {
           columns={[2, '1fr 1fr']}>
             <div>
               <StoryPicker onSelectStory={onSelectStory} story={story} />
-              <RenderingEditor 
+              <RenderingControls 
                 layers={layers} 
                 facets={facets} 
                 setColoration={setColoration}
