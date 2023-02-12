@@ -461,6 +461,11 @@ let firstLoad = true;
 // TODO: something to demonstrate the school funding stuff
   // underfundedness
 
+// TODO the color picker control doesn't know the difference between attribute classes
+//    i.e. categorical/diverging/uniform
+
+// TODO there are a lot more color schems at https://github.com/d3/d3-scale-chromatic
+
 // TODO: something about ADA compliance (sidewalks)
 
 // TODO naacp chapters
@@ -470,8 +475,6 @@ let firstLoad = true;
 // historical stuff around bb. is there a way to get a list of historical markers?
     // carve this out into a separate page/app on my website?
     // list out neighborhoods, churches, events
-
-//todo color range changer
     
 /*
 underfunded
