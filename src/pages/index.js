@@ -171,7 +171,35 @@ const sourceData = [
     source: '/static/Montgomery_County_Municipal_Boundaries.geojson',
     nameAttribute: 'Name',
     whereObtained: 'Montgomery County Public Datasets',
-    nameProcessor: trim
+    nameProcessor: (name, record) => 
+      name.replace(' Twp', '') +
+         ' ' + record['Municipal_Class']
+        .replace('1st Class', '')
+        .replace('2nd Class', '')
+        .toLowerCase().trim(),
+    attributeSource: '/static/municipalities/data.tsv',
+    attributeSourceKey: 'Municipality',
+    // TODO source some attributes from the geojson
+    // like Municipal_Class
+    attributeCategoryTypes: {
+      '2020': 'Ordered',
+      '2010': 'Ordered',
+      'Percent Change': 'Ordered',
+      'Environmental Action Communitee': 'Categorical',
+      'Human Rights Comittee': 'Categorical'
+    },
+    attributeNumericAttributes: [
+      '2020',
+      '2010',
+      'Percent Change'
+    ],
+    attributesToDisplay: [
+      '2020',
+      '2010',
+      'Percent Change',
+      'Environmental Action Communitee',
+      'Human Rights Comittee'
+    ]
   },
   {
     name: 'School District',
@@ -485,6 +513,17 @@ let firstLoad = true;
   // underfundedness
   
 // labor stats
+// scraper for special ed data, i.e https://penndata.hbg.psu.edu/Public-Reporting/Data-at-a-Glance
+
+// split out the sheets:
+//    historically black churches (suburban baptist assn)
+//    historical markers / events / black achievements
+
+// a website w/ findings to show the value - blog type thing...
+
+// think about data protection
+
+// some commentary / policies on ethics - written up
 
 // historical stuff around bb. is there a way to get a list of historical markers?
     // carve this out into a separate page/app on my website?
@@ -738,7 +777,8 @@ const IndexPage = () => {
                   geojson.features.map(
                     (value) => {
                       value.properties[facet.nameAttribute] = facet.nameProcessor(
-                        value.properties[facet.nameAttribute]
+                        value.properties[facet.nameAttribute],
+                        value.properties
                       );
                     }
                   );
@@ -866,7 +906,14 @@ const IndexPage = () => {
                           return 'Unlinked Data - ???';
                         }
 
-                        const attributeValue = attributesForSelected[attr];
+                        // attributeNumericAttributes
+
+                        let attributeValue = attributesForSelected[attr];
+
+                        if (layer.attributeNumericAttributes.indexOf(attr) > 0) {
+                          attributeValue = attributeValue.toLocaleString('en-US')
+                        }
+
                         tooltipContents += '<b>' + attr + '</b>: ' + attributeValue + '<br />';
                       }
                     );
