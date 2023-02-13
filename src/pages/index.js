@@ -268,18 +268,36 @@ const sourceData = [
     citation: 'https://data-montcopa.opendata.arcgis.com/datasets/ea654fc7b22f4039a8c3e1e85bcf868f_0/explore?location=40.210302%2C-75.353586%2C10.69',
     nameProcessor: trim
   },
+  {
+    // TODO get the voting info out of these files
+    name: 'PA Senate District',
+    key: '7',
+    loaded: false,
+    source: '/static/Montgomery_County_PA_Senate_Districts_-_2022.geojson',
+    nameAttribute: 'District',
+    whereObtained: 'Montgomery County Public Datasets',
+    citation: 'https://data-montcopa.opendata.arcgis.com/datasets/montcopa::montgomery-county-pa-senate-districts-2022-1/explore?location=40.210380%2C-75.353586%2C10.94',
+    nameProcessor: (name) => name + ''
+  },
+  {
+    name: 'PA House District',
+    key: '8',
+    loaded: false,
+    source: '/static/Montgomery_County_PA_House_Districts_-_2022.geojson',
+    nameAttribute: 'District',
+    whereObtained: 'Montgomery County Public Datasets',
+    citation: 'https://data-montcopa.opendata.arcgis.com/datasets/montcopa::montgomery-county-pa-house-districts-2022-1/explore?location=40.210380%2C-75.353586%2C10.94',
+    nameProcessor: (name) => name + ''
+  }
   /*{
     // TODO what is this for?
     name: 'JPO Districts',
-    key: 7,
+    key: 9,
     loaded: false,
     source: '/static/Montgomery_County_-_JPO_Districts.geojson',
     nameAttribute: 'Name',
     nameProcessor: trim
   }*/
-  /*
-    TODO legislative districts
-  */
  /* TODO Libraries */
  /* TODO NAACPs */
 ];
@@ -453,11 +471,17 @@ let firstLoad = true;
 // TODO coloration control for the parts of a story
 // TODO facet control for parts of a story
 // TODO a feature to select all overlapping items between the different levels of government
-// TODO categorical facet coloring broke...
 // TODO story with points doesn't clear when you switch off it
+
+// TODO environmental data: https://gis.dep.pa.gov/esaSearch/
+// TODO special ed data: https://penndata.hbg.psu.edu/Public-Reporting/Data-at-a-Glance
+// TODO: is there more than one superfund thing? https://www.arcgis.com/home/item.html?id=8f9d8703b4c94d36804a3031f397bc98
 
 // TODO There is some sort of major issue w/ switching between "story" mode and regular mode
 //      the colors don't reset and also the range legend doesn't work on the regular one
+
+// TODO this site (originally census data) has info on race, housing:
+//   https://pasdc.hbg.psu.edu/Census-2020-Dashboards/Census-2020-Municipal-Data
 
 // TODO React Router
 // TODO Stories
