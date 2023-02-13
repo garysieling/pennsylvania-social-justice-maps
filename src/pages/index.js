@@ -186,7 +186,12 @@ const sourceData = [
       '2010': 'Ordered',
       'Percent Change': 'Ordered',
       'Environmental Action Communitee': 'Categorical',
-      'Human Rights Comittee': 'Categorical'
+      'Human Rights Comittee': 'Categorical',
+      'Municipal Class': 'Categorical',
+      // TODO - attributes like population / square miles
+      //        should just exist for every shapefile and be
+      //        normalized or else this is going to make analysis a pain
+      'Square Miles': 'Ordered'
     },
     attributeNumericAttributes: [
       '2020',
@@ -198,7 +203,9 @@ const sourceData = [
       '2010',
       'Percent Change',
       'Environmental Action Communitee',
-      'Human Rights Comittee'
+      'Human Rights Comittee',
+      'Municipal Class',
+      'Square Miles'
     ]
   },
   {
@@ -457,6 +464,8 @@ let firstLoad = true;
     // Spider chart (a graph)
     // or just tie these to areas
         // maybe some kind of workflow that lets you pick?
+
+// todo a cronological view
 
 // A mechanism to turn a list of addresses into an anonmyized dataset
   // or tag to the facets?
