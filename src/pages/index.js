@@ -269,7 +269,6 @@ const sourceData = [
     nameProcessor: trim
   },
   {
-    // TODO get the voting info out of these files
     name: 'PA Senate District',
     key: '7',
     loaded: false,
@@ -277,7 +276,41 @@ const sourceData = [
     nameAttribute: 'District',
     whereObtained: 'Montgomery County Public Datasets',
     citation: 'https://data-montcopa.opendata.arcgis.com/datasets/montcopa::montgomery-county-pa-senate-districts-2022-1/explore?location=40.210380%2C-75.353586%2C10.94',
-    nameProcessor: (name) => name + ''
+    nameProcessor: (name) => name + '',
+    attributeSource: '/static/Data Sheets - PA Senate.csv',
+    attributeSourceKey: 'District',
+    attributeCategoryTypes: {
+      '2020 Population': 'Ordered',
+      'Registered Voters': 'Ordered',
+      'Registered Democrats': 'Ordered',
+      'Registered Republicans': 'Ordered',
+      'Registered Independents': 'Ordered', 
+      'Registered Other': 'Ordered',
+      // the values don't add up?
+      //'Square Miles': 'Ordered'
+    },
+    attributeNumericAttributes: [
+      '2020 Population',
+      'Registered Voters',
+      'Registered Democrats',
+      'Registered Republicans',
+      'Registered Independents',
+      'Registered Other',
+      // the values don't add up?
+      //'Square Miles'
+    ],
+    attributesToDisplay: [
+      '2020 Population',
+      'Representative', 
+      'Home County',
+      'Representative Party', 
+      'Registered Voters',
+      'Registered Democrats',	
+      'Registered Republicans',
+      'Registered Independents',	
+      'Registered Other',
+      'Square Miles'
+    ]
   },
   {
     name: 'PA House District',
@@ -287,7 +320,42 @@ const sourceData = [
     nameAttribute: 'District',
     whereObtained: 'Montgomery County Public Datasets',
     citation: 'https://data-montcopa.opendata.arcgis.com/datasets/montcopa::montgomery-county-pa-house-districts-2022-1/explore?location=40.210380%2C-75.353586%2C10.94',
-    nameProcessor: (name) => name + ''
+    nameProcessor: (name) => name + '',
+    attributeSource: '/static/Data Sheets - PA House.csv',
+    attributeSourceKey: 'District',
+    attributeCategoryTypes: {
+      '2020 Population': 'Ordered',
+      'Registered Voters': 'Ordered',
+      'Registered Democrats': 'Ordered',
+      'Registered Republicans': 'Ordered',
+      'Registered Independents': 'Ordered', 
+      'Registered Other': 'Ordered',
+      // the values don't add up?
+      //'Square Miles': 'Ordered'
+    },
+    attributeNumericAttributes: [
+      '2020 Population',
+      'Registered Voters',
+      'Registered Democrats',
+      'Registered Republicans',
+      'Registered Independents',
+      'Registered Other',
+      // the values don't add up?
+      //'Square Miles'
+    ],
+    attributesToDisplay: [
+      '2020 Population',
+      'Representative',
+      'Home County',
+      'Representative Party', 
+      'Registered Voters',
+      'Registered Democrats',	
+      'Registered Republicans',
+      'Registered Independents',	
+      'Registered Other',
+      // the values don't add up?
+      //'Square Miles'
+    ]
   }
   /*{
     // TODO what is this for?
@@ -472,6 +540,11 @@ let firstLoad = true;
 // TODO facet control for parts of a story
 // TODO a feature to select all overlapping items between the different levels of government
 // TODO story with points doesn't clear when you switch off it
+
+// TODO range control in the legend should have commas
+
+// TODO need ratios / support for ratios
+// TODO house/senate should be alpha
 
 // TODO environmental data: https://gis.dep.pa.gov/esaSearch/
 // TODO special ed data: https://penndata.hbg.psu.edu/Public-Reporting/Data-at-a-Glance
