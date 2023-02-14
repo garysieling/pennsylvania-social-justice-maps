@@ -58,7 +58,30 @@ const Facets = ({layers, facets, facetClicker, facetItemClicker}) => {
                   </Label>
                   <ul style={listStyles}>
                     {
-                      facet.geojson.features.filter(
+                      facet.geojson.features.sort(
+                        (featureA, featureB) => {
+                          let nameA = featureA.properties[facet.nameAttribute];
+                          let nameB = featureB.properties[facet.nameAttribute];
+
+                          // Needed for house/senate districts
+                          if (parseInt(nameA) && parseInt(nameB)) {
+                            nameA = parseInt(nameA);
+                            nameB = parseInt(nameB);
+                          }
+
+                          if (nameA > nameB) {
+                            return 1;
+                          }
+
+                          if (nameA < nameB) {
+                            return -1;
+                          }
+
+                          if (nameA === nameB) {
+                            return 0;
+                          }
+                        }
+                      ).filter(
                         (value, index) => 
                           index < showMoreCount ||
                             facet.geojson.features.length <= showAllCount ||

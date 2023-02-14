@@ -43,6 +43,8 @@ import Description from './components/Description';
 import RenderingControls from './components/RenderingControls';
 import Facets from './components/Facets';
 
+import turf from 'turf';
+
 const position = [40.1546, -75.2216];
 const zoom = 12;
 
@@ -533,6 +535,12 @@ stories.filter(
 
 let firstLoad = true;
 
+// Things that make this "special"
+    // compute areas of all the geojsons
+    // match areas to census units, so everything has base population data
+    // ability to link a database of addresses to each grouping (intersection of addresses and social institutions)
+    // ability to find intersecting entities
+
 
 // TODO overlay description for the whole story
 // TODO overlay description for each segment of the story
@@ -1003,6 +1011,9 @@ const IndexPage = () => {
                   const clickedItemName = feature.properties[layer.nameAttribute];
                   let tooltipContents = '<b>' + layer.name + '</b>: ' + clickedItemName + '<br />';
                  
+                  const totalArea = (turf.area(feature) * 3.861E-7).toFixed(1);
+                  tooltipContents += '<b>Area:</b> ' + totalArea + ' square miles <br />'
+                
                   if (layer.attributesToDisplay) {
                     const theseAttributes = layer.attributes[clickedItemName];
                     layer.attributesToDisplay.map(

@@ -31,6 +31,7 @@
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.2.0",
     "react-leaflet-kml": "^2.1.1",
-    "theme-ui": "^0.15.4"
+    "theme-ui": "^0.15.4",
+    "turf": "^3.0.14"
   }
 }
