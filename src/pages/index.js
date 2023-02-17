@@ -38,10 +38,10 @@ import {
 
 import * as COLOR_SCHEMES from 'd3-scale-chromatic';
 
-import Legend from './components/Legend';
-import Description from './components/Description';
-import RenderingControls from './components/RenderingControls';
-import Facets from './components/Facets';
+import Legend from '../components/Legend';
+import Description from '../components/Description';
+import RenderingControls from '../components/RenderingControls';
+import Facets from '../components/Facets';
 
 import turf from 'turf';
 
