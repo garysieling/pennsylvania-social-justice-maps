@@ -785,6 +785,8 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
 }
 
 const IndexPage = () => {
+  console.time("render");
+
   const [facets, updateFacets] = React.useState({});
   const [story, selectStory] = React.useState('N/A');
   const [coloration, setColorStrategy] = React.useState({});
@@ -792,6 +794,7 @@ const IndexPage = () => {
   const [description, setDescription] = React.useState('');
 
   function setColoration({facet, attribute, rangeColorScheme}) {
+    console.time("setColoration");
     const colorFn = COLOR_SCHEMES[rangeColorScheme] || COLOR_SCHEMES.interpolatePlasma;
 
     const colorationResults = recomputeColoration({facet, attribute}, colorFn, facets);
@@ -803,9 +806,12 @@ const IndexPage = () => {
     });
 
     setLegend(colorationResults.legend);
+    console.timeEnd("setColoration");
   }
 
   function onSelectStory(e) {
+    console.time("onSelectStory");
+
     const storyName = e.target.value;
     let description = '';
     let newLegend = cloneDeep(DEFAULT_LEGEND);
@@ -866,6 +872,8 @@ const IndexPage = () => {
     selectStory(storyName);
     updateFacets(facets);
     setDescription(description);
+
+    console.timeEnd("onSelectStory");
   }
 
   React.useEffect(
@@ -879,6 +887,7 @@ const IndexPage = () => {
               fetch(facet.source)
                 .then(res => res.text())
                 .then(jsonText => {
+                  console.time("process " + facet.name);
                   const geojson = JSON.parse(jsonText);
 
                   geojson.features.map(
@@ -889,6 +898,31 @@ const IndexPage = () => {
                       );
                     }
                   );
+
+                  geojson.features.sort(
+                    (featureA, featureB) => {
+                      let nameA = featureA.properties[facet.nameAttribute];
+                      let nameB = featureB.properties[facet.nameAttribute];
+
+                      // Needed for house/senate districts
+                      if (parseInt(nameA) && parseInt(nameB)) {
+                        nameA = parseInt(nameA);
+                        nameB = parseInt(nameB);
+                      }
+
+                      if (nameA > nameB) {
+                        return 1;
+                      }
+
+                      if (nameA < nameB) {
+                        return -1;
+                      }
+
+                      if (nameA === nameB) {
+                        return 0;
+                      }
+                    }
+                  )
 
                   facet.loaded = true;
 
@@ -926,6 +960,8 @@ const IndexPage = () => {
                       }
                     }
                   )
+
+                  console.timeEnd("process " + facet.name);
                 })
           )
         ).then(
@@ -938,9 +974,11 @@ const IndexPage = () => {
   )
 
   const facetClicker = (e) => {
+    console.time("facetClicker");
     const facetName = e.target.dataset.facetname;
 
-    const newFacets = cloneDeep(facets);
+    //const newFacets = cloneDeep(facets);
+    const newFacets = Object.assign({}, facets);
     Object.keys(newFacets[facetName].values)
       .map(
         key => {
@@ -955,13 +993,16 @@ const IndexPage = () => {
     }
     
     updateFacets(newFacets);
+    console.timeEnd("facetClicker");
   } 
 
   const facetItemClicker = (e) => {
+    console.time("facetItemClicker");
     const facetName = e.target.dataset.facetname;
     const facetValue = e.target.dataset.facetvalue;
 
-    const newFacets = cloneDeep(facets);
+    //const newFacets = cloneDeep(facets);
+    const newFacets = Object.assign({}, facets);
     newFacets[facetName].values[facetValue].selected = e.target.checked;
 
     if (e.target.checked) {
@@ -973,6 +1014,7 @@ const IndexPage = () => {
     }
 
     updateFacets(newFacets);
+    console.timeEnd("facetItemClicker");
   }
 
   const layers = Object.keys(facets)
@@ -985,14 +1027,19 @@ const IndexPage = () => {
       (layer) => layer.visible
     ).map(
       (layer) => {
+        const filteredGeojson = Object.assign({},layer.geojson);
+
+        filteredGeojson.features = filteredGeojson.features.filter(
+          (feature) => {
+            const facetValue = feature.properties[layer.nameAttribute];
+
+            return facets[layer.name].values[facetValue].selected;
+          }
+        );
+
         return (
           <GeoJSON
             key={layer.name + (cacheBuster++)}
-            filter={(segment, index) => {
-              const facetValue = segment.properties[layer.nameAttribute];
-
-              return facets[layer.name].values[facetValue].selected;
-            }}
             onEachFeature={(feature, leafletLayer) => {
                 const popupOptions = {
                     minWidth: 100,
@@ -1044,7 +1091,7 @@ const IndexPage = () => {
                 };
               }
             }
-            data={layer.geojson} />
+            data={filteredGeojson} />
         );
       }
     );

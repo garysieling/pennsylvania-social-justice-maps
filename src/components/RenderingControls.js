@@ -4,10 +4,6 @@ import {
   Select
 } from "theme-ui";
 
-const categoricalColorSchems = [
-  {name: 'schemeTableau10', label: 'Tableau'}
-]
-
 const rangeColorSchemes = [
   { name: 'interpolateSpectral', label: 'Spectral'},
   { name: 'interpolateRdGy', label: 'Red<->Gray'},
