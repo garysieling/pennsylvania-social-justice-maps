@@ -43,7 +43,7 @@ import Description from '../components/Description';
 import RenderingControls from '../components/RenderingControls';
 import Facets from '../components/Facets';
 
-import turf from 'turf';
+import area from '@turf/area';
 
 const position = [40.1546, -75.2216];
 const zoom = 12;
@@ -1011,7 +1011,7 @@ const IndexPage = () => {
                   const clickedItemName = feature.properties[layer.nameAttribute];
                   let tooltipContents = '<b>' + layer.name + '</b>: ' + clickedItemName + '<br />';
                  
-                  const totalArea = (turf.area(feature) * 3.861E-7).toFixed(1);
+                  const totalArea = (area(feature) * 3.861E-7).toFixed(1);
                   tooltipContents += '<b>Area:</b> ' + totalArea + ' square miles <br />'
                 
                   if (layer.attributesToDisplay) {
