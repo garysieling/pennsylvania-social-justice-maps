@@ -11,7 +11,6 @@ import {
   Polyline
 } from "react-leaflet";
 
-import hash from "object-hash";
 import { 
   Checkbox, 
   Grid, 
@@ -143,7 +142,7 @@ const links = [
 ]
 
 let j = 0;
-let trim = (value) => value.trim();
+let trim = (value) => (value + '').trim();
 
 
 const sourceData = [
@@ -151,9 +150,9 @@ const sourceData = [
     name: 'County',
     key: '1',
     loaded: false,
-    source: '/static/Montgomery_County_Boundary.geojson',
-    nameAttribute: 'Name',
-    whereObtained: 'Montgomery County Public Datasets',
+    source: '/static/Counties.geojson',
+    nameAttribute: 'co_name',
+    whereObtained: 'Chester County Public Datasets',
     nameProcessor: trim
   },
   {
@@ -170,17 +169,12 @@ const sourceData = [
     name: 'Municipality',
     key: '3',
     loaded: false,
-    source: '/static/Montgomery_County_Municipal_Boundaries.geojson',
-    nameAttribute: 'Name',
-    whereObtained: 'Montgomery County Public Datasets',
-    nameProcessor: (name, record) => 
-      name.replace(' Twp', '') +
-         ' ' + record['Municipal_Class']
-        .replace('1st Class', '')
-        .replace('2nd Class', '')
-        .toLowerCase().trim(),
+    source: '/static/Municipalities.geojson',
+    nameAttribute: 'mun_name',
+    whereObtained: 'Chester County Public Datasets',
+    nameProcessor: trim,
     attributeSource: '/static/municipalities/data.tsv',
-    attributeSourceKey: 'Municipality',
+    attributeSourceKey: 'Name',
     // TODO source some attributes from the geojson
     // like Municipal_Class
     attributeCategoryTypes: {
@@ -274,87 +268,86 @@ const sourceData = [
     name: 'PA Senate District',
     key: '7',
     loaded: false,
-    source: '/static/Montgomery_County_PA_Senate_Districts_-_2022.geojson',
-    nameAttribute: 'District',
+    source: '/static/Pennsylvania_State_Senate_Boundaries.geojson',
+    nameAttribute: 'leg_distri',
     whereObtained: 'Montgomery County Public Datasets',
     citation: 'https://data-montcopa.opendata.arcgis.com/datasets/montcopa::montgomery-county-pa-senate-districts-2022-1/explore?location=40.210380%2C-75.353586%2C10.94',
     nameProcessor: (name) => name + '',
     attributeSource: '/static/Data Sheets - PA Senate.csv',
     attributeSourceKey: 'District',
     attributeCategoryTypes: {
-      '2020 Population': 'Ordered',
-      'Registered Voters': 'Ordered',
-      'Registered Democrats': 'Ordered',
-      'Registered Republicans': 'Ordered',
-      'Registered Independents': 'Ordered', 
-      'Registered Other': 'Ordered',
+      //'2020 Population': 'Ordered',
+      //'Registered Voters': 'Ordered',
+      //'Registered Democrats': 'Ordered',
+      //'Registered Republicans': 'Ordered',
+      //'Registered Independents': 'Ordered', 
+      //'Registered Other': 'Ordered',
       // the values don't add up?
       //'Square Miles': 'Ordered'
     },
     attributeNumericAttributes: [
-      '2020 Population',
-      'Registered Voters',
-      'Registered Democrats',
-      'Registered Republicans',
-      'Registered Independents',
-      'Registered Other',
+      //'2020 Population',
+     // 'Registered Voters',
+     // 'Registered Democrats',
+     // 'Registered Republicans',
+     // 'Registered Independents',
+     // 'Registered Other',
       // the values don't add up?
       //'Square Miles'
     ],
     attributesToDisplay: [
-      '2020 Population',
-      'Representative', 
-      'Home County',
-      'Representative Party', 
-      'Registered Voters',
-      'Registered Democrats',	
-      'Registered Republicans',
-      'Registered Independents',	
-      'Registered Other',
-      'Square Miles'
+      //'2020 Population',
+      //'Representative', 
+      //'Home County',
+      //'Representative Party', 
+      //'Registered Voters',
+      //'Registered Democrats',	
+      //'Registered Republicans',
+      //'Registered Independents',	
+      //'Registered Other',
+      //'Square Miles'
     ]
   },
   {
     name: 'PA House District',
     key: '8',
     loaded: false,
-    source: '/static/Montgomery_County_PA_House_Districts_-_2022.geojson',
-    nameAttribute: 'District',
-    whereObtained: 'Montgomery County Public Datasets',
-    citation: 'https://data-montcopa.opendata.arcgis.com/datasets/montcopa::montgomery-county-pa-house-districts-2022-1/explore?location=40.210380%2C-75.353586%2C10.94',
+    source: '/static/Pennsylvania_State_House_Boundaries.geojson',
+    nameAttribute: 'leg_distri',
+    whereObtained: 'PA Public Datasets',
     nameProcessor: (name) => name + '',
     attributeSource: '/static/Data Sheets - PA House.csv',
     attributeSourceKey: 'District',
     attributeCategoryTypes: {
-      '2020 Population': 'Ordered',
-      'Registered Voters': 'Ordered',
-      'Registered Democrats': 'Ordered',
-      'Registered Republicans': 'Ordered',
-      'Registered Independents': 'Ordered', 
-      'Registered Other': 'Ordered',
+      //'2020 Population': 'Ordered',
+      //'Registered Voters': 'Ordered',
+      //'Registered Democrats': 'Ordered',
+      //'Registered Republicans': 'Ordered',
+      //'Registered Independents': 'Ordered', 
+      //'Registered Other': 'Ordered',
       // the values don't add up?
       //'Square Miles': 'Ordered'
     },
     attributeNumericAttributes: [
-      '2020 Population',
-      'Registered Voters',
-      'Registered Democrats',
-      'Registered Republicans',
-      'Registered Independents',
-      'Registered Other',
+      //'2020 Population',
+      //'Registered Voters',
+      //'Registered Democrats',
+      //'Registered Republicans',
+      //'Registered Independents',
+      //'Registered Other',
       // the values don't add up?
       //'Square Miles'
     ],
     attributesToDisplay: [
-      '2020 Population',
-      'Representative',
-      'Home County',
-      'Representative Party', 
-      'Registered Voters',
-      'Registered Democrats',	
-      'Registered Republicans',
-      'Registered Independents',	
-      'Registered Other',
+      //'2020 Population',
+      //'Representative',
+      //'Home County',
+      //'Representative Party', 
+      //'Registered Voters',
+      //'Registered Democrats',	
+      //'Registered Republicans',
+      //'Registered Independents',	
+      //'Registered Other',
       // the values don't add up?
       //'Square Miles'
     ]
