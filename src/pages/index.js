@@ -174,7 +174,7 @@ const sourceData = [
     whereObtained: 'Chester County Public Datasets',
     nameProcessor: trim,
     attributeSource: '/static/municipalities/data.tsv',
-    attributeSourceKey: 'Name',
+    attributeSourceKey: 'Municipality',
     // TODO source some attributes from the geojson
     // like Municipal_Class
     attributeCategoryTypes: {
