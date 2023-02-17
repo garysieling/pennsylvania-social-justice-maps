@@ -18,6 +18,8 @@
     "@emotion/react": "^11.10.5",
     "@mdx-js/react": "^2.2.1",
     "@theme-ui/mdx": "^0.15.4",
+    "@turf/area": "^6.5.0",
+    "@turf/intersect": "^6.5.0",
     "d3-scale-chromatic": "^3.0.0",
     "gatsby": "^5.3.3",
     "gatsby-plugin-react-leaflet": "^4.0.3",
@@ -31,7 +33,6 @@
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.2.0",
     "react-leaflet-kml": "^2.1.1",
-    "theme-ui": "^0.15.4",
-    "turf": "^3.0.14"
+    "theme-ui": "^0.15.4"
   }
 }
