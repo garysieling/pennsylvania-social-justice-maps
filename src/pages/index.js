@@ -213,15 +213,9 @@ const sourceData = [
     name: 'Police Department',
     key: '5',
     loaded: false,
-    source: '/static/Montgomery_County_Police_Districts.geojson',
+    source: '/static/Police.geojson',
     nameAttribute: 'Name',
-    whereObtained: 'Montgomery County Public Datasets',
-    nameProcessor: (name) => {
-      return name
-        .replace("Police Department", "")
-        .replace("Township", "")
-        .trim();
-    },
+    nameProcessor: trim,
     attributeSource: '/static/police/data.tsv',
     attributeSourceKey: 'Location',
     attributeCategoryTypes: {
@@ -546,6 +540,8 @@ let firstLoad = true;
 // TODO facet control for parts of a story
 // TODO a feature to select all overlapping items between the different levels of government
 // TODO story with points doesn't clear when you switch off it
+
+// rangers??
 
 // TODO range control in the legend should have commas
 
