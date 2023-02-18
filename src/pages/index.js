@@ -347,7 +347,16 @@ const sourceData = [
       // the values don't add up?
       //'Square Miles'
     ]
-  }
+  },
+  {
+    name: 'State Police',
+    key: '9',
+    loaded: false,
+    source: '/static/StatePolice.geojson',
+    nameAttribute: 'Troop',
+    whereObtained: 'https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=1691',
+    nameProcessor: trim
+  },
   /*{
     // TODO what is this for?
     name: 'JPO Districts',
@@ -1016,6 +1025,12 @@ const IndexPage = () => {
   const layers = Object.keys(facets)
     .map(
       (key) => facets[key]
+    ).filter(
+      (facet) => !!facet.geojson
+    ).sort(
+      (facetA, facetB) => 
+        facetA.geojson.features.length - 
+        facetB.geojson.features.length
     );
 
   const facetLayers = 
