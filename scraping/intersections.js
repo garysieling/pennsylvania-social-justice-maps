@@ -71,9 +71,9 @@ const layers = [
       name: 'School District',
       key: '4',
       loaded: false,
-      source: '/static/Montgomery_County_School_Districts.geojson',
-      nameAttribute: 'Name',
-      whereObtained: 'Montgomery County Public Datasets',
+      source: '/static/SchoolDistricts.geojson',
+      nameAttribute: 'school_nam',
+      whereObtained: 'PA Public Datasets',
       nameProcessor: trim
     },
     {
