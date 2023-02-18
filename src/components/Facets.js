@@ -29,7 +29,7 @@ const listItemStyles = {
 const showMoreCount = 5;
 const showAllCount = showMoreCount + 3;
 
-const Facets = ({layers, facets, facetClicker, facetItemClicker}) => {
+const Facets = ({layers, facets, facetClicker, facetItemClicker, getValueFromRow}) => {
     const [showMore, updateShowMore] = React.useState({});
 
     const toggleShowMore = (facetName) => {
@@ -65,7 +65,7 @@ const Facets = ({layers, facets, facetClicker, facetItemClicker}) => {
                             showMore[facet.name]
                       ).map(
                         (feature, index) => {
-                          const facetValue = feature.properties[facet.nameAttribute];
+                          const facetValue = getValueFromRow(feature.properties, facet.nameAttribute);
                           return (
                             <Label key={index} >
                               <Checkbox 

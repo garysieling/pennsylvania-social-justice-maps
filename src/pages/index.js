@@ -28,7 +28,7 @@ import {
   Switch
 } from "theme-ui";
 
-import { cloneDeep } from "lodash";
+import { cloneDeep, isObject } from "lodash";
 import Papa from "papaparse";
 
 import { 
@@ -181,12 +181,12 @@ const sourceData = [
     key: '3',
     loaded: false,
     source: '/static/Municipalities.geojson',
-    nameAttribute: 'mun_name',
+    nameAttribute: ['co_name', 'mun_name'],
     whereObtained: 'Chester County Public Datasets',
     nameProcessor: trim,
     attributeSource: '/static/municipalities/data.tsv',
     // TODO this needs TO JOIN ON BOTH COUNTY AND MUNICIPALITY OR THE FIPS CODE
-    attributeSourceKey: 'Municipality',
+    attributeSourceKey: ['County', 'Municipality'],
     // TODO source some attributes from the geojson
     // like Municipal_Class
     attributeCategoryTypes: {
@@ -216,7 +216,7 @@ const sourceData = [
     key: '4',
     loaded: false,
     source: '/static/SchoolDistricts.geojson',
-    nameAttribute: 'school_nam',
+    nameAttribute: ['cty_name', 'school_nam'],
     whereObtained: 'Montgomery County Public Datasets',
     nameProcessor: trim
   },
@@ -225,10 +225,10 @@ const sourceData = [
     key: '5',
     loaded: false,
     source: '/static/Police.geojson',
-    nameAttribute: 'Name',
+    nameAttribute: ['County', 'Name'],
     nameProcessor: trim,
     attributeSource: '/static/police/data.tsv',
-    attributeSourceKey: 'Location',
+    attributeSourceKey: ['County', 'Location'],
     attributeCategoryTypes: {
       'Pennsylvania Chief of Police Association Accreditation': 'Categorical',
       'Total Employees': 'Ordered',
@@ -441,6 +441,19 @@ let stories = [
   }
 ];
 
+function getValueFromRow(row, sourceKey) {
+  if (Array.isArray(sourceKey)) {
+    console.log('is array', sourceKey);
+    const result = sourceKey.map(
+      (key) => row[key]
+    ).join(" - ");
+
+    console.log('result', result);
+    return result;
+  } else {
+    return row[sourceKey];
+  }
+}
 
 sourceData.filter(
   (recordType) => !!recordType.attributeSource
@@ -461,8 +474,8 @@ sourceData.filter(
                 row[attribute] = parseFloat(row[attribute]) || 0;
               }
             )
-
-            recordType.attributes[row[recordType.attributeSourceKey]] = row;
+            
+            recordType.attributes[getValueFromRow(row, recordType.attributeSourceKey)] = row;
           }
         )
 
@@ -845,7 +858,7 @@ const IndexPage = () => {
         const facet = facets[facetName];
         facet.geojson.features.map(
           feature => {
-            const facetValue = feature.properties[facet.nameAttribute];
+            const facetValue = getValueFromRow(feature.properties, facet.nameAttribute);
             const selectedFacetFromStory = stories.filter(
                 (story) => story.loaded
               ).filter(
@@ -904,8 +917,9 @@ const IndexPage = () => {
 
                   geojson.features.map(
                     (value) => {
-                      value.properties[facet.nameAttribute] = facet.nameProcessor(
-                        value.properties[facet.nameAttribute],
+                      const name = getValueFromRow(value.properties, facet.nameAttribute)
+                      value.properties[name] = facet.nameProcessor(
+                        value.properties[name],
                         value.properties
                       );
                     }
@@ -913,8 +927,8 @@ const IndexPage = () => {
 
                   geojson.features.sort(
                     (featureA, featureB) => {
-                      let nameA = featureA.properties[facet.nameAttribute];
-                      let nameB = featureB.properties[facet.nameAttribute];
+                      let nameA = getValueFromRow(featureA.properties, facet.nameAttribute);
+                      let nameB = getValueFromRow(featureB.properties, facet.nameAttribute);
 
                       // Needed for house/senate districts
                       if (parseInt(nameA) && parseInt(nameB)) {
@@ -962,7 +976,7 @@ const IndexPage = () => {
 
                   geojson.features.map(
                     feature => {
-                      const facetValue = feature.properties[facet.nameAttribute];
+                      const facetValue = getValueFromRow(feature.properties, facet.nameAttribute);
 
                       let tileRenderColor = DEFAULT_BLUE;
 
@@ -1049,7 +1063,7 @@ const IndexPage = () => {
 
         filteredGeojson.features = filteredGeojson.features.filter(
           (feature) => {
-            const facetValue = feature.properties[layer.nameAttribute];
+            const facetValue = getValueFromRow(feature.properties, layer.nameAttribute);
 
             return facets[layer.name].values[facetValue].selected;
           }
@@ -1066,7 +1080,7 @@ const IndexPage = () => {
                 };
       
                 leafletLayer.bindPopup(()=>{
-                  const clickedItemName = feature.properties[layer.nameAttribute];
+                  const clickedItemName = getValueFromRow(feature.properties, layer.nameAttribute);
                   let tooltipContents = '<b>' + layer.name + '</b>: ' + clickedItemName + '<br />';
                  
                   const totalArea = (area(feature) * 3.861E-7).toFixed(1);
@@ -1099,7 +1113,7 @@ const IndexPage = () => {
             style={
               (reference) => {
                 const facetName = layer.name;
-                const facetValue = reference.properties[layer.nameAttribute];
+                const facetValue = getValueFromRow(reference.properties, layer.nameAttribute);
 
                 const colorFromFacet = facets[facetName].values[facetValue].tileRenderColor;
                 const defaultColor = DEFAULT_BLUE;
@@ -1165,6 +1179,7 @@ const IndexPage = () => {
           facets={facets}
           facetClicker={facetClicker}
           facetItemClicker={facetItemClicker}
+          getValueFromRow={getValueFromRow}
         />
       </aside>
       <main style={pageStyles}>
