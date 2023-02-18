@@ -13,6 +13,9 @@ const layer = [
     {
       source: 'Montgomery_County_Magisterial_Districts.geojson',
     },
+    {
+      source: 'Allegheny_County_Magisterial_Districts_Outlines.geojson'
+    }
   ].map(
     (layer) => {
         let geojson = JSON.parse(
@@ -33,6 +36,12 @@ const layer = [
               if (feature.properties.COURT_NUMBER) {
                 feature.properties.District = feature.properties.COURT_NUMBER;
                 delete feature.properties.COURT_NUMBER;
+              }
+
+              if (feature.properties.Magisterial_District) {
+                feature.properties.District = feature.properties.Magisterial_District.split(" ")[1];
+                delete feature.properties.Magisterial_District;
+                // Magisterial_District": "Magisterial District 05-3-03",
               }
 
               console.log('after', feature.properties);

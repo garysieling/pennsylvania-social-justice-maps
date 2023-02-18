@@ -159,7 +159,7 @@ const sourceData = [
     name: 'Zip',
     key: '2',
     loaded: false,
-    source: '/static/montco_zcta5.geojson',
+    source: '/static/zcta.geojson',
     nameAttribute: 'ZCTA5CE10',
     // https://www.zillow.com/browse/homes/pa/montgomery-county/
     whereObtained: 'Converted from https://www2.census.gov/geo/tiger/TIGER2019/ZCTA5/',
@@ -174,6 +174,7 @@ const sourceData = [
     whereObtained: 'Chester County Public Datasets',
     nameProcessor: trim,
     attributeSource: '/static/municipalities/data.tsv',
+    // TODO this needs TO JOIN ON BOTH COUNTY AND MUNICIPALITY OR THE FIPS CODE
     attributeSourceKey: 'Municipality',
     // TODO source some attributes from the geojson
     // like Municipal_Class
@@ -183,12 +184,7 @@ const sourceData = [
       'Percent Change': 'Ordered',
       'Environmental Action Communitee': 'Categorical',
       'Human Rights Comittee': 'Categorical',
-      'Municipal Class': 'Categorical',
-      // TODO - attributes like population / square miles
-      //        should just exist for every shapefile and be
-      //        normalized or else this is going to make analysis a pain
-      'Square Miles': 'Ordered'
-    },
+      'Municipal Class': 'Categorical'    },
     attributeNumericAttributes: [
       '2020',
       '2010',
@@ -208,8 +204,8 @@ const sourceData = [
     name: 'School District',
     key: '4',
     loaded: false,
-    source: '/static/Montgomery_County_School_Districts.geojson',
-    nameAttribute: 'Name',
+    source: '/static/SchoolDistricts.geojson',
+    nameAttribute: 'school_nam',
     whereObtained: 'Montgomery County Public Datasets',
     nameProcessor: trim
   },
@@ -255,10 +251,10 @@ const sourceData = [
     ]
   },
   {
-    name: 'Magesterial Court District',
+    name: 'Magesterial Courts',
     key: '6',
     loaded: false,
-    source: '/static/Montgomery_County_Magisterial_Districts.geojson',
+    source: '/static/MagesterialCourts.geojson',
     nameAttribute: 'District',
     whereObtained: 'Montgomery County Public Datasets',
     citation: 'https://data-montcopa.opendata.arcgis.com/datasets/ea654fc7b22f4039a8c3e1e85bcf868f_0/explore?location=40.210302%2C-75.353586%2C10.69',
