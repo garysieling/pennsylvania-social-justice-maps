@@ -152,8 +152,19 @@ const sourceData = [
     loaded: false,
     source: '/static/Counties.geojson',
     nameAttribute: 'co_name',
-    whereObtained: 'Chester County Public Datasets',
-    nameProcessor: trim
+    whereObtained: 'Public Datasets',
+    nameProcessor: trim,
+    attributeSource: '/static/Data Sheets - Counties.tsv',
+    attributeSourceKey: 'Name',
+    attributeCategoryTypes: {
+      'Constables': 'Ordered'
+    },
+    attributeNumericAttributes: [
+      'Constables'
+    ],
+    attributesToDisplay: [
+      'Constables'
+    ]
   },
   {
     name: 'Zip',
@@ -161,8 +172,8 @@ const sourceData = [
     loaded: false,
     source: '/static/zcta.geojson',
     nameAttribute: 'ZCTA5CE10',
-    // https://www.zillow.com/browse/homes/pa/montgomery-county/
-    whereObtained: 'Converted from https://www2.census.gov/geo/tiger/TIGER2019/ZCTA5/',
+    // https://www.pccdcis.pa.gov/CCETS/Public/ConstableFinder.aspx
+    whereObtained: 'Converted from https://www.pccdcis.pa.gov/CCETS/Public/ConstableFinder.aspx',
     nameProcessor: trim
   },
   {
@@ -589,7 +600,7 @@ let firstLoad = true;
 // TODO: something around the building of the food co-op
 
 // TODO: there are sheriffs and constables - independent of police?
-
+// Extract this in tabular form https://en.wikipedia.org/wiki/Pennsylvania_State_Constables
 // TODO: something around historic preservation
 
 // TODO: something around the borough hall move
@@ -747,7 +758,7 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
       ).map(
         (facetValue) => {
           const value = (facets[facet].attributes[facetValue] || {})[attribute];
-          if (value) {
+          if (value !== null && value !== undefined) {
             if (legend.min == null) {
               legend.min = value;
             }
