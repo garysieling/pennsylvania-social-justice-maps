@@ -42,6 +42,9 @@ const layer = [
     },
     {
       source: 'BucksCountyPolice.geojson'
+    },
+    {
+      source: 'DelawareCountyPolice.geojson'
     }
   ].map(
     (layer) => {
