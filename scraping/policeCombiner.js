@@ -40,7 +40,9 @@ const layer = [
       // Chester
       source: 'Police_Response_Territory.geojson',
     },
-   
+    {
+      source: 'BucksCountyPolice.geojson'
+    }
   ].map(
     (layer) => {
         let geojson = JSON.parse(
@@ -64,8 +66,9 @@ const layer = [
                           .replace("Township", "")
                           .trim();
 
-                feature.properties.County = 'Montgomery';
-
+                if (!feature.properties.County) {
+                  feature.properties.County = 'Montgomery';
+                }
                 return feature;
               }
               else if (feature.properties.DEPT_NAME) {
