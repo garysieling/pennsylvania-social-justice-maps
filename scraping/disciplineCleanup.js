@@ -41,7 +41,7 @@ function groupBy(
         seen[key].push(row);
     }
 
-    console.log('seen', seen);
+    //console.log('seen', seen);
 
     return Object.keys(seen).flatMap(
         (key) => {
@@ -59,7 +59,7 @@ function groupBy(
 
 }
 
-function join(ds1, ds2, name1, name2, key) {
+function join(ds1, ds2, name1, name2, key,) {
     const seen = {
 
     };
@@ -70,7 +70,7 @@ function join(ds1, ds2, name1, name2, key) {
         seen[keyValue][key] = keyValue;
         
         for (var j = 0; j < numberColumns.length; j++) {
-            seen[keyValue][name1 + ': ' + numberColumns[j]] =
+            seen[keyValue][name1 + numberColumns[j]] =
                 ds1[i][numberColumns[j]];
         }
     }
@@ -79,13 +79,12 @@ function join(ds1, ds2, name1, name2, key) {
         const keyValue = ds2[i][key];
         
         for (var j = 0; j < numberColumns.length; j++) {
-            seen[keyValue][name2 + ': ' + numberColumns[j]] =
+            seen[keyValue][name2 + numberColumns[j]] =
                 ds2[i][numberColumns[j]];
 
             seen[keyValue]['percent: ' + numberColumns[j]] =
-                100.0 * seen[keyValue][name1 + ': ' + numberColumns[j]] /
+                100.0 * seen[keyValue][name1 + numberColumns[j]] /
                 ds2[i][numberColumns[j]];
-
         }
     }
 
@@ -142,13 +141,19 @@ Papa.parse(data, {
 
         // Total enrollment
         const totalEnrollment = results.filter(
-            ({Category}) =>
-                Category === 'Total enrollment'
+            ({Category, Year}) =>
+                Category === 'Total enrollment' && 
+                Year === '2000'
         );
 
         const punishments = results.filter(
             ({Category}) =>
                 Category !== 'Total enrollment'
+        );
+
+        const cumulativeTotalEnrollment = results.filter(
+            ({Category}) =>
+                Category === 'Total enrollment'
         );
 
         const cumulativePunishments = groupBy(
@@ -167,7 +172,7 @@ Papa.parse(data, {
         ) // change the numbers to per capita
 
         const cumulativePopulation = groupBy(
-            totalEnrollment,
+            cumulativeTotalEnrollment,
             ['LEA'],
             (row1, row2) => {
                 const result = {};
@@ -181,24 +186,82 @@ Papa.parse(data, {
             }    
         );
 
-        const result = join(
-            cumulativePunishments,
-            cumulativePopulation,
-            'discipline',
-            'cumulative',
-            'LEA'
+        const result = 
+            join(
+                cumulativePunishments,
+                cumulativePopulation,
+                'discipline: ',
+                'cumulative: ',
+                'LEA'
+            ).map(
+                (result) => {
+                    const var1 = result['percent: Black'];
+                    const var2 = result['percent: White'];
+
+                    result['Ratio of black to white discipline'] = var1 / var2;
+
+                    return result;
+                }
+            );
+
+        const LEAs = {};
+        totalEnrollment.forEach(
+            (row) => {
+                LEAs[row.LEA] = row;
+            }
+        );
+
+        const newResult = result.map(
+            (row) => {
+                return Object.assign(
+                    row,
+                    LEAs[row.LEA]
+                )
+            }
         ).map(
-            (result) => {
-                const var1 = result['percent: Black'];
-                const var2 = result['percent: White'];
+            (row) => {
+                row.LEA = row.LEA.trim();
 
-                result['Ratio of black to white discipline'] = var1 / var2;
+                const replacements = {
+                    "LOWER MORELAND TOWNSHIP": "Lower Moreland",
+                    "ABINGTON": "Abington",
+                    "POTTSGROVE": "Pottsgrove",
+                    "BOYERTOWN AREA": "Boyertown",
+                    "UPPER MERION AREA": "Upper Merion",
+                    "UPPER PERKIOMEN": "Upper Perkiomen",
+                    "UPPER DUBLIN": "Upper Dublin",
+                    "POTTSTOWN": "Pottstown",
+                    "NORRISTOWN AREA": "Norristown",
+                    "SOUDERTOWN AREA": "Souderton",
+                    "SPRINGFIELD TOWNSHIP": "Springfield Township",
+                    "SPRING-FORD AREA": "Spring-Ford",
+                    "HATBORO-HORSHAM": "Hatboro-Horsham",
+                    "NORTH PENN": "North Penn",
+                    "CENTRAL BUCKS": "Central Bucks"
+                };
 
-                return result;
+                if (replacements[row.LEA]) {
+                    row.LEA = replacements[row.LEA];
+                }
+
+                return row;
             }
         )
 
-        //console.log('joined results', result);
-        fs.writeFileSync('../public/to incorporate/discipline.json', JSON.stringify(result));
+
+
+        const csv = Papa.unparse(newResult, {
+            //quotes: false, //or array of booleans
+            quoteChar: '"',
+            escapeChar: '"',
+            delimiter: ",",
+            header: true,
+            newline: "\r\n",
+            //skipEmptyLines: false, //other option is 'greedy', meaning skip delimiters, quotes, and whitespace.
+            //columns: null //or array of strings        
+        });
+
+        console.log('joined results', csv);
+        fs.writeFileSync('../public/static/SchoolDistricts.csv', csv);
     }
   });

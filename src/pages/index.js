@@ -43,6 +43,7 @@ import RenderingControls from '../components/RenderingControls';
 import Facets from '../components/Facets';
 
 import area from '@turf/area';
+import intersections from '../data/intersections';
 
 const position = [40.1546, -75.2216];
 const zoom = 12;
@@ -216,9 +217,20 @@ const sourceData = [
     key: '4',
     loaded: false,
     source: '/static/SchoolDistricts.geojson',
-    nameAttribute: ['cty_name', 'school_nam'],
+    nameAttribute: ['school_nam'],
     whereObtained: 'Montgomery County Public Datasets',
-    nameProcessor: trim
+    nameProcessor: trim,
+    attributeSource: '/static/SchoolDistricts.csv',
+    attributeSourceKey: ['LEA'],
+    attributeCategoryTypes: {
+      'Ratio of black to white discipline': 'Ordered',
+    },
+    attributeNumericAttributes: [
+      'Ratio of black to white discipline',
+    ],
+    attributesToDisplay: [
+      'Ratio of black to white discipline',
+    ]
   },
   {
     name: 'Police Department',
@@ -1106,6 +1118,89 @@ const IndexPage = () => {
                         tooltipContents += '<b>' + attr + '</b>: ' + attributeValue + '<br />';
                       }
                     );
+                  }
+
+                  const interactsWith = intersections[layer.name + ':'+ clickedItemName];
+
+                  if (interactsWith) {
+                    const intersectKeys = {};
+                    interactsWith.map(
+                      (key) => key.split(":")
+                    ).map(
+                      ([key, value]) => {
+                        if (!intersectKeys.hasOwnProperty(key)) {
+                          intersectKeys[key] = [];
+                        }
+
+                        intersectKeys[key].push(value);
+                        intersectKeys[key].sort();
+                      }
+                    );
+
+                    let intersectionsHtml = '';
+                    Object.keys(intersectKeys).sort().map(
+                      (key) => {
+                        let subitems = intersectKeys[key].map(
+                          (value) => '<li>' + value + '</li>'
+                        ).join("");
+
+                        console.log('key', key)
+                        console.log('subitems', subitems)
+
+                        intersectionsHtml += ('<li>' + key + '<ul>' +
+                          subitems + '</ul></li>');
+
+
+                      }
+                    );
+
+                    /*
+                    <li>Magesterial Courts
+                      <ul>
+                        <li>1938-01-01</li>
+                        <li>1938-01-15</li>
+                        <li>1938-01-16</li>
+                        <li>1938-02-09</li>
+                      </ul>
+                    </li>
+                    <li>Municipality
+                      <ul>
+                        <li>Montgomery - East Norriton Township</li>
+                        <li>Montgomery - Norristown Borough</li>
+                        <li>Montgomery - West Norriton Township</li>
+                      </ul>
+                    </li>
+                    <li>PA House District
+                      <ul>
+                        <li>150</li>
+                        <li>70</li>
+                      </ul>
+                    </li>
+                    <li>PA Senate District
+                      <ul>
+                        <li>17</li>
+                      </ul>
+                    </li>
+                    <li>Police Department
+                      <ul>
+                        <li>Montgomery - East Norriton</li>
+                        <li>Montgomery - Norristown</li>
+                        <li>Montgomery - West Norriton</li>
+                      </ul>
+                    </li>
+                    <li>Zip
+                      <ul>
+                        <li>19401</li>
+                        <li>19403</li>
+                      </ul>
+                    </li>
+                    */
+
+                    console.log('intersectionsHtml', intersectionsHtml)
+
+
+                    tooltipContents += ('<b>Intersects:</b> <ul>' + 
+                       intersectionsHtml + '</ul>');
                   }
                   return tooltipContents || '';
                 }, popupOptions);
