@@ -1,5 +1,5 @@
 import * as React from "react";
-/*
+
 import { 
   MapContainer, 
   TileLayer, 
@@ -26,9 +26,9 @@ import {
   Slider,
   Spinner,
   Switch
-} from "theme-ui";*/
+} from "theme-ui";
 
-/*import { cloneDeep, isObject } from "lodash";
+import { cloneDeep, isObject } from "lodash";
 import Papa from "papaparse";
 
 import { 
@@ -43,7 +43,7 @@ import RenderingControls from '../components/RenderingControls';
 import Facets from '../components/Facets';
 
 import area from '@turf/area';
-import intersections from '../data/intersections';*/
+import intersections from '../data/intersections';
 
 const position = [40.1546, -75.2216];
 const zoom = 12;
@@ -133,10 +133,10 @@ const badgeStyle = {
 }
 
 
-//let j = 0;
-//let trim = (value) => (value + '').trim();
+let j = 0;
+let trim = (value) => (value + '').trim();
 
-/*
+
 const sourceData = [
   {
     name: 'County',
@@ -376,9 +376,9 @@ const sourceData = [
   //}
  //TODO Libraries */
  // TODO NAACPs */
-/*  ];
-*/
-/*
+];
+
+
 let stories = [
   {
     name: 'N/A',
@@ -436,7 +436,7 @@ let stories = [
   }
 ];
 
-/*
+
 
 function getValueFromRow(row, sourceKey) {
   if (Array.isArray(sourceKey)) {
@@ -452,7 +452,7 @@ function getValueFromRow(row, sourceKey) {
   }
 }
 
-if (process.browser) {
+if (window) {
   sourceData.filter(
     (recordType) => !!recordType.attributeSource
   ).map(
@@ -547,7 +547,7 @@ if (process.browser) {
     }
   );
 }
-*/
+
 let firstLoad = true;
 
 // Things that make this "special"
@@ -690,7 +690,7 @@ places where people are marginalized
 history of redlining
 */
 
-/*
+
 
 let cacheBuster = 0;
 
@@ -809,15 +809,11 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
     legend
   };
 }
-*/
+
 
 const IndexPage = () => {
   console.time("render");
 
-  return <div>
-    <h1>test!</h1>
-  </div>
-/*
   const [facets, updateFacets] = React.useState({});
   const [story, selectStory] = React.useState('N/A');
   const [coloration, setColorStrategy] = React.useState({});
@@ -1255,7 +1251,7 @@ const IndexPage = () => {
     </Grid>
   );
 
-  console.timeEnd("render");*/
+  console.timeEnd("render");
   
   return result;
 }
