@@ -452,6 +452,7 @@ function getValueFromRow(row, sourceKey) {
   }
 }
 
+var window;
 if (window) {
   sourceData.filter(
     (recordType) => !!recordType.attributeSource
