@@ -1,0 +1,9 @@
+name,lat,lng,certainty,facet,facetvalue
+Person 1,40.1540, -75.2213,1,,
+Person 2,40.1543, -75.2216,2,,
+Person 3,40.1549, -75.2219,3,,
+Person 4,,,,Police Department,Springfield,
+Person 4,,,,Police Department,Ambler,
+Person 5,,,,Magesterial Court District,1938-01-01,
+Person 6,,,,Zip,19002,
+Person 7,,,,Municipality,Ambler,
