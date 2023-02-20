@@ -826,6 +826,10 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
 const IndexPage = () => {
   console.time("render");
 
+  return <div>
+    <h1>test!</h1>
+  </div>
+/*
   const [facets, updateFacets] = React.useState({});
   const [story, selectStory] = React.useState('N/A');
   const [coloration, setColorStrategy] = React.useState({});
@@ -1156,51 +1160,6 @@ const IndexPage = () => {
                       }
                     );
 
-                    /*
-                    <li>Magesterial Courts
-                      <ul>
-                        <li>1938-01-01</li>
-                        <li>1938-01-15</li>
-                        <li>1938-01-16</li>
-                        <li>1938-02-09</li>
-                      </ul>
-                    </li>
-                    <li>Municipality
-                      <ul>
-                        <li>Montgomery - East Norriton Township</li>
-                        <li>Montgomery - Norristown Borough</li>
-                        <li>Montgomery - West Norriton Township</li>
-                      </ul>
-                    </li>
-                    <li>PA House District
-                      <ul>
-                        <li>150</li>
-                        <li>70</li>
-                      </ul>
-                    </li>
-                    <li>PA Senate District
-                      <ul>
-                        <li>17</li>
-                      </ul>
-                    </li>
-                    <li>Police Department
-                      <ul>
-                        <li>Montgomery - East Norriton</li>
-                        <li>Montgomery - Norristown</li>
-                        <li>Montgomery - West Norriton</li>
-                      </ul>
-                    </li>
-                    <li>Zip
-                      <ul>
-                        <li>19401</li>
-                        <li>19403</li>
-                      </ul>
-                    </li>
-                    */
-
-                    console.log('intersectionsHtml', intersectionsHtml)
-
-
                     tooltipContents += ('<b>Intersects:</b> <ul>' + 
                        intersectionsHtml + '</ul>');
                   }
@@ -1308,7 +1267,7 @@ const IndexPage = () => {
     </Grid>
   );
 
-  console.timeEnd("render");
+  console.timeEnd("render");*/
   
   return result;
 }
