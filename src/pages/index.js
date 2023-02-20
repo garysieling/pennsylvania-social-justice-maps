@@ -453,6 +453,8 @@ let stories = [
   }
 ];
 
+/*
+
 function getValueFromRow(row, sourceKey) {
   if (Array.isArray(sourceKey)) {
     console.log('is array', sourceKey);
@@ -822,7 +824,7 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
     legend
   };
 }
-
+*/
 const IndexPage = () => {
   console.time("render");
 
@@ -1273,5 +1275,3 @@ const IndexPage = () => {
 }
 
 export default IndexPage;
-
-export const Head = () => <title>Home Page</title>
