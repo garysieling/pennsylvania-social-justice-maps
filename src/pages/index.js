@@ -1,5 +1,5 @@
 import * as React from "react";
-/*
+
 import { 
   MapContainer, 
   TileLayer, 
@@ -26,10 +26,10 @@ import {
   Slider,
   Spinner,
   Switch
-} from "theme-ui";*/
+} from "theme-ui";
 
-/*import { cloneDeep, isObject } from "lodash";
-import Papa from "papaparse";
+import { cloneDeep, isObject } from "lodash";
+//import Papa from "papaparse";
 
 import { 
   schemeTableau10 as tileRenderColorScheme,
@@ -42,8 +42,9 @@ import Description from '../components/Description';
 import RenderingControls from '../components/RenderingControls';
 import Facets from '../components/Facets';
 
+
 import area from '@turf/area';
-import intersections from '../data/intersections';*/
+/*import intersections from '../data/intersections';*/
 
 const position = [40.1546, -75.2216];
 const zoom = 12;
