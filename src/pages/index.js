@@ -1,5 +1,5 @@
 import * as React from "react";
-
+/*
 import { 
   MapContainer, 
   TileLayer, 
@@ -26,9 +26,9 @@ import {
   Slider,
   Spinner,
   Switch
-} from "theme-ui";
+} from "theme-ui";*/
 
-import { cloneDeep, isObject } from "lodash";
+/*import { cloneDeep, isObject } from "lodash";
 import Papa from "papaparse";
 
 import { 
@@ -43,7 +43,7 @@ import RenderingControls from '../components/RenderingControls';
 import Facets from '../components/Facets';
 
 import area from '@turf/area';
-import intersections from '../data/intersections';
+import intersections from '../data/intersections';*/
 
 const position = [40.1546, -75.2216];
 const zoom = 12;
@@ -132,20 +132,11 @@ const badgeStyle = {
   lineHeight: 1,
 }
 
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
-  },
-]
 
-let j = 0;
-let trim = (value) => (value + '').trim();
+//let j = 0;
+//let trim = (value) => (value + '').trim();
 
-
+/*
 const sourceData = [
   {
     name: 'County',
@@ -374,20 +365,20 @@ const sourceData = [
     whereObtained: 'https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=1691',
     nameProcessor: trim
   },
-  /*{
-    // TODO what is this for?
-    name: 'JPO Districts',
-    key: 9,
-    loaded: false,
-    source: '/static/Montgomery_County_-_JPO_Districts.geojson',
-    nameAttribute: 'Name',
-    nameProcessor: trim
-  }*/
- /* TODO Libraries */
- /* TODO NAACPs */
+  //{
+  //  // TODO what is this for?
+  //  name: 'JPO Districts',
+  //  key: 9,
+  //  loaded: false,
+  //  source: '/static/Montgomery_County_-_JPO_Districts.geojson',
+  //  nameAttribute: 'Name',
+  //  nameProcessor: trim
+  //}
+ //TODO Libraries */
+ // TODO NAACPs */
 ];
-
-
+*/
+/*
 let stories = [
   {
     name: 'N/A',
@@ -398,14 +389,6 @@ let stories = [
     legend: cloneDeep(DEFAULT_LEGEND),
     description: ``
   },
-  /*{
-    name: 'Stories 1',
-    key: '1',
-    loaded: false,
-    source: '/static/points.csv',
-    description: 'Demo',
-    popupFields: []
-  },*/
   {
     name: 'Ambler NAACP - Police Meeting',
     key: '2',
@@ -564,7 +547,7 @@ if (process.browser) {
     }
   );
 }
-
+*/
 let firstLoad = true;
 
 // Things that make this "special"
@@ -707,6 +690,8 @@ places where people are marginalized
 history of redlining
 */
 
+/*
+
 let cacheBuster = 0;
 
 const StoryPicker = ({onSelectStory, story}) => {
@@ -825,6 +810,7 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
   };
 }
 */
+
 const IndexPage = () => {
   console.time("render");
 
