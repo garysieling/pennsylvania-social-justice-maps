@@ -467,99 +467,101 @@ function getValueFromRow(row, sourceKey) {
   }
 }
 
-sourceData.filter(
-  (recordType) => !!recordType.attributeSource
-).map(
-  (recordType) => {
-    Papa.parse(recordType.attributeSource, {
-      download: true,
-      header: true,
-      skipEmptyLines: true,
+if (process.browser) {
+  sourceData.filter(
+    (recordType) => !!recordType.attributeSource
+  ).map(
+    (recordType) => {
+      Papa.parse(recordType.attributeSource, {
+        download: true,
+        header: true,
+        skipEmptyLines: true,
 
-      complete: function(results, file) {
-        recordType.attributes = {};
-        
-        results.data.map(
-          (row) => {
-            (recordType.attributeNumericAttributes || []).map(
-              (attribute) => {
-                row[attribute] = parseFloat(row[attribute]) || 0;
+        complete: function(results, file) {
+          recordType.attributes = {};
+          
+          results.data.map(
+            (row) => {
+              (recordType.attributeNumericAttributes || []).map(
+                (attribute) => {
+                  row[attribute] = parseFloat(row[attribute]) || 0;
+                }
+              )
+              
+              recordType.attributes[getValueFromRow(row, recordType.attributeSourceKey)] = row;
+            }
+          )
+
+          console.log('records', recordType.attributes);
+        }
+      });
+    }
+  )
+
+  stories.filter(
+    (story) => !!story.source
+  ).map(
+    (story) => {
+      const colorScheme = tileRenderColorScheme;
+      const maxColor = colorScheme.length;
+
+      Papa.parse(story.source, {
+        download: true,
+        header: true,
+        skipEmptyLines: true,
+        complete: function(results, file) {
+          story.legend = {
+            type: 'Categorical',
+            attribute: story.categoryVariable,
+            attributes: {}
+          };
+
+          story.data = results.data.map(
+            (record) => {
+              if (record.latitude) {
+                record.latitude = parseFloat(record.latitude.trim());
+
+                if (story.fuzzyLocations) {
+                  record.latitude = record.latitude + (Math.random() - 0.5) / 100.0;
+                }
               }
-            )
-            
-            recordType.attributes[getValueFromRow(row, recordType.attributeSourceKey)] = row;
-          }
-        )
 
-        console.log('records', recordType.attributes);
-      }
-    });
-  }
-)
+              if (record.longitude) {
+                record.longitude = parseFloat(record.longitude.trim());
 
-stories.filter(
-  (story) => !!story.source
-).map(
-  (story) => {
-    const colorScheme = tileRenderColorScheme;
-    const maxColor = colorScheme.length;
-
-    Papa.parse(story.source, {
-      download: true,
-      header: true,
-      skipEmptyLines: true,
-      complete: function(results, file) {
-        story.legend = {
-          type: 'Categorical',
-          attribute: story.categoryVariable,
-          attributes: {}
-        };
-
-        story.data = results.data.map(
-          (record) => {
-            if (record.latitude) {
-              record.latitude = parseFloat(record.latitude.trim());
-
-              if (story.fuzzyLocations) {
-                record.latitude = record.latitude + (Math.random() - 0.5) / 100.0;
+                record.longitude = record.longitude + (Math.random() - 0.5) / 100.0;
               }
-            }
 
-            if (record.longitude) {
-              record.longitude = parseFloat(record.longitude.trim());
-
-              record.longitude = record.longitude + (Math.random() - 0.5) / 100.0;
-            }
-
-            if (record.certainty) {
-              record.certainty = parseInt(record.certainty);
-            }
-
-            const categoricalValue = record[story.categoryVariable] || 'All Values';
-            if (story.legend.attributes[categoricalValue]) {
-              record.tileRenderColor = story.legend.attributes[categoricalValue];
-            } else {
-              if (Object.keys(story.legend.attributes) >= maxColor) {
-                throw 'Only 10 colors available'
+              if (record.certainty) {
+                record.certainty = parseInt(record.certainty);
               }
-  
-              const colorIndex = Object.keys(story.legend.attributes).length;
-              const color = colorScheme[colorIndex];
 
-              story.legend.attributes[categoricalValue] = color;
+              const categoricalValue = record[story.categoryVariable] || 'All Values';
+              if (story.legend.attributes[categoricalValue]) {
+                record.tileRenderColor = story.legend.attributes[categoricalValue];
+              } else {
+                if (Object.keys(story.legend.attributes) >= maxColor) {
+                  throw 'Only 10 colors available'
+                }
+    
+                const colorIndex = Object.keys(story.legend.attributes).length;
+                const color = colorScheme[colorIndex];
 
-              record.tileRenderColor = color;
+                story.legend.attributes[categoricalValue] = color;
+
+                record.tileRenderColor = color;
+              }
+
+              return record;
             }
+          )
 
-            return record;
-          }
-        )
-
-        story.loaded = true;
-      }
-    });
-  }
-);
+          story.loaded = true;
+        }
+      });
+    }
+  );
+}
 
 let firstLoad = true;
 
