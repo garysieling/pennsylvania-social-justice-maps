@@ -1,5 +1,4 @@
 import * as React from "react";
-
 import { 
   MapContainer, 
   TileLayer, 
@@ -1239,7 +1238,6 @@ const IndexPage = () => {
           gap={2} 
           columns={[2, '1fr 1fr']}>
             <div>
-              <StoryPicker onSelectStory={onSelectStory} story={story} />
               <RenderingControls 
                 layers={layers} 
                 facets={facets} 
