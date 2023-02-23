@@ -464,9 +464,11 @@ function globalExists(varName) {
   }
 }
 
-if (globalExists('window')) {
+if (globalExists('window'))
+ {
   sourceData.filter(
-    (recordType) => !!recordType.attributeSource
+    (recordType) => 
+      !!recordType.attributeSource
   ).map(
     (recordType) => {
       Papa.parse(recordType.attributeSource, {
@@ -1082,7 +1084,7 @@ const IndexPage = () => {
             return facets[layer.name].values[facetValue].selected;
           }
         );
-
+    
         return (
           <GeoJSON
             key={layer.name + (cacheBuster++)}
@@ -1181,7 +1183,7 @@ const IndexPage = () => {
     );
 
   const markers = stories.filter(
-    (story) => story.selected
+    (story) => story.selected && story.data
   ).flatMap(
     (story, storyIndex) =>
       story.data.filter(
