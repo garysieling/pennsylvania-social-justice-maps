@@ -63,6 +63,12 @@ const pageStyles = {
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 
+const buttonStyle = {
+  backgroundColor: DEFAULT_BLUE,
+  padding: 10,
+  marginTop: 20
+}
+
 const headingAccentStyles = {
   color: "#663399",
 }
@@ -136,6 +142,17 @@ const badgeStyle = {
 let j = 0;
 let trim = (value) => (value + '').trim();
 
+const filterMap = (map, fn) => {
+  const newMap = {};
+  Object.keys(map).forEach(
+      (key) => {
+          if (fn(map[key])) {
+              newMap[key] = map[key];
+          }
+      }
+  )
+  return newMap;
+}
 
 const sourceData = [
   {
@@ -419,7 +436,7 @@ let stories = [
     key: '3',
     categoryVariable: 'Characterization',
     loaded: false,
-    source: '/static/private_ethnography.csv',
+    source: '/static/Data Sheets - Comments.csv',
     fuzzyLocations: true,
     popupFields: [
       'Speaker Race',
@@ -432,6 +449,15 @@ let stories = [
     ], 
     description: `
       My personal notes
+    `
+  },
+  {
+    name: 'A church by zip',
+    key: '4',
+    loaded: false,
+    source: '/static/Data Sheets - A Church By Zip.tsv',
+    popupFields: [],
+    description: `
     `
   }
 ];
@@ -834,6 +860,46 @@ const IndexPage = () => {
   const [legend, setLegend] = React.useState({});
   const [description, setDescription] = React.useState('');
 
+  function copyLink() {
+    const changes = {
+      facets: facets,
+      story: story,
+      coloration: coloration
+    }
+
+    const result = {};
+    Object.keys(changes.facets).map( 
+      (key) => changes.facets[key]
+    ).filter( 
+      ({visible}) => visible
+    ).map(
+      (record) => {
+        return { 
+          key: record.key, 
+          values: Object.keys(filterMap(
+            record.values, 
+            ({selected}) => selected 
+          ))
+        }
+      }
+    ).filter( 
+      ({values}) => Object.keys(values).length > 0
+    ).forEach(
+      ({key, values}) => {
+        result[key] = values;
+      }
+    )
+
+    let baseUrl = window.location.href;
+    if (baseUrl.indexOf('?') > 0) {
+      baseUrl = baseUrl.split('?')[0];
+    }
+
+    navigator.clipboard.writeText(baseUrl + '?' + JSON.stringify(result));
+    
+    return result;
+  }
+
   function setColoration({facet, attribute, rangeColorScheme}) {
     console.time("setColoration");
     const colorFn = COLOR_SCHEMES[rangeColorScheme] || COLOR_SCHEMES.interpolatePlasma;
@@ -917,6 +983,17 @@ const IndexPage = () => {
     console.timeEnd("onSelectStory");
   }
 
+  let urlFacetData = {};
+  if (window.location.href.indexOf('?') > 0) {
+    const jsonFromUrl = window.location.href.split('?')[1];
+    try {
+      urlFacetData = JSON.parse(decodeURI(jsonFromUrl));
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
+
   React.useEffect(
     () => {
       if (firstLoad) {
@@ -970,6 +1047,8 @@ const IndexPage = () => {
 
                   // story selects facet
                   let facetLayerVisible = 
+                    urlFacetData.hasOwnProperty(facet.key + '') ||
+                    // todo - kind of buggy thing here...
                     stories.filter(
                       (story) => story.loaded
                     ).flatMap(
@@ -996,8 +1075,13 @@ const IndexPage = () => {
 
                       let tileRenderColor = DEFAULT_BLUE;
 
+                      let selected = false;
+                      if (urlFacetData.hasOwnProperty(facet.key + '')) {
+                        selected = urlFacetData[facet.key + ''].includes(facetValue);
+                      }
+
                       initialFacetData[facet.name].values[facetValue] = {
-                        selected: false,
+                        selected: selected,
                         tileRenderColor: tileRenderColor
                       }
                     }
@@ -1261,6 +1345,12 @@ const IndexPage = () => {
             { markers }
             { facetLayers }
           </MapContainer>
+          <Button 
+            mr={2}
+            style={buttonStyle}
+            onClick={copyLink}>
+              Copy link to this page
+          </Button>
       </main>
     </Grid>
   );
