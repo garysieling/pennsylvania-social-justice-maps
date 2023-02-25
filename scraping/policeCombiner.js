@@ -79,7 +79,8 @@ const layer = [
                   feature.properties.DEPT_NAME
                     .replace(' Twp PD', ' Township')
                     .replace(' Boro PD', ' Borough')
-                    .replace(' PD', '');
+                    .replace(' PD', '')
+                    .trim().replace(/[ ]+/g, ' ');
 
                 console.log('name', name);
 

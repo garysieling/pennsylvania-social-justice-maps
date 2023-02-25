@@ -140,7 +140,7 @@ const badgeStyle = {
 
 
 let j = 0;
-let trim = (value) => (value + '').trim();
+let trim = (value) => (value + '').trim().replace(/[ ]+/g, ' ');
 
 const filterMap = (map, fn) => {
   const newMap = {};
@@ -247,7 +247,7 @@ const sourceData = [
     source: '/static/Police.geojson',
     nameAttribute: ['County', 'Name'],
     nameProcessor: trim,
-    attributeSource: '/static/police/data.tsv',
+    attributeSource: '/static/Data Sheets - Police.tsv',
     attributeSourceKey: ['County', 'Location'],
     attributeCategoryTypes: {
       'Pennsylvania Chief of Police Association Accreditation': 'Categorical',
@@ -466,15 +466,13 @@ let stories = [
 
 function getValueFromRow(row, sourceKey) {
   if (Array.isArray(sourceKey)) {
-    console.log('is array', sourceKey);
     const result = sourceKey.map(
-      (key) => row[key]
+      (key) => trim(row[key])
     ).join(" - ");
 
-    console.log('result', result);
     return result;
   } else {
-    return row[sourceKey];
+    return (row[sourceKey] + '').trim();
   }
 }
 
@@ -513,11 +511,10 @@ if (globalExists('window'))
                 }
               )
               
-              recordType.attributes[getValueFromRow(row, recordType.attributeSourceKey)] = row;
+              const joinKey = getValueFromRow(row, recordType.attributeSourceKey);
+              recordType.attributes[joinKey] = row;
             }
           )
-
-          console.log('records', recordType.attributes);
         }
       });
     }
@@ -788,16 +785,43 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
           const record = facets[facet].values[facetValue];
 
           const categoricalValue = (facets[facet].attributes[facetValue] || {})[attribute] || '';
-          if (legend.attributes[categoricalValue]) {
-            record.tileRenderColor = legend.attributes[categoricalValue];
-          } else {
-            const colorIndex = Object.keys(legend.attributes).length;
-            const color = colorScheme[colorIndex % maxColor];
-  
-            legend.attributes[categoricalValue] = color;
-  
-            record.tileRenderColor = color;
+          legend.attributes[categoricalValue] = '';
+        });
+
+      Object.keys(legend.attributes).sort(
+        (a, b) => {
+          if (a === b) {
+            return 0;
           }
+
+          if (a === '') {
+            return 1;
+          }
+
+          if (b === '') {
+            return -1;
+          }
+
+          if (a > b) {
+            return 1;
+          } else {
+            return -1;
+          }
+        }
+      ).map(
+        (key, colorIndex) => {
+          debugger;
+          const color = colorScheme[colorIndex % maxColor];
+
+          legend.attributes[key] = color;
+        });
+
+      Object.keys(facets[facet].values).map(
+        (facetValue) => {
+          const record = facets[facet].values[facetValue];
+
+          const categoricalValue = (facets[facet].attributes[facetValue] || {})[attribute] || '';
+          record.tileRenderColor = legend.attributes[categoricalValue];
         });
     } else if (
       legend.type === 'Ordered' ||
@@ -1235,13 +1259,8 @@ const IndexPage = () => {
                           (value) => '<li>' + value + '</li>'
                         ).join("");
 
-                        console.log('key', key)
-                        console.log('subitems', subitems)
-
                         intersectionsHtml += ('<li>' + key + '<ul>' +
                           subitems + '</ul></li>');
-
-
                       }
                     );
 
