@@ -890,13 +890,15 @@ const IndexPage = () => {
       }
     )
 
-    let baseUrl = window.location.href;
-    if (baseUrl.indexOf('?') > 0) {
-      baseUrl = baseUrl.split('?')[0];
+    if (globalExists('window')) {
+      let baseUrl = window.location.href;
+      if (baseUrl.indexOf('?') > 0) {
+        baseUrl = baseUrl.split('?')[0];
+      }
+
+      navigator.clipboard.writeText(baseUrl + '?' + JSON.stringify(result));
     }
 
-    navigator.clipboard.writeText(baseUrl + '?' + JSON.stringify(result));
-    
     return result;
   }
 
@@ -984,15 +986,16 @@ const IndexPage = () => {
   }
 
   let urlFacetData = {};
-  if (window.location.href.indexOf('?') > 0) {
-    const jsonFromUrl = window.location.href.split('?')[1];
-    try {
-      urlFacetData = JSON.parse(decodeURI(jsonFromUrl));
-    } catch (e) {
-      console.log(e);
+  if (globalExists('window')) {
+    if (window.location.href.indexOf('?') > 0) {
+      const jsonFromUrl = window.location.href.split('?')[1];
+      try {
+        urlFacetData = JSON.parse(decodeURI(jsonFromUrl));
+      } catch (e) {
+        console.log(e);
+      }
     }
   }
-
 
   React.useEffect(
     () => {
