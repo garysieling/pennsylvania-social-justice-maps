@@ -166,13 +166,16 @@ const sourceData = [
     attributeSource: '/static/Data Sheets - Counties.tsv',
     attributeSourceKey: 'Name',
     attributeCategoryTypes: {
-      'Constables': 'Ordered'
+      'Constables': 'Ordered',
+      'Moms For Liberty Members': 'Ordered'
     },
     attributeNumericAttributes: [
-      'Constables'
+      'Constables',
+      'Moms For Liberty Members'
     ],
     attributesToDisplay: [
-      'Constables'
+      'Constables',
+      'Moms For Liberty Members'
     ]
   },
   {
