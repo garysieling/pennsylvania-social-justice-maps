@@ -46,7 +46,7 @@ import area from '@turf/area';
 import intersections from '../data/intersections';
 
 const position = [40.1546, -75.2216];
-const zoom = 12;
+const zoom = 9;
 
 const DEFAULT_BLUE = '#4E79A7';
 
