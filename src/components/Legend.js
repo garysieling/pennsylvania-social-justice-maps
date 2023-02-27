@@ -14,12 +14,13 @@ const Legend = ({data}) => {
         (key, i) => (
           <div key={i}>
             <div style={{
-              backgroundColor: data.attributes[key],
+              backgroundColor: data.attributes[key].color,
               width: '14px',
               height: '14px',
               float: 'left',
               marginRight: '3px'
             }}/> {key || 'Unknown'}
+            {' '}({data.attributes[key].count})
           </div>
         )
       );

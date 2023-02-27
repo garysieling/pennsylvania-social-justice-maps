@@ -560,7 +560,7 @@ if (globalExists('window'))
 
               const categoricalValue = record[story.categoryVariable] || 'All Values';
               if (story.legend.attributes[categoricalValue]) {
-                record.tileRenderColor = story.legend.attributes[categoricalValue];
+                record.tileRenderColor = story.legend.attributes[categoricalValue].color;
               } else {
                 if (Object.keys(story.legend.attributes) >= maxColor) {
                   throw 'Only 10 colors available'
@@ -785,7 +785,10 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
           const record = facets[facet].values[facetValue];
 
           const categoricalValue = (facets[facet].attributes[facetValue] || {})[attribute] || '';
-          legend.attributes[categoricalValue] = '';
+          legend.attributes[categoricalValue] = {
+            count: 0
+          };
+          
         });
 
       Object.keys(legend.attributes).sort(
@@ -810,10 +813,9 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
         }
       ).map(
         (key, colorIndex) => {
-          debugger;
           const color = colorScheme[colorIndex % maxColor];
 
-          legend.attributes[key] = color;
+          legend.attributes[key].color = color;
         });
 
       Object.keys(facets[facet].values).map(
@@ -821,7 +823,13 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
           const record = facets[facet].values[facetValue];
 
           const categoricalValue = (facets[facet].attributes[facetValue] || {})[attribute] || '';
-          record.tileRenderColor = legend.attributes[categoricalValue];
+
+          if (categoricalValue === '') {
+            console.log('Missing value', facetValue, facets[facet].attributes)
+          }
+
+          record.tileRenderColor = legend.attributes[categoricalValue].color;
+          legend.attributes[categoricalValue].count++;
         });
     } else if (
       legend.type === 'Ordered' ||

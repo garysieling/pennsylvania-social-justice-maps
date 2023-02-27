@@ -35,16 +35,20 @@ fire police for delco: http://www.delcofirepolice.org/districts/
 const layer = [
     {
       source: 'Montgomery_County_Police_Districts.geojson',
+      County: 'Montgomery'
     },
     {
       // Chester
       source: 'Police_Response_Territory.geojson',
+      County: 'Chester'
     },
     {
-      source: 'BucksCountyPolice.geojson'
+      source: 'BucksCountyPolice.geojson',
+      County: 'Bucks'
     },
     {
-      source: 'DelawareCountyPolice.geojson'
+      source: 'DelawareCountyPolice.geojson',
+      County: 'Delaware'
     }
   ].map(
     (layer) => {
@@ -61,17 +65,16 @@ const layer = [
         layer.geojson.features =
           layer.geojson.features.map(
             (feature) => {
-              console.log('before', feature.properties);
+              //console.log('before', feature.properties);
+              console.log(layer.County);
               if (feature.properties.Name) {
                 feature.properties.Name =
                   feature.properties.Name
                           .replace("Police Department", "")
                           .replace("Township", "")
                           .trim();
+                feature.properties.County = layer.County;
 
-                if (!feature.properties.County) {
-                  feature.properties.County = 'Montgomery';
-                }
                 return feature;
               }
               else if (feature.properties.DEPT_NAME) {
@@ -85,7 +88,7 @@ const layer = [
                 console.log('name', name);
 
                 feature.properties.Name = name;
-                feature.properties.County = 'Chester';
+                feature.properties.County = layer.County;
 
                 if (!seen[name]) {
                   seen[name] = feature;
@@ -97,14 +100,14 @@ const layer = [
                   ) ;
 
                   seen[name].properties.Name = name;
-                  seen[name].properties.County = 'Chester';
+                  seen[name].properties.County = layer.County;
 
                   } catch (e) {
                     // some polygon isn't working...
                     console.log(e);
                     seen[name] = feature;
                     feature.properties.Name = name;
-                    feature.properties.County = 'Chester';
+                    feature.properties.County = layer.County;
                   }
                 }
 
@@ -114,7 +117,6 @@ const layer = [
               } else {
                 return feature;
               }
-
             }
           ).filter(
             feature => !!feature
