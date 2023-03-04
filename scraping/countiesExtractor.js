@@ -20,8 +20,8 @@ const layers = [
       postProcess: (geojson) => {
         geojson.features = geojson.features.filter(
           (feature) => {
-            return feature.properties.state_name === 'Pennsylvania'
-              && ['Chester', 'Delaware', 'Montgomery', 'Bucks', 'Allegheny', 'Philadelphia'].indexOf(feature.properties.co_name) >= 0
+            return feature.properties.state_name === 'Pennsylvania';
+             // && ['Chester', 'Delaware', 'Montgomery', 'Bucks', 'Allegheny', 'Philadelphia'].indexOf(feature.properties.co_name) >= 0
           }
         ).map(
           (feature) => {
