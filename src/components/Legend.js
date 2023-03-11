@@ -25,23 +25,37 @@ const Legend = ({data}) => {
         )
       );
     } else {
+      let min = data.min;
+      let max = data.max;
+      let rangeMin = data.rangeMin;
+      let rangeMax = data.rangeMax;
+
+      const attributeNumericFormatter = data.attributeNumericFormatter;
+      if (attributeNumericFormatter) {
+        min = attributeNumericFormatter(min);
+        max = attributeNumericFormatter(max);
+
+        rangeMin = attributeNumericFormatter(rangeMin);
+        rangeMax = attributeNumericFormatter(rangeMax);
+      }
+
       legendData = (
         <div>
-          <b>Range:</b> {data.min} - {data.max}
+          <b>Range:</b> {rangeMin} - {rangeMax} (seen {min} - {max})
           <div style={{
             height: '20px',
             width: '100%',
             background: 'linear-gradient(0.25turn, ' +
                data.colorFn(0) + ',' + 
-               data.colorFn(0.1) +  ',' + 
-               data.colorFn(0.2) +  ',' + 
-               data.colorFn(0.3) +  ',' + 
-               data.colorFn(0.4) +  ',' + 
-               data.colorFn(0.5) +  ',' + 
+               data.colorFn(0.1) + ',' + 
+               data.colorFn(0.2) + ',' + 
+               data.colorFn(0.3) + ',' + 
+               data.colorFn(0.4) + ',' + 
+               data.colorFn(0.5) + ',' + 
                data.colorFn(0.6) + ',' + 
-               data.colorFn(0.7) +  ',' + 
-               data.colorFn(0.8) +  ',' + 
-               data.colorFn(0.9) +  ',' + 
+               data.colorFn(0.7) + ',' + 
+               data.colorFn(0.8) + ',' + 
+               data.colorFn(0.9) + ',' + 
                data.colorFn(1) + ')'
           }} />
         </div>

@@ -228,9 +228,53 @@ const sourceData = [
     key: '4',
     loaded: false,
     source: '/static/SchoolDistricts.geojson',
-    nameAttribute: ['school_nam'],
-    whereObtained: 'Montgomery County Public Datasets',
+    nameAttribute: ['County', 'school_nam'],
+    whereObtained: 'Multiple',
     nameProcessor: trim,
+    // School District	County	White Share	 Median Household Income 	Poverty Percent 0-99%	Poverty Percent 100-184%	 2017-18 Adjusted ADM 	 2019-20 Actual BEF 	 2019-20 All Formula 	 Inequity 	 Per Student Actual BEF 	 Per Student All Formula BEF 	 Per Student Inequity 
+    // TODO join from two sheets...
+    attributeSource: '/static/Data Sheets - School Districts (POWER).tsv',
+    attributeSourceKey: ['County', 'School District'],
+    attributeCategoryTypes: {
+      'White Share': 'Ordered',
+      'Median Household Income': 'Ordered',
+      'Poverty Percent 0-99%': 'Ordered',
+      'Poverty Percent 100-184%': 'Ordered',
+      '2017-18 Adjusted ADM': 'Ordered',
+      '2019-20 Actual BEF': 'Ordered',
+      '2019-20 All Formula': 'Ordered',
+      'Inequity': 'Ordered',
+      'Per Student Actual BEF': 'Ordered',
+      'Per Student All Formula BEF': 'Ordered',
+      'Per Student Inequity': 'Ordered'
+    },
+    attributeNumericAttributes: [
+      'White Share',
+      'Median Household Income',
+      'Poverty Percent 0-99%',
+      'Poverty Percent 100-184%',
+      '2017-18 Adjusted ADM',
+      '2019-20 Actual BEF',
+      '2019-20 All Formula',
+      'Inequity',
+      'Per Student Actual BEF',
+      'Per Student All Formula BEF',
+      'Per Student Inequity',
+    ],
+    attributesToDisplay: [
+      'White Share',
+      'Median Household Income',
+      'Poverty Percent 0-99%',
+      'Poverty Percent 100-184%',
+      '2017-18 Adjusted ADM',
+      '2019-20 Actual BEF',
+      '2019-20 All Formula',
+      'Inequity',
+      'Per Student Actual BEF',
+      'Per Student All Formula BEF',
+      'Per Student Inequity'
+    ]
+    /*
     attributeSource: '/static/SchoolDistricts.csv',
     attributeSourceKey: ['LEA'],
     attributeCategoryTypes: {
@@ -241,7 +285,7 @@ const sourceData = [
     ],
     attributesToDisplay: [
       'Ratio of black to white discipline',
-    ]
+    ]*/
   },
   {
     name: 'Police Department',
@@ -493,6 +537,30 @@ function globalExists(varName) {
 
 if (globalExists('window'))
  {
+  const numberFormatter = (v) => {
+    if (v !== null && v !== undefined) {
+      return v.toLocaleString()
+    } else {
+      return v;
+    }
+  }
+
+  const percentFormatter = (v) => {
+    if (v !== null && v !== undefined) {
+      return v.toLocaleString(null, {minimumFractionDigits: 0 }) + '%'
+    } else {
+      return v;
+    }
+  }
+
+  const dollarFormatter = (v) => {
+    if (v !== null && v !== undefined) {
+      return '$' + v.toLocaleString(null, {minimumFractionDigits: 2 })
+    } else {
+      return v;
+    }
+  }
+
   sourceData.filter(
     (recordType) => 
       !!recordType.attributeSource
@@ -508,9 +576,63 @@ if (globalExists('window'))
           
           results.data.map(
             (row) => {
+              if (!recordType.attributeNumericFormatters) {
+                recordType.attributeNumericFormatters = {};
+              }
+
+              Object.keys(row).map(
+                (key) => {
+                  const trimmed = key.trim();
+
+                  if (key !== trimmed) {
+                    row[trimmed] = row[key];
+                    delete row[key];
+                  }
+
+                  if (!recordType.attributeNumericFormatters[key]) {
+                    recordType.attributeNumericFormatters[key] = numberFormatter;
+                  }
+                }
+              );
+
               (recordType.attributeNumericAttributes || []).map(
                 (attribute) => {
-                  row[attribute] = parseFloat(row[attribute]) || 0;
+                  // trim %
+                  // TODO save formatter...
+                  let value = row[attribute] || '';
+
+                  if (undefined === row[attribute]) {
+                    if (recordType.name === 'School District') {
+                      debugger;
+                    }
+                    console.log('undefined for ' + recordType.name + '.' + attribute);
+                  }
+
+                  if (!recordType.attributeNumericFormatters[attribute]) {
+                    if (value.indexOf('$') >= 0) {
+                      recordType.attributeNumericFormatters[attribute] = dollarFormatter;
+                    } else if (value.indexOf('%') >= 0) {
+                      recordType.attributeNumericFormatters[attribute] = percentFormatter;
+                    } else {
+                      recordType.attributeNumericFormatters[attribute] = numberFormatter;
+                    }
+                  }
+
+                  value = value
+                    .replace(',', '')
+                    .replace('$', '')
+                    .replace('%', '')
+                    .trim();
+
+                  // TODO the legend should show the zero point in a way that 
+                  // makes sense for this
+                  if (value[0] === '(' && value[value.length - 1] === ')') {
+                    value = '-' + value.substring(1, value.length - 2);
+                  }
+
+                  console.log(row[attribute], value);
+
+                  row[attribute] = parseFloat(value) || 0;
                 }
               )
               
@@ -787,6 +909,10 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
         (facetValue) => {
           const record = facets[facet].values[facetValue];
 
+          if (!facets[facet] ||  !facets[facet].attributes) {
+            debugger;
+          }
+
           const categoricalValue = (facets[facet].attributes[facetValue] || {})[attribute] || '';
           legend.attributes[categoricalValue] = {
             count: 0
@@ -839,6 +965,7 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
       legend.type === 'Diverging') {
       legend.min = null;
       legend.max = null;
+      legend.attributeNumericFormatter = facets[facet].attributeNumericFormatters[facet];
 
       Object.keys(facets[facet].values).filter(
         (facetValue) => {
@@ -846,6 +973,10 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
         }
       ).map(
         (facetValue) => {
+          if (!facets[facet] || !facets[facet].attributes) {
+            debugger;
+          }
+
           const value = (facets[facet].attributes[facetValue] || {})[attribute];
           if (value !== null && value !== undefined) {
             if (legend.min == null) {
@@ -866,8 +997,19 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
           }
         });
 
-      const range = legend.max - legend.min;
       legend.colorFn = colorFn;
+
+      legend.rangeMin = legend.min;
+      legend.rangeMax = legend.max;
+
+      if (legend.min < 0 && legend.max > 0) {
+        legend.rangeMax = Math.max(Math.abs(legend.min), legend.max);
+        legend.rangeMin = -1 * legend.rangeMax;
+      } else {
+        legend.rangeMin = 0;
+      }
+
+      const range = legend.rangeMax - legend.rangeMin;
 
       Object.keys(facets[facet].values).map(
         (facetValue) => {

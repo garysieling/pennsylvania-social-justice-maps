@@ -10,6 +10,10 @@ const counties = JSON.parse(
   fs.readFileSync('../public/static/Counties.geojson')
 );
 
+function fixCapitalization(text) {
+  return text[0].toUpperCase() + text.substring(1).toLowerCase();
+}
+
 const layers = [
     {
       name: 'County',
@@ -102,7 +106,7 @@ const layers = [
       postProcess: (geojson) => {
         geojson.features = geojson.features.filter(
           (feature) => {
-            for (var i = 0; i < counties.features.length; i++) {
+            /*for (var i = 0; i < counties.features.length; i++) {
               if (!!intersect(
                 feature,
                 counties.features[i])) {
@@ -110,9 +114,9 @@ const layers = [
 
                   return true;
               }
-            }
+            }*/
 
-            return false;
+            return true;
 
             //return feature.properties.state_name === 'Pennsylvania'
             //  && ['Chester', 'Delaware', 'Montgomery', 'Bucks', 'Allegheny', 'Philadelphia'].indexOf(feature.properties.co_name) >= 0
@@ -120,6 +124,8 @@ const layers = [
         ).map(
           (feature) => {
             console.log(feature);
+
+            feature.properties.County = fixCapitalization(feature.properties.cty_name)
 
             return feature;
           }
