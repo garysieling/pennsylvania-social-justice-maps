@@ -75,7 +75,7 @@ const layers =  [
     key: '4',
     loaded: false,
     source: '/static/SchoolDistricts.geojson',
-    nameAttribute: ['school_nam'],
+    nameAttribute: ['County', 'school_nam'],
     whereObtained: 'Montgomery County Public Datasets',
     nameProcessor: trim,
     attributeSource: '/static/SchoolDistricts.csv',

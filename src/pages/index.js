@@ -233,10 +233,13 @@ const sourceData = [
     nameProcessor: trim,
     // School District	County	White Share	 Median Household Income 	Poverty Percent 0-99%	Poverty Percent 100-184%	 2017-18 Adjusted ADM 	 2019-20 Actual BEF 	 2019-20 All Formula 	 Inequity 	 Per Student Actual BEF 	 Per Student All Formula BEF 	 Per Student Inequity 
     // TODO join from two sheets...
-    attributeSource: '/static/Data Sheets - School Districts (POWER).tsv',
+    //attributeSource: '/static/SchoolDistricts.csv',
+    //attributeSource: '/static/Data Sheets - Schoold.tsv',
     attributeSourceKey: ['County', 'School District'],
     attributeCategoryTypes: {
-      'White Share': 'Ordered',
+      'Level Up': 'Categorical',
+      'OSTCP Eligible': 'Categorical'
+      /*'White Share': 'Ordered',
       'Median Household Income': 'Ordered',
       'Poverty Percent 0-99%': 'Ordered',
       'Poverty Percent 100-184%': 'Ordered',
@@ -246,10 +249,10 @@ const sourceData = [
       'Inequity': 'Ordered',
       'Per Student Actual BEF': 'Ordered',
       'Per Student All Formula BEF': 'Ordered',
-      'Per Student Inequity': 'Ordered'
+      'Per Student Inequity': 'Ordered'*/
     },
     attributeNumericAttributes: [
-      'White Share',
+      /*'White Share',
       'Median Household Income',
       'Poverty Percent 0-99%',
       'Poverty Percent 100-184%',
@@ -259,10 +262,12 @@ const sourceData = [
       'Inequity',
       'Per Student Actual BEF',
       'Per Student All Formula BEF',
-      'Per Student Inequity',
+      'Per Student Inequity',*/
     ],
     attributesToDisplay: [
-      'White Share',
+      'Level Up',
+      'OSTCP Eligible'
+      /*'White Share',
       'Median Household Income',
       'Poverty Percent 0-99%',
       'Poverty Percent 100-184%',
@@ -272,20 +277,19 @@ const sourceData = [
       'Inequity',
       'Per Student Actual BEF',
       'Per Student All Formula BEF',
-      'Per Student Inequity'
-    ]
-    /*
-    attributeSource: '/static/SchoolDistricts.csv',
-    attributeSourceKey: ['LEA'],
-    attributeCategoryTypes: {
-      'Ratio of black to white discipline': 'Ordered',
-    },
-    attributeNumericAttributes: [
-      'Ratio of black to white discipline',
+      'Per Student Inequity'*/
     ],
-    attributesToDisplay: [
-      'Ratio of black to white discipline',
-    ]*/
+    //attributeSource: '/static/SchoolDistricts.csv',
+    //attributeSourceKey: ['LEA'],
+    //attributeCategoryTypes: {
+//      'Ratio of black to white discipline': 'Ordered',
+  //  },
+//    attributeNumericAttributes: [
+  //    'Ratio of black to white discipline',
+    //],
+    //attributesToDisplay: [
+    //  'Ratio of black to white discipline',
+   // ]
   },
   {
     name: 'Police Department',
@@ -341,9 +345,10 @@ const sourceData = [
     whereObtained: 'Montgomery County Public Datasets',
     citation: 'https://data-montcopa.opendata.arcgis.com/datasets/montcopa::montgomery-county-pa-senate-districts-2022-1/explore?location=40.210380%2C-75.353586%2C10.94',
     nameProcessor: (name) => name + '',
-    attributeSource: '/static/Data Sheets - PA Senate.csv',
+    attributeSource: '/static/Data Sheets - PA State Senate.csv',
     attributeSourceKey: 'District',
     attributeCategoryTypes: {
+      'Party': 'Categorical'
       //'2020 Population': 'Ordered',
       //'Registered Voters': 'Ordered',
       //'Registered Democrats': 'Ordered',
@@ -384,9 +389,10 @@ const sourceData = [
     nameAttribute: 'leg_distri',
     whereObtained: 'PA Public Datasets',
     nameProcessor: (name) => name + '',
-    attributeSource: '/static/Data Sheets - PA House.csv',
+    attributeSource: '/static/Data Sheets - PA State House.tsv',
     attributeSourceKey: 'District',
     attributeCategoryTypes: {
+      'Party': 'Categorical'
       //'2020 Population': 'Ordered',
       //'Registered Voters': 'Ordered',
       //'Registered Democrats': 'Ordered',
@@ -407,6 +413,9 @@ const sourceData = [
       //'Square Miles'
     ],
     attributesToDisplay: [
+      'Name',
+      'Party',
+      'District'
       //'2020 Population',
       //'Representative',
       //'Home County',
@@ -913,7 +922,12 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
             debugger;
           }
 
-          const categoricalValue = (facets[facet].attributes[facetValue] || {})[attribute] || '';
+          let attrs = {}; 
+          if (facets[facet] &&
+              facets[facet].attributes) {
+            attrs = facets[facet].attributes || {};
+          }
+          const categoricalValue = attrs[attribute] || '';
           legend.attributes[categoricalValue] = {
             count: 0
           };
@@ -951,7 +965,13 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
         (facetValue) => {
           const record = facets[facet].values[facetValue];
 
-          const categoricalValue = (facets[facet].attributes[facetValue] || {})[attribute] || '';
+          let attrs = {};
+
+          if (facets[facet] && facets[facet].attributes) {
+            attrs = (facets[facet].attributes[facetValue] || {});
+          }
+
+          const categoricalValue = attrs[attribute] || '';
 
           if (categoricalValue === '') {
             console.log('Missing value', facetValue, facets[facet].attributes)
