@@ -1059,6 +1059,7 @@ const IndexPage = () => {
   const [coloration, setColorStrategy] = React.useState({});
   const [legend, setLegend] = React.useState({});
   const [description, setDescription] = React.useState('');
+  const [selectedIntersections, setIntersections] = React.useState({});
 
   function copyLink() {
     const changes = {
@@ -1300,7 +1301,7 @@ const IndexPage = () => {
         );
       }
     }
-  )
+  );
 
   const facetClicker = (e) => {
     console.time("facetClicker");
@@ -1428,20 +1429,7 @@ const IndexPage = () => {
                       }
                     );
 
-                    let intersectionsHtml = '';
-                    Object.keys(intersectKeys).sort().map(
-                      (key) => {
-                        let subitems = intersectKeys[key].map(
-                          (value) => '<li>' + value + '</li>'
-                        ).join("");
-
-                        intersectionsHtml += ('<li>' + key + '<ul>' +
-                          subitems + '</ul></li>');
-                      }
-                    );
-
-                    tooltipContents += ('<b>Intersects:</b> <ul>' + 
-                       intersectionsHtml + '</ul>');
+                    setIntersections(intersectKeys);
                   }
                   return tooltipContents || '';
                 }, popupOptions);
@@ -1509,7 +1497,7 @@ const IndexPage = () => {
   const result = (
     <Grid
       gap={2} 
-      columns={[2, '0.5fr 3fr']}>
+      columns={[3, '0.8fr .5fr 3fr']}>
       <aside>
         <Facets layers={layers} 
           facets={facets}
@@ -1518,6 +1506,9 @@ const IndexPage = () => {
           getValueFromRow={getValueFromRow}
         />
       </aside>
+      <div>
+        {JSON.stringify(selectedIntersections, null, 2)}
+      </div>        
       <main style={pageStyles}>
         <Grid
           gap={2} 
