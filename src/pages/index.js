@@ -345,7 +345,7 @@ const sourceData = [
     whereObtained: 'Montgomery County Public Datasets',
     citation: 'https://data-montcopa.opendata.arcgis.com/datasets/montcopa::montgomery-county-pa-senate-districts-2022-1/explore?location=40.210380%2C-75.353586%2C10.94',
     nameProcessor: (name) => name + '',
-    attributeSource: '/static/Data Sheets - PA State Senate.csv',
+    attributeSource: '/static/Data Sheets - PA State Senate.tsv',
     attributeSourceKey: 'District',
     attributeCategoryTypes: {
       'Party': 'Categorical'
@@ -369,6 +369,9 @@ const sourceData = [
       //'Square Miles'
     ],
     attributesToDisplay: [
+      'Name',
+      'Party',
+      'District'
       //'2020 Population',
       //'Representative', 
       //'Home County',
