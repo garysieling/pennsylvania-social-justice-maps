@@ -441,6 +441,28 @@ const sourceData = [
     whereObtained: 'https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=1691',
     nameProcessor: trim
   },
+  {
+    name: 'FM Radio',
+    key: '10',
+    loaded: false,
+    source: '/static/radio.geojson',
+    nameAttribute: 'callsign',
+    whereObtained: 'FCC',
+    attributeCategoryTypes: {
+      'FLN': 'Categorical',
+      'type': 'Categorical'
+    },
+    attributeNumericAttributes: [
+    ],
+    attributesToDisplay: [
+      'callsign',
+      'frequency',
+      'city',
+      'state',
+      'FLN',
+      'type'
+    ]
+  },
   //{
   //  // TODO what is this for?
   //  name: 'JPO Districts',
@@ -1215,7 +1237,7 @@ const IndexPage = () => {
                   geojson.features.map(
                     (value) => {
                       const name = getValueFromRow(value.properties, facet.nameAttribute)
-                      value.properties[name] = facet.nameProcessor(
+                      value.properties[name] = (facet.nameProcessor || trim)(
                         value.properties[name],
                         value.properties
                       );
@@ -1391,12 +1413,12 @@ const IndexPage = () => {
                   tooltipContents += '<b>Area:</b> ' + totalArea + ' square miles <br />'
                 
                   if (layer.attributesToDisplay) {
-                    const theseAttributes = layer.attributes[clickedItemName];
+                    const theseAttributes = (layer.attributes || {})[clickedItemName];
                     layer.attributesToDisplay.map(
                       (attr) => {
-                        const attributesForSelected = layer.attributes[clickedItemName];
-                        if (attributesForSelected === undefined) {
-                          return 'Unlinked Data - ???';
+                        const attributesForSelected = (layer.attributes || {})[clickedItemName];
+                        if (!attributesForSelected) {
+                          return '';
                         }
 
                         // attributeNumericAttributes
