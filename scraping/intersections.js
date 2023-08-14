@@ -1,6 +1,8 @@
 const fs = require('fs');
 const intersect = require('@turf/intersect').default;
 const area = require('@turf/area').default;
+const bbox = require('@turf/bbox').default;
+const bboxPolygon = require('@turf/bbox-polygon').default;
 
 const trim = () => {};
 
@@ -243,6 +245,28 @@ const layers =  [
   }*/
  /* TODO Libraries */
  /* TODO NAACPs */
+  {
+    name: 'FM Radio',
+    key: '10',
+    loaded: false,
+    source: '/static/radio.geojson',
+    nameAttribute: 'callsign',
+    whereObtained: 'FCC',
+    attributeCategoryTypes: {
+      'FLN': 'Categorical',
+      'type': 'Categorical'
+    },
+    attributeNumericAttributes: [
+    ],
+    attributesToDisplay: [
+      'callsign',
+      'frequency',
+      'city',
+      'state',
+      'FLN',
+      'type'
+    ]
+  },
 ].map(
     (layer) => {
         let geojson = JSON.parse(
@@ -266,8 +290,6 @@ const layers =  [
 // municipality:ambler_borough <-> zip:19002 => true
 
 // for each layer
-const intersections = {};
-
 function getValueFromRow(row, sourceKey) {
   if (Array.isArray(sourceKey)) {
     //console.log('is array', sourceKey);
@@ -288,124 +310,166 @@ layers.forEach(
     (layerA) => {
         const layerAName = layerA.name;
 
-        layerA.geojson.features.forEach(
-            (featureA) => {
-                const featureAName = 
-                  getValueFromRow(featureA.properties, layerA.nameAttribute);
-                const featureAKey = layerAName + ":" + featureAName;
+        layers.forEach(
+          (layerB) => {
+            const layerBName = layerB.name;
 
-                layers.forEach(
-                    (layerB) => {
-                        const layerBName = layerB.name;
+            if (layerAName === layerBName) {
+              // TODO this removes some potentially useful matches, but
+              // also makes things faster
+              return;
+            }
 
-                        if (layerAName === layerBName) {
-                            // TODO this removes some potentially useful matches, but
-                            // also makes things faster
-                            return;
-                        }
+            const intersections = {};
+            const destinationFileName = 'intersections_cache/intersections' + layerAName + '_' + layerBName + '.json';
+            if (fs.existsSync(destinationFileName)) {
+              return;
+            }
 
-                        layerB.geojson.features.forEach(
-                            (featureB) => {
-                              
-                                const featureBName = 
-                                  getValueFromRow(
-                                    featureB.properties, 
-                                    layerB.nameAttribute
+            layerA.geojson.features.forEach(
+                (featureA) => {
+                  const featureAName = 
+                      getValueFromRow(featureA.properties, layerA.nameAttribute);
+
+                  const featureAKey = layerAName + ":" + featureAName;
+
+
+                      layerB.geojson.features.forEach(
+                        (featureB) => {
+                          const featureBName = 
+                            getValueFromRow(
+                              featureB.properties, 
+                              layerB.nameAttribute
+                            );
+                          const featureBKey = layerBName + ":" + featureBName;
+
+                          //if (layerAName === 'County' || layerBName === 'County') {
+                              // arguably not useful enough to be worth the weight
+                          //    return;
+                          //}
+
+                          if (featureAKey === featureBKey) {
+                              // trial/dumb case
+                              // one question though is if we care if something 
+                              // intersects the same "type"? for instance a borough
+                              // and a township. we might get a lot of false positives though
+                              return;
+                          }
+
+                          const intersectionName = [
+                              featureAKey,
+                              featureBKey,
+                          ].sort().join(" -> ");
+
+                          // TODO - it might make sense to think in terms of size
+                          // where the smaller one is first ("is part of" vs "intersects")?
+                          if (!intersections.hasOwnProperty(intersectionName)) {
+                              // TODO probably needs to be an object
+                              //      could include area intersection
+                              try {
+                                if (!featureA.bbox) {
+                                  featureA.bbox = bboxPolygon(bbox(featureA));
+                                }
+
+                                if (!featureB.bbox) {
+                                  featureB.bbox = bboxPolygon(bbox(featureB));
+                                }
+
+                                let intersection = false;
+                                if (!intersect(featureA.bbox, featureB.bbox)) {
+                                  intersection = false;
+                                } else {
+                                  intersection = intersect(
+                                    featureA,
+                                    featureB
                                   );
-                                const featureBKey = layerBName + ":" + featureBName;
-
-                                if (layerAName === 'County' || layerBName === 'County') {
-                                    // arguably not useful enough to be worth the weight
-                                    return;
                                 }
 
-                                if (featureAKey === featureBKey) {
-                                    // trial/dumb case
-                                    // one question though is if we care if something 
-                                    // intersects the same "type"? for instance a borough
-                                    // and a township. we might get a lot of false positives though
-                                    return;
-                                }
+                                let overlap = null;
+                                let isIntersection = !!intersection;
+                                let overlapPercent = null;
 
-                                const intersectionName = [
-                                    featureAKey,
-                                    featureBKey,
-                                ].sort().join(" -> ");
+                                if (intersection) {
+                                    overlap = area(intersection);
 
-                                // TODO - it might make sense to think in terms of size
-                                // where the smaller one is first ("is part of" vs "intersects")?
-                                if (!intersections.hasOwnProperty(intersectionName)) {
-                                    // TODO probably needs to be an object
-                                    //      could include area intersection
-                                    try {
-                                      const intersection = intersect(
-                                          featureA,
-                                          featureB
-                                      );
+                                    const area1 = area(featureA);
+                                    const area2 = area(featureB);
 
-                                      let overlap = null;
-                                      let isIntersection = !!intersection;
-                                      let overlapPercent = null;
+                                    overlapPercent = overlap / (area1 + area2);
 
-                                      if (intersection) {
-                                          overlap = area(intersection);
-
-                                          const area1 = area(featureA);
-                                          const area2 = area(featureB);
-
-                                          overlapPercent = overlap / (area1 + area2);
-
-                                          if (overlapPercent < .05) {
-                                              isIntersection = false;
-                                          }
-                                      }
-                  
-                                      intersections[intersectionName] = {
-                                          intersects: !!isIntersection,
-                                          overlap: overlap,
-                                          overlapPercent: overlapPercent,
-                                          features: [
-                                            featureAKey,
-                                            featureBKey
-                                          ]
-                                      };
-                                    } catch (e) {
-                                      console.log(e);
+                                    if (overlapPercent < .05) {
+                                        isIntersection = false;
                                     }
                                 }
-                            }
-                        )
+            
+                                intersections[intersectionName] = {
+                                    intersects: !!isIntersection,
+                                    overlap: overlap,
+                                    overlapPercent: overlapPercent,
+                                    features: [
+                                      featureAKey,
+                                      featureBKey
+                                    ]
+                                };
+                              } catch (e) {
+                                //console.log(e);
+                              }
+                          }
+                      }
+                  );
+
+                 // console.log('intersections: ', intersections);
+
+                  const allIntersections = {};
+                  Object.keys(intersections).map(
+                    (key) => intersections[key]
+                  ).filter(
+                    ({intersects}) => intersects
+                  ).map(
+                    ({features}) => features
+                  ).forEach(
+                    ([key1, key2]) => {
+                      if (!allIntersections.hasOwnProperty(key1)) {
+                        allIntersections[key1] = [];
+                      }
+
+                      if (!allIntersections.hasOwnProperty(key2)) {
+                        allIntersections[key2] = [];
+                      }
+
+                      allIntersections[key1].push(key2);
+                      allIntersections[key2].push(key1);
                     }
-                )
-            }
-        )
+                  );
+                 // console.log('all intersections: ', allIntersections);
+
+                  fs.writeFileSync(destinationFileName, JSON.stringify(allIntersections, null, 2));
+              }
+          );
+        }
+      )
     }
 );
 
-console.log('intersections: ', intersections);
-
-const allIntersections = {};
-Object.keys(intersections).map(
-  (key) => intersections[key]
-).filter(
-  ({intersects}) => intersects
-).map(
-  ({features}) => features
-).forEach(
-  ([key1, key2]) => {
-    if (!allIntersections.hasOwnProperty(key1)) {
-      allIntersections[key1] = [];
+let mergedData = {};
+fs.readdirSync('./intersections_cache').map(
+  (file) => {
+    const data = JSON.parse(fs.readFileSync('./intersections_cache/' + file));
+    //mergedData = Object.assign(mergedData, data);
+    for (var key in data) {
+      if (!mergedData[key]) {
+        mergedData[key] = data[key];
+      } else {
+        mergedData[key] = mergedData[key].concat(data[key]);
+      }
     }
-
-    if (!allIntersections.hasOwnProperty(key2)) {
-      allIntersections[key2] = [];
-    }
-
-    allIntersections[key1].push(key2);
-    allIntersections[key2].push(key1);
   }
 );
-console.log('all intersections: ', allIntersections);
 
-fs.writeFileSync('intersections.json', JSON.stringify(allIntersections, null, 2));
+fs.writeFileSync(
+  '../src/data/intersections.js',
+  "export default " + JSON.stringify(mergedData, null, 2)
+);
+
 //fs.writeFileSync('intersections.json', JSON.stringify(intersections, null, 2));
+

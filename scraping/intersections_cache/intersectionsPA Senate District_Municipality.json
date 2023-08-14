@@ -1,0 +1,420 @@
+{
+  "PA Senate District:42": [
+    "Municipality:Allegheny - Kennedy Township",
+    "Municipality:Allegheny - Scott Township",
+    "Municipality:Allegheny - Pittsburgh City"
+  ],
+  "Municipality:Allegheny - Kennedy Township": [
+    "PA Senate District:42"
+  ],
+  "Municipality:Allegheny - Scott Township": [
+    "PA Senate District:42"
+  ],
+  "Municipality:Allegheny - Pittsburgh City": [
+    "PA Senate District:42",
+    "PA Senate District:43"
+  ],
+  "PA Senate District:37": [
+    "Municipality:Allegheny - Jefferson Hills Borough",
+    "Municipality:Allegheny - South Fayette Township",
+    "Municipality:Allegheny - Moon Township",
+    "Municipality:Allegheny - North Fayette Township",
+    "Municipality:Allegheny - Collier Township",
+    "Municipality:Allegheny - Findlay Township",
+    "Municipality:Allegheny - Robinson Township"
+  ],
+  "Municipality:Allegheny - Jefferson Hills Borough": [
+    "PA Senate District:37"
+  ],
+  "Municipality:Allegheny - South Fayette Township": [
+    "PA Senate District:37"
+  ],
+  "Municipality:Allegheny - Moon Township": [
+    "PA Senate District:37"
+  ],
+  "Municipality:Allegheny - North Fayette Township": [
+    "PA Senate District:37"
+  ],
+  "Municipality:Allegheny - Collier Township": [
+    "PA Senate District:37"
+  ],
+  "Municipality:Allegheny - Findlay Township": [
+    "PA Senate District:37"
+  ],
+  "Municipality:Allegheny - Robinson Township": [
+    "PA Senate District:37"
+  ],
+  "PA Senate District:45": [
+    "Municipality:Allegheny - Elizabeth Township",
+    "Municipality:Allegheny - Forward Township",
+    "Municipality:Allegheny - West Mifflin Borough",
+    "Municipality:Allegheny - Plum Borough",
+    "Municipality:Allegheny - Monroeville Borough"
+  ],
+  "Municipality:Allegheny - Elizabeth Township": [
+    "PA Senate District:45"
+  ],
+  "Municipality:Allegheny - Forward Township": [
+    "PA Senate District:45"
+  ],
+  "Municipality:Allegheny - West Mifflin Borough": [
+    "PA Senate District:45"
+  ],
+  "Municipality:Allegheny - Plum Borough": [
+    "PA Senate District:45"
+  ],
+  "Municipality:Allegheny - Monroeville Borough": [
+    "PA Senate District:45"
+  ],
+  "PA Senate District:38": [
+    "Municipality:Allegheny - Marshall Township",
+    "Municipality:Allegheny - Fawn Township",
+    "Municipality:Allegheny - West Deer Township",
+    "Municipality:Allegheny - Hampton Township",
+    "Municipality:Allegheny - Mccandless Township",
+    "Municipality:Allegheny - Richland Township",
+    "Municipality:Allegheny - Pine Township",
+    "Municipality:Allegheny - Indiana Township",
+    "Municipality:Allegheny - Franklin Park Borough",
+    "Municipality:Allegheny - Ross Township"
+  ],
+  "Municipality:Allegheny - Marshall Township": [
+    "PA Senate District:38"
+  ],
+  "Municipality:Allegheny - Fawn Township": [
+    "PA Senate District:38"
+  ],
+  "Municipality:Allegheny - West Deer Township": [
+    "PA Senate District:38"
+  ],
+  "Municipality:Allegheny - Hampton Township": [
+    "PA Senate District:38"
+  ],
+  "Municipality:Allegheny - Mccandless Township": [
+    "PA Senate District:38"
+  ],
+  "Municipality:Allegheny - Richland Township": [
+    "PA Senate District:38"
+  ],
+  "Municipality:Allegheny - Pine Township": [
+    "PA Senate District:38"
+  ],
+  "Municipality:Allegheny - Indiana Township": [
+    "PA Senate District:38"
+  ],
+  "Municipality:Allegheny - Franklin Park Borough": [
+    "PA Senate District:38"
+  ],
+  "Municipality:Allegheny - Ross Township": [
+    "PA Senate District:38"
+  ],
+  "PA Senate District:43": [
+    "Municipality:Allegheny - Penn Hills Township",
+    "Municipality:Allegheny - Pittsburgh City"
+  ],
+  "Municipality:Allegheny - Penn Hills Township": [
+    "PA Senate District:43"
+  ],
+  "PA Senate District:7": [
+    "Municipality:Montgomery - Whitemarsh Township",
+    "Municipality:Montgomery - Upper Dublin Township",
+    "Municipality:Philadelphia - Philadelphia City"
+  ],
+  "Municipality:Montgomery - Whitemarsh Township": [
+    "PA Senate District:7"
+  ],
+  "Municipality:Montgomery - Upper Dublin Township": [
+    "PA Senate District:7"
+  ],
+  "Municipality:Philadelphia - Philadelphia City": [
+    "PA Senate District:7",
+    "PA Senate District:8",
+    "PA Senate District:4",
+    "PA Senate District:3",
+    "PA Senate District:1",
+    "PA Senate District:2",
+    "PA Senate District:5"
+  ],
+  "PA Senate District:8": [
+    "Municipality:Philadelphia - Philadelphia City",
+    "Municipality:Delaware - Yeadon Borough",
+    "Municipality:Delaware - Lansdowne Borough",
+    "Municipality:Delaware - Folcroft Borough",
+    "Municipality:Delaware - Darby Township"
+  ],
+  "Municipality:Delaware - Yeadon Borough": [
+    "PA Senate District:8"
+  ],
+  "Municipality:Delaware - Lansdowne Borough": [
+    "PA Senate District:8"
+  ],
+  "Municipality:Delaware - Folcroft Borough": [
+    "PA Senate District:8"
+  ],
+  "Municipality:Delaware - Darby Township": [
+    "PA Senate District:8"
+  ],
+  "PA Senate District:4": [
+    "Municipality:Montgomery - Abington Township",
+    "Municipality:Montgomery - Springfield Township",
+    "Municipality:Montgomery - Cheltenham Township",
+    "Municipality:Philadelphia - Philadelphia City"
+  ],
+  "Municipality:Montgomery - Abington Township": [
+    "PA Senate District:4"
+  ],
+  "Municipality:Montgomery - Springfield Township": [
+    "PA Senate District:4"
+  ],
+  "Municipality:Montgomery - Cheltenham Township": [
+    "PA Senate District:4"
+  ],
+  "PA Senate District:3": [
+    "Municipality:Philadelphia - Philadelphia City"
+  ],
+  "PA Senate District:44": [
+    "Municipality:Montgomery - Limerick Township",
+    "Municipality:Chester - West Caln Township",
+    "Municipality:Chester - Honey Brook Township"
+  ],
+  "Municipality:Montgomery - Limerick Township": [
+    "PA Senate District:44"
+  ],
+  "Municipality:Chester - West Caln Township": [
+    "PA Senate District:44"
+  ],
+  "Municipality:Chester - Honey Brook Township": [
+    "PA Senate District:44"
+  ],
+  "PA Senate District:9": [
+    "Municipality:Chester - East Marlborough Township",
+    "Municipality:Delaware - Concord Township",
+    "Municipality:Chester - West Goshen Township",
+    "Municipality:Chester - Newlin Township",
+    "Municipality:Delaware - Middletown Township",
+    "Municipality:Chester - Kennett Township"
+  ],
+  "Municipality:Chester - East Marlborough Township": [
+    "PA Senate District:9"
+  ],
+  "Municipality:Delaware - Concord Township": [
+    "PA Senate District:9"
+  ],
+  "Municipality:Chester - West Goshen Township": [
+    "PA Senate District:9"
+  ],
+  "Municipality:Chester - Newlin Township": [
+    "PA Senate District:9"
+  ],
+  "Municipality:Delaware - Middletown Township": [
+    "PA Senate District:9"
+  ],
+  "Municipality:Chester - Kennett Township": [
+    "PA Senate District:9"
+  ],
+  "PA Senate District:24": [
+    "Municipality:Bucks - Milford Township",
+    "Municipality:Bucks - Tinicum Township",
+    "Municipality:Bucks - Springfield Township"
+  ],
+  "Municipality:Bucks - Milford Township": [
+    "PA Senate District:24"
+  ],
+  "Municipality:Bucks - Tinicum Township": [
+    "PA Senate District:24"
+  ],
+  "Municipality:Bucks - Springfield Township": [
+    "PA Senate District:24"
+  ],
+  "PA Senate District:26": [
+    "Municipality:Delaware - Tinicum Township",
+    "Municipality:Delaware - Ridley Township",
+    "Municipality:Delaware - Marple Township",
+    "Municipality:Chester - Willistown Township",
+    "Municipality:Delaware - Upper Providence Township",
+    "Municipality:Delaware - Newtown Township",
+    "Municipality:Chester - Easttown Township",
+    "Municipality:Delaware - Springfield Township",
+    "Municipality:Delaware - Upper Darby Township"
+  ],
+  "Municipality:Delaware - Tinicum Township": [
+    "PA Senate District:26"
+  ],
+  "Municipality:Delaware - Ridley Township": [
+    "PA Senate District:26"
+  ],
+  "Municipality:Delaware - Marple Township": [
+    "PA Senate District:26"
+  ],
+  "Municipality:Chester - Willistown Township": [
+    "PA Senate District:26"
+  ],
+  "Municipality:Delaware - Upper Providence Township": [
+    "PA Senate District:26"
+  ],
+  "Municipality:Delaware - Newtown Township": [
+    "PA Senate District:26"
+  ],
+  "Municipality:Chester - Easttown Township": [
+    "PA Senate District:26"
+  ],
+  "Municipality:Delaware - Springfield Township": [
+    "PA Senate District:26"
+  ],
+  "Municipality:Delaware - Upper Darby Township": [
+    "PA Senate District:26"
+  ],
+  "PA Senate District:10": [
+    "Municipality:Bucks - Upper Makefield Township",
+    "Municipality:Bucks - Lower Makefield Township",
+    "Municipality:Bucks - Falls Township",
+    "Municipality:Bucks - Bedminster Township",
+    "Municipality:Bucks - Buckingham Township",
+    "Municipality:Bucks - Plumstead Township",
+    "Municipality:Bucks - Solebury Township",
+    "Municipality:Bucks - Hilltown Township",
+    "Municipality:Bucks - Haycock Township"
+  ],
+  "Municipality:Bucks - Upper Makefield Township": [
+    "PA Senate District:10"
+  ],
+  "Municipality:Bucks - Lower Makefield Township": [
+    "PA Senate District:10"
+  ],
+  "Municipality:Bucks - Falls Township": [
+    "PA Senate District:10"
+  ],
+  "Municipality:Bucks - Bedminster Township": [
+    "PA Senate District:10"
+  ],
+  "Municipality:Bucks - Buckingham Township": [
+    "PA Senate District:10"
+  ],
+  "Municipality:Bucks - Plumstead Township": [
+    "PA Senate District:10"
+  ],
+  "Municipality:Bucks - Solebury Township": [
+    "PA Senate District:10"
+  ],
+  "Municipality:Bucks - Hilltown Township": [
+    "PA Senate District:10"
+  ],
+  "Municipality:Bucks - Haycock Township": [
+    "PA Senate District:10"
+  ],
+  "PA Senate District:17": [
+    "Municipality:Montgomery - Plymouth Township",
+    "Municipality:Montgomery - East Norriton Township",
+    "Municipality:Montgomery - Whitpain Township",
+    "Municipality:Montgomery - Lower Merion Township",
+    "Municipality:Montgomery - Upper Merion Township",
+    "Municipality:Delaware - Radnor Township",
+    "Municipality:Delaware - Haverford Township"
+  ],
+  "Municipality:Montgomery - Plymouth Township": [
+    "PA Senate District:17"
+  ],
+  "Municipality:Montgomery - East Norriton Township": [
+    "PA Senate District:17"
+  ],
+  "Municipality:Montgomery - Whitpain Township": [
+    "PA Senate District:17"
+  ],
+  "Municipality:Montgomery - Lower Merion Township": [
+    "PA Senate District:17"
+  ],
+  "Municipality:Montgomery - Upper Merion Township": [
+    "PA Senate District:17"
+  ],
+  "Municipality:Delaware - Radnor Township": [
+    "PA Senate District:17"
+  ],
+  "Municipality:Delaware - Haverford Township": [
+    "PA Senate District:17"
+  ],
+  "PA Senate District:12": [
+    "Municipality:Montgomery - Lower Gwynedd Township",
+    "Municipality:Montgomery - Franconia Township",
+    "Municipality:Montgomery - Horsham Township",
+    "Municipality:Montgomery - Montgomery Township",
+    "Municipality:Montgomery - Upper Gwynedd Township",
+    "Municipality:Montgomery - Hatfield Township",
+    "Municipality:Montgomery - Upper Moreland Township",
+    "Municipality:Montgomery - Lower Moreland Township",
+    "Municipality:Bucks - Upper Southampton Township",
+    "Municipality:Bucks - Warminster Township",
+    "Municipality:Bucks - Warrington Township"
+  ],
+  "Municipality:Montgomery - Lower Gwynedd Township": [
+    "PA Senate District:12"
+  ],
+  "Municipality:Montgomery - Franconia Township": [
+    "PA Senate District:12"
+  ],
+  "Municipality:Montgomery - Horsham Township": [
+    "PA Senate District:12"
+  ],
+  "Municipality:Montgomery - Montgomery Township": [
+    "PA Senate District:12"
+  ],
+  "Municipality:Montgomery - Upper Gwynedd Township": [
+    "PA Senate District:12"
+  ],
+  "Municipality:Montgomery - Hatfield Township": [
+    "PA Senate District:12"
+  ],
+  "Municipality:Montgomery - Upper Moreland Township": [
+    "PA Senate District:12"
+  ],
+  "Municipality:Montgomery - Lower Moreland Township": [
+    "PA Senate District:12"
+  ],
+  "Municipality:Bucks - Upper Southampton Township": [
+    "PA Senate District:12"
+  ],
+  "Municipality:Bucks - Warminster Township": [
+    "PA Senate District:12"
+  ],
+  "Municipality:Bucks - Warrington Township": [
+    "PA Senate District:12"
+  ],
+  "PA Senate District:1": [
+    "Municipality:Philadelphia - Philadelphia City"
+  ],
+  "PA Senate District:2": [
+    "Municipality:Philadelphia - Philadelphia City"
+  ],
+  "PA Senate District:5": [
+    "Municipality:Philadelphia - Philadelphia City"
+  ],
+  "PA Senate District:6": [
+    "Municipality:Bucks - Bristol Township",
+    "Municipality:Bucks - Middletown Township",
+    "Municipality:Bucks - Bensalem Township",
+    "Municipality:Bucks - Northampton Township",
+    "Municipality:Bucks - Lower Southampton Township",
+    "Municipality:Bucks - Warwick Township",
+    "Municipality:Bucks - Wrightstown Township"
+  ],
+  "Municipality:Bucks - Bristol Township": [
+    "PA Senate District:6"
+  ],
+  "Municipality:Bucks - Middletown Township": [
+    "PA Senate District:6"
+  ],
+  "Municipality:Bucks - Bensalem Township": [
+    "PA Senate District:6"
+  ],
+  "Municipality:Bucks - Northampton Township": [
+    "PA Senate District:6"
+  ],
+  "Municipality:Bucks - Lower Southampton Township": [
+    "PA Senate District:6"
+  ],
+  "Municipality:Bucks - Warwick Township": [
+    "PA Senate District:6"
+  ],
+  "Municipality:Bucks - Wrightstown Township": [
+    "PA Senate District:6"
+  ]
+}

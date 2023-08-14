@@ -1,0 +1,640 @@
+{
+  "Magesterial Courts:07-1-02": [
+    "Police Department:Bucks - Bristol Borough Police",
+    "Police Department:Bucks - Bristol  Police"
+  ],
+  "Police Department:Bucks - Bristol Borough Police": [
+    "Magesterial Courts:07-1-02"
+  ],
+  "Police Department:Bucks - Bristol  Police": [
+    "Magesterial Courts:07-1-02",
+    "Magesterial Courts:07-1-04",
+    "Magesterial Courts:07-1-03"
+  ],
+  "Magesterial Courts:07-1-04": [
+    "Police Department:Bucks - Tullytown Borough Police",
+    "Police Department:Bucks - Bristol  Police"
+  ],
+  "Police Department:Bucks - Tullytown Borough Police": [
+    "Magesterial Courts:07-1-04"
+  ],
+  "Magesterial Courts:07-2-01": [
+    "Police Department:Bucks - Upper Southampton  Police",
+    "Police Department:Bucks - Northampton  Police"
+  ],
+  "Police Department:Bucks - Upper Southampton  Police": [
+    "Magesterial Courts:07-2-01"
+  ],
+  "Police Department:Bucks - Northampton  Police": [
+    "Magesterial Courts:07-2-01"
+  ],
+  "Magesterial Courts:07-1-09": [
+    "Police Department:Bucks - Warminster  Police"
+  ],
+  "Police Department:Bucks - Warminster  Police": [
+    "Magesterial Courts:07-1-09"
+  ],
+  "Magesterial Courts:07-1-11": [
+    "Police Department:Bucks - Morrisville Borough Police",
+    "Police Department:Bucks - Lower Makefield  Police"
+  ],
+  "Police Department:Bucks - Morrisville Borough Police": [
+    "Magesterial Courts:07-1-11"
+  ],
+  "Police Department:Bucks - Lower Makefield  Police": [
+    "Magesterial Courts:07-1-11"
+  ],
+  "Magesterial Courts:07-2-07": [
+    "Police Department:Bucks - Newtown  Police",
+    "Police Department:Bucks - Upper Makefield  Police"
+  ],
+  "Police Department:Bucks - Newtown  Police": [
+    "Magesterial Courts:07-2-07"
+  ],
+  "Police Department:Bucks - Upper Makefield  Police": [
+    "Magesterial Courts:07-2-07"
+  ],
+  "Magesterial Courts:07-3-02": [
+    "Police Department:Bucks - Warrington  Police",
+    "Police Department:Bucks - Warwick  Police"
+  ],
+  "Police Department:Bucks - Warrington  Police": [
+    "Magesterial Courts:07-3-02"
+  ],
+  "Police Department:Bucks - Warwick  Police": [
+    "Magesterial Courts:07-3-02"
+  ],
+  "Magesterial Courts:07-2-08": [
+    "Police Department:Bucks - Central Bucks Regional Police",
+    "Police Department:Bucks - Hilltown  Police",
+    "Police Department:Bucks - Perkasie Borough Police",
+    "Police Department:Bucks - New Britain  Police"
+  ],
+  "Police Department:Bucks - Central Bucks Regional Police": [
+    "Magesterial Courts:07-2-08",
+    "Magesterial Courts:07-2-02"
+  ],
+  "Police Department:Bucks - Hilltown  Police": [
+    "Magesterial Courts:07-2-08"
+  ],
+  "Police Department:Bucks - Perkasie Borough Police": [
+    "Magesterial Courts:07-2-08"
+  ],
+  "Police Department:Bucks - New Britain  Police": [
+    "Magesterial Courts:07-2-08"
+  ],
+  "Magesterial Courts:07-2-02": [
+    "Police Department:Bucks - Central Bucks Regional Police",
+    "Police Department:Bucks - Doylestown  Police"
+  ],
+  "Police Department:Bucks - Doylestown  Police": [
+    "Magesterial Courts:07-2-02"
+  ],
+  "Magesterial Courts:07-3-01": [
+    "Police Department:Bucks - Buckingham  Police",
+    "Police Department:Bucks - Solebury  Police"
+  ],
+  "Police Department:Bucks - Buckingham  Police": [
+    "Magesterial Courts:07-3-01"
+  ],
+  "Police Department:Bucks - Solebury  Police": [
+    "Magesterial Courts:07-3-01"
+  ],
+  "Magesterial Courts:07-3-03": [
+    "Police Department:Bucks - PA State Police (Dublin)",
+    "Police Department:Bucks - Plumstead  Police",
+    "Police Department:Bucks - Tinicum  Police"
+  ],
+  "Police Department:Bucks - PA State Police (Dublin)": [
+    "Magesterial Courts:07-3-03",
+    "Magesterial Courts:07-2-05"
+  ],
+  "Police Department:Bucks - Plumstead  Police": [
+    "Magesterial Courts:07-3-03"
+  ],
+  "Police Department:Bucks - Tinicum  Police": [
+    "Magesterial Courts:07-3-03"
+  ],
+  "Magesterial Courts:07-2-05": [
+    "Police Department:Bucks - Pennridge Regional Police",
+    "Police Department:Bucks - PA State Police (Dublin)"
+  ],
+  "Police Department:Bucks - Pennridge Regional Police": [
+    "Magesterial Courts:07-2-05"
+  ],
+  "Magesterial Courts:07-1-03": [
+    "Police Department:Bucks - Bristol  Police"
+  ],
+  "Magesterial Courts:07-1-07": [
+    "Police Department:Bucks - PA State Police (Trevose)",
+    "Police Department:Bucks - Lower Southampton  Police",
+    "Police Department:Bucks - Middletown  Police"
+  ],
+  "Police Department:Bucks - PA State Police (Trevose)": [
+    "Magesterial Courts:07-1-07"
+  ],
+  "Police Department:Bucks - Lower Southampton  Police": [
+    "Magesterial Courts:07-1-07"
+  ],
+  "Police Department:Bucks - Middletown  Police": [
+    "Magesterial Courts:07-1-07",
+    "Magesterial Courts:07-1-08"
+  ],
+  "Magesterial Courts:07-1-01": [
+    "Police Department:Bucks - PA State Police (Bensalem)"
+  ],
+  "Police Department:Bucks - PA State Police (Bensalem)": [
+    "Magesterial Courts:07-1-01",
+    "Magesterial Courts:07-1-12"
+  ],
+  "Magesterial Courts:07-1-12": [
+    "Police Department:Bucks - PA State Police (Bensalem)"
+  ],
+  "Magesterial Courts:07-1-08": [
+    "Police Department:Bucks - Middletown  Police"
+  ],
+  "Magesterial Courts:07-1-10": [
+    "Police Department:Bucks - Falls  Police"
+  ],
+  "Police Department:Bucks - Falls  Police": [
+    "Magesterial Courts:07-1-10",
+    "Magesterial Courts:undefined"
+  ],
+  "Magesterial Courts:undefined": [
+    "Police Department:Bucks - Falls  Police"
+  ],
+  "Magesterial Courts:2015-02-07": [
+    "Police Department:Chester - Upper Uwchlan Township",
+    "Police Department:Chester - West Pikeland Township",
+    "Police Department:Chester - Uwchlan Township"
+  ],
+  "Police Department:Chester - Upper Uwchlan Township": [
+    "Magesterial Courts:2015-02-07"
+  ],
+  "Police Department:Chester - West Pikeland Township": [
+    "Magesterial Courts:2015-02-07"
+  ],
+  "Police Department:Chester - Uwchlan Township": [
+    "Magesterial Courts:2015-02-07"
+  ],
+  "Magesterial Courts:2015-02-03": [
+    "Police Department:Chester - Westtown/E Goshen",
+    "Police Department:Chester - West Goshen Township"
+  ],
+  "Police Department:Chester - Westtown/E Goshen": [
+    "Magesterial Courts:2015-02-03",
+    "Magesterial Courts:2015-01-02"
+  ],
+  "Police Department:Chester - West Goshen Township": [
+    "Magesterial Courts:2015-02-03"
+  ],
+  "Magesterial Courts:2015-03-05": [
+    "Police Department:Chester - PA State Police Avondale",
+    "Police Department:Chester - West Nottingham Township"
+  ],
+  "Police Department:Chester - PA State Police Avondale": [
+    "Magesterial Courts:2015-03-05",
+    "Magesterial Courts:2015-04-04",
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Police Department:Chester - West Nottingham Township": [
+    "Magesterial Courts:2015-03-05"
+  ],
+  "Magesterial Courts:2015-04-02": [
+    "Police Department:Chester - East Brandywine",
+    "Police Department:Chester - Caln Township",
+    "Police Department:Chester - Downingtown Borough"
+  ],
+  "Police Department:Chester - East Brandywine": [
+    "Magesterial Courts:2015-04-02"
+  ],
+  "Police Department:Chester - Caln Township": [
+    "Magesterial Courts:2015-04-02"
+  ],
+  "Police Department:Chester - Downingtown Borough": [
+    "Magesterial Courts:2015-04-02"
+  ],
+  "Magesterial Courts:2015-04-01": [
+    "Police Department:Chester - Tredyffrin Township",
+    "Police Department:Chester - East Whiteland Township",
+    "Police Department:Chester - Valley Forge Natl Park Rangers"
+  ],
+  "Police Department:Chester - Tredyffrin Township": [
+    "Magesterial Courts:2015-04-01",
+    "Magesterial Courts:2015-01-02"
+  ],
+  "Police Department:Chester - East Whiteland Township": [
+    "Magesterial Courts:2015-04-01",
+    "Magesterial Courts:2015-04-03"
+  ],
+  "Police Department:Chester - Valley Forge Natl Park Rangers": [
+    "Magesterial Courts:2015-04-01"
+  ],
+  "Magesterial Courts:2015-04-03": [
+    "Police Department:Chester - East Whiteland Township",
+    "Police Department:Chester - West Whiteland Township"
+  ],
+  "Police Department:Chester - West Whiteland Township": [
+    "Magesterial Courts:2015-04-03"
+  ],
+  "Magesterial Courts:2015-04-04": [
+    "Police Department:Chester - PA State Police Avondale",
+    "Police Department:Chester - Southern Chester County Regional Police"
+  ],
+  "Police Department:Chester - Southern Chester County Regional Police": [
+    "Magesterial Courts:2015-04-04"
+  ],
+  "Magesterial Courts:2015-01-02": [
+    "Police Department:Chester - Tredyffrin Township",
+    "Police Department:Chester - Easttown Township",
+    "Police Department:Chester - Westtown/E Goshen",
+    "Police Department:Chester - Willistown Township"
+  ],
+  "Police Department:Chester - Easttown Township": [
+    "Magesterial Courts:2015-01-02"
+  ],
+  "Police Department:Chester - Willistown Township": [
+    "Magesterial Courts:2015-01-02"
+  ],
+  "Magesterial Courts:2015-01-04": [
+    "Police Department:Chester - West Chester University",
+    "Police Department:Chester - West Chester Borough"
+  ],
+  "Police Department:Chester - West Chester University": [
+    "Magesterial Courts:2015-01-04"
+  ],
+  "Police Department:Chester - West Chester Borough": [
+    "Magesterial Courts:2015-01-04",
+    "Magesterial Courts:2015-01-01"
+  ],
+  "Magesterial Courts:2015-01-03": [
+    "Police Department:Chester - South Coatesville Borough",
+    "Police Department:Chester - Coatesville City"
+  ],
+  "Police Department:Chester - South Coatesville Borough": [
+    "Magesterial Courts:2015-01-03"
+  ],
+  "Police Department:Chester - Coatesville City": [
+    "Magesterial Courts:2015-01-03"
+  ],
+  "Magesterial Courts:2015-01-01": [
+    "Police Department:Chester - PA State Police Embreeville",
+    "Police Department:Chester - West Chester Borough"
+  ],
+  "Police Department:Chester - PA State Police Embreeville": [
+    "Magesterial Courts:2015-01-01",
+    "Magesterial Courts:2015-02-01",
+    "Magesterial Courts:2015-03-01",
+    "Magesterial Courts:2015-03-04",
+    "Magesterial Courts:2015-03-06"
+  ],
+  "Magesterial Courts:2015-02-01": [
+    "Police Department:Chester - PA State Police Embreeville",
+    "Police Department:Chester - Phoenixville Borough",
+    "Police Department:Chester - Schuylkill Township"
+  ],
+  "Police Department:Chester - Phoenixville Borough": [
+    "Magesterial Courts:2015-02-01"
+  ],
+  "Police Department:Chester - Schuylkill Township": [
+    "Magesterial Courts:2015-02-01"
+  ],
+  "Magesterial Courts:2015-03-01": [
+    "Police Department:Chester - West Vincent Township",
+    "Police Department:Chester - PA State Police Embreeville",
+    "Police Department:Chester - North Coventry Township",
+    "Police Department:Chester - East Coventry Township",
+    "Police Department:Chester - East Vincent Township",
+    "Police Department:Chester - East Pikeland Township"
+  ],
+  "Police Department:Chester - West Vincent Township": [
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Police Department:Chester - North Coventry Township": [
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Police Department:Chester - East Coventry Township": [
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Police Department:Chester - East Vincent Township": [
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Police Department:Chester - East Pikeland Township": [
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Magesterial Courts:2015-03-04": [
+    "Police Department:Chester - PA State Police Avondale",
+    "Police Department:Chester - PA State Police Embreeville",
+    "Police Department:Chester - Kennett Township",
+    "Police Department:Chester - East Marlborough Township",
+    "Police Department:Chester - Birmingham Township"
+  ],
+  "Police Department:Chester - Kennett Township": [
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Police Department:Chester - East Marlborough Township": [
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Police Department:Chester - Birmingham Township": [
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Magesterial Courts:2015-03-06": [
+    "Police Department:Chester - PA State Police Embreeville",
+    "Police Department:Chester - Sadsbury Township",
+    "Police Department:Chester - West Caln Township",
+    "Police Department:Chester - West Brandywine Township"
+  ],
+  "Police Department:Chester - Sadsbury Township": [
+    "Magesterial Courts:2015-03-06"
+  ],
+  "Police Department:Chester - West Caln Township": [
+    "Magesterial Courts:2015-03-06"
+  ],
+  "Police Department:Chester - West Brandywine Township": [
+    "Magesterial Courts:2015-03-06"
+  ],
+  "Magesterial Courts:2015-03-07": [
+    "Police Department:Chester - West Fallowfield Township",
+    "Police Department:Chester - Highland Township",
+    "Police Department:Chester - West Sadsbury Township",
+    "Police Department:Chester - Valley Township",
+    "Police Department:Chester - East Fallowfield Township"
+  ],
+  "Police Department:Chester - West Fallowfield Township": [
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Police Department:Chester - Highland Township": [
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Police Department:Chester - West Sadsbury Township": [
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Police Department:Chester - Valley Township": [
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Police Department:Chester - East Fallowfield Township": [
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Magesterial Courts:1938-01-01": [
+    "Police Department:Montgomery - East Norriton",
+    "Police Department:Montgomery - West Norriton"
+  ],
+  "Police Department:Montgomery - East Norriton": [
+    "Magesterial Courts:1938-01-01"
+  ],
+  "Police Department:Montgomery - West Norriton": [
+    "Magesterial Courts:1938-01-01"
+  ],
+  "Magesterial Courts:1938-01-02": [
+    "Police Department:Montgomery - Cheltenham",
+    "Police Department:Montgomery - Jenkintown"
+  ],
+  "Police Department:Montgomery - Cheltenham": [
+    "Magesterial Courts:1938-01-02",
+    "Magesterial Courts:1938-01-03"
+  ],
+  "Police Department:Montgomery - Jenkintown": [
+    "Magesterial Courts:1938-01-02"
+  ],
+  "Magesterial Courts:1938-01-03": [
+    "Police Department:Montgomery - Cheltenham"
+  ],
+  "Magesterial Courts:1938-01-04": [
+    "Police Department:Montgomery - Abington"
+  ],
+  "Police Department:Montgomery - Abington": [
+    "Magesterial Courts:1938-01-04",
+    "Magesterial Courts:1938-01-05"
+  ],
+  "Magesterial Courts:1938-01-05": [
+    "Police Department:Montgomery - Abington"
+  ],
+  "Magesterial Courts:1938-01-06": [
+    "Police Department:Montgomery - Lower Merion"
+  ],
+  "Police Department:Montgomery - Lower Merion": [
+    "Magesterial Courts:1938-01-06",
+    "Magesterial Courts:1938-01-07",
+    "Magesterial Courts:1938-02-04"
+  ],
+  "Magesterial Courts:1938-01-07": [
+    "Police Department:Montgomery - Lower Merion",
+    "Police Department:Montgomery - Narberth"
+  ],
+  "Police Department:Montgomery - Narberth": [
+    "Magesterial Courts:1938-01-07"
+  ],
+  "Magesterial Courts:1938-01-08": [
+    "Police Department:Montgomery - Springfield"
+  ],
+  "Police Department:Montgomery - Springfield": [
+    "Magesterial Courts:1938-01-08"
+  ],
+  "Magesterial Courts:1938-01-09": [
+    "Police Department:Montgomery - West Conshohocken"
+  ],
+  "Police Department:Montgomery - West Conshohocken": [
+    "Magesterial Courts:1938-01-09"
+  ],
+  "Magesterial Courts:1938-01-10": [
+    "Police Department:Montgomery - Upper Dublin",
+    "Police Department:Montgomery - Ambler"
+  ],
+  "Police Department:Montgomery - Upper Dublin": [
+    "Magesterial Courts:1938-01-10"
+  ],
+  "Police Department:Montgomery - Ambler": [
+    "Magesterial Courts:1938-01-10"
+  ],
+  "Magesterial Courts:1938-01-11": [
+    "Police Department:Montgomery - Pottstown",
+    "Police Department:Montgomery - West Pottsgrove"
+  ],
+  "Police Department:Montgomery - Pottstown": [
+    "Magesterial Courts:1938-01-11",
+    "Magesterial Courts:1938-01-12"
+  ],
+  "Police Department:Montgomery - West Pottsgrove": [
+    "Magesterial Courts:1938-01-11"
+  ],
+  "Magesterial Courts:1938-01-12": [
+    "Police Department:Montgomery - Lower Pottsgrove",
+    "Police Department:Montgomery - Pottstown"
+  ],
+  "Police Department:Montgomery - Lower Pottsgrove": [
+    "Magesterial Courts:1938-01-12"
+  ],
+  "Magesterial Courts:1938-01-13": [
+    "Police Department:Montgomery - Conshohocken"
+  ],
+  "Police Department:Montgomery - Conshohocken": [
+    "Magesterial Courts:1938-01-13"
+  ],
+  "Magesterial Courts:1938-01-14": [
+    "Police Department:Montgomery - Upper Moreland",
+    "Police Department:Montgomery - Hatboro",
+    "Police Department:Montgomery - Horsham"
+  ],
+  "Police Department:Montgomery - Upper Moreland": [
+    "Magesterial Courts:1938-01-14",
+    "Magesterial Courts:1938-02-08"
+  ],
+  "Police Department:Montgomery - Hatboro": [
+    "Magesterial Courts:1938-01-14"
+  ],
+  "Police Department:Montgomery - Horsham": [
+    "Magesterial Courts:1938-01-14",
+    "Magesterial Courts:1938-01-22"
+  ],
+  "Magesterial Courts:1938-01-15": [
+    "Police Department:Montgomery - Norristown"
+  ],
+  "Police Department:Montgomery - Norristown": [
+    "Magesterial Courts:1938-01-15",
+    "Magesterial Courts:1938-01-16",
+    "Magesterial Courts:1938-02-09"
+  ],
+  "Magesterial Courts:1938-01-16": [
+    "Police Department:Montgomery - Norristown"
+  ],
+  "Magesterial Courts:1938-01-18": [
+    "Police Department:Montgomery - Montgomery",
+    "Police Department:Montgomery - Hatfield"
+  ],
+  "Police Department:Montgomery - Montgomery": [
+    "Magesterial Courts:1938-01-18"
+  ],
+  "Police Department:Montgomery - Hatfield": [
+    "Magesterial Courts:1938-01-18",
+    "Magesterial Courts:1938-01-28"
+  ],
+  "Magesterial Courts:1938-01-19": [
+    "Police Department:Montgomery - Upper Providence",
+    "Police Department:Montgomery - Limerick"
+  ],
+  "Police Department:Montgomery - Upper Providence": [
+    "Magesterial Courts:1938-01-19",
+    "Magesterial Courts:1938-01-20"
+  ],
+  "Police Department:Montgomery - Limerick": [
+    "Magesterial Courts:1938-01-19"
+  ],
+  "Magesterial Courts:1938-01-20": [
+    "Police Department:Montgomery - Lower Providence",
+    "Police Department:Montgomery - Upper Providence",
+    "Police Department:Montgomery - Collegeville"
+  ],
+  "Police Department:Montgomery - Lower Providence": [
+    "Magesterial Courts:1938-01-20"
+  ],
+  "Police Department:Montgomery - Collegeville": [
+    "Magesterial Courts:1938-01-20"
+  ],
+  "Magesterial Courts:1938-01-21": [
+    "Police Department:Montgomery - Lower Gwynedd",
+    "Police Department:Montgomery - Whitpain",
+    "Police Department:Montgomery - Upper Gwynedd"
+  ],
+  "Police Department:Montgomery - Lower Gwynedd": [
+    "Magesterial Courts:1938-01-21"
+  ],
+  "Police Department:Montgomery - Whitpain": [
+    "Magesterial Courts:1938-01-21"
+  ],
+  "Police Department:Montgomery - Upper Gwynedd": [
+    "Magesterial Courts:1938-01-21"
+  ],
+  "Magesterial Courts:1938-01-22": [
+    "Police Department:Montgomery - Horsham"
+  ],
+  "Magesterial Courts:1938-01-23": [
+    "Police Department:Montgomery - Whitemarsh"
+  ],
+  "Police Department:Montgomery - Whitemarsh": [
+    "Magesterial Courts:1938-01-23"
+  ],
+  "Magesterial Courts:1938-01-24": [
+    "Police Department:Montgomery - State Police - Troop K - Skippack",
+    "Police Department:Montgomery - Lower Salford",
+    "Police Department:Montgomery - Franconia"
+  ],
+  "Police Department:Montgomery - State Police - Troop K - Skippack": [
+    "Magesterial Courts:1938-01-24",
+    "Magesterial Courts:1938-02-02",
+    "Magesterial Courts:1938-02-03"
+  ],
+  "Police Department:Montgomery - Lower Salford": [
+    "Magesterial Courts:1938-01-24"
+  ],
+  "Police Department:Montgomery - Franconia": [
+    "Magesterial Courts:1938-01-24"
+  ],
+  "Magesterial Courts:1938-01-25": [
+    "Police Department:Montgomery - Bridgeport",
+    "Police Department:Montgomery - Upper Merion",
+    "Police Department:Montgomery - Valley Nationl Park Rangers"
+  ],
+  "Police Department:Montgomery - Bridgeport": [
+    "Magesterial Courts:1938-01-25"
+  ],
+  "Police Department:Montgomery - Upper Merion": [
+    "Magesterial Courts:1938-01-25"
+  ],
+  "Police Department:Montgomery - Valley Nationl Park Rangers": [
+    "Magesterial Courts:1938-01-25"
+  ],
+  "Magesterial Courts:1938-01-28": [
+    "Police Department:Montgomery - Lansdale",
+    "Police Department:Montgomery - Hatfield",
+    "Police Department:Montgomery - Towamencin"
+  ],
+  "Police Department:Montgomery - Lansdale": [
+    "Magesterial Courts:1938-01-28"
+  ],
+  "Police Department:Montgomery - Towamencin": [
+    "Magesterial Courts:1938-01-28"
+  ],
+  "Magesterial Courts:1938-02-02": [
+    "Police Department:Montgomery - State Police - Troop K - Skippack",
+    "Police Department:Montgomery - Marlborough"
+  ],
+  "Police Department:Montgomery - Marlborough": [
+    "Magesterial Courts:1938-02-02"
+  ],
+  "Magesterial Courts:1938-02-03": [
+    "Police Department:Montgomery - State Police - Troop K - Skippack",
+    "Police Department:Montgomery - Lower Frederick",
+    "Police Department:Montgomery - New Hanover",
+    "Police Department:Montgomery - Douglass",
+    "Police Department:Montgomery - Upper Pottsgrove"
+  ],
+  "Police Department:Montgomery - Lower Frederick": [
+    "Magesterial Courts:1938-02-03"
+  ],
+  "Police Department:Montgomery - New Hanover": [
+    "Magesterial Courts:1938-02-03"
+  ],
+  "Police Department:Montgomery - Douglass": [
+    "Magesterial Courts:1938-02-03"
+  ],
+  "Police Department:Montgomery - Upper Pottsgrove": [
+    "Magesterial Courts:1938-02-03"
+  ],
+  "Magesterial Courts:1938-02-04": [
+    "Police Department:Montgomery - Lower Merion"
+  ],
+  "Magesterial Courts:1938-02-08": [
+    "Police Department:Montgomery - Lower Moreland",
+    "Police Department:Montgomery - Bryn Athyn",
+    "Police Department:Montgomery - Upper Moreland"
+  ],
+  "Police Department:Montgomery - Lower Moreland": [
+    "Magesterial Courts:1938-02-08"
+  ],
+  "Police Department:Montgomery - Bryn Athyn": [
+    "Magesterial Courts:1938-02-08"
+  ],
+  "Magesterial Courts:1938-02-09": [
+    "Police Department:Montgomery - Norristown"
+  ]
+}

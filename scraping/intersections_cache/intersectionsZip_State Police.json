@@ -1,0 +1,32 @@
+{
+  "Zip:16735": [
+    "State Police:C"
+  ],
+  "State Police:C": [
+    "Zip:16735"
+  ],
+  "Zip:18801": [
+    "State Police:R"
+  ],
+  "State Police:R": [
+    "Zip:18801",
+    "Zip:18428",
+    "Zip:18847"
+  ],
+  "Zip:18428": [
+    "State Police:R"
+  ],
+  "Zip:18661": [
+    "State Police:N"
+  ],
+  "State Police:N": [
+    "Zip:18661",
+    "Zip:17815"
+  ],
+  "Zip:18847": [
+    "State Police:R"
+  ],
+  "Zip:17815": [
+    "State Police:N"
+  ]
+}

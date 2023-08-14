@@ -1,0 +1,4744 @@
+{
+  "School District:Tioga - Northern Tioga": [
+    "FM Radio:WCIH",
+    "FM Radio:WSQE",
+    "FM Radio:WOGA",
+    "FM Radio:WMTT-FM",
+    "FM Radio:WPHD",
+    "FM Radio:WCOG-FM",
+    "FM Radio:WDKC",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WNKI",
+    "FM Radio:DWLIH"
+  ],
+  "FM Radio:WCIH": [
+    "School District:Tioga - Northern Tioga",
+    "School District:Tioga - Southern Tioga",
+    "School District:Bradford - Troy Area",
+    "School District:Bradford - Athens Area"
+  ],
+  "FM Radio:WSQE": [
+    "School District:Tioga - Northern Tioga",
+    "School District:Bradford - Troy Area",
+    "School District:Bradford - Athens Area"
+  ],
+  "FM Radio:WOGA": [
+    "School District:Tioga - Northern Tioga",
+    "School District:Tioga - Southern Tioga",
+    "School District:Tioga - Wellsboro Area",
+    "School District:Bradford - Troy Area"
+  ],
+  "FM Radio:WMTT-FM": [
+    "School District:Tioga - Northern Tioga",
+    "School District:Tioga - Southern Tioga",
+    "School District:Tioga - Wellsboro Area"
+  ],
+  "FM Radio:WPHD": [
+    "School District:Tioga - Northern Tioga"
+  ],
+  "FM Radio:WCOG-FM": [
+    "School District:Tioga - Northern Tioga",
+    "School District:Clinton - Keystone Central",
+    "School District:Potter - Galeton Area",
+    "School District:Potter - Northern Potter",
+    "School District:Tioga - Wellsboro Area",
+    "School District:Lycoming - Jersey Shore Area",
+    "School District:Potter - Austin Area",
+    "School District:Potter - Coudersport Area"
+  ],
+  "FM Radio:WDKC": [
+    "School District:Tioga - Northern Tioga",
+    "School District:Tioga - Southern Tioga",
+    "School District:Tioga - Wellsboro Area",
+    "School District:Bradford - Troy Area",
+    "School District:Bradford - Canton Area"
+  ],
+  "FM Radio:WNBT-FM": [
+    "School District:Tioga - Northern Tioga",
+    "School District:Clinton - Keystone Central",
+    "School District:Potter - Galeton Area",
+    "School District:Tioga - Southern Tioga",
+    "School District:Tioga - Wellsboro Area",
+    "School District:Bradford - Troy Area",
+    "School District:Lycoming - Jersey Shore Area"
+  ],
+  "FM Radio:WNKI": [
+    "School District:Tioga - Northern Tioga",
+    "School District:Tioga - Southern Tioga",
+    "School District:Bradford - Troy Area"
+  ],
+  "FM Radio:DWLIH": [
+    "School District:Tioga - Northern Tioga",
+    "School District:Tioga - Southern Tioga",
+    "School District:Tioga - Wellsboro Area"
+  ],
+  "School District:York - Northern York County": [
+    "FM Radio:WVMM",
+    "FM Radio:WJAZ",
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WHKF",
+    "FM Radio:WCAT-FM"
+  ],
+  "FM Radio:WVMM": [
+    "School District:York - Northern York County",
+    "School District:Cumberland - Mechanicsburg Area",
+    "School District:York - West Shore",
+    "School District:Cumberland - Cumberland Valley"
+  ],
+  "FM Radio:WJAZ": [
+    "School District:York - Northern York County",
+    "School District:Cumberland - South Middleton",
+    "School District:Dauphin - Halifax Area",
+    "School District:Perry - Newport",
+    "School District:Perry - West Perry",
+    "School District:York - West Shore",
+    "School District:Perry - Susquenita",
+    "School District:Dauphin - Central Dauphin",
+    "School District:Cumberland - Cumberland Valley"
+  ],
+  "FM Radio:WNUU": [
+    "School District:York - Northern York County",
+    "School District:Dauphin - Lower Dauphin",
+    "School District:York - Northeastern York",
+    "School District:York - Spring Grove Area",
+    "School District:York - West Shore",
+    "School District:Lancaster - Elizabethtown Area",
+    "School District:York - Dover Area"
+  ],
+  "FM Radio:WTPA-FM": [
+    "School District:York - Northern York County",
+    "School District:Dauphin - Lower Dauphin",
+    "School District:York - Northeastern York",
+    "School District:York - West Shore",
+    "School District:Perry - Susquenita",
+    "School District:Dauphin - Central Dauphin",
+    "School District:Cumberland - Cumberland Valley",
+    "School District:York - Dover Area"
+  ],
+  "FM Radio:WHKF": [
+    "School District:York - Northern York County",
+    "School District:Dauphin - Lower Dauphin",
+    "School District:York - Northeastern York",
+    "School District:York - West Shore",
+    "School District:Perry - Susquenita",
+    "School District:Dauphin - Central Dauphin",
+    "School District:Lancaster - Elizabethtown Area",
+    "School District:Cumberland - Cumberland Valley",
+    "School District:York - Dover Area"
+  ],
+  "FM Radio:WCAT-FM": [
+    "School District:York - Northern York County",
+    "School District:Cumberland - South Middleton",
+    "School District:York - West Shore",
+    "School District:Perry - Susquenita",
+    "School District:Cumberland - Carlisle Area",
+    "School District:Cumberland - Cumberland Valley"
+  ],
+  "School District:Luzerne - Northwest Area": [
+    "FM Radio:WRGN",
+    "FM Radio:WQFM",
+    "FM Radio:WSJR",
+    "FM Radio:WKBP",
+    "FM Radio:WBHT",
+    "FM Radio:WMMZ"
+  ],
+  "FM Radio:WRGN": [
+    "School District:Luzerne - Northwest Area",
+    "School District:Luzerne - Greater Nanticoke Area",
+    "School District:Luzerne - Lake-Lehman"
+  ],
+  "FM Radio:WQFM": [
+    "School District:Luzerne - Northwest Area",
+    "School District:Luzerne - Greater Nanticoke Area",
+    "School District:Luzerne - Lake-Lehman",
+    "School District:Luzerne - Hazleton Area",
+    "School District:Luzerne - Wilkes-Barre Area",
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Luzerne - Crestwood"
+  ],
+  "FM Radio:WSJR": [
+    "School District:Luzerne - Northwest Area",
+    "School District:Luzerne - Greater Nanticoke Area",
+    "School District:Luzerne - Lake-Lehman",
+    "School District:Luzerne - Hazleton Area",
+    "School District:Lackawanna - North Pocono",
+    "School District:Luzerne - Wilkes-Barre Area",
+    "School District:Columbia - Berwick Area",
+    "School District:Luzerne - Crestwood"
+  ],
+  "FM Radio:WKBP": [
+    "School District:Luzerne - Northwest Area",
+    "School District:Columbia - Millville Area",
+    "School District:Columbia - Southern Columbia Area",
+    "School District:Lycoming - East Lycoming",
+    "School District:Columbia - Berwick Area",
+    "School District:Columbia - Bloomsburg Area",
+    "School District:Columbia - Central Columbia",
+    "School District:Columbia - Benton Area",
+    "School District:Montour - Danville Area"
+  ],
+  "FM Radio:WBHT": [
+    "School District:Luzerne - Northwest Area",
+    "School District:Luzerne - Greater Nanticoke Area",
+    "School District:Luzerne - Lake-Lehman",
+    "School District:Luzerne - Hazleton Area",
+    "School District:Luzerne - Wilkes-Barre Area",
+    "School District:Luzerne - Crestwood"
+  ],
+  "FM Radio:WMMZ": [
+    "School District:Luzerne - Northwest Area",
+    "School District:Columbia - Millville Area",
+    "School District:Luzerne - Lake-Lehman",
+    "School District:Luzerne - Hazleton Area",
+    "School District:Columbia - Southern Columbia Area",
+    "School District:Columbia - Berwick Area",
+    "School District:Columbia - Bloomsburg Area",
+    "School District:Columbia - Central Columbia",
+    "School District:Columbia - Benton Area"
+  ],
+  "School District:Lehigh - Northwestern Lehigh": [
+    "FM Radio:WLHI",
+    "FM Radio:WMGH-FM"
+  ],
+  "FM Radio:WLHI": [
+    "School District:Lehigh - Northwestern Lehigh",
+    "School District:Lehigh - Parkland",
+    "School District:Northampton - Northampton Area",
+    "School District:Lehigh - Northern Lehigh",
+    "School District:Lehigh - Whitehall-Coplay",
+    "School District:Lehigh - Allentown City"
+  ],
+  "FM Radio:WMGH-FM": [
+    "School District:Lehigh - Northwestern Lehigh",
+    "School District:Schuylkill - Saint Clair Area",
+    "School District:Berks - Kutztown Area",
+    "School District:Schuylkill - Mahanoy Area",
+    "School District:Berks - Hamburg Area",
+    "School District:Carbon - Panther Valley",
+    "School District:Schuylkill - Tamaqua Area",
+    "School District:Schuylkill - Blue Mountain"
+  ],
+  "School District:Schuylkill - Pine Grove Area": [
+    "FM Radio:WFCP",
+    "FM Radio:WBLJ-FM"
+  ],
+  "FM Radio:WFCP": [
+    "School District:Schuylkill - Pine Grove Area",
+    "School District:Berks - Tulpehocken Area",
+    "School District:Lebanon - Northern Lebanon",
+    "School District:Lebanon - Eastern Lebanon County",
+    "School District:Lebanon - Cornwall-Lebanon"
+  ],
+  "FM Radio:WBLJ-FM": [
+    "School District:Schuylkill - Pine Grove Area",
+    "School District:Schuylkill - Tri-Valley",
+    "School District:Northumberland - Shamokin Area",
+    "School District:Northumberland - Shikellamy",
+    "School District:Northumberland - Line Mountain",
+    "School District:Columbia - Southern Columbia Area",
+    "School District:Schuylkill - Williams Valley",
+    "School District:Montour - Danville Area"
+  ],
+  "School District:Chester - Octorara Area": [
+    "FM Radio:WZWG"
+  ],
+  "FM Radio:WZWG": [
+    "School District:Chester - Octorara Area",
+    "School District:Chester - Oxford Area",
+    "School District:Chester - Avon Grove"
+  ],
+  "School District:Somerset - Salisbury-Elk Lick": [
+    "FM Radio:WHYU-FM",
+    "FM Radio:WQZS",
+    "FM Radio:WYRA"
+  ],
+  "FM Radio:WHYU-FM": [
+    "School District:Somerset - Salisbury-Elk Lick",
+    "School District:Somerset - Meyersdale Area",
+    "School District:Somerset - Berlin Brothersvalley"
+  ],
+  "FM Radio:WQZS": [
+    "School District:Somerset - Salisbury-Elk Lick",
+    "School District:Somerset - Rockwood Area",
+    "School District:Somerset - Meyersdale Area",
+    "School District:Fayette - Uniontown Area",
+    "School District:Somerset - Turkeyfoot Valley Area",
+    "School District:Somerset - Berlin Brothersvalley"
+  ],
+  "FM Radio:WYRA": [
+    "School District:Somerset - Salisbury-Elk Lick",
+    "School District:Somerset - Rockwood Area",
+    "School District:Somerset - Meyersdale Area",
+    "School District:Fayette - Uniontown Area",
+    "School District:Somerset - Turkeyfoot Valley Area",
+    "School District:Somerset - Somerset Area",
+    "School District:Somerset - Berlin Brothersvalley"
+  ],
+  "School District:Venango - Oil City Area": [
+    "FM Radio:WQHE",
+    "FM Radio:WCGT",
+    "FM Radio:WAWN",
+    "FM Radio:WLOQ",
+    "FM Radio:WCGH",
+    "FM Radio:WRQW"
+  ],
+  "FM Radio:WQHE": [
+    "School District:Venango - Oil City Area",
+    "School District:Crawford - Penncrest",
+    "School District:Venango - Valley Grove",
+    "School District:Venango - Titusville Area",
+    "School District:Forest - Forest Area",
+    "School District:Venango - Cranberry Area",
+    "School District:Venango - Franklin Area"
+  ],
+  "FM Radio:WCGT": [
+    "School District:Venango - Oil City Area",
+    "School District:Venango - Valley Grove",
+    "School District:Mercer - Lakeview",
+    "School District:Butler - Moniteau",
+    "School District:Clarion - Allegheny-Clarion Valley",
+    "School District:Venango - Cranberry Area",
+    "School District:Venango - Franklin Area"
+  ],
+  "FM Radio:WAWN": [
+    "School District:Venango - Oil City Area",
+    "School District:Venango - Valley Grove",
+    "School District:Clarion - Allegheny-Clarion Valley",
+    "School District:Venango - Cranberry Area",
+    "School District:Venango - Franklin Area"
+  ],
+  "FM Radio:WLOQ": [
+    "School District:Venango - Oil City Area",
+    "School District:Venango - Valley Grove",
+    "School District:Clarion - Keystone",
+    "School District:Venango - Titusville Area",
+    "School District:Forest - Forest Area",
+    "School District:Clarion - Allegheny-Clarion Valley",
+    "School District:Venango - Cranberry Area",
+    "School District:Venango - Franklin Area"
+  ],
+  "FM Radio:WCGH": [
+    "School District:Venango - Oil City Area",
+    "School District:Clarion - Keystone",
+    "School District:Clarion - North Clarion County",
+    "School District:Venango - Titusville Area",
+    "School District:Forest - Forest Area",
+    "School District:Venango - Cranberry Area"
+  ],
+  "FM Radio:WRQW": [
+    "School District:Venango - Oil City Area",
+    "School District:Crawford - Penncrest",
+    "School District:Venango - Valley Grove",
+    "School District:Venango - Titusville Area",
+    "School District:Forest - Forest Area",
+    "School District:Venango - Cranberry Area",
+    "School District:Crawford - Crawford Central",
+    "School District:Venango - Franklin Area"
+  ],
+  "School District:Centre - Penns Valley Area": [
+    "FM Radio:WCOB",
+    "FM Radio:WRYV",
+    "FM Radio:WRXV",
+    "FM Radio:WTLR",
+    "FM Radio:WJVM",
+    "FM Radio:WPSU",
+    "FM Radio:WSQV",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WLEJ",
+    "FM Radio:WBUS",
+    "FM Radio:WAPY",
+    "FM Radio:WCHX"
+  ],
+  "FM Radio:WCOB": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Clinton - Keystone Central",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Centre - State College Area",
+    "School District:Centre - Bellefonte Area",
+    "School District:Centre - Bald Eagle Area"
+  ],
+  "FM Radio:WRYV": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Juniata - Juniata County",
+    "School District:Huntingdon - Juniata Valley",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Mifflin - Mifflin County",
+    "School District:Centre - State College Area"
+  ],
+  "FM Radio:WRXV": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Clearfield - Philipsburg-Osceola Area",
+    "School District:Centre - State College Area",
+    "School District:Clearfield - West Branch Area",
+    "School District:Blair - Tyrone Area",
+    "School District:Centre - Bellefonte Area",
+    "School District:Centre - Bald Eagle Area"
+  ],
+  "FM Radio:WTLR": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Clearfield - Philipsburg-Osceola Area",
+    "School District:Huntingdon - Juniata Valley",
+    "School District:Clinton - Keystone Central",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Mifflin - Mifflin County",
+    "School District:Centre - State College Area",
+    "School District:Blair - Tyrone Area",
+    "School District:Centre - Bellefonte Area",
+    "School District:Centre - Bald Eagle Area"
+  ],
+  "FM Radio:WJVM": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Clinton - Keystone Central",
+    "School District:Centre - Bellefonte Area",
+    "School District:Centre - Bald Eagle Area"
+  ],
+  "FM Radio:WPSU": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Clearfield - Philipsburg-Osceola Area",
+    "School District:Huntingdon - Juniata Valley",
+    "School District:Mifflin - Mifflin County",
+    "School District:Centre - State College Area",
+    "School District:Clearfield - West Branch Area",
+    "School District:Blair - Tyrone Area",
+    "School District:Centre - Bellefonte Area",
+    "School District:Centre - Bald Eagle Area",
+    "School District:Clearfield - Clearfield Area"
+  ],
+  "FM Radio:WSQV": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Clinton - Keystone Central",
+    "School District:Lycoming - Jersey Shore Area",
+    "School District:Centre - Bellefonte Area"
+  ],
+  "FM Radio:WMAJ": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Mifflin - Mifflin County",
+    "School District:Centre - State College Area",
+    "School District:Centre - Bellefonte Area",
+    "School District:Centre - Bald Eagle Area"
+  ],
+  "FM Radio:WBHV-FM": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Clinton - Keystone Central",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Centre - State College Area",
+    "School District:Centre - Bellefonte Area",
+    "School District:Centre - Bald Eagle Area"
+  ],
+  "FM Radio:WZWW": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Centre - State College Area",
+    "School District:Centre - Bellefonte Area",
+    "School District:Centre - Bald Eagle Area"
+  ],
+  "FM Radio:WJSA-FM": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Clinton - Keystone Central",
+    "School District:Union - Mifflinburg Area",
+    "School District:Lycoming - Jersey Shore Area"
+  ],
+  "FM Radio:WOWY": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Huntingdon - Juniata Valley",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Centre - State College Area",
+    "School District:Blair - Tyrone Area",
+    "School District:Centre - Bellefonte Area",
+    "School District:Centre - Bald Eagle Area"
+  ],
+  "FM Radio:WGJC": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Huntingdon - Juniata Valley",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Centre - State College Area",
+    "School District:Blair - Tyrone Area",
+    "School District:Centre - Bellefonte Area",
+    "School District:Centre - Bald Eagle Area"
+  ],
+  "FM Radio:WLEJ": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Clinton - Keystone Central",
+    "School District:Centre - State College Area",
+    "School District:Centre - Bellefonte Area",
+    "School District:Centre - Bald Eagle Area"
+  ],
+  "FM Radio:WBUS": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Clearfield - Philipsburg-Osceola Area",
+    "School District:Juniata - Juniata County",
+    "School District:Huntingdon - Juniata Valley",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Mifflin - Mifflin County",
+    "School District:Centre - State College Area",
+    "School District:Centre - Bellefonte Area",
+    "School District:Centre - Bald Eagle Area"
+  ],
+  "FM Radio:WAPY": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Mifflin - Mifflin County",
+    "School District:Centre - State College Area",
+    "School District:Centre - Bellefonte Area",
+    "School District:Centre - Bald Eagle Area"
+  ],
+  "FM Radio:WCHX": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Juniata - Juniata County",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Mifflin - Mifflin County"
+  ],
+  "School District:Bucks - Pennsbury": [
+    "FM Radio:WLBS"
+  ],
+  "FM Radio:WLBS": [
+    "School District:Bucks - Pennsbury",
+    "School District:Bucks - Neshaminy",
+    "School District:Bucks - Bristol Township"
+  ],
+  "School District:Lancaster - Pequea Valley": [
+    "FM Radio:WYTL"
+  ],
+  "FM Radio:WYTL": [
+    "School District:Lancaster - Pequea Valley",
+    "School District:Berks - Governor Mifflin",
+    "School District:Berks - Twin Valley",
+    "School District:Lancaster - Eastern Lancaster County",
+    "School District:Lancaster - Cocalico"
+  ],
+  "School District:Philadelphia - Philadelphia City": [
+    "FM Radio:WPEB",
+    "FM Radio:WXPN",
+    "FM Radio:WKDU",
+    "FM Radio:WPHI-FM"
+  ],
+  "FM Radio:WPEB": [
+    "School District:Philadelphia - Philadelphia City"
+  ],
+  "FM Radio:WXPN": [
+    "School District:Philadelphia - Philadelphia City"
+  ],
+  "FM Radio:WKDU": [
+    "School District:Philadelphia - Philadelphia City"
+  ],
+  "FM Radio:WPHI-FM": [
+    "School District:Philadelphia - Philadelphia City"
+  ],
+  "School District:Clearfield - Philipsburg-Osceola Area": [
+    "FM Radio:WRXV",
+    "FM Radio:WTLR",
+    "FM Radio:WRVI",
+    "FM Radio:WPSU",
+    "FM Radio:WMMH",
+    "FM Radio:WPQP",
+    "FM Radio:WBUS",
+    "FM Radio:WOKW",
+    "FM Radio:WQCK",
+    "FM Radio:WKPA"
+  ],
+  "FM Radio:WRVI": [
+    "School District:Clearfield - Philipsburg-Osceola Area",
+    "School District:Clearfield - Moshannon Valley",
+    "School District:Elk - Saint Marys Area",
+    "School District:Clearfield - West Branch Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Clearfield - Clearfield Area",
+    "School District:Clearfield - Curwensville Area"
+  ],
+  "FM Radio:WMMH": [
+    "School District:Clearfield - Philipsburg-Osceola Area",
+    "School District:Huntingdon - Juniata Valley",
+    "School District:Clearfield - Moshannon Valley",
+    "School District:Blair - Tyrone Area",
+    "School District:Blair - Bellwood-Antis",
+    "School District:Clearfield - Glendale"
+  ],
+  "FM Radio:WPQP": [
+    "School District:Clearfield - Philipsburg-Osceola Area",
+    "School District:Elk - Saint Marys Area",
+    "School District:Clearfield - West Branch Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Clearfield - Clearfield Area",
+    "School District:Clearfield - Curwensville Area"
+  ],
+  "FM Radio:WOKW": [
+    "School District:Clearfield - Philipsburg-Osceola Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Clearfield - Clearfield Area",
+    "School District:Clearfield - Curwensville Area"
+  ],
+  "FM Radio:WQCK": [
+    "School District:Clearfield - Philipsburg-Osceola Area",
+    "School District:Huntingdon - Juniata Valley",
+    "School District:Centre - State College Area",
+    "School District:Clearfield - West Branch Area",
+    "School District:Blair - Tyrone Area"
+  ],
+  "FM Radio:WKPA": [
+    "School District:Clearfield - Philipsburg-Osceola Area",
+    "School District:Centre - State College Area",
+    "School District:Clearfield - West Branch Area",
+    "School District:Blair - Tyrone Area",
+    "School District:Centre - Bellefonte Area",
+    "School District:Centre - Bald Eagle Area"
+  ],
+  "School District:Bradford - Towanda Area": [
+    "FM Radio:WCOZ",
+    "FM Radio:WTTC-FM",
+    "FM Radio:WZBF",
+    "FM Radio:WHGL-FM"
+  ],
+  "FM Radio:WCOZ": [
+    "School District:Bradford - Towanda Area",
+    "School District:Bradford - Wyalusing Area",
+    "School District:Sullivan - Sullivan County"
+  ],
+  "FM Radio:WTTC-FM": [
+    "School District:Bradford - Towanda Area",
+    "School District:Bradford - Northeast Bradford",
+    "School District:Bradford - Wyalusing Area",
+    "School District:Bradford - Troy Area",
+    "School District:Bradford - Athens Area"
+  ],
+  "FM Radio:WZBF": [
+    "School District:Bradford - Towanda Area",
+    "School District:Bradford - Troy Area",
+    "School District:Bradford - Athens Area"
+  ],
+  "FM Radio:WHGL-FM": [
+    "School District:Bradford - Towanda Area",
+    "School District:Lycoming - Montoursville Area",
+    "School District:Tioga - Southern Tioga",
+    "School District:Bradford - Wyalusing Area",
+    "School District:Bradford - Troy Area",
+    "School District:Sullivan - Sullivan County",
+    "School District:Bradford - Athens Area",
+    "School District:Bradford - Canton Area"
+  ],
+  "School District:Northampton - Saucon Valley": [
+    "FM Radio:WDIY",
+    "FM Radio:WJCS",
+    "FM Radio:WLVR-FM"
+  ],
+  "FM Radio:WDIY": [
+    "School District:Northampton - Saucon Valley",
+    "School District:Lehigh - Parkland",
+    "School District:Bucks - Quakertown Community",
+    "School District:Bucks - Palisades",
+    "School District:Northampton - Northampton Area",
+    "School District:Lehigh - Southern Lehigh",
+    "School District:Lehigh - East Penn",
+    "School District:Northampton - Bethlehem Area"
+  ],
+  "FM Radio:WJCS": [
+    "School District:Northampton - Saucon Valley",
+    "School District:Lehigh - Parkland",
+    "School District:Lehigh - Southern Lehigh",
+    "School District:Lehigh - East Penn",
+    "School District:Lehigh - Allentown City",
+    "School District:Northampton - Bethlehem Area"
+  ],
+  "FM Radio:WLVR-FM": [
+    "School District:Northampton - Saucon Valley",
+    "School District:Bucks - Palisades",
+    "School District:Lehigh - Southern Lehigh",
+    "School District:Northampton - Wilson Area",
+    "School District:Northampton - Bethlehem Area"
+  ],
+  "School District:Lehigh - Parkland": [
+    "FM Radio:WDIY",
+    "FM Radio:WJCS",
+    "FM Radio:WLHI",
+    "FM Radio:WMUH"
+  ],
+  "FM Radio:WMUH": [
+    "School District:Lehigh - Parkland",
+    "School District:Lehigh - Salisbury Township",
+    "School District:Lehigh - Whitehall-Coplay",
+    "School District:Lehigh - East Penn",
+    "School District:Lehigh - Allentown City"
+  ],
+  "School District:Northampton - Pen Argyl Area": [
+    "FM Radio:WWPJ",
+    "FM Radio:WPNJ"
+  ],
+  "FM Radio:WWPJ": [
+    "School District:Northampton - Pen Argyl Area",
+    "School District:Monroe - Pleasant Valley",
+    "School District:Northampton - Nazareth Area",
+    "School District:Monroe - Stroudsburg Area",
+    "School District:Northampton - Bangor Area"
+  ],
+  "FM Radio:WPNJ": [
+    "School District:Northampton - Pen Argyl Area",
+    "School District:Northampton - Nazareth Area",
+    "School District:Northampton - Easton Area"
+  ],
+  "School District:Lancaster - Penn Manor": [
+    "FM Radio:WXPH",
+    "FM Radio:WFNM",
+    "FM Radio:WJTL",
+    "FM Radio:WIXQ"
+  ],
+  "FM Radio:WXPH": [
+    "School District:Lancaster - Penn Manor",
+    "School District:York - Red Lion Area",
+    "School District:York - Spring Grove Area"
+  ],
+  "FM Radio:WFNM": [
+    "School District:Lancaster - Penn Manor",
+    "School District:Lancaster - Manheim Township",
+    "School District:Lancaster - Hempfield",
+    "School District:Lancaster - Conestoga Valley",
+    "School District:Lancaster - Lampeter-Strasburg",
+    "School District:Lancaster - Lancaster"
+  ],
+  "FM Radio:WJTL": [
+    "School District:Lancaster - Penn Manor",
+    "School District:York - South Eastern",
+    "School District:York - Red Lion Area",
+    "School District:Lancaster - Solanco"
+  ],
+  "FM Radio:WIXQ": [
+    "School District:Lancaster - Penn Manor",
+    "School District:Lancaster - Lancaster"
+  ],
+  "School District:Westmoreland - Penn-Trafford": [
+    "FM Radio:WKGO"
+  ],
+  "FM Radio:WKGO": [
+    "School District:Westmoreland - Penn-Trafford",
+    "School District:Allegheny - Plum Borough",
+    "School District:Westmoreland - Kiski Area",
+    "School District:Armstrong - Apollo-Ridge",
+    "School District:Westmoreland - Burrell",
+    "School District:Westmoreland - Franklin Regional"
+  ],
+  "School District:Cambria - Penn Cambria": [
+    "FM Radio:WHHN",
+    "FM Radio:WPAI",
+    "FM Radio:WCOX",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WLKE",
+    "FM Radio:WBXQ",
+    "FM Radio:WBRX",
+    "FM Radio:WPCL",
+    "FM Radio:WWOT",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WLKJ"
+  ],
+  "FM Radio:WHHN": [
+    "School District:Cambria - Penn Cambria",
+    "School District:Blair - Hollidaysburg Area",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Bedford - Northern Bedford",
+    "School District:Blair - Spring Cove",
+    "School District:Bedford - Tussey Mountain",
+    "School District:Blair - Williamsburg Community",
+    "School District:Blair - Altoona Area",
+    "School District:Blair - Claysburg-Kimmel",
+    "School District:Bedford - Chestnut Ridge"
+  ],
+  "FM Radio:WPAI": [
+    "School District:Cambria - Penn Cambria",
+    "School District:Indiana - Penns Manor Area",
+    "School District:Indiana - Purchase Line",
+    "School District:Cambria - Northern Cambria",
+    "School District:Indiana - United",
+    "School District:Cambria - Forest Hills",
+    "School District:Cambria - Cambria Heights",
+    "School District:Cambria - Central Cambria"
+  ],
+  "FM Radio:WCOX": [
+    "School District:Cambria - Penn Cambria",
+    "School District:Blair - Hollidaysburg Area",
+    "School District:Bedford - Northern Bedford",
+    "School District:Bedford - Tussey Mountain",
+    "School District:Bedford - Bedford Area",
+    "School District:Bedford - Chestnut Ridge"
+  ],
+  "FM Radio:WJSM-FM": [
+    "School District:Cambria - Penn Cambria",
+    "School District:Blair - Hollidaysburg Area",
+    "School District:Bedford - Northern Bedford",
+    "School District:Blair - Spring Cove",
+    "School District:Bedford - Tussey Mountain",
+    "School District:Blair - Williamsburg Community",
+    "School District:Blair - Bellwood-Antis",
+    "School District:Blair - Altoona Area",
+    "School District:Bedford - Chestnut Ridge"
+  ],
+  "FM Radio:WLKE": [
+    "School District:Cambria - Penn Cambria",
+    "School District:Blair - Hollidaysburg Area",
+    "School District:Blair - Spring Cove",
+    "School District:Blair - Williamsburg Community",
+    "School District:Blair - Altoona Area",
+    "School District:Cambria - Cambria Heights",
+    "School District:Cambria - Central Cambria",
+    "School District:Clearfield - Glendale"
+  ],
+  "FM Radio:WBXQ": [
+    "School District:Cambria - Penn Cambria",
+    "School District:Indiana - Penns Manor Area",
+    "School District:Indiana - Purchase Line",
+    "School District:Cambria - Northern Cambria",
+    "School District:Blair - Bellwood-Antis",
+    "School District:Cambria - Cambria Heights",
+    "School District:Clearfield - Glendale",
+    "School District:Clearfield - Harmony Area"
+  ],
+  "FM Radio:WBRX": [
+    "School District:Cambria - Penn Cambria",
+    "School District:Blair - Hollidaysburg Area",
+    "School District:Bedford - Northern Bedford",
+    "School District:Blair - Spring Cove",
+    "School District:Bedford - Tussey Mountain",
+    "School District:Blair - Williamsburg Community",
+    "School District:Blair - Altoona Area",
+    "School District:Blair - Claysburg-Kimmel"
+  ],
+  "FM Radio:WPCL": [
+    "School District:Cambria - Penn Cambria",
+    "School District:Indiana - Penns Manor Area",
+    "School District:Indiana - Purchase Line",
+    "School District:Cambria - Northern Cambria",
+    "School District:Indiana - United",
+    "School District:Cambria - Forest Hills",
+    "School District:Cambria - Cambria Heights",
+    "School District:Cambria - Central Cambria"
+  ],
+  "FM Radio:WWOT": [
+    "School District:Cambria - Penn Cambria",
+    "School District:Huntingdon - Juniata Valley",
+    "School District:Blair - Hollidaysburg Area",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Blair - Tyrone Area",
+    "School District:Cambria - Cambria Heights"
+  ],
+  "FM Radio:WALY": [
+    "School District:Cambria - Penn Cambria",
+    "School District:Blair - Hollidaysburg Area",
+    "School District:Blair - Williamsburg Community",
+    "School District:Blair - Tyrone Area",
+    "School District:Blair - Bellwood-Antis",
+    "School District:Blair - Altoona Area",
+    "School District:Cambria - Cambria Heights",
+    "School District:Clearfield - Glendale"
+  ],
+  "FM Radio:WRKY-FM": [
+    "School District:Cambria - Penn Cambria",
+    "School District:Huntingdon - Juniata Valley",
+    "School District:Blair - Hollidaysburg Area",
+    "School District:Blair - Spring Cove",
+    "School District:Blair - Williamsburg Community",
+    "School District:Blair - Tyrone Area",
+    "School District:Blair - Bellwood-Antis",
+    "School District:Blair - Altoona Area",
+    "School District:Cambria - Cambria Heights",
+    "School District:Clearfield - Glendale"
+  ],
+  "FM Radio:WLKJ": [
+    "School District:Cambria - Penn Cambria",
+    "School District:Blair - Hollidaysburg Area",
+    "School District:Cambria - Forest Hills",
+    "School District:Cambria - Cambria Heights",
+    "School District:Cambria - Central Cambria"
+  ],
+  "School District:Crawford - Penncrest": [
+    "FM Radio:WQHE",
+    "FM Radio:WFSE",
+    "FM Radio:WCGV",
+    "FM Radio:WARC",
+    "FM Radio:WQLN-FM",
+    "FM Radio:WVME",
+    "FM Radio:WRQI",
+    "FM Radio:WXTA",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WXKC",
+    "FM Radio:WGYY",
+    "FM Radio:WMVL",
+    "FM Radio:WCGM",
+    "FM Radio:WRTS",
+    "FM Radio:WXMJ",
+    "FM Radio:WRQW"
+  ],
+  "FM Radio:WFSE": [
+    "School District:Crawford - Penncrest",
+    "School District:Erie - Northwestern",
+    "School District:Crawford - Conneaut",
+    "School District:Erie - General McLane",
+    "School District:Erie - Fort Leboeuf"
+  ],
+  "FM Radio:WCGV": [
+    "School District:Crawford - Penncrest",
+    "School District:Erie - Northwestern",
+    "School District:Crawford - Conneaut",
+    "School District:Crawford - Crawford Central",
+    "School District:Erie - General McLane"
+  ],
+  "FM Radio:WARC": [
+    "School District:Crawford - Penncrest",
+    "School District:Crawford - Crawford Central"
+  ],
+  "FM Radio:WQLN-FM": [
+    "School District:Crawford - Penncrest"
+  ],
+  "FM Radio:WVME": [
+    "School District:Crawford - Penncrest",
+    "School District:Mercer - Commodore Perry",
+    "School District:Crawford - Conneaut",
+    "School District:Crawford - Crawford Central"
+  ],
+  "FM Radio:WRQI": [
+    "School District:Crawford - Penncrest",
+    "School District:Mercer - Commodore Perry",
+    "School District:Crawford - Conneaut",
+    "School District:Crawford - Crawford Central"
+  ],
+  "FM Radio:WXTA": [
+    "School District:Crawford - Penncrest",
+    "School District:Erie - Wattsburg Area",
+    "School District:Crawford - Conneaut"
+  ],
+  "FM Radio:WGYI": [
+    "School District:Crawford - Penncrest",
+    "School District:Clarion - Keystone",
+    "School District:Mercer - Lakeview",
+    "School District:Venango - Titusville Area",
+    "School District:Forest - Forest Area",
+    "School District:Clarion - Allegheny-Clarion Valley",
+    "School District:Venango - Cranberry Area",
+    "School District:Crawford - Crawford Central",
+    "School District:Venango - Franklin Area"
+  ],
+  "FM Radio:WHMJ": [
+    "School District:Crawford - Penncrest",
+    "School District:Mercer - Lakeview",
+    "School District:Venango - Titusville Area",
+    "School District:Venango - Cranberry Area",
+    "School District:Crawford - Conneaut",
+    "School District:Crawford - Crawford Central",
+    "School District:Venango - Franklin Area"
+  ],
+  "FM Radio:WXKC": [
+    "School District:Crawford - Penncrest",
+    "School District:Erie - Corry Area"
+  ],
+  "FM Radio:WGYY": [
+    "School District:Crawford - Penncrest",
+    "School District:Crawford - Conneaut"
+  ],
+  "FM Radio:WMVL": [
+    "School District:Crawford - Penncrest",
+    "School District:Erie - Northwestern",
+    "School District:Crawford - Conneaut",
+    "School District:Crawford - Crawford Central"
+  ],
+  "FM Radio:WCGM": [
+    "School District:Crawford - Penncrest",
+    "School District:Warren - Warren County",
+    "School District:Venango - Titusville Area",
+    "School District:Erie - Union City Area",
+    "School District:Erie - Wattsburg Area",
+    "School District:Erie - Corry Area",
+    "School District:Erie - Fort Leboeuf"
+  ],
+  "FM Radio:WRTS": [
+    "School District:Crawford - Penncrest"
+  ],
+  "FM Radio:WXMJ": [
+    "School District:Crawford - Penncrest",
+    "School District:Erie - Northwestern",
+    "School District:Crawford - Conneaut",
+    "School District:Crawford - Crawford Central",
+    "School District:Erie - General McLane"
+  ],
+  "School District:Bucks - Pennridge": [
+    "FM Radio:WBYO",
+    "FM Radio:WBMR"
+  ],
+  "FM Radio:WBYO": [
+    "School District:Bucks - Pennridge",
+    "School District:Bucks - Quakertown Community",
+    "School District:Bucks - Palisades",
+    "School District:Lehigh - Southern Lehigh",
+    "School District:Montgomery - Upper Perkiomen",
+    "School District:Montgomery - Souderton Area",
+    "School District:Berks - Boyertown Area",
+    "School District:Bucks - Central Bucks"
+  ],
+  "FM Radio:WBMR": [
+    "School District:Bucks - Pennridge",
+    "School District:Montgomery - North Penn",
+    "School District:Montgomery - Souderton Area",
+    "School District:Bucks - Central Bucks"
+  ],
+  "School District:Indiana - Penns Manor Area": [
+    "FM Radio:WPAI",
+    "FM Radio:WJHT",
+    "FM Radio:WQMU",
+    "FM Radio:WBXQ",
+    "FM Radio:WPCL"
+  ],
+  "FM Radio:WJHT": [
+    "School District:Indiana - Penns Manor Area",
+    "School District:Westmoreland - Ligonier Valley",
+    "School District:Indiana - United",
+    "School District:Cambria - Forest Hills",
+    "School District:Indiana - Blairsville-Saltsburg",
+    "School District:Cambria - Central Cambria",
+    "School District:Westmoreland - Derry Area",
+    "School District:Somerset - Conemaugh Township Area"
+  ],
+  "FM Radio:WQMU": [
+    "School District:Indiana - Penns Manor Area",
+    "School District:Indiana - Marion Center Area",
+    "School District:Indiana - Homer-Center",
+    "School District:Indiana - Indiana Area",
+    "School District:Indiana - United",
+    "School District:Armstrong - Armstrong",
+    "School District:Indiana - Blairsville-Saltsburg"
+  ],
+  "School District:Butler - South Butler County": [
+    "FM Radio:WLER-FM"
+  ],
+  "FM Radio:WLER-FM": [
+    "School District:Butler - South Butler County",
+    "School District:Butler - Moniteau",
+    "School District:Butler - Seneca Valley",
+    "School District:Butler - Slippery Rock Area",
+    "School District:Armstrong - Armstrong",
+    "School District:Butler - Karns City Area",
+    "School District:Butler - Butler Area"
+  ],
+  "School District:York - South Eastern": [
+    "FM Radio:WJTL"
+  ],
+  "School District:Huntingdon - Southern Huntingdon County": [
+    "FM Radio:WPMN",
+    "FM Radio:WYPM",
+    "FM Radio:WIKZ",
+    "FM Radio:WBHB-FM",
+    "FM Radio:WDBF-FM"
+  ],
+  "FM Radio:WPMN": [
+    "School District:Huntingdon - Southern Huntingdon County",
+    "School District:Blair - Hollidaysburg Area",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Bedford - Northern Bedford",
+    "School District:Huntingdon - Mount Union Area",
+    "School District:Blair - Spring Cove",
+    "School District:Bedford - Tussey Mountain",
+    "School District:Fulton - Forbes Road"
+  ],
+  "FM Radio:WYPM": [
+    "School District:Huntingdon - Southern Huntingdon County",
+    "School District:Cumberland - Shippensburg Area",
+    "School District:Franklin - Tuscarora",
+    "School District:Fulton - Forbes Road",
+    "School District:Franklin - Chambersburg Area",
+    "School District:Franklin - Fannett-Metal"
+  ],
+  "FM Radio:WIKZ": [
+    "School District:Huntingdon - Southern Huntingdon County",
+    "School District:Fulton - Southern Fulton",
+    "School District:Franklin - Tuscarora",
+    "School District:Franklin - Chambersburg Area"
+  ],
+  "FM Radio:WBHB-FM": [
+    "School District:Huntingdon - Southern Huntingdon County",
+    "School District:Fulton - Southern Fulton",
+    "School District:Franklin - Tuscarora",
+    "School District:Franklin - Chambersburg Area"
+  ],
+  "FM Radio:WDBF-FM": [
+    "School District:Huntingdon - Southern Huntingdon County",
+    "School District:Huntingdon - Juniata Valley",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Mifflin - Mifflin County",
+    "School District:Huntingdon - Mount Union Area"
+  ],
+  "School District:Cumberland - South Middleton": [
+    "FM Radio:WDCV-FM",
+    "FM Radio:WPFG",
+    "FM Radio:WJAZ",
+    "FM Radio:WCAT-FM"
+  ],
+  "FM Radio:WDCV-FM": [
+    "School District:Cumberland - South Middleton",
+    "School District:Cumberland - Carlisle Area",
+    "School District:Cumberland - Cumberland Valley"
+  ],
+  "FM Radio:WPFG": [
+    "School District:Cumberland - South Middleton",
+    "School District:Cumberland - Shippensburg Area",
+    "School District:Perry - West Perry",
+    "School District:Cumberland - Big Spring",
+    "School District:Cumberland - Carlisle Area",
+    "School District:Cumberland - Cumberland Valley"
+  ],
+  "School District:Venango - Valley Grove": [
+    "FM Radio:WQHE",
+    "FM Radio:WCGT",
+    "FM Radio:WAWN",
+    "FM Radio:WLOQ",
+    "FM Radio:WRQW"
+  ],
+  "School District:Schuylkill - Tri-Valley": [
+    "FM Radio:WFBA",
+    "FM Radio:WZRG",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WVRZ"
+  ],
+  "FM Radio:WFBA": [
+    "School District:Schuylkill - Tri-Valley",
+    "School District:Northumberland - Shamokin Area",
+    "School District:Schuylkill - Minersville Area",
+    "School District:Schuylkill - North Schuylkill",
+    "School District:Northumberland - Mount Carmel Area",
+    "School District:Columbia - Southern Columbia Area",
+    "School District:Columbia - Bloomsburg Area"
+  ],
+  "FM Radio:WZRG": [
+    "School District:Schuylkill - Tri-Valley",
+    "School District:Northumberland - Shamokin Area",
+    "School District:Northumberland - Line Mountain",
+    "School District:Schuylkill - Minersville Area",
+    "School District:Schuylkill - North Schuylkill",
+    "School District:Columbia - Southern Columbia Area",
+    "School District:Columbia - Bloomsburg Area",
+    "School District:Montour - Danville Area"
+  ],
+  "FM Radio:WVRZ": [
+    "School District:Schuylkill - Tri-Valley",
+    "School District:Northumberland - Shamokin Area",
+    "School District:Northumberland - Shikellamy",
+    "School District:Northumberland - Line Mountain",
+    "School District:Schuylkill - North Schuylkill",
+    "School District:Columbia - Southern Columbia Area",
+    "School District:Columbia - Bloomsburg Area",
+    "School District:Montour - Danville Area"
+  ],
+  "School District:Washington - Trinity Area": [
+    "FM Radio:WNJR",
+    "FM Radio:WJPA-FM"
+  ],
+  "FM Radio:WNJR": [
+    "School District:Washington - Trinity Area",
+    "School District:Washington - Mcguffey",
+    "School District:Washington - Canon-McMillan",
+    "School District:Washington - Chartiers-Houston"
+  ],
+  "FM Radio:WJPA-FM": [
+    "School District:Washington - Trinity Area",
+    "School District:Washington - Mcguffey",
+    "School District:Washington - Ringgold",
+    "School District:Washington - Fort Cherry",
+    "School District:Washington - Canon-McMillan",
+    "School District:Washington - Avella Area",
+    "School District:Washington - Bentworth"
+  ],
+  "School District:Berks - Tulpehocken Area": [
+    "FM Radio:WFCP",
+    "FM Radio:WYBQ",
+    "FM Radio:WZMV",
+    "FM Radio:WRTL",
+    "FM Radio:WFVY"
+  ],
+  "FM Radio:WYBQ": [
+    "School District:Berks - Tulpehocken Area",
+    "School District:Berks - Hamburg Area",
+    "School District:Berks - Muhlenberg",
+    "School District:Berks - Wilson",
+    "School District:Berks - Schuylkill Valley",
+    "School District:Berks - Fleetwood Area",
+    "School District:Berks - Conrad Weiser Area"
+  ],
+  "FM Radio:WZMV": [
+    "School District:Berks - Tulpehocken Area",
+    "School District:Berks - Kutztown Area",
+    "School District:Berks - Hamburg Area",
+    "School District:Berks - Wilson",
+    "School District:Berks - Schuylkill Valley",
+    "School District:Berks - Fleetwood Area",
+    "School District:Berks - Conrad Weiser Area"
+  ],
+  "FM Radio:WRTL": [
+    "School District:Berks - Tulpehocken Area",
+    "School District:Lebanon - Northern Lebanon",
+    "School District:Lancaster - Warwick",
+    "School District:Lebanon - Eastern Lebanon County",
+    "School District:Lancaster - Cocalico",
+    "School District:Lancaster - Ephrata Area",
+    "School District:Berks - Conrad Weiser Area",
+    "School District:Lebanon - Cornwall-Lebanon"
+  ],
+  "FM Radio:WFVY": [
+    "School District:Berks - Tulpehocken Area",
+    "School District:Dauphin - Lower Dauphin",
+    "School District:Lebanon - Palmyra Area",
+    "School District:Lebanon - Northern Lebanon",
+    "School District:Lebanon - Eastern Lebanon County",
+    "School District:Lebanon - Annville-Cleona",
+    "School District:Lebanon - Cornwall-Lebanon"
+  ],
+  "School District:Lackawanna - Valley View": [
+    "FM Radio:WZZH",
+    "FM Radio:WVMW-FM"
+  ],
+  "FM Radio:WZZH": [
+    "School District:Lackawanna - Valley View",
+    "School District:Lackawanna - Lakeland",
+    "School District:Wayne - Western Wayne",
+    "School District:Wayne - Wayne Highlands",
+    "School District:Lackawanna - Carbondale Area"
+  ],
+  "FM Radio:WVMW-FM": [
+    "School District:Lackawanna - Valley View",
+    "School District:Lackawanna - Riverside",
+    "School District:Luzerne - Pittston Area",
+    "School District:Lackawanna - Mid Valley",
+    "School District:Lackawanna - North Pocono",
+    "School District:Lackawanna - Scranton",
+    "School District:Lackawanna - Abington Heights"
+  ],
+  "School District:Wayne - Wallenpaupack Area": [
+    "FM Radio:WLKA",
+    "FM Radio:WBYH",
+    "FM Radio:WPAU",
+    "FM Radio:WTRW",
+    "FM Radio:WDNH-FM",
+    "FM Radio:WGGY",
+    "FM Radio:WYCY"
+  ],
+  "FM Radio:WLKA": [
+    "School District:Wayne - Wallenpaupack Area",
+    "School District:Susquehanna - Forest City Regional",
+    "School District:Wyoming - Lackawanna Trail",
+    "School District:Lackawanna - Lakeland",
+    "School District:Susquehanna - Mountain View",
+    "School District:Wayne - Western Wayne",
+    "School District:Wayne - Wayne Highlands"
+  ],
+  "FM Radio:WBYH": [
+    "School District:Wayne - Wallenpaupack Area",
+    "School District:Wayne - Western Wayne",
+    "School District:Wayne - Wayne Highlands"
+  ],
+  "FM Radio:WPAU": [
+    "School District:Wayne - Wallenpaupack Area",
+    "School District:Wayne - Western Wayne",
+    "School District:Pike - Delaware Valley"
+  ],
+  "FM Radio:WTRW": [
+    "School District:Wayne - Wallenpaupack Area",
+    "School District:Susquehanna - Forest City Regional",
+    "School District:Wyoming - Lackawanna Trail",
+    "School District:Lackawanna - Lakeland",
+    "School District:Susquehanna - Mountain View",
+    "School District:Wayne - Western Wayne",
+    "School District:Wayne - Wayne Highlands",
+    "School District:Lackawanna - Abington Heights"
+  ],
+  "FM Radio:WDNH-FM": [
+    "School District:Wayne - Wallenpaupack Area",
+    "School District:Wayne - Western Wayne",
+    "School District:Wayne - Wayne Highlands"
+  ],
+  "FM Radio:WGGY": [
+    "School District:Wayne - Wallenpaupack Area",
+    "School District:Monroe - Pocono Mountain",
+    "School District:Wyoming - Tunkhannock Area"
+  ],
+  "FM Radio:WYCY": [
+    "School District:Wayne - Wallenpaupack Area",
+    "School District:Wayne - Western Wayne",
+    "School District:Wayne - Wayne Highlands"
+  ],
+  "School District:Delaware - Wallingford-Swarthmore": [
+    "FM Radio:WSRN-FM",
+    "FM Radio:WRSD"
+  ],
+  "FM Radio:WSRN-FM": [
+    "School District:Delaware - Wallingford-Swarthmore",
+    "School District:Delaware - Rose Tree Media",
+    "School District:Delaware - Interboro",
+    "School District:Delaware - Ridley",
+    "School District:Delaware - Springfield",
+    "School District:Delaware - Chester-Upland"
+  ],
+  "FM Radio:WRSD": [
+    "School District:Delaware - Wallingford-Swarthmore",
+    "School District:Delaware - Interboro",
+    "School District:Delaware - Ridley"
+  ],
+  "School District:Warren - Warren County": [
+    "FM Radio:WYVL",
+    "FM Radio:WTWP",
+    "FM Radio:WNJA",
+    "FM Radio:WPSX",
+    "FM Radio:WCOT",
+    "FM Radio:WRRN",
+    "FM Radio:WWSE",
+    "FM Radio:WLKW",
+    "FM Radio:WDDH",
+    "FM Radio:WHUG",
+    "FM Radio:WCGM",
+    "FM Radio:WQFX-FM",
+    "FM Radio:WNAE",
+    "FM Radio:WJKB",
+    "FM Radio:WKZA"
+  ],
+  "FM Radio:WYVL": [
+    "School District:Warren - Warren County"
+  ],
+  "FM Radio:WTWP": [
+    "School District:Warren - Warren County",
+    "School District:Venango - Titusville Area",
+    "School District:Erie - Union City Area",
+    "School District:Erie - Wattsburg Area",
+    "School District:Erie - Corry Area",
+    "School District:Erie - Fort Leboeuf"
+  ],
+  "FM Radio:WNJA": [
+    "School District:Warren - Warren County"
+  ],
+  "FM Radio:WPSX": [
+    "School District:Warren - Warren County",
+    "School District:Elk - Johnsonburg Area",
+    "School District:Elk - Saint Marys Area",
+    "School District:Elk - Ridgway Area",
+    "School District:Mckean - Smethport Area",
+    "School District:Forest - Forest Area",
+    "School District:Cameron - Cameron County",
+    "School District:Mckean - Bradford Area",
+    "School District:Mckean - Kane Area"
+  ],
+  "FM Radio:WCOT": [
+    "School District:Warren - Warren County",
+    "School District:Mckean - Bradford Area"
+  ],
+  "FM Radio:WRRN": [
+    "School District:Warren - Warren County",
+    "School District:Forest - Forest Area",
+    "School District:Mckean - Bradford Area"
+  ],
+  "FM Radio:WWSE": [
+    "School District:Warren - Warren County"
+  ],
+  "FM Radio:WLKW": [
+    "School District:Warren - Warren County"
+  ],
+  "FM Radio:WDDH": [
+    "School District:Warren - Warren County",
+    "School District:Elk - Saint Marys Area",
+    "School District:Mckean - Smethport Area",
+    "School District:Forest - Forest Area",
+    "School District:Cameron - Cameron County"
+  ],
+  "FM Radio:WHUG": [
+    "School District:Warren - Warren County"
+  ],
+  "FM Radio:WQFX-FM": [
+    "School District:Warren - Warren County"
+  ],
+  "FM Radio:WNAE": [
+    "School District:Warren - Warren County",
+    "School District:Mckean - Kane Area"
+  ],
+  "FM Radio:WJKB": [
+    "School District:Warren - Warren County",
+    "School District:Forest - Forest Area",
+    "School District:Mckean - Bradford Area",
+    "School District:Mckean - Kane Area"
+  ],
+  "FM Radio:WKZA": [
+    "School District:Warren - Warren County",
+    "School District:Erie - Corry Area"
+  ],
+  "School District:Lackawanna - Riverside": [
+    "FM Radio:WVMW-FM"
+  ],
+  "School District:Susquehanna - Forest City Regional": [
+    "FM Radio:WLKA",
+    "FM Radio:WTRW"
+  ],
+  "School District:Elk - Johnsonburg Area": [
+    "FM Radio:WTWR",
+    "FM Radio:WPSX",
+    "FM Radio:WRPV",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WJNG"
+  ],
+  "FM Radio:WTWR": [
+    "School District:Elk - Johnsonburg Area",
+    "School District:Elk - Saint Marys Area",
+    "School District:Elk - Ridgway Area",
+    "School District:Cameron - Cameron County",
+    "School District:Clearfield - Clearfield Area"
+  ],
+  "FM Radio:WRPV": [
+    "School District:Elk - Johnsonburg Area",
+    "School District:Elk - Saint Marys Area",
+    "School District:Elk - Ridgway Area"
+  ],
+  "FM Radio:WKBI-FM": [
+    "School District:Elk - Johnsonburg Area",
+    "School District:Elk - Saint Marys Area",
+    "School District:Elk - Ridgway Area",
+    "School District:Mckean - Smethport Area",
+    "School District:Forest - Forest Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Cameron - Cameron County",
+    "School District:Jefferson - Brookville Area",
+    "School District:Jefferson - Brockway Area",
+    "School District:Mckean - Kane Area"
+  ],
+  "FM Radio:WJNG": [
+    "School District:Elk - Johnsonburg Area",
+    "School District:Elk - Saint Marys Area",
+    "School District:Elk - Ridgway Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Jefferson - Brockway Area",
+    "School District:Mckean - Kane Area"
+  ],
+  "School District:Northumberland - Shamokin Area": [
+    "FM Radio:WFBA",
+    "FM Radio:WEVW",
+    "FM Radio:WZRG",
+    "FM Radio:WHNA",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WVRZ",
+    "FM Radio:WEGH"
+  ],
+  "FM Radio:WEVW": [
+    "School District:Northumberland - Shamokin Area",
+    "School District:Northumberland - Shikellamy",
+    "School District:Northumberland - Milton Area",
+    "School District:Montour - Danville Area"
+  ],
+  "FM Radio:WHNA": [
+    "School District:Northumberland - Shamokin Area",
+    "School District:Northumberland - Shikellamy",
+    "School District:Northumberland - Line Mountain",
+    "School District:Northumberland - Milton Area",
+    "School District:Snyder - Selinsgrove Area",
+    "School District:Northumberland - Warrior Run",
+    "School District:Columbia - Southern Columbia Area",
+    "School District:Montour - Danville Area"
+  ],
+  "FM Radio:WPGM-FM": [
+    "School District:Northumberland - Shamokin Area",
+    "School District:Northumberland - Shikellamy",
+    "School District:Columbia - Millville Area",
+    "School District:Northumberland - Warrior Run",
+    "School District:Columbia - Southern Columbia Area",
+    "School District:Columbia - Bloomsburg Area",
+    "School District:Columbia - Central Columbia",
+    "School District:Montour - Danville Area"
+  ],
+  "FM Radio:WEGH": [
+    "School District:Northumberland - Shamokin Area",
+    "School District:Northumberland - Shikellamy",
+    "School District:Northumberland - Line Mountain",
+    "School District:Snyder - Selinsgrove Area",
+    "School District:Columbia - Southern Columbia Area",
+    "School District:Dauphin - Upper Dauphin Area",
+    "School District:Montour - Danville Area"
+  ],
+  "School District:Somerset - Shanksville-Stonycreek": [
+    "FM Radio:WLKH",
+    "FM Radio:WCCL"
+  ],
+  "FM Radio:WLKH": [
+    "School District:Somerset - Shanksville-Stonycreek",
+    "School District:Somerset - Rockwood Area",
+    "School District:Westmoreland - Ligonier Valley",
+    "School District:Somerset - North Star",
+    "School District:Somerset - Shade-Central City",
+    "School District:Somerset - Somerset Area",
+    "School District:Somerset - Berlin Brothersvalley",
+    "School District:Somerset - Conemaugh Township Area"
+  ],
+  "FM Radio:WCCL": [
+    "School District:Somerset - Shanksville-Stonycreek",
+    "School District:Somerset - North Star",
+    "School District:Somerset - Shade-Central City",
+    "School District:Somerset - Windber Area",
+    "School District:Somerset - Somerset Area",
+    "School District:Bedford - Chestnut Ridge",
+    "School District:Somerset - Conemaugh Township Area"
+  ],
+  "School District:Juniata - Juniata County": [
+    "FM Radio:WRYV",
+    "FM Radio:WITF-FM",
+    "FM Radio:WFBM",
+    "FM Radio:WJRC",
+    "FM Radio:WIBF",
+    "FM Radio:WRBT",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WVNW",
+    "FM Radio:WRVV",
+    "FM Radio:WQLV",
+    "FM Radio:WBUS",
+    "FM Radio:WFGE",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WCHX",
+    "FM Radio:WNNA",
+    "FM Radio:WQJU"
+  ],
+  "FM Radio:WITF-FM": [
+    "School District:Juniata - Juniata County",
+    "School District:Perry - West Perry"
+  ],
+  "FM Radio:WFBM": [
+    "School District:Juniata - Juniata County",
+    "School District:Perry - Greenwood",
+    "School District:Snyder - Midd-West"
+  ],
+  "FM Radio:WJRC": [
+    "School District:Juniata - Juniata County",
+    "School District:Mifflin - Mifflin County"
+  ],
+  "FM Radio:WIBF": [
+    "School District:Juniata - Juniata County",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Mifflin - Mifflin County",
+    "School District:Perry - West Perry"
+  ],
+  "FM Radio:WRBT": [
+    "School District:Juniata - Juniata County",
+    "School District:Perry - West Perry"
+  ],
+  "FM Radio:WMRF-FM": [
+    "School District:Juniata - Juniata County",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Mifflin - Mifflin County",
+    "School District:Perry - West Perry"
+  ],
+  "FM Radio:WVNW": [
+    "School District:Juniata - Juniata County",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Mifflin - Mifflin County",
+    "School District:Huntingdon - Mount Union Area"
+  ],
+  "FM Radio:WRVV": [
+    "School District:Juniata - Juniata County",
+    "School District:Perry - West Perry"
+  ],
+  "FM Radio:WQLV": [
+    "School District:Juniata - Juniata County",
+    "School District:Perry - Greenwood",
+    "School District:Dauphin - Halifax Area",
+    "School District:Snyder - Midd-West",
+    "School District:Perry - Newport",
+    "School District:Perry - West Perry",
+    "School District:Perry - Susquenita",
+    "School District:Dauphin - Central Dauphin"
+  ],
+  "FM Radio:WFGE": [
+    "School District:Juniata - Juniata County",
+    "School District:Clinton - Keystone Central",
+    "School District:Mifflin - Mifflin County",
+    "School District:Centre - Bald Eagle Area",
+    "School District:Clearfield - Clearfield Area"
+  ],
+  "FM Radio:WNNK-FM": [
+    "School District:Juniata - Juniata County",
+    "School District:Perry - West Perry"
+  ],
+  "FM Radio:WNNA": [
+    "School District:Juniata - Juniata County",
+    "School District:Perry - Greenwood",
+    "School District:Mifflin - Mifflin County",
+    "School District:Union - Mifflinburg Area",
+    "School District:Snyder - Midd-West"
+  ],
+  "FM Radio:WQJU": [
+    "School District:Juniata - Juniata County",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Mifflin - Mifflin County",
+    "School District:Perry - West Perry"
+  ],
+  "School District:Huntingdon - Juniata Valley": [
+    "FM Radio:WRYV",
+    "FM Radio:WTLR",
+    "FM Radio:WPSU",
+    "FM Radio:WMMH",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WBUS",
+    "FM Radio:WWOT",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WQCK",
+    "FM Radio:WDBF-FM"
+  ],
+  "FM Radio:WHUN-FM": [
+    "School District:Huntingdon - Juniata Valley",
+    "School District:Blair - Hollidaysburg Area",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Huntingdon - Mount Union Area",
+    "School District:Blair - Williamsburg Community",
+    "School District:Blair - Tyrone Area"
+  ],
+  "School District:Lawrence - Laurel": [
+    "FM Radio:WWNW",
+    "FM Radio:WVMN"
+  ],
+  "FM Radio:WWNW": [
+    "School District:Lawrence - Laurel",
+    "School District:Lawrence - Mohawk Area",
+    "School District:Lawrence - Neshannock Township",
+    "School District:Lawrence - Shenango Area",
+    "School District:Lawrence - Wilmington Area",
+    "School District:Mercer - West Middlesex Area"
+  ],
+  "FM Radio:WVMN": [
+    "School District:Lawrence - Laurel",
+    "School District:Lawrence - Mohawk Area",
+    "School District:Lawrence - Shenango Area",
+    "School District:Lawrence - Wilmington Area"
+  ],
+  "School District:Delaware - Radnor Township": [
+    "FM Radio:WXVU"
+  ],
+  "FM Radio:WXVU": [
+    "School District:Delaware - Radnor Township",
+    "School District:Montgomery - Lower Merion",
+    "School District:Delaware - Haverford Township",
+    "School District:Delaware - Marple Newtown",
+    "School District:Montgomery - Upper Merion Area"
+  ],
+  "School District:Somerset - Rockwood Area": [
+    "FM Radio:WQZS",
+    "FM Radio:WLKH",
+    "FM Radio:WYRA"
+  ],
+  "School District:Delaware - Rose Tree Media": [
+    "FM Radio:WSRN-FM"
+  ],
+  "School District:Fayette - Laurel Highlands": [
+    "FM Radio:WPKL"
+  ],
+  "FM Radio:WPKL": [
+    "School District:Fayette - Laurel Highlands",
+    "School District:Greene - Southeastern Greene",
+    "School District:Fayette - Uniontown Area",
+    "School District:Fayette - Albert Gallatin Area",
+    "School District:Fayette - Brownsville Area",
+    "School District:Fayette - Connellsville Area",
+    "School District:Fayette - Frazier"
+  ],
+  "School District:Northumberland - Shikellamy": [
+    "FM Radio:WFBV",
+    "FM Radio:WEVW",
+    "FM Radio:WGRC",
+    "FM Radio:WHNA",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WRBG",
+    "FM Radio:WVRZ",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WCXR",
+    "FM Radio:WEGH"
+  ],
+  "FM Radio:WFBV": [
+    "School District:Northumberland - Shikellamy",
+    "School District:Northumberland - Line Mountain",
+    "School District:Snyder - Midd-West",
+    "School District:Snyder - Selinsgrove Area"
+  ],
+  "FM Radio:WGRC": [
+    "School District:Northumberland - Shikellamy",
+    "School District:Union - Lewisburg Area",
+    "School District:Northumberland - Milton Area",
+    "School District:Union - Mifflinburg Area",
+    "School District:Snyder - Selinsgrove Area",
+    "School District:Northumberland - Warrior Run",
+    "School District:Montour - Danville Area"
+  ],
+  "FM Radio:WRBG": [
+    "School District:Northumberland - Shikellamy",
+    "School District:Union - Lewisburg Area",
+    "School District:Northumberland - Milton Area",
+    "School District:Union - Mifflinburg Area",
+    "School District:Snyder - Midd-West",
+    "School District:Snyder - Selinsgrove Area"
+  ],
+  "FM Radio:WVLY-FM": [
+    "School District:Northumberland - Shikellamy",
+    "School District:Northumberland - Line Mountain",
+    "School District:Northumberland - Milton Area",
+    "School District:Union - Mifflinburg Area",
+    "School District:Snyder - Selinsgrove Area",
+    "School District:Northumberland - Warrior Run",
+    "School District:Montour - Danville Area"
+  ],
+  "FM Radio:WCXR": [
+    "School District:Northumberland - Shikellamy",
+    "School District:Northumberland - Milton Area",
+    "School District:Union - Mifflinburg Area",
+    "School District:Snyder - Midd-West",
+    "School District:Snyder - Selinsgrove Area"
+  ],
+  "School District:Cumberland - Shippensburg Area": [
+    "FM Radio:WZXQ",
+    "FM Radio:WSYC-FM",
+    "FM Radio:WZXN",
+    "FM Radio:WPFG",
+    "FM Radio:WYPM"
+  ],
+  "FM Radio:WZXQ": [
+    "School District:Cumberland - Shippensburg Area",
+    "School District:Franklin - Waynesboro Area",
+    "School District:Franklin - Chambersburg Area",
+    "School District:Adams - Gettysburg Area"
+  ],
+  "FM Radio:WSYC-FM": [
+    "School District:Cumberland - Shippensburg Area"
+  ],
+  "FM Radio:WZXN": [
+    "School District:Cumberland - Shippensburg Area",
+    "School District:Cumberland - Big Spring",
+    "School District:Cumberland - Carlisle Area"
+  ],
+  "School District:Monroe - Pleasant Valley": [
+    "FM Radio:WBYX",
+    "FM Radio:WWPJ",
+    "FM Radio:WRTY",
+    "FM Radio:WSBG",
+    "FM Radio:WPZX",
+    "FM Radio:WKRF"
+  ],
+  "FM Radio:WBYX": [
+    "School District:Monroe - Pleasant Valley",
+    "School District:Monroe - Pocono Mountain",
+    "School District:Northampton - Northampton Area",
+    "School District:Monroe - Stroudsburg Area",
+    "School District:Monroe - East Stroudsburg Area",
+    "School District:Carbon - Jim Thorpe Area",
+    "School District:Northampton - Bangor Area"
+  ],
+  "FM Radio:WRTY": [
+    "School District:Monroe - Pleasant Valley",
+    "School District:Monroe - Pocono Mountain",
+    "School District:Monroe - Stroudsburg Area",
+    "School District:Monroe - East Stroudsburg Area",
+    "School District:Carbon - Jim Thorpe Area"
+  ],
+  "FM Radio:WSBG": [
+    "School District:Monroe - Pleasant Valley",
+    "School District:Monroe - Pocono Mountain",
+    "School District:Monroe - Stroudsburg Area",
+    "School District:Monroe - East Stroudsburg Area",
+    "School District:Northampton - Bangor Area"
+  ],
+  "FM Radio:WPZX": [
+    "School District:Monroe - Pleasant Valley",
+    "School District:Monroe - Pocono Mountain",
+    "School District:Lackawanna - North Pocono",
+    "School District:Luzerne - Wilkes-Barre Area",
+    "School District:Carbon - Weatherly Area",
+    "School District:Carbon - Jim Thorpe Area",
+    "School District:Luzerne - Crestwood"
+  ],
+  "FM Radio:WKRF": [
+    "School District:Monroe - Pleasant Valley",
+    "School District:Monroe - Pocono Mountain",
+    "School District:Monroe - Stroudsburg Area",
+    "School District:Monroe - East Stroudsburg Area",
+    "School District:Northampton - Bangor Area"
+  ],
+  "School District:Allegheny - Plum Borough": [
+    "FM Radio:WKGO"
+  ],
+  "School District:Monroe - Pocono Mountain": [
+    "FM Radio:WBYX",
+    "FM Radio:WRTY",
+    "FM Radio:WMGS",
+    "FM Radio:WSBG",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WODE-FM",
+    "FM Radio:WGGY",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WPZX",
+    "FM Radio:WKRF"
+  ],
+  "FM Radio:WMGS": [
+    "School District:Monroe - Pocono Mountain",
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Sullivan - Sullivan County"
+  ],
+  "FM Radio:WBSX": [
+    "School District:Monroe - Pocono Mountain",
+    "School District:Luzerne - Hazleton Area",
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Sullivan - Sullivan County"
+  ],
+  "FM Radio:WKRZ": [
+    "School District:Monroe - Pocono Mountain",
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Sullivan - Sullivan County"
+  ],
+  "FM Radio:WODE-FM": [
+    "School District:Monroe - Pocono Mountain"
+  ],
+  "FM Radio:WAEB-FM": [
+    "School District:Monroe - Pocono Mountain"
+  ],
+  "School District:Indiana - Purchase Line": [
+    "FM Radio:WCOA-FM",
+    "FM Radio:WPAI",
+    "FM Radio:WBXQ",
+    "FM Radio:WQQP",
+    "FM Radio:WPCL",
+    "FM Radio:WPXZ-FM"
+  ],
+  "FM Radio:WCOA-FM": [
+    "School District:Indiana - Purchase Line",
+    "School District:Indiana - Marion Center Area",
+    "School District:Jefferson - Punxsutawney Area",
+    "School District:Indiana - United",
+    "School District:Armstrong - Armstrong"
+  ],
+  "FM Radio:WQQP": [
+    "School District:Indiana - Purchase Line",
+    "School District:Jefferson - Punxsutawney Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Jefferson - Brookville Area",
+    "School District:Clearfield - Clearfield Area",
+    "School District:Jefferson - Brockway Area",
+    "School District:Clearfield - Curwensville Area"
+  ],
+  "FM Radio:WPXZ-FM": [
+    "School District:Indiana - Purchase Line",
+    "School District:Indiana - Marion Center Area",
+    "School District:Clarion - Redbank Valley",
+    "School District:Jefferson - Punxsutawney Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Armstrong - Armstrong",
+    "School District:Jefferson - Brookville Area"
+  ],
+  "School District:Schuylkill - Saint Clair Area": [
+    "FM Radio:WMGH-FM"
+  ],
+  "School District:Mercer - Grove City Area": [
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WLLF"
+  ],
+  "FM Radio:WSAJ-FM": [
+    "School District:Mercer - Grove City Area",
+    "School District:Clarion - Keystone",
+    "School District:Mercer - Lakeview",
+    "School District:Butler - Moniteau",
+    "School District:Clarion - Allegheny-Clarion Valley",
+    "School District:Venango - Cranberry Area",
+    "School District:Venango - Franklin Area"
+  ],
+  "FM Radio:WLLF": [
+    "School District:Mercer - Grove City Area",
+    "School District:Mercer - Lakeview",
+    "School District:Mercer - Mercer Area",
+    "School District:Mercer - Reynolds",
+    "School District:Mercer - West Middlesex Area",
+    "School District:Mercer - Commodore Perry"
+  ],
+  "School District:Bucks - Quakertown Community": [
+    "FM Radio:WDIY",
+    "FM Radio:WBYO"
+  ],
+  "School District:Lehigh - Salisbury Township": [
+    "FM Radio:WMUH"
+  ],
+  "School District:Luzerne - Pittston Area": [
+    "FM Radio:WCLH",
+    "FM Radio:WVMW-FM",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WWRR"
+  ],
+  "FM Radio:WCLH": [
+    "School District:Luzerne - Pittston Area",
+    "School District:Luzerne - Greater Nanticoke Area",
+    "School District:Luzerne - Lake-Lehman",
+    "School District:Luzerne - Wilkes-Barre Area",
+    "School District:Luzerne - Dallas",
+    "School District:Luzerne - Crestwood"
+  ],
+  "FM Radio:WMQX": [
+    "School District:Luzerne - Pittston Area",
+    "School District:Luzerne - Greater Nanticoke Area",
+    "School District:Luzerne - Lake-Lehman",
+    "School District:Lackawanna - North Pocono",
+    "School District:Luzerne - Wilkes-Barre Area",
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Lackawanna - Abington Heights",
+    "School District:Luzerne - Dallas"
+  ],
+  "FM Radio:WILK-FM": [
+    "School District:Luzerne - Pittston Area",
+    "School District:Luzerne - Greater Nanticoke Area",
+    "School District:Luzerne - Lake-Lehman",
+    "School District:Lackawanna - North Pocono",
+    "School District:Luzerne - Wilkes-Barre Area",
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Lackawanna - Abington Heights",
+    "School District:Luzerne - Dallas"
+  ],
+  "FM Radio:WWRR": [
+    "School District:Luzerne - Pittston Area",
+    "School District:Wyoming - Lackawanna Trail",
+    "School District:Lackawanna - North Pocono",
+    "School District:Luzerne - Wilkes-Barre Area",
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Lackawanna - Abington Heights",
+    "School District:Luzerne - Dallas"
+  ],
+  "School District:Allegheny - Pittsburgh": [
+    "FM Radio:WRCT",
+    "FM Radio:WPTS-FM"
+  ],
+  "FM Radio:WRCT": [
+    "School District:Allegheny - Pittsburgh",
+    "School District:Allegheny - Shaler Area",
+    "School District:Allegheny - West Mifflin Area",
+    "School District:Allegheny - Baldwin-Whitehall",
+    "School District:Allegheny - Fox Chapel Area"
+  ],
+  "FM Radio:WPTS-FM": [
+    "School District:Allegheny - Pittsburgh",
+    "School District:Allegheny - Steel Valley"
+  ],
+  "School District:Clarion - Keystone": [
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WCUC-FM",
+    "FM Radio:WCCR-FM",
+    "FM Radio:WLOQ",
+    "FM Radio:WGYI",
+    "FM Radio:WKFT",
+    "FM Radio:WCGH"
+  ],
+  "FM Radio:WCUC-FM": [
+    "School District:Clarion - Keystone",
+    "School District:Clarion - North Clarion County",
+    "School District:Clarion - Redbank Valley",
+    "School District:Clarion - Union",
+    "School District:Clarion - Allegheny-Clarion Valley",
+    "School District:Clarion - Clarion Area",
+    "School District:Clarion - Clarion-Limestone Area"
+  ],
+  "FM Radio:WCCR-FM": [
+    "School District:Clarion - Keystone",
+    "School District:Clarion - North Clarion County",
+    "School District:Jefferson - Brookville Area",
+    "School District:Clarion - Clarion Area",
+    "School District:Clarion - Clarion-Limestone Area"
+  ],
+  "FM Radio:WKFT": [
+    "School District:Clarion - Keystone",
+    "School District:Clarion - North Clarion County",
+    "School District:Forest - Forest Area",
+    "School District:Jefferson - Brookville Area",
+    "School District:Clarion - Clarion Area",
+    "School District:Clarion - Clarion-Limestone Area"
+  ],
+  "School District:Clinton - Keystone Central": [
+    "FM Radio:WCOB",
+    "FM Radio:WPMY",
+    "FM Radio:WTLR",
+    "FM Radio:WJVM",
+    "FM Radio:WSQV",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WBYL",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WVRT",
+    "FM Radio:WLEJ",
+    "FM Radio:WQBR",
+    "FM Radio:WCOG-FM",
+    "FM Radio:WFGE",
+    "FM Radio:WKSB",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WQKK"
+  ],
+  "FM Radio:WPMY": [
+    "School District:Clinton - Keystone Central",
+    "School District:Tioga - Wellsboro Area",
+    "School District:Lycoming - Williamsport Area",
+    "School District:Lycoming - Jersey Shore Area"
+  ],
+  "FM Radio:WBYL": [
+    "School District:Clinton - Keystone Central",
+    "School District:Lycoming - Montoursville Area",
+    "School District:Lycoming - Montgomery Area",
+    "School District:Lycoming - South Williamsport Area",
+    "School District:Lycoming - Williamsport Area",
+    "School District:Lycoming - Jersey Shore Area"
+  ],
+  "FM Radio:WVRT": [
+    "School District:Clinton - Keystone Central",
+    "School District:Lycoming - Montgomery Area",
+    "School District:Lycoming - Williamsport Area",
+    "School District:Lycoming - Jersey Shore Area"
+  ],
+  "FM Radio:WQBR": [
+    "School District:Clinton - Keystone Central",
+    "School District:Lycoming - Williamsport Area",
+    "School District:Lycoming - Jersey Shore Area"
+  ],
+  "FM Radio:WKSB": [
+    "School District:Clinton - Keystone Central",
+    "School District:Tioga - Southern Tioga"
+  ],
+  "FM Radio:WILQ": [
+    "School District:Clinton - Keystone Central",
+    "School District:Tioga - Southern Tioga",
+    "School District:Sullivan - Sullivan County",
+    "School District:Lycoming - Jersey Shore Area"
+  ],
+  "FM Radio:WQKK": [
+    "School District:Clinton - Keystone Central",
+    "School District:Lycoming - Jersey Shore Area"
+  ],
+  "School District:Union - Lewisburg Area": [
+    "FM Radio:WBGM",
+    "FM Radio:WVBU-FM",
+    "FM Radio:WGRC",
+    "FM Radio:WRBG"
+  ],
+  "FM Radio:WBGM": [
+    "School District:Union - Lewisburg Area",
+    "School District:Union - Mifflinburg Area",
+    "School District:Snyder - Midd-West",
+    "School District:Snyder - Selinsgrove Area"
+  ],
+  "FM Radio:WVBU-FM": [
+    "School District:Union - Lewisburg Area",
+    "School District:Northumberland - Milton Area"
+  ],
+  "School District:Westmoreland - Ligonier Valley": [
+    "FM Radio:WQEJ",
+    "FM Radio:WLWG",
+    "FM Radio:WJHT",
+    "FM Radio:WLKH",
+    "FM Radio:WHJB"
+  ],
+  "FM Radio:WQEJ": [
+    "School District:Westmoreland - Ligonier Valley",
+    "School District:Indiana - United",
+    "School District:Bedford - Chestnut Ridge"
+  ],
+  "FM Radio:WLWG": [
+    "School District:Westmoreland - Ligonier Valley",
+    "School District:Westmoreland - Greater Latrobe",
+    "School District:Westmoreland - Hempfield Area",
+    "School District:Westmoreland - Mount Pleasant Area",
+    "School District:Westmoreland - Derry Area",
+    "School District:Fayette - Connellsville Area"
+  ],
+  "FM Radio:WHJB": [
+    "School District:Westmoreland - Ligonier Valley",
+    "School District:Westmoreland - Greater Latrobe",
+    "School District:Westmoreland - Hempfield Area",
+    "School District:Westmoreland - Mount Pleasant Area",
+    "School District:Indiana - Blairsville-Saltsburg",
+    "School District:Westmoreland - Derry Area"
+  ],
+  "School District:Northumberland - Line Mountain": [
+    "FM Radio:WQSU",
+    "FM Radio:WFBV",
+    "FM Radio:WZRG",
+    "FM Radio:WHNA",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WVRZ",
+    "FM Radio:WQBG",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WEGH"
+  ],
+  "FM Radio:WQSU": [
+    "School District:Northumberland - Line Mountain",
+    "School District:Union - Mifflinburg Area",
+    "School District:Snyder - Midd-West",
+    "School District:Lycoming - East Lycoming",
+    "School District:Montour - Danville Area"
+  ],
+  "FM Radio:WQBG": [
+    "School District:Northumberland - Line Mountain",
+    "School District:Perry - Greenwood",
+    "School District:Dauphin - Halifax Area",
+    "School District:Snyder - Midd-West",
+    "School District:Snyder - Selinsgrove Area",
+    "School District:Dauphin - Upper Dauphin Area"
+  ],
+  "School District:Adams - Littlestown Area": [
+    "FM Radio:WZXY"
+  ],
+  "FM Radio:WZXY": [
+    "School District:Adams - Littlestown Area",
+    "School District:York - Spring Grove Area",
+    "School District:York - South Western",
+    "School District:Adams - Bermudian Springs",
+    "School District:Adams - Conewago Valley"
+  ],
+  "School District:Dauphin - Lower Dauphin": [
+    "FM Radio:WMSS",
+    "FM Radio:WKHL",
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WHKF",
+    "FM Radio:WFVY"
+  ],
+  "FM Radio:WMSS": [
+    "School District:Dauphin - Lower Dauphin",
+    "School District:York - Northeastern York",
+    "School District:Dauphin - Middletown Area",
+    "School District:York - West Shore",
+    "School District:Dauphin - Central Dauphin",
+    "School District:Lancaster - Elizabethtown Area",
+    "School District:Dauphin - Derry Township"
+  ],
+  "FM Radio:WKHL": [
+    "School District:Dauphin - Lower Dauphin",
+    "School District:Dauphin - Halifax Area",
+    "School District:Lebanon - Northern Lebanon",
+    "School District:York - West Shore",
+    "School District:Dauphin - Central Dauphin",
+    "School District:Lebanon - Cornwall-Lebanon"
+  ],
+  "School District:Lycoming - Montoursville Area": [
+    "FM Radio:WKWP",
+    "FM Radio:WVAM-FM",
+    "FM Radio:WRLC",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WBYL",
+    "FM Radio:WZXR",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WOTH"
+  ],
+  "FM Radio:WKWP": [
+    "School District:Lycoming - Montoursville Area",
+    "School District:Lycoming - Loyalsock Township",
+    "School District:Lycoming - South Williamsport Area",
+    "School District:Lycoming - Williamsport Area"
+  ],
+  "FM Radio:WVAM-FM": [
+    "School District:Lycoming - Montoursville Area",
+    "School District:Lycoming - East Lycoming"
+  ],
+  "FM Radio:WRLC": [
+    "School District:Lycoming - Montoursville Area",
+    "School District:Lycoming - Loyalsock Township",
+    "School District:Lycoming - Montgomery Area",
+    "School District:Lycoming - South Williamsport Area",
+    "School District:Lycoming - Williamsport Area"
+  ],
+  "FM Radio:WBZD-FM": [
+    "School District:Lycoming - Montoursville Area",
+    "School District:Union - Mifflinburg Area",
+    "School District:Sullivan - Sullivan County",
+    "School District:Lycoming - East Lycoming",
+    "School District:Lycoming - Jersey Shore Area"
+  ],
+  "FM Radio:WZXR": [
+    "School District:Lycoming - Montoursville Area",
+    "School District:Northumberland - Milton Area",
+    "School District:Lycoming - Montgomery Area",
+    "School District:Northumberland - Warrior Run",
+    "School District:Lycoming - Williamsport Area",
+    "School District:Lycoming - East Lycoming",
+    "School District:Lycoming - Jersey Shore Area"
+  ],
+  "FM Radio:WOTH": [
+    "School District:Lycoming - Montoursville Area",
+    "School District:Columbia - Millville Area",
+    "School District:Northumberland - Milton Area",
+    "School District:Lycoming - Montgomery Area",
+    "School District:Northumberland - Warrior Run",
+    "School District:Lycoming - Williamsport Area",
+    "School District:Lycoming - East Lycoming",
+    "School District:Montour - Danville Area"
+  ],
+  "School District:Dauphin - Millersburg Area": [
+    "FM Radio:WKHW"
+  ],
+  "FM Radio:WKHW": [
+    "School District:Dauphin - Millersburg Area",
+    "School District:Perry - Greenwood",
+    "School District:Dauphin - Halifax Area",
+    "School District:Perry - Newport",
+    "School District:Dauphin - Upper Dauphin Area",
+    "School District:Perry - Susquenita",
+    "School District:Dauphin - Central Dauphin"
+  ],
+  "School District:Columbia - Millville Area": [
+    "FM Radio:WKBP",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WMMZ",
+    "FM Radio:WOTH"
+  ],
+  "School District:Northumberland - Milton Area": [
+    "FM Radio:WVBU-FM",
+    "FM Radio:WEVW",
+    "FM Radio:WGRC",
+    "FM Radio:WHNA",
+    "FM Radio:WRBG",
+    "FM Radio:WZXR",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WCXR",
+    "FM Radio:WOTH"
+  ],
+  "School District:Potter - Galeton Area": [
+    "FM Radio:WCOG-FM",
+    "FM Radio:WNBT-FM"
+  ],
+  "School District:Greene - Jefferson-Morgan": [
+    "FM Radio:WCAL"
+  ],
+  "FM Radio:WCAL": [
+    "School District:Greene - Jefferson-Morgan",
+    "School District:Westmoreland - Belle Vernon Area",
+    "School District:Fayette - Brownsville Area",
+    "School District:Washington - California Area",
+    "School District:Washington - Bethlehem-Center",
+    "School District:Washington - Charleroi",
+    "School District:Greene - Carmichaels Area",
+    "School District:Fayette - Frazier"
+  ],
+  "School District:Schuylkill - Minersville Area": [
+    "FM Radio:WFBA",
+    "FM Radio:WZRG"
+  ],
+  "School District:Westmoreland - Kiski Area": [
+    "FM Radio:WKGO"
+  ],
+  "School District:Berks - Kutztown Area": [
+    "FM Radio:WZMV",
+    "FM Radio:WZXB",
+    "FM Radio:WMGH-FM"
+  ],
+  "FM Radio:WZXB": [
+    "School District:Berks - Kutztown Area",
+    "School District:Berks - Oley Valley",
+    "School District:Berks - Fleetwood Area",
+    "School District:Berks - Boyertown Area",
+    "School District:Berks - Exeter Township",
+    "School District:Berks - Daniel Boone Area"
+  ],
+  "School District:Wyoming - Lackawanna Trail": [
+    "FM Radio:WLKA",
+    "FM Radio:WCDJ",
+    "FM Radio:WTRW",
+    "FM Radio:WBHD",
+    "FM Radio:WUSR",
+    "FM Radio:WQFN",
+    "FM Radio:WWRR",
+    "FM Radio:WEZX"
+  ],
+  "FM Radio:WCDJ": [
+    "School District:Wyoming - Lackawanna Trail",
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Bradford - Wyalusing Area",
+    "School District:Susquehanna - Elk Lake"
+  ],
+  "FM Radio:WBHD": [
+    "School District:Wyoming - Lackawanna Trail",
+    "School District:Lackawanna - Lakeland",
+    "School District:Lackawanna - North Pocono",
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Lackawanna - Abington Heights",
+    "School District:Luzerne - Dallas"
+  ],
+  "FM Radio:WUSR": [
+    "School District:Wyoming - Lackawanna Trail",
+    "School District:Lackawanna - North Pocono",
+    "School District:Luzerne - Wilkes-Barre Area",
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Lackawanna - Abington Heights"
+  ],
+  "FM Radio:WQFN": [
+    "School District:Wyoming - Lackawanna Trail",
+    "School District:Lackawanna - Lakeland",
+    "School District:Susquehanna - Mountain View",
+    "School District:Wayne - Western Wayne",
+    "School District:Wayne - Wayne Highlands"
+  ],
+  "FM Radio:WEZX": [
+    "School District:Wyoming - Lackawanna Trail",
+    "School District:Luzerne - Lake-Lehman",
+    "School District:Lackawanna - Lakeland",
+    "School District:Lackawanna - North Pocono",
+    "School District:Luzerne - Wilkes-Barre Area",
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Lackawanna - Abington Heights"
+  ],
+  "School District:Berks - Governor Mifflin": [
+    "FM Radio:WYTL"
+  ],
+  "School District:Schuylkill - Mahanoy Area": [
+    "FM Radio:WMGH-FM"
+  ],
+  "School District:Westmoreland - Greater Latrobe": [
+    "FM Radio:WLWG",
+    "FM Radio:WHJB"
+  ],
+  "School District:Lancaster - Manheim Township": [
+    "FM Radio:WFNM",
+    "FM Radio:WLCH"
+  ],
+  "FM Radio:WLCH": [
+    "School District:Lancaster - Manheim Township",
+    "School District:Lancaster - Hempfield",
+    "School District:Lancaster - Conestoga Valley",
+    "School District:Lancaster - Lampeter-Strasburg",
+    "School District:Lancaster - Lancaster"
+  ],
+  "School District:Indiana - Marion Center Area": [
+    "FM Radio:WCOA-FM",
+    "FM Radio:WIUP-FM",
+    "FM Radio:WQMU",
+    "FM Radio:WKQL",
+    "FM Radio:WPXZ-FM",
+    "FM Radio:WMKX"
+  ],
+  "FM Radio:WIUP-FM": [
+    "School District:Indiana - Marion Center Area",
+    "School District:Indiana - Homer-Center",
+    "School District:Indiana - Indiana Area",
+    "School District:Indiana - Blairsville-Saltsburg"
+  ],
+  "FM Radio:WKQL": [
+    "School District:Indiana - Marion Center Area",
+    "School District:Clarion - Redbank Valley",
+    "School District:Jefferson - Punxsutawney Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Armstrong - Armstrong",
+    "School District:Jefferson - Brookville Area",
+    "School District:Jefferson - Brockway Area"
+  ],
+  "FM Radio:WMKX": [
+    "School District:Indiana - Marion Center Area",
+    "School District:Clarion - Redbank Valley",
+    "School District:Jefferson - Punxsutawney Area",
+    "School District:Elk - Ridgway Area",
+    "School District:Forest - Forest Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Armstrong - Armstrong",
+    "School District:Jefferson - Brookville Area"
+  ],
+  "School District:Luzerne - Greater Nanticoke Area": [
+    "FM Radio:WRGN",
+    "FM Radio:WSFX",
+    "FM Radio:WCLH",
+    "FM Radio:WQFM",
+    "FM Radio:WSJR",
+    "FM Radio:WBHT",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM"
+  ],
+  "FM Radio:WSFX": [
+    "School District:Luzerne - Greater Nanticoke Area",
+    "School District:Luzerne - Hanover Area"
+  ],
+  "School District:Franklin - Greencastle-Antrim": [
+    "FM Radio:WIKG",
+    "FM Radio:WQCM",
+    "FM Radio:WEEO-FM"
+  ],
+  "FM Radio:WIKG": [
+    "School District:Franklin - Greencastle-Antrim",
+    "School District:Franklin - Waynesboro Area",
+    "School District:Franklin - Tuscarora",
+    "School District:Franklin - Chambersburg Area"
+  ],
+  "FM Radio:WQCM": [
+    "School District:Franklin - Greencastle-Antrim",
+    "School District:Franklin - Waynesboro Area",
+    "School District:Franklin - Tuscarora",
+    "School District:Franklin - Chambersburg Area"
+  ],
+  "FM Radio:WEEO-FM": [
+    "School District:Franklin - Greencastle-Antrim",
+    "School District:Fulton - Southern Fulton",
+    "School District:Franklin - Tuscarora",
+    "School District:Fulton - Forbes Road",
+    "School District:Franklin - Chambersburg Area",
+    "School District:Fulton - Central Fulton"
+  ],
+  "School District:Luzerne - Lake-Lehman": [
+    "FM Radio:WRGN",
+    "FM Radio:WCLH",
+    "FM Radio:WQFM",
+    "FM Radio:WSJR",
+    "FM Radio:WBHT",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WMMZ",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "FM Radio:WCIG": [
+    "School District:Luzerne - Lake-Lehman",
+    "School District:Lackawanna - North Pocono",
+    "School District:Luzerne - Wilkes-Barre Area",
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Lackawanna - Abington Heights",
+    "School District:Luzerne - Dallas",
+    "School District:Luzerne - Crestwood"
+  ],
+  "School District:Lackawanna - Lakeland": [
+    "FM Radio:WLKA",
+    "FM Radio:WZZH",
+    "FM Radio:WTRW",
+    "FM Radio:WBHD",
+    "FM Radio:WQFN",
+    "FM Radio:WEZX"
+  ],
+  "School District:Mercer - Greenville Area": [
+    "FM Radio:WXTC"
+  ],
+  "FM Radio:WXTC": [
+    "School District:Mercer - Greenville Area",
+    "School District:Mercer - Jamestown Area",
+    "School District:Mercer - Reynolds",
+    "School District:Mercer - Commodore Perry"
+  ],
+  "School District:Mercer - Lakeview": [
+    "FM Radio:WCGT",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WLLF",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ"
+  ],
+  "School District:Susquehanna - Montrose Area": [
+    "FM Radio:WSKG-FM",
+    "FM Radio:WSQX-FM",
+    "FM Radio:WKGB-FM",
+    "FM Radio:WJOB-FM",
+    "FM Radio:WDRE",
+    "FM Radio:WLTB",
+    "FM Radio:WMXW",
+    "FM Radio:WWYL",
+    "FM Radio:WCDW",
+    "FM Radio:WBBI"
+  ],
+  "FM Radio:WSKG-FM": [
+    "School District:Susquehanna - Montrose Area"
+  ],
+  "FM Radio:WSQX-FM": [
+    "School District:Susquehanna - Montrose Area"
+  ],
+  "FM Radio:WKGB-FM": [
+    "School District:Susquehanna - Montrose Area",
+    "School District:Susquehanna - Blue Ridge"
+  ],
+  "FM Radio:WJOB-FM": [
+    "School District:Susquehanna - Montrose Area",
+    "School District:Susquehanna - Susquehanna Community",
+    "School District:Susquehanna - Blue Ridge"
+  ],
+  "FM Radio:WDRE": [
+    "School District:Susquehanna - Montrose Area",
+    "School District:Susquehanna - Susquehanna Community",
+    "School District:Susquehanna - Blue Ridge"
+  ],
+  "FM Radio:WLTB": [
+    "School District:Susquehanna - Montrose Area"
+  ],
+  "FM Radio:WMXW": [
+    "School District:Susquehanna - Montrose Area"
+  ],
+  "FM Radio:WWYL": [
+    "School District:Susquehanna - Montrose Area"
+  ],
+  "FM Radio:WCDW": [
+    "School District:Susquehanna - Montrose Area"
+  ],
+  "FM Radio:WBBI": [
+    "School District:Susquehanna - Montrose Area",
+    "School District:Bradford - Northeast Bradford"
+  ],
+  "School District:Perry - Greenwood": [
+    "FM Radio:WKHW",
+    "FM Radio:WFBM",
+    "FM Radio:WQLV",
+    "FM Radio:WQBG",
+    "FM Radio:WNNA"
+  ],
+  "School District:Dauphin - Halifax Area": [
+    "FM Radio:WKHW",
+    "FM Radio:WJAZ",
+    "FM Radio:WKHL",
+    "FM Radio:WQLV",
+    "FM Radio:WQBG"
+  ],
+  "School District:Berks - Hamburg Area": [
+    "FM Radio:WYBQ",
+    "FM Radio:WZMV",
+    "FM Radio:WMGH-FM"
+  ],
+  "School District:Montgomery - Lower Merion": [
+    "FM Radio:WXVU",
+    "FM Radio:WHHS"
+  ],
+  "FM Radio:WHHS": [
+    "School District:Montgomery - Lower Merion",
+    "School District:Delaware - Haverford Township",
+    "School District:Delaware - Upper Darby"
+  ],
+  "School District:Blair - Hollidaysburg Area": [
+    "FM Radio:WHHN",
+    "FM Radio:WPMN",
+    "FM Radio:WCOX",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WLKE",
+    "FM Radio:WBRX",
+    "FM Radio:WWOT",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WLKJ"
+  ],
+  "School District:Indiana - Homer-Center": [
+    "FM Radio:WIUP-FM",
+    "FM Radio:WQMU",
+    "FM Radio:WLCY"
+  ],
+  "FM Radio:WLCY": [
+    "School District:Indiana - Homer-Center",
+    "School District:Indiana - Indiana Area",
+    "School District:Indiana - United",
+    "School District:Armstrong - Apollo-Ridge",
+    "School District:Armstrong - Armstrong",
+    "School District:Indiana - Blairsville-Saltsburg",
+    "School District:Westmoreland - Derry Area"
+  ],
+  "School District:Beaver - Hopewell Area": [
+    "FM Radio:WKPL"
+  ],
+  "FM Radio:WKPL": [
+    "School District:Beaver - Hopewell Area",
+    "School District:Lawrence - Mohawk Area",
+    "School District:Butler - Seneca Valley",
+    "School District:Beaver - South Side Area",
+    "School District:Beaver - Blackhawk"
+  ],
+  "School District:Huntingdon - Huntingdon Area": [
+    "FM Radio:WHHN",
+    "FM Radio:WCOB",
+    "FM Radio:WRYV",
+    "FM Radio:WPMN",
+    "FM Radio:WTLR",
+    "FM Radio:WIBF",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WVNW",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WBUS",
+    "FM Radio:WWOT",
+    "FM Radio:WAPY",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WCHX",
+    "FM Radio:WDBF-FM",
+    "FM Radio:WQJU"
+  ],
+  "School District:Indiana - Indiana Area": [
+    "FM Radio:WIUP-FM",
+    "FM Radio:WQMU",
+    "FM Radio:WLCY"
+  ],
+  "School District:Lycoming - Loyalsock Township": [
+    "FM Radio:WKWP",
+    "FM Radio:WVYA",
+    "FM Radio:WRLC"
+  ],
+  "FM Radio:WVYA": [
+    "School District:Lycoming - Loyalsock Township",
+    "School District:Lycoming - South Williamsport Area",
+    "School District:Lycoming - Williamsport Area",
+    "School District:Lycoming - Jersey Shore Area"
+  ],
+  "School District:Chester - Owen J Roberts": [
+    "FM Radio:WZZD"
+  ],
+  "FM Radio:WZZD": [
+    "School District:Chester - Owen J Roberts",
+    "School District:Berks - Twin Valley",
+    "School District:Lancaster - Eastern Lancaster County",
+    "School District:Chester - Coatesville Area",
+    "School District:Chester - Downingtown Area"
+  ],
+  "School District:Chester - Oxford Area": [
+    "FM Radio:WZXE",
+    "FM Radio:WWLU",
+    "FM Radio:WZWG"
+  ],
+  "FM Radio:WZXE": [
+    "School District:Chester - Oxford Area",
+    "School District:Lancaster - Solanco"
+  ],
+  "FM Radio:WWLU": [
+    "School District:Chester - Oxford Area"
+  ],
+  "School District:Bucks - Palisades": [
+    "FM Radio:WDIY",
+    "FM Radio:WBYO",
+    "FM Radio:WLVR-FM"
+  ],
+  "School District:Lawrence - Mohawk Area": [
+    "FM Radio:WWNW",
+    "FM Radio:WVMN",
+    "FM Radio:WKPL"
+  ],
+  "School District:Montgomery - Hatboro-Horsham": [
+    "FM Radio:WRDV"
+  ],
+  "FM Radio:WRDV": [
+    "School District:Montgomery - Hatboro-Horsham",
+    "School District:Montgomery - Upper Dublin",
+    "School District:Montgomery - Abington",
+    "School District:Bucks - Centennial",
+    "School District:Bucks - Central Bucks",
+    "School District:Bucks - Council Rock"
+  ],
+  "School District:Lebanon - Palmyra Area": [
+    "FM Radio:WFVY"
+  ],
+  "School District:Delaware - Haverford Township": [
+    "FM Radio:WXVU",
+    "FM Radio:WHHS"
+  ],
+  "School District:Luzerne - Hazleton Area": [
+    "FM Radio:WVIA-FM",
+    "FM Radio:WCDH",
+    "FM Radio:WQFM",
+    "FM Radio:WSJR",
+    "FM Radio:WBHT",
+    "FM Radio:WBSX",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WMMZ"
+  ],
+  "FM Radio:WVIA-FM": [
+    "School District:Luzerne - Hazleton Area",
+    "School District:Lackawanna - North Pocono",
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Sullivan - Sullivan County"
+  ],
+  "FM Radio:WCDH": [
+    "School District:Luzerne - Hazleton Area",
+    "School District:Schuylkill - North Schuylkill",
+    "School District:Columbia - Southern Columbia Area",
+    "School District:Schuylkill - Tamaqua Area",
+    "School District:Columbia - Berwick Area",
+    "School District:Columbia - Bloomsburg Area",
+    "School District:Schuylkill - Blue Mountain"
+  ],
+  "FM Radio:WAVT-FM": [
+    "School District:Luzerne - Hazleton Area"
+  ],
+  "School District:Lancaster - Hempfield": [
+    "FM Radio:WFNM",
+    "FM Radio:WLCH"
+  ],
+  "School District:Westmoreland - Hempfield Area": [
+    "FM Radio:WLWG",
+    "FM Radio:WKHB-FM",
+    "FM Radio:WHJB"
+  ],
+  "FM Radio:WKHB-FM": [
+    "School District:Westmoreland - Hempfield Area",
+    "School District:Westmoreland - Mount Pleasant Area",
+    "School District:Fayette - Uniontown Area",
+    "School District:Westmoreland - Yough",
+    "School District:Fayette - Connellsville Area",
+    "School District:Fayette - Frazier"
+  ],
+  "School District:Carbon - Panther Valley": [
+    "FM Radio:WMGH-FM"
+  ],
+  "School District:Delaware - Interboro": [
+    "FM Radio:WSRN-FM",
+    "FM Radio:WRSD"
+  ],
+  "School District:Mercer - Jamestown Area": [
+    "FM Radio:WXTC",
+    "FM Radio:WLVX"
+  ],
+  "FM Radio:WLVX": [
+    "School District:Mercer - Jamestown Area",
+    "School District:Mercer - Mercer Area",
+    "School District:Mercer - Reynolds",
+    "School District:Mercer - West Middlesex Area",
+    "School District:Mercer - Commodore Perry",
+    "School District:Crawford - Conneaut"
+  ],
+  "School District:Washington - Mcguffey": [
+    "FM Radio:WNJR",
+    "FM Radio:WJPA-FM"
+  ],
+  "School District:Westmoreland - Mount Pleasant Area": [
+    "FM Radio:WLWG",
+    "FM Radio:WKHB-FM",
+    "FM Radio:WHJB"
+  ],
+  "School District:Berks - Muhlenberg": [
+    "FM Radio:WYBQ",
+    "FM Radio:WXAC"
+  ],
+  "FM Radio:WXAC": [
+    "School District:Berks - Muhlenberg",
+    "School District:Berks - Oley Valley",
+    "School District:Berks - Reading",
+    "School District:Berks - Schuylkill Valley",
+    "School District:Berks - Antietam",
+    "School District:Berks - Exeter Township"
+  ],
+  "School District:Mifflin - Mifflin County": [
+    "FM Radio:WRYV",
+    "FM Radio:WTLR",
+    "FM Radio:WJRC",
+    "FM Radio:WPSU",
+    "FM Radio:WIBF",
+    "FM Radio:WMAJ",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WVNW",
+    "FM Radio:WBUS",
+    "FM Radio:WFGE",
+    "FM Radio:WAPY",
+    "FM Radio:WCHX",
+    "FM Radio:WNNA",
+    "FM Radio:WDBF-FM",
+    "FM Radio:WQJU"
+  ],
+  "School District:Union - Mifflinburg Area": [
+    "FM Radio:WBGM",
+    "FM Radio:WQSU",
+    "FM Radio:WGRC",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WRBG",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WCXR",
+    "FM Radio:WNNA"
+  ],
+  "School District:Erie - Millcreek Township": [
+    "FM Radio:WEFR",
+    "FM Radio:WICU-FM"
+  ],
+  "FM Radio:WEFR": [
+    "School District:Erie - Millcreek Township",
+    "School District:Erie - Fairview",
+    "School District:Erie - General McLane",
+    "School District:Erie - Girard",
+    "School District:Erie - Fort Leboeuf"
+  ],
+  "FM Radio:WICU-FM": [
+    "School District:Erie - Millcreek Township",
+    "School District:Erie - Harbor Creek",
+    "School District:Erie - Erie City"
+  ],
+  "School District:Northampton - Nazareth Area": [
+    "FM Radio:WWPJ",
+    "FM Radio:WPNJ"
+  ],
+  "School District:Bucks - Neshaminy": [
+    "FM Radio:WLBS"
+  ],
+  "School District:Bedford - Northern Bedford": [
+    "FM Radio:WHHN",
+    "FM Radio:WPMN",
+    "FM Radio:WCOX",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WBRX",
+    "FM Radio:WAYC",
+    "FM Radio:WSKE",
+    "FM Radio:WBVE"
+  ],
+  "FM Radio:WAYC": [
+    "School District:Bedford - Northern Bedford",
+    "School District:Bedford - Bedford Area",
+    "School District:Bedford - Chestnut Ridge",
+    "School District:Bedford - Everett Area"
+  ],
+  "FM Radio:WSKE": [
+    "School District:Bedford - Northern Bedford",
+    "School District:Fulton - Southern Fulton",
+    "School District:Bedford - Tussey Mountain",
+    "School District:Bedford - Bedford Area",
+    "School District:Bedford - Chestnut Ridge",
+    "School District:Bedford - Everett Area"
+  ],
+  "FM Radio:WBVE": [
+    "School District:Bedford - Northern Bedford",
+    "School District:Bedford - Bedford Area",
+    "School District:Bedford - Chestnut Ridge",
+    "School District:Bedford - Everett Area"
+  ],
+  "School District:Mckean - Otto-Eldred": [
+    "FM Radio:WCOV-FM",
+    "FM Radio:WTWT",
+    "FM Radio:WOLN",
+    "FM Radio:WHKS",
+    "FM Radio:WCOR-FM",
+    "FM Radio:WQRS",
+    "FM Radio:WBRR",
+    "FM Radio:WMXO",
+    "FM Radio:WCOP",
+    "FM Radio:WXMT"
+  ],
+  "FM Radio:WCOV-FM": [
+    "School District:Mckean - Otto-Eldred",
+    "School District:Potter - Oswayo Valley",
+    "School District:Mckean - Port Allegany"
+  ],
+  "FM Radio:WTWT": [
+    "School District:Mckean - Otto-Eldred",
+    "School District:Mckean - Bradford Area"
+  ],
+  "FM Radio:WOLN": [
+    "School District:Mckean - Otto-Eldred",
+    "School District:Potter - Oswayo Valley",
+    "School District:Mckean - Port Allegany"
+  ],
+  "FM Radio:WHKS": [
+    "School District:Mckean - Otto-Eldred",
+    "School District:Potter - Oswayo Valley",
+    "School District:Mckean - Port Allegany",
+    "School District:Mckean - Smethport Area",
+    "School District:Mckean - Bradford Area"
+  ],
+  "FM Radio:WCOR-FM": [
+    "School District:Mckean - Otto-Eldred",
+    "School District:Mckean - Smethport Area",
+    "School District:Mckean - Bradford Area"
+  ],
+  "FM Radio:WQRS": [
+    "School District:Mckean - Otto-Eldred",
+    "School District:Mckean - Bradford Area"
+  ],
+  "FM Radio:WBRR": [
+    "School District:Mckean - Otto-Eldred",
+    "School District:Mckean - Smethport Area",
+    "School District:Mckean - Bradford Area"
+  ],
+  "FM Radio:WMXO": [
+    "School District:Mckean - Otto-Eldred",
+    "School District:Mckean - Port Allegany"
+  ],
+  "FM Radio:WCOP": [
+    "School District:Mckean - Otto-Eldred",
+    "School District:Potter - Oswayo Valley",
+    "School District:Mckean - Port Allegany",
+    "School District:Mckean - Smethport Area",
+    "School District:Mckean - Bradford Area"
+  ],
+  "FM Radio:WXMT": [
+    "School District:Mckean - Otto-Eldred",
+    "School District:Potter - Oswayo Valley",
+    "School District:Mckean - Port Allegany",
+    "School District:Mckean - Smethport Area",
+    "School District:Mckean - Bradford Area"
+  ],
+  "School District:Cambria - Northern Cambria": [
+    "FM Radio:WPAI",
+    "FM Radio:WBXQ",
+    "FM Radio:WPCL"
+  ],
+  "School District:Lawrence - Neshannock Township": [
+    "FM Radio:WWNW"
+  ],
+  "School District:Butler - Moniteau": [
+    "FM Radio:WCGT",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WLER-FM"
+  ],
+  "School District:Northampton - Northampton Area": [
+    "FM Radio:WDIY",
+    "FM Radio:WBYX",
+    "FM Radio:WLHI"
+  ],
+  "School District:Bradford - Northeast Bradford": [
+    "FM Radio:WCII",
+    "FM Radio:WTTC-FM",
+    "FM Radio:WAVR",
+    "FM Radio:WBBI"
+  ],
+  "FM Radio:WCII": [
+    "School District:Bradford - Northeast Bradford",
+    "School District:Bradford - Athens Area"
+  ],
+  "FM Radio:WAVR": [
+    "School District:Bradford - Northeast Bradford",
+    "School District:Bradford - Troy Area",
+    "School District:Bradford - Athens Area"
+  ],
+  "School District:Delaware - Marple Newtown": [
+    "FM Radio:WXVU"
+  ],
+  "School District:York - Northeastern York": [
+    "FM Radio:WMSS",
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WHKF"
+  ],
+  "School District:Cumberland - Mechanicsburg Area": [
+    "FM Radio:WVMM"
+  ],
+  "School District:Mercer - Mercer Area": [
+    "FM Radio:WLLF",
+    "FM Radio:WWIZ",
+    "FM Radio:WLVX"
+  ],
+  "FM Radio:WWIZ": [
+    "School District:Mercer - Mercer Area",
+    "School District:Mercer - Reynolds",
+    "School District:Lawrence - Wilmington Area",
+    "School District:Mercer - West Middlesex Area"
+  ],
+  "School District:Somerset - Meyersdale Area": [
+    "FM Radio:WHYU-FM",
+    "FM Radio:WQZS",
+    "FM Radio:WYRA"
+  ],
+  "School District:Lackawanna - Mid Valley": [
+    "FM Radio:WVMW-FM"
+  ],
+  "School District:Snyder - Midd-West": [
+    "FM Radio:WBGM",
+    "FM Radio:WQSU",
+    "FM Radio:WFBV",
+    "FM Radio:WFBM",
+    "FM Radio:WRBG",
+    "FM Radio:WQLV",
+    "FM Radio:WQBG",
+    "FM Radio:WCXR",
+    "FM Radio:WNNA"
+  ],
+  "School District:Dauphin - Middletown Area": [
+    "FM Radio:WMSS"
+  ],
+  "School District:Perry - Newport": [
+    "FM Radio:WKHW",
+    "FM Radio:WJAZ",
+    "FM Radio:WQLV"
+  ],
+  "School District:Montgomery - North Penn": [
+    "FM Radio:WBMR"
+  ],
+  "School District:Lackawanna - North Pocono": [
+    "FM Radio:WVIA-FM",
+    "FM Radio:WVMW-FM",
+    "FM Radio:WSJR",
+    "FM Radio:WBHD",
+    "FM Radio:WUSR",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WPZX",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "School District:Schuylkill - North Schuylkill": [
+    "FM Radio:WFBA",
+    "FM Radio:WCDH",
+    "FM Radio:WZRG",
+    "FM Radio:WVRZ"
+  ],
+  "School District:Somerset - North Star": [
+    "FM Radio:WLKH",
+    "FM Radio:WCCL"
+  ],
+  "School District:Berks - Oley Valley": [
+    "FM Radio:WZXB",
+    "FM Radio:WXAC"
+  ],
+  "School District:Potter - Oswayo Valley": [
+    "FM Radio:WCOV-FM",
+    "FM Radio:WOLN",
+    "FM Radio:WHKS",
+    "FM Radio:WJQZ",
+    "FM Radio:WCOP",
+    "FM Radio:WXMT"
+  ],
+  "FM Radio:WJQZ": [
+    "School District:Potter - Oswayo Valley",
+    "School District:Potter - Northern Potter"
+  ],
+  "School District:Clarion - North Clarion County": [
+    "FM Radio:WCUC-FM",
+    "FM Radio:WCCR-FM",
+    "FM Radio:WKFT",
+    "FM Radio:WCGH"
+  ],
+  "School District:Erie - North East": [
+    "FM Radio:WMCE-FM",
+    "FM Radio:WEBG"
+  ],
+  "FM Radio:WMCE-FM": [
+    "School District:Erie - North East",
+    "School District:Erie - Harbor Creek",
+    "School District:Erie - Wattsburg Area",
+    "School District:Erie - Fort Leboeuf"
+  ],
+  "FM Radio:WEBG": [
+    "School District:Erie - North East",
+    "School District:Erie - Harbor Creek",
+    "School District:Erie - Wattsburg Area"
+  ],
+  "School District:Lawrence - Shenango Area": [
+    "FM Radio:WWNW",
+    "FM Radio:WVMN"
+  ],
+  "School District:Clearfield - Moshannon Valley": [
+    "FM Radio:WRVI",
+    "FM Radio:WMMH"
+  ],
+  "School District:Huntingdon - Mount Union Area": [
+    "FM Radio:WPMN",
+    "FM Radio:WVNW",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WDBF-FM"
+  ],
+  "School District:Susquehanna - Mountain View": [
+    "FM Radio:WLKA",
+    "FM Radio:WTRW",
+    "FM Radio:WQFN"
+  ],
+  "School District:Lycoming - Montgomery Area": [
+    "FM Radio:WRLC",
+    "FM Radio:WBYL",
+    "FM Radio:WVRT",
+    "FM Radio:WZXR",
+    "FM Radio:WOTH"
+  ],
+  "School District:Northumberland - Mount Carmel Area": [
+    "FM Radio:WFBA"
+  ],
+  "School District:Mckean - Port Allegany": [
+    "FM Radio:WCOV-FM",
+    "FM Radio:WOLN",
+    "FM Radio:WHKS",
+    "FM Radio:WMXO",
+    "FM Radio:WCOP",
+    "FM Radio:WXMT"
+  ],
+  "School District:Berks - Reading": [
+    "FM Radio:WXAC"
+  ],
+  "School District:York - Red Lion Area": [
+    "FM Radio:WXPH",
+    "FM Radio:WJTL"
+  ],
+  "School District:Clarion - Redbank Valley": [
+    "FM Radio:WCUC-FM",
+    "FM Radio:WKQL",
+    "FM Radio:WPXZ-FM",
+    "FM Radio:WMKX"
+  ],
+  "School District:Mercer - Reynolds": [
+    "FM Radio:WXTC",
+    "FM Radio:WAKZ",
+    "FM Radio:WLLF",
+    "FM Radio:WWIZ",
+    "FM Radio:WLVX"
+  ],
+  "FM Radio:WAKZ": [
+    "School District:Mercer - Reynolds",
+    "School District:Lawrence - Wilmington Area"
+  ],
+  "School District:Potter - Northern Potter": [
+    "FM Radio:WCGN",
+    "FM Radio:WCOG-FM",
+    "FM Radio:WJQZ"
+  ],
+  "FM Radio:WCGN": [
+    "School District:Potter - Northern Potter"
+  ],
+  "School District:Lackawanna - Scranton": [
+    "FM Radio:WVMW-FM"
+  ],
+  "School District:Snyder - Selinsgrove Area": [
+    "FM Radio:WBGM",
+    "FM Radio:WFBV",
+    "FM Radio:WGRC",
+    "FM Radio:WHNA",
+    "FM Radio:WRBG",
+    "FM Radio:WQBG",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WCXR",
+    "FM Radio:WEGH"
+  ],
+  "School District:Jefferson - Punxsutawney Area": [
+    "FM Radio:WCOA-FM",
+    "FM Radio:WPMU",
+    "FM Radio:WQQP",
+    "FM Radio:WIFT",
+    "FM Radio:WKQL",
+    "FM Radio:WPXZ-FM",
+    "FM Radio:WMKX",
+    "FM Radio:WDSN",
+    "FM Radio:WCOH"
+  ],
+  "FM Radio:WPMU": [
+    "School District:Jefferson - Punxsutawney Area",
+    "School District:Elk - Saint Marys Area",
+    "School District:Elk - Ridgway Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Clearfield - Clearfield Area",
+    "School District:Jefferson - Brockway Area",
+    "School District:Clearfield - Curwensville Area"
+  ],
+  "FM Radio:WIFT": [
+    "School District:Jefferson - Punxsutawney Area",
+    "School District:Elk - Saint Marys Area",
+    "School District:Clearfield - Clearfield Area"
+  ],
+  "FM Radio:WDSN": [
+    "School District:Jefferson - Punxsutawney Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Jefferson - Brookville Area",
+    "School District:Jefferson - Brockway Area"
+  ],
+  "FM Radio:WCOH": [
+    "School District:Jefferson - Punxsutawney Area",
+    "School District:Elk - Saint Marys Area",
+    "School District:Forest - Forest Area",
+    "School District:Cameron - Cameron County",
+    "School District:Clearfield - Clearfield Area"
+  ],
+  "School District:Blair - Spring Cove": [
+    "FM Radio:WHHN",
+    "FM Radio:WPMN",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WLKE",
+    "FM Radio:WBRX",
+    "FM Radio:WRKY-FM"
+  ],
+  "School District:York - Spring Grove Area": [
+    "FM Radio:WXPH",
+    "FM Radio:WZXY",
+    "FM Radio:WNUU"
+  ],
+  "School District:Lebanon - Northern Lebanon": [
+    "FM Radio:WFCP",
+    "FM Radio:WRTL",
+    "FM Radio:WKHL",
+    "FM Radio:WFVY"
+  ],
+  "School District:Lehigh - Northern Lehigh": [
+    "FM Radio:WLHI"
+  ],
+  "School District:Elk - Saint Marys Area": [
+    "FM Radio:WRQV",
+    "FM Radio:WTWR",
+    "FM Radio:WPMU",
+    "FM Radio:WPSX",
+    "FM Radio:WRVI",
+    "FM Radio:WRPV",
+    "FM Radio:WPQP",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WDDH",
+    "FM Radio:WQKY",
+    "FM Radio:WJNG",
+    "FM Radio:WIFT",
+    "FM Radio:WCOH"
+  ],
+  "FM Radio:WRQV": [
+    "School District:Elk - Saint Marys Area",
+    "School District:Elk - Ridgway Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Jefferson - Brookville Area",
+    "School District:Clearfield - Clearfield Area",
+    "School District:Jefferson - Brockway Area"
+  ],
+  "FM Radio:WQKY": [
+    "School District:Elk - Saint Marys Area",
+    "School District:Mckean - Smethport Area",
+    "School District:Cameron - Cameron County",
+    "School District:Potter - Austin Area"
+  ],
+  "School District:Butler - Seneca Valley": [
+    "FM Radio:WKPL",
+    "FM Radio:WLER-FM"
+  ],
+  "School District:Somerset - Shade-Central City": [
+    "FM Radio:WLKH",
+    "FM Radio:WCCL"
+  ],
+  "School District:Allegheny - Shaler Area": [
+    "FM Radio:WRCT"
+  ],
+  "School District:Elk - Ridgway Area": [
+    "FM Radio:WRQV",
+    "FM Radio:WTWR",
+    "FM Radio:WPMU",
+    "FM Radio:WPSX",
+    "FM Radio:WRPV",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WJNG",
+    "FM Radio:WMKX"
+  ],
+  "School District:Lehigh - Southern Lehigh": [
+    "FM Radio:WDIY",
+    "FM Radio:WBYO",
+    "FM Radio:WJCS",
+    "FM Radio:WLVR-FM"
+  ],
+  "School District:Delaware - Ridley": [
+    "FM Radio:WSRN-FM",
+    "FM Radio:WRSD"
+  ],
+  "School District:Washington - Ringgold": [
+    "FM Radio:WJPA-FM"
+  ],
+  "School District:Delaware - Springfield": [
+    "FM Radio:WSRN-FM"
+  ],
+  "School District:Tioga - Southern Tioga": [
+    "FM Radio:WTIO",
+    "FM Radio:WDFS",
+    "FM Radio:WNTE",
+    "FM Radio:WCIH",
+    "FM Radio:WOGA",
+    "FM Radio:WMTT-FM",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WDKC",
+    "FM Radio:WKSB",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WNKI",
+    "FM Radio:DWLIH"
+  ],
+  "FM Radio:WTIO": [
+    "School District:Tioga - Southern Tioga",
+    "School District:Bradford - Troy Area"
+  ],
+  "FM Radio:WDFS": [
+    "School District:Tioga - Southern Tioga",
+    "School District:Bradford - Troy Area"
+  ],
+  "FM Radio:WNTE": [
+    "School District:Tioga - Southern Tioga"
+  ],
+  "School District:Centre - State College Area": [
+    "FM Radio:WCOB",
+    "FM Radio:WRYV",
+    "FM Radio:WRXV",
+    "FM Radio:WTLR",
+    "FM Radio:WKPS",
+    "FM Radio:WPSU",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WLEJ",
+    "FM Radio:WBUS",
+    "FM Radio:WAPY",
+    "FM Radio:WQCK",
+    "FM Radio:WKPA"
+  ],
+  "FM Radio:WKPS": [
+    "School District:Centre - State College Area",
+    "School District:Centre - Bellefonte Area"
+  ],
+  "School District:Allegheny - Steel Valley": [
+    "FM Radio:WPTS-FM"
+  ],
+  "School District:Venango - Titusville Area": [
+    "FM Radio:WQHE",
+    "FM Radio:WTWP",
+    "FM Radio:WLOQ",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WCGM",
+    "FM Radio:WCGH",
+    "FM Radio:WRQW"
+  ],
+  "School District:Perry - West Perry": [
+    "FM Radio:WITF-FM",
+    "FM Radio:WPFG",
+    "FM Radio:WJAZ",
+    "FM Radio:WIBF",
+    "FM Radio:WRBT",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WQLV",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WQJU"
+  ],
+  "School District:York - West Shore": [
+    "FM Radio:WZXM",
+    "FM Radio:WVMM",
+    "FM Radio:WMSS",
+    "FM Radio:WJAZ",
+    "FM Radio:WKHL",
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WHKF",
+    "FM Radio:WCAT-FM"
+  ],
+  "FM Radio:WZXM": [
+    "School District:York - West Shore",
+    "School District:Dauphin - Susquehanna Township",
+    "School District:Cumberland - East Pennsboro Area",
+    "School District:Dauphin - Central Dauphin",
+    "School District:Cumberland - Cumberland Valley",
+    "School District:Dauphin - Harrisburg City"
+  ],
+  "School District:York - West York Area": [
+    "FM Radio:WVYC"
+  ],
+  "FM Radio:WVYC": [
+    "School District:York - West York Area",
+    "School District:York - York City",
+    "School District:York - York Suburban",
+    "School District:York - Dallastown Area"
+  ],
+  "School District:Montgomery - Upper Merion Area": [
+    "FM Radio:WXVU"
+  ],
+  "School District:Lawrence - Wilmington Area": [
+    "FM Radio:WWNW",
+    "FM Radio:WVMN",
+    "FM Radio:WAKZ",
+    "FM Radio:WWIZ"
+  ],
+  "School District:Berks - Wilson": [
+    "FM Radio:WYBQ",
+    "FM Radio:WZMV"
+  ],
+  "School District:Montgomery - Upper Perkiomen": [
+    "FM Radio:WBYO"
+  ],
+  "School District:Lehigh - Whitehall-Coplay": [
+    "FM Radio:WLHI",
+    "FM Radio:WMUH"
+  ],
+  "School District:Luzerne - Wilkes-Barre Area": [
+    "FM Radio:WRKC",
+    "FM Radio:WCLH",
+    "FM Radio:WQFM",
+    "FM Radio:WSJR",
+    "FM Radio:WBHT",
+    "FM Radio:WUSR",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WPZX",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "FM Radio:WRKC": [
+    "School District:Luzerne - Wilkes-Barre Area",
+    "School District:Luzerne - Wyoming Valley West",
+    "School District:Luzerne - Hanover Area",
+    "School District:Luzerne - Dallas"
+  ],
+  "School District:Erie - Northwestern": [
+    "FM Radio:WFSE",
+    "FM Radio:WCGV",
+    "FM Radio:WTWF",
+    "FM Radio:WMVL",
+    "FM Radio:WQHZ",
+    "FM Radio:WXMJ"
+  ],
+  "FM Radio:WTWF": [
+    "School District:Erie - Northwestern",
+    "School District:Erie - General McLane",
+    "School District:Erie - Fort Leboeuf"
+  ],
+  "FM Radio:WQHZ": [
+    "School District:Erie - Northwestern",
+    "School District:Erie - Wattsburg Area",
+    "School District:Erie - General McLane",
+    "School District:Erie - Fort Leboeuf"
+  ],
+  "School District:Erie - Harbor Creek": [
+    "FM Radio:WMCE-FM",
+    "FM Radio:WICU-FM",
+    "FM Radio:WEBG"
+  ],
+  "School District:Susquehanna - Susquehanna Community": [
+    "FM Radio:WJOB-FM",
+    "FM Radio:WIYN",
+    "FM Radio:WDRE"
+  ],
+  "FM Radio:WIYN": [
+    "School District:Susquehanna - Susquehanna Community",
+    "School District:Wayne - Wayne Highlands",
+    "School District:Susquehanna - Blue Ridge"
+  ],
+  "School District:Wayne - Western Wayne": [
+    "FM Radio:WLKA",
+    "FM Radio:WBYH",
+    "FM Radio:WZZH",
+    "FM Radio:WPAU",
+    "FM Radio:WTRW",
+    "FM Radio:WDNH-FM",
+    "FM Radio:WQFN",
+    "FM Radio:WYCY"
+  ],
+  "School District:Northumberland - Warrior Run": [
+    "FM Radio:WGRC",
+    "FM Radio:WHNA",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WZXR",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WOTH"
+  ],
+  "School District:Lancaster - Warwick": [
+    "FM Radio:WRTL"
+  ],
+  "School District:Beaver - South Side Area": [
+    "FM Radio:WKPL"
+  ],
+  "School District:York - South Western": [
+    "FM Radio:WZXY"
+  ],
+  "School District:Lycoming - South Williamsport Area": [
+    "FM Radio:WKWP",
+    "FM Radio:WVYA",
+    "FM Radio:WCRG",
+    "FM Radio:WRLC",
+    "FM Radio:WBYL"
+  ],
+  "FM Radio:WCRG": [
+    "School District:Lycoming - South Williamsport Area",
+    "School District:Lycoming - Williamsport Area",
+    "School District:Lycoming - Jersey Shore Area"
+  ],
+  "School District:Greene - Southeastern Greene": [
+    "FM Radio:WYFU",
+    "FM Radio:WPKL",
+    "FM Radio:WMKF"
+  ],
+  "FM Radio:WYFU": [
+    "School District:Greene - Southeastern Greene",
+    "School District:Fayette - Albert Gallatin Area",
+    "School District:Greene - Central Greene"
+  ],
+  "FM Radio:WMKF": [
+    "School District:Greene - Southeastern Greene",
+    "School District:Fayette - Uniontown Area",
+    "School District:Fayette - Albert Gallatin Area",
+    "School District:Greene - Central Greene"
+  ],
+  "School District:Columbia - Southern Columbia Area": [
+    "FM Radio:WFBA",
+    "FM Radio:WHSK",
+    "FM Radio:WCDH",
+    "FM Radio:WZRG",
+    "FM Radio:WHNA",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WKBP",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WVRZ",
+    "FM Radio:WMMZ",
+    "FM Radio:WEGH"
+  ],
+  "FM Radio:WHSK": [
+    "School District:Columbia - Southern Columbia Area",
+    "School District:Columbia - Bloomsburg Area",
+    "School District:Columbia - Central Columbia"
+  ],
+  "School District:Fulton - Southern Fulton": [
+    "FM Radio:WIKZ",
+    "FM Radio:WBHB-FM",
+    "FM Radio:WEEO-FM",
+    "FM Radio:WSKE"
+  ],
+  "School District:Erie - Union City Area": [
+    "FM Radio:WTWP",
+    "FM Radio:WCGM"
+  ],
+  "School District:Fayette - Uniontown Area": [
+    "FM Radio:WQZS",
+    "FM Radio:WOGG",
+    "FM Radio:WYRA",
+    "FM Radio:WPKL",
+    "FM Radio:WKVE",
+    "FM Radio:WKHB-FM",
+    "FM Radio:WMKF"
+  ],
+  "FM Radio:WOGG": [
+    "School District:Fayette - Uniontown Area",
+    "School District:Fayette - Albert Gallatin Area",
+    "School District:Fayette - Connellsville Area"
+  ],
+  "FM Radio:WKVE": [
+    "School District:Fayette - Uniontown Area",
+    "School District:Fayette - Albert Gallatin Area",
+    "School District:Greene - Central Greene",
+    "School District:Fayette - Connellsville Area"
+  ],
+  "School District:Chester - Unionville-Chadds Ford": [
+    "FM Radio:WRTJ"
+  ],
+  "FM Radio:WRTJ": [
+    "School District:Chester - Unionville-Chadds Ford",
+    "School District:Chester - West Chester Area",
+    "School District:Chester - Coatesville Area",
+    "School District:Chester - Downingtown Area"
+  ],
+  "School District:Indiana - United": [
+    "FM Radio:WCOA-FM",
+    "FM Radio:WQEJ",
+    "FM Radio:WPAI",
+    "FM Radio:WJHT",
+    "FM Radio:WQMU",
+    "FM Radio:WPCL",
+    "FM Radio:WLCY"
+  ],
+  "School District:Delaware - Upper Darby": [
+    "FM Radio:WHHS"
+  ],
+  "School District:Dauphin - Upper Dauphin Area": [
+    "FM Radio:WKHW",
+    "FM Radio:WQBG",
+    "FM Radio:WEGH"
+  ],
+  "School District:Erie - Wattsburg Area": [
+    "FM Radio:WMCE-FM",
+    "FM Radio:WTWP",
+    "FM Radio:WXBB",
+    "FM Radio:WEBG",
+    "FM Radio:WXTA",
+    "FM Radio:WCGE",
+    "FM Radio:WQHZ",
+    "FM Radio:WCGM",
+    "FM Radio:WRKT",
+    "FM Radio:WCTL"
+  ],
+  "FM Radio:WXBB": [
+    "School District:Erie - Wattsburg Area",
+    "School District:Erie - General McLane",
+    "School District:Erie - Fort Leboeuf"
+  ],
+  "FM Radio:WCGE": [
+    "School District:Erie - Wattsburg Area"
+  ],
+  "FM Radio:WRKT": [
+    "School District:Erie - Wattsburg Area",
+    "School District:Erie - General McLane",
+    "School District:Erie - Fort Leboeuf"
+  ],
+  "FM Radio:WCTL": [
+    "School District:Erie - Wattsburg Area",
+    "School District:Erie - General McLane",
+    "School District:Erie - Fort Leboeuf"
+  ],
+  "School District:Wayne - Wayne Highlands": [
+    "FM Radio:WLKA",
+    "FM Radio:WBYH",
+    "FM Radio:WJFF",
+    "FM Radio:WZZH",
+    "FM Radio:WTRW",
+    "FM Radio:WIYN",
+    "FM Radio:WDNH-FM",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WJUX",
+    "FM Radio:WQFN",
+    "FM Radio:WDNB",
+    "FM Radio:WHNB",
+    "FM Radio:WYCY"
+  ],
+  "FM Radio:WJFF": [
+    "School District:Wayne - Wayne Highlands"
+  ],
+  "FM Radio:WPEL-FM": [
+    "School District:Wayne - Wayne Highlands",
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Bradford - Wyalusing Area"
+  ],
+  "FM Radio:WJUX": [
+    "School District:Wayne - Wayne Highlands"
+  ],
+  "FM Radio:WDNB": [
+    "School District:Wayne - Wayne Highlands"
+  ],
+  "FM Radio:WHNB": [
+    "School District:Wayne - Wayne Highlands"
+  ],
+  "School District:Franklin - Waynesboro Area": [
+    "FM Radio:WZXQ",
+    "FM Radio:WIKG",
+    "FM Radio:WQCM"
+  ],
+  "School District:Carbon - Weatherly Area": [
+    "FM Radio:WPZX"
+  ],
+  "School District:Wyoming - Tunkhannock Area": [
+    "FM Radio:WPAL",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WCDJ",
+    "FM Radio:WQFM",
+    "FM Radio:WMGS",
+    "FM Radio:WBHD",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WUSR",
+    "FM Radio:WGGY",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WGMF-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "FM Radio:WPAL": [
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Bradford - Wyalusing Area"
+  ],
+  "FM Radio:WGMF-FM": [
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Bradford - Wyalusing Area",
+    "School District:Sullivan - Sullivan County",
+    "School District:Susquehanna - Elk Lake"
+  ],
+  "School District:Somerset - Turkeyfoot Valley Area": [
+    "FM Radio:WQZS",
+    "FM Radio:WYRA"
+  ],
+  "School District:Montgomery - Upper Dublin": [
+    "FM Radio:WRDV"
+  ],
+  "School District:Tioga - Wellsboro Area": [
+    "FM Radio:WPMY",
+    "FM Radio:WOGA",
+    "FM Radio:WMTT-FM",
+    "FM Radio:WCOG-FM",
+    "FM Radio:WDKC",
+    "FM Radio:WNBT-FM",
+    "FM Radio:DWLIH"
+  ],
+  "School District:Clearfield - West Branch Area": [
+    "FM Radio:WRXV",
+    "FM Radio:WRVI",
+    "FM Radio:WPSU",
+    "FM Radio:WPQP",
+    "FM Radio:WQCK",
+    "FM Radio:WKPA"
+  ],
+  "School District:Chester - West Chester Area": [
+    "FM Radio:WRTJ",
+    "FM Radio:WCUR"
+  ],
+  "FM Radio:WCUR": [
+    "School District:Chester - West Chester Area"
+  ],
+  "School District:Franklin - Tuscarora": [
+    "FM Radio:WWCF",
+    "FM Radio:WIKG",
+    "FM Radio:WYPM",
+    "FM Radio:WQCM",
+    "FM Radio:WIKZ",
+    "FM Radio:WBHB-FM",
+    "FM Radio:WEEO-FM"
+  ],
+  "FM Radio:WWCF": [
+    "School District:Franklin - Tuscarora",
+    "School District:Fulton - Central Fulton"
+  ],
+  "School District:Bedford - Tussey Mountain": [
+    "FM Radio:WHHN",
+    "FM Radio:WPMN",
+    "FM Radio:WCOX",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WBRX",
+    "FM Radio:WSKE"
+  ],
+  "School District:Westmoreland - Yough": [
+    "FM Radio:WKHB-FM"
+  ],
+  "School District:Mercer - West Middlesex Area": [
+    "FM Radio:WWNW",
+    "FM Radio:WLLF",
+    "FM Radio:WWIZ",
+    "FM Radio:WLVX"
+  ],
+  "School District:Allegheny - West Mifflin Area": [
+    "FM Radio:WRCT"
+  ],
+  "School District:Schuylkill - Williams Valley": [
+    "FM Radio:WBLJ-FM"
+  ],
+  "School District:Blair - Williamsburg Community": [
+    "FM Radio:WHHN",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WLKE",
+    "FM Radio:WBRX",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM"
+  ],
+  "School District:Lycoming - Williamsport Area": [
+    "FM Radio:WKWP",
+    "FM Radio:WPMY",
+    "FM Radio:WVYA",
+    "FM Radio:WCRG",
+    "FM Radio:WRLC",
+    "FM Radio:WBYL",
+    "FM Radio:WVRT",
+    "FM Radio:WZXR",
+    "FM Radio:WQBR",
+    "FM Radio:WOTH"
+  ],
+  "School District:Berks - Twin Valley": [
+    "FM Radio:WZZD",
+    "FM Radio:WYTL"
+  ],
+  "School District:Blair - Tyrone Area": [
+    "FM Radio:WRXV",
+    "FM Radio:WTLR",
+    "FM Radio:WPSU",
+    "FM Radio:WMMH",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WWOT",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WQCK",
+    "FM Radio:WKPA"
+  ],
+  "School District:Clarion - Union": [
+    "FM Radio:WCUC-FM"
+  ],
+  "School District:Bradford - Wyalusing Area": [
+    "FM Radio:WPAL",
+    "FM Radio:WCDR",
+    "FM Radio:WCDJ",
+    "FM Radio:WCOZ",
+    "FM Radio:WTTC-FM",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WGMF-FM"
+  ],
+  "FM Radio:WCDR": [
+    "School District:Bradford - Wyalusing Area",
+    "School District:Sullivan - Sullivan County"
+  ],
+  "School District:Luzerne - Wyoming Valley West": [
+    "FM Radio:WRKC"
+  ],
+  "School District:York - York City": [
+    "FM Radio:WVYC"
+  ],
+  "School District:York - York Suburban": [
+    "FM Radio:WVYC"
+  ],
+  "School District:Northampton - Wilson Area": [
+    "FM Radio:WLVR-FM"
+  ],
+  "School District:Somerset - Windber Area": [
+    "FM Radio:WCCL"
+  ],
+  "School District:Erie - Fairview": [
+    "FM Radio:WEFR"
+  ],
+  "School District:Bradford - Troy Area": [
+    "FM Radio:WTIO",
+    "FM Radio:WDFS",
+    "FM Radio:WCIH",
+    "FM Radio:WSQE",
+    "FM Radio:WOGA",
+    "FM Radio:WENI-FM",
+    "FM Radio:WTTC-FM",
+    "FM Radio:WCBF",
+    "FM Radio:WZBF",
+    "FM Radio:WOKN",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WDKC",
+    "FM Radio:WAVR",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WNKI"
+  ],
+  "FM Radio:WENI-FM": [
+    "School District:Bradford - Troy Area",
+    "School District:Bradford - Athens Area"
+  ],
+  "FM Radio:WCBF": [
+    "School District:Bradford - Troy Area",
+    "School District:Bradford - Athens Area"
+  ],
+  "FM Radio:WOKN": [
+    "School District:Bradford - Troy Area",
+    "School District:Bradford - Athens Area"
+  ],
+  "School District:Monroe - Stroudsburg Area": [
+    "FM Radio:WBYX",
+    "FM Radio:WWPJ",
+    "FM Radio:WESS",
+    "FM Radio:WRTY",
+    "FM Radio:WSBG",
+    "FM Radio:WABT",
+    "FM Radio:WKRF"
+  ],
+  "FM Radio:WESS": [
+    "School District:Monroe - Stroudsburg Area",
+    "School District:Monroe - East Stroudsburg Area",
+    "School District:Northampton - Bangor Area"
+  ],
+  "FM Radio:WABT": [
+    "School District:Monroe - Stroudsburg Area",
+    "School District:Monroe - East Stroudsburg Area",
+    "School District:Northampton - Bangor Area"
+  ],
+  "School District:Sullivan - Sullivan County": [
+    "FM Radio:WYSP",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WCDR",
+    "FM Radio:WCOZ",
+    "FM Radio:WMGS",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WGMF-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WCFT-FM"
+  ],
+  "FM Radio:WYSP": [
+    "School District:Sullivan - Sullivan County"
+  ],
+  "FM Radio:WCFT-FM": [
+    "School District:Sullivan - Sullivan County"
+  ],
+  "School District:Dauphin - Susquehanna Township": [
+    "FM Radio:WZXM"
+  ],
+  "School District:Perry - Susquenita": [
+    "FM Radio:WKHW",
+    "FM Radio:WJAZ",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WQLV",
+    "FM Radio:WHKF",
+    "FM Radio:WCAT-FM"
+  ],
+  "School District:Schuylkill - Tamaqua Area": [
+    "FM Radio:WCDH",
+    "FM Radio:WMGH-FM"
+  ],
+  "School District:Butler - Slippery Rock Area": [
+    "FM Radio:WSRU",
+    "FM Radio:WLER-FM"
+  ],
+  "FM Radio:WSRU": [
+    "School District:Butler - Slippery Rock Area"
+  ],
+  "School District:Mckean - Smethport Area": [
+    "FM Radio:WPSX",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WHKS",
+    "FM Radio:WPIG",
+    "FM Radio:WCOR-FM",
+    "FM Radio:WDDH",
+    "FM Radio:WQKY",
+    "FM Radio:WBRR",
+    "FM Radio:WCOP",
+    "FM Radio:WXMT"
+  ],
+  "FM Radio:WPIG": [
+    "School District:Mckean - Smethport Area"
+  ],
+  "School District:Lancaster - Solanco": [
+    "FM Radio:WZXE",
+    "FM Radio:WJTL"
+  ],
+  "School District:Somerset - Somerset Area": [
+    "FM Radio:WLKH",
+    "FM Radio:WYRA",
+    "FM Radio:WCCL"
+  ],
+  "School District:Cambria - Forest Hills": [
+    "FM Radio:WPAI",
+    "FM Radio:WJHT",
+    "FM Radio:WPCL",
+    "FM Radio:WLKJ"
+  ],
+  "School District:Montgomery - Souderton Area": [
+    "FM Radio:WBYO",
+    "FM Radio:WBMR"
+  ],
+  "School District:Washington - Fort Cherry": [
+    "FM Radio:WJPA-FM"
+  ],
+  "School District:Lehigh - East Penn": [
+    "FM Radio:WDIY",
+    "FM Radio:WJCS",
+    "FM Radio:WMUH"
+  ],
+  "School District:Berks - Schuylkill Valley": [
+    "FM Radio:WYBQ",
+    "FM Radio:WZMV",
+    "FM Radio:WXAC"
+  ],
+  "School District:Fulton - Forbes Road": [
+    "FM Radio:WPMN",
+    "FM Radio:WYPM",
+    "FM Radio:WEEO-FM"
+  ],
+  "School District:Forest - Forest Area": [
+    "FM Radio:WQHE",
+    "FM Radio:WPSX",
+    "FM Radio:WRRN",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WLOQ",
+    "FM Radio:WDDH",
+    "FM Radio:WGYI",
+    "FM Radio:WKFT",
+    "FM Radio:WJKB",
+    "FM Radio:WMKX",
+    "FM Radio:WCGH",
+    "FM Radio:WCOH",
+    "FM Radio:WRQW"
+  ],
+  "School District:Berks - Fleetwood Area": [
+    "FM Radio:WYBQ",
+    "FM Radio:WZMV",
+    "FM Radio:WZXB"
+  ],
+  "School District:Clearfield - Dubois Area": [
+    "FM Radio:WRQV",
+    "FM Radio:WPMU",
+    "FM Radio:WRVI",
+    "FM Radio:WPQP",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WQQP",
+    "FM Radio:WJNG",
+    "FM Radio:WOKW",
+    "FM Radio:WKQL",
+    "FM Radio:WPXZ-FM",
+    "FM Radio:WMKX",
+    "FM Radio:WDSN"
+  ],
+  "School District:Lycoming - East Lycoming": [
+    "FM Radio:WQSU",
+    "FM Radio:WVAM-FM",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WKBP",
+    "FM Radio:WZXR",
+    "FM Radio:WOTH"
+  ],
+  "School District:Bedford - Bedford Area": [
+    "FM Radio:WPME",
+    "FM Radio:WCOX",
+    "FM Radio:WAYC",
+    "FM Radio:WSKE",
+    "FM Radio:WBVE"
+  ],
+  "FM Radio:WPME": [
+    "School District:Bedford - Bedford Area"
+  ],
+  "School District:Westmoreland - Belle Vernon Area": [
+    "FM Radio:WCAL"
+  ],
+  "School District:Cumberland - East Pennsboro Area": [
+    "FM Radio:WZXM"
+  ],
+  "School District:Monroe - East Stroudsburg Area": [
+    "FM Radio:WBYX",
+    "FM Radio:WESS",
+    "FM Radio:WRTY",
+    "FM Radio:WSBG",
+    "FM Radio:WABT",
+    "FM Radio:WKRF"
+  ],
+  "School District:Lancaster - Eastern Lancaster County": [
+    "FM Radio:WZZD",
+    "FM Radio:WYTL"
+  ],
+  "School District:Lebanon - Eastern Lebanon County": [
+    "FM Radio:WFCP",
+    "FM Radio:WRTL",
+    "FM Radio:WFVY"
+  ],
+  "School District:Northampton - Easton Area": [
+    "FM Radio:WPNJ",
+    "FM Radio:WJRH"
+  ],
+  "FM Radio:WJRH": [
+    "School District:Northampton - Easton Area"
+  ],
+  "School District:Lycoming - Jersey Shore Area": [
+    "FM Radio:WXPI",
+    "FM Radio:WPMY",
+    "FM Radio:WVYA",
+    "FM Radio:WCRG",
+    "FM Radio:WSQV",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WBYL",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WVRT",
+    "FM Radio:WZXR",
+    "FM Radio:WQBR",
+    "FM Radio:WCOG-FM",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WQKK"
+  ],
+  "FM Radio:WXPI": [
+    "School District:Lycoming - Jersey Shore Area"
+  ],
+  "School District:Carbon - Jim Thorpe Area": [
+    "FM Radio:WBYX",
+    "FM Radio:WRTY",
+    "FM Radio:WPZX"
+  ],
+  "School District:Centre - Bellefonte Area": [
+    "FM Radio:WCOB",
+    "FM Radio:WRXV",
+    "FM Radio:WTLR",
+    "FM Radio:WJVM",
+    "FM Radio:WKPS",
+    "FM Radio:WPSU",
+    "FM Radio:WSQV",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WLEJ",
+    "FM Radio:WBUS",
+    "FM Radio:WAPY",
+    "FM Radio:WKPA"
+  ],
+  "School District:Blair - Bellwood-Antis": [
+    "FM Radio:WMMH",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WBXQ",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM"
+  ],
+  "School District:Berks - Antietam": [
+    "FM Radio:WXAC"
+  ],
+  "School District:Armstrong - Apollo-Ridge": [
+    "FM Radio:WKGO",
+    "FM Radio:WLCY"
+  ],
+  "School District:Montgomery - Abington": [
+    "FM Radio:WRDV"
+  ],
+  "School District:Lackawanna - Abington Heights": [
+    "FM Radio:WVMW-FM",
+    "FM Radio:WTRW",
+    "FM Radio:WBHD",
+    "FM Radio:WUSR",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "School District:Fayette - Albert Gallatin Area": [
+    "FM Radio:WYFU",
+    "FM Radio:WOGG",
+    "FM Radio:WPKL",
+    "FM Radio:WKVE",
+    "FM Radio:WMKF"
+  ],
+  "School District:Clarion - Allegheny-Clarion Valley": [
+    "FM Radio:WCGT",
+    "FM Radio:WAWN",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WCUC-FM",
+    "FM Radio:WLOQ",
+    "FM Radio:WGYI"
+  ],
+  "School District:Lehigh - Allentown City": [
+    "FM Radio:WJCS",
+    "FM Radio:WLHI",
+    "FM Radio:WMUH"
+  ],
+  "School District:Cameron - Cameron County": [
+    "FM Radio:WTWR",
+    "FM Radio:WPSX",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WDDH",
+    "FM Radio:WQKY",
+    "FM Radio:WCOH"
+  ],
+  "School District:Blair - Altoona Area": [
+    "FM Radio:WHHN",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WLKE",
+    "FM Radio:WBRX",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM"
+  ],
+  "School District:Lebanon - Annville-Cleona": [
+    "FM Radio:WFVY"
+  ],
+  "School District:Northampton - Bangor Area": [
+    "FM Radio:WBYX",
+    "FM Radio:WWPJ",
+    "FM Radio:WESS",
+    "FM Radio:WSBG",
+    "FM Radio:WABT",
+    "FM Radio:WKRF"
+  ],
+  "School District:Adams - Bermudian Springs": [
+    "FM Radio:WZXY"
+  ],
+  "School District:Washington - Canon-McMillan": [
+    "FM Radio:WNJR",
+    "FM Radio:WJPA-FM"
+  ],
+  "School District:Armstrong - Armstrong": [
+    "FM Radio:WCOA-FM",
+    "FM Radio:WQMU",
+    "FM Radio:WLTJ",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WRRK",
+    "FM Radio:WLER-FM",
+    "FM Radio:WBZZ",
+    "FM Radio:WORD-FM",
+    "FM Radio:WDVE",
+    "FM Radio:WKQL",
+    "FM Radio:WPXZ-FM",
+    "FM Radio:WMKX",
+    "FM Radio:WLCY",
+    "FM Radio:WDSY-FM"
+  ],
+  "FM Radio:WLTJ": [
+    "School District:Armstrong - Armstrong"
+  ],
+  "FM Radio:WWSW-FM": [
+    "School District:Armstrong - Armstrong"
+  ],
+  "FM Radio:WFGI-FM": [
+    "School District:Armstrong - Armstrong"
+  ],
+  "FM Radio:WRRK": [
+    "School District:Armstrong - Armstrong"
+  ],
+  "FM Radio:WBZZ": [
+    "School District:Armstrong - Armstrong"
+  ],
+  "FM Radio:WORD-FM": [
+    "School District:Armstrong - Armstrong"
+  ],
+  "FM Radio:WDVE": [
+    "School District:Armstrong - Armstrong"
+  ],
+  "FM Radio:WDSY-FM": [
+    "School District:Armstrong - Armstrong"
+  ],
+  "School District:Jefferson - Brookville Area": [
+    "FM Radio:WRQV",
+    "FM Radio:WCCR-FM",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WQQP",
+    "FM Radio:WKFT",
+    "FM Radio:WKQL",
+    "FM Radio:WPXZ-FM",
+    "FM Radio:WMKX",
+    "FM Radio:WDSN"
+  ],
+  "School District:Fayette - Brownsville Area": [
+    "FM Radio:WCAL",
+    "FM Radio:WPKL"
+  ],
+  "School District:Westmoreland - Burrell": [
+    "FM Radio:WKGO"
+  ],
+  "School District:Washington - California Area": [
+    "FM Radio:WCAL"
+  ],
+  "School District:Cambria - Cambria Heights": [
+    "FM Radio:WPAI",
+    "FM Radio:WLKE",
+    "FM Radio:WBXQ",
+    "FM Radio:WPCL",
+    "FM Radio:WWOT",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WLKJ"
+  ],
+  "School District:Bradford - Athens Area": [
+    "FM Radio:WCII",
+    "FM Radio:WCIH",
+    "FM Radio:WSQE",
+    "FM Radio:WENI-FM",
+    "FM Radio:WTTC-FM",
+    "FM Radio:WCBF",
+    "FM Radio:WZBF",
+    "FM Radio:WOKN",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WAVR"
+  ],
+  "School District:Potter - Austin Area": [
+    "FM Radio:WQKY",
+    "FM Radio:WCOG-FM"
+  ],
+  "School District:Washington - Avella Area": [
+    "FM Radio:WJPA-FM"
+  ],
+  "School District:Chester - Avon Grove": [
+    "FM Radio:WZWG"
+  ],
+  "School District:Centre - Bald Eagle Area": [
+    "FM Radio:WCOB",
+    "FM Radio:WRXV",
+    "FM Radio:WTLR",
+    "FM Radio:WJVM",
+    "FM Radio:WPSU",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WLEJ",
+    "FM Radio:WBUS",
+    "FM Radio:WFGE",
+    "FM Radio:WAPY",
+    "FM Radio:WKPA"
+  ],
+  "School District:Allegheny - Baldwin-Whitehall": [
+    "FM Radio:WRCT"
+  ],
+  "School District:Columbia - Berwick Area": [
+    "FM Radio:WCDH",
+    "FM Radio:WSJR",
+    "FM Radio:WKBP",
+    "FM Radio:WMMZ"
+  ],
+  "School District:Northampton - Bethlehem Area": [
+    "FM Radio:WDIY",
+    "FM Radio:WJCS",
+    "FM Radio:WLVR-FM"
+  ],
+  "School District:Washington - Bethlehem-Center": [
+    "FM Radio:WCAL"
+  ],
+  "School District:Cumberland - Big Spring": [
+    "FM Radio:WZXN",
+    "FM Radio:WPFG"
+  ],
+  "School District:Beaver - Blackhawk": [
+    "FM Radio:WKPL"
+  ],
+  "School District:Indiana - Blairsville-Saltsburg": [
+    "FM Radio:WIUP-FM",
+    "FM Radio:WJHT",
+    "FM Radio:WQMU",
+    "FM Radio:WLCY",
+    "FM Radio:WHJB"
+  ],
+  "School District:Columbia - Bloomsburg Area": [
+    "FM Radio:WFBA",
+    "FM Radio:WHSK",
+    "FM Radio:WCDH",
+    "FM Radio:WZRG",
+    "FM Radio:WKBP",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WVRZ",
+    "FM Radio:WMMZ"
+  ],
+  "School District:Schuylkill - Blue Mountain": [
+    "FM Radio:WCDH",
+    "FM Radio:WMGH-FM"
+  ],
+  "School District:Susquehanna - Blue Ridge": [
+    "FM Radio:WKGB-FM",
+    "FM Radio:WJOB-FM",
+    "FM Radio:WIYN",
+    "FM Radio:WDRE"
+  ],
+  "School District:Berks - Boyertown Area": [
+    "FM Radio:WBYO",
+    "FM Radio:WZXB"
+  ],
+  "School District:Mckean - Bradford Area": [
+    "FM Radio:WPSX",
+    "FM Radio:WTWT",
+    "FM Radio:WCOT",
+    "FM Radio:WRRN",
+    "FM Radio:WHKS",
+    "FM Radio:WCOR-FM",
+    "FM Radio:WQRS",
+    "FM Radio:WBRR",
+    "FM Radio:WCOP",
+    "FM Radio:WJKB",
+    "FM Radio:WCGS",
+    "FM Radio:WXMT"
+  ],
+  "FM Radio:WCGS": [
+    "School District:Mckean - Bradford Area"
+  ],
+  "School District:Blair - Claysburg-Kimmel": [
+    "FM Radio:WHHN",
+    "FM Radio:WBRX"
+  ],
+  "School District:Clearfield - Clearfield Area": [
+    "FM Radio:WRQV",
+    "FM Radio:WTWR",
+    "FM Radio:WPMU",
+    "FM Radio:WRVI",
+    "FM Radio:WPSU",
+    "FM Radio:WPQP",
+    "FM Radio:WQQP",
+    "FM Radio:WFGE",
+    "FM Radio:WIFT",
+    "FM Radio:WOKW",
+    "FM Radio:WCOH"
+  ],
+  "School District:Chester - Coatesville Area": [
+    "FM Radio:WZZD",
+    "FM Radio:WRTJ"
+  ],
+  "School District:Lancaster - Cocalico": [
+    "FM Radio:WRTL",
+    "FM Radio:WYTL"
+  ],
+  "School District:Bradford - Canton Area": [
+    "FM Radio:WHGL-FM",
+    "FM Radio:WDKC"
+  ],
+  "School District:Lackawanna - Carbondale Area": [
+    "FM Radio:WZZH"
+  ],
+  "School District:Cumberland - Carlisle Area": [
+    "FM Radio:WDCV-FM",
+    "FM Radio:WZXN",
+    "FM Radio:WPFG",
+    "FM Radio:WCAT-FM"
+  ],
+  "School District:Washington - Charleroi": [
+    "FM Radio:WCAL"
+  ],
+  "School District:Dauphin - Central Dauphin": [
+    "FM Radio:WZXM",
+    "FM Radio:WKHW",
+    "FM Radio:WMSS",
+    "FM Radio:WJAZ",
+    "FM Radio:WKHL",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WQLV",
+    "FM Radio:WHKF"
+  ],
+  "School District:Bucks - Bristol Township": [
+    "FM Radio:WLBS"
+  ],
+  "School District:Jefferson - Brockway Area": [
+    "FM Radio:WRQV",
+    "FM Radio:WPMU",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WQQP",
+    "FM Radio:WJNG",
+    "FM Radio:WKQL",
+    "FM Radio:WDSN"
+  ],
+  "School District:Franklin - Chambersburg Area": [
+    "FM Radio:WZXQ",
+    "FM Radio:WIKG",
+    "FM Radio:WYPM",
+    "FM Radio:WQCM",
+    "FM Radio:WIKZ",
+    "FM Radio:WBHB-FM",
+    "FM Radio:WEEO-FM"
+  ],
+  "School District:Franklin - Fannett-Metal": [
+    "FM Radio:WYPM"
+  ],
+  "School District:Lancaster - Elizabethtown Area": [
+    "FM Radio:WWEC",
+    "FM Radio:WMSS",
+    "FM Radio:WNUU",
+    "FM Radio:WHKF"
+  ],
+  "FM Radio:WWEC": [
+    "School District:Lancaster - Elizabethtown Area",
+    "School District:Lancaster - Donegal"
+  ],
+  "School District:Mercer - Commodore Perry": [
+    "FM Radio:WXTC",
+    "FM Radio:WVME",
+    "FM Radio:WRQI",
+    "FM Radio:WLLF",
+    "FM Radio:WLVX"
+  ],
+  "School District:Washington - Chartiers-Houston": [
+    "FM Radio:WNJR"
+  ],
+  "School District:Delaware - Chester-Upland": [
+    "FM Radio:WSRN-FM"
+  ],
+  "School District:Bedford - Chestnut Ridge": [
+    "FM Radio:WHHN",
+    "FM Radio:WQEJ",
+    "FM Radio:WCOX",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WAYC",
+    "FM Radio:WCCL",
+    "FM Radio:WSKE",
+    "FM Radio:WBVE"
+  ],
+  "School District:Greene - Carmichaels Area": [
+    "FM Radio:WCAL"
+  ],
+  "School District:Luzerne - Hanover Area": [
+    "FM Radio:WRKC",
+    "FM Radio:WSFX"
+  ],
+  "School District:Bucks - Centennial": [
+    "FM Radio:WRDV"
+  ],
+  "School District:Bucks - Central Bucks": [
+    "FM Radio:WBYO",
+    "FM Radio:WRDV",
+    "FM Radio:WBMR"
+  ],
+  "School District:Cambria - Central Cambria": [
+    "FM Radio:WPAI",
+    "FM Radio:WJHT",
+    "FM Radio:WLKE",
+    "FM Radio:WPCL",
+    "FM Radio:WLKJ"
+  ],
+  "School District:Lancaster - Conestoga Valley": [
+    "FM Radio:WFNM",
+    "FM Radio:WLCH"
+  ],
+  "School District:Adams - Conewago Valley": [
+    "FM Radio:WZXY"
+  ],
+  "School District:Columbia - Central Columbia": [
+    "FM Radio:WHSK",
+    "FM Radio:WKBP",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WMMZ"
+  ],
+  "School District:Fulton - Central Fulton": [
+    "FM Radio:WWCF",
+    "FM Radio:WEEO-FM"
+  ],
+  "School District:Greene - Central Greene": [
+    "FM Radio:WYFU",
+    "FM Radio:WCYJ-FM",
+    "FM Radio:WKVE",
+    "FM Radio:WMKF"
+  ],
+  "FM Radio:WCYJ-FM": [
+    "School District:Greene - Central Greene"
+  ],
+  "School District:Columbia - Benton Area": [
+    "FM Radio:WKBP",
+    "FM Radio:WMMZ"
+  ],
+  "School District:Washington - Bentworth": [
+    "FM Radio:WJPA-FM"
+  ],
+  "School District:Somerset - Berlin Brothersvalley": [
+    "FM Radio:WHYU-FM",
+    "FM Radio:WQZS",
+    "FM Radio:WLKH",
+    "FM Radio:WYRA"
+  ],
+  "School District:Erie - Corry Area": [
+    "FM Radio:WTWP",
+    "FM Radio:WXKC",
+    "FM Radio:WCGM",
+    "FM Radio:WKZA"
+  ],
+  "School District:Cumberland - Cumberland Valley": [
+    "FM Radio:WZXM",
+    "FM Radio:WDCV-FM",
+    "FM Radio:WVMM",
+    "FM Radio:WPFG",
+    "FM Radio:WJAZ",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WHKF",
+    "FM Radio:WCAT-FM"
+  ],
+  "School District:Clearfield - Curwensville Area": [
+    "FM Radio:WPMU",
+    "FM Radio:WRVI",
+    "FM Radio:WPQP",
+    "FM Radio:WQQP",
+    "FM Radio:WOKW"
+  ],
+  "School District:Luzerne - Dallas": [
+    "FM Radio:WRKC",
+    "FM Radio:WCLH",
+    "FM Radio:WBHD",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WCIG"
+  ],
+  "School District:York - Dallastown Area": [
+    "FM Radio:WVYC"
+  ],
+  "School District:Clarion - Clarion Area": [
+    "FM Radio:WCUC-FM",
+    "FM Radio:WCCR-FM",
+    "FM Radio:WKFT"
+  ],
+  "School District:Clarion - Clarion-Limestone Area": [
+    "FM Radio:WCUC-FM",
+    "FM Radio:WCCR-FM",
+    "FM Radio:WKFT"
+  ],
+  "School District:Berks - Exeter Township": [
+    "FM Radio:WZXB",
+    "FM Radio:WXAC"
+  ],
+  "School District:Potter - Coudersport Area": [
+    "FM Radio:WCOG-FM"
+  ],
+  "School District:Bucks - Council Rock": [
+    "FM Radio:WRDV"
+  ],
+  "School District:Venango - Cranberry Area": [
+    "FM Radio:WQHE",
+    "FM Radio:WCGT",
+    "FM Radio:WAWN",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WLOQ",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WCGH",
+    "FM Radio:WRQW"
+  ],
+  "School District:Mckean - Kane Area": [
+    "FM Radio:WPSX",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WJNG",
+    "FM Radio:WNAE",
+    "FM Radio:WJKB"
+  ],
+  "School District:Susquehanna - Elk Lake": [
+    "FM Radio:WCDJ",
+    "FM Radio:WGMF-FM"
+  ],
+  "School District:Luzerne - Crestwood": [
+    "FM Radio:WCLH",
+    "FM Radio:WQFM",
+    "FM Radio:WSJR",
+    "FM Radio:WBHT",
+    "FM Radio:WPZX",
+    "FM Radio:WCIG"
+  ],
+  "School District:Lancaster - Ephrata Area": [
+    "FM Radio:WRTL"
+  ],
+  "School District:Erie - Erie City": [
+    "FM Radio:WICU-FM"
+  ],
+  "School District:Bedford - Everett Area": [
+    "FM Radio:WAYC",
+    "FM Radio:WSKE",
+    "FM Radio:WBVE"
+  ],
+  "School District:Montour - Danville Area": [
+    "FM Radio:WQSU",
+    "FM Radio:WEVW",
+    "FM Radio:WGRC",
+    "FM Radio:WZRG",
+    "FM Radio:WHNA",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WKBP",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WVRZ",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WEGH",
+    "FM Radio:WOTH"
+  ],
+  "School District:Pike - Delaware Valley": [
+    "FM Radio:WRPJ",
+    "FM Radio:WUUA",
+    "FM Radio:WMFU",
+    "FM Radio:WPAU"
+  ],
+  "FM Radio:WRPJ": [
+    "School District:Pike - Delaware Valley"
+  ],
+  "FM Radio:WUUA": [
+    "School District:Pike - Delaware Valley"
+  ],
+  "FM Radio:WMFU": [
+    "School District:Pike - Delaware Valley"
+  ],
+  "School District:Westmoreland - Derry Area": [
+    "FM Radio:WLWG",
+    "FM Radio:WJHT",
+    "FM Radio:WLCY",
+    "FM Radio:WHJB"
+  ],
+  "School District:Dauphin - Derry Township": [
+    "FM Radio:WMSS"
+  ],
+  "School District:Lancaster - Donegal": [
+    "FM Radio:WWEC"
+  ],
+  "School District:York - Dover Area": [
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WHKF"
+  ],
+  "School District:Chester - Downingtown Area": [
+    "FM Radio:WZZD",
+    "FM Radio:WRTJ"
+  ],
+  "School District:Somerset - Conemaugh Township Area": [
+    "FM Radio:WJHT",
+    "FM Radio:WLKH",
+    "FM Radio:WCCL"
+  ],
+  "School District:Crawford - Conneaut": [
+    "FM Radio:WFSE",
+    "FM Radio:WCGV",
+    "FM Radio:WVME",
+    "FM Radio:WRQI",
+    "FM Radio:WYLE",
+    "FM Radio:WXTA",
+    "FM Radio:WHMJ",
+    "FM Radio:WGYY",
+    "FM Radio:WMVL",
+    "FM Radio:WXMJ",
+    "FM Radio:WLVX"
+  ],
+  "FM Radio:WYLE": [
+    "School District:Crawford - Conneaut"
+  ],
+  "School District:Fayette - Connellsville Area": [
+    "FM Radio:WLWG",
+    "FM Radio:WOGG",
+    "FM Radio:WPKL",
+    "FM Radio:WKVE",
+    "FM Radio:WKHB-FM"
+  ],
+  "School District:Berks - Conrad Weiser Area": [
+    "FM Radio:WYBQ",
+    "FM Radio:WZMV",
+    "FM Radio:WRTL"
+  ],
+  "School District:Lebanon - Cornwall-Lebanon": [
+    "FM Radio:WFCP",
+    "FM Radio:WRTL",
+    "FM Radio:WKHL",
+    "FM Radio:WFVY"
+  ],
+  "School District:Crawford - Crawford Central": [
+    "FM Radio:WCGV",
+    "FM Radio:WARC",
+    "FM Radio:WVME",
+    "FM Radio:WRQI",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WMVL",
+    "FM Radio:WXMJ",
+    "FM Radio:WRQW"
+  ],
+  "School District:Berks - Daniel Boone Area": [
+    "FM Radio:WZXB"
+  ],
+  "School District:Butler - Karns City Area": [
+    "FM Radio:WLER-FM"
+  ],
+  "School District:Butler - Butler Area": [
+    "FM Radio:WLER-FM"
+  ],
+  "School District:Lancaster - Lampeter-Strasburg": [
+    "FM Radio:WFNM",
+    "FM Radio:WLCH"
+  ],
+  "School District:Lancaster - Lancaster": [
+    "FM Radio:WFNM",
+    "FM Radio:WLCH",
+    "FM Radio:WIXQ"
+  ],
+  "School District:Erie - General McLane": [
+    "FM Radio:WEFR",
+    "FM Radio:WFSE",
+    "FM Radio:WCGV",
+    "FM Radio:WERG",
+    "FM Radio:WTWF",
+    "FM Radio:WXBB",
+    "FM Radio:WQHZ",
+    "FM Radio:WXMJ",
+    "FM Radio:WRKT",
+    "FM Radio:WCTL"
+  ],
+  "FM Radio:WERG": [
+    "School District:Erie - General McLane",
+    "School District:Erie - Fort Leboeuf"
+  ],
+  "School District:Adams - Gettysburg Area": [
+    "FM Radio:WZXQ",
+    "FM Radio:WZBT"
+  ],
+  "FM Radio:WZBT": [
+    "School District:Adams - Gettysburg Area"
+  ],
+  "School District:Erie - Girard": [
+    "FM Radio:WEFR"
+  ],
+  "School District:Clearfield - Glendale": [
+    "FM Radio:WMMH",
+    "FM Radio:WLKE",
+    "FM Radio:WBXQ",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM"
+  ],
+  "School District:Clearfield - Harmony Area": [
+    "FM Radio:WBXQ"
+  ],
+  "School District:Erie - Fort Leboeuf": [
+    "FM Radio:WEFR",
+    "FM Radio:WMCE-FM",
+    "FM Radio:WFSE",
+    "FM Radio:WTWP",
+    "FM Radio:WERG",
+    "FM Radio:WTWF",
+    "FM Radio:WXBB",
+    "FM Radio:WQHZ",
+    "FM Radio:WCGM",
+    "FM Radio:WRKT",
+    "FM Radio:WCTL"
+  ],
+  "School District:Dauphin - Harrisburg City": [
+    "FM Radio:WZXM"
+  ],
+  "School District:Allegheny - Fox Chapel Area": [
+    "FM Radio:WRCT"
+  ],
+  "School District:Venango - Franklin Area": [
+    "FM Radio:WQHE",
+    "FM Radio:WCGT",
+    "FM Radio:WAWN",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WLOQ",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WRQW"
+  ],
+  "School District:Westmoreland - Franklin Regional": [
+    "FM Radio:WKGO"
+  ],
+  "School District:Fayette - Frazier": [
+    "FM Radio:WCAL",
+    "FM Radio:WPKL",
+    "FM Radio:WKHB-FM"
+  ]
+}

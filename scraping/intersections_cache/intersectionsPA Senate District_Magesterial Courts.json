@@ -1,0 +1,248 @@
+{
+  "PA Senate District:7": [
+    "Magesterial Courts:1938-01-10",
+    "Magesterial Courts:1938-01-23"
+  ],
+  "Magesterial Courts:1938-01-10": [
+    "PA Senate District:7"
+  ],
+  "Magesterial Courts:1938-01-23": [
+    "PA Senate District:7"
+  ],
+  "PA Senate District:4": [
+    "Magesterial Courts:1938-01-02",
+    "Magesterial Courts:1938-01-03",
+    "Magesterial Courts:1938-01-04",
+    "Magesterial Courts:1938-01-05",
+    "Magesterial Courts:1938-01-08"
+  ],
+  "Magesterial Courts:1938-01-02": [
+    "PA Senate District:4"
+  ],
+  "Magesterial Courts:1938-01-03": [
+    "PA Senate District:4"
+  ],
+  "Magesterial Courts:1938-01-04": [
+    "PA Senate District:4"
+  ],
+  "Magesterial Courts:1938-01-05": [
+    "PA Senate District:4"
+  ],
+  "Magesterial Courts:1938-01-08": [
+    "PA Senate District:4"
+  ],
+  "PA Senate District:19": [
+    "Magesterial Courts:2015-03-05",
+    "Magesterial Courts:2015-04-01",
+    "Magesterial Courts:2015-04-04",
+    "Magesterial Courts:2015-01-01",
+    "Magesterial Courts:2015-02-01",
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Magesterial Courts:2015-03-05": [
+    "PA Senate District:19"
+  ],
+  "Magesterial Courts:2015-04-01": [
+    "PA Senate District:19"
+  ],
+  "Magesterial Courts:2015-04-04": [
+    "PA Senate District:19"
+  ],
+  "Magesterial Courts:2015-01-01": [
+    "PA Senate District:19"
+  ],
+  "Magesterial Courts:2015-02-01": [
+    "PA Senate District:19"
+  ],
+  "Magesterial Courts:2015-03-07": [
+    "PA Senate District:19"
+  ],
+  "PA Senate District:44": [
+    "Magesterial Courts:2015-02-07",
+    "Magesterial Courts:2015-03-01",
+    "Magesterial Courts:2015-03-06",
+    "Magesterial Courts:1938-01-19",
+    "Magesterial Courts:1938-01-20"
+  ],
+  "Magesterial Courts:2015-02-07": [
+    "PA Senate District:44"
+  ],
+  "Magesterial Courts:2015-03-01": [
+    "PA Senate District:44"
+  ],
+  "Magesterial Courts:2015-03-06": [
+    "PA Senate District:44"
+  ],
+  "Magesterial Courts:1938-01-19": [
+    "PA Senate District:44"
+  ],
+  "Magesterial Courts:1938-01-20": [
+    "PA Senate District:44"
+  ],
+  "PA Senate District:9": [
+    "Magesterial Courts:2015-02-03",
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Magesterial Courts:2015-02-03": [
+    "PA Senate District:9"
+  ],
+  "Magesterial Courts:2015-03-04": [
+    "PA Senate District:9"
+  ],
+  "PA Senate District:24": [
+    "Magesterial Courts:07-3-03",
+    "Magesterial Courts:07-2-05",
+    "Magesterial Courts:1938-01-24",
+    "Magesterial Courts:1938-02-02",
+    "Magesterial Courts:1938-02-03"
+  ],
+  "Magesterial Courts:07-3-03": [
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "Magesterial Courts:07-2-05": [
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "Magesterial Courts:1938-01-24": [
+    "PA Senate District:24",
+    "PA Senate District:12"
+  ],
+  "Magesterial Courts:1938-02-02": [
+    "PA Senate District:24"
+  ],
+  "Magesterial Courts:1938-02-03": [
+    "PA Senate District:24"
+  ],
+  "PA Senate District:26": [
+    "Magesterial Courts:2015-01-02"
+  ],
+  "Magesterial Courts:2015-01-02": [
+    "PA Senate District:26"
+  ],
+  "PA Senate District:10": [
+    "Magesterial Courts:07-1-11",
+    "Magesterial Courts:07-2-07",
+    "Magesterial Courts:07-2-08",
+    "Magesterial Courts:07-2-02",
+    "Magesterial Courts:07-3-01",
+    "Magesterial Courts:07-3-03",
+    "Magesterial Courts:07-2-05",
+    "Magesterial Courts:07-1-10",
+    "Magesterial Courts:undefined"
+  ],
+  "Magesterial Courts:07-1-11": [
+    "PA Senate District:10"
+  ],
+  "Magesterial Courts:07-2-07": [
+    "PA Senate District:10",
+    "PA Senate District:6"
+  ],
+  "Magesterial Courts:07-2-08": [
+    "PA Senate District:10"
+  ],
+  "Magesterial Courts:07-2-02": [
+    "PA Senate District:10"
+  ],
+  "Magesterial Courts:07-3-01": [
+    "PA Senate District:10"
+  ],
+  "Magesterial Courts:07-1-10": [
+    "PA Senate District:10"
+  ],
+  "Magesterial Courts:undefined": [
+    "PA Senate District:10"
+  ],
+  "PA Senate District:17": [
+    "Magesterial Courts:1938-01-01",
+    "Magesterial Courts:1938-01-06",
+    "Magesterial Courts:1938-01-09",
+    "Magesterial Courts:1938-01-13",
+    "Magesterial Courts:1938-01-21",
+    "Magesterial Courts:1938-01-25",
+    "Magesterial Courts:1938-02-04"
+  ],
+  "Magesterial Courts:1938-01-01": [
+    "PA Senate District:17"
+  ],
+  "Magesterial Courts:1938-01-06": [
+    "PA Senate District:17"
+  ],
+  "Magesterial Courts:1938-01-09": [
+    "PA Senate District:17"
+  ],
+  "Magesterial Courts:1938-01-13": [
+    "PA Senate District:17"
+  ],
+  "Magesterial Courts:1938-01-21": [
+    "PA Senate District:17",
+    "PA Senate District:12"
+  ],
+  "Magesterial Courts:1938-01-25": [
+    "PA Senate District:17"
+  ],
+  "Magesterial Courts:1938-02-04": [
+    "PA Senate District:17"
+  ],
+  "PA Senate District:12": [
+    "Magesterial Courts:07-1-09",
+    "Magesterial Courts:07-3-02",
+    "Magesterial Courts:1938-01-14",
+    "Magesterial Courts:1938-01-18",
+    "Magesterial Courts:1938-01-21",
+    "Magesterial Courts:1938-01-22",
+    "Magesterial Courts:1938-01-24",
+    "Magesterial Courts:1938-02-08"
+  ],
+  "Magesterial Courts:07-1-09": [
+    "PA Senate District:12"
+  ],
+  "Magesterial Courts:07-3-02": [
+    "PA Senate District:12",
+    "PA Senate District:6"
+  ],
+  "Magesterial Courts:1938-01-14": [
+    "PA Senate District:12"
+  ],
+  "Magesterial Courts:1938-01-18": [
+    "PA Senate District:12"
+  ],
+  "Magesterial Courts:1938-01-22": [
+    "PA Senate District:12"
+  ],
+  "Magesterial Courts:1938-02-08": [
+    "PA Senate District:12"
+  ],
+  "PA Senate District:6": [
+    "Magesterial Courts:07-1-02",
+    "Magesterial Courts:07-2-01",
+    "Magesterial Courts:07-2-07",
+    "Magesterial Courts:07-3-02",
+    "Magesterial Courts:07-1-03",
+    "Magesterial Courts:07-1-07",
+    "Magesterial Courts:07-1-01",
+    "Magesterial Courts:07-1-12",
+    "Magesterial Courts:07-1-08"
+  ],
+  "Magesterial Courts:07-1-02": [
+    "PA Senate District:6"
+  ],
+  "Magesterial Courts:07-2-01": [
+    "PA Senate District:6"
+  ],
+  "Magesterial Courts:07-1-03": [
+    "PA Senate District:6"
+  ],
+  "Magesterial Courts:07-1-07": [
+    "PA Senate District:6"
+  ],
+  "Magesterial Courts:07-1-01": [
+    "PA Senate District:6"
+  ],
+  "Magesterial Courts:07-1-12": [
+    "PA Senate District:6"
+  ],
+  "Magesterial Courts:07-1-08": [
+    "PA Senate District:6"
+  ]
+}

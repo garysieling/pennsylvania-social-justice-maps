@@ -1,0 +1,42 @@
+{
+  "Municipality:Allegheny - Pittsburgh City": [
+    "County:Allegheny"
+  ],
+  "County:Allegheny": [
+    "Municipality:Allegheny - Pittsburgh City"
+  ],
+  "Municipality:Philadelphia - Philadelphia City": [
+    "County:Philadelphia"
+  ],
+  "County:Philadelphia": [
+    "Municipality:Philadelphia - Philadelphia City"
+  ],
+  "Municipality:Delaware - Radnor Township": [
+    "County:Delaware"
+  ],
+  "County:Delaware": [
+    "Municipality:Delaware - Radnor Township",
+    "Municipality:Delaware - Marple Township",
+    "Municipality:Delaware - Newtown Township",
+    "Municipality:Delaware - Concord Township",
+    "Municipality:Delaware - Middletown Township"
+  ],
+  "Municipality:Delaware - Marple Township": [
+    "County:Delaware"
+  ],
+  "Municipality:Delaware - Newtown Township": [
+    "County:Delaware"
+  ],
+  "Municipality:Delaware - Concord Township": [
+    "County:Delaware"
+  ],
+  "Municipality:Delaware - Middletown Township": [
+    "County:Delaware"
+  ],
+  "Municipality:Bucks - Buckingham Township": [
+    "County:Bucks"
+  ],
+  "County:Bucks": [
+    "Municipality:Bucks - Buckingham Township"
+  ]
+}

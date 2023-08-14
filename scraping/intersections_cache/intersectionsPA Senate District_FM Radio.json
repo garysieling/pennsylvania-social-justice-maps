@@ -1,0 +1,2692 @@
+{
+  "PA Senate District:41": [
+    "FM Radio:WKGO",
+    "FM Radio:WCOA-FM",
+    "FM Radio:WQED-FM",
+    "FM Radio:WQEJ",
+    "FM Radio:WIUP-FM",
+    "FM Radio:WESA",
+    "FM Radio:WPAI",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WJHT",
+    "FM Radio:WQMU",
+    "FM Radio:WLTJ",
+    "FM Radio:KDKA-FM",
+    "FM Radio:WBXQ",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKST-FM",
+    "FM Radio:WKYE",
+    "FM Radio:WRRK",
+    "FM Radio:WPCL",
+    "FM Radio:WLER-FM",
+    "FM Radio:WFGY",
+    "FM Radio:WPKV",
+    "FM Radio:WRKW",
+    "FM Radio:WSHH",
+    "FM Radio:WBZZ",
+    "FM Radio:WORD-FM",
+    "FM Radio:WIFT",
+    "FM Radio:WDVE",
+    "FM Radio:WKQL",
+    "FM Radio:WPXZ-FM",
+    "FM Radio:WPGB",
+    "FM Radio:WMKX",
+    "FM Radio:WXDX-FM",
+    "FM Radio:WLCY",
+    "FM Radio:WAOB-FM",
+    "FM Radio:WHJB",
+    "FM Radio:WDSY-FM"
+  ],
+  "FM Radio:WKGO": [
+    "PA Senate District:41",
+    "PA Senate District:45"
+  ],
+  "FM Radio:WCOA-FM": [
+    "PA Senate District:41",
+    "PA Senate District:35",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WQED-FM": [
+    "PA Senate District:41",
+    "PA Senate District:47",
+    "PA Senate District:37",
+    "PA Senate District:45",
+    "PA Senate District:38",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WQEJ": [
+    "PA Senate District:41",
+    "PA Senate District:35",
+    "PA Senate District:32",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WIUP-FM": [
+    "PA Senate District:41"
+  ],
+  "FM Radio:WESA": [
+    "PA Senate District:41",
+    "PA Senate District:47",
+    "PA Senate District:37",
+    "PA Senate District:45",
+    "PA Senate District:38",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WPAI": [
+    "PA Senate District:41",
+    "PA Senate District:35"
+  ],
+  "FM Radio:WYEP-FM": [
+    "PA Senate District:41",
+    "PA Senate District:37",
+    "PA Senate District:45",
+    "PA Senate District:38",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WJHT": [
+    "PA Senate District:41",
+    "PA Senate District:35",
+    "PA Senate District:32",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WQMU": [
+    "PA Senate District:41"
+  ],
+  "FM Radio:WLTJ": [
+    "PA Senate District:41",
+    "PA Senate District:32",
+    "PA Senate District:47",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:KDKA-FM": [
+    "PA Senate District:41",
+    "PA Senate District:32",
+    "PA Senate District:47",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WBXQ": [
+    "PA Senate District:41",
+    "PA Senate District:35"
+  ],
+  "FM Radio:WWSW-FM": [
+    "PA Senate District:41",
+    "PA Senate District:32",
+    "PA Senate District:47",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WFGI-FM": [
+    "PA Senate District:41",
+    "PA Senate District:35",
+    "PA Senate District:30",
+    "PA Senate District:32",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WKST-FM": [
+    "PA Senate District:41",
+    "PA Senate District:32",
+    "PA Senate District:47",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WKYE": [
+    "PA Senate District:41",
+    "PA Senate District:35",
+    "PA Senate District:30",
+    "PA Senate District:32",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WRRK": [
+    "PA Senate District:41",
+    "PA Senate District:32",
+    "PA Senate District:47",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WPCL": [
+    "PA Senate District:41",
+    "PA Senate District:35"
+  ],
+  "FM Radio:WLER-FM": [
+    "PA Senate District:41",
+    "PA Senate District:47",
+    "PA Senate District:21"
+  ],
+  "FM Radio:WFGY": [
+    "PA Senate District:41",
+    "PA Senate District:35",
+    "PA Senate District:30",
+    "PA Senate District:34"
+  ],
+  "FM Radio:WPKV": [
+    "PA Senate District:41",
+    "PA Senate District:47",
+    "PA Senate District:37",
+    "PA Senate District:45",
+    "PA Senate District:38",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WRKW": [
+    "PA Senate District:41",
+    "PA Senate District:35",
+    "PA Senate District:30",
+    "PA Senate District:32",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WSHH": [
+    "PA Senate District:41",
+    "PA Senate District:32",
+    "PA Senate District:47",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WBZZ": [
+    "PA Senate District:41",
+    "PA Senate District:32",
+    "PA Senate District:47",
+    "PA Senate District:37",
+    "PA Senate District:45",
+    "PA Senate District:38",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WORD-FM": [
+    "PA Senate District:41",
+    "PA Senate District:32",
+    "PA Senate District:47",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WIFT": [
+    "PA Senate District:41",
+    "PA Senate District:35",
+    "PA Senate District:21",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WDVE": [
+    "PA Senate District:41",
+    "PA Senate District:32",
+    "PA Senate District:47",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WKQL": [
+    "PA Senate District:41",
+    "PA Senate District:21",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WPXZ-FM": [
+    "PA Senate District:41",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WPGB": [
+    "PA Senate District:41",
+    "PA Senate District:47",
+    "PA Senate District:37",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WMKX": [
+    "PA Senate District:41",
+    "PA Senate District:21",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WXDX-FM": [
+    "PA Senate District:41",
+    "PA Senate District:47",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WLCY": [
+    "PA Senate District:41",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WAOB-FM": [
+    "PA Senate District:41",
+    "PA Senate District:47",
+    "PA Senate District:46"
+  ],
+  "FM Radio:WHJB": [
+    "PA Senate District:41",
+    "PA Senate District:32",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WDSY-FM": [
+    "PA Senate District:41",
+    "PA Senate District:32",
+    "PA Senate District:47",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "PA Senate District:23": [
+    "FM Radio:WCII",
+    "FM Radio:WQSU",
+    "FM Radio:WSKG-FM",
+    "FM Radio:WPMY",
+    "FM Radio:WVYA",
+    "FM Radio:WCIH",
+    "FM Radio:WCRG",
+    "FM Radio:WCDR",
+    "FM Radio:WSQE",
+    "FM Radio:WGRC",
+    "FM Radio:WCOZ",
+    "FM Radio:WHNA",
+    "FM Radio:WENI-FM",
+    "FM Radio:WMGS",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WQKX",
+    "FM Radio:WTTC-FM",
+    "FM Radio:WBYL",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WZBF",
+    "FM Radio:WVRT",
+    "FM Radio:WBSX",
+    "FM Radio:WHWK",
+    "FM Radio:WRBG",
+    "FM Radio:WKRZ",
+    "FM Radio:WAAL",
+    "FM Radio:WZXR",
+    "FM Radio:WQBR",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WGGY",
+    "FM Radio:WAVR",
+    "FM Radio:WKSB",
+    "FM Radio:WCXR",
+    "FM Radio:WGMF-FM",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WBNW-FM",
+    "FM Radio:WNKI",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WOTH"
+  ],
+  "FM Radio:WCII": [
+    "PA Senate District:23"
+  ],
+  "FM Radio:WQSU": [
+    "PA Senate District:23",
+    "PA Senate District:27"
+  ],
+  "FM Radio:WSKG-FM": [
+    "PA Senate District:23",
+    "PA Senate District:20"
+  ],
+  "FM Radio:WPMY": [
+    "PA Senate District:23"
+  ],
+  "FM Radio:WVYA": [
+    "PA Senate District:23"
+  ],
+  "FM Radio:WCIH": [
+    "PA Senate District:23"
+  ],
+  "FM Radio:WCRG": [
+    "PA Senate District:23"
+  ],
+  "FM Radio:WCDR": [
+    "PA Senate District:23"
+  ],
+  "FM Radio:WSQE": [
+    "PA Senate District:23"
+  ],
+  "FM Radio:WGRC": [
+    "PA Senate District:23",
+    "PA Senate District:27"
+  ],
+  "FM Radio:WCOZ": [
+    "PA Senate District:23"
+  ],
+  "FM Radio:WHNA": [
+    "PA Senate District:23",
+    "PA Senate District:27"
+  ],
+  "FM Radio:WENI-FM": [
+    "PA Senate District:23"
+  ],
+  "FM Radio:WMGS": [
+    "PA Senate District:23",
+    "PA Senate District:27",
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:22",
+    "PA Senate District:40",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WBZD-FM": [
+    "PA Senate District:23",
+    "PA Senate District:27"
+  ],
+  "FM Radio:WQKX": [
+    "PA Senate District:23",
+    "PA Senate District:27",
+    "PA Senate District:15",
+    "PA Senate District:34",
+    "PA Senate District:48",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WTTC-FM": [
+    "PA Senate District:23"
+  ],
+  "FM Radio:WBYL": [
+    "PA Senate District:23"
+  ],
+  "FM Radio:WJSA-FM": [
+    "PA Senate District:23",
+    "PA Senate District:34",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WPEL-FM": [
+    "PA Senate District:23",
+    "PA Senate District:20",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WZBF": [
+    "PA Senate District:23"
+  ],
+  "FM Radio:WVRT": [
+    "PA Senate District:23"
+  ],
+  "FM Radio:WBSX": [
+    "PA Senate District:23",
+    "PA Senate District:27",
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:22",
+    "PA Senate District:40",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WHWK": [
+    "PA Senate District:23",
+    "PA Senate District:20"
+  ],
+  "FM Radio:WRBG": [
+    "PA Senate District:23",
+    "PA Senate District:27"
+  ],
+  "FM Radio:WKRZ": [
+    "PA Senate District:23",
+    "PA Senate District:27",
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:22",
+    "PA Senate District:40"
+  ],
+  "FM Radio:WAAL": [
+    "PA Senate District:23",
+    "PA Senate District:20"
+  ],
+  "FM Radio:WZXR": [
+    "PA Senate District:23",
+    "PA Senate District:27"
+  ],
+  "FM Radio:WQBR": [
+    "PA Senate District:23",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WHGL-FM": [
+    "PA Senate District:23",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WVLY-FM": [
+    "PA Senate District:23",
+    "PA Senate District:27"
+  ],
+  "FM Radio:WGGY": [
+    "PA Senate District:23",
+    "PA Senate District:27",
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WAVR": [
+    "PA Senate District:23"
+  ],
+  "FM Radio:WKSB": [
+    "PA Senate District:23",
+    "PA Senate District:27",
+    "PA Senate District:34",
+    "PA Senate District:29",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WCXR": [
+    "PA Senate District:23",
+    "PA Senate District:27"
+  ],
+  "FM Radio:WGMF-FM": [
+    "PA Senate District:23",
+    "PA Senate District:20"
+  ],
+  "FM Radio:WNBT-FM": [
+    "PA Senate District:23",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WILQ": [
+    "PA Senate District:23",
+    "PA Senate District:27",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WBNW-FM": [
+    "PA Senate District:23",
+    "PA Senate District:20"
+  ],
+  "FM Radio:WNKI": [
+    "PA Senate District:23",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WCFT-FM": [
+    "PA Senate District:23",
+    "PA Senate District:27",
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WOTH": [
+    "PA Senate District:23",
+    "PA Senate District:27"
+  ],
+  "PA Senate District:27": [
+    "FM Radio:WBGM",
+    "FM Radio:WQSU",
+    "FM Radio:WITF-FM",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WFBV",
+    "FM Radio:WFBM",
+    "FM Radio:WFBA",
+    "FM Radio:WEVW",
+    "FM Radio:WHSK",
+    "FM Radio:WGRC",
+    "FM Radio:WCDH",
+    "FM Radio:WZRG",
+    "FM Radio:WHNA",
+    "FM Radio:WMGS",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WSJR",
+    "FM Radio:WQKX",
+    "FM Radio:WRBT",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WKBP",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WBSX",
+    "FM Radio:WRBG",
+    "FM Radio:WKRZ",
+    "FM Radio:WZXR",
+    "FM Radio:WVRZ",
+    "FM Radio:WQBG",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WGGY",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WKSB",
+    "FM Radio:WMMZ",
+    "FM Radio:WCXR",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WNNA",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WEGH",
+    "FM Radio:WOTH"
+  ],
+  "FM Radio:WBGM": [
+    "PA Senate District:27"
+  ],
+  "FM Radio:WITF-FM": [
+    "PA Senate District:27",
+    "PA Senate District:15",
+    "PA Senate District:28",
+    "PA Senate District:31",
+    "PA Senate District:48",
+    "PA Senate District:36"
+  ],
+  "FM Radio:WVIA-FM": [
+    "PA Senate District:27",
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WFBV": [
+    "PA Senate District:27"
+  ],
+  "FM Radio:WFBM": [
+    "PA Senate District:27"
+  ],
+  "FM Radio:WFBA": [
+    "PA Senate District:27",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WEVW": [
+    "PA Senate District:27"
+  ],
+  "FM Radio:WHSK": [
+    "PA Senate District:27"
+  ],
+  "FM Radio:WCDH": [
+    "PA Senate District:27",
+    "PA Senate District:14",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WZRG": [
+    "PA Senate District:27",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WSJR": [
+    "PA Senate District:27",
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WRBT": [
+    "PA Senate District:27",
+    "PA Senate District:15",
+    "PA Senate District:28",
+    "PA Senate District:34",
+    "PA Senate District:31",
+    "PA Senate District:48",
+    "PA Senate District:36"
+  ],
+  "FM Radio:WBLJ-FM": [
+    "PA Senate District:27",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WKBP": [
+    "PA Senate District:27"
+  ],
+  "FM Radio:WPGM-FM": [
+    "PA Senate District:27"
+  ],
+  "FM Radio:WRVV": [
+    "PA Senate District:27",
+    "PA Senate District:15",
+    "PA Senate District:28",
+    "PA Senate District:34",
+    "PA Senate District:33",
+    "PA Senate District:31",
+    "PA Senate District:48",
+    "PA Senate District:36",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WVRZ": [
+    "PA Senate District:27",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WQBG": [
+    "PA Senate District:27",
+    "PA Senate District:15"
+  ],
+  "FM Radio:WAVT-FM": [
+    "PA Senate District:27",
+    "PA Senate District:48",
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WMMZ": [
+    "PA Senate District:27",
+    "PA Senate District:20"
+  ],
+  "FM Radio:WNNK-FM": [
+    "PA Senate District:27",
+    "PA Senate District:15",
+    "PA Senate District:28",
+    "PA Senate District:34",
+    "PA Senate District:33",
+    "PA Senate District:31",
+    "PA Senate District:48",
+    "PA Senate District:36"
+  ],
+  "FM Radio:WNNA": [
+    "PA Senate District:27",
+    "PA Senate District:15",
+    "PA Senate District:34"
+  ],
+  "FM Radio:WEGH": [
+    "PA Senate District:27"
+  ],
+  "PA Senate District:15": [
+    "FM Radio:WKHW",
+    "FM Radio:WITF-FM",
+    "FM Radio:WMSS",
+    "FM Radio:WPFG",
+    "FM Radio:WJAZ",
+    "FM Radio:WKHL",
+    "FM Radio:WIBF",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WQKX",
+    "FM Radio:WRBT",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WSOX",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WYCR",
+    "FM Radio:WQLV",
+    "FM Radio:WHKF",
+    "FM Radio:WFVY",
+    "FM Radio:WQBG",
+    "FM Radio:WROZ",
+    "FM Radio:WCAT-FM",
+    "FM Radio:WARM-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WNNA",
+    "FM Radio:WWKL",
+    "FM Radio:WQJU",
+    "FM Radio:WGTY"
+  ],
+  "FM Radio:WKHW": [
+    "PA Senate District:15"
+  ],
+  "FM Radio:WMSS": [
+    "PA Senate District:15",
+    "PA Senate District:48"
+  ],
+  "FM Radio:WPFG": [
+    "PA Senate District:15",
+    "PA Senate District:30",
+    "PA Senate District:31"
+  ],
+  "FM Radio:WJAZ": [
+    "PA Senate District:15",
+    "PA Senate District:31"
+  ],
+  "FM Radio:WKHL": [
+    "PA Senate District:15",
+    "PA Senate District:31",
+    "PA Senate District:48"
+  ],
+  "FM Radio:WIBF": [
+    "PA Senate District:15",
+    "PA Senate District:34"
+  ],
+  "FM Radio:WTPA-FM": [
+    "PA Senate District:15",
+    "PA Senate District:31",
+    "PA Senate District:48"
+  ],
+  "FM Radio:WMRF-FM": [
+    "PA Senate District:15",
+    "PA Senate District:34"
+  ],
+  "FM Radio:WSOX": [
+    "PA Senate District:15",
+    "PA Senate District:28",
+    "PA Senate District:13",
+    "PA Senate District:33",
+    "PA Senate District:31",
+    "PA Senate District:48",
+    "PA Senate District:36"
+  ],
+  "FM Radio:WLAN-FM": [
+    "PA Senate District:15",
+    "PA Senate District:28",
+    "PA Senate District:13",
+    "PA Senate District:31",
+    "PA Senate District:48",
+    "PA Senate District:19",
+    "PA Senate District:36",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WYCR": [
+    "PA Senate District:15",
+    "PA Senate District:28",
+    "PA Senate District:33",
+    "PA Senate District:31"
+  ],
+  "FM Radio:WQLV": [
+    "PA Senate District:15",
+    "PA Senate District:34"
+  ],
+  "FM Radio:WHKF": [
+    "PA Senate District:15",
+    "PA Senate District:31",
+    "PA Senate District:48"
+  ],
+  "FM Radio:WFVY": [
+    "PA Senate District:15",
+    "PA Senate District:48"
+  ],
+  "FM Radio:WROZ": [
+    "PA Senate District:15",
+    "PA Senate District:28",
+    "PA Senate District:13",
+    "PA Senate District:33",
+    "PA Senate District:31",
+    "PA Senate District:48",
+    "PA Senate District:36",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WCAT-FM": [
+    "PA Senate District:15",
+    "PA Senate District:31"
+  ],
+  "FM Radio:WARM-FM": [
+    "PA Senate District:15",
+    "PA Senate District:28",
+    "PA Senate District:13",
+    "PA Senate District:33",
+    "PA Senate District:31",
+    "PA Senate District:48",
+    "PA Senate District:36",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WQXA-FM": [
+    "PA Senate District:15",
+    "PA Senate District:28",
+    "PA Senate District:13",
+    "PA Senate District:33",
+    "PA Senate District:31",
+    "PA Senate District:48",
+    "PA Senate District:36"
+  ],
+  "FM Radio:WWKL": [
+    "PA Senate District:15",
+    "PA Senate District:28",
+    "PA Senate District:13",
+    "PA Senate District:33",
+    "PA Senate District:31",
+    "PA Senate District:48",
+    "PA Senate District:36",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WQJU": [
+    "PA Senate District:15",
+    "PA Senate District:34"
+  ],
+  "FM Radio:WGTY": [
+    "PA Senate District:15",
+    "PA Senate District:28",
+    "PA Senate District:33",
+    "PA Senate District:31",
+    "PA Senate District:48"
+  ],
+  "PA Senate District:28": [
+    "FM Radio:WXPH",
+    "FM Radio:WITF-FM",
+    "FM Radio:WJTL",
+    "FM Radio:WZXY",
+    "FM Radio:WNUU",
+    "FM Radio:WDAC",
+    "FM Radio:WRBT",
+    "FM Radio:WSOX",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WYCR",
+    "FM Radio:WROZ",
+    "FM Radio:WARM-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WWKL",
+    "FM Radio:WGTY"
+  ],
+  "FM Radio:WXPH": [
+    "PA Senate District:28",
+    "PA Senate District:13",
+    "PA Senate District:48",
+    "PA Senate District:36"
+  ],
+  "FM Radio:WJTL": [
+    "PA Senate District:28",
+    "PA Senate District:13",
+    "PA Senate District:48",
+    "PA Senate District:36"
+  ],
+  "FM Radio:WZXY": [
+    "PA Senate District:28",
+    "PA Senate District:33"
+  ],
+  "FM Radio:WNUU": [
+    "PA Senate District:28",
+    "PA Senate District:31",
+    "PA Senate District:48",
+    "PA Senate District:36"
+  ],
+  "FM Radio:WDAC": [
+    "PA Senate District:28",
+    "PA Senate District:13",
+    "PA Senate District:48",
+    "PA Senate District:19",
+    "PA Senate District:36"
+  ],
+  "FM Radio:WIOV-FM": [
+    "PA Senate District:28",
+    "PA Senate District:13",
+    "PA Senate District:48",
+    "PA Senate District:11",
+    "PA Senate District:19",
+    "PA Senate District:44",
+    "PA Senate District:36",
+    "PA Senate District:29"
+  ],
+  "PA Senate District:13": [
+    "FM Radio:WZXE",
+    "FM Radio:WXPH",
+    "FM Radio:WFNM",
+    "FM Radio:WJTL",
+    "FM Radio:WLCH",
+    "FM Radio:WIXQ",
+    "FM Radio:WDAC",
+    "FM Radio:WSOX",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WROZ",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WARM-FM",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WWKL"
+  ],
+  "FM Radio:WZXE": [
+    "PA Senate District:13",
+    "PA Senate District:19"
+  ],
+  "FM Radio:WFNM": [
+    "PA Senate District:13"
+  ],
+  "FM Radio:WLCH": [
+    "PA Senate District:13"
+  ],
+  "FM Radio:WIXQ": [
+    "PA Senate District:13"
+  ],
+  "FM Radio:WRFY-FM": [
+    "PA Senate District:13",
+    "PA Senate District:48",
+    "PA Senate District:11",
+    "PA Senate District:19",
+    "PA Senate District:44",
+    "PA Senate District:16",
+    "PA Senate District:24",
+    "PA Senate District:36",
+    "PA Senate District:29"
+  ],
+  "PA Senate District:35": [
+    "FM Radio:WHHN",
+    "FM Radio:WRQV",
+    "FM Radio:WCOA-FM",
+    "FM Radio:WPMN",
+    "FM Radio:WPMU",
+    "FM Radio:WQEJ",
+    "FM Radio:WRVI",
+    "FM Radio:WPAI",
+    "FM Radio:WCOX",
+    "FM Radio:WPSU",
+    "FM Radio:WMMH",
+    "FM Radio:WJHT",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WPQP",
+    "FM Radio:WLKE",
+    "FM Radio:WBXQ",
+    "FM Radio:WBRX",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WQQP",
+    "FM Radio:WKYE",
+    "FM Radio:WPCL",
+    "FM Radio:WFGY",
+    "FM Radio:WRKW",
+    "FM Radio:WWOT",
+    "FM Radio:WAYC",
+    "FM Radio:WFGE",
+    "FM Radio:WCCL",
+    "FM Radio:WIFT",
+    "FM Radio:WOKW",
+    "FM Radio:WALY",
+    "FM Radio:WSKE",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WLKJ",
+    "FM Radio:WCOH",
+    "FM Radio:WBVE"
+  ],
+  "FM Radio:WHHN": [
+    "PA Senate District:35",
+    "PA Senate District:30"
+  ],
+  "FM Radio:WRQV": [
+    "PA Senate District:35",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WPMN": [
+    "PA Senate District:35",
+    "PA Senate District:30"
+  ],
+  "FM Radio:WPMU": [
+    "PA Senate District:35",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WRVI": [
+    "PA Senate District:35",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WCOX": [
+    "PA Senate District:35",
+    "PA Senate District:30"
+  ],
+  "FM Radio:WPSU": [
+    "PA Senate District:35",
+    "PA Senate District:34"
+  ],
+  "FM Radio:WMMH": [
+    "PA Senate District:35",
+    "PA Senate District:30",
+    "PA Senate District:34"
+  ],
+  "FM Radio:WJSM-FM": [
+    "PA Senate District:35",
+    "PA Senate District:30"
+  ],
+  "FM Radio:WPQP": [
+    "PA Senate District:35",
+    "PA Senate District:34",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WLKE": [
+    "PA Senate District:35",
+    "PA Senate District:30"
+  ],
+  "FM Radio:WBRX": [
+    "PA Senate District:35",
+    "PA Senate District:30"
+  ],
+  "FM Radio:WQQP": [
+    "PA Senate District:35",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WWOT": [
+    "PA Senate District:35",
+    "PA Senate District:30",
+    "PA Senate District:34"
+  ],
+  "FM Radio:WAYC": [
+    "PA Senate District:35"
+  ],
+  "FM Radio:WFGE": [
+    "PA Senate District:35",
+    "PA Senate District:30",
+    "PA Senate District:34",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WCCL": [
+    "PA Senate District:35",
+    "PA Senate District:32"
+  ],
+  "FM Radio:WOKW": [
+    "PA Senate District:35"
+  ],
+  "FM Radio:WALY": [
+    "PA Senate District:35",
+    "PA Senate District:30"
+  ],
+  "FM Radio:WSKE": [
+    "PA Senate District:35",
+    "PA Senate District:30"
+  ],
+  "FM Radio:WRKY-FM": [
+    "PA Senate District:35",
+    "PA Senate District:30"
+  ],
+  "FM Radio:WLKJ": [
+    "PA Senate District:35"
+  ],
+  "FM Radio:WCOH": [
+    "PA Senate District:35",
+    "PA Senate District:21",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WBVE": [
+    "PA Senate District:35",
+    "PA Senate District:32"
+  ],
+  "PA Senate District:30": [
+    "FM Radio:WHHN",
+    "FM Radio:WWCF",
+    "FM Radio:WPMN",
+    "FM Radio:WTLR",
+    "FM Radio:WZXN",
+    "FM Radio:WCOX",
+    "FM Radio:WPFG",
+    "FM Radio:WMMH",
+    "FM Radio:WIKG",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WYPM",
+    "FM Radio:WLKE",
+    "FM Radio:WQCM",
+    "FM Radio:WBRX",
+    "FM Radio:WIKZ",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKYE",
+    "FM Radio:WFGY",
+    "FM Radio:WRKW",
+    "FM Radio:WWOT",
+    "FM Radio:WFGE",
+    "FM Radio:WBHB-FM",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WEEO-FM",
+    "FM Radio:WALY",
+    "FM Radio:WSKE",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WQCK",
+    "FM Radio:WDBF-FM"
+  ],
+  "FM Radio:WWCF": [
+    "PA Senate District:30"
+  ],
+  "FM Radio:WTLR": [
+    "PA Senate District:30",
+    "PA Senate District:34"
+  ],
+  "FM Radio:WZXN": [
+    "PA Senate District:30",
+    "PA Senate District:33",
+    "PA Senate District:31"
+  ],
+  "FM Radio:WIKG": [
+    "PA Senate District:30",
+    "PA Senate District:33"
+  ],
+  "FM Radio:WYPM": [
+    "PA Senate District:30",
+    "PA Senate District:33"
+  ],
+  "FM Radio:WQCM": [
+    "PA Senate District:30",
+    "PA Senate District:33"
+  ],
+  "FM Radio:WIKZ": [
+    "PA Senate District:30",
+    "PA Senate District:33"
+  ],
+  "FM Radio:WBHB-FM": [
+    "PA Senate District:30",
+    "PA Senate District:33"
+  ],
+  "FM Radio:WHUN-FM": [
+    "PA Senate District:30",
+    "PA Senate District:34"
+  ],
+  "FM Radio:WEEO-FM": [
+    "PA Senate District:30"
+  ],
+  "FM Radio:WQCK": [
+    "PA Senate District:30",
+    "PA Senate District:34"
+  ],
+  "FM Radio:WDBF-FM": [
+    "PA Senate District:30",
+    "PA Senate District:34"
+  ],
+  "PA Senate District:34": [
+    "FM Radio:WCOB",
+    "FM Radio:WRYV",
+    "FM Radio:WRXV",
+    "FM Radio:WTLR",
+    "FM Radio:WJVM",
+    "FM Radio:WJRC",
+    "FM Radio:WPSU",
+    "FM Radio:WMMH",
+    "FM Radio:WSQV",
+    "FM Radio:WIBF",
+    "FM Radio:WPQP",
+    "FM Radio:WMAJ",
+    "FM Radio:WQKX",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WRBT",
+    "FM Radio:WZWW",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WVNW",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WRVV",
+    "FM Radio:WFGY",
+    "FM Radio:WLEJ",
+    "FM Radio:WQLV",
+    "FM Radio:WBUS",
+    "FM Radio:WWOT",
+    "FM Radio:WFGE",
+    "FM Radio:WKSB",
+    "FM Radio:WAPY",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WCHX",
+    "FM Radio:WQCK",
+    "FM Radio:WNNA",
+    "FM Radio:WDBF-FM",
+    "FM Radio:WQJU",
+    "FM Radio:WKPA"
+  ],
+  "FM Radio:WCOB": [
+    "PA Senate District:34"
+  ],
+  "FM Radio:WRYV": [
+    "PA Senate District:34"
+  ],
+  "FM Radio:WRXV": [
+    "PA Senate District:34"
+  ],
+  "FM Radio:WJVM": [
+    "PA Senate District:34"
+  ],
+  "FM Radio:WJRC": [
+    "PA Senate District:34"
+  ],
+  "FM Radio:WSQV": [
+    "PA Senate District:34",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WMAJ": [
+    "PA Senate District:34"
+  ],
+  "FM Radio:WBHV-FM": [
+    "PA Senate District:34"
+  ],
+  "FM Radio:WZWW": [
+    "PA Senate District:34"
+  ],
+  "FM Radio:WVNW": [
+    "PA Senate District:34"
+  ],
+  "FM Radio:WOWY": [
+    "PA Senate District:34"
+  ],
+  "FM Radio:WGJC": [
+    "PA Senate District:34"
+  ],
+  "FM Radio:WLEJ": [
+    "PA Senate District:34"
+  ],
+  "FM Radio:WBUS": [
+    "PA Senate District:34"
+  ],
+  "FM Radio:WAPY": [
+    "PA Senate District:34"
+  ],
+  "FM Radio:WCHX": [
+    "PA Senate District:34"
+  ],
+  "FM Radio:WKPA": [
+    "PA Senate District:34"
+  ],
+  "PA Senate District:33": [
+    "FM Radio:WZXQ",
+    "FM Radio:WZXN",
+    "FM Radio:WZXY",
+    "FM Radio:WZBT",
+    "FM Radio:WIKG",
+    "FM Radio:WYPM",
+    "FM Radio:WQCM",
+    "FM Radio:WIKZ",
+    "FM Radio:WSOX",
+    "FM Radio:WRVV",
+    "FM Radio:WYCR",
+    "FM Radio:WROZ",
+    "FM Radio:WBHB-FM",
+    "FM Radio:WARM-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WWKL",
+    "FM Radio:WGTY"
+  ],
+  "FM Radio:WZXQ": [
+    "PA Senate District:33"
+  ],
+  "FM Radio:WZBT": [
+    "PA Senate District:33"
+  ],
+  "PA Senate District:31": [
+    "FM Radio:WZXM",
+    "FM Radio:WDCV-FM",
+    "FM Radio:WITF-FM",
+    "FM Radio:WZXN",
+    "FM Radio:WVMM",
+    "FM Radio:WPFG",
+    "FM Radio:WJAZ",
+    "FM Radio:WKHL",
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WRBT",
+    "FM Radio:WSOX",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WYCR",
+    "FM Radio:WHKF",
+    "FM Radio:WROZ",
+    "FM Radio:WCAT-FM",
+    "FM Radio:WARM-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WWKL",
+    "FM Radio:WGTY"
+  ],
+  "FM Radio:WZXM": [
+    "PA Senate District:31"
+  ],
+  "FM Radio:WDCV-FM": [
+    "PA Senate District:31"
+  ],
+  "FM Radio:WVMM": [
+    "PA Senate District:31"
+  ],
+  "PA Senate District:32": [
+    "FM Radio:WYFU",
+    "FM Radio:WHYU-FM",
+    "FM Radio:WQEJ",
+    "FM Radio:WLWG",
+    "FM Radio:WCAL",
+    "FM Radio:WJHT",
+    "FM Radio:WLTJ",
+    "FM Radio:WQZS",
+    "FM Radio:KDKA-FM",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WOGG",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKST-FM",
+    "FM Radio:WKYE",
+    "FM Radio:WRRK",
+    "FM Radio:WLKH",
+    "FM Radio:WYRA",
+    "FM Radio:WRKW",
+    "FM Radio:WPKL",
+    "FM Radio:WSHH",
+    "FM Radio:WBZZ",
+    "FM Radio:WORD-FM",
+    "FM Radio:WCCL",
+    "FM Radio:WDVE",
+    "FM Radio:WKVE",
+    "FM Radio:WKHB-FM",
+    "FM Radio:WMKF",
+    "FM Radio:WHJB",
+    "FM Radio:WBVE",
+    "FM Radio:WDSY-FM"
+  ],
+  "FM Radio:WYFU": [
+    "PA Senate District:32",
+    "PA Senate District:46"
+  ],
+  "FM Radio:WHYU-FM": [
+    "PA Senate District:32"
+  ],
+  "FM Radio:WLWG": [
+    "PA Senate District:32",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WCAL": [
+    "PA Senate District:32",
+    "PA Senate District:46"
+  ],
+  "FM Radio:WQZS": [
+    "PA Senate District:32"
+  ],
+  "FM Radio:WOGG": [
+    "PA Senate District:32",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WLKH": [
+    "PA Senate District:32",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WYRA": [
+    "PA Senate District:32"
+  ],
+  "FM Radio:WPKL": [
+    "PA Senate District:32",
+    "PA Senate District:46"
+  ],
+  "FM Radio:WKVE": [
+    "PA Senate District:32",
+    "PA Senate District:46",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WKHB-FM": [
+    "PA Senate District:32",
+    "PA Senate District:39"
+  ],
+  "FM Radio:WMKF": [
+    "PA Senate District:32",
+    "PA Senate District:46"
+  ],
+  "PA Senate District:47": [
+    "FM Radio:WWNW",
+    "FM Radio:WQED-FM",
+    "FM Radio:WVMN",
+    "FM Radio:WESA",
+    "FM Radio:WKPL",
+    "FM Radio:WLTJ",
+    "FM Radio:KDKA-FM",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WYLE",
+    "FM Radio:WAKZ",
+    "FM Radio:WKST-FM",
+    "FM Radio:WRRK",
+    "FM Radio:WLER-FM",
+    "FM Radio:WPKV",
+    "FM Radio:WSHH",
+    "FM Radio:WBZZ",
+    "FM Radio:WORD-FM",
+    "FM Radio:WDVE",
+    "FM Radio:WYFM",
+    "FM Radio:WOGH",
+    "FM Radio:WLYI",
+    "FM Radio:WWIZ",
+    "FM Radio:WOGI",
+    "FM Radio:WPGB",
+    "FM Radio:WXDX-FM",
+    "FM Radio:WAOB-FM",
+    "FM Radio:WDSY-FM"
+  ],
+  "FM Radio:WWNW": [
+    "PA Senate District:47"
+  ],
+  "FM Radio:WVMN": [
+    "PA Senate District:47"
+  ],
+  "FM Radio:WKPL": [
+    "PA Senate District:47"
+  ],
+  "FM Radio:WYLE": [
+    "PA Senate District:47",
+    "PA Senate District:50",
+    "PA Senate District:21"
+  ],
+  "FM Radio:WAKZ": [
+    "PA Senate District:47",
+    "PA Senate District:50"
+  ],
+  "FM Radio:WYFM": [
+    "PA Senate District:47",
+    "PA Senate District:50"
+  ],
+  "FM Radio:WOGH": [
+    "PA Senate District:47",
+    "PA Senate District:46"
+  ],
+  "FM Radio:WLYI": [
+    "PA Senate District:47",
+    "PA Senate District:46"
+  ],
+  "FM Radio:WWIZ": [
+    "PA Senate District:47",
+    "PA Senate District:50"
+  ],
+  "FM Radio:WOGI": [
+    "PA Senate District:47",
+    "PA Senate District:37",
+    "PA Senate District:38",
+    "PA Senate District:46"
+  ],
+  "PA Senate District:50": [
+    "FM Radio:WEFR",
+    "FM Radio:WXTC",
+    "FM Radio:WQHE",
+    "FM Radio:WCGT",
+    "FM Radio:WFSE",
+    "FM Radio:WTWP",
+    "FM Radio:WCGV",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WQLN-FM",
+    "FM Radio:WVME",
+    "FM Radio:WRRN",
+    "FM Radio:WWSE",
+    "FM Radio:WRQI",
+    "FM Radio:WXBB",
+    "FM Radio:WYLE",
+    "FM Radio:WAKZ",
+    "FM Radio:WLLF",
+    "FM Radio:WXTA",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WXKC",
+    "FM Radio:WGYY",
+    "FM Radio:WCGE",
+    "FM Radio:WMVL",
+    "FM Radio:WQHZ",
+    "FM Radio:WCGM",
+    "FM Radio:WYFM",
+    "FM Radio:WRTS",
+    "FM Radio:WWIZ",
+    "FM Radio:WXMJ",
+    "FM Radio:WRKT",
+    "FM Radio:WCTL",
+    "FM Radio:WKZA",
+    "FM Radio:WLVX",
+    "FM Radio:WRQW"
+  ],
+  "FM Radio:WEFR": [
+    "PA Senate District:50",
+    "PA Senate District:49"
+  ],
+  "FM Radio:WXTC": [
+    "PA Senate District:50"
+  ],
+  "FM Radio:WQHE": [
+    "PA Senate District:50",
+    "PA Senate District:21"
+  ],
+  "FM Radio:WCGT": [
+    "PA Senate District:50",
+    "PA Senate District:21"
+  ],
+  "FM Radio:WFSE": [
+    "PA Senate District:50",
+    "PA Senate District:49"
+  ],
+  "FM Radio:WTWP": [
+    "PA Senate District:50"
+  ],
+  "FM Radio:WCGV": [
+    "PA Senate District:50",
+    "PA Senate District:49"
+  ],
+  "FM Radio:WSAJ-FM": [
+    "PA Senate District:50",
+    "PA Senate District:21"
+  ],
+  "FM Radio:WQLN-FM": [
+    "PA Senate District:50",
+    "PA Senate District:49"
+  ],
+  "FM Radio:WVME": [
+    "PA Senate District:50"
+  ],
+  "FM Radio:WRRN": [
+    "PA Senate District:50",
+    "PA Senate District:21",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WWSE": [
+    "PA Senate District:50",
+    "PA Senate District:21"
+  ],
+  "FM Radio:WRQI": [
+    "PA Senate District:50"
+  ],
+  "FM Radio:WXBB": [
+    "PA Senate District:50",
+    "PA Senate District:49"
+  ],
+  "FM Radio:WLLF": [
+    "PA Senate District:50"
+  ],
+  "FM Radio:WXTA": [
+    "PA Senate District:50",
+    "PA Senate District:49"
+  ],
+  "FM Radio:WGYI": [
+    "PA Senate District:50",
+    "PA Senate District:21"
+  ],
+  "FM Radio:WHMJ": [
+    "PA Senate District:50",
+    "PA Senate District:21"
+  ],
+  "FM Radio:WXKC": [
+    "PA Senate District:50",
+    "PA Senate District:49"
+  ],
+  "FM Radio:WGYY": [
+    "PA Senate District:50",
+    "PA Senate District:49",
+    "PA Senate District:21"
+  ],
+  "FM Radio:WCGE": [
+    "PA Senate District:50",
+    "PA Senate District:49"
+  ],
+  "FM Radio:WMVL": [
+    "PA Senate District:50"
+  ],
+  "FM Radio:WQHZ": [
+    "PA Senate District:50",
+    "PA Senate District:49"
+  ],
+  "FM Radio:WCGM": [
+    "PA Senate District:50",
+    "PA Senate District:49"
+  ],
+  "FM Radio:WRTS": [
+    "PA Senate District:50",
+    "PA Senate District:49"
+  ],
+  "FM Radio:WXMJ": [
+    "PA Senate District:50"
+  ],
+  "FM Radio:WRKT": [
+    "PA Senate District:50",
+    "PA Senate District:49"
+  ],
+  "FM Radio:WCTL": [
+    "PA Senate District:50",
+    "PA Senate District:49"
+  ],
+  "FM Radio:WKZA": [
+    "PA Senate District:50",
+    "PA Senate District:21"
+  ],
+  "FM Radio:WLVX": [
+    "PA Senate District:50"
+  ],
+  "FM Radio:WRQW": [
+    "PA Senate District:50",
+    "PA Senate District:21"
+  ],
+  "PA Senate District:49": [
+    "FM Radio:WEFR",
+    "FM Radio:WMCE-FM",
+    "FM Radio:WFSE",
+    "FM Radio:WCGV",
+    "FM Radio:WERG",
+    "FM Radio:WQLN-FM",
+    "FM Radio:WICU-FM",
+    "FM Radio:WTWF",
+    "FM Radio:WXBB",
+    "FM Radio:WEBG",
+    "FM Radio:WXTA",
+    "FM Radio:WXKC",
+    "FM Radio:WGYY",
+    "FM Radio:WCGE",
+    "FM Radio:WQHZ",
+    "FM Radio:WCGM",
+    "FM Radio:WRTS",
+    "FM Radio:WRKT",
+    "FM Radio:WCTL"
+  ],
+  "FM Radio:WMCE-FM": [
+    "PA Senate District:49"
+  ],
+  "FM Radio:WERG": [
+    "PA Senate District:49"
+  ],
+  "FM Radio:WICU-FM": [
+    "PA Senate District:49"
+  ],
+  "FM Radio:WTWF": [
+    "PA Senate District:49"
+  ],
+  "FM Radio:WEBG": [
+    "PA Senate District:49"
+  ],
+  "PA Senate District:21": [
+    "FM Radio:WQHE",
+    "FM Radio:WYVL",
+    "FM Radio:WCGT",
+    "FM Radio:WAWN",
+    "FM Radio:WNJA",
+    "FM Radio:WPSX",
+    "FM Radio:WCOT",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WCUC-FM",
+    "FM Radio:WRRN",
+    "FM Radio:WCCR-FM",
+    "FM Radio:WWSE",
+    "FM Radio:WYLE",
+    "FM Radio:WLKW",
+    "FM Radio:WLOQ",
+    "FM Radio:WDDH",
+    "FM Radio:WLER-FM",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WGYY",
+    "FM Radio:WKFT",
+    "FM Radio:WHUG",
+    "FM Radio:WIFT",
+    "FM Radio:WQFX-FM",
+    "FM Radio:WKQL",
+    "FM Radio:WNAE",
+    "FM Radio:WJKB",
+    "FM Radio:WMKX",
+    "FM Radio:WCGH",
+    "FM Radio:WKZA",
+    "FM Radio:WCOH",
+    "FM Radio:WRQW"
+  ],
+  "FM Radio:WYVL": [
+    "PA Senate District:21"
+  ],
+  "FM Radio:WAWN": [
+    "PA Senate District:21"
+  ],
+  "FM Radio:WNJA": [
+    "PA Senate District:21"
+  ],
+  "FM Radio:WPSX": [
+    "PA Senate District:21",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WCOT": [
+    "PA Senate District:21"
+  ],
+  "FM Radio:WCUC-FM": [
+    "PA Senate District:21"
+  ],
+  "FM Radio:WCCR-FM": [
+    "PA Senate District:21"
+  ],
+  "FM Radio:WLKW": [
+    "PA Senate District:21"
+  ],
+  "FM Radio:WLOQ": [
+    "PA Senate District:21"
+  ],
+  "FM Radio:WDDH": [
+    "PA Senate District:21",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WKFT": [
+    "PA Senate District:21"
+  ],
+  "FM Radio:WHUG": [
+    "PA Senate District:21"
+  ],
+  "FM Radio:WQFX-FM": [
+    "PA Senate District:21"
+  ],
+  "FM Radio:WNAE": [
+    "PA Senate District:21"
+  ],
+  "FM Radio:WJKB": [
+    "PA Senate District:21",
+    "PA Senate District:25"
+  ],
+  "FM Radio:WCGH": [
+    "PA Senate District:21"
+  ],
+  "PA Senate District:42": [
+    "FM Radio:WRCT",
+    "FM Radio:WPTS-FM"
+  ],
+  "FM Radio:WRCT": [
+    "PA Senate District:42",
+    "PA Senate District:45",
+    "PA Senate District:38",
+    "PA Senate District:43"
+  ],
+  "FM Radio:WPTS-FM": [
+    "PA Senate District:42",
+    "PA Senate District:43"
+  ],
+  "PA Senate District:37": [
+    "FM Radio:WQED-FM",
+    "FM Radio:WESA",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WJPA-FM",
+    "FM Radio:WPKV",
+    "FM Radio:WBZZ",
+    "FM Radio:WOGI",
+    "FM Radio:WPGB"
+  ],
+  "FM Radio:WJPA-FM": [
+    "PA Senate District:37",
+    "PA Senate District:46"
+  ],
+  "PA Senate District:45": [
+    "FM Radio:WKGO",
+    "FM Radio:WRCT",
+    "FM Radio:WQED-FM",
+    "FM Radio:WESA",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WPKV",
+    "FM Radio:WBZZ"
+  ],
+  "PA Senate District:38": [
+    "FM Radio:WRCT",
+    "FM Radio:WQED-FM",
+    "FM Radio:WESA",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WPKV",
+    "FM Radio:WBZZ",
+    "FM Radio:WOGI"
+  ],
+  "PA Senate District:18": [
+    "FM Radio:WDIY",
+    "FM Radio:WJCS",
+    "FM Radio:WLHI",
+    "FM Radio:WPNJ",
+    "FM Radio:WLVR-FM",
+    "FM Radio:WMUH"
+  ],
+  "FM Radio:WDIY": [
+    "PA Senate District:18",
+    "PA Senate District:16",
+    "PA Senate District:24",
+    "PA Senate District:40"
+  ],
+  "FM Radio:WJCS": [
+    "PA Senate District:18",
+    "PA Senate District:16"
+  ],
+  "FM Radio:WLHI": [
+    "PA Senate District:18",
+    "PA Senate District:16"
+  ],
+  "FM Radio:WPNJ": [
+    "PA Senate District:18",
+    "PA Senate District:40"
+  ],
+  "FM Radio:WLVR-FM": [
+    "PA Senate District:18",
+    "PA Senate District:24"
+  ],
+  "FM Radio:WMUH": [
+    "PA Senate District:18",
+    "PA Senate District:16"
+  ],
+  "PA Senate District:43": [
+    "FM Radio:WRCT",
+    "FM Radio:WPTS-FM"
+  ],
+  "PA Senate District:7": [
+    "FM Radio:WPEB",
+    "FM Radio:WRDV",
+    "FM Radio:WKDU",
+    "FM Radio:WPHI-FM"
+  ],
+  "FM Radio:WPEB": [
+    "PA Senate District:7",
+    "PA Senate District:8"
+  ],
+  "FM Radio:WRDV": [
+    "PA Senate District:7",
+    "PA Senate District:4",
+    "PA Senate District:12",
+    "PA Senate District:6"
+  ],
+  "FM Radio:WKDU": [
+    "PA Senate District:7",
+    "PA Senate District:8",
+    "PA Senate District:1"
+  ],
+  "FM Radio:WPHI-FM": [
+    "PA Senate District:7",
+    "PA Senate District:4",
+    "PA Senate District:26",
+    "PA Senate District:17",
+    "PA Senate District:12"
+  ],
+  "PA Senate District:8": [
+    "FM Radio:WPEB",
+    "FM Radio:WKDU"
+  ],
+  "PA Senate District:4": [
+    "FM Radio:WRDV",
+    "FM Radio:WPHI-FM"
+  ],
+  "PA Senate District:48": [
+    "FM Radio:WFCP",
+    "FM Radio:WXPH",
+    "FM Radio:WITF-FM",
+    "FM Radio:WJTL",
+    "FM Radio:WRTL",
+    "FM Radio:WMSS",
+    "FM Radio:WKHL",
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WQKX",
+    "FM Radio:WDAC",
+    "FM Radio:WRBT",
+    "FM Radio:WSOX",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WHKF",
+    "FM Radio:WFVY",
+    "FM Radio:WROZ",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WARM-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WWKL",
+    "FM Radio:WGTY"
+  ],
+  "FM Radio:WFCP": [
+    "PA Senate District:48",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WRTL": [
+    "PA Senate District:48",
+    "PA Senate District:36",
+    "PA Senate District:29"
+  ],
+  "PA Senate District:20": [
+    "FM Radio:WRGN",
+    "FM Radio:WLKA",
+    "FM Radio:WBYH",
+    "FM Radio:WSKG-FM",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WCLH",
+    "FM Radio:WZZH",
+    "FM Radio:WCDJ",
+    "FM Radio:WPAU",
+    "FM Radio:WQFM",
+    "FM Radio:WMGS",
+    "FM Radio:WJOB-FM",
+    "FM Radio:WSJR",
+    "FM Radio:WTRW",
+    "FM Radio:WIYN",
+    "FM Radio:WDNH-FM",
+    "FM Radio:WBHD",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WBHT",
+    "FM Radio:WBSX",
+    "FM Radio:WHWK",
+    "FM Radio:WKRZ",
+    "FM Radio:WAAL",
+    "FM Radio:WUSR",
+    "FM Radio:WQFN",
+    "FM Radio:WDRE",
+    "FM Radio:WGGY",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WMMZ",
+    "FM Radio:WGMF-FM",
+    "FM Radio:WHNB",
+    "FM Radio:WWRR",
+    "FM Radio:WYCY",
+    "FM Radio:WBNW-FM",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "FM Radio:WRGN": [
+    "PA Senate District:20",
+    "PA Senate District:14"
+  ],
+  "FM Radio:WLKA": [
+    "PA Senate District:20",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WBYH": [
+    "PA Senate District:20"
+  ],
+  "FM Radio:WCLH": [
+    "PA Senate District:20",
+    "PA Senate District:14"
+  ],
+  "FM Radio:WZZH": [
+    "PA Senate District:20",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WCDJ": [
+    "PA Senate District:20"
+  ],
+  "FM Radio:WPAU": [
+    "PA Senate District:20"
+  ],
+  "FM Radio:WQFM": [
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WJOB-FM": [
+    "PA Senate District:20"
+  ],
+  "FM Radio:WTRW": [
+    "PA Senate District:20",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WIYN": [
+    "PA Senate District:20"
+  ],
+  "FM Radio:WDNH-FM": [
+    "PA Senate District:20"
+  ],
+  "FM Radio:WBHD": [
+    "PA Senate District:20",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WBHT": [
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WUSR": [
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WQFN": [
+    "PA Senate District:20",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WDRE": [
+    "PA Senate District:20"
+  ],
+  "FM Radio:WMQX": [
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WILK-FM": [
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WHNB": [
+    "PA Senate District:20"
+  ],
+  "FM Radio:WWRR": [
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WYCY": [
+    "PA Senate District:20"
+  ],
+  "FM Radio:WEZX": [
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:22"
+  ],
+  "FM Radio:WCIG": [
+    "PA Senate District:20",
+    "PA Senate District:14",
+    "PA Senate District:22"
+  ],
+  "PA Senate District:14": [
+    "FM Radio:WRGN",
+    "FM Radio:WRKC",
+    "FM Radio:WBYX",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WCLH",
+    "FM Radio:WRTY",
+    "FM Radio:WCDH",
+    "FM Radio:WQFM",
+    "FM Radio:WMGS",
+    "FM Radio:WSJR",
+    "FM Radio:WZZO",
+    "FM Radio:WCTO",
+    "FM Radio:WBHT",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WUSR",
+    "FM Radio:WODE-FM",
+    "FM Radio:WLEV",
+    "FM Radio:WGGY",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WMGH-FM",
+    "FM Radio:WPZX",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "FM Radio:WRKC": [
+    "PA Senate District:14"
+  ],
+  "FM Radio:WBYX": [
+    "PA Senate District:14",
+    "PA Senate District:22",
+    "PA Senate District:40"
+  ],
+  "FM Radio:WRTY": [
+    "PA Senate District:14",
+    "PA Senate District:22",
+    "PA Senate District:40"
+  ],
+  "FM Radio:WZZO": [
+    "PA Senate District:14",
+    "PA Senate District:16",
+    "PA Senate District:24",
+    "PA Senate District:40",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WCTO": [
+    "PA Senate District:14",
+    "PA Senate District:11",
+    "PA Senate District:16",
+    "PA Senate District:24",
+    "PA Senate District:40",
+    "PA Senate District:10",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WODE-FM": [
+    "PA Senate District:14",
+    "PA Senate District:16",
+    "PA Senate District:24",
+    "PA Senate District:40",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WLEV": [
+    "PA Senate District:14",
+    "PA Senate District:11",
+    "PA Senate District:44",
+    "PA Senate District:16",
+    "PA Senate District:24",
+    "PA Senate District:40",
+    "PA Senate District:10",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WAEB-FM": [
+    "PA Senate District:14",
+    "PA Senate District:11",
+    "PA Senate District:16",
+    "PA Senate District:24",
+    "PA Senate District:40",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WMGH-FM": [
+    "PA Senate District:14",
+    "PA Senate District:16",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WPZX": [
+    "PA Senate District:14",
+    "PA Senate District:22",
+    "PA Senate District:40"
+  ],
+  "PA Senate District:11": [
+    "FM Radio:WYBQ",
+    "FM Radio:WZMV",
+    "FM Radio:WZXB",
+    "FM Radio:WXAC",
+    "FM Radio:WYTL",
+    "FM Radio:WCTO",
+    "FM Radio:WLEV",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WBYN-FM"
+  ],
+  "FM Radio:WYBQ": [
+    "PA Senate District:11",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WZMV": [
+    "PA Senate District:11",
+    "PA Senate District:29"
+  ],
+  "FM Radio:WZXB": [
+    "PA Senate District:11",
+    "PA Senate District:44",
+    "PA Senate District:24"
+  ],
+  "FM Radio:WXAC": [
+    "PA Senate District:11"
+  ],
+  "FM Radio:WYTL": [
+    "PA Senate District:11",
+    "PA Senate District:44",
+    "PA Senate District:36"
+  ],
+  "FM Radio:WBYN-FM": [
+    "PA Senate District:11",
+    "PA Senate District:44",
+    "PA Senate District:16",
+    "PA Senate District:24",
+    "PA Senate District:10",
+    "PA Senate District:36",
+    "PA Senate District:29"
+  ],
+  "PA Senate District:19": [
+    "FM Radio:WZXE",
+    "FM Radio:WRTJ",
+    "FM Radio:WZWG",
+    "FM Radio:WIP-FM",
+    "FM Radio:WDAC",
+    "FM Radio:WBEN-FM",
+    "FM Radio:WTDY-FM",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WOGL",
+    "FM Radio:WRNB",
+    "FM Radio:WBEB",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WMGK",
+    "FM Radio:WRFF",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WDAS-FM"
+  ],
+  "FM Radio:WRTJ": [
+    "PA Senate District:19",
+    "PA Senate District:44"
+  ],
+  "FM Radio:WZWG": [
+    "PA Senate District:19"
+  ],
+  "FM Radio:WIP-FM": [
+    "PA Senate District:19",
+    "PA Senate District:44",
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WBEN-FM": [
+    "PA Senate District:19",
+    "PA Senate District:44",
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WTDY-FM": [
+    "PA Senate District:19",
+    "PA Senate District:44",
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WOGL": [
+    "PA Senate District:19",
+    "PA Senate District:44",
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WRNB": [
+    "PA Senate District:19",
+    "PA Senate District:44",
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WBEB": [
+    "PA Senate District:19",
+    "PA Senate District:44",
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WMGK": [
+    "PA Senate District:19",
+    "PA Senate District:44",
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WRFF": [
+    "PA Senate District:19",
+    "PA Senate District:44",
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WDAS-FM": [
+    "PA Senate District:19",
+    "PA Senate District:44",
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "PA Senate District:44": [
+    "FM Radio:WZZD",
+    "FM Radio:WXPN",
+    "FM Radio:WRTJ",
+    "FM Radio:WRTI",
+    "FM Radio:WZXB",
+    "FM Radio:WHYY-FM",
+    "FM Radio:WYTL",
+    "FM Radio:WXTU",
+    "FM Radio:WMMR",
+    "FM Radio:WIP-FM",
+    "FM Radio:WBEN-FM",
+    "FM Radio:WTDY-FM",
+    "FM Radio:WOGL",
+    "FM Radio:WUSL",
+    "FM Radio:WRNB",
+    "FM Radio:WLEV",
+    "FM Radio:WBEB",
+    "FM Radio:WIOQ",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WMGK",
+    "FM Radio:WRFF",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WDAS-FM",
+    "FM Radio:WUMR",
+    "FM Radio:WBYN-FM"
+  ],
+  "FM Radio:WZZD": [
+    "PA Senate District:44"
+  ],
+  "FM Radio:WXPN": [
+    "PA Senate District:44",
+    "PA Senate District:9",
+    "PA Senate District:10",
+    "PA Senate District:12",
+    "PA Senate District:6"
+  ],
+  "FM Radio:WRTI": [
+    "PA Senate District:44",
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WHYY-FM": [
+    "PA Senate District:44",
+    "PA Senate District:9",
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WXTU": [
+    "PA Senate District:44",
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WMMR": [
+    "PA Senate District:44",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WUSL": [
+    "PA Senate District:44",
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WIOQ": [
+    "PA Senate District:44",
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WUMR": [
+    "PA Senate District:44",
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "PA Senate District:22": [
+    "FM Radio:WLKA",
+    "FM Radio:WBYX",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WZZH",
+    "FM Radio:WRTY",
+    "FM Radio:WVMW-FM",
+    "FM Radio:WQFM",
+    "FM Radio:WMGS",
+    "FM Radio:WSJR",
+    "FM Radio:WTRW",
+    "FM Radio:WBHD",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WBHT",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WUSR",
+    "FM Radio:WQFN",
+    "FM Radio:WGGY",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WPZX",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG",
+    "FM Radio:WKRF"
+  ],
+  "FM Radio:WVMW-FM": [
+    "PA Senate District:22"
+  ],
+  "FM Radio:WKRF": [
+    "PA Senate District:22",
+    "PA Senate District:40"
+  ],
+  "PA Senate District:9": [
+    "FM Radio:WXPN",
+    "FM Radio:WHYY-FM",
+    "FM Radio:WSRN-FM",
+    "FM Radio:WCUR"
+  ],
+  "FM Radio:WSRN-FM": [
+    "PA Senate District:9",
+    "PA Senate District:26"
+  ],
+  "FM Radio:WCUR": [
+    "PA Senate District:9"
+  ],
+  "PA Senate District:16": [
+    "FM Radio:WDIY",
+    "FM Radio:WJCS",
+    "FM Radio:WLHI",
+    "FM Radio:WMUH",
+    "FM Radio:WZZO",
+    "FM Radio:WCTO",
+    "FM Radio:WODE-FM",
+    "FM Radio:WLEV",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WMGH-FM",
+    "FM Radio:WBYN-FM"
+  ],
+  "PA Senate District:24": [
+    "FM Radio:WDIY",
+    "FM Radio:WBYO",
+    "FM Radio:WRTI",
+    "FM Radio:WZXB",
+    "FM Radio:WHYY-FM",
+    "FM Radio:WLVR-FM",
+    "FM Radio:WBMR",
+    "FM Radio:WXTU",
+    "FM Radio:WIP-FM",
+    "FM Radio:WZZO",
+    "FM Radio:WBEN-FM",
+    "FM Radio:WCTO",
+    "FM Radio:WTDY-FM",
+    "FM Radio:WOGL",
+    "FM Radio:WUSL",
+    "FM Radio:WODE-FM",
+    "FM Radio:WRNB",
+    "FM Radio:WLEV",
+    "FM Radio:WBEB",
+    "FM Radio:WIOQ",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WMGK",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WRFF",
+    "FM Radio:WDAS-FM",
+    "FM Radio:WUMR",
+    "FM Radio:WBYN-FM"
+  ],
+  "FM Radio:WBYO": [
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "FM Radio:WBMR": [
+    "PA Senate District:24",
+    "PA Senate District:10",
+    "PA Senate District:12"
+  ],
+  "PA Senate District:40": [
+    "FM Radio:WDIY",
+    "FM Radio:WBYX",
+    "FM Radio:WWPJ",
+    "FM Radio:WESS",
+    "FM Radio:WPNJ",
+    "FM Radio:WRTY",
+    "FM Radio:WMGS",
+    "FM Radio:WSBG",
+    "FM Radio:WZZO",
+    "FM Radio:WCTO",
+    "FM Radio:WABT",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WODE-FM",
+    "FM Radio:WLEV",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WPZX",
+    "FM Radio:WKRF"
+  ],
+  "FM Radio:WWPJ": [
+    "PA Senate District:40"
+  ],
+  "FM Radio:WESS": [
+    "PA Senate District:40"
+  ],
+  "FM Radio:WSBG": [
+    "PA Senate District:40"
+  ],
+  "FM Radio:WABT": [
+    "PA Senate District:40"
+  ],
+  "PA Senate District:26": [
+    "FM Radio:WXVU",
+    "FM Radio:WSRN-FM",
+    "FM Radio:WRSD",
+    "FM Radio:WHHS",
+    "FM Radio:WPHI-FM"
+  ],
+  "FM Radio:WXVU": [
+    "PA Senate District:26",
+    "PA Senate District:17"
+  ],
+  "FM Radio:WRSD": [
+    "PA Senate District:26"
+  ],
+  "FM Radio:WHHS": [
+    "PA Senate District:26",
+    "PA Senate District:17"
+  ],
+  "PA Senate District:10": [
+    "FM Radio:WXPN",
+    "FM Radio:WBYO",
+    "FM Radio:WRTI",
+    "FM Radio:WHYY-FM",
+    "FM Radio:WBMR",
+    "FM Radio:WXTU",
+    "FM Radio:WMMR",
+    "FM Radio:WIP-FM",
+    "FM Radio:WZZO",
+    "FM Radio:WBEN-FM",
+    "FM Radio:WCTO",
+    "FM Radio:WTDY-FM",
+    "FM Radio:WOGL",
+    "FM Radio:WUSL",
+    "FM Radio:WODE-FM",
+    "FM Radio:WRNB",
+    "FM Radio:WLEV",
+    "FM Radio:WBEB",
+    "FM Radio:WIOQ",
+    "FM Radio:WMGK",
+    "FM Radio:WRFF",
+    "FM Radio:WDAS-FM",
+    "FM Radio:WUMR",
+    "FM Radio:WBYN-FM"
+  ],
+  "PA Senate District:17": [
+    "FM Radio:WXVU",
+    "FM Radio:WHHS",
+    "FM Radio:WPHI-FM"
+  ],
+  "PA Senate District:12": [
+    "FM Radio:WXPN",
+    "FM Radio:WRDV",
+    "FM Radio:WBMR",
+    "FM Radio:WPHI-FM"
+  ],
+  "PA Senate District:1": [
+    "FM Radio:WKDU"
+  ],
+  "PA Senate District:6": [
+    "FM Radio:WXPN",
+    "FM Radio:WRDV",
+    "FM Radio:WLBS"
+  ],
+  "FM Radio:WLBS": [
+    "PA Senate District:6"
+  ],
+  "PA Senate District:36": [
+    "FM Radio:WWEC",
+    "FM Radio:WXPH",
+    "FM Radio:WITF-FM",
+    "FM Radio:WJTL",
+    "FM Radio:WRTL",
+    "FM Radio:WYTL",
+    "FM Radio:WNUU",
+    "FM Radio:WDAC",
+    "FM Radio:WRBT",
+    "FM Radio:WSOX",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WROZ",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WARM-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WWKL",
+    "FM Radio:WBYN-FM"
+  ],
+  "FM Radio:WWEC": [
+    "PA Senate District:36"
+  ],
+  "PA Senate District:29": [
+    "FM Radio:WFCP",
+    "FM Radio:WYBQ",
+    "FM Radio:WZMV",
+    "FM Radio:WFBA",
+    "FM Radio:WRTL",
+    "FM Radio:WCDH",
+    "FM Radio:WZRG",
+    "FM Radio:WMGS",
+    "FM Radio:WQKX",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WCTO",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WBSX",
+    "FM Radio:WVRZ",
+    "FM Radio:WLEV",
+    "FM Radio:WROZ",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WKSB",
+    "FM Radio:WARM-FM",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WMGH-FM",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WWKL",
+    "FM Radio:WBYN-FM"
+  ],
+  "PA Senate District:46": [
+    "FM Radio:WYFU",
+    "FM Radio:WQED-FM",
+    "FM Radio:WESA",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WNJR",
+    "FM Radio:WCAL",
+    "FM Radio:WLTJ",
+    "FM Radio:KDKA-FM",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WOGG",
+    "FM Radio:WJPA-FM",
+    "FM Radio:WKST-FM",
+    "FM Radio:WRRK",
+    "FM Radio:WPKV",
+    "FM Radio:WPKL",
+    "FM Radio:WSHH",
+    "FM Radio:WBZZ",
+    "FM Radio:WORD-FM",
+    "FM Radio:WDVE",
+    "FM Radio:WKVE",
+    "FM Radio:WOGH",
+    "FM Radio:WLYI",
+    "FM Radio:WOGI",
+    "FM Radio:WPGB",
+    "FM Radio:WXDX-FM",
+    "FM Radio:WAOB-FM",
+    "FM Radio:WMKF",
+    "FM Radio:WDSY-FM"
+  ],
+  "FM Radio:WNJR": [
+    "PA Senate District:46"
+  ],
+  "PA Senate District:39": [
+    "FM Radio:WCOA-FM",
+    "FM Radio:WQED-FM",
+    "FM Radio:WQEJ",
+    "FM Radio:WESA",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WLWG",
+    "FM Radio:WJHT",
+    "FM Radio:WLTJ",
+    "FM Radio:KDKA-FM",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WOGG",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKST-FM",
+    "FM Radio:WKYE",
+    "FM Radio:WRRK",
+    "FM Radio:WLKH",
+    "FM Radio:WPKV",
+    "FM Radio:WRKW",
+    "FM Radio:WSHH",
+    "FM Radio:WBZZ",
+    "FM Radio:WORD-FM",
+    "FM Radio:WDVE",
+    "FM Radio:WKVE",
+    "FM Radio:WKHB-FM",
+    "FM Radio:WPGB",
+    "FM Radio:WXDX-FM",
+    "FM Radio:WLCY",
+    "FM Radio:WHJB",
+    "FM Radio:WDSY-FM"
+  ],
+  "PA Senate District:25": [
+    "FM Radio:WRQV",
+    "FM Radio:WTWR",
+    "FM Radio:WCOV-FM",
+    "FM Radio:WPMU",
+    "FM Radio:WPSX",
+    "FM Radio:WRVI",
+    "FM Radio:WSQV",
+    "FM Radio:WOGA",
+    "FM Radio:WRRN",
+    "FM Radio:WPQP",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WMTT-FM",
+    "FM Radio:WHKS",
+    "FM Radio:WPIG",
+    "FM Radio:WQQP",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WCOR-FM",
+    "FM Radio:WDDH",
+    "FM Radio:WQKY",
+    "FM Radio:WQBR",
+    "FM Radio:WBRR",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WJNG",
+    "FM Radio:WCOG-FM",
+    "FM Radio:WFGE",
+    "FM Radio:WDKC",
+    "FM Radio:WIFT",
+    "FM Radio:WKSB",
+    "FM Radio:WKQL",
+    "FM Radio:WCOP",
+    "FM Radio:WPXZ-FM",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WJKB",
+    "FM Radio:WILQ",
+    "FM Radio:WMKX",
+    "FM Radio:WNKI",
+    "FM Radio:WXMT",
+    "FM Radio:WDSN",
+    "FM Radio:WQKK",
+    "FM Radio:DWLIH",
+    "FM Radio:WCOH"
+  ],
+  "FM Radio:WTWR": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WCOV-FM": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WOGA": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WKBI-FM": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WMTT-FM": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WHKS": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WPIG": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WCOR-FM": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WQKY": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WBRR": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WJNG": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WCOG-FM": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WDKC": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WCOP": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WXMT": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WDSN": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:WQKK": [
+    "PA Senate District:25"
+  ],
+  "FM Radio:DWLIH": [
+    "PA Senate District:25"
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "Police Department:Montgomery - State Police - Troop K - Skippack": [
+    "PA Senate District:24"
+  ],
+  "PA Senate District:24": [
+    "Police Department:Montgomery - State Police - Troop K - Skippack",
+    "Police Department:Bucks - PA State Police (Dublin)",
+    "Police Department:Bucks - Tinicum  Police"
+  ],
+  "Police Department:Montgomery - Lower Moreland": [
+    "PA Senate District:12"
+  ],
+  "PA Senate District:12": [
+    "Police Department:Montgomery - Lower Moreland",
+    "Police Department:Montgomery - Upper Moreland",
+    "Police Department:Montgomery - Horsham",
+    "Police Department:Montgomery - Lower Gwynedd",
+    "Police Department:Montgomery - Montgomery",
+    "Police Department:Montgomery - Upper Gwynedd",
+    "Police Department:Montgomery - Hatfield",
+    "Police Department:Montgomery - Franconia",
+    "Police Department:Bucks - Upper Southampton  Police",
+    "Police Department:Bucks - Warminster  Police",
+    "Police Department:Bucks - Warrington  Police"
+  ],
+  "Police Department:Montgomery - Cheltenham": [
+    "PA Senate District:4"
+  ],
+  "PA Senate District:4": [
+    "Police Department:Montgomery - Cheltenham",
+    "Police Department:Montgomery - Springfield",
+    "Police Department:Montgomery - Abington"
+  ],
+  "Police Department:Montgomery - Springfield": [
+    "PA Senate District:4"
+  ],
+  "Police Department:Montgomery - Abington": [
+    "PA Senate District:4"
+  ],
+  "Police Department:Montgomery - Whitemarsh": [
+    "PA Senate District:7"
+  ],
+  "PA Senate District:7": [
+    "Police Department:Montgomery - Whitemarsh",
+    "Police Department:Montgomery - Upper Dublin"
+  ],
+  "Police Department:Montgomery - Lower Merion": [
+    "PA Senate District:17"
+  ],
+  "PA Senate District:17": [
+    "Police Department:Montgomery - Lower Merion",
+    "Police Department:Montgomery - Plymouth",
+    "Police Department:Montgomery - Whitpain",
+    "Police Department:Montgomery - East Norriton",
+    "Police Department:Montgomery - Upper Merion",
+    "Police Department:Delaware - Haverford",
+    "Police Department:Delaware - Radnor"
+  ],
+  "Police Department:Montgomery - Upper Moreland": [
+    "PA Senate District:12"
+  ],
+  "Police Department:Montgomery - Horsham": [
+    "PA Senate District:12"
+  ],
+  "Police Department:Montgomery - Upper Dublin": [
+    "PA Senate District:7"
+  ],
+  "Police Department:Montgomery - Plymouth": [
+    "PA Senate District:17"
+  ],
+  "Police Department:Montgomery - Lower Gwynedd": [
+    "PA Senate District:12"
+  ],
+  "Police Department:Montgomery - Whitpain": [
+    "PA Senate District:17"
+  ],
+  "Police Department:Montgomery - Montgomery": [
+    "PA Senate District:12"
+  ],
+  "Police Department:Montgomery - East Norriton": [
+    "PA Senate District:17"
+  ],
+  "Police Department:Montgomery - Upper Gwynedd": [
+    "PA Senate District:12"
+  ],
+  "Police Department:Montgomery - Hatfield": [
+    "PA Senate District:12"
+  ],
+  "Police Department:Montgomery - Upper Merion": [
+    "PA Senate District:17"
+  ],
+  "Police Department:Montgomery - Franconia": [
+    "PA Senate District:12"
+  ],
+  "Police Department:Montgomery - Limerick": [
+    "PA Senate District:44"
+  ],
+  "PA Senate District:44": [
+    "Police Department:Montgomery - Limerick",
+    "Police Department:Chester - PA State Police Embreeville",
+    "Police Department:Chester - West Caln Township",
+    "Police Department:Chester - West Brandywine Township"
+  ],
+  "Police Department:Chester - PA State Police Avondale": [
+    "PA Senate District:19"
+  ],
+  "PA Senate District:19": [
+    "Police Department:Chester - PA State Police Avondale",
+    "Police Department:Chester - PA State Police Embreeville"
+  ],
+  "Police Department:Chester - PA State Police Embreeville": [
+    "PA Senate District:19",
+    "PA Senate District:44"
+  ],
+  "Police Department:Chester - Easttown Township": [
+    "PA Senate District:26"
+  ],
+  "PA Senate District:26": [
+    "Police Department:Chester - Easttown Township",
+    "Police Department:Chester - Willistown Township",
+    "Police Department:Delaware - Newtown",
+    "Police Department:Delaware - Marple",
+    "Police Department:Delaware - Upper Providence",
+    "Police Department:Delaware - Springfield",
+    "Police Department:Delaware - Ridley",
+    "Police Department:Delaware - Upper Darby"
+  ],
+  "Police Department:Chester - Kennett Township": [
+    "PA Senate District:9"
+  ],
+  "PA Senate District:9": [
+    "Police Department:Chester - Kennett Township",
+    "Police Department:Chester - East Marlborough Township",
+    "Police Department:Chester - Westtown/E Goshen",
+    "Police Department:Chester - West Goshen Township",
+    "Police Department:Delaware - PSP MEDIA STATION"
+  ],
+  "Police Department:Chester - East Marlborough Township": [
+    "PA Senate District:9"
+  ],
+  "Police Department:Chester - West Caln Township": [
+    "PA Senate District:44"
+  ],
+  "Police Department:Chester - West Brandywine Township": [
+    "PA Senate District:44"
+  ],
+  "Police Department:Chester - Westtown/E Goshen": [
+    "PA Senate District:9"
+  ],
+  "Police Department:Chester - West Goshen Township": [
+    "PA Senate District:9"
+  ],
+  "Police Department:Chester - Willistown Township": [
+    "PA Senate District:26"
+  ],
+  "Police Department:Bucks - Bristol  Police": [
+    "PA Senate District:6"
+  ],
+  "PA Senate District:6": [
+    "Police Department:Bucks - Bristol  Police",
+    "Police Department:Bucks - Lower Southampton  Police",
+    "Police Department:Bucks - Middletown  Police",
+    "Police Department:Bucks - Newtown  Police",
+    "Police Department:Bucks - Northampton  Police",
+    "Police Department:Bucks - Warwick  Police",
+    "Police Department:Bucks - PA State Police (Bensalem)"
+  ],
+  "Police Department:Bucks - Lower Southampton  Police": [
+    "PA Senate District:6"
+  ],
+  "Police Department:Bucks - Upper Southampton  Police": [
+    "PA Senate District:12"
+  ],
+  "Police Department:Bucks - Warminster  Police": [
+    "PA Senate District:12"
+  ],
+  "Police Department:Bucks - Falls  Police": [
+    "PA Senate District:10"
+  ],
+  "PA Senate District:10": [
+    "Police Department:Bucks - Falls  Police",
+    "Police Department:Bucks - Lower Makefield  Police",
+    "Police Department:Bucks - Upper Makefield  Police",
+    "Police Department:Bucks - Pennridge Regional Police",
+    "Police Department:Bucks - Hilltown  Police",
+    "Police Department:Bucks - Buckingham  Police",
+    "Police Department:Bucks - PA State Police (Dublin)",
+    "Police Department:Bucks - Solebury  Police",
+    "Police Department:Bucks - Plumstead  Police"
+  ],
+  "Police Department:Bucks - Middletown  Police": [
+    "PA Senate District:6"
+  ],
+  "Police Department:Bucks - Newtown  Police": [
+    "PA Senate District:6"
+  ],
+  "Police Department:Bucks - Northampton  Police": [
+    "PA Senate District:6"
+  ],
+  "Police Department:Bucks - Lower Makefield  Police": [
+    "PA Senate District:10"
+  ],
+  "Police Department:Bucks - Warrington  Police": [
+    "PA Senate District:12"
+  ],
+  "Police Department:Bucks - Warwick  Police": [
+    "PA Senate District:6"
+  ],
+  "Police Department:Bucks - Upper Makefield  Police": [
+    "PA Senate District:10"
+  ],
+  "Police Department:Bucks - Pennridge Regional Police": [
+    "PA Senate District:10"
+  ],
+  "Police Department:Bucks - Hilltown  Police": [
+    "PA Senate District:10"
+  ],
+  "Police Department:Bucks - Buckingham  Police": [
+    "PA Senate District:10"
+  ],
+  "Police Department:Bucks - PA State Police (Dublin)": [
+    "PA Senate District:24",
+    "PA Senate District:10"
+  ],
+  "Police Department:Bucks - Solebury  Police": [
+    "PA Senate District:10"
+  ],
+  "Police Department:Bucks - Plumstead  Police": [
+    "PA Senate District:10"
+  ],
+  "Police Department:Bucks - Tinicum  Police": [
+    "PA Senate District:24"
+  ],
+  "Police Department:Bucks - PA State Police (Bensalem)": [
+    "PA Senate District:6"
+  ],
+  "Police Department:Delaware - Newtown": [
+    "PA Senate District:26"
+  ],
+  "Police Department:Delaware - Marple": [
+    "PA Senate District:26"
+  ],
+  "Police Department:Delaware - Upper Providence": [
+    "PA Senate District:26"
+  ],
+  "Police Department:Delaware - Springfield": [
+    "PA Senate District:26"
+  ],
+  "Police Department:Delaware - Lansdowne": [
+    "PA Senate District:8"
+  ],
+  "PA Senate District:8": [
+    "Police Department:Delaware - Lansdowne",
+    "Police Department:Delaware - Yeadon",
+    "Police Department:Delaware - Darby",
+    "Police Department:Delaware - Folcroft"
+  ],
+  "Police Department:Delaware - Yeadon": [
+    "PA Senate District:8"
+  ],
+  "Police Department:Delaware - Darby": [
+    "PA Senate District:8"
+  ],
+  "Police Department:Delaware - Folcroft": [
+    "PA Senate District:8"
+  ],
+  "Police Department:Delaware - Ridley": [
+    "PA Senate District:26"
+  ],
+  "Police Department:Delaware - Upper Darby": [
+    "PA Senate District:26"
+  ],
+  "Police Department:Delaware - Haverford": [
+    "PA Senate District:17"
+  ],
+  "Police Department:Delaware - Radnor": [
+    "PA Senate District:17"
+  ],
+  "Police Department:Delaware - PSP MEDIA STATION": [
+    "PA Senate District:9"
+  ]
+}

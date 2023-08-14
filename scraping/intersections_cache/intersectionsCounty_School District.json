@@ -1,0 +1,1488 @@
+{
+  "County:Elk": [
+    "School District:Elk - Johnsonburg Area",
+    "School District:Elk - Saint Marys Area",
+    "School District:Elk - Ridgway Area",
+    "School District:Mckean - Kane Area"
+  ],
+  "School District:Elk - Johnsonburg Area": [
+    "County:Elk"
+  ],
+  "School District:Elk - Saint Marys Area": [
+    "County:Elk"
+  ],
+  "School District:Elk - Ridgway Area": [
+    "County:Elk"
+  ],
+  "School District:Mckean - Kane Area": [
+    "County:Elk",
+    "County:McKean"
+  ],
+  "County:Erie": [
+    "School District:Erie - North East",
+    "School District:Erie - Northwestern",
+    "School District:Erie - Wattsburg Area",
+    "School District:Erie - Corry Area",
+    "School District:Erie - General McLane",
+    "School District:Erie - Fort Leboeuf"
+  ],
+  "School District:Erie - North East": [
+    "County:Erie"
+  ],
+  "School District:Erie - Northwestern": [
+    "County:Erie"
+  ],
+  "School District:Erie - Wattsburg Area": [
+    "County:Erie"
+  ],
+  "School District:Erie - Corry Area": [
+    "County:Erie",
+    "County:Warren"
+  ],
+  "School District:Erie - General McLane": [
+    "County:Erie"
+  ],
+  "School District:Erie - Fort Leboeuf": [
+    "County:Erie"
+  ],
+  "County:Fayette": [
+    "School District:Fayette - Laurel Highlands",
+    "School District:Fayette - Uniontown Area",
+    "School District:Fayette - Albert Gallatin Area",
+    "School District:Fayette - Brownsville Area",
+    "School District:Fayette - Connellsville Area",
+    "School District:Fayette - Frazier"
+  ],
+  "School District:Fayette - Laurel Highlands": [
+    "County:Fayette"
+  ],
+  "School District:Fayette - Uniontown Area": [
+    "County:Fayette"
+  ],
+  "School District:Fayette - Albert Gallatin Area": [
+    "County:Fayette"
+  ],
+  "School District:Fayette - Brownsville Area": [
+    "County:Fayette"
+  ],
+  "School District:Fayette - Connellsville Area": [
+    "County:Fayette"
+  ],
+  "School District:Fayette - Frazier": [
+    "County:Fayette"
+  ],
+  "County:Forest": [
+    "School District:Forest - Forest Area"
+  ],
+  "School District:Forest - Forest Area": [
+    "County:Forest"
+  ],
+  "County:Franklin": [
+    "School District:Franklin - Greencastle-Antrim",
+    "School District:Franklin - Waynesboro Area",
+    "School District:Franklin - Tuscarora",
+    "School District:Franklin - Chambersburg Area",
+    "School District:Franklin - Fannett-Metal"
+  ],
+  "School District:Franklin - Greencastle-Antrim": [
+    "County:Franklin"
+  ],
+  "School District:Franklin - Waynesboro Area": [
+    "County:Franklin"
+  ],
+  "School District:Franklin - Tuscarora": [
+    "County:Franklin"
+  ],
+  "School District:Franklin - Chambersburg Area": [
+    "County:Franklin"
+  ],
+  "School District:Franklin - Fannett-Metal": [
+    "County:Franklin"
+  ],
+  "County:Fulton": [
+    "School District:Fulton - Southern Fulton",
+    "School District:Fulton - Forbes Road",
+    "School District:Fulton - Central Fulton"
+  ],
+  "School District:Fulton - Southern Fulton": [
+    "County:Fulton"
+  ],
+  "School District:Fulton - Forbes Road": [
+    "County:Fulton"
+  ],
+  "School District:Fulton - Central Fulton": [
+    "County:Fulton"
+  ],
+  "County:Greene": [
+    "School District:Greene - Jefferson-Morgan",
+    "School District:Greene - Southeastern Greene",
+    "School District:Greene - West Greene",
+    "School District:Greene - Carmichaels Area",
+    "School District:Greene - Central Greene"
+  ],
+  "School District:Greene - Jefferson-Morgan": [
+    "County:Greene"
+  ],
+  "School District:Greene - Southeastern Greene": [
+    "County:Greene"
+  ],
+  "School District:Greene - West Greene": [
+    "County:Greene"
+  ],
+  "School District:Greene - Carmichaels Area": [
+    "County:Greene"
+  ],
+  "School District:Greene - Central Greene": [
+    "County:Greene"
+  ],
+  "County:Huntingdon": [
+    "School District:Huntingdon - Southern Huntingdon County",
+    "School District:Huntingdon - Juniata Valley",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Huntingdon - Mount Union Area",
+    "School District:Bedford - Tussey Mountain",
+    "School District:Blair - Tyrone Area"
+  ],
+  "School District:Huntingdon - Southern Huntingdon County": [
+    "County:Huntingdon"
+  ],
+  "School District:Huntingdon - Juniata Valley": [
+    "County:Huntingdon"
+  ],
+  "School District:Huntingdon - Huntingdon Area": [
+    "County:Huntingdon"
+  ],
+  "School District:Huntingdon - Mount Union Area": [
+    "County:Huntingdon",
+    "County:Mifflin"
+  ],
+  "School District:Bedford - Tussey Mountain": [
+    "County:Huntingdon",
+    "County:Bedford"
+  ],
+  "School District:Blair - Tyrone Area": [
+    "County:Huntingdon",
+    "County:Blair"
+  ],
+  "County:Indiana": [
+    "School District:Indiana - Penns Manor Area",
+    "School District:Indiana - Purchase Line",
+    "School District:Indiana - Marion Center Area",
+    "School District:Indiana - Indiana Area",
+    "School District:Jefferson - Punxsutawney Area",
+    "School District:Indiana - United",
+    "School District:Indiana - Blairsville-Saltsburg"
+  ],
+  "School District:Indiana - Penns Manor Area": [
+    "County:Indiana"
+  ],
+  "School District:Indiana - Purchase Line": [
+    "County:Indiana"
+  ],
+  "School District:Indiana - Marion Center Area": [
+    "County:Indiana"
+  ],
+  "School District:Indiana - Indiana Area": [
+    "County:Indiana"
+  ],
+  "School District:Jefferson - Punxsutawney Area": [
+    "County:Indiana",
+    "County:Jefferson"
+  ],
+  "School District:Indiana - United": [
+    "County:Indiana"
+  ],
+  "School District:Indiana - Blairsville-Saltsburg": [
+    "County:Indiana"
+  ],
+  "County:Jefferson": [
+    "School District:Jefferson - Punxsutawney Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Jefferson - Brookville Area",
+    "School District:Jefferson - Brockway Area"
+  ],
+  "School District:Clearfield - Dubois Area": [
+    "County:Jefferson",
+    "County:Clearfield"
+  ],
+  "School District:Jefferson - Brookville Area": [
+    "County:Jefferson"
+  ],
+  "School District:Jefferson - Brockway Area": [
+    "County:Jefferson"
+  ],
+  "County:Juniata": [
+    "School District:Juniata - Juniata County"
+  ],
+  "School District:Juniata - Juniata County": [
+    "County:Juniata"
+  ],
+  "County:Lackawanna": [
+    "School District:Lackawanna - Valley View",
+    "School District:Wyoming - Lackawanna Trail",
+    "School District:Lackawanna - Lakeland",
+    "School District:Lackawanna - North Pocono",
+    "School District:Lackawanna - Scranton",
+    "School District:Lackawanna - Abington Heights"
+  ],
+  "School District:Lackawanna - Valley View": [
+    "County:Lackawanna"
+  ],
+  "School District:Wyoming - Lackawanna Trail": [
+    "County:Lackawanna",
+    "County:Wyoming"
+  ],
+  "School District:Lackawanna - Lakeland": [
+    "County:Lackawanna"
+  ],
+  "School District:Lackawanna - North Pocono": [
+    "County:Lackawanna"
+  ],
+  "School District:Lackawanna - Scranton": [
+    "County:Lackawanna"
+  ],
+  "School District:Lackawanna - Abington Heights": [
+    "County:Lackawanna"
+  ],
+  "County:Lancaster": [
+    "School District:Lancaster - Pequea Valley",
+    "School District:Lancaster - Penn Manor",
+    "School District:Lancaster - Manheim Central",
+    "School District:Lancaster - Solanco",
+    "School District:Lancaster - Eastern Lancaster County",
+    "School District:Lancaster - Elizabethtown Area",
+    "School District:Lancaster - Conestoga Valley"
+  ],
+  "School District:Lancaster - Pequea Valley": [
+    "County:Lancaster"
+  ],
+  "School District:Lancaster - Penn Manor": [
+    "County:Lancaster"
+  ],
+  "School District:Lancaster - Manheim Central": [
+    "County:Lancaster"
+  ],
+  "School District:Lancaster - Solanco": [
+    "County:Lancaster"
+  ],
+  "School District:Lancaster - Eastern Lancaster County": [
+    "County:Lancaster"
+  ],
+  "School District:Lancaster - Elizabethtown Area": [
+    "County:Lancaster"
+  ],
+  "School District:Lancaster - Conestoga Valley": [
+    "County:Lancaster"
+  ],
+  "County:Lawrence": [
+    "School District:Lawrence - Laurel",
+    "School District:Lawrence - Mohawk Area",
+    "School District:Lawrence - Shenango Area",
+    "School District:Lawrence - Wilmington Area",
+    "School District:Lawrence - Ellwood City Area"
+  ],
+  "School District:Lawrence - Laurel": [
+    "County:Lawrence"
+  ],
+  "School District:Lawrence - Mohawk Area": [
+    "County:Lawrence"
+  ],
+  "School District:Lawrence - Shenango Area": [
+    "County:Lawrence"
+  ],
+  "School District:Lawrence - Wilmington Area": [
+    "County:Lawrence"
+  ],
+  "School District:Lawrence - Ellwood City Area": [
+    "County:Lawrence"
+  ],
+  "County:Adams": [
+    "School District:Adams - Littlestown Area",
+    "School District:Adams - Upper Adams",
+    "School District:Adams - Bermudian Springs",
+    "School District:Adams - Conewago Valley",
+    "School District:Adams - Fairfield Area",
+    "School District:Adams - Gettysburg Area"
+  ],
+  "School District:Adams - Littlestown Area": [
+    "County:Adams"
+  ],
+  "School District:Adams - Upper Adams": [
+    "County:Adams"
+  ],
+  "School District:Adams - Bermudian Springs": [
+    "County:Adams"
+  ],
+  "School District:Adams - Conewago Valley": [
+    "County:Adams"
+  ],
+  "School District:Adams - Fairfield Area": [
+    "County:Adams"
+  ],
+  "School District:Adams - Gettysburg Area": [
+    "County:Adams"
+  ],
+  "County:Allegheny": [
+    "School District:Allegheny - Pittsburgh",
+    "School District:Allegheny - North Allegheny",
+    "School District:Allegheny - West Allegheny",
+    "School District:Allegheny - Elizabeth Forward",
+    "School District:Allegheny - Deer Lakes"
+  ],
+  "School District:Allegheny - Pittsburgh": [
+    "County:Allegheny"
+  ],
+  "School District:Allegheny - North Allegheny": [
+    "County:Allegheny"
+  ],
+  "School District:Allegheny - West Allegheny": [
+    "County:Allegheny"
+  ],
+  "School District:Allegheny - Elizabeth Forward": [
+    "County:Allegheny"
+  ],
+  "School District:Allegheny - Deer Lakes": [
+    "County:Allegheny"
+  ],
+  "County:Armstrong": [
+    "School District:Clarion - Redbank Valley",
+    "School District:Armstrong - Apollo-Ridge",
+    "School District:Armstrong - Armstrong",
+    "School District:Butler - Karns City Area"
+  ],
+  "School District:Clarion - Redbank Valley": [
+    "County:Armstrong",
+    "County:Clarion"
+  ],
+  "School District:Armstrong - Apollo-Ridge": [
+    "County:Armstrong"
+  ],
+  "School District:Armstrong - Armstrong": [
+    "County:Armstrong"
+  ],
+  "School District:Butler - Karns City Area": [
+    "County:Armstrong",
+    "County:Butler"
+  ],
+  "County:Beaver": [
+    "School District:Beaver - Riverside Beaver County",
+    "School District:Beaver - Freedom Area",
+    "School District:Beaver - Hopewell Area",
+    "School District:Beaver - Western Beaver County",
+    "School District:Beaver - South Side Area",
+    "School District:Beaver - Ambridge Area",
+    "School District:Beaver - Blackhawk",
+    "School District:Beaver - Central Valley"
+  ],
+  "School District:Beaver - Riverside Beaver County": [
+    "County:Beaver"
+  ],
+  "School District:Beaver - Freedom Area": [
+    "County:Beaver"
+  ],
+  "School District:Beaver - Hopewell Area": [
+    "County:Beaver"
+  ],
+  "School District:Beaver - Western Beaver County": [
+    "County:Beaver"
+  ],
+  "School District:Beaver - South Side Area": [
+    "County:Beaver"
+  ],
+  "School District:Beaver - Ambridge Area": [
+    "County:Beaver"
+  ],
+  "School District:Beaver - Blackhawk": [
+    "County:Beaver"
+  ],
+  "School District:Beaver - Central Valley": [
+    "County:Beaver"
+  ],
+  "County:Bedford": [
+    "School District:Bedford - Northern Bedford",
+    "School District:Bedford - Tussey Mountain",
+    "School District:Bedford - Bedford Area",
+    "School District:Bedford - Chestnut Ridge",
+    "School District:Bedford - Everett Area"
+  ],
+  "School District:Bedford - Northern Bedford": [
+    "County:Bedford"
+  ],
+  "School District:Bedford - Bedford Area": [
+    "County:Bedford"
+  ],
+  "School District:Bedford - Chestnut Ridge": [
+    "County:Bedford"
+  ],
+  "School District:Bedford - Everett Area": [
+    "County:Bedford"
+  ],
+  "County:Berks": [
+    "School District:Berks - Tulpehocken Area",
+    "School District:Berks - Kutztown Area",
+    "School District:Berks - Hamburg Area",
+    "School District:Berks - Oley Valley",
+    "School District:Berks - Brandywine Heights Area",
+    "School District:Berks - Twin Valley",
+    "School District:Berks - Schuylkill Valley",
+    "School District:Berks - Boyertown Area",
+    "School District:Berks - Conrad Weiser Area"
+  ],
+  "School District:Berks - Tulpehocken Area": [
+    "County:Berks"
+  ],
+  "School District:Berks - Kutztown Area": [
+    "County:Berks"
+  ],
+  "School District:Berks - Hamburg Area": [
+    "County:Berks"
+  ],
+  "School District:Berks - Oley Valley": [
+    "County:Berks"
+  ],
+  "School District:Berks - Brandywine Heights Area": [
+    "County:Berks"
+  ],
+  "School District:Berks - Twin Valley": [
+    "County:Berks"
+  ],
+  "School District:Berks - Schuylkill Valley": [
+    "County:Berks"
+  ],
+  "School District:Berks - Boyertown Area": [
+    "County:Berks",
+    "County:Montgomery"
+  ],
+  "School District:Berks - Conrad Weiser Area": [
+    "County:Berks"
+  ],
+  "County:Blair": [
+    "School District:Blair - Hollidaysburg Area",
+    "School District:Blair - Spring Cove",
+    "School District:Blair - Williamsburg Community",
+    "School District:Blair - Tyrone Area",
+    "School District:Blair - Bellwood-Antis",
+    "School District:Blair - Altoona Area",
+    "School District:Blair - Claysburg-Kimmel"
+  ],
+  "School District:Blair - Hollidaysburg Area": [
+    "County:Blair"
+  ],
+  "School District:Blair - Spring Cove": [
+    "County:Blair"
+  ],
+  "School District:Blair - Williamsburg Community": [
+    "County:Blair"
+  ],
+  "School District:Blair - Bellwood-Antis": [
+    "County:Blair"
+  ],
+  "School District:Blair - Altoona Area": [
+    "County:Blair"
+  ],
+  "School District:Blair - Claysburg-Kimmel": [
+    "County:Blair"
+  ],
+  "County:Bradford": [
+    "School District:Bradford - Towanda Area",
+    "School District:Bradford - Northeast Bradford",
+    "School District:Bradford - Wyalusing Area",
+    "School District:Bradford - Troy Area",
+    "School District:Bradford - Athens Area",
+    "School District:Bradford - Canton Area"
+  ],
+  "School District:Bradford - Towanda Area": [
+    "County:Bradford"
+  ],
+  "School District:Bradford - Northeast Bradford": [
+    "County:Bradford"
+  ],
+  "School District:Bradford - Wyalusing Area": [
+    "County:Bradford"
+  ],
+  "School District:Bradford - Troy Area": [
+    "County:Bradford"
+  ],
+  "School District:Bradford - Athens Area": [
+    "County:Bradford"
+  ],
+  "School District:Bradford - Canton Area": [
+    "County:Bradford",
+    "County:Lycoming"
+  ],
+  "County:Butler": [
+    "School District:Butler - South Butler County",
+    "School District:Butler - Mars Area",
+    "School District:Butler - Moniteau",
+    "School District:Butler - Seneca Valley",
+    "School District:Butler - Slippery Rock Area",
+    "School District:Butler - Karns City Area",
+    "School District:Butler - Butler Area"
+  ],
+  "School District:Butler - South Butler County": [
+    "County:Butler"
+  ],
+  "School District:Butler - Mars Area": [
+    "County:Butler"
+  ],
+  "School District:Butler - Moniteau": [
+    "County:Butler"
+  ],
+  "School District:Butler - Seneca Valley": [
+    "County:Butler"
+  ],
+  "School District:Butler - Slippery Rock Area": [
+    "County:Butler"
+  ],
+  "School District:Butler - Butler Area": [
+    "County:Butler"
+  ],
+  "County:Cambria": [
+    "School District:Cambria - Penn Cambria",
+    "School District:Cambria - Northern Cambria",
+    "School District:Cambria - Forest Hills",
+    "School District:Cambria - Cambria Heights",
+    "School District:Cambria - Central Cambria",
+    "School District:Clearfield - Glendale"
+  ],
+  "School District:Cambria - Penn Cambria": [
+    "County:Cambria"
+  ],
+  "School District:Cambria - Northern Cambria": [
+    "County:Cambria"
+  ],
+  "School District:Cambria - Forest Hills": [
+    "County:Cambria"
+  ],
+  "School District:Cambria - Cambria Heights": [
+    "County:Cambria"
+  ],
+  "School District:Cambria - Central Cambria": [
+    "County:Cambria"
+  ],
+  "School District:Clearfield - Glendale": [
+    "County:Cambria"
+  ],
+  "County:Cameron": [
+    "School District:Cameron - Cameron County"
+  ],
+  "School District:Cameron - Cameron County": [
+    "County:Cameron"
+  ],
+  "County:Carbon": [
+    "School District:Carbon - Lehighton Area",
+    "School District:Carbon - Palmerton Area",
+    "School District:Carbon - Panther Valley",
+    "School District:Carbon - Weatherly Area",
+    "School District:Carbon - Jim Thorpe Area"
+  ],
+  "School District:Carbon - Lehighton Area": [
+    "County:Carbon"
+  ],
+  "School District:Carbon - Palmerton Area": [
+    "County:Carbon"
+  ],
+  "School District:Carbon - Panther Valley": [
+    "County:Carbon"
+  ],
+  "School District:Carbon - Weatherly Area": [
+    "County:Carbon"
+  ],
+  "School District:Carbon - Jim Thorpe Area": [
+    "County:Carbon"
+  ],
+  "County:Centre": [
+    "School District:Centre - Penns Valley Area",
+    "School District:Clearfield - Philipsburg-Osceola Area",
+    "School District:Centre - State College Area",
+    "School District:Centre - Bellefonte Area",
+    "School District:Centre - Bald Eagle Area"
+  ],
+  "School District:Centre - Penns Valley Area": [
+    "County:Centre"
+  ],
+  "School District:Clearfield - Philipsburg-Osceola Area": [
+    "County:Centre",
+    "County:Clearfield"
+  ],
+  "School District:Centre - State College Area": [
+    "County:Centre"
+  ],
+  "School District:Centre - Bellefonte Area": [
+    "County:Centre"
+  ],
+  "School District:Centre - Bald Eagle Area": [
+    "County:Centre"
+  ],
+  "County:Clarion": [
+    "School District:Clarion - Keystone",
+    "School District:Clarion - North Clarion County",
+    "School District:Clarion - Redbank Valley",
+    "School District:Clarion - Union",
+    "School District:Clarion - Allegheny-Clarion Valley",
+    "School District:Clarion - Clarion Area",
+    "School District:Clarion - Clarion-Limestone Area"
+  ],
+  "School District:Clarion - Keystone": [
+    "County:Clarion"
+  ],
+  "School District:Clarion - North Clarion County": [
+    "County:Clarion"
+  ],
+  "School District:Clarion - Union": [
+    "County:Clarion"
+  ],
+  "School District:Clarion - Allegheny-Clarion Valley": [
+    "County:Clarion",
+    "County:Venango"
+  ],
+  "School District:Clarion - Clarion Area": [
+    "County:Clarion"
+  ],
+  "School District:Clarion - Clarion-Limestone Area": [
+    "County:Clarion"
+  ],
+  "County:Clearfield": [
+    "School District:Clearfield - Philipsburg-Osceola Area",
+    "School District:Clearfield - Moshannon Valley",
+    "School District:Clearfield - West Branch Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Clearfield - Clearfield Area",
+    "School District:Clearfield - Curwensville Area",
+    "School District:Clearfield - Harmony Area"
+  ],
+  "School District:Clearfield - Moshannon Valley": [
+    "County:Clearfield"
+  ],
+  "School District:Clearfield - West Branch Area": [
+    "County:Clearfield"
+  ],
+  "School District:Clearfield - Clearfield Area": [
+    "County:Clearfield"
+  ],
+  "School District:Clearfield - Curwensville Area": [
+    "County:Clearfield"
+  ],
+  "School District:Clearfield - Harmony Area": [
+    "County:Clearfield"
+  ],
+  "County:Clinton": [
+    "School District:Clinton - Keystone Central"
+  ],
+  "School District:Clinton - Keystone Central": [
+    "County:Clinton"
+  ],
+  "County:Columbia": [
+    "School District:Columbia - Millville Area",
+    "School District:Columbia - Southern Columbia Area",
+    "School District:Columbia - Bloomsburg Area",
+    "School District:Columbia - Central Columbia",
+    "School District:Columbia - Benton Area"
+  ],
+  "School District:Columbia - Millville Area": [
+    "County:Columbia"
+  ],
+  "School District:Columbia - Southern Columbia Area": [
+    "County:Columbia"
+  ],
+  "School District:Columbia - Bloomsburg Area": [
+    "County:Columbia"
+  ],
+  "School District:Columbia - Central Columbia": [
+    "County:Columbia"
+  ],
+  "School District:Columbia - Benton Area": [
+    "County:Columbia"
+  ],
+  "County:Crawford": [
+    "School District:Crawford - Penncrest",
+    "School District:Venango - Titusville Area",
+    "School District:Crawford - Conneaut",
+    "School District:Crawford - Crawford Central"
+  ],
+  "School District:Crawford - Penncrest": [
+    "County:Crawford"
+  ],
+  "School District:Venango - Titusville Area": [
+    "County:Crawford",
+    "County:Venango"
+  ],
+  "School District:Crawford - Conneaut": [
+    "County:Crawford"
+  ],
+  "School District:Crawford - Crawford Central": [
+    "County:Crawford"
+  ],
+  "County:Cumberland": [
+    "School District:Cumberland - South Middleton",
+    "School District:Cumberland - Shippensburg Area",
+    "School District:Cumberland - Big Spring",
+    "School District:Cumberland - Carlisle Area",
+    "School District:Cumberland - Cumberland Valley"
+  ],
+  "School District:Cumberland - South Middleton": [
+    "County:Cumberland"
+  ],
+  "School District:Cumberland - Shippensburg Area": [
+    "County:Cumberland"
+  ],
+  "School District:Cumberland - Big Spring": [
+    "County:Cumberland"
+  ],
+  "School District:Cumberland - Carlisle Area": [
+    "County:Cumberland"
+  ],
+  "School District:Cumberland - Cumberland Valley": [
+    "County:Cumberland"
+  ],
+  "County:Dauphin": [
+    "School District:Dauphin - Lower Dauphin",
+    "School District:Dauphin - Millersburg Area",
+    "School District:Dauphin - Halifax Area",
+    "School District:Dauphin - Upper Dauphin Area",
+    "School District:Schuylkill - Williams Valley",
+    "School District:Dauphin - Central Dauphin"
+  ],
+  "School District:Dauphin - Lower Dauphin": [
+    "County:Dauphin"
+  ],
+  "School District:Dauphin - Millersburg Area": [
+    "County:Dauphin"
+  ],
+  "School District:Dauphin - Halifax Area": [
+    "County:Dauphin"
+  ],
+  "School District:Dauphin - Upper Dauphin Area": [
+    "County:Dauphin"
+  ],
+  "School District:Schuylkill - Williams Valley": [
+    "County:Dauphin"
+  ],
+  "School District:Dauphin - Central Dauphin": [
+    "County:Dauphin"
+  ],
+  "County:Wayne": [
+    "School District:Wayne - Wallenpaupack Area",
+    "School District:Susquehanna - Forest City Regional",
+    "School District:Wayne - Western Wayne",
+    "School District:Wayne - Wayne Highlands"
+  ],
+  "School District:Wayne - Wallenpaupack Area": [
+    "County:Wayne",
+    "County:Pike"
+  ],
+  "School District:Susquehanna - Forest City Regional": [
+    "County:Wayne"
+  ],
+  "School District:Wayne - Western Wayne": [
+    "County:Wayne"
+  ],
+  "School District:Wayne - Wayne Highlands": [
+    "County:Wayne"
+  ],
+  "County:Westmoreland": [
+    "School District:Westmoreland - Ligonier Valley",
+    "School District:Westmoreland - Kiski Area",
+    "School District:Westmoreland - Greater Latrobe",
+    "School District:Westmoreland - Hempfield Area",
+    "School District:Westmoreland - Mount Pleasant Area",
+    "School District:Westmoreland - Yough",
+    "School District:Westmoreland - Derry Area"
+  ],
+  "School District:Westmoreland - Ligonier Valley": [
+    "County:Westmoreland"
+  ],
+  "School District:Westmoreland - Kiski Area": [
+    "County:Westmoreland"
+  ],
+  "School District:Westmoreland - Greater Latrobe": [
+    "County:Westmoreland"
+  ],
+  "School District:Westmoreland - Hempfield Area": [
+    "County:Westmoreland"
+  ],
+  "School District:Westmoreland - Mount Pleasant Area": [
+    "County:Westmoreland"
+  ],
+  "School District:Westmoreland - Yough": [
+    "County:Westmoreland"
+  ],
+  "School District:Westmoreland - Derry Area": [
+    "County:Westmoreland"
+  ],
+  "County:Wyoming": [
+    "School District:Wyoming - Lackawanna Trail",
+    "School District:Luzerne - Lake-Lehman",
+    "School District:Wyoming - Tunkhannock Area"
+  ],
+  "School District:Luzerne - Lake-Lehman": [
+    "County:Wyoming",
+    "County:Luzerne"
+  ],
+  "School District:Wyoming - Tunkhannock Area": [
+    "County:Wyoming"
+  ],
+  "County:York": [
+    "School District:York - Northern York County",
+    "School District:York - South Eastern",
+    "School District:York - Northeastern York",
+    "School District:York - Red Lion Area",
+    "School District:York - Spring Grove Area",
+    "School District:York - Southern York County",
+    "School District:York - West Shore",
+    "School District:York - South Western",
+    "School District:York - Eastern York",
+    "School District:York - Dallastown Area",
+    "School District:York - Dover Area"
+  ],
+  "School District:York - Northern York County": [
+    "County:York"
+  ],
+  "School District:York - South Eastern": [
+    "County:York"
+  ],
+  "School District:York - Northeastern York": [
+    "County:York"
+  ],
+  "School District:York - Red Lion Area": [
+    "County:York"
+  ],
+  "School District:York - Spring Grove Area": [
+    "County:York"
+  ],
+  "School District:York - Southern York County": [
+    "County:York"
+  ],
+  "School District:York - West Shore": [
+    "County:York"
+  ],
+  "School District:York - South Western": [
+    "County:York"
+  ],
+  "School District:York - Eastern York": [
+    "County:York"
+  ],
+  "School District:York - Dallastown Area": [
+    "County:York"
+  ],
+  "School District:York - Dover Area": [
+    "County:York"
+  ],
+  "County:Lebanon": [
+    "School District:Lebanon - Palmyra Area",
+    "School District:Lebanon - Northern Lebanon",
+    "School District:Lebanon - Eastern Lebanon County",
+    "School District:Lebanon - Annville-Cleona",
+    "School District:Lebanon - Cornwall-Lebanon"
+  ],
+  "School District:Lebanon - Palmyra Area": [
+    "County:Lebanon"
+  ],
+  "School District:Lebanon - Northern Lebanon": [
+    "County:Lebanon"
+  ],
+  "School District:Lebanon - Eastern Lebanon County": [
+    "County:Lebanon"
+  ],
+  "School District:Lebanon - Annville-Cleona": [
+    "County:Lebanon"
+  ],
+  "School District:Lebanon - Cornwall-Lebanon": [
+    "County:Lebanon"
+  ],
+  "County:Lehigh": [
+    "School District:Lehigh - Northwestern Lehigh",
+    "School District:Lehigh - Parkland",
+    "School District:Lehigh - Northern Lehigh",
+    "School District:Lehigh - Southern Lehigh",
+    "School District:Lehigh - East Penn"
+  ],
+  "School District:Lehigh - Northwestern Lehigh": [
+    "County:Lehigh"
+  ],
+  "School District:Lehigh - Parkland": [
+    "County:Lehigh"
+  ],
+  "School District:Lehigh - Northern Lehigh": [
+    "County:Lehigh"
+  ],
+  "School District:Lehigh - Southern Lehigh": [
+    "County:Lehigh"
+  ],
+  "School District:Lehigh - East Penn": [
+    "County:Lehigh"
+  ],
+  "County:Luzerne": [
+    "School District:Luzerne - Northwest Area",
+    "School District:Luzerne - Greater Nanticoke Area",
+    "School District:Luzerne - Lake-Lehman",
+    "School District:Luzerne - Hazleton Area",
+    "School District:Luzerne - Wilkes-Barre Area",
+    "School District:Columbia - Berwick Area",
+    "School District:Luzerne - Dallas",
+    "School District:Luzerne - Crestwood"
+  ],
+  "School District:Luzerne - Northwest Area": [
+    "County:Luzerne"
+  ],
+  "School District:Luzerne - Greater Nanticoke Area": [
+    "County:Luzerne"
+  ],
+  "School District:Luzerne - Hazleton Area": [
+    "County:Luzerne",
+    "County:Schuylkill"
+  ],
+  "School District:Luzerne - Wilkes-Barre Area": [
+    "County:Luzerne"
+  ],
+  "School District:Columbia - Berwick Area": [
+    "County:Luzerne"
+  ],
+  "School District:Luzerne - Dallas": [
+    "County:Luzerne"
+  ],
+  "School District:Luzerne - Crestwood": [
+    "County:Luzerne"
+  ],
+  "County:Lycoming": [
+    "School District:Lycoming - Montoursville Area",
+    "School District:Lycoming - Montgomery Area",
+    "School District:Tioga - Southern Tioga",
+    "School District:Lycoming - Williamsport Area",
+    "School District:Lycoming - East Lycoming",
+    "School District:Lycoming - Jersey Shore Area",
+    "School District:Bradford - Canton Area"
+  ],
+  "School District:Lycoming - Montoursville Area": [
+    "County:Lycoming"
+  ],
+  "School District:Lycoming - Montgomery Area": [
+    "County:Lycoming"
+  ],
+  "School District:Tioga - Southern Tioga": [
+    "County:Lycoming",
+    "County:Tioga"
+  ],
+  "School District:Lycoming - Williamsport Area": [
+    "County:Lycoming"
+  ],
+  "School District:Lycoming - East Lycoming": [
+    "County:Lycoming"
+  ],
+  "School District:Lycoming - Jersey Shore Area": [
+    "County:Lycoming"
+  ],
+  "County:McKean": [
+    "School District:Mckean - Otto-Eldred",
+    "School District:Mckean - Port Allegany",
+    "School District:Mckean - Smethport Area",
+    "School District:Mckean - Bradford Area",
+    "School District:Mckean - Kane Area"
+  ],
+  "School District:Mckean - Otto-Eldred": [
+    "County:McKean"
+  ],
+  "School District:Mckean - Port Allegany": [
+    "County:McKean"
+  ],
+  "School District:Mckean - Smethport Area": [
+    "County:McKean"
+  ],
+  "School District:Mckean - Bradford Area": [
+    "County:McKean"
+  ],
+  "County:Mercer": [
+    "School District:Mercer - Grove City Area",
+    "School District:Mercer - Lakeview",
+    "School District:Mercer - Mercer Area",
+    "School District:Mercer - Reynolds",
+    "School District:Mercer - West Middlesex Area",
+    "School District:Mercer - Commodore Perry"
+  ],
+  "School District:Mercer - Grove City Area": [
+    "County:Mercer"
+  ],
+  "School District:Mercer - Lakeview": [
+    "County:Mercer"
+  ],
+  "School District:Mercer - Mercer Area": [
+    "County:Mercer"
+  ],
+  "School District:Mercer - Reynolds": [
+    "County:Mercer"
+  ],
+  "School District:Mercer - West Middlesex Area": [
+    "County:Mercer"
+  ],
+  "School District:Mercer - Commodore Perry": [
+    "County:Mercer"
+  ],
+  "County:Mifflin": [
+    "School District:Mifflin - Mifflin County",
+    "School District:Huntingdon - Mount Union Area"
+  ],
+  "School District:Mifflin - Mifflin County": [
+    "County:Mifflin"
+  ],
+  "County:Monroe": [
+    "School District:Monroe - Pleasant Valley",
+    "School District:Monroe - Pocono Mountain",
+    "School District:Monroe - Stroudsburg Area",
+    "School District:Monroe - East Stroudsburg Area"
+  ],
+  "School District:Monroe - Pleasant Valley": [
+    "County:Monroe"
+  ],
+  "School District:Monroe - Pocono Mountain": [
+    "County:Monroe"
+  ],
+  "School District:Monroe - Stroudsburg Area": [
+    "County:Monroe"
+  ],
+  "School District:Monroe - East Stroudsburg Area": [
+    "County:Monroe",
+    "County:Pike"
+  ],
+  "County:Montour": [
+    "School District:Northumberland - Warrior Run",
+    "School District:Montour - Danville Area"
+  ],
+  "School District:Northumberland - Warrior Run": [
+    "County:Montour",
+    "County:Northumberland"
+  ],
+  "School District:Montour - Danville Area": [
+    "County:Montour",
+    "County:Northumberland"
+  ],
+  "County:Northampton": [
+    "School District:Northampton - Saucon Valley",
+    "School District:Northampton - Pen Argyl Area",
+    "School District:Northampton - Nazareth Area",
+    "School District:Northampton - Northampton Area",
+    "School District:Northampton - Wilson Area",
+    "School District:Northampton - Easton Area",
+    "School District:Northampton - Bangor Area",
+    "School District:Northampton - Bethlehem Area"
+  ],
+  "School District:Northampton - Saucon Valley": [
+    "County:Northampton"
+  ],
+  "School District:Northampton - Pen Argyl Area": [
+    "County:Northampton"
+  ],
+  "School District:Northampton - Nazareth Area": [
+    "County:Northampton"
+  ],
+  "School District:Northampton - Northampton Area": [
+    "County:Northampton"
+  ],
+  "School District:Northampton - Wilson Area": [
+    "County:Northampton"
+  ],
+  "School District:Northampton - Easton Area": [
+    "County:Northampton"
+  ],
+  "School District:Northampton - Bangor Area": [
+    "County:Northampton"
+  ],
+  "School District:Northampton - Bethlehem Area": [
+    "County:Northampton"
+  ],
+  "County:Northumberland": [
+    "School District:Northumberland - Shamokin Area",
+    "School District:Northumberland - Shikellamy",
+    "School District:Northumberland - Line Mountain",
+    "School District:Northumberland - Milton Area",
+    "School District:Northumberland - Warrior Run",
+    "School District:Montour - Danville Area"
+  ],
+  "School District:Northumberland - Shamokin Area": [
+    "County:Northumberland"
+  ],
+  "School District:Northumberland - Shikellamy": [
+    "County:Northumberland"
+  ],
+  "School District:Northumberland - Line Mountain": [
+    "County:Northumberland"
+  ],
+  "School District:Northumberland - Milton Area": [
+    "County:Northumberland",
+    "County:Union"
+  ],
+  "County:Perry": [
+    "School District:Perry - Greenwood",
+    "School District:Perry - Newport",
+    "School District:Perry - West Perry",
+    "School District:Perry - Susquenita"
+  ],
+  "School District:Perry - Greenwood": [
+    "County:Perry"
+  ],
+  "School District:Perry - Newport": [
+    "County:Perry"
+  ],
+  "School District:Perry - West Perry": [
+    "County:Perry"
+  ],
+  "School District:Perry - Susquenita": [
+    "County:Perry"
+  ],
+  "County:Pike": [
+    "School District:Wayne - Wallenpaupack Area",
+    "School District:Monroe - East Stroudsburg Area",
+    "School District:Pike - Delaware Valley"
+  ],
+  "School District:Pike - Delaware Valley": [
+    "County:Pike"
+  ],
+  "County:Potter": [
+    "School District:Potter - Galeton Area",
+    "School District:Potter - Oswayo Valley",
+    "School District:Potter - Northern Potter",
+    "School District:Potter - Austin Area",
+    "School District:Potter - Coudersport Area"
+  ],
+  "School District:Potter - Galeton Area": [
+    "County:Potter",
+    "County:Tioga"
+  ],
+  "School District:Potter - Oswayo Valley": [
+    "County:Potter"
+  ],
+  "School District:Potter - Northern Potter": [
+    "County:Potter"
+  ],
+  "School District:Potter - Austin Area": [
+    "County:Potter"
+  ],
+  "School District:Potter - Coudersport Area": [
+    "County:Potter"
+  ],
+  "County:Schuylkill": [
+    "School District:Schuylkill - Pine Grove Area",
+    "School District:Schuylkill - Tri-Valley",
+    "School District:Schuylkill - Saint Clair Area",
+    "School District:Schuylkill - Minersville Area",
+    "School District:Schuylkill - Mahanoy Area",
+    "School District:Luzerne - Hazleton Area",
+    "School District:Schuylkill - North Schuylkill",
+    "School District:Schuylkill - Tamaqua Area",
+    "School District:Schuylkill - Blue Mountain"
+  ],
+  "School District:Schuylkill - Pine Grove Area": [
+    "County:Schuylkill"
+  ],
+  "School District:Schuylkill - Tri-Valley": [
+    "County:Schuylkill"
+  ],
+  "School District:Schuylkill - Saint Clair Area": [
+    "County:Schuylkill"
+  ],
+  "School District:Schuylkill - Minersville Area": [
+    "County:Schuylkill"
+  ],
+  "School District:Schuylkill - Mahanoy Area": [
+    "County:Schuylkill"
+  ],
+  "School District:Schuylkill - North Schuylkill": [
+    "County:Schuylkill"
+  ],
+  "School District:Schuylkill - Tamaqua Area": [
+    "County:Schuylkill"
+  ],
+  "School District:Schuylkill - Blue Mountain": [
+    "County:Schuylkill"
+  ],
+  "County:Snyder": [
+    "School District:Snyder - Midd-West",
+    "School District:Snyder - Selinsgrove Area"
+  ],
+  "School District:Snyder - Midd-West": [
+    "County:Snyder"
+  ],
+  "School District:Snyder - Selinsgrove Area": [
+    "County:Snyder"
+  ],
+  "County:Somerset": [
+    "School District:Somerset - Salisbury-Elk Lick",
+    "School District:Somerset - Shanksville-Stonycreek",
+    "School District:Somerset - Rockwood Area",
+    "School District:Somerset - Meyersdale Area",
+    "School District:Somerset - North Star",
+    "School District:Somerset - Shade-Central City",
+    "School District:Somerset - Turkeyfoot Valley Area",
+    "School District:Somerset - Windber Area",
+    "School District:Somerset - Somerset Area",
+    "School District:Somerset - Berlin Brothersvalley"
+  ],
+  "School District:Somerset - Salisbury-Elk Lick": [
+    "County:Somerset"
+  ],
+  "School District:Somerset - Shanksville-Stonycreek": [
+    "County:Somerset"
+  ],
+  "School District:Somerset - Rockwood Area": [
+    "County:Somerset"
+  ],
+  "School District:Somerset - Meyersdale Area": [
+    "County:Somerset"
+  ],
+  "School District:Somerset - North Star": [
+    "County:Somerset"
+  ],
+  "School District:Somerset - Shade-Central City": [
+    "County:Somerset"
+  ],
+  "School District:Somerset - Turkeyfoot Valley Area": [
+    "County:Somerset"
+  ],
+  "School District:Somerset - Windber Area": [
+    "County:Somerset"
+  ],
+  "School District:Somerset - Somerset Area": [
+    "County:Somerset"
+  ],
+  "School District:Somerset - Berlin Brothersvalley": [
+    "County:Somerset"
+  ],
+  "County:Sullivan": [
+    "School District:Sullivan - Sullivan County"
+  ],
+  "School District:Sullivan - Sullivan County": [
+    "County:Sullivan"
+  ],
+  "County:Susquehanna": [
+    "School District:Susquehanna - Montrose Area",
+    "School District:Susquehanna - Mountain View",
+    "School District:Susquehanna - Susquehanna Community",
+    "School District:Susquehanna - Blue Ridge",
+    "School District:Susquehanna - Elk Lake"
+  ],
+  "School District:Susquehanna - Montrose Area": [
+    "County:Susquehanna"
+  ],
+  "School District:Susquehanna - Mountain View": [
+    "County:Susquehanna"
+  ],
+  "School District:Susquehanna - Susquehanna Community": [
+    "County:Susquehanna"
+  ],
+  "School District:Susquehanna - Blue Ridge": [
+    "County:Susquehanna"
+  ],
+  "School District:Susquehanna - Elk Lake": [
+    "County:Susquehanna"
+  ],
+  "County:Tioga": [
+    "School District:Tioga - Northern Tioga",
+    "School District:Potter - Galeton Area",
+    "School District:Tioga - Southern Tioga",
+    "School District:Tioga - Wellsboro Area"
+  ],
+  "School District:Tioga - Northern Tioga": [
+    "County:Tioga"
+  ],
+  "School District:Tioga - Wellsboro Area": [
+    "County:Tioga"
+  ],
+  "County:Union": [
+    "School District:Union - Lewisburg Area",
+    "School District:Northumberland - Milton Area",
+    "School District:Union - Mifflinburg Area"
+  ],
+  "School District:Union - Lewisburg Area": [
+    "County:Union"
+  ],
+  "School District:Union - Mifflinburg Area": [
+    "County:Union"
+  ],
+  "County:Venango": [
+    "School District:Venango - Oil City Area",
+    "School District:Venango - Valley Grove",
+    "School District:Venango - Titusville Area",
+    "School District:Clarion - Allegheny-Clarion Valley",
+    "School District:Venango - Cranberry Area",
+    "School District:Venango - Franklin Area"
+  ],
+  "School District:Venango - Oil City Area": [
+    "County:Venango"
+  ],
+  "School District:Venango - Valley Grove": [
+    "County:Venango"
+  ],
+  "School District:Venango - Cranberry Area": [
+    "County:Venango"
+  ],
+  "School District:Venango - Franklin Area": [
+    "County:Venango"
+  ],
+  "County:Warren": [
+    "School District:Warren - Warren County",
+    "School District:Erie - Corry Area"
+  ],
+  "School District:Warren - Warren County": [
+    "County:Warren"
+  ],
+  "County:Washington": [
+    "School District:Washington - Trinity Area",
+    "School District:Washington - Mcguffey",
+    "School District:Washington - Ringgold",
+    "School District:Washington - Fort Cherry",
+    "School District:Washington - Canon-McMillan",
+    "School District:Washington - Burgettstown Area",
+    "School District:Washington - Avella Area",
+    "School District:Washington - Bethlehem-Center",
+    "School District:Washington - Bentworth"
+  ],
+  "School District:Washington - Trinity Area": [
+    "County:Washington"
+  ],
+  "School District:Washington - Mcguffey": [
+    "County:Washington"
+  ],
+  "School District:Washington - Ringgold": [
+    "County:Washington"
+  ],
+  "School District:Washington - Fort Cherry": [
+    "County:Washington"
+  ],
+  "School District:Washington - Canon-McMillan": [
+    "County:Washington"
+  ],
+  "School District:Washington - Burgettstown Area": [
+    "County:Washington"
+  ],
+  "School District:Washington - Avella Area": [
+    "County:Washington"
+  ],
+  "School District:Washington - Bethlehem-Center": [
+    "County:Washington"
+  ],
+  "School District:Washington - Bentworth": [
+    "County:Washington"
+  ],
+  "County:Bucks": [
+    "School District:Bucks - Pennsbury",
+    "School District:Bucks - Pennridge",
+    "School District:Bucks - Quakertown Community",
+    "School District:Bucks - Palisades",
+    "School District:Bucks - Central Bucks",
+    "School District:Bucks - Council Rock"
+  ],
+  "School District:Bucks - Pennsbury": [
+    "County:Bucks"
+  ],
+  "School District:Bucks - Pennridge": [
+    "County:Bucks"
+  ],
+  "School District:Bucks - Quakertown Community": [
+    "County:Bucks"
+  ],
+  "School District:Bucks - Palisades": [
+    "County:Bucks"
+  ],
+  "School District:Bucks - Central Bucks": [
+    "County:Bucks"
+  ],
+  "School District:Bucks - Council Rock": [
+    "County:Bucks"
+  ],
+  "County:Montgomery": [
+    "School District:Montgomery - Perkiomen Valley",
+    "School District:Montgomery - Methacton",
+    "School District:Montgomery - North Penn",
+    "School District:Montgomery - Spring-Ford Area",
+    "School District:Montgomery - Upper Perkiomen",
+    "School District:Montgomery - Souderton Area",
+    "School District:Berks - Boyertown Area"
+  ],
+  "School District:Montgomery - Perkiomen Valley": [
+    "County:Montgomery"
+  ],
+  "School District:Montgomery - Methacton": [
+    "County:Montgomery"
+  ],
+  "School District:Montgomery - North Penn": [
+    "County:Montgomery"
+  ],
+  "School District:Montgomery - Spring-Ford Area": [
+    "County:Montgomery"
+  ],
+  "School District:Montgomery - Upper Perkiomen": [
+    "County:Montgomery"
+  ],
+  "School District:Montgomery - Souderton Area": [
+    "County:Montgomery"
+  ],
+  "County:Chester": [
+    "School District:Chester - Octorara Area",
+    "School District:Chester - Great Valley",
+    "School District:Chester - Owen J Roberts",
+    "School District:Chester - Oxford Area",
+    "School District:Chester - Unionville-Chadds Ford",
+    "School District:Chester - West Chester Area",
+    "School District:Chester - Avon Grove",
+    "School District:Chester - Coatesville Area",
+    "School District:Chester - Downingtown Area"
+  ],
+  "School District:Chester - Octorara Area": [
+    "County:Chester"
+  ],
+  "School District:Chester - Great Valley": [
+    "County:Chester"
+  ],
+  "School District:Chester - Owen J Roberts": [
+    "County:Chester"
+  ],
+  "School District:Chester - Oxford Area": [
+    "County:Chester"
+  ],
+  "School District:Chester - Unionville-Chadds Ford": [
+    "County:Chester"
+  ],
+  "School District:Chester - West Chester Area": [
+    "County:Chester"
+  ],
+  "School District:Chester - Avon Grove": [
+    "County:Chester"
+  ],
+  "School District:Chester - Coatesville Area": [
+    "County:Chester"
+  ],
+  "School District:Chester - Downingtown Area": [
+    "County:Chester"
+  ],
+  "County:Philadelphia": [
+    "School District:Philadelphia - Philadelphia City"
+  ],
+  "School District:Philadelphia - Philadelphia City": [
+    "County:Philadelphia"
+  ],
+  "County:Delaware": [
+    "School District:Delaware - Radnor Township",
+    "School District:Delaware - Rose Tree Media",
+    "School District:Delaware - Interboro",
+    "School District:Delaware - Marple Newtown",
+    "School District:Delaware - Chichester",
+    "School District:Delaware - Garnet Valley"
+  ],
+  "School District:Delaware - Radnor Township": [
+    "County:Delaware"
+  ],
+  "School District:Delaware - Rose Tree Media": [
+    "County:Delaware"
+  ],
+  "School District:Delaware - Interboro": [
+    "County:Delaware"
+  ],
+  "School District:Delaware - Marple Newtown": [
+    "County:Delaware"
+  ],
+  "School District:Delaware - Chichester": [
+    "County:Delaware"
+  ],
+  "School District:Delaware - Garnet Valley": [
+    "County:Delaware"
+  ]
+}

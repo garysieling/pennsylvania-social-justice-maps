@@ -1,0 +1,3386 @@
+{
+  "FM Radio:WDIY": [
+    "County:Lehigh",
+    "County:Northampton",
+    "County:Bucks"
+  ],
+  "County:Lehigh": [
+    "FM Radio:WDIY",
+    "FM Radio:WJCS",
+    "FM Radio:WLHI",
+    "FM Radio:WLVR-FM",
+    "FM Radio:WMUH",
+    "FM Radio:WZZO",
+    "FM Radio:WCTO",
+    "FM Radio:WODE-FM",
+    "FM Radio:WLEV",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WMGH-FM",
+    "FM Radio:WBYN-FM"
+  ],
+  "County:Northampton": [
+    "FM Radio:WDIY",
+    "FM Radio:WBYX",
+    "FM Radio:WJCS",
+    "FM Radio:WWPJ",
+    "FM Radio:WPNJ",
+    "FM Radio:WLVR-FM",
+    "FM Radio:WSBG",
+    "FM Radio:WZZO",
+    "FM Radio:WCTO",
+    "FM Radio:WODE-FM",
+    "FM Radio:WLEV",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WBYN-FM",
+    "FM Radio:WKRF"
+  ],
+  "County:Bucks": [
+    "FM Radio:WDIY",
+    "FM Radio:WXPN",
+    "FM Radio:WBYO",
+    "FM Radio:WRDV",
+    "FM Radio:WRTI",
+    "FM Radio:WHYY-FM",
+    "FM Radio:WLVR-FM",
+    "FM Radio:WBMR",
+    "FM Radio:WXTU",
+    "FM Radio:WMMR",
+    "FM Radio:WIP-FM",
+    "FM Radio:WZZO",
+    "FM Radio:WBEN-FM",
+    "FM Radio:WCTO",
+    "FM Radio:WTDY-FM",
+    "FM Radio:WOGL",
+    "FM Radio:WUSL",
+    "FM Radio:WODE-FM",
+    "FM Radio:WRNB",
+    "FM Radio:WLEV",
+    "FM Radio:WBEB",
+    "FM Radio:WIOQ",
+    "FM Radio:WMGK",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WRFF",
+    "FM Radio:WDAS-FM",
+    "FM Radio:WUMR",
+    "FM Radio:WBYN-FM"
+  ],
+  "FM Radio:WYSP": [
+    "County:Sullivan"
+  ],
+  "County:Sullivan": [
+    "FM Radio:WYSP",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WCDR",
+    "FM Radio:WCOZ",
+    "FM Radio:WMGS",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WGMF-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WCFT-FM"
+  ],
+  "FM Radio:WEFR": [
+    "County:Erie"
+  ],
+  "County:Erie": [
+    "FM Radio:WEFR",
+    "FM Radio:WMCE-FM",
+    "FM Radio:WFSE",
+    "FM Radio:WTWP",
+    "FM Radio:WCGV",
+    "FM Radio:WERG",
+    "FM Radio:WQLN-FM",
+    "FM Radio:WRRN",
+    "FM Radio:WICU-FM",
+    "FM Radio:WWSE",
+    "FM Radio:WTWF",
+    "FM Radio:WXBB",
+    "FM Radio:WEBG",
+    "FM Radio:WXTA",
+    "FM Radio:WXKC",
+    "FM Radio:WGYY",
+    "FM Radio:WCGE",
+    "FM Radio:WMVL",
+    "FM Radio:WQHZ",
+    "FM Radio:WCGM",
+    "FM Radio:WRTS",
+    "FM Radio:WXMJ",
+    "FM Radio:WRKT",
+    "FM Radio:WCTL"
+  ],
+  "FM Radio:WXTC": [
+    "County:Mercer"
+  ],
+  "County:Mercer": [
+    "FM Radio:WXTC",
+    "FM Radio:WCGT",
+    "FM Radio:WWNW",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WVME",
+    "FM Radio:WRQI",
+    "FM Radio:WYLE",
+    "FM Radio:WAKZ",
+    "FM Radio:WLLF",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WGYY",
+    "FM Radio:WYFM",
+    "FM Radio:WWIZ",
+    "FM Radio:WLVX"
+  ],
+  "FM Radio:WZXM": [
+    "County:Cumberland",
+    "County:Dauphin"
+  ],
+  "County:Cumberland": [
+    "FM Radio:WZXM",
+    "FM Radio:WDCV-FM",
+    "FM Radio:WSYC-FM",
+    "FM Radio:WITF-FM",
+    "FM Radio:WZXN",
+    "FM Radio:WVMM",
+    "FM Radio:WPFG",
+    "FM Radio:WJAZ",
+    "FM Radio:WYPM",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WRBT",
+    "FM Radio:WIKZ",
+    "FM Radio:WSOX",
+    "FM Radio:WRVV",
+    "FM Radio:WYCR",
+    "FM Radio:WHKF",
+    "FM Radio:WROZ",
+    "FM Radio:WCAT-FM",
+    "FM Radio:WARM-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WWKL",
+    "FM Radio:WGTY"
+  ],
+  "County:Dauphin": [
+    "FM Radio:WZXM",
+    "FM Radio:WKHW",
+    "FM Radio:WXPH",
+    "FM Radio:WITF-FM",
+    "FM Radio:WJTL",
+    "FM Radio:WMSS",
+    "FM Radio:WJAZ",
+    "FM Radio:WKHL",
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WQKX",
+    "FM Radio:WRBT",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WSOX",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WYCR",
+    "FM Radio:WQLV",
+    "FM Radio:WHKF",
+    "FM Radio:WFVY",
+    "FM Radio:WQBG",
+    "FM Radio:WROZ",
+    "FM Radio:WARM-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WWKL",
+    "FM Radio:WEGH",
+    "FM Radio:WGTY"
+  ],
+  "FM Radio:WHHN": [
+    "County:Huntingdon",
+    "County:Bedford",
+    "County:Blair",
+    "County:Cambria"
+  ],
+  "County:Huntingdon": [
+    "FM Radio:WHHN",
+    "FM Radio:WCOB",
+    "FM Radio:WRYV",
+    "FM Radio:WRXV",
+    "FM Radio:WPMN",
+    "FM Radio:WTLR",
+    "FM Radio:WCOX",
+    "FM Radio:WPSU",
+    "FM Radio:WMMH",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WYPM",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WBRX",
+    "FM Radio:WIKZ",
+    "FM Radio:WVNW",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WFGY",
+    "FM Radio:WRKW",
+    "FM Radio:WBUS",
+    "FM Radio:WWOT",
+    "FM Radio:WFGE",
+    "FM Radio:WBHB-FM",
+    "FM Radio:WAPY",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WQCK",
+    "FM Radio:WDBF-FM",
+    "FM Radio:WKPA"
+  ],
+  "County:Bedford": [
+    "FM Radio:WHHN",
+    "FM Radio:WPME",
+    "FM Radio:WPMN",
+    "FM Radio:WQEJ",
+    "FM Radio:WCOX",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WBRX",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKYE",
+    "FM Radio:WFGY",
+    "FM Radio:WRKW",
+    "FM Radio:WAYC",
+    "FM Radio:WCCL",
+    "FM Radio:WSKE",
+    "FM Radio:WBVE"
+  ],
+  "County:Blair": [
+    "FM Radio:WHHN",
+    "FM Radio:WPMN",
+    "FM Radio:WCOX",
+    "FM Radio:WMMH",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WLKE",
+    "FM Radio:WBXQ",
+    "FM Radio:WBRX",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKYE",
+    "FM Radio:WFGY",
+    "FM Radio:WRKW",
+    "FM Radio:WWOT",
+    "FM Radio:WFGE",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WLKJ",
+    "FM Radio:WQCK"
+  ],
+  "County:Cambria": [
+    "FM Radio:WHHN",
+    "FM Radio:WCOA-FM",
+    "FM Radio:WQEJ",
+    "FM Radio:WPAI",
+    "FM Radio:WCOX",
+    "FM Radio:WMMH",
+    "FM Radio:WJHT",
+    "FM Radio:WLKE",
+    "FM Radio:WBXQ",
+    "FM Radio:WBRX",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKYE",
+    "FM Radio:WPCL",
+    "FM Radio:WFGY",
+    "FM Radio:WRKW",
+    "FM Radio:WWOT",
+    "FM Radio:WCCL",
+    "FM Radio:WIFT",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WLKJ"
+  ],
+  "FM Radio:WKGO": [
+    "County:Westmoreland"
+  ],
+  "County:Westmoreland": [
+    "FM Radio:WKGO",
+    "FM Radio:WCOA-FM",
+    "FM Radio:WQED-FM",
+    "FM Radio:WQEJ",
+    "FM Radio:WESA",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WLWG",
+    "FM Radio:WJHT",
+    "FM Radio:WLTJ",
+    "FM Radio:KDKA-FM",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WOGG",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKST-FM",
+    "FM Radio:WKYE",
+    "FM Radio:WRRK",
+    "FM Radio:WLKH",
+    "FM Radio:WPKV",
+    "FM Radio:WRKW",
+    "FM Radio:WSHH",
+    "FM Radio:WBZZ",
+    "FM Radio:WORD-FM",
+    "FM Radio:WDVE",
+    "FM Radio:WKVE",
+    "FM Radio:WKHB-FM",
+    "FM Radio:WPGB",
+    "FM Radio:WXDX-FM",
+    "FM Radio:WLCY",
+    "FM Radio:WAOB-FM",
+    "FM Radio:WHJB",
+    "FM Radio:WDSY-FM"
+  ],
+  "FM Radio:WBGM": [
+    "County:Snyder",
+    "County:Union"
+  ],
+  "County:Snyder": [
+    "FM Radio:WBGM",
+    "FM Radio:WQSU",
+    "FM Radio:WFBV",
+    "FM Radio:WFBM",
+    "FM Radio:WGRC",
+    "FM Radio:WHNA",
+    "FM Radio:WQKX",
+    "FM Radio:WRBT",
+    "FM Radio:WRVV",
+    "FM Radio:WRBG",
+    "FM Radio:WQLV",
+    "FM Radio:WQBG",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WCXR",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WNNA",
+    "FM Radio:WEGH"
+  ],
+  "County:Union": [
+    "FM Radio:WBGM",
+    "FM Radio:WQSU",
+    "FM Radio:WVBU-FM",
+    "FM Radio:WGRC",
+    "FM Radio:WHNA",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WQKX",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WVRT",
+    "FM Radio:WRBG",
+    "FM Radio:WZXR",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WCXR",
+    "FM Radio:WILQ",
+    "FM Radio:WNNA",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WEGH",
+    "FM Radio:WOTH"
+  ],
+  "FM Radio:WPEB": [
+    "County:Philadelphia"
+  ],
+  "County:Philadelphia": [
+    "FM Radio:WPEB",
+    "FM Radio:WXPN",
+    "FM Radio:WKDU",
+    "FM Radio:WPHI-FM"
+  ],
+  "FM Radio:WFCP": [
+    "County:Lebanon",
+    "County:Schuylkill"
+  ],
+  "County:Lebanon": [
+    "FM Radio:WFCP",
+    "FM Radio:WXPH",
+    "FM Radio:WITF-FM",
+    "FM Radio:WJTL",
+    "FM Radio:WRTL",
+    "FM Radio:WKHL",
+    "FM Radio:WQKX",
+    "FM Radio:WDAC",
+    "FM Radio:WRBT",
+    "FM Radio:WSOX",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WFVY",
+    "FM Radio:WROZ",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WARM-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WWKL"
+  ],
+  "County:Schuylkill": [
+    "FM Radio:WFCP",
+    "FM Radio:WFBA",
+    "FM Radio:WCDH",
+    "FM Radio:WZRG",
+    "FM Radio:WMGS",
+    "FM Radio:WQKX",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WCTO",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WVRZ",
+    "FM Radio:WLEV",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WKSB",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WMGH-FM",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WWKL",
+    "FM Radio:WBYN-FM"
+  ],
+  "FM Radio:WRQV": [
+    "County:Elk",
+    "County:Jefferson",
+    "County:Clearfield"
+  ],
+  "County:Elk": [
+    "FM Radio:WRQV",
+    "FM Radio:WTWR",
+    "FM Radio:WPMU",
+    "FM Radio:WPSX",
+    "FM Radio:WRVI",
+    "FM Radio:WRPV",
+    "FM Radio:WRRN",
+    "FM Radio:WPQP",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WDDH",
+    "FM Radio:WQKY",
+    "FM Radio:WJNG",
+    "FM Radio:WIFT",
+    "FM Radio:WMKX",
+    "FM Radio:WCOH"
+  ],
+  "County:Jefferson": [
+    "FM Radio:WRQV",
+    "FM Radio:WCOA-FM",
+    "FM Radio:WPMU",
+    "FM Radio:WCCR-FM",
+    "FM Radio:WPQP",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WQQP",
+    "FM Radio:WDDH",
+    "FM Radio:WJNG",
+    "FM Radio:WKFT",
+    "FM Radio:WIFT",
+    "FM Radio:WKQL",
+    "FM Radio:WPXZ-FM",
+    "FM Radio:WMKX",
+    "FM Radio:WDSN",
+    "FM Radio:WCOH"
+  ],
+  "County:Clearfield": [
+    "FM Radio:WRQV",
+    "FM Radio:WTWR",
+    "FM Radio:WRXV",
+    "FM Radio:WPMU",
+    "FM Radio:WRVI",
+    "FM Radio:WPSU",
+    "FM Radio:WMMH",
+    "FM Radio:WPQP",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WBXQ",
+    "FM Radio:WQQP",
+    "FM Radio:WFGY",
+    "FM Radio:WRKW",
+    "FM Radio:WWOT",
+    "FM Radio:WFGE",
+    "FM Radio:WIFT",
+    "FM Radio:WOKW",
+    "FM Radio:WKQL",
+    "FM Radio:WMKX",
+    "FM Radio:WQCK",
+    "FM Radio:WDSN",
+    "FM Radio:WCOH",
+    "FM Radio:WKPA"
+  ],
+  "FM Radio:WRGN": [
+    "County:Luzerne"
+  ],
+  "County:Luzerne": [
+    "FM Radio:WRGN",
+    "FM Radio:WRKC",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WCLH",
+    "FM Radio:WCDH",
+    "FM Radio:WQFM",
+    "FM Radio:WMGS",
+    "FM Radio:WSJR",
+    "FM Radio:WBHD",
+    "FM Radio:WKBP",
+    "FM Radio:WBHT",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WUSR",
+    "FM Radio:WGGY",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WMQX",
+    "FM Radio:WKSB",
+    "FM Radio:WILK-FM",
+    "FM Radio:WMMZ",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WPZX",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "FM Radio:WZZD": [
+    "County:Chester"
+  ],
+  "County:Chester": [
+    "FM Radio:WZZD",
+    "FM Radio:WZXE",
+    "FM Radio:WXPN",
+    "FM Radio:WRTJ",
+    "FM Radio:WRTI",
+    "FM Radio:WHYY-FM",
+    "FM Radio:WZWG",
+    "FM Radio:WYTL",
+    "FM Radio:WXTU",
+    "FM Radio:WMMR",
+    "FM Radio:WIP-FM",
+    "FM Radio:WDAC",
+    "FM Radio:WBEN-FM",
+    "FM Radio:WTDY-FM",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WOGL",
+    "FM Radio:WUSL",
+    "FM Radio:WRNB",
+    "FM Radio:WBEB",
+    "FM Radio:WIOQ",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WMGK",
+    "FM Radio:WRFF",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WDAS-FM",
+    "FM Radio:WUMR",
+    "FM Radio:WBYN-FM"
+  ],
+  "FM Radio:WKWP": [
+    "County:Lycoming"
+  ],
+  "County:Lycoming": [
+    "FM Radio:WKWP",
+    "FM Radio:WQSU",
+    "FM Radio:WPMY",
+    "FM Radio:WVYA",
+    "FM Radio:WVAM-FM",
+    "FM Radio:WCRG",
+    "FM Radio:WRLC",
+    "FM Radio:WSQV",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WQKX",
+    "FM Radio:WBYL",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WVRT",
+    "FM Radio:WZXR",
+    "FM Radio:WQBR",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WCOG-FM",
+    "FM Radio:WKSB",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WOTH"
+  ],
+  "FM Radio:WDCV-FM": [
+    "County:Cumberland"
+  ],
+  "FM Radio:WZXQ": [
+    "County:Franklin",
+    "County:Adams"
+  ],
+  "County:Franklin": [
+    "FM Radio:WZXQ",
+    "FM Radio:WWCF",
+    "FM Radio:WIKG",
+    "FM Radio:WYPM",
+    "FM Radio:WQCM",
+    "FM Radio:WIKZ",
+    "FM Radio:WBHB-FM",
+    "FM Radio:WEEO-FM",
+    "FM Radio:WGTY"
+  ],
+  "County:Adams": [
+    "FM Radio:WZXQ",
+    "FM Radio:WZXY",
+    "FM Radio:WZBT",
+    "FM Radio:WSOX",
+    "FM Radio:WRVV",
+    "FM Radio:WYCR",
+    "FM Radio:WROZ",
+    "FM Radio:WARM-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WWKL",
+    "FM Radio:WGTY"
+  ],
+  "FM Radio:WZXE": [
+    "County:Chester"
+  ],
+  "FM Radio:WYBQ": [
+    "County:Berks"
+  ],
+  "County:Berks": [
+    "FM Radio:WYBQ",
+    "FM Radio:WZMV",
+    "FM Radio:WZXB",
+    "FM Radio:WRTL",
+    "FM Radio:WXAC",
+    "FM Radio:WYTL",
+    "FM Radio:WIP-FM",
+    "FM Radio:WDAC",
+    "FM Radio:WZZO",
+    "FM Radio:WBEN-FM",
+    "FM Radio:WCTO",
+    "FM Radio:WTDY-FM",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WOGL",
+    "FM Radio:WUSL",
+    "FM Radio:WODE-FM",
+    "FM Radio:WRNB",
+    "FM Radio:WLEV",
+    "FM Radio:WBEB",
+    "FM Radio:WROZ",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WIOQ",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WMGK",
+    "FM Radio:WARM-FM",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WRFF",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WDAS-FM",
+    "FM Radio:WMGH-FM",
+    "FM Radio:WWKL",
+    "FM Radio:WBYN-FM"
+  ],
+  "FM Radio:WTIO": [
+    "County:Tioga"
+  ],
+  "County:Tioga": [
+    "FM Radio:WTIO",
+    "FM Radio:WCIH",
+    "FM Radio:WSQE",
+    "FM Radio:WOGA",
+    "FM Radio:WMTT-FM",
+    "FM Radio:WPHD",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WCOG-FM",
+    "FM Radio:WDKC",
+    "FM Radio:WKSB",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WNKI",
+    "FM Radio:DWLIH"
+  ],
+  "FM Radio:WQHE": [
+    "County:Forest",
+    "County:Crawford",
+    "County:Venango"
+  ],
+  "County:Forest": [
+    "FM Radio:WQHE",
+    "FM Radio:WPSX",
+    "FM Radio:WRRN",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WLOQ",
+    "FM Radio:WDDH",
+    "FM Radio:WGYI",
+    "FM Radio:WKFT",
+    "FM Radio:WJKB",
+    "FM Radio:WMKX",
+    "FM Radio:WCGH",
+    "FM Radio:WCOH",
+    "FM Radio:WRQW"
+  ],
+  "County:Crawford": [
+    "FM Radio:WQHE",
+    "FM Radio:WFSE",
+    "FM Radio:WTWP",
+    "FM Radio:WCGV",
+    "FM Radio:WARC",
+    "FM Radio:WQLN-FM",
+    "FM Radio:WVME",
+    "FM Radio:WRQI",
+    "FM Radio:WYLE",
+    "FM Radio:WXTA",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WXKC",
+    "FM Radio:WGYY",
+    "FM Radio:WMVL",
+    "FM Radio:WCGM",
+    "FM Radio:WRTS",
+    "FM Radio:WXMJ",
+    "FM Radio:WLVX",
+    "FM Radio:WRQW"
+  ],
+  "County:Venango": [
+    "FM Radio:WQHE",
+    "FM Radio:WCGT",
+    "FM Radio:WAWN",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WYLE",
+    "FM Radio:WLOQ",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WGYY",
+    "FM Radio:WCGH",
+    "FM Radio:WRQW"
+  ],
+  "FM Radio:WRCT": [
+    "County:Allegheny"
+  ],
+  "County:Allegheny": [
+    "FM Radio:WRCT",
+    "FM Radio:WQED-FM",
+    "FM Radio:WESA",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WKPL",
+    "FM Radio:WPTS-FM",
+    "FM Radio:WLTJ",
+    "FM Radio:KDKA-FM",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WJPA-FM",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKST-FM",
+    "FM Radio:WRRK",
+    "FM Radio:WPKV",
+    "FM Radio:WSHH",
+    "FM Radio:WBZZ",
+    "FM Radio:WORD-FM",
+    "FM Radio:WDVE",
+    "FM Radio:WOGH",
+    "FM Radio:WLYI",
+    "FM Radio:WOGI",
+    "FM Radio:WPGB",
+    "FM Radio:WXDX-FM",
+    "FM Radio:WAOB-FM",
+    "FM Radio:WDSY-FM"
+  ],
+  "FM Radio:WCOB": [
+    "County:Huntingdon",
+    "County:Centre"
+  ],
+  "County:Centre": [
+    "FM Radio:WCOB",
+    "FM Radio:WRYV",
+    "FM Radio:WRXV",
+    "FM Radio:WTLR",
+    "FM Radio:WJVM",
+    "FM Radio:WPSU",
+    "FM Radio:WMMH",
+    "FM Radio:WSQV",
+    "FM Radio:WPQP",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WFGY",
+    "FM Radio:WLEJ",
+    "FM Radio:WBUS",
+    "FM Radio:WWOT",
+    "FM Radio:WFGE",
+    "FM Radio:WAPY",
+    "FM Radio:WQCK",
+    "FM Radio:WCOH",
+    "FM Radio:WKPA"
+  ],
+  "FM Radio:WLKA": [
+    "County:Lackawanna",
+    "County:Wayne",
+    "County:Susquehanna"
+  ],
+  "County:Lackawanna": [
+    "FM Radio:WLKA",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WZZH",
+    "FM Radio:WVMW-FM",
+    "FM Radio:WQFM",
+    "FM Radio:WMGS",
+    "FM Radio:WSJR",
+    "FM Radio:WTRW",
+    "FM Radio:WBHD",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WBHT",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WUSR",
+    "FM Radio:WQFN",
+    "FM Radio:WGGY",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WPZX",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "County:Wayne": [
+    "FM Radio:WLKA",
+    "FM Radio:WBYH",
+    "FM Radio:WJFF",
+    "FM Radio:WZZH",
+    "FM Radio:WPAU",
+    "FM Radio:WTRW",
+    "FM Radio:WIYN",
+    "FM Radio:WDNH-FM",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WQFN",
+    "FM Radio:WGGY",
+    "FM Radio:WDNB",
+    "FM Radio:WHNB",
+    "FM Radio:WYCY"
+  ],
+  "County:Susquehanna": [
+    "FM Radio:WLKA",
+    "FM Radio:WSKG-FM",
+    "FM Radio:WCDJ",
+    "FM Radio:WSQX-FM",
+    "FM Radio:WKGB-FM",
+    "FM Radio:WMGS",
+    "FM Radio:WJOB-FM",
+    "FM Radio:WTRW",
+    "FM Radio:WIYN",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WHWK",
+    "FM Radio:WKRZ",
+    "FM Radio:WAAL",
+    "FM Radio:WQFN",
+    "FM Radio:WDRE",
+    "FM Radio:WGGY",
+    "FM Radio:WLTB",
+    "FM Radio:WMXW",
+    "FM Radio:WGMF-FM",
+    "FM Radio:WBNW-FM",
+    "FM Radio:WCDW",
+    "FM Radio:WBBI"
+  ],
+  "FM Radio:WCII": [
+    "County:Bradford"
+  ],
+  "County:Bradford": [
+    "FM Radio:WCII",
+    "FM Radio:WSKG-FM",
+    "FM Radio:WCIH",
+    "FM Radio:WCDR",
+    "FM Radio:WSQE",
+    "FM Radio:WCDJ",
+    "FM Radio:WCOZ",
+    "FM Radio:WENI-FM",
+    "FM Radio:WTTC-FM",
+    "FM Radio:WCBF",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WZBF",
+    "FM Radio:WHWK",
+    "FM Radio:WAAL",
+    "FM Radio:WOKN",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WGGY",
+    "FM Radio:WDKC",
+    "FM Radio:WAVR",
+    "FM Radio:WKSB",
+    "FM Radio:WGMF-FM",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WBNW-FM",
+    "FM Radio:WNKI"
+  ],
+  "FM Radio:WMCE-FM": [
+    "County:Erie"
+  ],
+  "FM Radio:WKHW": [
+    "County:Dauphin",
+    "County:Perry"
+  ],
+  "County:Perry": [
+    "FM Radio:WKHW",
+    "FM Radio:WITF-FM",
+    "FM Radio:WPFG",
+    "FM Radio:WJAZ",
+    "FM Radio:WIBF",
+    "FM Radio:WQKX",
+    "FM Radio:WRBT",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WQLV",
+    "FM Radio:WQBG",
+    "FM Radio:WCAT-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WNNA",
+    "FM Radio:WWKL",
+    "FM Radio:WQJU"
+  ],
+  "FM Radio:WCOA-FM": [
+    "County:Indiana",
+    "County:Jefferson",
+    "County:Armstrong",
+    "County:Cambria",
+    "County:Westmoreland"
+  ],
+  "County:Indiana": [
+    "FM Radio:WCOA-FM",
+    "FM Radio:WQEJ",
+    "FM Radio:WIUP-FM",
+    "FM Radio:WPAI",
+    "FM Radio:WJHT",
+    "FM Radio:WQMU",
+    "FM Radio:WBXQ",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKYE",
+    "FM Radio:WPCL",
+    "FM Radio:WFGY",
+    "FM Radio:WRKW",
+    "FM Radio:WIFT",
+    "FM Radio:WKQL",
+    "FM Radio:WPXZ-FM",
+    "FM Radio:WMKX",
+    "FM Radio:WLCY",
+    "FM Radio:WHJB"
+  ],
+  "County:Armstrong": [
+    "FM Radio:WCOA-FM",
+    "FM Radio:WQED-FM",
+    "FM Radio:WQMU",
+    "FM Radio:WLTJ",
+    "FM Radio:KDKA-FM",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKST-FM",
+    "FM Radio:WKYE",
+    "FM Radio:WRRK",
+    "FM Radio:WLER-FM",
+    "FM Radio:WSHH",
+    "FM Radio:WBZZ",
+    "FM Radio:WORD-FM",
+    "FM Radio:WIFT",
+    "FM Radio:WDVE",
+    "FM Radio:WKQL",
+    "FM Radio:WPGB",
+    "FM Radio:WMKX",
+    "FM Radio:WXDX-FM",
+    "FM Radio:WLCY",
+    "FM Radio:WAOB-FM",
+    "FM Radio:WDSY-FM"
+  ],
+  "FM Radio:WYFU": [
+    "County:Fayette",
+    "County:Greene"
+  ],
+  "County:Fayette": [
+    "FM Radio:WYFU",
+    "FM Radio:WLWG",
+    "FM Radio:WCAL",
+    "FM Radio:WLTJ",
+    "FM Radio:WQZS",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WOGG",
+    "FM Radio:WKST-FM",
+    "FM Radio:WRRK",
+    "FM Radio:WYRA",
+    "FM Radio:WPKL",
+    "FM Radio:WSHH",
+    "FM Radio:WBZZ",
+    "FM Radio:WORD-FM",
+    "FM Radio:WDVE",
+    "FM Radio:WKVE",
+    "FM Radio:WKHB-FM",
+    "FM Radio:WMKF",
+    "FM Radio:WDSY-FM"
+  ],
+  "County:Greene": [
+    "FM Radio:WYFU",
+    "FM Radio:WCAL",
+    "FM Radio:WOGG",
+    "FM Radio:WPKL",
+    "FM Radio:WKVE",
+    "FM Radio:WOGH",
+    "FM Radio:WLYI",
+    "FM Radio:WMKF"
+  ],
+  "FM Radio:WXPN": [
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester",
+    "County:Philadelphia",
+    "County:Delaware"
+  ],
+  "County:Montgomery": [
+    "FM Radio:WXPN",
+    "FM Radio:WBYO",
+    "FM Radio:WXVU",
+    "FM Radio:WRDV",
+    "FM Radio:WRTI",
+    "FM Radio:WHYY-FM",
+    "FM Radio:WBMR",
+    "FM Radio:WXTU",
+    "FM Radio:WMMR",
+    "FM Radio:WIP-FM",
+    "FM Radio:WZZO",
+    "FM Radio:WBEN-FM",
+    "FM Radio:WCTO",
+    "FM Radio:WTDY-FM",
+    "FM Radio:WOGL",
+    "FM Radio:WUSL",
+    "FM Radio:WODE-FM",
+    "FM Radio:WRNB",
+    "FM Radio:WLEV",
+    "FM Radio:WBEB",
+    "FM Radio:WIOQ",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WMGK",
+    "FM Radio:WPHI-FM",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WRFF",
+    "FM Radio:WDAS-FM",
+    "FM Radio:WUMR",
+    "FM Radio:WBYN-FM"
+  ],
+  "County:Delaware": [
+    "FM Radio:WXPN",
+    "FM Radio:WXVU",
+    "FM Radio:WRTI",
+    "FM Radio:WHYY-FM",
+    "FM Radio:WSRN-FM",
+    "FM Radio:WRSD",
+    "FM Radio:WHHS",
+    "FM Radio:WPHI-FM"
+  ],
+  "FM Radio:WRKC": [
+    "County:Luzerne"
+  ],
+  "FM Radio:WYVL": [
+    "County:Warren"
+  ],
+  "County:Warren": [
+    "FM Radio:WYVL",
+    "FM Radio:WTWP",
+    "FM Radio:WNJA",
+    "FM Radio:WPSX",
+    "FM Radio:WCOT",
+    "FM Radio:WRRN",
+    "FM Radio:WWSE",
+    "FM Radio:WLKW",
+    "FM Radio:WDDH",
+    "FM Radio:WHUG",
+    "FM Radio:WCGM",
+    "FM Radio:WQFX-FM",
+    "FM Radio:WNAE",
+    "FM Radio:WJKB",
+    "FM Radio:WKZA"
+  ],
+  "FM Radio:WPME": [
+    "County:Bedford"
+  ],
+  "FM Radio:WCGT": [
+    "County:Butler",
+    "County:Mercer",
+    "County:Venango"
+  ],
+  "County:Butler": [
+    "FM Radio:WCGT",
+    "FM Radio:WQED-FM",
+    "FM Radio:WESA",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WKPL",
+    "FM Radio:WLTJ",
+    "FM Radio:KDKA-FM",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WYLE",
+    "FM Radio:WKST-FM",
+    "FM Radio:WRRK",
+    "FM Radio:WLER-FM",
+    "FM Radio:WPKV",
+    "FM Radio:WHMJ",
+    "FM Radio:WSHH",
+    "FM Radio:WBZZ",
+    "FM Radio:WORD-FM",
+    "FM Radio:WDVE",
+    "FM Radio:WYFM",
+    "FM Radio:WOGI",
+    "FM Radio:WPGB",
+    "FM Radio:WXDX-FM",
+    "FM Radio:WAOB-FM",
+    "FM Radio:WDSY-FM"
+  ],
+  "FM Radio:WPAL": [
+    "County:Wyoming"
+  ],
+  "County:Wyoming": [
+    "FM Radio:WPAL",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WCDJ",
+    "FM Radio:WQFM",
+    "FM Radio:WMGS",
+    "FM Radio:WSJR",
+    "FM Radio:WBHD",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WBHT",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WUSR",
+    "FM Radio:WGGY",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WGMF-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "FM Radio:WWCF": [
+    "County:Franklin",
+    "County:Fulton"
+  ],
+  "County:Fulton": [
+    "FM Radio:WWCF",
+    "FM Radio:WPMN",
+    "FM Radio:WYPM",
+    "FM Radio:WIKZ",
+    "FM Radio:WBHB-FM",
+    "FM Radio:WEEO-FM",
+    "FM Radio:WSKE"
+  ],
+  "FM Radio:WXPH": [
+    "County:Lancaster",
+    "County:Dauphin",
+    "County:York",
+    "County:Lebanon"
+  ],
+  "County:Lancaster": [
+    "FM Radio:WXPH",
+    "FM Radio:WFNM",
+    "FM Radio:WITF-FM",
+    "FM Radio:WJTL",
+    "FM Radio:WRTL",
+    "FM Radio:WLCH",
+    "FM Radio:WYTL",
+    "FM Radio:WNUU",
+    "FM Radio:WDAC",
+    "FM Radio:WRBT",
+    "FM Radio:WSOX",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WYCR",
+    "FM Radio:WROZ",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WARM-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WWKL",
+    "FM Radio:WBYN-FM"
+  ],
+  "County:York": [
+    "FM Radio:WXPH",
+    "FM Radio:WITF-FM",
+    "FM Radio:WJTL",
+    "FM Radio:WZXY",
+    "FM Radio:WMSS",
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WDAC",
+    "FM Radio:WRBT",
+    "FM Radio:WSOX",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WYCR",
+    "FM Radio:WHKF",
+    "FM Radio:WROZ",
+    "FM Radio:WCAT-FM",
+    "FM Radio:WARM-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WWKL",
+    "FM Radio:WGTY"
+  ],
+  "FM Radio:WRYV": [
+    "County:Huntingdon",
+    "County:Juniata",
+    "County:Centre",
+    "County:Mifflin"
+  ],
+  "County:Juniata": [
+    "FM Radio:WRYV",
+    "FM Radio:WITF-FM",
+    "FM Radio:WFBM",
+    "FM Radio:WJRC",
+    "FM Radio:WIBF",
+    "FM Radio:WRBT",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WVNW",
+    "FM Radio:WRVV",
+    "FM Radio:WQLV",
+    "FM Radio:WBUS",
+    "FM Radio:WFGE",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WCHX",
+    "FM Radio:WNNA",
+    "FM Radio:WQJU"
+  ],
+  "County:Mifflin": [
+    "FM Radio:WRYV",
+    "FM Radio:WTLR",
+    "FM Radio:WJRC",
+    "FM Radio:WPSU",
+    "FM Radio:WIBF",
+    "FM Radio:WMAJ",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WVNW",
+    "FM Radio:WBUS",
+    "FM Radio:WFGE",
+    "FM Radio:WAPY",
+    "FM Radio:WCHX",
+    "FM Radio:WNNA",
+    "FM Radio:WDBF-FM",
+    "FM Radio:WQJU"
+  ],
+  "FM Radio:WSYC-FM": [
+    "County:Cumberland"
+  ],
+  "FM Radio:WBYX": [
+    "County:Carbon",
+    "County:Monroe",
+    "County:Northampton",
+    "County:Pike"
+  ],
+  "County:Carbon": [
+    "FM Radio:WBYX",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WRTY",
+    "FM Radio:WCDH",
+    "FM Radio:WMGS",
+    "FM Radio:WZZO",
+    "FM Radio:WCTO",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WODE-FM",
+    "FM Radio:WLEV",
+    "FM Radio:WGGY",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WMGH-FM",
+    "FM Radio:WPZX",
+    "FM Radio:WKRF"
+  ],
+  "County:Monroe": [
+    "FM Radio:WBYX",
+    "FM Radio:WWPJ",
+    "FM Radio:WESS",
+    "FM Radio:WRTY",
+    "FM Radio:WMGS",
+    "FM Radio:WSBG",
+    "FM Radio:WZZO",
+    "FM Radio:WCTO",
+    "FM Radio:WABT",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WODE-FM",
+    "FM Radio:WLEV",
+    "FM Radio:WGGY",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WPZX",
+    "FM Radio:WKRF"
+  ],
+  "County:Pike": [
+    "FM Radio:WBYX",
+    "FM Radio:WBYH",
+    "FM Radio:WMFU",
+    "FM Radio:WRTY",
+    "FM Radio:WPAU",
+    "FM Radio:WDNH-FM",
+    "FM Radio:WABT",
+    "FM Radio:WGGY",
+    "FM Radio:WYCY"
+  ],
+  "FM Radio:WFSE": [
+    "County:Erie",
+    "County:Crawford"
+  ],
+  "FM Radio:WWNW": [
+    "County:Lawrence",
+    "County:Mercer"
+  ],
+  "County:Lawrence": [
+    "FM Radio:WWNW",
+    "FM Radio:WVMN",
+    "FM Radio:WKPL",
+    "FM Radio:WYLE",
+    "FM Radio:WAKZ",
+    "FM Radio:WYFM",
+    "FM Radio:WWIZ",
+    "FM Radio:WOGI",
+    "FM Radio:WAOB-FM"
+  ],
+  "FM Radio:WQSU": [
+    "County:Columbia",
+    "County:Lycoming",
+    "County:Montour",
+    "County:Northumberland",
+    "County:Snyder",
+    "County:Union"
+  ],
+  "County:Columbia": [
+    "FM Radio:WQSU",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WFBA",
+    "FM Radio:WHSK",
+    "FM Radio:WCDH",
+    "FM Radio:WZRG",
+    "FM Radio:WHNA",
+    "FM Radio:WMGS",
+    "FM Radio:WQKX",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WKBP",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WVRZ",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WKSB",
+    "FM Radio:WMMZ",
+    "FM Radio:WILQ",
+    "FM Radio:WCFT-FM"
+  ],
+  "County:Montour": [
+    "FM Radio:WQSU",
+    "FM Radio:WEVW",
+    "FM Radio:WGRC",
+    "FM Radio:WHNA",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WKBP",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WVRZ",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WEGH",
+    "FM Radio:WOTH"
+  ],
+  "County:Northumberland": [
+    "FM Radio:WQSU",
+    "FM Radio:WFBV",
+    "FM Radio:WFBA",
+    "FM Radio:WEVW",
+    "FM Radio:WGRC",
+    "FM Radio:WZRG",
+    "FM Radio:WHNA",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WQKX",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WRBG",
+    "FM Radio:WZXR",
+    "FM Radio:WVRZ",
+    "FM Radio:WQBG",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WKSB",
+    "FM Radio:WCXR",
+    "FM Radio:WILQ",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WEGH",
+    "FM Radio:WOTH"
+  ],
+  "FM Radio:WBYO": [
+    "County:Bucks",
+    "County:Montgomery"
+  ],
+  "FM Radio:WTWR": [
+    "County:Elk",
+    "County:Cameron",
+    "County:Clearfield"
+  ],
+  "County:Cameron": [
+    "FM Radio:WTWR",
+    "FM Radio:WPSX",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WDDH",
+    "FM Radio:WQKY",
+    "FM Radio:WCOH"
+  ],
+  "FM Radio:WCOV-FM": [
+    "County:McKean",
+    "County:Potter"
+  ],
+  "County:McKean": [
+    "FM Radio:WCOV-FM",
+    "FM Radio:WPSX",
+    "FM Radio:WTWT",
+    "FM Radio:WCOT",
+    "FM Radio:WOLN",
+    "FM Radio:WRRN",
+    "FM Radio:WWSE",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WHKS",
+    "FM Radio:WPIG",
+    "FM Radio:WCOR-FM",
+    "FM Radio:WDDH",
+    "FM Radio:WQRS",
+    "FM Radio:WQKY",
+    "FM Radio:WBRR",
+    "FM Radio:WMXO",
+    "FM Radio:WCOP",
+    "FM Radio:WNAE",
+    "FM Radio:WJKB",
+    "FM Radio:WCGS",
+    "FM Radio:WXMT",
+    "FM Radio:WKZA",
+    "FM Radio:WCOH"
+  ],
+  "County:Potter": [
+    "FM Radio:WCOV-FM",
+    "FM Radio:WCGN",
+    "FM Radio:WHKS",
+    "FM Radio:WPIG",
+    "FM Radio:WQKY",
+    "FM Radio:WCOG-FM",
+    "FM Radio:WJQZ",
+    "FM Radio:WCOP",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WXMT"
+  ],
+  "FM Radio:WBYH": [
+    "County:Wayne",
+    "County:Pike"
+  ],
+  "FM Radio:WFNM": [
+    "County:Lancaster"
+  ],
+  "FM Radio:WHYU-FM": [
+    "County:Somerset"
+  ],
+  "County:Somerset": [
+    "FM Radio:WHYU-FM",
+    "FM Radio:WQEJ",
+    "FM Radio:WCOX",
+    "FM Radio:WJHT",
+    "FM Radio:WQZS",
+    "FM Radio:WOGG",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKYE",
+    "FM Radio:WLKH",
+    "FM Radio:WYRA",
+    "FM Radio:WRKW",
+    "FM Radio:WCCL",
+    "FM Radio:WKVE",
+    "FM Radio:WBVE"
+  ],
+  "FM Radio:WZMV": [
+    "County:Berks"
+  ],
+  "FM Radio:WRXV": [
+    "County:Huntingdon",
+    "County:Centre",
+    "County:Clearfield"
+  ],
+  "FM Radio:WXVU": [
+    "County:Montgomery",
+    "County:Delaware"
+  ],
+  "FM Radio:WSKG-FM": [
+    "County:Bradford",
+    "County:Susquehanna"
+  ],
+  "FM Radio:WJCS": [
+    "County:Lehigh",
+    "County:Northampton"
+  ],
+  "FM Radio:WRTJ": [
+    "County:Chester"
+  ],
+  "FM Radio:WTWP": [
+    "County:Erie",
+    "County:Crawford",
+    "County:Warren"
+  ],
+  "FM Radio:WPMY": [
+    "County:Clinton",
+    "County:Lycoming"
+  ],
+  "County:Clinton": [
+    "FM Radio:WPMY",
+    "FM Radio:WTLR",
+    "FM Radio:WJVM",
+    "FM Radio:WSQV",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WBYL",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WVRT",
+    "FM Radio:WLEJ",
+    "FM Radio:WQBR",
+    "FM Radio:WCOG-FM",
+    "FM Radio:WFGE",
+    "FM Radio:WKSB",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WQKK"
+  ],
+  "FM Radio:WQED-FM": [
+    "County:Allegheny",
+    "County:Armstrong",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "County:Beaver": [
+    "FM Radio:WQED-FM",
+    "FM Radio:WESA",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WKPL",
+    "FM Radio:WLTJ",
+    "FM Radio:KDKA-FM",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WKST-FM",
+    "FM Radio:WRRK",
+    "FM Radio:WPKV",
+    "FM Radio:WSHH",
+    "FM Radio:WBZZ",
+    "FM Radio:WORD-FM",
+    "FM Radio:WDVE",
+    "FM Radio:WYFM",
+    "FM Radio:WOGH",
+    "FM Radio:WLYI",
+    "FM Radio:WOGI",
+    "FM Radio:WPGB",
+    "FM Radio:WXDX-FM",
+    "FM Radio:WAOB-FM",
+    "FM Radio:WDSY-FM"
+  ],
+  "County:Washington": [
+    "FM Radio:WQED-FM",
+    "FM Radio:WESA",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WNJR",
+    "FM Radio:WCAL",
+    "FM Radio:WLTJ",
+    "FM Radio:KDKA-FM",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WOGG",
+    "FM Radio:WJPA-FM",
+    "FM Radio:WKST-FM",
+    "FM Radio:WRRK",
+    "FM Radio:WPKV",
+    "FM Radio:WSHH",
+    "FM Radio:WBZZ",
+    "FM Radio:WORD-FM",
+    "FM Radio:WDVE",
+    "FM Radio:WKVE",
+    "FM Radio:WOGH",
+    "FM Radio:WLYI",
+    "FM Radio:WOGI",
+    "FM Radio:WPGB",
+    "FM Radio:WXDX-FM",
+    "FM Radio:WAOB-FM",
+    "FM Radio:WDSY-FM"
+  ],
+  "FM Radio:WPMN": [
+    "County:Fulton",
+    "County:Huntingdon",
+    "County:Bedford",
+    "County:Blair"
+  ],
+  "FM Radio:WRDV": [
+    "County:Bucks",
+    "County:Montgomery"
+  ],
+  "FM Radio:WPMU": [
+    "County:Elk",
+    "County:Jefferson",
+    "County:Clearfield"
+  ],
+  "FM Radio:WAWN": [
+    "County:Venango"
+  ],
+  "FM Radio:WITF-FM": [
+    "County:Juniata",
+    "County:Lancaster",
+    "County:Cumberland",
+    "County:Dauphin",
+    "County:York",
+    "County:Lebanon",
+    "County:Perry"
+  ],
+  "FM Radio:WWPJ": [
+    "County:Monroe",
+    "County:Northampton"
+  ],
+  "FM Radio:WNJA": [
+    "County:Warren"
+  ],
+  "FM Radio:WQEJ": [
+    "County:Indiana",
+    "County:Bedford",
+    "County:Cambria",
+    "County:Westmoreland",
+    "County:Somerset"
+  ],
+  "FM Radio:WVYA": [
+    "County:Lycoming"
+  ],
+  "FM Radio:WCGV": [
+    "County:Erie",
+    "County:Crawford"
+  ],
+  "FM Radio:WVIA-FM": [
+    "County:Lackawanna",
+    "County:Carbon",
+    "County:Columbia",
+    "County:Wyoming",
+    "County:Luzerne",
+    "County:Sullivan"
+  ],
+  "FM Radio:WTLR": [
+    "County:Huntingdon",
+    "County:Centre",
+    "County:Clinton",
+    "County:Mifflin"
+  ],
+  "FM Radio:WMFU": [
+    "County:Pike"
+  ],
+  "FM Radio:WIUP-FM": [
+    "County:Indiana"
+  ],
+  "FM Radio:WPSX": [
+    "County:Elk",
+    "County:Forest",
+    "County:Cameron",
+    "County:McKean",
+    "County:Warren"
+  ],
+  "FM Radio:WZXN": [
+    "County:Cumberland"
+  ],
+  "FM Radio:WVMN": [
+    "County:Lawrence"
+  ],
+  "FM Radio:WRTI": [
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester",
+    "County:Delaware"
+  ],
+  "FM Radio:WFBV": [
+    "County:Northumberland",
+    "County:Snyder"
+  ],
+  "FM Radio:WJVM": [
+    "County:Centre",
+    "County:Clinton"
+  ],
+  "FM Radio:WESS": [
+    "County:Monroe"
+  ],
+  "FM Radio:WJTL": [
+    "County:Lancaster",
+    "County:Dauphin",
+    "County:York",
+    "County:Lebanon"
+  ],
+  "FM Radio:WARC": [
+    "County:Crawford"
+  ],
+  "FM Radio:WCIH": [
+    "County:Bradford",
+    "County:Tioga"
+  ],
+  "FM Radio:WLHI": [
+    "County:Lehigh"
+  ],
+  "FM Radio:WJFF": [
+    "County:Wayne"
+  ],
+  "FM Radio:WTWT": [
+    "County:McKean"
+  ],
+  "FM Radio:WRVI": [
+    "County:Elk",
+    "County:Clearfield"
+  ],
+  "FM Radio:WFBM": [
+    "County:Juniata",
+    "County:Snyder"
+  ],
+  "FM Radio:WZXB": [
+    "County:Berks"
+  ],
+  "FM Radio:WPNJ": [
+    "County:Northampton"
+  ],
+  "FM Radio:WERG": [
+    "County:Erie"
+  ],
+  "FM Radio:WVAM-FM": [
+    "County:Lycoming"
+  ],
+  "FM Radio:WFBA": [
+    "County:Columbia",
+    "County:Northumberland",
+    "County:Schuylkill"
+  ],
+  "FM Radio:WVBU-FM": [
+    "County:Union"
+  ],
+  "FM Radio:WESA": [
+    "County:Allegheny",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WRTL": [
+    "County:Lancaster",
+    "County:Berks",
+    "County:Lebanon"
+  ],
+  "FM Radio:WVMM": [
+    "County:Cumberland"
+  ],
+  "FM Radio:WPAI": [
+    "County:Indiana",
+    "County:Cambria"
+  ],
+  "FM Radio:WZXY": [
+    "County:Adams",
+    "County:York"
+  ],
+  "FM Radio:WCLH": [
+    "County:Luzerne"
+  ],
+  "FM Radio:WCRG": [
+    "County:Lycoming"
+  ],
+  "FM Radio:WEVW": [
+    "County:Montour",
+    "County:Northumberland"
+  ],
+  "FM Radio:WZZH": [
+    "County:Lackawanna",
+    "County:Wayne"
+  ],
+  "FM Radio:WCDR": [
+    "County:Bradford",
+    "County:Sullivan"
+  ],
+  "FM Radio:WJRC": [
+    "County:Juniata",
+    "County:Mifflin"
+  ],
+  "FM Radio:WHYY-FM": [
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester",
+    "County:Delaware"
+  ],
+  "FM Radio:WCOT": [
+    "County:McKean",
+    "County:Warren"
+  ],
+  "FM Radio:WSQE": [
+    "County:Bradford",
+    "County:Tioga"
+  ],
+  "FM Radio:WCOX": [
+    "County:Huntingdon",
+    "County:Bedford",
+    "County:Blair",
+    "County:Cambria",
+    "County:Somerset"
+  ],
+  "FM Radio:WHSK": [
+    "County:Columbia"
+  ],
+  "FM Radio:WZBT": [
+    "County:Adams"
+  ],
+  "FM Radio:WSAJ-FM": [
+    "County:Butler",
+    "County:Clarion",
+    "County:Mercer",
+    "County:Venango"
+  ],
+  "County:Clarion": [
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WCUC-FM",
+    "FM Radio:WCCR-FM",
+    "FM Radio:WLOQ",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WKFT",
+    "FM Radio:WIFT",
+    "FM Radio:WKQL",
+    "FM Radio:WMKX",
+    "FM Radio:WCGH",
+    "FM Radio:WCOH"
+  ],
+  "FM Radio:WRTY": [
+    "County:Carbon",
+    "County:Monroe",
+    "County:Pike"
+  ],
+  "FM Radio:WMSS": [
+    "County:Dauphin",
+    "County:York"
+  ],
+  "FM Radio:WRPV": [
+    "County:Elk"
+  ],
+  "FM Radio:WOLN": [
+    "County:McKean"
+  ],
+  "FM Radio:WLVR-FM": [
+    "County:Lehigh",
+    "County:Northampton",
+    "County:Bucks"
+  ],
+  "FM Radio:WPFG": [
+    "County:Cumberland",
+    "County:Perry"
+  ],
+  "FM Radio:WQLN-FM": [
+    "County:Erie",
+    "County:Crawford"
+  ],
+  "FM Radio:WLCH": [
+    "County:Lancaster"
+  ],
+  "FM Radio:WGRC": [
+    "County:Montour",
+    "County:Northumberland",
+    "County:Snyder",
+    "County:Union"
+  ],
+  "FM Radio:WYEP-FM": [
+    "County:Allegheny",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WXAC": [
+    "County:Berks"
+  ],
+  "FM Radio:WCDJ": [
+    "County:Bradford",
+    "County:Wyoming",
+    "County:Susquehanna"
+  ],
+  "FM Radio:WSQX-FM": [
+    "County:Susquehanna"
+  ],
+  "FM Radio:WPAU": [
+    "County:Wayne",
+    "County:Pike"
+  ],
+  "FM Radio:WCDH": [
+    "County:Carbon",
+    "County:Columbia",
+    "County:Luzerne",
+    "County:Schuylkill"
+  ],
+  "FM Radio:WPSU": [
+    "County:Huntingdon",
+    "County:Centre",
+    "County:Clearfield",
+    "County:Mifflin"
+  ],
+  "FM Radio:WSRN-FM": [
+    "County:Delaware"
+  ],
+  "FM Radio:WCGN": [
+    "County:Potter"
+  ],
+  "FM Radio:WMUH": [
+    "County:Lehigh"
+  ],
+  "FM Radio:WCUC-FM": [
+    "County:Clarion"
+  ],
+  "FM Radio:WLWG": [
+    "County:Fayette",
+    "County:Westmoreland"
+  ],
+  "FM Radio:WCOZ": [
+    "County:Bradford",
+    "County:Sullivan"
+  ],
+  "FM Radio:WKDU": [
+    "County:Philadelphia"
+  ],
+  "FM Radio:WVMW-FM": [
+    "County:Lackawanna"
+  ],
+  "FM Radio:WJAZ": [
+    "County:Cumberland",
+    "County:Dauphin",
+    "County:Perry"
+  ],
+  "FM Radio:WBMR": [
+    "County:Bucks",
+    "County:Montgomery"
+  ],
+  "FM Radio:WNJR": [
+    "County:Washington"
+  ],
+  "FM Radio:WZWG": [
+    "County:Chester"
+  ],
+  "FM Radio:WRLC": [
+    "County:Lycoming"
+  ],
+  "FM Radio:WCAL": [
+    "County:Fayette",
+    "County:Greene",
+    "County:Washington"
+  ],
+  "FM Radio:WMMH": [
+    "County:Huntingdon",
+    "County:Blair",
+    "County:Cambria",
+    "County:Centre",
+    "County:Clearfield"
+  ],
+  "FM Radio:WZRG": [
+    "County:Columbia",
+    "County:Northumberland",
+    "County:Schuylkill"
+  ],
+  "FM Radio:WVME": [
+    "County:Crawford",
+    "County:Mercer"
+  ],
+  "FM Radio:WYTL": [
+    "County:Lancaster",
+    "County:Berks",
+    "County:Chester"
+  ],
+  "FM Radio:WKPL": [
+    "County:Lawrence",
+    "County:Allegheny",
+    "County:Beaver",
+    "County:Butler"
+  ],
+  "FM Radio:WJHT": [
+    "County:Indiana",
+    "County:Cambria",
+    "County:Westmoreland",
+    "County:Somerset"
+  ],
+  "FM Radio:WSQV": [
+    "County:Centre",
+    "County:Clinton",
+    "County:Lycoming"
+  ],
+  "FM Radio:WIKG": [
+    "County:Franklin"
+  ],
+  "FM Radio:WQFM": [
+    "County:Lackawanna",
+    "County:Wyoming",
+    "County:Luzerne"
+  ],
+  "FM Radio:WKHL": [
+    "County:Dauphin",
+    "County:Lebanon"
+  ],
+  "FM Radio:WPTS-FM": [
+    "County:Allegheny"
+  ],
+  "FM Radio:WOGA": [
+    "County:Tioga"
+  ],
+  "FM Radio:WHNA": [
+    "County:Columbia",
+    "County:Montour",
+    "County:Northumberland",
+    "County:Snyder",
+    "County:Union"
+  ],
+  "FM Radio:WRRN": [
+    "County:Elk",
+    "County:Erie",
+    "County:Forest",
+    "County:McKean",
+    "County:Warren"
+  ],
+  "FM Radio:WKGB-FM": [
+    "County:Susquehanna"
+  ],
+  "FM Radio:WQMU": [
+    "County:Indiana",
+    "County:Armstrong"
+  ],
+  "FM Radio:WIBF": [
+    "County:Juniata",
+    "County:Mifflin",
+    "County:Perry"
+  ],
+  "FM Radio:WXTU": [
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WCCR-FM": [
+    "County:Jefferson",
+    "County:Clarion"
+  ],
+  "FM Radio:WICU-FM": [
+    "County:Erie"
+  ],
+  "FM Radio:WJSM-FM": [
+    "County:Huntingdon",
+    "County:Bedford",
+    "County:Blair"
+  ],
+  "FM Radio:WENI-FM": [
+    "County:Bradford"
+  ],
+  "FM Radio:WNUU": [
+    "County:Lancaster",
+    "County:Dauphin",
+    "County:York"
+  ],
+  "FM Radio:WLTJ": [
+    "County:Fayette",
+    "County:Allegheny",
+    "County:Armstrong",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WMGS": [
+    "County:Lackawanna",
+    "County:Carbon",
+    "County:Columbia",
+    "County:Wyoming",
+    "County:Luzerne",
+    "County:Monroe",
+    "County:Schuylkill",
+    "County:Sullivan",
+    "County:Susquehanna"
+  ],
+  "FM Radio:WPQP": [
+    "County:Elk",
+    "County:Jefferson",
+    "County:Centre",
+    "County:Clearfield"
+  ],
+  "FM Radio:WWSE": [
+    "County:Erie",
+    "County:McKean",
+    "County:Warren"
+  ],
+  "FM Radio:WYPM": [
+    "County:Franklin",
+    "County:Fulton",
+    "County:Huntingdon",
+    "County:Cumberland"
+  ],
+  "FM Radio:WQZS": [
+    "County:Fayette",
+    "County:Somerset"
+  ],
+  "FM Radio:WBZD-FM": [
+    "County:Clinton",
+    "County:Lycoming",
+    "County:Montour",
+    "County:Northumberland",
+    "County:Sullivan",
+    "County:Union"
+  ],
+  "FM Radio:WMMR": [
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WJOB-FM": [
+    "County:Susquehanna"
+  ],
+  "FM Radio:WLKE": [
+    "County:Blair",
+    "County:Cambria"
+  ],
+  "FM Radio:WTPA-FM": [
+    "County:Cumberland",
+    "County:Dauphin",
+    "County:York"
+  ],
+  "FM Radio:WSBG": [
+    "County:Monroe",
+    "County:Northampton"
+  ],
+  "FM Radio:WMAJ": [
+    "County:Huntingdon",
+    "County:Centre",
+    "County:Mifflin"
+  ],
+  "FM Radio:WSJR": [
+    "County:Lackawanna",
+    "County:Wyoming",
+    "County:Luzerne"
+  ],
+  "FM Radio:KDKA-FM": [
+    "County:Allegheny",
+    "County:Armstrong",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WTWF": [
+    "County:Erie"
+  ],
+  "FM Radio:WKBI-FM": [
+    "County:Elk",
+    "County:Forest",
+    "County:Jefferson",
+    "County:Cameron",
+    "County:Clearfield",
+    "County:McKean"
+  ],
+  "FM Radio:WIP-FM": [
+    "County:Berks",
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WQKX": [
+    "County:Columbia",
+    "County:Dauphin",
+    "County:Lebanon",
+    "County:Lycoming",
+    "County:Northumberland",
+    "County:Perry",
+    "County:Schuylkill",
+    "County:Snyder",
+    "County:Union"
+  ],
+  "FM Radio:WTRW": [
+    "County:Lackawanna",
+    "County:Wayne",
+    "County:Susquehanna"
+  ],
+  "FM Radio:WQCM": [
+    "County:Franklin"
+  ],
+  "FM Radio:WBXQ": [
+    "County:Indiana",
+    "County:Blair",
+    "County:Cambria",
+    "County:Clearfield"
+  ],
+  "FM Radio:WRQI": [
+    "County:Crawford",
+    "County:Mercer"
+  ],
+  "FM Radio:WDAC": [
+    "County:Lancaster",
+    "County:Berks",
+    "County:York",
+    "County:Lebanon",
+    "County:Chester"
+  ],
+  "FM Radio:WWSW-FM": [
+    "County:Fayette",
+    "County:Allegheny",
+    "County:Armstrong",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WBHV-FM": [
+    "County:Huntingdon",
+    "County:Centre"
+  ],
+  "FM Radio:WIYN": [
+    "County:Wayne",
+    "County:Susquehanna"
+  ],
+  "FM Radio:WBRX": [
+    "County:Huntingdon",
+    "County:Bedford",
+    "County:Blair",
+    "County:Cambria"
+  ],
+  "FM Radio:WXBB": [
+    "County:Erie"
+  ],
+  "FM Radio:WMTT-FM": [
+    "County:Tioga"
+  ],
+  "FM Radio:WRSD": [
+    "County:Delaware"
+  ],
+  "FM Radio:WRBT": [
+    "County:Juniata",
+    "County:Lancaster",
+    "County:Cumberland",
+    "County:Dauphin",
+    "County:York",
+    "County:Lebanon",
+    "County:Perry",
+    "County:Snyder"
+  ],
+  "FM Radio:WOGG": [
+    "County:Fayette",
+    "County:Greene",
+    "County:Westmoreland",
+    "County:Somerset",
+    "County:Washington"
+  ],
+  "FM Radio:WHKS": [
+    "County:McKean",
+    "County:Potter"
+  ],
+  "FM Radio:WZZO": [
+    "County:Berks",
+    "County:Carbon",
+    "County:Lehigh",
+    "County:Monroe",
+    "County:Northampton",
+    "County:Bucks",
+    "County:Montgomery"
+  ],
+  "FM Radio:WIKZ": [
+    "County:Franklin",
+    "County:Fulton",
+    "County:Huntingdon",
+    "County:Cumberland"
+  ],
+  "FM Radio:WYLE": [
+    "County:Lawrence",
+    "County:Butler",
+    "County:Crawford",
+    "County:Mercer",
+    "County:Venango"
+  ],
+  "FM Radio:WLKW": [
+    "County:Warren"
+  ],
+  "FM Radio:WZWW": [
+    "County:Centre"
+  ],
+  "FM Radio:WDNH-FM": [
+    "County:Wayne",
+    "County:Pike"
+  ],
+  "FM Radio:WBLJ-FM": [
+    "County:Columbia",
+    "County:Dauphin",
+    "County:Northumberland",
+    "County:Schuylkill"
+  ],
+  "FM Radio:WTTC-FM": [
+    "County:Bradford"
+  ],
+  "FM Radio:WJPA-FM": [
+    "County:Allegheny",
+    "County:Washington"
+  ],
+  "FM Radio:WFGI-FM": [
+    "County:Indiana",
+    "County:Allegheny",
+    "County:Armstrong",
+    "County:Bedford",
+    "County:Blair",
+    "County:Cambria",
+    "County:Westmoreland",
+    "County:Somerset"
+  ],
+  "FM Radio:WBYL": [
+    "County:Clinton",
+    "County:Lycoming"
+  ],
+  "FM Radio:WPIG": [
+    "County:McKean",
+    "County:Potter"
+  ],
+  "FM Radio:WMRF-FM": [
+    "County:Juniata",
+    "County:Mifflin",
+    "County:Perry"
+  ],
+  "FM Radio:WBHD": [
+    "County:Lackawanna",
+    "County:Wyoming",
+    "County:Luzerne"
+  ],
+  "FM Radio:WBEN-FM": [
+    "County:Berks",
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WEBG": [
+    "County:Erie"
+  ],
+  "FM Radio:WKBP": [
+    "County:Columbia",
+    "County:Luzerne",
+    "County:Montour"
+  ],
+  "FM Radio:WAKZ": [
+    "County:Lawrence",
+    "County:Mercer"
+  ],
+  "FM Radio:WQQP": [
+    "County:Jefferson",
+    "County:Clearfield"
+  ],
+  "FM Radio:WCBF": [
+    "County:Bradford"
+  ],
+  "FM Radio:WCTO": [
+    "County:Berks",
+    "County:Carbon",
+    "County:Lehigh",
+    "County:Monroe",
+    "County:Northampton",
+    "County:Schuylkill",
+    "County:Bucks",
+    "County:Montgomery"
+  ],
+  "FM Radio:WKST-FM": [
+    "County:Fayette",
+    "County:Allegheny",
+    "County:Armstrong",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WSOX": [
+    "County:Lancaster",
+    "County:Adams",
+    "County:Cumberland",
+    "County:Dauphin",
+    "County:York",
+    "County:Lebanon"
+  ],
+  "FM Radio:WJSA-FM": [
+    "County:Centre",
+    "County:Clinton",
+    "County:Lycoming",
+    "County:Union"
+  ],
+  "FM Radio:WLOQ": [
+    "County:Forest",
+    "County:Clarion",
+    "County:Venango"
+  ],
+  "FM Radio:WKYE": [
+    "County:Indiana",
+    "County:Armstrong",
+    "County:Bedford",
+    "County:Blair",
+    "County:Cambria",
+    "County:Westmoreland",
+    "County:Somerset"
+  ],
+  "FM Radio:WPEL-FM": [
+    "County:Lackawanna",
+    "County:Bradford",
+    "County:Wayne",
+    "County:Wyoming",
+    "County:Susquehanna"
+  ],
+  "FM Radio:WTDY-FM": [
+    "County:Berks",
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WVNW": [
+    "County:Huntingdon",
+    "County:Juniata",
+    "County:Mifflin"
+  ],
+  "FM Radio:WPGM-FM": [
+    "County:Columbia",
+    "County:Montour",
+    "County:Northumberland"
+  ],
+  "FM Radio:WABT": [
+    "County:Monroe",
+    "County:Pike"
+  ],
+  "FM Radio:WCOR-FM": [
+    "County:McKean"
+  ],
+  "FM Radio:WLLF": [
+    "County:Mercer"
+  ],
+  "FM Radio:WRRK": [
+    "County:Fayette",
+    "County:Allegheny",
+    "County:Armstrong",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WLAN-FM": [
+    "County:Lancaster",
+    "County:Berks",
+    "County:Dauphin",
+    "County:York",
+    "County:Lebanon",
+    "County:Chester"
+  ],
+  "FM Radio:WZBF": [
+    "County:Bradford"
+  ],
+  "FM Radio:WBHT": [
+    "County:Lackawanna",
+    "County:Wyoming",
+    "County:Luzerne"
+  ],
+  "FM Radio:WOWY": [
+    "County:Huntingdon",
+    "County:Centre"
+  ],
+  "FM Radio:WGJC": [
+    "County:Huntingdon",
+    "County:Centre"
+  ],
+  "FM Radio:WRVV": [
+    "County:Juniata",
+    "County:Lancaster",
+    "County:Adams",
+    "County:Cumberland",
+    "County:Dauphin",
+    "County:York",
+    "County:Lebanon",
+    "County:Perry",
+    "County:Snyder"
+  ],
+  "FM Radio:WPCL": [
+    "County:Indiana",
+    "County:Cambria"
+  ],
+  "FM Radio:WDDH": [
+    "County:Elk",
+    "County:Forest",
+    "County:Jefferson",
+    "County:Cameron",
+    "County:McKean",
+    "County:Warren"
+  ],
+  "FM Radio:WLER-FM": [
+    "County:Armstrong",
+    "County:Butler"
+  ],
+  "FM Radio:WVRT": [
+    "County:Clinton",
+    "County:Lycoming",
+    "County:Union"
+  ],
+  "FM Radio:WLKH": [
+    "County:Westmoreland",
+    "County:Somerset"
+  ],
+  "FM Radio:WXTA": [
+    "County:Erie",
+    "County:Crawford"
+  ],
+  "FM Radio:WBSX": [
+    "County:Lackawanna",
+    "County:Carbon",
+    "County:Columbia",
+    "County:Wyoming",
+    "County:Luzerne",
+    "County:Monroe",
+    "County:Schuylkill",
+    "County:Sullivan"
+  ],
+  "FM Radio:WHWK": [
+    "County:Bradford",
+    "County:Susquehanna"
+  ],
+  "FM Radio:WFGY": [
+    "County:Huntingdon",
+    "County:Indiana",
+    "County:Bedford",
+    "County:Blair",
+    "County:Cambria",
+    "County:Centre",
+    "County:Clearfield"
+  ],
+  "FM Radio:WOGL": [
+    "County:Berks",
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WQRS": [
+    "County:McKean"
+  ],
+  "FM Radio:WPKV": [
+    "County:Allegheny",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WRBG": [
+    "County:Northumberland",
+    "County:Snyder",
+    "County:Union"
+  ],
+  "FM Radio:WYRA": [
+    "County:Fayette",
+    "County:Somerset"
+  ],
+  "FM Radio:WKRZ": [
+    "County:Lackawanna",
+    "County:Carbon",
+    "County:Columbia",
+    "County:Wyoming",
+    "County:Luzerne",
+    "County:Monroe",
+    "County:Schuylkill",
+    "County:Sullivan",
+    "County:Susquehanna"
+  ],
+  "FM Radio:WGYI": [
+    "County:Forest",
+    "County:Clarion",
+    "County:Crawford",
+    "County:Mercer",
+    "County:Venango"
+  ],
+  "FM Radio:WYCR": [
+    "County:Lancaster",
+    "County:Adams",
+    "County:Cumberland",
+    "County:Dauphin",
+    "County:York"
+  ],
+  "FM Radio:WPHD": [
+    "County:Tioga"
+  ],
+  "FM Radio:WLEJ": [
+    "County:Centre",
+    "County:Clinton"
+  ],
+  "FM Radio:WQKY": [
+    "County:Elk",
+    "County:Cameron",
+    "County:McKean",
+    "County:Potter"
+  ],
+  "FM Radio:WQLV": [
+    "County:Juniata",
+    "County:Dauphin",
+    "County:Perry",
+    "County:Snyder"
+  ],
+  "FM Radio:WUSL": [
+    "County:Berks",
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WAAL": [
+    "County:Bradford",
+    "County:Susquehanna"
+  ],
+  "FM Radio:WRKW": [
+    "County:Huntingdon",
+    "County:Indiana",
+    "County:Bedford",
+    "County:Blair",
+    "County:Cambria",
+    "County:Clearfield",
+    "County:Westmoreland",
+    "County:Somerset"
+  ],
+  "FM Radio:WHMJ": [
+    "County:Butler",
+    "County:Clarion",
+    "County:Crawford",
+    "County:Mercer",
+    "County:Venango"
+  ],
+  "FM Radio:WHKF": [
+    "County:Cumberland",
+    "County:Dauphin",
+    "County:York"
+  ],
+  "FM Radio:WZXR": [
+    "County:Lycoming",
+    "County:Northumberland",
+    "County:Union"
+  ],
+  "FM Radio:WPKL": [
+    "County:Fayette",
+    "County:Greene"
+  ],
+  "FM Radio:WOKN": [
+    "County:Bradford"
+  ],
+  "FM Radio:WBUS": [
+    "County:Huntingdon",
+    "County:Juniata",
+    "County:Centre",
+    "County:Mifflin"
+  ],
+  "FM Radio:WUSR": [
+    "County:Lackawanna",
+    "County:Wyoming",
+    "County:Luzerne"
+  ],
+  "FM Radio:WVRZ": [
+    "County:Columbia",
+    "County:Montour",
+    "County:Northumberland",
+    "County:Schuylkill"
+  ],
+  "FM Radio:WSHH": [
+    "County:Fayette",
+    "County:Allegheny",
+    "County:Armstrong",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WQBR": [
+    "County:Clinton",
+    "County:Lycoming"
+  ],
+  "FM Radio:WODE-FM": [
+    "County:Berks",
+    "County:Carbon",
+    "County:Lehigh",
+    "County:Monroe",
+    "County:Northampton",
+    "County:Bucks",
+    "County:Montgomery"
+  ],
+  "FM Radio:WXKC": [
+    "County:Erie",
+    "County:Crawford"
+  ],
+  "FM Radio:WHHS": [
+    "County:Delaware"
+  ],
+  "FM Radio:WWOT": [
+    "County:Huntingdon",
+    "County:Blair",
+    "County:Cambria",
+    "County:Centre",
+    "County:Clearfield"
+  ],
+  "FM Radio:WBRR": [
+    "County:McKean"
+  ],
+  "FM Radio:WQFN": [
+    "County:Lackawanna",
+    "County:Wayne",
+    "County:Susquehanna"
+  ],
+  "FM Radio:WFVY": [
+    "County:Dauphin",
+    "County:Lebanon"
+  ],
+  "FM Radio:WHGL-FM": [
+    "County:Bradford",
+    "County:Lycoming",
+    "County:Sullivan",
+    "County:Tioga"
+  ],
+  "FM Radio:WGYY": [
+    "County:Erie",
+    "County:Crawford",
+    "County:Mercer",
+    "County:Venango"
+  ],
+  "FM Radio:WRNB": [
+    "County:Berks",
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WQBG": [
+    "County:Dauphin",
+    "County:Northumberland",
+    "County:Perry",
+    "County:Snyder"
+  ],
+  "FM Radio:WJNG": [
+    "County:Elk",
+    "County:Jefferson"
+  ],
+  "FM Radio:WDRE": [
+    "County:Susquehanna"
+  ],
+  "FM Radio:WLEV": [
+    "County:Berks",
+    "County:Carbon",
+    "County:Lehigh",
+    "County:Monroe",
+    "County:Northampton",
+    "County:Schuylkill",
+    "County:Bucks",
+    "County:Montgomery"
+  ],
+  "FM Radio:WCOG-FM": [
+    "County:Clinton",
+    "County:Lycoming",
+    "County:Potter",
+    "County:Tioga"
+  ],
+  "FM Radio:WBZZ": [
+    "County:Fayette",
+    "County:Allegheny",
+    "County:Armstrong",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WAYC": [
+    "County:Bedford"
+  ],
+  "FM Radio:WVLY-FM": [
+    "County:Columbia",
+    "County:Montour",
+    "County:Northumberland",
+    "County:Snyder",
+    "County:Union"
+  ],
+  "FM Radio:WCGE": [
+    "County:Erie"
+  ],
+  "FM Radio:WBEB": [
+    "County:Berks",
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WFGE": [
+    "County:Huntingdon",
+    "County:Juniata",
+    "County:Blair",
+    "County:Centre",
+    "County:Clearfield",
+    "County:Clinton",
+    "County:Mifflin"
+  ],
+  "FM Radio:WROZ": [
+    "County:Lancaster",
+    "County:Adams",
+    "County:Berks",
+    "County:Cumberland",
+    "County:Dauphin",
+    "County:York",
+    "County:Lebanon"
+  ],
+  "FM Radio:WGGY": [
+    "County:Lackawanna",
+    "County:Bradford",
+    "County:Carbon",
+    "County:Wayne",
+    "County:Wyoming",
+    "County:Luzerne",
+    "County:Monroe",
+    "County:Pike",
+    "County:Susquehanna"
+  ],
+  "FM Radio:WKFT": [
+    "County:Forest",
+    "County:Jefferson",
+    "County:Clarion"
+  ],
+  "FM Radio:WMXO": [
+    "County:McKean"
+  ],
+  "FM Radio:WDKC": [
+    "County:Bradford",
+    "County:Tioga"
+  ],
+  "FM Radio:WORD-FM": [
+    "County:Fayette",
+    "County:Allegheny",
+    "County:Armstrong",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WBHB-FM": [
+    "County:Franklin",
+    "County:Fulton",
+    "County:Huntingdon"
+  ],
+  "FM Radio:WLTB": [
+    "County:Susquehanna"
+  ],
+  "FM Radio:WCCL": [
+    "County:Bedford",
+    "County:Cambria",
+    "County:Somerset"
+  ],
+  "FM Radio:WMVL": [
+    "County:Erie",
+    "County:Crawford"
+  ],
+  "FM Radio:WHUG": [
+    "County:Warren"
+  ],
+  "FM Radio:WAVT-FM": [
+    "County:Berks",
+    "County:Carbon",
+    "County:Columbia",
+    "County:Lebanon",
+    "County:Luzerne",
+    "County:Northumberland",
+    "County:Schuylkill"
+  ],
+  "FM Radio:WDNB": [
+    "County:Wayne"
+  ],
+  "FM Radio:WAVR": [
+    "County:Bradford"
+  ],
+  "FM Radio:WIFT": [
+    "County:Elk",
+    "County:Indiana",
+    "County:Jefferson",
+    "County:Armstrong",
+    "County:Cambria",
+    "County:Clarion",
+    "County:Clearfield"
+  ],
+  "FM Radio:WIOQ": [
+    "County:Berks",
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WCAT-FM": [
+    "County:Cumberland",
+    "County:York",
+    "County:Perry"
+  ],
+  "FM Radio:WQHZ": [
+    "County:Erie"
+  ],
+  "FM Radio:WMQX": [
+    "County:Lackawanna",
+    "County:Wyoming",
+    "County:Luzerne"
+  ],
+  "FM Radio:WDVE": [
+    "County:Fayette",
+    "County:Allegheny",
+    "County:Armstrong",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WRFY-FM": [
+    "County:Lancaster",
+    "County:Berks",
+    "County:Lebanon",
+    "County:Lehigh",
+    "County:Schuylkill",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WCGM": [
+    "County:Erie",
+    "County:Crawford",
+    "County:Warren"
+  ],
+  "FM Radio:WKSB": [
+    "County:Bradford",
+    "County:Clinton",
+    "County:Columbia",
+    "County:Luzerne",
+    "County:Lycoming",
+    "County:Northumberland",
+    "County:Schuylkill",
+    "County:Tioga"
+  ],
+  "FM Radio:WOKW": [
+    "County:Clearfield"
+  ],
+  "FM Radio:WMGK": [
+    "County:Berks",
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WYFM": [
+    "County:Lawrence",
+    "County:Beaver",
+    "County:Butler",
+    "County:Mercer"
+  ],
+  "FM Radio:WILK-FM": [
+    "County:Lackawanna",
+    "County:Wyoming",
+    "County:Luzerne"
+  ],
+  "FM Radio:WKVE": [
+    "County:Fayette",
+    "County:Greene",
+    "County:Westmoreland",
+    "County:Somerset",
+    "County:Washington"
+  ],
+  "FM Radio:WQFX-FM": [
+    "County:Warren"
+  ],
+  "FM Radio:WAPY": [
+    "County:Huntingdon",
+    "County:Centre",
+    "County:Mifflin"
+  ],
+  "FM Radio:WMXW": [
+    "County:Susquehanna"
+  ],
+  "FM Radio:WKQL": [
+    "County:Indiana",
+    "County:Jefferson",
+    "County:Armstrong",
+    "County:Clarion",
+    "County:Clearfield"
+  ],
+  "FM Radio:WARM-FM": [
+    "County:Lancaster",
+    "County:Adams",
+    "County:Berks",
+    "County:Cumberland",
+    "County:Dauphin",
+    "County:York",
+    "County:Lebanon"
+  ],
+  "FM Radio:WJQZ": [
+    "County:Potter"
+  ],
+  "FM Radio:WMMZ": [
+    "County:Columbia",
+    "County:Luzerne"
+  ],
+  "FM Radio:WOGH": [
+    "County:Greene",
+    "County:Allegheny",
+    "County:Beaver",
+    "County:Washington"
+  ],
+  "FM Radio:WLYI": [
+    "County:Greene",
+    "County:Allegheny",
+    "County:Beaver",
+    "County:Washington"
+  ],
+  "FM Radio:WHUN-FM": [
+    "County:Huntingdon",
+    "County:Blair"
+  ],
+  "FM Radio:WRTS": [
+    "County:Erie",
+    "County:Crawford"
+  ],
+  "FM Radio:WCXR": [
+    "County:Northumberland",
+    "County:Snyder",
+    "County:Union"
+  ],
+  "FM Radio:WEEO-FM": [
+    "County:Franklin",
+    "County:Fulton"
+  ],
+  "FM Radio:WALY": [
+    "County:Blair",
+    "County:Cambria"
+  ],
+  "FM Radio:WGMF-FM": [
+    "County:Bradford",
+    "County:Wyoming",
+    "County:Sullivan",
+    "County:Susquehanna"
+  ],
+  "FM Radio:WCOP": [
+    "County:McKean",
+    "County:Potter"
+  ],
+  "FM Radio:WPHI-FM": [
+    "County:Montgomery",
+    "County:Philadelphia",
+    "County:Delaware"
+  ],
+  "FM Radio:WKHB-FM": [
+    "County:Fayette",
+    "County:Westmoreland"
+  ],
+  "FM Radio:WWIZ": [
+    "County:Lawrence",
+    "County:Mercer"
+  ],
+  "FM Radio:WAEB-FM": [
+    "County:Berks",
+    "County:Carbon",
+    "County:Lehigh",
+    "County:Luzerne",
+    "County:Monroe",
+    "County:Northampton",
+    "County:Schuylkill",
+    "County:Bucks",
+    "County:Montgomery"
+  ],
+  "FM Radio:WNNK-FM": [
+    "County:Juniata",
+    "County:Lancaster",
+    "County:Adams",
+    "County:Cumberland",
+    "County:Dauphin",
+    "County:York",
+    "County:Lebanon",
+    "County:Perry",
+    "County:Snyder"
+  ],
+  "FM Radio:WPXZ-FM": [
+    "County:Indiana",
+    "County:Jefferson"
+  ],
+  "FM Radio:WNAE": [
+    "County:McKean",
+    "County:Warren"
+  ],
+  "FM Radio:WSKE": [
+    "County:Fulton",
+    "County:Bedford"
+  ],
+  "FM Radio:WOGI": [
+    "County:Lawrence",
+    "County:Allegheny",
+    "County:Beaver",
+    "County:Butler",
+    "County:Washington"
+  ],
+  "FM Radio:WHNB": [
+    "County:Wayne"
+  ],
+  "FM Radio:WXMJ": [
+    "County:Erie",
+    "County:Crawford"
+  ],
+  "FM Radio:WRFF": [
+    "County:Berks",
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WNBT-FM": [
+    "County:Bradford",
+    "County:Clinton",
+    "County:Lycoming",
+    "County:Potter",
+    "County:Tioga"
+  ],
+  "FM Radio:WPGB": [
+    "County:Allegheny",
+    "County:Armstrong",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WRKY-FM": [
+    "County:Huntingdon",
+    "County:Blair",
+    "County:Cambria"
+  ],
+  "FM Radio:WRKT": [
+    "County:Erie"
+  ],
+  "FM Radio:WWRR": [
+    "County:Lackawanna",
+    "County:Wyoming",
+    "County:Luzerne"
+  ],
+  "FM Radio:WIOV-FM": [
+    "County:Lancaster",
+    "County:Berks",
+    "County:Dauphin",
+    "County:York",
+    "County:Lebanon",
+    "County:Schuylkill",
+    "County:Chester"
+  ],
+  "FM Radio:WJKB": [
+    "County:Forest",
+    "County:McKean",
+    "County:Warren"
+  ],
+  "FM Radio:WILQ": [
+    "County:Clinton",
+    "County:Columbia",
+    "County:Lycoming",
+    "County:Northumberland",
+    "County:Snyder",
+    "County:Sullivan",
+    "County:Tioga",
+    "County:Union"
+  ],
+  "FM Radio:WYCY": [
+    "County:Wayne",
+    "County:Pike"
+  ],
+  "FM Radio:WDAS-FM": [
+    "County:Berks",
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WMKX": [
+    "County:Elk",
+    "County:Forest",
+    "County:Indiana",
+    "County:Jefferson",
+    "County:Armstrong",
+    "County:Clarion",
+    "County:Clearfield"
+  ],
+  "FM Radio:WCHX": [
+    "County:Juniata",
+    "County:Mifflin"
+  ],
+  "FM Radio:WMGH-FM": [
+    "County:Berks",
+    "County:Carbon",
+    "County:Lehigh",
+    "County:Schuylkill"
+  ],
+  "FM Radio:WBNW-FM": [
+    "County:Bradford",
+    "County:Susquehanna"
+  ],
+  "FM Radio:WLKJ": [
+    "County:Blair",
+    "County:Cambria"
+  ],
+  "FM Radio:WQXA-FM": [
+    "County:Lancaster",
+    "County:Adams",
+    "County:Cumberland",
+    "County:Dauphin",
+    "County:York",
+    "County:Lebanon"
+  ],
+  "FM Radio:WCGS": [
+    "County:McKean"
+  ],
+  "FM Radio:WQCK": [
+    "County:Huntingdon",
+    "County:Blair",
+    "County:Centre",
+    "County:Clearfield"
+  ],
+  "FM Radio:WXDX-FM": [
+    "County:Allegheny",
+    "County:Armstrong",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WPZX": [
+    "County:Lackawanna",
+    "County:Carbon",
+    "County:Luzerne",
+    "County:Monroe"
+  ],
+  "FM Radio:WNKI": [
+    "County:Bradford",
+    "County:Tioga"
+  ],
+  "FM Radio:WNNA": [
+    "County:Juniata",
+    "County:Mifflin",
+    "County:Perry",
+    "County:Snyder",
+    "County:Union"
+  ],
+  "FM Radio:WCGH": [
+    "County:Forest",
+    "County:Clarion",
+    "County:Venango"
+  ],
+  "FM Radio:WUMR": [
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WLCY": [
+    "County:Indiana",
+    "County:Armstrong",
+    "County:Westmoreland"
+  ],
+  "FM Radio:WCTL": [
+    "County:Erie"
+  ],
+  "FM Radio:WDBF-FM": [
+    "County:Huntingdon",
+    "County:Mifflin"
+  ],
+  "FM Radio:WXMT": [
+    "County:McKean",
+    "County:Potter"
+  ],
+  "FM Radio:WCFT-FM": [
+    "County:Columbia",
+    "County:Luzerne",
+    "County:Lycoming",
+    "County:Northumberland",
+    "County:Schuylkill",
+    "County:Sullivan",
+    "County:Union"
+  ],
+  "FM Radio:WDSN": [
+    "County:Jefferson",
+    "County:Clearfield"
+  ],
+  "FM Radio:WCDW": [
+    "County:Susquehanna"
+  ],
+  "FM Radio:WAOB-FM": [
+    "County:Lawrence",
+    "County:Allegheny",
+    "County:Armstrong",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WWKL": [
+    "County:Lancaster",
+    "County:Adams",
+    "County:Berks",
+    "County:Cumberland",
+    "County:Dauphin",
+    "County:York",
+    "County:Lebanon",
+    "County:Perry",
+    "County:Schuylkill"
+  ],
+  "FM Radio:WKZA": [
+    "County:McKean",
+    "County:Warren"
+  ],
+  "FM Radio:WMKF": [
+    "County:Fayette",
+    "County:Greene"
+  ],
+  "FM Radio:WQKK": [
+    "County:Clinton"
+  ],
+  "FM Radio:WEZX": [
+    "County:Lackawanna",
+    "County:Wyoming",
+    "County:Luzerne"
+  ],
+  "FM Radio:WHJB": [
+    "County:Indiana",
+    "County:Westmoreland"
+  ],
+  "FM Radio:WLVX": [
+    "County:Crawford",
+    "County:Mercer"
+  ],
+  "FM Radio:WQJU": [
+    "County:Juniata",
+    "County:Mifflin",
+    "County:Perry"
+  ],
+  "FM Radio:DWLIH": [
+    "County:Tioga"
+  ],
+  "FM Radio:WCOH": [
+    "County:Elk",
+    "County:Forest",
+    "County:Jefferson",
+    "County:Cameron",
+    "County:Centre",
+    "County:Clarion",
+    "County:Clearfield",
+    "County:McKean"
+  ],
+  "FM Radio:WEGH": [
+    "County:Dauphin",
+    "County:Montour",
+    "County:Northumberland",
+    "County:Snyder",
+    "County:Union"
+  ],
+  "FM Radio:WBBI": [
+    "County:Susquehanna"
+  ],
+  "FM Radio:WBVE": [
+    "County:Bedford",
+    "County:Somerset"
+  ],
+  "FM Radio:WBYN-FM": [
+    "County:Lancaster",
+    "County:Berks",
+    "County:Lehigh",
+    "County:Northampton",
+    "County:Schuylkill",
+    "County:Bucks",
+    "County:Montgomery",
+    "County:Chester"
+  ],
+  "FM Radio:WRQW": [
+    "County:Forest",
+    "County:Crawford",
+    "County:Venango"
+  ],
+  "FM Radio:WCIG": [
+    "County:Lackawanna",
+    "County:Wyoming",
+    "County:Luzerne"
+  ],
+  "FM Radio:WGTY": [
+    "County:Franklin",
+    "County:Adams",
+    "County:Cumberland",
+    "County:Dauphin",
+    "County:York"
+  ],
+  "FM Radio:WDSY-FM": [
+    "County:Fayette",
+    "County:Allegheny",
+    "County:Armstrong",
+    "County:Beaver",
+    "County:Butler",
+    "County:Westmoreland",
+    "County:Washington"
+  ],
+  "FM Radio:WKPA": [
+    "County:Huntingdon",
+    "County:Centre",
+    "County:Clearfield"
+  ],
+  "FM Radio:WKRF": [
+    "County:Carbon",
+    "County:Monroe",
+    "County:Northampton"
+  ],
+  "FM Radio:WOTH": [
+    "County:Lycoming",
+    "County:Montour",
+    "County:Northumberland",
+    "County:Union"
+  ]
+}

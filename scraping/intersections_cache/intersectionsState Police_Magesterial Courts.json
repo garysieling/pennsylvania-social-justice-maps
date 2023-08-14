@@ -1,0 +1,26 @@
+{
+  "State Police:K": [
+    "Magesterial Courts:1938-01-24",
+    "Magesterial Courts:1938-02-02",
+    "Magesterial Courts:1938-02-03"
+  ],
+  "Magesterial Courts:1938-01-24": [
+    "State Police:K"
+  ],
+  "Magesterial Courts:1938-02-02": [
+    "State Police:K"
+  ],
+  "Magesterial Courts:1938-02-03": [
+    "State Police:K"
+  ],
+  "State Police:M": [
+    "Magesterial Courts:07-3-03",
+    "Magesterial Courts:07-2-05"
+  ],
+  "Magesterial Courts:07-3-03": [
+    "State Police:M"
+  ],
+  "Magesterial Courts:07-2-05": [
+    "State Police:M"
+  ]
+}

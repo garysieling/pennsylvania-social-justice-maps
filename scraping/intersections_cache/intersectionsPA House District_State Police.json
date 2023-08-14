@@ -1,0 +1,384 @@
+{
+  "PA House District:73": [
+    "State Police:C"
+  ],
+  "State Police:C": [
+    "PA House District:73",
+    "PA House District:65",
+    "PA House District:67",
+    "PA House District:75",
+    "PA House District:66",
+    "PA House District:63"
+  ],
+  "PA House District:50": [
+    "State Police:B"
+  ],
+  "State Police:B": [
+    "PA House District:50",
+    "PA House District:46",
+    "PA House District:49",
+    "PA House District:51",
+    "PA House District:52",
+    "PA House District:15"
+  ],
+  "PA House District:46": [
+    "State Police:B"
+  ],
+  "PA House District:49": [
+    "State Police:B"
+  ],
+  "PA House District:59": [
+    "State Police:A"
+  ],
+  "State Police:A": [
+    "PA House District:59",
+    "PA House District:51",
+    "PA House District:72",
+    "PA House District:62",
+    "PA House District:69",
+    "PA House District:55"
+  ],
+  "PA House District:51": [
+    "State Police:A",
+    "State Police:B"
+  ],
+  "PA House District:52": [
+    "State Police:B"
+  ],
+  "PA House District:109": [
+    "State Police:N"
+  ],
+  "State Police:N": [
+    "PA House District:109",
+    "PA House District:119",
+    "PA House District:116",
+    "PA House District:122",
+    "PA House District:115",
+    "PA House District:189",
+    "PA House District:176"
+  ],
+  "PA House District:117": [
+    "State Police:P"
+  ],
+  "State Police:P": [
+    "PA House District:117",
+    "PA House District:68",
+    "PA House District:110"
+  ],
+  "PA House District:119": [
+    "State Police:N"
+  ],
+  "PA House District:108": [
+    "State Police:F"
+  ],
+  "State Police:F": [
+    "PA House District:108",
+    "PA House District:76",
+    "PA House District:84",
+    "PA House District:67",
+    "PA House District:107",
+    "PA House District:85",
+    "PA House District:68"
+  ],
+  "PA House District:76": [
+    "State Police:F",
+    "State Police:G"
+  ],
+  "State Police:G": [
+    "PA House District:76",
+    "PA House District:80",
+    "PA House District:69",
+    "PA House District:78",
+    "PA House District:81",
+    "PA House District:82",
+    "PA House District:171"
+  ],
+  "PA House District:84": [
+    "State Police:F"
+  ],
+  "PA House District:64": [
+    "State Police:E"
+  ],
+  "State Police:E": [
+    "PA House District:64",
+    "PA House District:6",
+    "PA House District:17",
+    "PA House District:65",
+    "PA House District:4"
+  ],
+  "PA House District:5": [
+    "State Police:L"
+  ],
+  "State Police:L": [
+    "PA House District:5",
+    "PA House District:125",
+    "PA House District:123",
+    "PA House District:124",
+    "PA House District:130",
+    "PA House District:102"
+  ],
+  "PA House District:6": [
+    "State Police:E"
+  ],
+  "PA House District:17": [
+    "State Police:D",
+    "State Police:E"
+  ],
+  "State Police:D": [
+    "PA House District:17",
+    "PA House District:7",
+    "PA House District:11",
+    "PA House District:60",
+    "PA House District:8",
+    "PA House District:14",
+    "PA House District:9",
+    "PA House District:63",
+    "PA House District:10"
+  ],
+  "PA House District:72": [
+    "State Police:A"
+  ],
+  "PA House District:62": [
+    "State Police:A"
+  ],
+  "PA House District:80": [
+    "State Police:G"
+  ],
+  "PA House District:69": [
+    "State Police:A",
+    "State Police:G"
+  ],
+  "PA House District:65": [
+    "State Police:C",
+    "State Police:E"
+  ],
+  "PA House District:67": [
+    "State Police:C",
+    "State Police:F"
+  ],
+  "PA House District:75": [
+    "State Police:C"
+  ],
+  "PA House District:66": [
+    "State Police:C"
+  ],
+  "PA House District:131": [
+    "State Police:M"
+  ],
+  "State Police:M": [
+    "PA House District:131",
+    "PA House District:187",
+    "PA House District:137",
+    "PA House District:138",
+    "PA House District:178",
+    "PA House District:183",
+    "PA House District:143",
+    "PA House District:145"
+  ],
+  "PA House District:114": [
+    "State Police:R"
+  ],
+  "State Police:R": [
+    "PA House District:114",
+    "PA House District:118",
+    "PA House District:139",
+    "PA House District:189",
+    "PA House District:110",
+    "PA House District:111"
+  ],
+  "PA House District:118": [
+    "State Police:R"
+  ],
+  "PA House District:116": [
+    "State Police:N"
+  ],
+  "PA House District:122": [
+    "State Police:N"
+  ],
+  "PA House District:139": [
+    "State Police:R"
+  ],
+  "PA House District:115": [
+    "State Police:N"
+  ],
+  "PA House District:189": [
+    "State Police:N",
+    "State Police:R"
+  ],
+  "PA House District:125": [
+    "State Police:L"
+  ],
+  "PA House District:123": [
+    "State Police:L"
+  ],
+  "PA House District:107": [
+    "State Police:F"
+  ],
+  "PA House District:124": [
+    "State Police:L"
+  ],
+  "PA House District:187": [
+    "State Police:M"
+  ],
+  "PA House District:137": [
+    "State Police:M"
+  ],
+  "PA House District:138": [
+    "State Police:M"
+  ],
+  "PA House District:7": [
+    "State Police:D"
+  ],
+  "PA House District:193": [
+    "State Police:H"
+  ],
+  "State Police:H": [
+    "PA House District:193",
+    "PA House District:90",
+    "PA House District:89",
+    "PA House District:91",
+    "PA House District:86",
+    "PA House District:199",
+    "PA House District:104"
+  ],
+  "PA House District:178": [
+    "State Police:M"
+  ],
+  "PA House District:26": [
+    "State Police:J"
+  ],
+  "State Police:J": [
+    "PA House District:26",
+    "PA House District:92",
+    "PA House District:100",
+    "PA House District:13",
+    "PA House District:169",
+    "PA House District:37",
+    "PA House District:93",
+    "PA House District:94"
+  ],
+  "PA House District:147": [
+    "State Police:K"
+  ],
+  "State Police:K": [
+    "PA House District:147",
+    "PA House District:168"
+  ],
+  "PA House District:55": [
+    "State Police:A"
+  ],
+  "PA House District:183": [
+    "State Police:M"
+  ],
+  "PA House District:130": [
+    "State Police:L"
+  ],
+  "PA House District:78": [
+    "State Police:G"
+  ],
+  "PA House District:81": [
+    "State Police:G"
+  ],
+  "PA House District:90": [
+    "State Police:H"
+  ],
+  "PA House District:89": [
+    "State Police:H"
+  ],
+  "PA House District:91": [
+    "State Police:H"
+  ],
+  "PA House District:82": [
+    "State Police:G"
+  ],
+  "PA House District:86": [
+    "State Police:H"
+  ],
+  "PA House District:199": [
+    "State Police:H"
+  ],
+  "PA House District:104": [
+    "State Police:H"
+  ],
+  "PA House District:92": [
+    "State Police:J"
+  ],
+  "PA House District:171": [
+    "State Police:G"
+  ],
+  "PA House District:85": [
+    "State Police:F"
+  ],
+  "PA House District:68": [
+    "State Police:F",
+    "State Police:P"
+  ],
+  "PA House District:110": [
+    "State Police:P",
+    "State Police:R"
+  ],
+  "PA House District:111": [
+    "State Police:R"
+  ],
+  "PA House District:100": [
+    "State Police:J"
+  ],
+  "PA House District:143": [
+    "State Police:M"
+  ],
+  "PA House District:13": [
+    "State Police:J"
+  ],
+  "PA House District:145": [
+    "State Police:M"
+  ],
+  "PA House District:169": [
+    "State Police:J"
+  ],
+  "PA House District:176": [
+    "State Police:N"
+  ],
+  "PA House District:168": [
+    "State Police:K"
+  ],
+  "PA House District:11": [
+    "State Police:D"
+  ],
+  "PA House District:60": [
+    "State Police:D"
+  ],
+  "PA House District:8": [
+    "State Police:D"
+  ],
+  "PA House District:14": [
+    "State Police:D"
+  ],
+  "PA House District:9": [
+    "State Police:D"
+  ],
+  "PA House District:15": [
+    "State Police:B"
+  ],
+  "PA House District:63": [
+    "State Police:C",
+    "State Police:D"
+  ],
+  "PA House District:10": [
+    "State Police:D"
+  ],
+  "PA House District:102": [
+    "State Police:L"
+  ],
+  "PA House District:37": [
+    "State Police:J"
+  ],
+  "PA House District:93": [
+    "State Police:J"
+  ],
+  "PA House District:94": [
+    "State Police:J"
+  ],
+  "PA House District:4": [
+    "State Police:E"
+  ]
+}

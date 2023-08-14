@@ -1,0 +1,4514 @@
+{
+  "Zip:17353": [
+    "FM Radio:WZXQ"
+  ],
+  "FM Radio:WZXQ": [
+    "Zip:17353",
+    "Zip:17222",
+    "Zip:17307",
+    "Zip:17201",
+    "Zip:17202",
+    "Zip:17268",
+    "Zip:17257"
+  ],
+  "Zip:17325": [
+    "FM Radio:WZBT"
+  ],
+  "FM Radio:WZBT": [
+    "Zip:17325"
+  ],
+  "Zip:15668": [
+    "FM Radio:WKGO"
+  ],
+  "FM Radio:WKGO": [
+    "Zip:15668",
+    "Zip:15632",
+    "Zip:15068",
+    "Zip:15613",
+    "Zip:15656"
+  ],
+  "Zip:16240": [
+    "FM Radio:WPXZ-FM"
+  ],
+  "FM Radio:WPXZ-FM": [
+    "Zip:16240",
+    "Zip:16222",
+    "Zip:15759",
+    "Zip:15767",
+    "Zip:15825",
+    "Zip:15851",
+    "Zip:16256"
+  ],
+  "Zip:15554": [
+    "FM Radio:WAYC"
+  ],
+  "FM Radio:WAYC": [
+    "Zip:15554",
+    "Zip:15559",
+    "Zip:15535",
+    "Zip:15522",
+    "Zip:15550",
+    "Zip:15537",
+    "Zip:15534"
+  ],
+  "Zip:15559": [
+    "FM Radio:WAYC",
+    "FM Radio:WCCL"
+  ],
+  "FM Radio:WCCL": [
+    "Zip:15559",
+    "Zip:15501",
+    "Zip:15531",
+    "Zip:15963",
+    "Zip:15563",
+    "Zip:15530"
+  ],
+  "Zip:15535": [
+    "FM Radio:WAYC",
+    "FM Radio:WSKE",
+    "FM Radio:WBVE"
+  ],
+  "FM Radio:WSKE": [
+    "Zip:15535",
+    "Zip:15522",
+    "Zip:17267",
+    "Zip:15537"
+  ],
+  "FM Radio:WBVE": [
+    "Zip:15535",
+    "Zip:15522",
+    "Zip:15550",
+    "Zip:15537"
+  ],
+  "Zip:16662": [
+    "FM Radio:WHHN",
+    "FM Radio:WPMN",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WBRX"
+  ],
+  "FM Radio:WHHN": [
+    "Zip:16662",
+    "Zip:16657",
+    "Zip:15946",
+    "Zip:16635",
+    "Zip:16693",
+    "Zip:16648",
+    "Zip:16601"
+  ],
+  "FM Radio:WPMN": [
+    "Zip:16662",
+    "Zip:16657",
+    "Zip:16678",
+    "Zip:17264",
+    "Zip:16693",
+    "Zip:16648"
+  ],
+  "FM Radio:WJSM-FM": [
+    "Zip:16662",
+    "Zip:16657",
+    "Zip:16635",
+    "Zip:16693",
+    "Zip:16648",
+    "Zip:16601"
+  ],
+  "FM Radio:WBRX": [
+    "Zip:16662",
+    "Zip:16635",
+    "Zip:16693",
+    "Zip:16648",
+    "Zip:16601"
+  ],
+  "Zip:16657": [
+    "FM Radio:WHHN",
+    "FM Radio:WPMN",
+    "FM Radio:WJSM-FM"
+  ],
+  "Zip:19565": [
+    "FM Radio:WYBQ"
+  ],
+  "FM Radio:WYBQ": [
+    "Zip:19565",
+    "Zip:19533",
+    "Zip:19506",
+    "Zip:19608",
+    "Zip:19555",
+    "Zip:19605",
+    "Zip:19541",
+    "Zip:19551"
+  ],
+  "Zip:19601": [
+    "FM Radio:WXAC"
+  ],
+  "FM Radio:WXAC": [
+    "Zip:19601",
+    "Zip:19610",
+    "Zip:19605",
+    "Zip:19560",
+    "Zip:19606"
+  ],
+  "Zip:19543": [
+    "FM Radio:WZZD"
+  ],
+  "FM Radio:WZZD": [
+    "Zip:19543",
+    "Zip:19425",
+    "Zip:19335",
+    "Zip:17555",
+    "Zip:19343",
+    "Zip:19344",
+    "Zip:19520"
+  ],
+  "Zip:19533": [
+    "FM Radio:WYBQ"
+  ],
+  "Zip:18854": [
+    "FM Radio:WTTC-FM"
+  ],
+  "FM Radio:WTTC-FM": [
+    "Zip:18854",
+    "Zip:18848",
+    "Zip:18853",
+    "Zip:18832",
+    "Zip:18850"
+  ],
+  "Zip:18623": [
+    "FM Radio:WPAL",
+    "FM Radio:WCDJ",
+    "FM Radio:WCOZ",
+    "FM Radio:WGMF-FM"
+  ],
+  "FM Radio:WPAL": [
+    "Zip:18623",
+    "Zip:18846",
+    "Zip:18614",
+    "Zip:18833",
+    "Zip:18629"
+  ],
+  "FM Radio:WCDJ": [
+    "Zip:18623",
+    "Zip:18630",
+    "Zip:18657",
+    "Zip:18629"
+  ],
+  "FM Radio:WCOZ": [
+    "Zip:18623",
+    "Zip:18846",
+    "Zip:18616",
+    "Zip:18848",
+    "Zip:18614",
+    "Zip:18853",
+    "Zip:18832",
+    "Zip:18833"
+  ],
+  "FM Radio:WGMF-FM": [
+    "Zip:18623",
+    "Zip:18630",
+    "Zip:18614",
+    "Zip:18657",
+    "Zip:18853",
+    "Zip:18833",
+    "Zip:18629"
+  ],
+  "Zip:18846": [
+    "FM Radio:WPAL",
+    "FM Radio:WCDR",
+    "FM Radio:WCOZ"
+  ],
+  "FM Radio:WCDR": [
+    "Zip:18846",
+    "Zip:18614",
+    "Zip:18853",
+    "Zip:18833"
+  ],
+  "Zip:18914": [
+    "FM Radio:WBMR"
+  ],
+  "FM Radio:WBMR": [
+    "Zip:18914",
+    "Zip:18969",
+    "Zip:19440",
+    "Zip:18964",
+    "Zip:19446",
+    "Zip:18960",
+    "Zip:18944",
+    "Zip:19438"
+  ],
+  "Zip:19054": [
+    "FM Radio:WLBS"
+  ],
+  "FM Radio:WLBS": [
+    "Zip:19054",
+    "Zip:19057",
+    "Zip:19067",
+    "Zip:19047",
+    "Zip:19056",
+    "Zip:19030",
+    "Zip:19055"
+  ],
+  "Zip:18969": [
+    "FM Radio:WBMR"
+  ],
+  "Zip:19440": [
+    "FM Radio:WBMR"
+  ],
+  "Zip:16841": [
+    "FM Radio:WCOB",
+    "FM Radio:WRXV",
+    "FM Radio:WTLR",
+    "FM Radio:WJVM",
+    "FM Radio:WPSU",
+    "FM Radio:WSQV",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WLEJ",
+    "FM Radio:WBUS"
+  ],
+  "FM Radio:WCOB": [
+    "Zip:16841",
+    "Zip:16823",
+    "Zip:16844",
+    "Zip:16870",
+    "Zip:16828",
+    "Zip:16875",
+    "Zip:16669"
+  ],
+  "FM Radio:WRXV": [
+    "Zip:16841",
+    "Zip:16823",
+    "Zip:16844",
+    "Zip:16870",
+    "Zip:16828",
+    "Zip:16866",
+    "Zip:16845",
+    "Zip:16669"
+  ],
+  "FM Radio:WTLR": [
+    "Zip:16841",
+    "Zip:16823",
+    "Zip:16652",
+    "Zip:16866",
+    "Zip:16686"
+  ],
+  "FM Radio:WJVM": [
+    "Zip:16841",
+    "Zip:17751",
+    "Zip:16823",
+    "Zip:17747",
+    "Zip:17745",
+    "Zip:16875",
+    "Zip:16822",
+    "Zip:16872"
+  ],
+  "FM Radio:WPSU": [
+    "Zip:16841",
+    "Zip:16823",
+    "Zip:16866",
+    "Zip:16845",
+    "Zip:16669"
+  ],
+  "FM Radio:WSQV": [
+    "Zip:16841",
+    "Zip:17751",
+    "Zip:17740",
+    "Zip:16823",
+    "Zip:17747",
+    "Zip:17745",
+    "Zip:17702"
+  ],
+  "FM Radio:WBHV-FM": [
+    "Zip:16841",
+    "Zip:16823",
+    "Zip:16844",
+    "Zip:16870",
+    "Zip:16828",
+    "Zip:16875",
+    "Zip:16669"
+  ],
+  "FM Radio:WZWW": [
+    "Zip:16841",
+    "Zip:16823",
+    "Zip:16844",
+    "Zip:16870",
+    "Zip:16828",
+    "Zip:16875",
+    "Zip:16669"
+  ],
+  "FM Radio:WJSA-FM": [
+    "Zip:16841",
+    "Zip:17751",
+    "Zip:17740",
+    "Zip:17745"
+  ],
+  "FM Radio:WLEJ": [
+    "Zip:16841",
+    "Zip:17751",
+    "Zip:16823",
+    "Zip:16844",
+    "Zip:16828",
+    "Zip:16875",
+    "Zip:16822"
+  ],
+  "FM Radio:WBUS": [
+    "Zip:16841",
+    "Zip:16823",
+    "Zip:16652",
+    "Zip:16866"
+  ],
+  "Zip:19330": [
+    "FM Radio:WZWG"
+  ],
+  "FM Radio:WZWG": [
+    "Zip:19330",
+    "Zip:19390",
+    "Zip:19363",
+    "Zip:19352"
+  ],
+  "Zip:16255": [
+    "FM Radio:WCUC-FM",
+    "FM Radio:WCCR-FM"
+  ],
+  "FM Radio:WCUC-FM": [
+    "Zip:16255",
+    "Zip:16049",
+    "Zip:16254",
+    "Zip:16232",
+    "Zip:16242",
+    "Zip:16248",
+    "Zip:16214"
+  ],
+  "FM Radio:WCCR-FM": [
+    "Zip:16255",
+    "Zip:16254",
+    "Zip:16232",
+    "Zip:16258",
+    "Zip:16233",
+    "Zip:15825",
+    "Zip:15860",
+    "Zip:15829",
+    "Zip:16214"
+  ],
+  "Zip:15856": [
+    "FM Radio:WOKW"
+  ],
+  "FM Radio:WOKW": [
+    "Zip:15856",
+    "Zip:15849",
+    "Zip:15801",
+    "Zip:16836",
+    "Zip:16830",
+    "Zip:16833",
+    "Zip:16838"
+  ],
+  "Zip:15824": [
+    "FM Radio:WRQV",
+    "FM Radio:WPMU",
+    "FM Radio:WQQP",
+    "FM Radio:WJNG",
+    "FM Radio:WDSN"
+  ],
+  "FM Radio:WRQV": [
+    "Zip:15824",
+    "Zip:15868",
+    "Zip:15857",
+    "Zip:15849",
+    "Zip:15801",
+    "Zip:15853",
+    "Zip:16836",
+    "Zip:15825",
+    "Zip:15851",
+    "Zip:16830",
+    "Zip:15846"
+  ],
+  "FM Radio:WPMU": [
+    "Zip:15824",
+    "Zip:15849",
+    "Zip:15801",
+    "Zip:15853",
+    "Zip:15767",
+    "Zip:15851",
+    "Zip:16830",
+    "Zip:16833"
+  ],
+  "FM Radio:WQQP": [
+    "Zip:15824",
+    "Zip:15849",
+    "Zip:15801",
+    "Zip:15767",
+    "Zip:15825",
+    "Zip:15851",
+    "Zip:16833",
+    "Zip:15757"
+  ],
+  "FM Radio:WJNG": [
+    "Zip:15824",
+    "Zip:15857",
+    "Zip:15853",
+    "Zip:16735",
+    "Zip:15860",
+    "Zip:15846",
+    "Zip:15870"
+  ],
+  "FM Radio:WDSN": [
+    "Zip:15824",
+    "Zip:15801",
+    "Zip:15767",
+    "Zip:15825",
+    "Zip:15851"
+  ],
+  "Zip:17751": [
+    "FM Radio:WJVM",
+    "FM Radio:WSQV",
+    "FM Radio:WBYL",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WVRT",
+    "FM Radio:WLEJ",
+    "FM Radio:WQBR",
+    "FM Radio:WQKK"
+  ],
+  "FM Radio:WBYL": [
+    "Zip:17751",
+    "Zip:17740",
+    "Zip:17728",
+    "Zip:17754",
+    "Zip:17747",
+    "Zip:17745",
+    "Zip:17702",
+    "Zip:17701"
+  ],
+  "FM Radio:WVRT": [
+    "Zip:17751",
+    "Zip:17740",
+    "Zip:17810",
+    "Zip:17747",
+    "Zip:17745",
+    "Zip:17702"
+  ],
+  "FM Radio:WQBR": [
+    "Zip:17751",
+    "Zip:17740",
+    "Zip:17747",
+    "Zip:17745",
+    "Zip:17702",
+    "Zip:17776"
+  ],
+  "FM Radio:WQKK": [
+    "Zip:17751",
+    "Zip:17760",
+    "Zip:17764",
+    "Zip:17745",
+    "Zip:15861",
+    "Zip:16822",
+    "Zip:17778",
+    "Zip:17729"
+  ],
+  "Zip:17740": [
+    "FM Radio:WXPI",
+    "FM Radio:WPMY",
+    "FM Radio:WVYA",
+    "FM Radio:WCRG",
+    "FM Radio:WSQV",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WBYL",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WVRT",
+    "FM Radio:WZXR",
+    "FM Radio:WQBR"
+  ],
+  "FM Radio:WXPI": [
+    "Zip:17740"
+  ],
+  "FM Radio:WPMY": [
+    "Zip:17740",
+    "Zip:17747",
+    "Zip:17745",
+    "Zip:17771",
+    "Zip:17776"
+  ],
+  "FM Radio:WVYA": [
+    "Zip:17740",
+    "Zip:17728",
+    "Zip:17744",
+    "Zip:17702",
+    "Zip:17701"
+  ],
+  "FM Radio:WCRG": [
+    "Zip:17740",
+    "Zip:17728",
+    "Zip:17744",
+    "Zip:17702",
+    "Zip:17701"
+  ],
+  "FM Radio:WBZD-FM": [
+    "Zip:17740",
+    "Zip:17821",
+    "Zip:17771"
+  ],
+  "FM Radio:WZXR": [
+    "Zip:17740",
+    "Zip:17754",
+    "Zip:17756",
+    "Zip:17702",
+    "Zip:17737",
+    "Zip:17771",
+    "Zip:17701"
+  ],
+  "Zip:17820": [
+    "FM Radio:WFBA",
+    "FM Radio:WHSK",
+    "FM Radio:WCDH",
+    "FM Radio:WZRG",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WKBP",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WVRZ",
+    "FM Radio:WMMZ"
+  ],
+  "FM Radio:WFBA": [
+    "Zip:17820",
+    "Zip:17901",
+    "Zip:17921",
+    "Zip:17964",
+    "Zip:17815",
+    "Zip:17967"
+  ],
+  "FM Radio:WHSK": [
+    "Zip:17820",
+    "Zip:17815"
+  ],
+  "FM Radio:WCDH": [
+    "Zip:17820",
+    "Zip:18252",
+    "Zip:17901",
+    "Zip:17960",
+    "Zip:17815"
+  ],
+  "FM Radio:WZRG": [
+    "Zip:17820",
+    "Zip:17872",
+    "Zip:17901",
+    "Zip:17821",
+    "Zip:17921",
+    "Zip:17815"
+  ],
+  "FM Radio:WBLJ-FM": [
+    "Zip:17820",
+    "Zip:17872",
+    "Zip:17801",
+    "Zip:17821"
+  ],
+  "FM Radio:WKBP": [
+    "Zip:17820",
+    "Zip:17846",
+    "Zip:17814",
+    "Zip:18603",
+    "Zip:17821",
+    "Zip:18655",
+    "Zip:17815"
+  ],
+  "FM Radio:WPGM-FM": [
+    "Zip:17820",
+    "Zip:17846",
+    "Zip:17821",
+    "Zip:17815"
+  ],
+  "FM Radio:WVRZ": [
+    "Zip:17820",
+    "Zip:17801",
+    "Zip:17821",
+    "Zip:17815"
+  ],
+  "FM Radio:WMMZ": [
+    "Zip:17820",
+    "Zip:17814",
+    "Zip:18603",
+    "Zip:18655",
+    "Zip:17815"
+  ],
+  "Zip:16434": [
+    "FM Radio:WTWP",
+    "FM Radio:WCGM"
+  ],
+  "FM Radio:WTWP": [
+    "Zip:16434",
+    "Zip:16438",
+    "Zip:16340",
+    "Zip:16441",
+    "Zip:16436",
+    "Zip:16404",
+    "Zip:16407"
+  ],
+  "FM Radio:WCGM": [
+    "Zip:16434",
+    "Zip:16438",
+    "Zip:16340",
+    "Zip:16441",
+    "Zip:16404",
+    "Zip:16407"
+  ],
+  "Zip:16403": [
+    "FM Radio:WFSE",
+    "FM Radio:WVME",
+    "FM Radio:WRQI",
+    "FM Radio:WMVL",
+    "FM Radio:WXMJ"
+  ],
+  "FM Radio:WFSE": [
+    "Zip:16403",
+    "Zip:16435",
+    "Zip:16441",
+    "Zip:16401",
+    "Zip:16433",
+    "Zip:16417",
+    "Zip:16406",
+    "Zip:16412"
+  ],
+  "FM Radio:WVME": [
+    "Zip:16403",
+    "Zip:16433",
+    "Zip:16335",
+    "Zip:16314",
+    "Zip:16406",
+    "Zip:16316",
+    "Zip:16424",
+    "Zip:16327"
+  ],
+  "FM Radio:WRQI": [
+    "Zip:16403",
+    "Zip:16433",
+    "Zip:16335",
+    "Zip:16314",
+    "Zip:16406",
+    "Zip:16424",
+    "Zip:16327"
+  ],
+  "FM Radio:WMVL": [
+    "Zip:16403",
+    "Zip:16435",
+    "Zip:16401",
+    "Zip:16433",
+    "Zip:16335",
+    "Zip:16406",
+    "Zip:16316",
+    "Zip:16412",
+    "Zip:16424"
+  ],
+  "FM Radio:WXMJ": [
+    "Zip:16403",
+    "Zip:16433",
+    "Zip:16335",
+    "Zip:16314",
+    "Zip:16406",
+    "Zip:16412",
+    "Zip:16424",
+    "Zip:16327"
+  ],
+  "Zip:16438": [
+    "FM Radio:WTWP",
+    "FM Radio:WCGM"
+  ],
+  "Zip:19013": [
+    "FM Radio:WSRN-FM"
+  ],
+  "FM Radio:WSRN-FM": [
+    "Zip:19013",
+    "Zip:19063",
+    "Zip:19086",
+    "Zip:19081",
+    "Zip:19064",
+    "Zip:19015"
+  ],
+  "Zip:19085": [
+    "FM Radio:WXVU"
+  ],
+  "FM Radio:WXVU": [
+    "Zip:19085",
+    "Zip:19087",
+    "Zip:19008",
+    "Zip:19083",
+    "Zip:19428",
+    "Zip:19406",
+    "Zip:19010"
+  ],
+  "Zip:15868": [
+    "FM Radio:WRQV",
+    "FM Radio:WTWR",
+    "FM Radio:WQKY"
+  ],
+  "FM Radio:WTWR": [
+    "Zip:15868",
+    "Zip:15857",
+    "Zip:15849",
+    "Zip:15832",
+    "Zip:15853",
+    "Zip:15834",
+    "Zip:15846",
+    "Zip:15870"
+  ],
+  "FM Radio:WQKY": [
+    "Zip:15868",
+    "Zip:15857",
+    "Zip:15832",
+    "Zip:15861",
+    "Zip:16720",
+    "Zip:15834",
+    "Zip:15870"
+  ],
+  "Zip:15857": [
+    "FM Radio:WRQV",
+    "FM Radio:WTWR",
+    "FM Radio:WRPV",
+    "FM Radio:WQKY",
+    "FM Radio:WJNG"
+  ],
+  "FM Radio:WRPV": [
+    "Zip:15857",
+    "Zip:15845",
+    "Zip:15853",
+    "Zip:15846"
+  ],
+  "Zip:16428": [
+    "FM Radio:WMCE-FM",
+    "FM Radio:WEBG"
+  ],
+  "FM Radio:WMCE-FM": [
+    "Zip:16428",
+    "Zip:16441",
+    "Zip:16510",
+    "Zip:16509",
+    "Zip:16442"
+  ],
+  "FM Radio:WEBG": [
+    "Zip:16428",
+    "Zip:16442"
+  ],
+  "Zip:15012": [
+    "FM Radio:WCAL"
+  ],
+  "FM Radio:WCAL": [
+    "Zip:15012",
+    "Zip:15473",
+    "Zip:15417"
+  ],
+  "Zip:15610": [
+    "FM Radio:WLWG"
+  ],
+  "FM Radio:WLWG": [
+    "Zip:15610",
+    "Zip:15670",
+    "Zip:15666",
+    "Zip:15650",
+    "Zip:15601",
+    "Zip:15658"
+  ],
+  "Zip:15424": [
+    "FM Radio:WQZS",
+    "FM Radio:WYRA"
+  ],
+  "FM Radio:WQZS": [
+    "Zip:15424",
+    "Zip:15501",
+    "Zip:15552",
+    "Zip:15557"
+  ],
+  "FM Radio:WYRA": [
+    "Zip:15424",
+    "Zip:15501",
+    "Zip:15552",
+    "Zip:15557"
+  ],
+  "Zip:15478": [
+    "FM Radio:WYFU",
+    "FM Radio:WPKL",
+    "FM Radio:WMKF"
+  ],
+  "FM Radio:WYFU": [
+    "Zip:15478",
+    "Zip:15370"
+  ],
+  "FM Radio:WPKL": [
+    "Zip:15478",
+    "Zip:15425",
+    "Zip:15401"
+  ],
+  "FM Radio:WMKF": [
+    "Zip:15478",
+    "Zip:15401"
+  ],
+  "Zip:15473": [
+    "FM Radio:WCAL"
+  ],
+  "Zip:17236": [
+    "FM Radio:WWCF",
+    "FM Radio:WIKG",
+    "FM Radio:WQCM",
+    "FM Radio:WEEO-FM"
+  ],
+  "FM Radio:WWCF": [
+    "Zip:17236",
+    "Zip:17224",
+    "Zip:17233",
+    "Zip:17252"
+  ],
+  "FM Radio:WIKG": [
+    "Zip:17236",
+    "Zip:17225",
+    "Zip:17202",
+    "Zip:17268"
+  ],
+  "FM Radio:WQCM": [
+    "Zip:17236",
+    "Zip:17225",
+    "Zip:17202",
+    "Zip:17268"
+  ],
+  "FM Radio:WEEO-FM": [
+    "Zip:17236",
+    "Zip:17225",
+    "Zip:17224",
+    "Zip:17233",
+    "Zip:17202",
+    "Zip:17238"
+  ],
+  "Zip:17243": [
+    "FM Radio:WDBF-FM"
+  ],
+  "FM Radio:WDBF-FM": [
+    "Zip:17243",
+    "Zip:17052",
+    "Zip:16652",
+    "Zip:17066",
+    "Zip:17260",
+    "Zip:17051"
+  ],
+  "Zip:17052": [
+    "FM Radio:WDBF-FM"
+  ],
+  "Zip:15681": [
+    "FM Radio:WLCY"
+  ],
+  "FM Radio:WLCY": [
+    "Zip:15681",
+    "Zip:15717",
+    "Zip:15701",
+    "Zip:15748",
+    "Zip:15774"
+  ],
+  "Zip:18433": [
+    "FM Radio:WZZH"
+  ],
+  "FM Radio:WZZH": [
+    "Zip:18433",
+    "Zip:18436",
+    "Zip:18431",
+    "Zip:18472",
+    "Zip:18407",
+    "Zip:18403"
+  ],
+  "Zip:18436": [
+    "FM Radio:WLKA",
+    "FM Radio:WBYH",
+    "FM Radio:WZZH",
+    "FM Radio:WPAU",
+    "FM Radio:WTRW",
+    "FM Radio:WBHD",
+    "FM Radio:WQFN",
+    "FM Radio:WYCY"
+  ],
+  "FM Radio:WLKA": [
+    "Zip:18436",
+    "Zip:18431",
+    "Zip:18472",
+    "Zip:18470",
+    "Zip:18428"
+  ],
+  "FM Radio:WBYH": [
+    "Zip:18436",
+    "Zip:18431",
+    "Zip:18428",
+    "Zip:18405",
+    "Zip:18426"
+  ],
+  "FM Radio:WPAU": [
+    "Zip:18436",
+    "Zip:18458",
+    "Zip:18428",
+    "Zip:18426",
+    "Zip:18425"
+  ],
+  "FM Radio:WTRW": [
+    "Zip:18436",
+    "Zip:18431",
+    "Zip:18472",
+    "Zip:18470"
+  ],
+  "FM Radio:WBHD": [
+    "Zip:18436",
+    "Zip:18411",
+    "Zip:18657",
+    "Zip:18444"
+  ],
+  "FM Radio:WQFN": [
+    "Zip:18436",
+    "Zip:18421",
+    "Zip:18431",
+    "Zip:18472",
+    "Zip:18407",
+    "Zip:18446"
+  ],
+  "FM Radio:WYCY": [
+    "Zip:18436",
+    "Zip:18431",
+    "Zip:18472",
+    "Zip:18428"
+  ],
+  "Zip:18421": [
+    "FM Radio:WQFN"
+  ],
+  "Zip:17602": [
+    "FM Radio:WFNM",
+    "FM Radio:WLCH"
+  ],
+  "FM Radio:WFNM": [
+    "Zip:17602",
+    "Zip:17601",
+    "Zip:17603"
+  ],
+  "FM Radio:WLCH": [
+    "Zip:17602",
+    "Zip:17601",
+    "Zip:17603",
+    "Zip:17540"
+  ],
+  "Zip:17963": [
+    "FM Radio:WFCP"
+  ],
+  "FM Radio:WFCP": [
+    "Zip:17963",
+    "Zip:17046",
+    "Zip:19507",
+    "Zip:17026",
+    "Zip:17067"
+  ],
+  "Zip:18078": [
+    "FM Radio:WLHI"
+  ],
+  "FM Radio:WLHI": [
+    "Zip:18078",
+    "Zip:18067",
+    "Zip:18066",
+    "Zip:18052",
+    "Zip:18104",
+    "Zip:18080",
+    "Zip:18103",
+    "Zip:18069"
+  ],
+  "Zip:18109": [
+    "FM Radio:WMUH"
+  ],
+  "FM Radio:WMUH": [
+    "Zip:18109",
+    "Zip:18052",
+    "Zip:18104",
+    "Zip:18103"
+  ],
+  "Zip:18702": [
+    "FM Radio:WRKC",
+    "FM Radio:WCLH",
+    "FM Radio:WQFM",
+    "FM Radio:WSJR",
+    "FM Radio:WBHT",
+    "FM Radio:WUSR",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WPZX",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "FM Radio:WRKC": [
+    "Zip:18702",
+    "Zip:18707",
+    "Zip:18706",
+    "Zip:18644",
+    "Zip:18651",
+    "Zip:18704",
+    "Zip:18708"
+  ],
+  "FM Radio:WCLH": [
+    "Zip:18702",
+    "Zip:18707",
+    "Zip:18660",
+    "Zip:18621",
+    "Zip:18661",
+    "Zip:18612"
+  ],
+  "FM Radio:WQFM": [
+    "Zip:18702",
+    "Zip:18661",
+    "Zip:18655",
+    "Zip:18612"
+  ],
+  "FM Radio:WSJR": [
+    "Zip:18702",
+    "Zip:18661",
+    "Zip:18655",
+    "Zip:18444",
+    "Zip:18612"
+  ],
+  "FM Radio:WBHT": [
+    "Zip:18702",
+    "Zip:18707",
+    "Zip:18661",
+    "Zip:18655",
+    "Zip:18612"
+  ],
+  "FM Radio:WUSR": [
+    "Zip:18702",
+    "Zip:18411",
+    "Zip:18657",
+    "Zip:18444"
+  ],
+  "FM Radio:WMQX": [
+    "Zip:18702",
+    "Zip:18411",
+    "Zip:18621",
+    "Zip:18657",
+    "Zip:18444",
+    "Zip:18612"
+  ],
+  "FM Radio:WILK-FM": [
+    "Zip:18702",
+    "Zip:18411",
+    "Zip:18621",
+    "Zip:18657",
+    "Zip:18444",
+    "Zip:18612"
+  ],
+  "FM Radio:WWRR": [
+    "Zip:18702",
+    "Zip:18411",
+    "Zip:18657",
+    "Zip:18414",
+    "Zip:18444"
+  ],
+  "FM Radio:WPZX": [
+    "Zip:18702",
+    "Zip:18661",
+    "Zip:18444",
+    "Zip:18424"
+  ],
+  "FM Radio:WEZX": [
+    "Zip:18702",
+    "Zip:18411",
+    "Zip:18657",
+    "Zip:18444",
+    "Zip:18612"
+  ],
+  "FM Radio:WCIG": [
+    "Zip:18702",
+    "Zip:18707",
+    "Zip:18411",
+    "Zip:18621",
+    "Zip:18657",
+    "Zip:18444",
+    "Zip:18612"
+  ],
+  "Zip:18707": [
+    "FM Radio:WRKC",
+    "FM Radio:WSFX",
+    "FM Radio:WCLH",
+    "FM Radio:WBHT",
+    "FM Radio:WCIG"
+  ],
+  "FM Radio:WSFX": [
+    "Zip:18707",
+    "Zip:18634",
+    "Zip:18706",
+    "Zip:18651"
+  ],
+  "Zip:18660": [
+    "FM Radio:WCLH"
+  ],
+  "Zip:17004": [
+    "FM Radio:WJRC",
+    "FM Radio:WVNW",
+    "FM Radio:WCHX"
+  ],
+  "FM Radio:WJRC": [
+    "Zip:17004",
+    "Zip:17044",
+    "Zip:17084",
+    "Zip:17063",
+    "Zip:17058",
+    "Zip:17059",
+    "Zip:17082",
+    "Zip:17841"
+  ],
+  "FM Radio:WVNW": [
+    "Zip:17004",
+    "Zip:16652",
+    "Zip:17044",
+    "Zip:17063",
+    "Zip:17058",
+    "Zip:17059",
+    "Zip:16669",
+    "Zip:17051"
+  ],
+  "FM Radio:WCHX": [
+    "Zip:17004",
+    "Zip:17044",
+    "Zip:17063",
+    "Zip:16875",
+    "Zip:17058",
+    "Zip:17059",
+    "Zip:17082",
+    "Zip:17841"
+  ],
+  "Zip:18353": [
+    "FM Radio:WWPJ"
+  ],
+  "FM Radio:WWPJ": [
+    "Zip:18353",
+    "Zip:18091",
+    "Zip:18360",
+    "Zip:18058",
+    "Zip:18072",
+    "Zip:18013"
+  ],
+  "Zip:19002": [
+    "FM Radio:WRDV"
+  ],
+  "FM Radio:WRDV": [
+    "Zip:19002",
+    "Zip:18925",
+    "Zip:19006",
+    "Zip:18976",
+    "Zip:18974",
+    "Zip:18966"
+  ],
+  "Zip:18067": [
+    "FM Radio:WDIY",
+    "FM Radio:WLHI"
+  ],
+  "FM Radio:WDIY": [
+    "Zip:18067",
+    "Zip:18951",
+    "Zip:18036"
+  ],
+  "Zip:18091": [
+    "FM Radio:WWPJ"
+  ],
+  "Zip:17872": [
+    "FM Radio:WZRG",
+    "FM Radio:WBLJ-FM"
+  ],
+  "Zip:17090": [
+    "FM Radio:WCAT-FM"
+  ],
+  "FM Radio:WCAT-FM": [
+    "Zip:17090",
+    "Zip:17015",
+    "Zip:17055",
+    "Zip:17019",
+    "Zip:17050",
+    "Zip:17020",
+    "Zip:17013"
+  ],
+  "Zip:19148": [
+    "FM Radio:WKDU"
+  ],
+  "FM Radio:WKDU": [
+    "Zip:19148",
+    "Zip:19131",
+    "Zip:19145"
+  ],
+  "Zip:16922": [
+    "FM Radio:WCOG-FM"
+  ],
+  "FM Radio:WCOG-FM": [
+    "Zip:16922",
+    "Zip:16950",
+    "Zip:16915",
+    "Zip:16720",
+    "Zip:17727",
+    "Zip:16901",
+    "Zip:17729"
+  ],
+  "Zip:17813": [
+    "FM Radio:WFBM",
+    "FM Radio:WNNA"
+  ],
+  "FM Radio:WFBM": [
+    "Zip:17813",
+    "Zip:17812",
+    "Zip:17045",
+    "Zip:17049",
+    "Zip:17094",
+    "Zip:17853",
+    "Zip:17841",
+    "Zip:17086",
+    "Zip:17062"
+  ],
+  "FM Radio:WNNA": [
+    "Zip:17813",
+    "Zip:17063",
+    "Zip:17845",
+    "Zip:17049",
+    "Zip:17059",
+    "Zip:17842",
+    "Zip:17841",
+    "Zip:17086",
+    "Zip:17062"
+  ],
+  "Zip:17812": [
+    "FM Radio:WFBM"
+  ],
+  "Zip:15501": [
+    "FM Radio:WQZS",
+    "FM Radio:WLKH",
+    "FM Radio:WYRA",
+    "FM Radio:WCCL"
+  ],
+  "FM Radio:WLKH": [
+    "Zip:15501",
+    "Zip:15531",
+    "Zip:15557",
+    "Zip:15563",
+    "Zip:15530"
+  ],
+  "Zip:15531": [
+    "FM Radio:WLKH",
+    "FM Radio:WCCL"
+  ],
+  "Zip:15540": [
+    "FM Radio:WHYU-FM"
+  ],
+  "FM Radio:WHYU-FM": [
+    "Zip:15540",
+    "Zip:15552",
+    "Zip:15558",
+    "Zip:15542"
+  ],
+  "Zip:18616": [
+    "FM Radio:WCOZ"
+  ],
+  "Zip:17837": [
+    "FM Radio:WBGM",
+    "FM Radio:WVBU-FM",
+    "FM Radio:WGRC",
+    "FM Radio:WHNA",
+    "FM Radio:WRBG",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WCXR"
+  ],
+  "FM Radio:WBGM": [
+    "Zip:17837",
+    "Zip:17889",
+    "Zip:17844",
+    "Zip:17801",
+    "Zip:17870",
+    "Zip:17845",
+    "Zip:17842"
+  ],
+  "FM Radio:WVBU-FM": [
+    "Zip:17837",
+    "Zip:17857",
+    "Zip:17889",
+    "Zip:17847"
+  ],
+  "FM Radio:WGRC": [
+    "Zip:17837",
+    "Zip:17844",
+    "Zip:17847",
+    "Zip:17801",
+    "Zip:17870",
+    "Zip:17777",
+    "Zip:17856",
+    "Zip:17821"
+  ],
+  "FM Radio:WHNA": [
+    "Zip:17837",
+    "Zip:17756",
+    "Zip:17801",
+    "Zip:17821",
+    "Zip:17815"
+  ],
+  "FM Radio:WRBG": [
+    "Zip:17837",
+    "Zip:17844",
+    "Zip:17847",
+    "Zip:17801",
+    "Zip:17870",
+    "Zip:17845",
+    "Zip:17842"
+  ],
+  "FM Radio:WVLY-FM": [
+    "Zip:17837",
+    "Zip:17844",
+    "Zip:17756",
+    "Zip:17801",
+    "Zip:17821"
+  ],
+  "FM Radio:WCXR": [
+    "Zip:17837",
+    "Zip:17810",
+    "Zip:17844",
+    "Zip:17847",
+    "Zip:17801",
+    "Zip:17845",
+    "Zip:17842"
+  ],
+  "Zip:16340": [
+    "FM Radio:WTWP",
+    "FM Radio:WLKW",
+    "FM Radio:WCGM",
+    "FM Radio:WNAE"
+  ],
+  "FM Radio:WLKW": [
+    "Zip:16340",
+    "Zip:16350",
+    "Zip:16345",
+    "Zip:16365"
+  ],
+  "FM Radio:WNAE": [
+    "Zip:16340",
+    "Zip:16313",
+    "Zip:16345",
+    "Zip:16347",
+    "Zip:16351",
+    "Zip:16365",
+    "Zip:16701"
+  ],
+  "Zip:18431": [
+    "FM Radio:WLKA",
+    "FM Radio:WBYH",
+    "FM Radio:WZZH",
+    "FM Radio:WTRW",
+    "FM Radio:WDNH-FM",
+    "FM Radio:WQFN",
+    "FM Radio:WYCY"
+  ],
+  "FM Radio:WDNH-FM": [
+    "Zip:18431",
+    "Zip:18472",
+    "Zip:18428",
+    "Zip:18405"
+  ],
+  "Zip:17315": [
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WHKF"
+  ],
+  "FM Radio:WNUU": [
+    "Zip:17315",
+    "Zip:17019",
+    "Zip:17022"
+  ],
+  "FM Radio:WTPA-FM": [
+    "Zip:17315",
+    "Zip:17019",
+    "Zip:17112"
+  ],
+  "FM Radio:WHKF": [
+    "Zip:17315",
+    "Zip:17019",
+    "Zip:17112",
+    "Zip:17022"
+  ],
+  "Zip:17362": [
+    "FM Radio:WZXY"
+  ],
+  "FM Radio:WZXY": [
+    "Zip:17362",
+    "Zip:17364",
+    "Zip:17408",
+    "Zip:17350",
+    "Zip:17331"
+  ],
+  "Zip:15210": [
+    "FM Radio:WPTS-FM"
+  ],
+  "FM Radio:WPTS-FM": [
+    "Zip:15210",
+    "Zip:15207",
+    "Zip:15120",
+    "Zip:15212",
+    "Zip:15206",
+    "Zip:15217"
+  ],
+  "Zip:15207": [
+    "FM Radio:WPTS-FM"
+  ],
+  "Zip:16222": [
+    "FM Radio:WPXZ-FM"
+  ],
+  "Zip:16049": [
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WCUC-FM"
+  ],
+  "FM Radio:WSAJ-FM": [
+    "Zip:16049",
+    "Zip:16127",
+    "Zip:16374",
+    "Zip:16323",
+    "Zip:16342",
+    "Zip:16373"
+  ],
+  "Zip:15732": [
+    "FM Radio:WIUP-FM"
+  ],
+  "FM Radio:WIUP-FM": [
+    "Zip:15732",
+    "Zip:15717",
+    "Zip:15701",
+    "Zip:15748",
+    "Zip:15774"
+  ],
+  "Zip:15522": [
+    "FM Radio:WPME",
+    "FM Radio:WCOX",
+    "FM Radio:WAYC",
+    "FM Radio:WSKE",
+    "FM Radio:WBVE"
+  ],
+  "FM Radio:WPME": [
+    "Zip:15522",
+    "Zip:15550"
+  ],
+  "FM Radio:WCOX": [
+    "Zip:15522"
+  ],
+  "Zip:15946": [
+    "FM Radio:WHHN",
+    "FM Radio:WLKJ"
+  ],
+  "FM Radio:WLKJ": [
+    "Zip:15946",
+    "Zip:16635",
+    "Zip:15963",
+    "Zip:15931"
+  ],
+  "Zip:18848": [
+    "FM Radio:WCOZ",
+    "FM Radio:WTTC-FM",
+    "FM Radio:WZBF",
+    "FM Radio:WAVR"
+  ],
+  "FM Radio:WZBF": [
+    "Zip:18848",
+    "Zip:16947",
+    "Zip:16925",
+    "Zip:16914",
+    "Zip:18850"
+  ],
+  "FM Radio:WAVR": [
+    "Zip:18848",
+    "Zip:16925",
+    "Zip:18837",
+    "Zip:18850"
+  ],
+  "Zip:16947": [
+    "FM Radio:WTIO",
+    "FM Radio:WDFS",
+    "FM Radio:WCIH",
+    "FM Radio:WZBF"
+  ],
+  "FM Radio:WTIO": [
+    "Zip:16947",
+    "Zip:17724",
+    "Zip:16932",
+    "Zip:16917",
+    "Zip:16933"
+  ],
+  "FM Radio:WDFS": [
+    "Zip:16947",
+    "Zip:16932",
+    "Zip:16933"
+  ],
+  "FM Radio:WCIH": [
+    "Zip:16947",
+    "Zip:16925",
+    "Zip:17724",
+    "Zip:16914",
+    "Zip:16933"
+  ],
+  "Zip:19057": [
+    "FM Radio:WLBS"
+  ],
+  "Zip:18925": [
+    "FM Radio:WRDV"
+  ],
+  "Zip:16057": [
+    "FM Radio:WSRU",
+    "FM Radio:WLER-FM"
+  ],
+  "FM Radio:WSRU": [
+    "Zip:16057"
+  ],
+  "FM Radio:WLER-FM": [
+    "Zip:16057",
+    "Zip:16002",
+    "Zip:16001"
+  ],
+  "Zip:16127": [
+    "FM Radio:WCGT",
+    "FM Radio:WSAJ-FM"
+  ],
+  "FM Radio:WCGT": [
+    "Zip:16127",
+    "Zip:16145",
+    "Zip:16038",
+    "Zip:16374",
+    "Zip:16323",
+    "Zip:16153",
+    "Zip:16342",
+    "Zip:16373"
+  ],
+  "Zip:16823": [
+    "FM Radio:WCOB",
+    "FM Radio:WRXV",
+    "FM Radio:WTLR",
+    "FM Radio:WJVM",
+    "FM Radio:WPSU",
+    "FM Radio:WSQV",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WLEJ",
+    "FM Radio:WBUS",
+    "FM Radio:WAPY",
+    "FM Radio:WKPA"
+  ],
+  "FM Radio:WMAJ": [
+    "Zip:16823",
+    "Zip:16844",
+    "Zip:16652",
+    "Zip:17044",
+    "Zip:16828",
+    "Zip:16875",
+    "Zip:16669"
+  ],
+  "FM Radio:WOWY": [
+    "Zip:16823",
+    "Zip:16844",
+    "Zip:16870",
+    "Zip:16865",
+    "Zip:16828",
+    "Zip:16669"
+  ],
+  "FM Radio:WGJC": [
+    "Zip:16823",
+    "Zip:16844",
+    "Zip:16870",
+    "Zip:16865",
+    "Zip:16828",
+    "Zip:16669"
+  ],
+  "FM Radio:WAPY": [
+    "Zip:16823",
+    "Zip:16844",
+    "Zip:16652",
+    "Zip:17044",
+    "Zip:16828",
+    "Zip:16875",
+    "Zip:16669"
+  ],
+  "FM Radio:WKPA": [
+    "Zip:16823",
+    "Zip:16844",
+    "Zip:16870",
+    "Zip:16828",
+    "Zip:16866",
+    "Zip:16845",
+    "Zip:16858",
+    "Zip:16669"
+  ],
+  "Zip:16844": [
+    "FM Radio:WCOB",
+    "FM Radio:WRXV",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WLEJ",
+    "FM Radio:WAPY",
+    "FM Radio:WKPA"
+  ],
+  "Zip:16870": [
+    "FM Radio:WCOB",
+    "FM Radio:WRXV",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WQCK",
+    "FM Radio:WKPA"
+  ],
+  "FM Radio:WQCK": [
+    "Zip:16870",
+    "Zip:16866",
+    "Zip:16686",
+    "Zip:16669"
+  ],
+  "Zip:16865": [
+    "FM Radio:WOWY",
+    "FM Radio:WGJC"
+  ],
+  "Zip:19390": [
+    "FM Radio:WZWG"
+  ],
+  "Zip:19425": [
+    "FM Radio:WZZD"
+  ],
+  "Zip:19380": [
+    "FM Radio:WCUR"
+  ],
+  "FM Radio:WCUR": [
+    "Zip:19380",
+    "Zip:19382"
+  ],
+  "Zip:19087": [
+    "FM Radio:WXVU"
+  ],
+  "Zip:15849": [
+    "FM Radio:WRQV",
+    "FM Radio:WTWR",
+    "FM Radio:WPMU",
+    "FM Radio:WRVI",
+    "FM Radio:WQQP",
+    "FM Radio:WOKW"
+  ],
+  "FM Radio:WRVI": [
+    "Zip:15849",
+    "Zip:15801",
+    "Zip:16836",
+    "Zip:16830",
+    "Zip:16833",
+    "Zip:15846"
+  ],
+  "Zip:17760": [
+    "FM Radio:WQKK"
+  ],
+  "Zip:16435": [
+    "FM Radio:WFSE",
+    "FM Radio:WMVL"
+  ],
+  "Zip:16441": [
+    "FM Radio:WEFR",
+    "FM Radio:WMCE-FM",
+    "FM Radio:WFSE",
+    "FM Radio:WTWP",
+    "FM Radio:WERG",
+    "FM Radio:WTWF",
+    "FM Radio:WXBB",
+    "FM Radio:WQHZ",
+    "FM Radio:WCGM",
+    "FM Radio:WRKT",
+    "FM Radio:WCTL"
+  ],
+  "FM Radio:WEFR": [
+    "Zip:16441",
+    "Zip:16417",
+    "Zip:16426",
+    "Zip:16509",
+    "Zip:16412",
+    "Zip:16415"
+  ],
+  "FM Radio:WERG": [
+    "Zip:16441"
+  ],
+  "FM Radio:WTWF": [
+    "Zip:16441"
+  ],
+  "FM Radio:WXBB": [
+    "Zip:16441",
+    "Zip:16412"
+  ],
+  "FM Radio:WQHZ": [
+    "Zip:16441",
+    "Zip:16412"
+  ],
+  "FM Radio:WRKT": [
+    "Zip:16441"
+  ],
+  "FM Radio:WCTL": [
+    "Zip:16441",
+    "Zip:16412"
+  ],
+  "Zip:16401": [
+    "FM Radio:WFSE",
+    "FM Radio:WMVL"
+  ],
+  "Zip:17015": [
+    "FM Radio:WDCV-FM",
+    "FM Radio:WZXN",
+    "FM Radio:WPFG",
+    "FM Radio:WJAZ",
+    "FM Radio:WCAT-FM"
+  ],
+  "FM Radio:WDCV-FM": [
+    "Zip:17015",
+    "Zip:17013"
+  ],
+  "FM Radio:WZXN": [
+    "Zip:17015",
+    "Zip:17241",
+    "Zip:17257",
+    "Zip:17240",
+    "Zip:17013"
+  ],
+  "FM Radio:WPFG": [
+    "Zip:17015",
+    "Zip:17047",
+    "Zip:17241",
+    "Zip:17257",
+    "Zip:17240",
+    "Zip:17040",
+    "Zip:17013"
+  ],
+  "FM Radio:WJAZ": [
+    "Zip:17015",
+    "Zip:17032",
+    "Zip:17055",
+    "Zip:17019",
+    "Zip:17020",
+    "Zip:17013"
+  ],
+  "Zip:17061": [
+    "FM Radio:WKHW",
+    "FM Radio:WQBG"
+  ],
+  "FM Radio:WKHW": [
+    "Zip:17061",
+    "Zip:17074",
+    "Zip:17018",
+    "Zip:17032",
+    "Zip:17023",
+    "Zip:17020",
+    "Zip:17045",
+    "Zip:17062"
+  ],
+  "FM Radio:WQBG": [
+    "Zip:17061",
+    "Zip:17032",
+    "Zip:17045",
+    "Zip:17853"
+  ],
+  "Zip:19008": [
+    "FM Radio:WXVU"
+  ],
+  "Zip:19033": [
+    "FM Radio:WRSD"
+  ],
+  "FM Radio:WRSD": [
+    "Zip:19033",
+    "Zip:19022",
+    "Zip:19029",
+    "Zip:19086",
+    "Zip:19070",
+    "Zip:19081",
+    "Zip:19078"
+  ],
+  "Zip:19082": [
+    "FM Radio:WHHS"
+  ],
+  "FM Radio:WHHS": [
+    "Zip:19082",
+    "Zip:19003",
+    "Zip:19151",
+    "Zip:19083",
+    "Zip:19026",
+    "Zip:19041",
+    "Zip:19096"
+  ],
+  "Zip:16652": [
+    "FM Radio:WRYV",
+    "FM Radio:WTLR",
+    "FM Radio:WMAJ",
+    "FM Radio:WVNW",
+    "FM Radio:WBUS",
+    "FM Radio:WWOT",
+    "FM Radio:WAPY",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WDBF-FM"
+  ],
+  "FM Radio:WRYV": [
+    "Zip:16652",
+    "Zip:17044",
+    "Zip:16669",
+    "Zip:17051"
+  ],
+  "FM Radio:WWOT": [
+    "Zip:16652",
+    "Zip:16686"
+  ],
+  "FM Radio:WHUN-FM": [
+    "Zip:16652",
+    "Zip:16686",
+    "Zip:16693",
+    "Zip:16611",
+    "Zip:16648",
+    "Zip:16669",
+    "Zip:16601"
+  ],
+  "Zip:18507": [
+    "FM Radio:WVMW-FM"
+  ],
+  "FM Radio:WVMW-FM": [
+    "Zip:18507",
+    "Zip:18411",
+    "Zip:18447",
+    "Zip:18512",
+    "Zip:18403",
+    "Zip:18444"
+  ],
+  "Zip:17557": [
+    "FM Radio:WYTL"
+  ],
+  "FM Radio:WYTL": [
+    "Zip:17557",
+    "Zip:17522",
+    "Zip:19508",
+    "Zip:19540",
+    "Zip:17555",
+    "Zip:19344",
+    "Zip:19520"
+  ],
+  "Zip:16102": [
+    "FM Radio:WWNW",
+    "FM Radio:WVMN"
+  ],
+  "FM Radio:WWNW": [
+    "Zip:16102",
+    "Zip:16143",
+    "Zip:16105",
+    "Zip:16142",
+    "Zip:16101",
+    "Zip:16116",
+    "Zip:16159"
+  ],
+  "FM Radio:WVMN": [
+    "Zip:16102",
+    "Zip:16120",
+    "Zip:16105",
+    "Zip:16142",
+    "Zip:16156",
+    "Zip:16101",
+    "Zip:16116"
+  ],
+  "Zip:17046": [
+    "FM Radio:WFCP",
+    "FM Radio:WRTL",
+    "FM Radio:WFVY"
+  ],
+  "FM Radio:WRTL": [
+    "Zip:17046",
+    "Zip:19506",
+    "Zip:17073",
+    "Zip:19507",
+    "Zip:17543",
+    "Zip:17042",
+    "Zip:17067",
+    "Zip:17522",
+    "Zip:19551"
+  ],
+  "FM Radio:WFVY": [
+    "Zip:17046",
+    "Zip:17038",
+    "Zip:17042",
+    "Zip:17067",
+    "Zip:17003"
+  ],
+  "Zip:18066": [
+    "FM Radio:WLHI"
+  ],
+  "Zip:18634": [
+    "FM Radio:WSFX"
+  ],
+  "Zip:16930": [
+    "FM Radio:WDKC"
+  ],
+  "FM Radio:WDKC": [
+    "Zip:16930",
+    "Zip:16946",
+    "Zip:16935",
+    "Zip:16901",
+    "Zip:17765",
+    "Zip:16933"
+  ],
+  "Zip:17728": [
+    "FM Radio:WKWP",
+    "FM Radio:WVYA",
+    "FM Radio:WCRG",
+    "FM Radio:WRLC",
+    "FM Radio:WBYL"
+  ],
+  "FM Radio:WKWP": [
+    "Zip:17728",
+    "Zip:17754",
+    "Zip:17744",
+    "Zip:17702",
+    "Zip:17701"
+  ],
+  "FM Radio:WRLC": [
+    "Zip:17728",
+    "Zip:17754",
+    "Zip:17702",
+    "Zip:17752",
+    "Zip:17701"
+  ],
+  "Zip:17754": [
+    "FM Radio:WKWP",
+    "FM Radio:WVAM-FM",
+    "FM Radio:WRLC",
+    "FM Radio:WBYL",
+    "FM Radio:WZXR",
+    "FM Radio:WOTH"
+  ],
+  "FM Radio:WVAM-FM": [
+    "Zip:17754",
+    "Zip:17756",
+    "Zip:17737",
+    "Zip:17701"
+  ],
+  "FM Radio:WOTH": [
+    "Zip:17754",
+    "Zip:17756",
+    "Zip:17702",
+    "Zip:17737",
+    "Zip:17821",
+    "Zip:17701"
+  ],
+  "Zip:17810": [
+    "FM Radio:WVRT",
+    "FM Radio:WCXR"
+  ],
+  "Zip:16748": [
+    "FM Radio:WCOV-FM",
+    "FM Radio:WOLN",
+    "FM Radio:WHKS",
+    "FM Radio:WMXO",
+    "FM Radio:WJQZ",
+    "FM Radio:WCOP",
+    "FM Radio:WXMT"
+  ],
+  "FM Radio:WCOV-FM": [
+    "Zip:16748"
+  ],
+  "FM Radio:WOLN": [
+    "Zip:16748",
+    "Zip:16731",
+    "Zip:16749"
+  ],
+  "FM Radio:WHKS": [
+    "Zip:16748",
+    "Zip:16743",
+    "Zip:16731",
+    "Zip:16749",
+    "Zip:16701"
+  ],
+  "FM Radio:WMXO": [
+    "Zip:16748",
+    "Zip:16731"
+  ],
+  "FM Radio:WJQZ": [
+    "Zip:16748",
+    "Zip:16923"
+  ],
+  "FM Radio:WCOP": [
+    "Zip:16748",
+    "Zip:16743",
+    "Zip:16731",
+    "Zip:16749",
+    "Zip:16701"
+  ],
+  "FM Radio:WXMT": [
+    "Zip:16748",
+    "Zip:16743",
+    "Zip:16731",
+    "Zip:16749",
+    "Zip:16701"
+  ],
+  "Zip:16145": [
+    "FM Radio:WCGT",
+    "FM Radio:WLLF"
+  ],
+  "FM Radio:WLLF": [
+    "Zip:16145",
+    "Zip:16137",
+    "Zip:16125"
+  ],
+  "Zip:17044": [
+    "FM Radio:WRYV",
+    "FM Radio:WJRC",
+    "FM Radio:WIBF",
+    "FM Radio:WMAJ",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WVNW",
+    "FM Radio:WAPY",
+    "FM Radio:WCHX",
+    "FM Radio:WQJU"
+  ],
+  "FM Radio:WIBF": [
+    "Zip:17044",
+    "Zip:17063",
+    "Zip:17059",
+    "Zip:17082",
+    "Zip:17841"
+  ],
+  "FM Radio:WMRF-FM": [
+    "Zip:17044",
+    "Zip:17063",
+    "Zip:17059",
+    "Zip:17082",
+    "Zip:17841"
+  ],
+  "FM Radio:WQJU": [
+    "Zip:17044",
+    "Zip:17063",
+    "Zip:17059",
+    "Zip:17082",
+    "Zip:17841"
+  ],
+  "Zip:17084": [
+    "FM Radio:WJRC"
+  ],
+  "Zip:18360": [
+    "FM Radio:WBYX",
+    "FM Radio:WWPJ",
+    "FM Radio:WESS",
+    "FM Radio:WRTY",
+    "FM Radio:WSBG",
+    "FM Radio:WKRF"
+  ],
+  "FM Radio:WBYX": [
+    "Zip:18360"
+  ],
+  "FM Radio:WESS": [
+    "Zip:18360",
+    "Zip:18301",
+    "Zip:18302"
+  ],
+  "FM Radio:WRTY": [
+    "Zip:18360",
+    "Zip:18058",
+    "Zip:18302",
+    "Zip:18424"
+  ],
+  "FM Radio:WSBG": [
+    "Zip:18360",
+    "Zip:18301",
+    "Zip:18302",
+    "Zip:18013"
+  ],
+  "FM Radio:WKRF": [
+    "Zip:18360",
+    "Zip:18058",
+    "Zip:18302",
+    "Zip:18013"
+  ],
+  "Zip:18324": [
+    "FM Radio:WABT"
+  ],
+  "FM Radio:WABT": [
+    "Zip:18324",
+    "Zip:18301",
+    "Zip:18302",
+    "Zip:18328"
+  ],
+  "Zip:18301": [
+    "FM Radio:WESS",
+    "FM Radio:WSBG",
+    "FM Radio:WABT"
+  ],
+  "Zip:18064": [
+    "FM Radio:WPNJ"
+  ],
+  "FM Radio:WPNJ": [
+    "Zip:18064",
+    "Zip:18045",
+    "Zip:18040"
+  ],
+  "Zip:18045": [
+    "FM Radio:WPNJ",
+    "FM Radio:WLVR-FM"
+  ],
+  "FM Radio:WLVR-FM": [
+    "Zip:18045",
+    "Zip:18036",
+    "Zip:18055",
+    "Zip:18077",
+    "Zip:18017",
+    "Zip:18020",
+    "Zip:18042",
+    "Zip:18015"
+  ],
+  "Zip:17857": [
+    "FM Radio:WVBU-FM",
+    "FM Radio:WEVW"
+  ],
+  "FM Radio:WEVW": [
+    "Zip:17857",
+    "Zip:17847",
+    "Zip:17801",
+    "Zip:17821",
+    "Zip:17860"
+  ],
+  "Zip:17074": [
+    "FM Radio:WKHW",
+    "FM Radio:WQLV"
+  ],
+  "FM Radio:WQLV": [
+    "Zip:17074",
+    "Zip:17032",
+    "Zip:17020",
+    "Zip:17059",
+    "Zip:17062"
+  ],
+  "Zip:17047": [
+    "FM Radio:WPFG"
+  ],
+  "Zip:19142": [
+    "FM Radio:WPEB"
+  ],
+  "FM Radio:WPEB": [
+    "Zip:19142",
+    "Zip:19104",
+    "Zip:19143",
+    "Zip:19145",
+    "Zip:19139",
+    "Zip:19146"
+  ],
+  "Zip:16923": [
+    "FM Radio:WCGN",
+    "FM Radio:WJQZ"
+  ],
+  "FM Radio:WCGN": [
+    "Zip:16923",
+    "Zip:16948",
+    "Zip:16950"
+  ],
+  "Zip:18252": [
+    "FM Radio:WCDH",
+    "FM Radio:WMGH-FM"
+  ],
+  "FM Radio:WMGH-FM": [
+    "Zip:18252",
+    "Zip:19526",
+    "Zip:19529",
+    "Zip:17960"
+  ],
+  "Zip:17922": [
+    "FM Radio:WZMV"
+  ],
+  "FM Radio:WZMV": [
+    "Zip:17922",
+    "Zip:19506",
+    "Zip:19526"
+  ],
+  "Zip:17889": [
+    "FM Radio:WBGM",
+    "FM Radio:WFBV",
+    "FM Radio:WVBU-FM"
+  ],
+  "FM Radio:WFBV": [
+    "Zip:17889",
+    "Zip:17830",
+    "Zip:17801",
+    "Zip:17870",
+    "Zip:17864",
+    "Zip:17842",
+    "Zip:17853",
+    "Zip:17823"
+  ],
+  "Zip:18630": [
+    "FM Radio:WCDJ",
+    "FM Radio:WGMF-FM"
+  ],
+  "Zip:16946": [
+    "FM Radio:WOGA",
+    "FM Radio:WDKC",
+    "FM Radio:DWLIH"
+  ],
+  "FM Radio:WOGA": [
+    "Zip:16946",
+    "Zip:16901",
+    "Zip:16933"
+  ],
+  "FM Radio:DWLIH": [
+    "Zip:16946",
+    "Zip:16935",
+    "Zip:16901",
+    "Zip:16917",
+    "Zip:16933"
+  ],
+  "Zip:16371": [
+    "FM Radio:WYVL"
+  ],
+  "FM Radio:WYVL": [
+    "Zip:16371",
+    "Zip:16350",
+    "Zip:16345",
+    "Zip:16365"
+  ],
+  "Zip:16350": [
+    "FM Radio:WYVL",
+    "FM Radio:WLKW",
+    "FM Radio:WQFX-FM"
+  ],
+  "FM Radio:WQFX-FM": [
+    "Zip:16350",
+    "Zip:16313",
+    "Zip:16345",
+    "Zip:16365"
+  ],
+  "Zip:16436": [
+    "FM Radio:WTWP"
+  ],
+  "Zip:18472": [
+    "FM Radio:WLKA",
+    "FM Radio:WZZH",
+    "FM Radio:WTRW",
+    "FM Radio:WDNH-FM",
+    "FM Radio:WQFN",
+    "FM Radio:WYCY"
+  ],
+  "Zip:15632": [
+    "FM Radio:WKGO"
+  ],
+  "Zip:17319": [
+    "FM Radio:WMSS"
+  ],
+  "FM Radio:WMSS": [
+    "Zip:17319",
+    "Zip:17057",
+    "Zip:17112",
+    "Zip:17111",
+    "Zip:17022",
+    "Zip:17033",
+    "Zip:17036"
+  ],
+  "Zip:17222": [
+    "FM Radio:WZXQ"
+  ],
+  "Zip:17307": [
+    "FM Radio:WZXQ"
+  ],
+  "Zip:15120": [
+    "FM Radio:WPTS-FM"
+  ],
+  "Zip:15212": [
+    "FM Radio:WPTS-FM"
+  ],
+  "Zip:16120": [
+    "FM Radio:WVMN"
+  ],
+  "Zip:16678": [
+    "FM Radio:WPMN"
+  ],
+  "Zip:19506": [
+    "FM Radio:WYBQ",
+    "FM Radio:WZMV",
+    "FM Radio:WRTL"
+  ],
+  "Zip:16925": [
+    "FM Radio:WMTQ",
+    "FM Radio:WCIH",
+    "FM Radio:WSQE",
+    "FM Radio:WENI-FM",
+    "FM Radio:WCBF",
+    "FM Radio:WZBF",
+    "FM Radio:WOKN",
+    "FM Radio:WAVR"
+  ],
+  "FM Radio:WMTQ": [
+    "Zip:16925"
+  ],
+  "FM Radio:WSQE": [
+    "Zip:16925",
+    "Zip:16914"
+  ],
+  "FM Radio:WENI-FM": [
+    "Zip:16925",
+    "Zip:16914"
+  ],
+  "FM Radio:WCBF": [
+    "Zip:16925"
+  ],
+  "FM Radio:WOKN": [
+    "Zip:16925",
+    "Zip:16914"
+  ],
+  "Zip:17724": [
+    "FM Radio:WTIO",
+    "FM Radio:WCIH"
+  ],
+  "Zip:19067": [
+    "FM Radio:WLBS"
+  ],
+  "Zip:18951": [
+    "FM Radio:WDIY",
+    "FM Radio:WBYO"
+  ],
+  "FM Radio:WBYO": [
+    "Zip:18951",
+    "Zip:18036",
+    "Zip:18944"
+  ],
+  "Zip:18964": [
+    "FM Radio:WBMR"
+  ],
+  "Zip:16002": [
+    "FM Radio:WLER-FM"
+  ],
+  "Zip:16038": [
+    "FM Radio:WCGT"
+  ],
+  "Zip:16668": [
+    "FM Radio:WLKE",
+    "FM Radio:WBXQ",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM"
+  ],
+  "FM Radio:WLKE": [
+    "Zip:16668",
+    "Zip:16635",
+    "Zip:15931",
+    "Zip:16693",
+    "Zip:16648",
+    "Zip:16601"
+  ],
+  "FM Radio:WBXQ": [
+    "Zip:16668",
+    "Zip:15931",
+    "Zip:15757"
+  ],
+  "FM Radio:WALY": [
+    "Zip:16668",
+    "Zip:16686",
+    "Zip:16693",
+    "Zip:16648",
+    "Zip:16639",
+    "Zip:16601"
+  ],
+  "FM Radio:WRKY-FM": [
+    "Zip:16668",
+    "Zip:16686",
+    "Zip:16693",
+    "Zip:16648",
+    "Zip:16601"
+  ],
+  "Zip:18058": [
+    "FM Radio:WWPJ",
+    "FM Radio:WRTY",
+    "FM Radio:WKRF"
+  ],
+  "Zip:16828": [
+    "FM Radio:WCOB",
+    "FM Radio:WRXV",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WLEJ",
+    "FM Radio:WAPY",
+    "FM Radio:WKPA"
+  ],
+  "Zip:19362": [
+    "FM Radio:WZXE"
+  ],
+  "FM Radio:WZXE": [
+    "Zip:19362",
+    "Zip:17536",
+    "Zip:19363",
+    "Zip:19352"
+  ],
+  "Zip:19382": [
+    "FM Radio:WCUR"
+  ],
+  "Zip:16254": [
+    "FM Radio:WCUC-FM",
+    "FM Radio:WCCR-FM",
+    "FM Radio:WKFT"
+  ],
+  "FM Radio:WKFT": [
+    "Zip:16254",
+    "Zip:15825",
+    "Zip:15860",
+    "Zip:16239",
+    "Zip:16214",
+    "Zip:16353"
+  ],
+  "Zip:16232": [
+    "FM Radio:WCUC-FM",
+    "FM Radio:WCCR-FM"
+  ],
+  "Zip:16258": [
+    "FM Radio:WCCR-FM"
+  ],
+  "Zip:16233": [
+    "FM Radio:WCCR-FM"
+  ],
+  "Zip:17764": [
+    "FM Radio:WQKK"
+  ],
+  "Zip:17846": [
+    "FM Radio:WKBP",
+    "FM Radio:WPGM-FM"
+  ],
+  "Zip:17814": [
+    "FM Radio:WKBP",
+    "FM Radio:WMMZ"
+  ],
+  "Zip:16404": [
+    "FM Radio:WQHE",
+    "FM Radio:WTWP",
+    "FM Radio:WCGM"
+  ],
+  "FM Radio:WQHE": [
+    "Zip:16404",
+    "Zip:16354",
+    "Zip:16323",
+    "Zip:16301",
+    "Zip:16353",
+    "Zip:16341"
+  ],
+  "Zip:16433": [
+    "FM Radio:WFSE",
+    "FM Radio:WARC",
+    "FM Radio:WVME",
+    "FM Radio:WRQI",
+    "FM Radio:WMVL",
+    "FM Radio:WXMJ"
+  ],
+  "FM Radio:WARC": [
+    "Zip:16433",
+    "Zip:16335"
+  ],
+  "Zip:16354": [
+    "FM Radio:WQHE",
+    "FM Radio:WLOQ",
+    "FM Radio:WGYI",
+    "FM Radio:WCGH",
+    "FM Radio:WRQW"
+  ],
+  "FM Radio:WLOQ": [
+    "Zip:16354",
+    "Zip:16374",
+    "Zip:16323",
+    "Zip:16301",
+    "Zip:16342",
+    "Zip:16373",
+    "Zip:16353",
+    "Zip:16341"
+  ],
+  "FM Radio:WGYI": [
+    "Zip:16354",
+    "Zip:16301",
+    "Zip:16353"
+  ],
+  "FM Radio:WCGH": [
+    "Zip:16354",
+    "Zip:16301",
+    "Zip:16239",
+    "Zip:16351",
+    "Zip:16353",
+    "Zip:16341"
+  ],
+  "FM Radio:WRQW": [
+    "Zip:16354",
+    "Zip:16374",
+    "Zip:16323",
+    "Zip:16301",
+    "Zip:16342",
+    "Zip:16353",
+    "Zip:16341"
+  ],
+  "Zip:17018": [
+    "FM Radio:WKHW"
+  ],
+  "Zip:17057": [
+    "FM Radio:WMSS"
+  ],
+  "Zip:17032": [
+    "FM Radio:WKHW",
+    "FM Radio:WJAZ",
+    "FM Radio:WKHL",
+    "FM Radio:WQLV",
+    "FM Radio:WQBG"
+  ],
+  "FM Radio:WKHL": [
+    "Zip:17032",
+    "Zip:17038",
+    "Zip:17042",
+    "Zip:17112",
+    "Zip:17022",
+    "Zip:17003"
+  ],
+  "Zip:19003": [
+    "FM Radio:WHHS"
+  ],
+  "Zip:16417": [
+    "FM Radio:WEFR",
+    "FM Radio:WFSE"
+  ],
+  "Zip:17201": [
+    "FM Radio:WZXQ"
+  ],
+  "Zip:15717": [
+    "FM Radio:WIUP-FM",
+    "FM Radio:WJHT",
+    "FM Radio:WQMU",
+    "FM Radio:WLCY",
+    "FM Radio:WHJB"
+  ],
+  "FM Radio:WJHT": [
+    "Zip:15717",
+    "Zip:15963",
+    "Zip:15944",
+    "Zip:15748",
+    "Zip:15658"
+  ],
+  "FM Radio:WQMU": [
+    "Zip:15717",
+    "Zip:15701",
+    "Zip:15759",
+    "Zip:15748",
+    "Zip:15774"
+  ],
+  "FM Radio:WHJB": [
+    "Zip:15717",
+    "Zip:15650",
+    "Zip:15601",
+    "Zip:15658"
+  ],
+  "Zip:18407": [
+    "FM Radio:WZZH",
+    "FM Radio:WQFN"
+  ],
+  "Zip:18411": [
+    "FM Radio:WVMW-FM",
+    "FM Radio:WBHD",
+    "FM Radio:WUSR",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "Zip:18446": [
+    "FM Radio:WQFN"
+  ],
+  "Zip:17073": [
+    "FM Radio:WRTL"
+  ],
+  "Zip:18621": [
+    "FM Radio:WRGN",
+    "FM Radio:WCLH",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WCIG"
+  ],
+  "FM Radio:WRGN": [
+    "Zip:18621",
+    "Zip:18656",
+    "Zip:18655",
+    "Zip:18612"
+  ],
+  "Zip:17744": [
+    "FM Radio:WKWP",
+    "FM Radio:WVYA",
+    "FM Radio:WCRG"
+  ],
+  "Zip:16738": [
+    "FM Radio:WCOR-FM",
+    "FM Radio:WBRR",
+    "FM Radio:WJKB"
+  ],
+  "FM Radio:WCOR-FM": [
+    "Zip:16738",
+    "Zip:16731",
+    "Zip:16749",
+    "Zip:16701"
+  ],
+  "FM Radio:WBRR": [
+    "Zip:16738",
+    "Zip:16749",
+    "Zip:16701"
+  ],
+  "FM Radio:WJKB": [
+    "Zip:16738",
+    "Zip:16313",
+    "Zip:16735",
+    "Zip:16347",
+    "Zip:16239",
+    "Zip:16365",
+    "Zip:16701"
+  ],
+  "Zip:16137": [
+    "FM Radio:WLLF",
+    "FM Radio:WWIZ",
+    "FM Radio:WLVX"
+  ],
+  "FM Radio:WWIZ": [
+    "Zip:16137",
+    "Zip:16125"
+  ],
+  "FM Radio:WLVX": [
+    "Zip:16137",
+    "Zip:16134",
+    "Zip:16125"
+  ],
+  "Zip:17063": [
+    "FM Radio:WJRC",
+    "FM Radio:WIBF",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WVNW",
+    "FM Radio:WCHX",
+    "FM Radio:WNNA",
+    "FM Radio:WQJU"
+  ],
+  "Zip:18302": [
+    "FM Radio:WESS",
+    "FM Radio:WRTY",
+    "FM Radio:WSBG",
+    "FM Radio:WABT",
+    "FM Radio:WKRF"
+  ],
+  "Zip:19446": [
+    "FM Radio:WBMR"
+  ],
+  "Zip:17830": [
+    "FM Radio:WFBV"
+  ],
+  "Zip:19151": [
+    "FM Radio:WHHS"
+  ],
+  "Zip:16948": [
+    "FM Radio:WCGN"
+  ],
+  "Zip:15552": [
+    "FM Radio:WHYU-FM",
+    "FM Radio:WQZS",
+    "FM Radio:WYRA"
+  ],
+  "Zip:15558": [
+    "FM Radio:WHYU-FM"
+  ],
+  "Zip:18614": [
+    "FM Radio:WYSP",
+    "FM Radio:WPAL",
+    "FM Radio:WCDR",
+    "FM Radio:WCOZ",
+    "FM Radio:WGMF-FM"
+  ],
+  "FM Radio:WYSP": [
+    "Zip:18614",
+    "Zip:18833"
+  ],
+  "Zip:18470": [
+    "FM Radio:WLKA",
+    "FM Radio:WTRW"
+  ],
+  "Zip:16935": [
+    "FM Radio:WDKC",
+    "FM Radio:DWLIH"
+  ],
+  "Zip:17844": [
+    "FM Radio:WBGM",
+    "FM Radio:WGRC",
+    "FM Radio:WRBG",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WCXR"
+  ],
+  "Zip:16374": [
+    "FM Radio:WCGT",
+    "FM Radio:WAWN",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WLOQ",
+    "FM Radio:WRQW"
+  ],
+  "FM Radio:WAWN": [
+    "Zip:16374",
+    "Zip:16323",
+    "Zip:16301",
+    "Zip:16342",
+    "Zip:16373"
+  ],
+  "Zip:16313": [
+    "FM Radio:WQFX-FM",
+    "FM Radio:WNAE",
+    "FM Radio:WJKB"
+  ],
+  "Zip:15670": [
+    "FM Radio:WLWG"
+  ],
+  "Zip:18657": [
+    "FM Radio:WCDJ",
+    "FM Radio:WBHD",
+    "FM Radio:WUSR",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WGMF-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "Zip:15068": [
+    "FM Radio:WKGO"
+  ],
+  "Zip:19608": [
+    "FM Radio:WYBQ"
+  ],
+  "Zip:19518": [
+    "FM Radio:WZXB"
+  ],
+  "FM Radio:WZXB": [
+    "Zip:19518",
+    "Zip:19522",
+    "Zip:19547",
+    "Zip:19508",
+    "Zip:19512",
+    "Zip:19606",
+    "Zip:19530"
+  ],
+  "Zip:19610": [
+    "FM Radio:WXAC"
+  ],
+  "Zip:19507": [
+    "FM Radio:WFCP",
+    "FM Radio:WRTL"
+  ],
+  "Zip:17026": [
+    "FM Radio:WFCP"
+  ],
+  "Zip:16635": [
+    "FM Radio:WHHN",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WLKE",
+    "FM Radio:WBRX",
+    "FM Radio:WLKJ"
+  ],
+  "Zip:18837": [
+    "FM Radio:WAVR"
+  ],
+  "Zip:18853": [
+    "FM Radio:WCDR",
+    "FM Radio:WCOZ",
+    "FM Radio:WTTC-FM",
+    "FM Radio:WGMF-FM"
+  ],
+  "Zip:19047": [
+    "FM Radio:WLBS"
+  ],
+  "Zip:18036": [
+    "FM Radio:WDIY",
+    "FM Radio:WBYO",
+    "FM Radio:WJCS",
+    "FM Radio:WLVR-FM"
+  ],
+  "FM Radio:WJCS": [
+    "Zip:18036",
+    "Zip:18055",
+    "Zip:18104",
+    "Zip:18062",
+    "Zip:18103",
+    "Zip:18015"
+  ],
+  "Zip:18960": [
+    "FM Radio:WBMR"
+  ],
+  "Zip:18055": [
+    "FM Radio:WJCS",
+    "FM Radio:WLVR-FM"
+  ],
+  "Zip:15963": [
+    "FM Radio:WJHT",
+    "FM Radio:WCCL",
+    "FM Radio:WLKJ"
+  ],
+  "Zip:15832": [
+    "FM Radio:WTWR",
+    "FM Radio:WQKY"
+  ],
+  "Zip:16866": [
+    "FM Radio:WRXV",
+    "FM Radio:WTLR",
+    "FM Radio:WPSU",
+    "FM Radio:WMMH",
+    "FM Radio:WPQP",
+    "FM Radio:WBUS",
+    "FM Radio:WQCK",
+    "FM Radio:WKPA"
+  ],
+  "FM Radio:WMMH": [
+    "Zip:16866",
+    "Zip:16686",
+    "Zip:16601"
+  ],
+  "FM Radio:WPQP": [
+    "Zip:16866",
+    "Zip:16836",
+    "Zip:16830"
+  ],
+  "Zip:16845": [
+    "FM Radio:WRXV",
+    "FM Radio:WPSU",
+    "FM Radio:WKPA"
+  ],
+  "Zip:19320": [
+    "FM Radio:WRTJ"
+  ],
+  "FM Radio:WRTJ": [
+    "Zip:19320",
+    "Zip:19335",
+    "Zip:19343",
+    "Zip:19344"
+  ],
+  "Zip:19335": [
+    "FM Radio:WZZD",
+    "FM Radio:WRTJ"
+  ],
+  "Zip:15801": [
+    "FM Radio:WRQV",
+    "FM Radio:WPMU",
+    "FM Radio:WRVI",
+    "FM Radio:WQQP",
+    "FM Radio:WOKW",
+    "FM Radio:WDSN"
+  ],
+  "Zip:17747": [
+    "FM Radio:WPMY",
+    "FM Radio:WJVM",
+    "FM Radio:WSQV",
+    "FM Radio:WBYL",
+    "FM Radio:WVRT",
+    "FM Radio:WQBR"
+  ],
+  "Zip:17745": [
+    "FM Radio:WPMY",
+    "FM Radio:WJVM",
+    "FM Radio:WSQV",
+    "FM Radio:WBYL",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WVRT",
+    "FM Radio:WQBR",
+    "FM Radio:WQKK"
+  ],
+  "Zip:17756": [
+    "FM Radio:WVAM-FM",
+    "FM Radio:WHNA",
+    "FM Radio:WZXR",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WOTH"
+  ],
+  "Zip:18603": [
+    "FM Radio:WKBP",
+    "FM Radio:WMMZ"
+  ],
+  "Zip:16335": [
+    "FM Radio:WCGV",
+    "FM Radio:WARC",
+    "FM Radio:WVME",
+    "FM Radio:WRQI",
+    "FM Radio:WMVL",
+    "FM Radio:WXMJ"
+  ],
+  "FM Radio:WCGV": [
+    "Zip:16335"
+  ],
+  "Zip:16134": [
+    "FM Radio:WXTC",
+    "FM Radio:WLVX"
+  ],
+  "FM Radio:WXTC": [
+    "Zip:16134",
+    "Zip:16125",
+    "Zip:16154"
+  ],
+  "Zip:17055": [
+    "FM Radio:WVMM",
+    "FM Radio:WJAZ",
+    "FM Radio:WCAT-FM"
+  ],
+  "FM Radio:WVMM": [
+    "Zip:17055",
+    "Zip:17011",
+    "Zip:17019",
+    "Zip:17050"
+  ],
+  "Zip:17011": [
+    "FM Radio:WZXM",
+    "FM Radio:WVMM"
+  ],
+  "FM Radio:WZXM": [
+    "Zip:17011",
+    "Zip:17109",
+    "Zip:17050",
+    "Zip:17070",
+    "Zip:17111",
+    "Zip:17110",
+    "Zip:17113",
+    "Zip:17025"
+  ],
+  "Zip:17109": [
+    "FM Radio:WZXM"
+  ],
+  "Zip:17023": [
+    "FM Radio:WKHW"
+  ],
+  "Zip:19083": [
+    "FM Radio:WXVU",
+    "FM Radio:WHHS"
+  ],
+  "Zip:19063": [
+    "FM Radio:WSRN-FM"
+  ],
+  "Zip:19022": [
+    "FM Radio:WRSD"
+  ],
+  "Zip:19026": [
+    "FM Radio:WHHS"
+  ],
+  "Zip:19041": [
+    "FM Radio:WHHS"
+  ],
+  "Zip:19096": [
+    "FM Radio:WHHS"
+  ],
+  "Zip:19029": [
+    "FM Radio:WRSD"
+  ],
+  "Zip:15845": [
+    "FM Radio:WRPV"
+  ],
+  "Zip:15853": [
+    "FM Radio:WRQV",
+    "FM Radio:WTWR",
+    "FM Radio:WPMU",
+    "FM Radio:WPSX",
+    "FM Radio:WRPV",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WJNG"
+  ],
+  "FM Radio:WPSX": [
+    "Zip:15853",
+    "Zip:16735",
+    "Zip:15834",
+    "Zip:16239",
+    "Zip:16749",
+    "Zip:15870",
+    "Zip:16701"
+  ],
+  "FM Radio:WKBI-FM": [
+    "Zip:15853",
+    "Zip:16735",
+    "Zip:15834",
+    "Zip:15860",
+    "Zip:16239",
+    "Zip:15870"
+  ],
+  "Zip:16735": [
+    "FM Radio:WPSX",
+    "FM Radio:WRRN",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WDDH",
+    "FM Radio:WJNG",
+    "FM Radio:WJKB"
+  ],
+  "FM Radio:WRRN": [
+    "Zip:16735"
+  ],
+  "FM Radio:WDDH": [
+    "Zip:16735"
+  ],
+  "Zip:16426": [
+    "FM Radio:WEFR"
+  ],
+  "Zip:15425": [
+    "FM Radio:WPKL",
+    "FM Radio:WKHB-FM"
+  ],
+  "FM Radio:WKHB-FM": [
+    "Zip:15425",
+    "Zip:15666",
+    "Zip:15401"
+  ],
+  "Zip:17225": [
+    "FM Radio:WIKG",
+    "FM Radio:WQCM",
+    "FM Radio:WEEO-FM"
+  ],
+  "Zip:17224": [
+    "FM Radio:WWCF",
+    "FM Radio:WEEO-FM"
+  ],
+  "Zip:17267": [
+    "FM Radio:WSKE"
+  ],
+  "Zip:17233": [
+    "FM Radio:WWCF",
+    "FM Radio:WEEO-FM"
+  ],
+  "Zip:17264": [
+    "FM Radio:WPMN"
+  ],
+  "Zip:15370": [
+    "FM Radio:WYFU",
+    "FM Radio:WOGG",
+    "FM Radio:WCYJ-FM"
+  ],
+  "FM Radio:WOGG": [
+    "Zip:15370"
+  ],
+  "FM Radio:WCYJ-FM": [
+    "Zip:15370"
+  ],
+  "Zip:17066": [
+    "FM Radio:WDBF-FM"
+  ],
+  "Zip:17260": [
+    "FM Radio:WDBF-FM"
+  ],
+  "Zip:15701": [
+    "FM Radio:WIUP-FM",
+    "FM Radio:WQMU",
+    "FM Radio:WLCY"
+  ],
+  "Zip:15759": [
+    "FM Radio:WQMU",
+    "FM Radio:WPXZ-FM"
+  ],
+  "Zip:18447": [
+    "FM Radio:WVMW-FM"
+  ],
+  "Zip:17543": [
+    "FM Radio:WRTL"
+  ],
+  "Zip:17601": [
+    "FM Radio:WFNM",
+    "FM Radio:WLCH"
+  ],
+  "Zip:17038": [
+    "FM Radio:WKHL",
+    "FM Radio:WFVY"
+  ],
+  "Zip:17042": [
+    "FM Radio:WRTL",
+    "FM Radio:WKHL",
+    "FM Radio:WFVY"
+  ],
+  "Zip:18052": [
+    "FM Radio:WLHI",
+    "FM Radio:WMUH"
+  ],
+  "Zip:18706": [
+    "FM Radio:WRKC",
+    "FM Radio:WSFX"
+  ],
+  "Zip:17702": [
+    "FM Radio:WKWP",
+    "FM Radio:WVYA",
+    "FM Radio:WCRG",
+    "FM Radio:WRLC",
+    "FM Radio:WSQV",
+    "FM Radio:WBYL",
+    "FM Radio:WVRT",
+    "FM Radio:WZXR",
+    "FM Radio:WQBR",
+    "FM Radio:WOTH"
+  ],
+  "Zip:19428": [
+    "FM Radio:WXVU"
+  ],
+  "Zip:17847": [
+    "FM Radio:WVBU-FM",
+    "FM Radio:WEVW",
+    "FM Radio:WGRC",
+    "FM Radio:WRBG",
+    "FM Radio:WCXR",
+    "FM Radio:WEGH"
+  ],
+  "FM Radio:WEGH": [
+    "Zip:17847",
+    "Zip:17801",
+    "Zip:17870",
+    "Zip:17821"
+  ],
+  "Zip:18072": [
+    "FM Radio:WWPJ"
+  ],
+  "Zip:18013": [
+    "FM Radio:WWPJ",
+    "FM Radio:WSBG",
+    "FM Radio:WKRF"
+  ],
+  "Zip:17801": [
+    "FM Radio:WBGM",
+    "FM Radio:WFBV",
+    "FM Radio:WEVW",
+    "FM Radio:WGRC",
+    "FM Radio:WHNA",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WRBG",
+    "FM Radio:WVRZ",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WCXR",
+    "FM Radio:WEGH"
+  ],
+  "Zip:19131": [
+    "FM Radio:WKDU"
+  ],
+  "Zip:19104": [
+    "FM Radio:WPEB"
+  ],
+  "Zip:18458": [
+    "FM Radio:WUUA",
+    "FM Radio:WPAU"
+  ],
+  "FM Radio:WUUA": [
+    "Zip:18458"
+  ],
+  "Zip:16950": [
+    "FM Radio:WCGN",
+    "FM Radio:WCOG-FM"
+  ],
+  "Zip:16915": [
+    "FM Radio:WCOG-FM"
+  ],
+  "Zip:17901": [
+    "FM Radio:WFBA",
+    "FM Radio:WCDH",
+    "FM Radio:WZRG"
+  ],
+  "Zip:17870": [
+    "FM Radio:WBGM",
+    "FM Radio:WFBV",
+    "FM Radio:WGRC",
+    "FM Radio:WRBG",
+    "FM Radio:WEGH"
+  ],
+  "Zip:17864": [
+    "FM Radio:WFBV"
+  ],
+  "Zip:18801": [
+    "FM Radio:WJOB-FM",
+    "FM Radio:WDRE"
+  ],
+  "FM Radio:WJOB-FM": [
+    "Zip:18801",
+    "Zip:18847",
+    "Zip:18834"
+  ],
+  "FM Radio:WDRE": [
+    "Zip:18801",
+    "Zip:18847",
+    "Zip:18834"
+  ],
+  "Zip:16345": [
+    "FM Radio:WYVL",
+    "FM Radio:WNJA",
+    "FM Radio:WLKW",
+    "FM Radio:WHUG",
+    "FM Radio:WQFX-FM",
+    "FM Radio:WNAE"
+  ],
+  "FM Radio:WNJA": [
+    "Zip:16345",
+    "Zip:16365"
+  ],
+  "FM Radio:WHUG": [
+    "Zip:16345",
+    "Zip:16365"
+  ],
+  "Zip:15317": [
+    "FM Radio:WNJR",
+    "FM Radio:WJPA-FM"
+  ],
+  "FM Radio:WNJR": [
+    "Zip:15317",
+    "Zip:15301",
+    "Zip:15323",
+    "Zip:15330"
+  ],
+  "FM Radio:WJPA-FM": [
+    "Zip:15317",
+    "Zip:15057",
+    "Zip:15301",
+    "Zip:15323",
+    "Zip:15312",
+    "Zip:15330"
+  ],
+  "Zip:17403": [
+    "FM Radio:WVYC"
+  ],
+  "FM Radio:WVYC": [
+    "Zip:17403",
+    "Zip:17404",
+    "Zip:17401"
+  ],
+  "Zip:17019": [
+    "FM Radio:WVMM",
+    "FM Radio:WJAZ",
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WHKF",
+    "FM Radio:WCAT-FM"
+  ],
+  "Zip:15057": [
+    "FM Radio:WJPA-FM"
+  ],
+  "Zip:16242": [
+    "FM Radio:WCUC-FM"
+  ],
+  "Zip:15613": [
+    "FM Radio:WKGO"
+  ],
+  "Zip:19526": [
+    "FM Radio:WZMV",
+    "FM Radio:WMGH-FM"
+  ],
+  "Zip:19529": [
+    "FM Radio:WMGH-FM"
+  ],
+  "Zip:19522": [
+    "FM Radio:WZXB"
+  ],
+  "Zip:17067": [
+    "FM Radio:WFCP",
+    "FM Radio:WRTL",
+    "FM Radio:WFVY"
+  ],
+  "Zip:19547": [
+    "FM Radio:WZXB"
+  ],
+  "Zip:19555": [
+    "FM Radio:WYBQ"
+  ],
+  "Zip:18832": [
+    "FM Radio:WCOZ",
+    "FM Radio:WTTC-FM"
+  ],
+  "Zip:18077": [
+    "FM Radio:WLVR-FM"
+  ],
+  "Zip:15931": [
+    "FM Radio:WPAI",
+    "FM Radio:WLKE",
+    "FM Radio:WBXQ",
+    "FM Radio:WPCL",
+    "FM Radio:WLKJ"
+  ],
+  "FM Radio:WPAI": [
+    "Zip:15931",
+    "Zip:15748"
+  ],
+  "FM Radio:WPCL": [
+    "Zip:15931",
+    "Zip:15748"
+  ],
+  "Zip:15861": [
+    "FM Radio:WQKY",
+    "FM Radio:WQKK"
+  ],
+  "Zip:16720": [
+    "FM Radio:WQKY",
+    "FM Radio:WCOG-FM"
+  ],
+  "Zip:16801": [
+    "FM Radio:WKPS"
+  ],
+  "FM Radio:WKPS": [
+    "Zip:16801",
+    "Zip:16803"
+  ],
+  "Zip:16875": [
+    "FM Radio:WCOB",
+    "FM Radio:WJVM",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WLEJ",
+    "FM Radio:WAPY",
+    "FM Radio:WCHX"
+  ],
+  "Zip:15767": [
+    "FM Radio:WCOA-FM",
+    "FM Radio:WPMU",
+    "FM Radio:WQQP",
+    "FM Radio:WKQL",
+    "FM Radio:WPXZ-FM",
+    "FM Radio:WMKX",
+    "FM Radio:WDSN"
+  ],
+  "FM Radio:WCOA-FM": [
+    "Zip:15767"
+  ],
+  "FM Radio:WKQL": [
+    "Zip:15767",
+    "Zip:15825"
+  ],
+  "FM Radio:WMKX": [
+    "Zip:15767",
+    "Zip:15825",
+    "Zip:16239"
+  ],
+  "Zip:16836": [
+    "FM Radio:WRQV",
+    "FM Radio:WRVI",
+    "FM Radio:WPQP",
+    "FM Radio:WOKW"
+  ],
+  "Zip:16314": [
+    "FM Radio:WVME",
+    "FM Radio:WRQI",
+    "FM Radio:WXMJ"
+  ],
+  "Zip:16407": [
+    "FM Radio:WTWP",
+    "FM Radio:WCGM"
+  ],
+  "Zip:17241": [
+    "FM Radio:WZXN",
+    "FM Radio:WPFG"
+  ],
+  "Zip:17050": [
+    "FM Radio:WZXM",
+    "FM Radio:WVMM",
+    "FM Radio:WCAT-FM"
+  ],
+  "Zip:17070": [
+    "FM Radio:WZXM"
+  ],
+  "Zip:17112": [
+    "FM Radio:WMSS",
+    "FM Radio:WKHL",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WHKF"
+  ],
+  "Zip:17111": [
+    "FM Radio:WZXM",
+    "FM Radio:WMSS"
+  ],
+  "Zip:17022": [
+    "FM Radio:WWEC",
+    "FM Radio:WMSS",
+    "FM Radio:WKHL",
+    "FM Radio:WNUU",
+    "FM Radio:WHKF"
+  ],
+  "FM Radio:WWEC": [
+    "Zip:17022",
+    "Zip:17552"
+  ],
+  "Zip:17020": [
+    "FM Radio:WKHW",
+    "FM Radio:WJAZ",
+    "FM Radio:WQLV",
+    "FM Radio:WCAT-FM"
+  ],
+  "Zip:16510": [
+    "FM Radio:WMCE-FM",
+    "FM Radio:WICU-FM"
+  ],
+  "FM Radio:WICU-FM": [
+    "Zip:16510",
+    "Zip:16509"
+  ],
+  "Zip:15557": [
+    "FM Radio:WQZS",
+    "FM Radio:WLKH",
+    "FM Radio:WYRA"
+  ],
+  "Zip:16347": [
+    "FM Radio:WNAE",
+    "FM Radio:WJKB"
+  ],
+  "Zip:17202": [
+    "FM Radio:WZXQ",
+    "FM Radio:WIKG",
+    "FM Radio:WYPM",
+    "FM Radio:WQCM",
+    "FM Radio:WEEO-FM"
+  ],
+  "FM Radio:WYPM": [
+    "Zip:17202",
+    "Zip:17257"
+  ],
+  "Zip:17268": [
+    "FM Radio:WZXQ",
+    "FM Radio:WIKG",
+    "FM Radio:WQCM"
+  ],
+  "Zip:15944": [
+    "FM Radio:WJHT"
+  ],
+  "Zip:15748": [
+    "FM Radio:WIUP-FM",
+    "FM Radio:WPAI",
+    "FM Radio:WJHT",
+    "FM Radio:WQMU",
+    "FM Radio:WPCL",
+    "FM Radio:WLCY"
+  ],
+  "Zip:15825": [
+    "FM Radio:WRQV",
+    "FM Radio:WCCR-FM",
+    "FM Radio:WQQP",
+    "FM Radio:WKFT",
+    "FM Radio:WKQL",
+    "FM Radio:WPXZ-FM",
+    "FM Radio:WMKX",
+    "FM Radio:WDSN"
+  ],
+  "Zip:15851": [
+    "FM Radio:WRQV",
+    "FM Radio:WPMU",
+    "FM Radio:WQQP",
+    "FM Radio:WPXZ-FM",
+    "FM Radio:WDSN"
+  ],
+  "Zip:17058": [
+    "FM Radio:WJRC",
+    "FM Radio:WVNW",
+    "FM Radio:WCHX"
+  ],
+  "Zip:17045": [
+    "FM Radio:WKHW",
+    "FM Radio:WFBM",
+    "FM Radio:WQBG"
+  ],
+  "Zip:18414": [
+    "FM Radio:WWRR"
+  ],
+  "Zip:17522": [
+    "FM Radio:WRTL",
+    "FM Radio:WYTL"
+  ],
+  "Zip:17603": [
+    "FM Radio:WFNM",
+    "FM Radio:WLCH",
+    "FM Radio:WIXQ"
+  ],
+  "FM Radio:WIXQ": [
+    "Zip:17603",
+    "Zip:17551"
+  ],
+  "Zip:16143": [
+    "FM Radio:WWNW"
+  ],
+  "Zip:17003": [
+    "FM Radio:WKHL",
+    "FM Radio:WFVY"
+  ],
+  "Zip:18104": [
+    "FM Radio:WJCS",
+    "FM Radio:WLHI",
+    "FM Radio:WMUH"
+  ],
+  "Zip:18017": [
+    "FM Radio:WLVR-FM"
+  ],
+  "Zip:18656": [
+    "FM Radio:WRGN"
+  ],
+  "Zip:17737": [
+    "FM Radio:WVAM-FM",
+    "FM Radio:WZXR",
+    "FM Radio:WOTH"
+  ],
+  "Zip:17727": [
+    "FM Radio:WCOG-FM"
+  ],
+  "Zip:16743": [
+    "FM Radio:WHKS",
+    "FM Radio:WCOP",
+    "FM Radio:WXMT"
+  ],
+  "Zip:16731": [
+    "FM Radio:WTWT",
+    "FM Radio:WOLN",
+    "FM Radio:WHKS",
+    "FM Radio:WCOR-FM",
+    "FM Radio:WMXO",
+    "FM Radio:WCOP",
+    "FM Radio:WXMT"
+  ],
+  "FM Radio:WTWT": [
+    "Zip:16731",
+    "Zip:16701"
+  ],
+  "Zip:19406": [
+    "FM Radio:WXVU"
+  ],
+  "Zip:17777": [
+    "FM Radio:WGRC"
+  ],
+  "Zip:18020": [
+    "FM Radio:WLVR-FM"
+  ],
+  "Zip:18042": [
+    "FM Radio:WLVR-FM",
+    "FM Radio:WJRH"
+  ],
+  "FM Radio:WJRH": [
+    "Zip:18042",
+    "Zip:18040"
+  ],
+  "Zip:15563": [
+    "FM Radio:WLKH",
+    "FM Radio:WCCL"
+  ],
+  "Zip:16901": [
+    "FM Radio:WOGA",
+    "FM Radio:WMTT-FM",
+    "FM Radio:WCOG-FM",
+    "FM Radio:WDKC",
+    "FM Radio:WNBT-FM",
+    "FM Radio:DWLIH"
+  ],
+  "FM Radio:WMTT-FM": [
+    "Zip:16901"
+  ],
+  "FM Radio:WNBT-FM": [
+    "Zip:16901"
+  ],
+  "Zip:16932": [
+    "FM Radio:WTIO",
+    "FM Radio:WDFS"
+  ],
+  "Zip:17856": [
+    "FM Radio:WGRC"
+  ],
+  "Zip:17845": [
+    "FM Radio:WBGM",
+    "FM Radio:WRBG",
+    "FM Radio:WCXR",
+    "FM Radio:WNNA"
+  ],
+  "Zip:16323": [
+    "FM Radio:WQHE",
+    "FM Radio:WCGT",
+    "FM Radio:WAWN",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WLOQ",
+    "FM Radio:WRQW"
+  ],
+  "Zip:16301": [
+    "FM Radio:WQHE",
+    "FM Radio:WAWN",
+    "FM Radio:WLOQ",
+    "FM Radio:WGYI",
+    "FM Radio:WCGH",
+    "FM Radio:WRQW"
+  ],
+  "Zip:17364": [
+    "FM Radio:WZXY"
+  ],
+  "Zip:17408": [
+    "FM Radio:WZXY"
+  ],
+  "Zip:15206": [
+    "FM Radio:WPTS-FM"
+  ],
+  "Zip:15217": [
+    "FM Radio:WPTS-FM"
+  ],
+  "Zip:15001": [
+    "FM Radio:WKPL"
+  ],
+  "FM Radio:WKPL": [
+    "Zip:15001",
+    "Zip:16101"
+  ],
+  "Zip:15550": [
+    "FM Radio:WPME",
+    "FM Radio:WAYC",
+    "FM Radio:WBVE"
+  ],
+  "Zip:19605": [
+    "FM Radio:WYBQ",
+    "FM Radio:WXAC"
+  ],
+  "Zip:19508": [
+    "FM Radio:WZXB",
+    "FM Radio:WYTL"
+  ],
+  "Zip:19540": [
+    "FM Radio:WYTL"
+  ],
+  "Zip:19512": [
+    "FM Radio:WZXB"
+  ],
+  "Zip:18062": [
+    "FM Radio:WJCS"
+  ],
+  "Zip:19541": [
+    "FM Radio:WYBQ"
+  ],
+  "Zip:16686": [
+    "FM Radio:WTLR",
+    "FM Radio:WMMH",
+    "FM Radio:WWOT",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WQCK"
+  ],
+  "Zip:16693": [
+    "FM Radio:WHHN",
+    "FM Radio:WPMN",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WLKE",
+    "FM Radio:WBRX",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM"
+  ],
+  "Zip:18833": [
+    "FM Radio:WYSP",
+    "FM Radio:WPAL",
+    "FM Radio:WCDR",
+    "FM Radio:WCOZ",
+    "FM Radio:WGMF-FM"
+  ],
+  "Zip:16914": [
+    "FM Radio:WCIH",
+    "FM Radio:WSQE",
+    "FM Radio:WENI-FM",
+    "FM Radio:WZBF",
+    "FM Radio:WOKN"
+  ],
+  "Zip:18944": [
+    "FM Radio:WBYO",
+    "FM Radio:WBMR"
+  ],
+  "Zip:19006": [
+    "FM Radio:WRDV"
+  ],
+  "Zip:18976": [
+    "FM Radio:WRDV"
+  ],
+  "Zip:15834": [
+    "FM Radio:WTWR",
+    "FM Radio:WPSX",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WQKY"
+  ],
+  "Zip:16803": [
+    "FM Radio:WKPS"
+  ],
+  "Zip:16248": [
+    "FM Radio:WCUC-FM"
+  ],
+  "Zip:15860": [
+    "FM Radio:WCCR-FM",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WJNG",
+    "FM Radio:WKFT"
+  ],
+  "Zip:16830": [
+    "FM Radio:WRQV",
+    "FM Radio:WPMU",
+    "FM Radio:WRVI",
+    "FM Radio:WPQP",
+    "FM Radio:WOKW"
+  ],
+  "Zip:16833": [
+    "FM Radio:WPMU",
+    "FM Radio:WRVI",
+    "FM Radio:WQQP",
+    "FM Radio:WOKW"
+  ],
+  "Zip:17821": [
+    "FM Radio:WQSU",
+    "FM Radio:WEVW",
+    "FM Radio:WGRC",
+    "FM Radio:WZRG",
+    "FM Radio:WHNA",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WKBP",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WVRZ",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WEGH",
+    "FM Radio:WOTH"
+  ],
+  "FM Radio:WQSU": [
+    "Zip:17821",
+    "Zip:17815"
+  ],
+  "Zip:17921": [
+    "FM Radio:WFBA",
+    "FM Radio:WZRG"
+  ],
+  "Zip:16406": [
+    "FM Radio:WFSE",
+    "FM Radio:WVME",
+    "FM Radio:WRQI",
+    "FM Radio:WMVL",
+    "FM Radio:WXMJ"
+  ],
+  "Zip:16125": [
+    "FM Radio:WXTC",
+    "FM Radio:WAKZ",
+    "FM Radio:WLLF",
+    "FM Radio:WWIZ",
+    "FM Radio:WLVX"
+  ],
+  "FM Radio:WAKZ": [
+    "Zip:16125"
+  ],
+  "Zip:17257": [
+    "FM Radio:WZXQ",
+    "FM Radio:WSYC-FM",
+    "FM Radio:WZXN",
+    "FM Radio:WPFG",
+    "FM Radio:WYPM"
+  ],
+  "FM Radio:WSYC-FM": [
+    "Zip:17257"
+  ],
+  "Zip:17240": [
+    "FM Radio:WZXN",
+    "FM Radio:WPFG"
+  ],
+  "Zip:19086": [
+    "FM Radio:WSRN-FM",
+    "FM Radio:WRSD"
+  ],
+  "Zip:15846": [
+    "FM Radio:WRQV",
+    "FM Radio:WTWR",
+    "FM Radio:WRVI",
+    "FM Radio:WRPV",
+    "FM Radio:WJNG"
+  ],
+  "Zip:16509": [
+    "FM Radio:WEFR",
+    "FM Radio:WMCE-FM",
+    "FM Radio:WICU-FM"
+  ],
+  "Zip:15417": [
+    "FM Radio:WCAL"
+  ],
+  "Zip:15666": [
+    "FM Radio:WLWG",
+    "FM Radio:WKHB-FM"
+  ],
+  "Zip:16239": [
+    "FM Radio:WPSX",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WKFT",
+    "FM Radio:WJKB",
+    "FM Radio:WMKX",
+    "FM Radio:WCGH"
+  ],
+  "Zip:16351": [
+    "FM Radio:WNAE",
+    "FM Radio:WCGH"
+  ],
+  "Zip:16611": [
+    "FM Radio:WHUN-FM"
+  ],
+  "Zip:16256": [
+    "FM Radio:WPXZ-FM"
+  ],
+  "Zip:17049": [
+    "FM Radio:WFBM",
+    "FM Radio:WNNA"
+  ],
+  "Zip:17059": [
+    "FM Radio:WJRC",
+    "FM Radio:WIBF",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WVNW",
+    "FM Radio:WQLV",
+    "FM Radio:WCHX",
+    "FM Radio:WNNA",
+    "FM Radio:WQJU"
+  ],
+  "Zip:18512": [
+    "FM Radio:WVMW-FM"
+  ],
+  "Zip:18403": [
+    "FM Radio:WZZH",
+    "FM Radio:WVMW-FM"
+  ],
+  "Zip:17536": [
+    "FM Radio:WZXE"
+  ],
+  "Zip:17551": [
+    "FM Radio:WIXQ"
+  ],
+  "Zip:17540": [
+    "FM Radio:WLCH"
+  ],
+  "Zip:16105": [
+    "FM Radio:WWNW",
+    "FM Radio:WVMN"
+  ],
+  "Zip:16142": [
+    "FM Radio:WWNW",
+    "FM Radio:WVMN"
+  ],
+  "Zip:16156": [
+    "FM Radio:WVMN"
+  ],
+  "Zip:18080": [
+    "FM Radio:WLHI"
+  ],
+  "Zip:18103": [
+    "FM Radio:WJCS",
+    "FM Radio:WLHI",
+    "FM Radio:WMUH"
+  ],
+  "Zip:17752": [
+    "FM Radio:WRLC"
+  ],
+  "Zip:17765": [
+    "FM Radio:WDKC"
+  ],
+  "Zip:16749": [
+    "FM Radio:WPSX",
+    "FM Radio:WOLN",
+    "FM Radio:WHKS",
+    "FM Radio:WCOR-FM",
+    "FM Radio:WBRR",
+    "FM Radio:WCOP",
+    "FM Radio:WXMT"
+  ],
+  "Zip:16154": [
+    "FM Radio:WXTC"
+  ],
+  "Zip:16153": [
+    "FM Radio:WCGT"
+  ],
+  "Zip:16342": [
+    "FM Radio:WCGT",
+    "FM Radio:WAWN",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WLOQ",
+    "FM Radio:WRQW"
+  ],
+  "Zip:19438": [
+    "FM Radio:WBMR"
+  ],
+  "Zip:17860": [
+    "FM Radio:WEVW"
+  ],
+  "Zip:17964": [
+    "FM Radio:WFBA"
+  ],
+  "Zip:19143": [
+    "FM Radio:WPEB"
+  ],
+  "Zip:19145": [
+    "FM Radio:WPEB",
+    "FM Radio:WKDU"
+  ],
+  "Zip:18428": [
+    "FM Radio:WLKA",
+    "FM Radio:WBYH",
+    "FM Radio:WPAU",
+    "FM Radio:WDNH-FM",
+    "FM Radio:WYCY"
+  ],
+  "Zip:18337": [
+    "FM Radio:WMFU"
+  ],
+  "FM Radio:WMFU": [
+    "Zip:18337"
+  ],
+  "Zip:18405": [
+    "FM Radio:WBYH",
+    "FM Radio:WDNH-FM"
+  ],
+  "Zip:17960": [
+    "FM Radio:WCDH",
+    "FM Radio:WMGH-FM"
+  ],
+  "Zip:17842": [
+    "FM Radio:WBGM",
+    "FM Radio:WFBV",
+    "FM Radio:WRBG",
+    "FM Radio:WCXR",
+    "FM Radio:WNNA"
+  ],
+  "Zip:16917": [
+    "FM Radio:WTIO",
+    "FM Radio:DWLIH"
+  ],
+  "Zip:16365": [
+    "FM Radio:WYVL",
+    "FM Radio:WNJA",
+    "FM Radio:WCOT",
+    "FM Radio:WLKW",
+    "FM Radio:WHUG",
+    "FM Radio:WQFX-FM",
+    "FM Radio:WNAE",
+    "FM Radio:WJKB",
+    "FM Radio:WKZA"
+  ],
+  "FM Radio:WCOT": [
+    "Zip:16365",
+    "Zip:16701"
+  ],
+  "FM Radio:WKZA": [
+    "Zip:16365"
+  ],
+  "Zip:18417": [
+    "FM Radio:WHNB"
+  ],
+  "FM Radio:WHNB": [
+    "Zip:18417"
+  ],
+  "Zip:15650": [
+    "FM Radio:WLWG",
+    "FM Radio:WHJB"
+  ],
+  "Zip:18629": [
+    "FM Radio:WPAL",
+    "FM Radio:WCDJ",
+    "FM Radio:WGMF-FM"
+  ],
+  "Zip:17404": [
+    "FM Radio:WVYC"
+  ],
+  "Zip:17350": [
+    "FM Radio:WZXY"
+  ],
+  "Zip:15122": [
+    "FM Radio:WRCT"
+  ],
+  "FM Radio:WRCT": [
+    "Zip:15122"
+  ],
+  "Zip:15537": [
+    "FM Radio:WAYC",
+    "FM Radio:WSKE",
+    "FM Radio:WBVE"
+  ],
+  "Zip:15534": [
+    "FM Radio:WAYC"
+  ],
+  "Zip:19551": [
+    "FM Radio:WYBQ",
+    "FM Radio:WRTL"
+  ],
+  "Zip:19560": [
+    "FM Radio:WXAC"
+  ],
+  "Zip:17555": [
+    "FM Radio:WZZD",
+    "FM Radio:WYTL"
+  ],
+  "Zip:16648": [
+    "FM Radio:WHHN",
+    "FM Radio:WPMN",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WLKE",
+    "FM Radio:WBRX",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM"
+  ],
+  "Zip:18974": [
+    "FM Radio:WRDV"
+  ],
+  "Zip:19056": [
+    "FM Radio:WLBS"
+  ],
+  "Zip:19030": [
+    "FM Radio:WLBS"
+  ],
+  "Zip:16639": [
+    "FM Radio:WALY"
+  ],
+  "Zip:18661": [
+    "FM Radio:WCLH",
+    "FM Radio:WQFM",
+    "FM Radio:WSJR",
+    "FM Radio:WBHT",
+    "FM Radio:WPZX"
+  ],
+  "Zip:16822": [
+    "FM Radio:WJVM",
+    "FM Radio:WLEJ",
+    "FM Radio:WQKK"
+  ],
+  "Zip:19343": [
+    "FM Radio:WZZD",
+    "FM Radio:WRTJ"
+  ],
+  "Zip:19344": [
+    "FM Radio:WZZD",
+    "FM Radio:WRTJ",
+    "FM Radio:WYTL"
+  ],
+  "Zip:15829": [
+    "FM Radio:WCCR-FM"
+  ],
+  "Zip:16858": [
+    "FM Radio:WKPA"
+  ],
+  "Zip:18655": [
+    "FM Radio:WRGN",
+    "FM Radio:WQFM",
+    "FM Radio:WSJR",
+    "FM Radio:WKBP",
+    "FM Radio:WBHT",
+    "FM Radio:WMMZ"
+  ],
+  "Zip:16316": [
+    "FM Radio:WVME",
+    "FM Radio:WMVL"
+  ],
+  "Zip:17110": [
+    "FM Radio:WZXM"
+  ],
+  "Zip:17033": [
+    "FM Radio:WMSS"
+  ],
+  "Zip:17113": [
+    "FM Radio:WZXM"
+  ],
+  "Zip:19070": [
+    "FM Radio:WRSD"
+  ],
+  "Zip:19081": [
+    "FM Radio:WSRN-FM",
+    "FM Radio:WRSD"
+  ],
+  "Zip:15870": [
+    "FM Radio:WTWR",
+    "FM Radio:WPSX",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WQKY",
+    "FM Radio:WJNG"
+  ],
+  "Zip:16442": [
+    "FM Radio:WMCE-FM",
+    "FM Radio:WEBG"
+  ],
+  "Zip:15401": [
+    "FM Radio:WPKL",
+    "FM Radio:WKHB-FM",
+    "FM Radio:WMKF"
+  ],
+  "Zip:17252": [
+    "FM Radio:WWCF"
+  ],
+  "Zip:17238": [
+    "FM Radio:WEEO-FM"
+  ],
+  "Zip:16669": [
+    "FM Radio:WCOB",
+    "FM Radio:WRYV",
+    "FM Radio:WRXV",
+    "FM Radio:WPSU",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WVNW",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WAPY",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WQCK",
+    "FM Radio:WKPA"
+  ],
+  "Zip:17082": [
+    "FM Radio:WJRC",
+    "FM Radio:WIBF",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WCHX",
+    "FM Radio:WQJU"
+  ],
+  "Zip:17094": [
+    "FM Radio:WFBM"
+  ],
+  "Zip:17853": [
+    "FM Radio:WFBV",
+    "FM Radio:WFBM",
+    "FM Radio:WQBG"
+  ],
+  "Zip:18444": [
+    "FM Radio:WVMW-FM",
+    "FM Radio:WSJR",
+    "FM Radio:WBHD",
+    "FM Radio:WUSR",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WPZX",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "Zip:16101": [
+    "FM Radio:WWNW",
+    "FM Radio:WVMN",
+    "FM Radio:WKPL"
+  ],
+  "Zip:16116": [
+    "FM Radio:WWNW",
+    "FM Radio:WVMN"
+  ],
+  "Zip:18644": [
+    "FM Radio:WRKC"
+  ],
+  "Zip:18651": [
+    "FM Radio:WRKC",
+    "FM Radio:WSFX"
+  ],
+  "Zip:18612": [
+    "FM Radio:WRGN",
+    "FM Radio:WCLH",
+    "FM Radio:WQFM",
+    "FM Radio:WSJR",
+    "FM Radio:WBHT",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "Zip:17771": [
+    "FM Radio:WPMY",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WZXR"
+  ],
+  "Zip:17776": [
+    "FM Radio:WPMY",
+    "FM Radio:WQBR"
+  ],
+  "Zip:16701": [
+    "FM Radio:WPSX",
+    "FM Radio:WTWT",
+    "FM Radio:WCOT",
+    "FM Radio:WHKS",
+    "FM Radio:WCOR-FM",
+    "FM Radio:WQRS",
+    "FM Radio:WBRR",
+    "FM Radio:WCOP",
+    "FM Radio:WNAE",
+    "FM Radio:WJKB",
+    "FM Radio:WCGS",
+    "FM Radio:WXMT"
+  ],
+  "FM Radio:WQRS": [
+    "Zip:16701"
+  ],
+  "FM Radio:WCGS": [
+    "Zip:16701"
+  ],
+  "Zip:17841": [
+    "FM Radio:WFBM",
+    "FM Radio:WJRC",
+    "FM Radio:WIBF",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WCHX",
+    "FM Radio:WNNA",
+    "FM Radio:WQJU"
+  ],
+  "Zip:17051": [
+    "FM Radio:WRYV",
+    "FM Radio:WVNW",
+    "FM Radio:WDBF-FM"
+  ],
+  "Zip:17823": [
+    "FM Radio:WFBV"
+  ],
+  "Zip:17040": [
+    "FM Radio:WPFG"
+  ],
+  "Zip:19139": [
+    "FM Radio:WPEB"
+  ],
+  "Zip:18426": [
+    "FM Radio:WBYH",
+    "FM Radio:WPAU"
+  ],
+  "Zip:18425": [
+    "FM Radio:WPAU"
+  ],
+  "Zip:15530": [
+    "FM Radio:WLKH",
+    "FM Radio:WCCL"
+  ],
+  "Zip:15542": [
+    "FM Radio:WHYU-FM"
+  ],
+  "Zip:18847": [
+    "FM Radio:WJOB-FM",
+    "FM Radio:WIYN",
+    "FM Radio:WDRE"
+  ],
+  "FM Radio:WIYN": [
+    "Zip:18847"
+  ],
+  "Zip:16933": [
+    "FM Radio:WTIO",
+    "FM Radio:WDFS",
+    "FM Radio:WNTE",
+    "FM Radio:WCIH",
+    "FM Radio:WOGA",
+    "FM Radio:WDKC",
+    "FM Radio:DWLIH"
+  ],
+  "FM Radio:WNTE": [
+    "Zip:16933"
+  ],
+  "Zip:15301": [
+    "FM Radio:WNJR",
+    "FM Radio:WJPA-FM"
+  ],
+  "Zip:15601": [
+    "FM Radio:WLWG",
+    "FM Radio:WHJB"
+  ],
+  "Zip:17401": [
+    "FM Radio:WVYC"
+  ],
+  "Zip:17331": [
+    "FM Radio:WZXY"
+  ],
+  "Zip:15656": [
+    "FM Radio:WKGO"
+  ],
+  "Zip:15774": [
+    "FM Radio:WIUP-FM",
+    "FM Radio:WQMU",
+    "FM Radio:WLCY"
+  ],
+  "Zip:19606": [
+    "FM Radio:WZXB",
+    "FM Radio:WXAC"
+  ],
+  "Zip:19520": [
+    "FM Radio:WZZD",
+    "FM Radio:WYTL"
+  ],
+  "Zip:19530": [
+    "FM Radio:WZXB"
+  ],
+  "Zip:16601": [
+    "FM Radio:WHHN",
+    "FM Radio:WMMH",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WLKE",
+    "FM Radio:WBRX",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM"
+  ],
+  "Zip:18850": [
+    "FM Radio:WTTC-FM",
+    "FM Radio:WZBF",
+    "FM Radio:WAVR"
+  ],
+  "Zip:19055": [
+    "FM Radio:WLBS"
+  ],
+  "Zip:18966": [
+    "FM Radio:WRDV"
+  ],
+  "Zip:16001": [
+    "FM Radio:WLER-FM"
+  ],
+  "Zip:16373": [
+    "FM Radio:WCGT",
+    "FM Radio:WAWN",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WLOQ"
+  ],
+  "Zip:16872": [
+    "FM Radio:WJVM"
+  ],
+  "Zip:19363": [
+    "FM Radio:WZXE",
+    "FM Radio:WZWG"
+  ],
+  "Zip:19352": [
+    "FM Radio:WZXE",
+    "FM Radio:WWLU",
+    "FM Radio:WZWG"
+  ],
+  "FM Radio:WWLU": [
+    "Zip:19352"
+  ],
+  "Zip:16214": [
+    "FM Radio:WCUC-FM",
+    "FM Radio:WCCR-FM",
+    "FM Radio:WKFT"
+  ],
+  "Zip:16353": [
+    "FM Radio:WQHE",
+    "FM Radio:WLOQ",
+    "FM Radio:WGYI",
+    "FM Radio:WKFT",
+    "FM Radio:WCGH",
+    "FM Radio:WRQW"
+  ],
+  "Zip:15757": [
+    "FM Radio:WBXQ",
+    "FM Radio:WQQP"
+  ],
+  "Zip:16838": [
+    "FM Radio:WOKW"
+  ],
+  "Zip:17778": [
+    "FM Radio:WQKK"
+  ],
+  "Zip:17729": [
+    "FM Radio:WCOG-FM",
+    "FM Radio:WQKK"
+  ],
+  "Zip:17815": [
+    "FM Radio:WQSU",
+    "FM Radio:WFBA",
+    "FM Radio:WHSK",
+    "FM Radio:WCDH",
+    "FM Radio:WZRG",
+    "FM Radio:WHNA",
+    "FM Radio:WKBP",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WVRZ",
+    "FM Radio:WMMZ"
+  ],
+  "Zip:16412": [
+    "FM Radio:WEFR",
+    "FM Radio:WFSE",
+    "FM Radio:WXBB",
+    "FM Radio:WMVL",
+    "FM Radio:WQHZ",
+    "FM Radio:WXMJ",
+    "FM Radio:WCTL"
+  ],
+  "Zip:16424": [
+    "FM Radio:WVME",
+    "FM Radio:WRQI",
+    "FM Radio:WMVL",
+    "FM Radio:WXMJ"
+  ],
+  "Zip:16327": [
+    "FM Radio:WVME",
+    "FM Radio:WRQI",
+    "FM Radio:WXMJ"
+  ],
+  "Zip:17013": [
+    "FM Radio:WDCV-FM",
+    "FM Radio:WZXN",
+    "FM Radio:WPFG",
+    "FM Radio:WJAZ",
+    "FM Radio:WCAT-FM"
+  ],
+  "Zip:17025": [
+    "FM Radio:WZXM"
+  ],
+  "Zip:17036": [
+    "FM Radio:WMSS"
+  ],
+  "Zip:19064": [
+    "FM Radio:WSRN-FM"
+  ],
+  "Zip:19010": [
+    "FM Radio:WXVU"
+  ],
+  "Zip:19078": [
+    "FM Radio:WRSD"
+  ],
+  "Zip:19015": [
+    "FM Radio:WSRN-FM"
+  ],
+  "Zip:16415": [
+    "FM Radio:WEFR"
+  ],
+  "Zip:16341": [
+    "FM Radio:WQHE",
+    "FM Radio:WLOQ",
+    "FM Radio:WCGH",
+    "FM Radio:WRQW"
+  ],
+  "Zip:17086": [
+    "FM Radio:WFBM",
+    "FM Radio:WNNA"
+  ],
+  "Zip:17062": [
+    "FM Radio:WKHW",
+    "FM Radio:WFBM",
+    "FM Radio:WQLV",
+    "FM Radio:WNNA"
+  ],
+  "Zip:18424": [
+    "FM Radio:WRTY",
+    "FM Radio:WPZX"
+  ],
+  "Zip:17552": [
+    "FM Radio:WWEC"
+  ],
+  "Zip:16159": [
+    "FM Radio:WWNW"
+  ],
+  "Zip:18015": [
+    "FM Radio:WJCS",
+    "FM Radio:WLVR-FM"
+  ],
+  "Zip:18069": [
+    "FM Radio:WLHI"
+  ],
+  "Zip:18704": [
+    "FM Radio:WRKC"
+  ],
+  "Zip:18708": [
+    "FM Radio:WRKC"
+  ],
+  "Zip:17701": [
+    "FM Radio:WKWP",
+    "FM Radio:WVYA",
+    "FM Radio:WVAM-FM",
+    "FM Radio:WCRG",
+    "FM Radio:WRLC",
+    "FM Radio:WBYL",
+    "FM Radio:WZXR",
+    "FM Radio:WOTH"
+  ],
+  "Zip:18040": [
+    "FM Radio:WPNJ",
+    "FM Radio:WJRH"
+  ],
+  "Zip:19146": [
+    "FM Radio:WPEB"
+  ],
+  "Zip:18328": [
+    "FM Radio:WABT"
+  ],
+  "Zip:17967": [
+    "FM Radio:WFBA"
+  ],
+  "Zip:18834": [
+    "FM Radio:WJOB-FM",
+    "FM Radio:WDRE"
+  ],
+  "Zip:15323": [
+    "FM Radio:WNJR",
+    "FM Radio:WJPA-FM"
+  ],
+  "Zip:15312": [
+    "FM Radio:WJPA-FM"
+  ],
+  "Zip:15330": [
+    "FM Radio:WNJR",
+    "FM Radio:WJPA-FM"
+  ],
+  "Zip:15658": [
+    "FM Radio:WLWG",
+    "FM Radio:WJHT",
+    "FM Radio:WHJB"
+  ]
+}

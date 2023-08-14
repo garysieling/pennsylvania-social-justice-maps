@@ -1,0 +1,3674 @@
+{
+  "PA House District:77": [
+    "FM Radio:WCOB",
+    "FM Radio:WRXV",
+    "FM Radio:WTLR",
+    "FM Radio:WKPS",
+    "FM Radio:WPSU",
+    "FM Radio:WMMH",
+    "FM Radio:WPQP",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WLEJ",
+    "FM Radio:WBUS",
+    "FM Radio:WAPY",
+    "FM Radio:WQCK",
+    "FM Radio:WKPA"
+  ],
+  "FM Radio:WCOB": [
+    "PA House District:77",
+    "PA House District:76",
+    "PA House District:81",
+    "PA House District:171"
+  ],
+  "FM Radio:WRXV": [
+    "PA House District:77",
+    "PA House District:76",
+    "PA House District:81",
+    "PA House District:171"
+  ],
+  "FM Radio:WTLR": [
+    "PA House District:77",
+    "PA House District:76",
+    "PA House District:81",
+    "PA House District:82",
+    "PA House District:171"
+  ],
+  "FM Radio:WKPS": [
+    "PA House District:77"
+  ],
+  "FM Radio:WPSU": [
+    "PA House District:77",
+    "PA House District:76",
+    "PA House District:75",
+    "PA House District:81",
+    "PA House District:171"
+  ],
+  "FM Radio:WMMH": [
+    "PA House District:77",
+    "PA House District:73",
+    "PA House District:72",
+    "PA House District:80",
+    "PA House District:81"
+  ],
+  "FM Radio:WPQP": [
+    "PA House District:77",
+    "PA House District:73",
+    "PA House District:75",
+    "PA House District:66"
+  ],
+  "FM Radio:WMAJ": [
+    "PA House District:77",
+    "PA House District:76",
+    "PA House District:81",
+    "PA House District:82",
+    "PA House District:171"
+  ],
+  "FM Radio:WBHV-FM": [
+    "PA House District:77",
+    "PA House District:76",
+    "PA House District:81",
+    "PA House District:171"
+  ],
+  "FM Radio:WZWW": [
+    "PA House District:77",
+    "PA House District:76",
+    "PA House District:81",
+    "PA House District:171"
+  ],
+  "FM Radio:WOWY": [
+    "PA House District:77",
+    "PA House District:76",
+    "PA House District:81",
+    "PA House District:171"
+  ],
+  "FM Radio:WGJC": [
+    "PA House District:77",
+    "PA House District:76",
+    "PA House District:81",
+    "PA House District:171"
+  ],
+  "FM Radio:WLEJ": [
+    "PA House District:77",
+    "PA House District:76",
+    "PA House District:81",
+    "PA House District:171"
+  ],
+  "FM Radio:WBUS": [
+    "PA House District:77",
+    "PA House District:76",
+    "PA House District:81",
+    "PA House District:82",
+    "PA House District:171"
+  ],
+  "FM Radio:WAPY": [
+    "PA House District:77",
+    "PA House District:76",
+    "PA House District:81",
+    "PA House District:82",
+    "PA House District:171"
+  ],
+  "FM Radio:WQCK": [
+    "PA House District:77",
+    "PA House District:73",
+    "PA House District:80",
+    "PA House District:81"
+  ],
+  "FM Radio:WKPA": [
+    "PA House District:77",
+    "PA House District:76",
+    "PA House District:81",
+    "PA House District:171"
+  ],
+  "PA House District:73": [
+    "FM Radio:WCOA-FM",
+    "FM Radio:WPMU",
+    "FM Radio:WRVI",
+    "FM Radio:WPAI",
+    "FM Radio:WMMH",
+    "FM Radio:WPQP",
+    "FM Radio:WLKE",
+    "FM Radio:WBXQ",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WQQP",
+    "FM Radio:WKYE",
+    "FM Radio:WPCL",
+    "FM Radio:WFGY",
+    "FM Radio:WRKW",
+    "FM Radio:WWOT",
+    "FM Radio:WFGE",
+    "FM Radio:WIFT",
+    "FM Radio:WOKW",
+    "FM Radio:WQCK",
+    "FM Radio:WDSN",
+    "FM Radio:WCOH"
+  ],
+  "FM Radio:WCOA-FM": [
+    "PA House District:73",
+    "PA House District:59",
+    "PA House District:72",
+    "PA House District:62",
+    "PA House District:66",
+    "PA House District:60",
+    "PA House District:63"
+  ],
+  "FM Radio:WPMU": [
+    "PA House District:73",
+    "PA House District:75",
+    "PA House District:66"
+  ],
+  "FM Radio:WRVI": [
+    "PA House District:73",
+    "PA House District:75"
+  ],
+  "FM Radio:WPAI": [
+    "PA House District:73",
+    "PA House District:72",
+    "PA House District:71",
+    "PA House District:62"
+  ],
+  "FM Radio:WLKE": [
+    "PA House District:73",
+    "PA House District:72",
+    "PA House District:80",
+    "PA House District:79"
+  ],
+  "FM Radio:WBXQ": [
+    "PA House District:73",
+    "PA House District:72",
+    "PA House District:66"
+  ],
+  "FM Radio:WFGI-FM": [
+    "PA House District:73",
+    "PA House District:59",
+    "PA House District:72",
+    "PA House District:69",
+    "PA House District:66",
+    "PA House District:78",
+    "PA House District:60"
+  ],
+  "FM Radio:WQQP": [
+    "PA House District:73",
+    "PA House District:75",
+    "PA House District:66"
+  ],
+  "FM Radio:WKYE": [
+    "PA House District:73",
+    "PA House District:59",
+    "PA House District:51",
+    "PA House District:72",
+    "PA House District:62",
+    "PA House District:80",
+    "PA House District:69",
+    "PA House District:66",
+    "PA House District:60"
+  ],
+  "FM Radio:WPCL": [
+    "PA House District:73",
+    "PA House District:72",
+    "PA House District:71",
+    "PA House District:62"
+  ],
+  "FM Radio:WFGY": [
+    "PA House District:73",
+    "PA House District:72",
+    "PA House District:62",
+    "PA House District:80",
+    "PA House District:66",
+    "PA House District:78",
+    "PA House District:81",
+    "PA House District:82"
+  ],
+  "FM Radio:WRKW": [
+    "PA House District:73",
+    "PA House District:59",
+    "PA House District:72",
+    "PA House District:62",
+    "PA House District:80",
+    "PA House District:69",
+    "PA House District:66",
+    "PA House District:78",
+    "PA House District:81"
+  ],
+  "FM Radio:WWOT": [
+    "PA House District:73",
+    "PA House District:72",
+    "PA House District:80",
+    "PA House District:81"
+  ],
+  "FM Radio:WFGE": [
+    "PA House District:73",
+    "PA House District:76",
+    "PA House District:80",
+    "PA House District:75",
+    "PA House District:81",
+    "PA House District:82",
+    "PA House District:171"
+  ],
+  "FM Radio:WIFT": [
+    "PA House District:73",
+    "PA House District:75",
+    "PA House District:66",
+    "PA House District:63"
+  ],
+  "FM Radio:WOKW": [
+    "PA House District:73",
+    "PA House District:75"
+  ],
+  "FM Radio:WDSN": [
+    "PA House District:73",
+    "PA House District:75",
+    "PA House District:66"
+  ],
+  "FM Radio:WCOH": [
+    "PA House District:73",
+    "PA House District:76",
+    "PA House District:67",
+    "PA House District:75",
+    "PA House District:66",
+    "PA House District:63"
+  ],
+  "PA House District:50": [
+    "FM Radio:WYFU",
+    "FM Radio:WCAL",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WOGG",
+    "FM Radio:WPKL",
+    "FM Radio:WDVE",
+    "FM Radio:WKVE",
+    "FM Radio:WOGH",
+    "FM Radio:WLYI",
+    "FM Radio:WMKF"
+  ],
+  "FM Radio:WYFU": [
+    "PA House District:50",
+    "PA House District:51"
+  ],
+  "FM Radio:WCAL": [
+    "PA House District:50",
+    "PA House District:49",
+    "PA House District:52",
+    "PA House District:58"
+  ],
+  "FM Radio:WWSW-FM": [
+    "PA House District:50",
+    "PA House District:60",
+    "PA House District:15"
+  ],
+  "FM Radio:WOGG": [
+    "PA House District:50",
+    "PA House District:49",
+    "PA House District:51",
+    "PA House District:52",
+    "PA House District:58"
+  ],
+  "FM Radio:WPKL": [
+    "PA House District:50",
+    "PA House District:49",
+    "PA House District:51",
+    "PA House District:52"
+  ],
+  "FM Radio:WDVE": [
+    "PA House District:50",
+    "PA House District:60",
+    "PA House District:15"
+  ],
+  "FM Radio:WKVE": [
+    "PA House District:50",
+    "PA House District:49",
+    "PA House District:59",
+    "PA House District:51",
+    "PA House District:52",
+    "PA House District:39",
+    "PA House District:58"
+  ],
+  "FM Radio:WOGH": [
+    "PA House District:50",
+    "PA House District:15"
+  ],
+  "FM Radio:WLYI": [
+    "PA House District:50",
+    "PA House District:15"
+  ],
+  "FM Radio:WMKF": [
+    "PA House District:50",
+    "PA House District:51"
+  ],
+  "PA House District:46": [
+    "FM Radio:WESA",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WNJR",
+    "FM Radio:WJPA-FM",
+    "FM Radio:WPKV"
+  ],
+  "FM Radio:WESA": [
+    "PA House District:46",
+    "PA House District:12",
+    "PA House District:54",
+    "PA House District:39",
+    "PA House District:58",
+    "PA House District:14",
+    "PA House District:15"
+  ],
+  "FM Radio:WYEP-FM": [
+    "PA House District:46",
+    "PA House District:12",
+    "PA House District:54",
+    "PA House District:57",
+    "PA House District:39",
+    "PA House District:58",
+    "PA House District:44"
+  ],
+  "FM Radio:WNJR": [
+    "PA House District:46",
+    "PA House District:48",
+    "PA House District:15"
+  ],
+  "FM Radio:WJPA-FM": [
+    "PA House District:46",
+    "PA House District:48",
+    "PA House District:49",
+    "PA House District:39",
+    "PA House District:15"
+  ],
+  "FM Radio:WPKV": [
+    "PA House District:46",
+    "PA House District:12",
+    "PA House District:54",
+    "PA House District:39",
+    "PA House District:15"
+  ],
+  "PA House District:47": [
+    "FM Radio:WXPH",
+    "FM Radio:WJTL",
+    "FM Radio:WMSS",
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WHKF"
+  ],
+  "FM Radio:WXPH": [
+    "PA House District:47",
+    "PA House District:196",
+    "PA House District:100",
+    "PA House District:43",
+    "PA House District:169",
+    "PA House District:41",
+    "PA House District:101",
+    "PA House District:37",
+    "PA House District:98",
+    "PA House District:93",
+    "PA House District:94"
+  ],
+  "FM Radio:WJTL": [
+    "PA House District:47",
+    "PA House District:100",
+    "PA House District:43",
+    "PA House District:41",
+    "PA House District:101",
+    "PA House District:37",
+    "PA House District:98",
+    "PA House District:93",
+    "PA House District:94"
+  ],
+  "FM Radio:WMSS": [
+    "PA House District:47",
+    "PA House District:105",
+    "PA House District:106",
+    "PA House District:92",
+    "PA House District:98"
+  ],
+  "FM Radio:WNUU": [
+    "PA House District:47",
+    "PA House District:196",
+    "PA House District:106",
+    "PA House District:92",
+    "PA House District:98"
+  ],
+  "FM Radio:WTPA-FM": [
+    "PA House District:47",
+    "PA House District:196",
+    "PA House District:104",
+    "PA House District:105",
+    "PA House District:106",
+    "PA House District:92",
+    "PA House District:98"
+  ],
+  "FM Radio:WHKF": [
+    "PA House District:47",
+    "PA House District:104",
+    "PA House District:105",
+    "PA House District:106",
+    "PA House District:92",
+    "PA House District:98"
+  ],
+  "PA House District:48": [
+    "FM Radio:WNJR",
+    "FM Radio:WJPA-FM"
+  ],
+  "PA House District:49": [
+    "FM Radio:WQED-FM",
+    "FM Radio:WCAL",
+    "FM Radio:WOGG",
+    "FM Radio:WJPA-FM",
+    "FM Radio:WPKL",
+    "FM Radio:WKVE",
+    "FM Radio:WKHB-FM"
+  ],
+  "FM Radio:WQED-FM": [
+    "PA House District:49",
+    "PA House District:60",
+    "PA House District:14",
+    "PA House District:15"
+  ],
+  "FM Radio:WKHB-FM": [
+    "PA House District:49",
+    "PA House District:59",
+    "PA House District:51",
+    "PA House District:52",
+    "PA House District:58"
+  ],
+  "PA House District:59": [
+    "FM Radio:WCOA-FM",
+    "FM Radio:WQEJ",
+    "FM Radio:WLWG",
+    "FM Radio:WJHT",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKYE",
+    "FM Radio:WRRK",
+    "FM Radio:WLKH",
+    "FM Radio:WRKW",
+    "FM Radio:WCCL",
+    "FM Radio:WKVE",
+    "FM Radio:WKHB-FM",
+    "FM Radio:WHJB"
+  ],
+  "FM Radio:WQEJ": [
+    "PA House District:59",
+    "PA House District:72",
+    "PA House District:62",
+    "PA House District:69",
+    "PA House District:55"
+  ],
+  "FM Radio:WLWG": [
+    "PA House District:59",
+    "PA House District:52",
+    "PA House District:55",
+    "PA House District:57"
+  ],
+  "FM Radio:WJHT": [
+    "PA House District:59",
+    "PA House District:72",
+    "PA House District:71",
+    "PA House District:62",
+    "PA House District:55"
+  ],
+  "FM Radio:WRRK": [
+    "PA House District:59",
+    "PA House District:60",
+    "PA House District:15"
+  ],
+  "FM Radio:WLKH": [
+    "PA House District:59",
+    "PA House District:51",
+    "PA House District:69"
+  ],
+  "FM Radio:WCCL": [
+    "PA House District:59",
+    "PA House District:71",
+    "PA House District:69"
+  ],
+  "FM Radio:WHJB": [
+    "PA House District:59",
+    "PA House District:55",
+    "PA House District:57",
+    "PA House District:58",
+    "PA House District:60"
+  ],
+  "PA House District:51": [
+    "FM Radio:WYFU",
+    "FM Radio:WHYU-FM",
+    "FM Radio:WQZS",
+    "FM Radio:WOGG",
+    "FM Radio:WKYE",
+    "FM Radio:WLKH",
+    "FM Radio:WYRA",
+    "FM Radio:WPKL",
+    "FM Radio:WKVE",
+    "FM Radio:WKHB-FM",
+    "FM Radio:WMKF"
+  ],
+  "FM Radio:WHYU-FM": [
+    "PA House District:51"
+  ],
+  "FM Radio:WQZS": [
+    "PA House District:51",
+    "PA House District:69"
+  ],
+  "FM Radio:WYRA": [
+    "PA House District:51",
+    "PA House District:69"
+  ],
+  "PA House District:52": [
+    "FM Radio:WLWG",
+    "FM Radio:WCAL",
+    "FM Radio:WOGG",
+    "FM Radio:WPKL",
+    "FM Radio:WKVE",
+    "FM Radio:WKHB-FM"
+  ],
+  "PA House District:109": [
+    "FM Radio:WQSU",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WFBA",
+    "FM Radio:WHSK",
+    "FM Radio:WCDH",
+    "FM Radio:WZRG",
+    "FM Radio:WHNA",
+    "FM Radio:WMGS",
+    "FM Radio:WQKX",
+    "FM Radio:WKBP",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WVRZ",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WMMZ",
+    "FM Radio:WILQ",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WOTH"
+  ],
+  "FM Radio:WQSU": [
+    "PA House District:109",
+    "PA House District:108",
+    "PA House District:84",
+    "PA House District:125",
+    "PA House District:107",
+    "PA House District:85"
+  ],
+  "FM Radio:WVIA-FM": [
+    "PA House District:109",
+    "PA House District:117",
+    "PA House District:119",
+    "PA House District:118",
+    "PA House District:116",
+    "PA House District:122",
+    "PA House District:110"
+  ],
+  "FM Radio:WFBA": [
+    "PA House District:109",
+    "PA House District:125",
+    "PA House District:123",
+    "PA House District:107"
+  ],
+  "FM Radio:WHSK": [
+    "PA House District:109"
+  ],
+  "FM Radio:WCDH": [
+    "PA House District:109",
+    "PA House District:116",
+    "PA House District:123",
+    "PA House District:124"
+  ],
+  "FM Radio:WZRG": [
+    "PA House District:109",
+    "PA House District:108",
+    "PA House District:125",
+    "PA House District:123",
+    "PA House District:107"
+  ],
+  "FM Radio:WHNA": [
+    "PA House District:109",
+    "PA House District:108",
+    "PA House District:84",
+    "PA House District:107",
+    "PA House District:85"
+  ],
+  "FM Radio:WMGS": [
+    "PA House District:109",
+    "PA House District:117",
+    "PA House District:118",
+    "PA House District:116",
+    "PA House District:122",
+    "PA House District:110",
+    "PA House District:111"
+  ],
+  "FM Radio:WQKX": [
+    "PA House District:109",
+    "PA House District:108",
+    "PA House District:84",
+    "PA House District:125",
+    "PA House District:107",
+    "PA House District:86",
+    "PA House District:104",
+    "PA House District:85"
+  ],
+  "FM Radio:WKBP": [
+    "PA House District:109",
+    "PA House District:116",
+    "PA House District:107"
+  ],
+  "FM Radio:WPGM-FM": [
+    "PA House District:109",
+    "PA House District:108",
+    "PA House District:107"
+  ],
+  "FM Radio:WBSX": [
+    "PA House District:109",
+    "PA House District:117",
+    "PA House District:118",
+    "PA House District:116",
+    "PA House District:122",
+    "PA House District:124",
+    "PA House District:110",
+    "PA House District:176"
+  ],
+  "FM Radio:WKRZ": [
+    "PA House District:109",
+    "PA House District:117",
+    "PA House District:118",
+    "PA House District:122",
+    "PA House District:110",
+    "PA House District:111"
+  ],
+  "FM Radio:WVRZ": [
+    "PA House District:109",
+    "PA House District:108",
+    "PA House District:125",
+    "PA House District:123",
+    "PA House District:107"
+  ],
+  "FM Radio:WVLY-FM": [
+    "PA House District:109",
+    "PA House District:108",
+    "PA House District:84",
+    "PA House District:107",
+    "PA House District:85"
+  ],
+  "FM Radio:WAVT-FM": [
+    "PA House District:109",
+    "PA House District:108",
+    "PA House District:5",
+    "PA House District:116",
+    "PA House District:122",
+    "PA House District:125",
+    "PA House District:107",
+    "PA House District:124"
+  ],
+  "FM Radio:WMMZ": [
+    "PA House District:109",
+    "PA House District:117",
+    "PA House District:119",
+    "PA House District:116"
+  ],
+  "FM Radio:WILQ": [
+    "PA House District:109",
+    "PA House District:108",
+    "PA House District:76",
+    "PA House District:84",
+    "PA House District:107",
+    "PA House District:85",
+    "PA House District:68",
+    "PA House District:110"
+  ],
+  "FM Radio:WCFT-FM": [
+    "PA House District:109",
+    "PA House District:117",
+    "PA House District:108",
+    "PA House District:84",
+    "PA House District:116",
+    "PA House District:125",
+    "PA House District:107",
+    "PA House District:124",
+    "PA House District:85",
+    "PA House District:110"
+  ],
+  "FM Radio:WOTH": [
+    "PA House District:109",
+    "PA House District:108",
+    "PA House District:84",
+    "PA House District:107",
+    "PA House District:83"
+  ],
+  "PA House District:117": [
+    "FM Radio:WRGN",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WCLH",
+    "FM Radio:WCDJ",
+    "FM Radio:WQFM",
+    "FM Radio:WMGS",
+    "FM Radio:WSJR",
+    "FM Radio:WBHD",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WBHT",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WUSR",
+    "FM Radio:WGGY",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WMMZ",
+    "FM Radio:WGMF-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "FM Radio:WRGN": [
+    "PA House District:117",
+    "PA House District:119",
+    "PA House District:116"
+  ],
+  "FM Radio:WCLH": [
+    "PA House District:117",
+    "PA House District:119",
+    "PA House District:120",
+    "PA House District:118",
+    "PA House District:116",
+    "PA House District:121"
+  ],
+  "FM Radio:WCDJ": [
+    "PA House District:117",
+    "PA House District:110"
+  ],
+  "FM Radio:WQFM": [
+    "PA House District:117",
+    "PA House District:119",
+    "PA House District:120",
+    "PA House District:118",
+    "PA House District:116"
+  ],
+  "FM Radio:WSJR": [
+    "PA House District:117",
+    "PA House District:119",
+    "PA House District:120",
+    "PA House District:118",
+    "PA House District:116"
+  ],
+  "FM Radio:WBHD": [
+    "PA House District:117",
+    "PA House District:120",
+    "PA House District:114",
+    "PA House District:118",
+    "PA House District:112"
+  ],
+  "FM Radio:WPEL-FM": [
+    "PA House District:117",
+    "PA House District:110",
+    "PA House District:111"
+  ],
+  "FM Radio:WBHT": [
+    "PA House District:117",
+    "PA House District:119",
+    "PA House District:120",
+    "PA House District:118",
+    "PA House District:116"
+  ],
+  "FM Radio:WUSR": [
+    "PA House District:117",
+    "PA House District:120",
+    "PA House District:114",
+    "PA House District:118"
+  ],
+  "FM Radio:WGGY": [
+    "PA House District:117",
+    "PA House District:118",
+    "PA House District:116",
+    "PA House District:122",
+    "PA House District:139",
+    "PA House District:110",
+    "PA House District:111"
+  ],
+  "FM Radio:WMQX": [
+    "PA House District:117",
+    "PA House District:119",
+    "PA House District:120",
+    "PA House District:114",
+    "PA House District:118",
+    "PA House District:116",
+    "PA House District:112"
+  ],
+  "FM Radio:WILK-FM": [
+    "PA House District:117",
+    "PA House District:119",
+    "PA House District:120",
+    "PA House District:114",
+    "PA House District:118",
+    "PA House District:116",
+    "PA House District:112"
+  ],
+  "FM Radio:WGMF-FM": [
+    "PA House District:117",
+    "PA House District:110"
+  ],
+  "FM Radio:WWRR": [
+    "PA House District:117",
+    "PA House District:120",
+    "PA House District:114",
+    "PA House District:118",
+    "PA House District:112"
+  ],
+  "FM Radio:WEZX": [
+    "PA House District:117",
+    "PA House District:120",
+    "PA House District:114",
+    "PA House District:118",
+    "PA House District:112"
+  ],
+  "FM Radio:WCIG": [
+    "PA House District:117",
+    "PA House District:119",
+    "PA House District:120",
+    "PA House District:114",
+    "PA House District:118"
+  ],
+  "PA House District:119": [
+    "FM Radio:WRGN",
+    "FM Radio:WRKC",
+    "FM Radio:WSFX",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WCLH",
+    "FM Radio:WQFM",
+    "FM Radio:WSJR",
+    "FM Radio:WBHT",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WMMZ",
+    "FM Radio:WPZX",
+    "FM Radio:WCIG"
+  ],
+  "FM Radio:WRKC": [
+    "PA House District:119",
+    "PA House District:120",
+    "PA House District:118",
+    "PA House District:121"
+  ],
+  "FM Radio:WSFX": [
+    "PA House District:119",
+    "PA House District:121"
+  ],
+  "FM Radio:WPZX": [
+    "PA House District:119",
+    "PA House District:118",
+    "PA House District:122",
+    "PA House District:115",
+    "PA House District:176"
+  ],
+  "PA House District:120": [
+    "FM Radio:WRKC",
+    "FM Radio:WCLH",
+    "FM Radio:WQFM",
+    "FM Radio:WSJR",
+    "FM Radio:WBHD",
+    "FM Radio:WBHT",
+    "FM Radio:WUSR",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "PA House District:108": [
+    "FM Radio:WBGM",
+    "FM Radio:WQSU",
+    "FM Radio:WFBV",
+    "FM Radio:WVBU-FM",
+    "FM Radio:WEVW",
+    "FM Radio:WGRC",
+    "FM Radio:WZRG",
+    "FM Radio:WHNA",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WQKX",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WRBG",
+    "FM Radio:WZXR",
+    "FM Radio:WVRZ",
+    "FM Radio:WQBG",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WCXR",
+    "FM Radio:WILQ",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WEGH",
+    "FM Radio:WOTH"
+  ],
+  "FM Radio:WBGM": [
+    "PA House District:108",
+    "PA House District:85"
+  ],
+  "FM Radio:WFBV": [
+    "PA House District:108",
+    "PA House District:85"
+  ],
+  "FM Radio:WVBU-FM": [
+    "PA House District:108",
+    "PA House District:85"
+  ],
+  "FM Radio:WEVW": [
+    "PA House District:108",
+    "PA House District:107"
+  ],
+  "FM Radio:WGRC": [
+    "PA House District:108",
+    "PA House District:107",
+    "PA House District:85"
+  ],
+  "FM Radio:WBZD-FM": [
+    "PA House District:108",
+    "PA House District:84",
+    "PA House District:85",
+    "PA House District:110"
+  ],
+  "FM Radio:WBLJ-FM": [
+    "PA House District:108",
+    "PA House District:125",
+    "PA House District:107"
+  ],
+  "FM Radio:WRBG": [
+    "PA House District:108",
+    "PA House District:85"
+  ],
+  "FM Radio:WZXR": [
+    "PA House District:108",
+    "PA House District:84",
+    "PA House District:83"
+  ],
+  "FM Radio:WQBG": [
+    "PA House District:108",
+    "PA House District:125",
+    "PA House District:107",
+    "PA House District:86",
+    "PA House District:104",
+    "PA House District:85"
+  ],
+  "FM Radio:WCXR": [
+    "PA House District:108",
+    "PA House District:84",
+    "PA House District:85"
+  ],
+  "FM Radio:WEGH": [
+    "PA House District:108",
+    "PA House District:125",
+    "PA House District:107",
+    "PA House District:85"
+  ],
+  "PA House District:76": [
+    "FM Radio:WCOB",
+    "FM Radio:WRXV",
+    "FM Radio:WPMY",
+    "FM Radio:WTLR",
+    "FM Radio:WJVM",
+    "FM Radio:WPSU",
+    "FM Radio:WSQV",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WBYL",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WVRT",
+    "FM Radio:WLEJ",
+    "FM Radio:WBUS",
+    "FM Radio:WQBR",
+    "FM Radio:WCOG-FM",
+    "FM Radio:WFGE",
+    "FM Radio:WKSB",
+    "FM Radio:WAPY",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WQKK",
+    "FM Radio:WCOH",
+    "FM Radio:WKPA"
+  ],
+  "FM Radio:WPMY": [
+    "PA House District:76",
+    "PA House District:84"
+  ],
+  "FM Radio:WJVM": [
+    "PA House District:76",
+    "PA House District:171"
+  ],
+  "FM Radio:WSQV": [
+    "PA House District:76",
+    "PA House District:84",
+    "PA House District:171"
+  ],
+  "FM Radio:WBYL": [
+    "PA House District:76",
+    "PA House District:84",
+    "PA House District:83"
+  ],
+  "FM Radio:WJSA-FM": [
+    "PA House District:76",
+    "PA House District:84",
+    "PA House District:171",
+    "PA House District:85"
+  ],
+  "FM Radio:WVRT": [
+    "PA House District:76",
+    "PA House District:84",
+    "PA House District:83"
+  ],
+  "FM Radio:WQBR": [
+    "PA House District:76",
+    "PA House District:84",
+    "PA House District:83"
+  ],
+  "FM Radio:WCOG-FM": [
+    "PA House District:76",
+    "PA House District:84",
+    "PA House District:67",
+    "PA House District:68"
+  ],
+  "FM Radio:WKSB": [
+    "PA House District:76",
+    "PA House District:84",
+    "PA House District:85",
+    "PA House District:68",
+    "PA House District:110"
+  ],
+  "FM Radio:WNBT-FM": [
+    "PA House District:76",
+    "PA House District:84",
+    "PA House District:67",
+    "PA House District:68"
+  ],
+  "FM Radio:WQKK": [
+    "PA House District:76"
+  ],
+  "PA House District:84": [
+    "FM Radio:WQSU",
+    "FM Radio:WPMY",
+    "FM Radio:WVYA",
+    "FM Radio:WVAM-FM",
+    "FM Radio:WCRG",
+    "FM Radio:WSQV",
+    "FM Radio:WHNA",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WQKX",
+    "FM Radio:WBYL",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WVRT",
+    "FM Radio:WZXR",
+    "FM Radio:WQBR",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WCOG-FM",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WKSB",
+    "FM Radio:WCXR",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WOTH"
+  ],
+  "FM Radio:WVYA": [
+    "PA House District:84",
+    "PA House District:83"
+  ],
+  "FM Radio:WVAM-FM": [
+    "PA House District:84"
+  ],
+  "FM Radio:WCRG": [
+    "PA House District:84",
+    "PA House District:83"
+  ],
+  "FM Radio:WHGL-FM": [
+    "PA House District:84",
+    "PA House District:68",
+    "PA House District:110"
+  ],
+  "PA House District:64": [
+    "FM Radio:WQHE",
+    "FM Radio:WCGT",
+    "FM Radio:WAWN",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WYLE",
+    "FM Radio:WLOQ",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WGYY",
+    "FM Radio:WCGH",
+    "FM Radio:WRQW"
+  ],
+  "FM Radio:WQHE": [
+    "PA House District:64",
+    "PA House District:65"
+  ],
+  "FM Radio:WCGT": [
+    "PA House District:64",
+    "PA House District:8"
+  ],
+  "FM Radio:WAWN": [
+    "PA House District:64"
+  ],
+  "FM Radio:WSAJ-FM": [
+    "PA House District:64",
+    "PA House District:8"
+  ],
+  "FM Radio:WYLE": [
+    "PA House District:64",
+    "PA House District:6",
+    "PA House District:17",
+    "PA House District:8"
+  ],
+  "FM Radio:WLOQ": [
+    "PA House District:64",
+    "PA House District:65",
+    "PA House District:63"
+  ],
+  "FM Radio:WGYI": [
+    "PA House District:64",
+    "PA House District:6",
+    "PA House District:65",
+    "PA House District:8",
+    "PA House District:63"
+  ],
+  "FM Radio:WHMJ": [
+    "PA House District:64",
+    "PA House District:6",
+    "PA House District:17",
+    "PA House District:65",
+    "PA House District:8",
+    "PA House District:63"
+  ],
+  "FM Radio:WGYY": [
+    "PA House District:64",
+    "PA House District:6",
+    "PA House District:17",
+    "PA House District:65",
+    "PA House District:8",
+    "PA House District:4"
+  ],
+  "FM Radio:WCGH": [
+    "PA House District:64",
+    "PA House District:65",
+    "PA House District:63"
+  ],
+  "FM Radio:WRQW": [
+    "PA House District:64",
+    "PA House District:6",
+    "PA House District:65"
+  ],
+  "PA House District:5": [
+    "FM Radio:WFCP",
+    "FM Radio:WYBQ",
+    "FM Radio:WZMV",
+    "FM Radio:WZXB",
+    "FM Radio:WRTL",
+    "FM Radio:WXAC",
+    "FM Radio:WFVY",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WBYN-FM"
+  ],
+  "FM Radio:WFCP": [
+    "PA House District:5",
+    "PA House District:125",
+    "PA House District:102"
+  ],
+  "FM Radio:WYBQ": [
+    "PA House District:5",
+    "PA House District:129",
+    "PA House District:126"
+  ],
+  "FM Radio:WZMV": [
+    "PA House District:5",
+    "PA House District:124",
+    "PA House District:129"
+  ],
+  "FM Radio:WZXB": [
+    "PA House District:5",
+    "PA House District:134",
+    "PA House District:130",
+    "PA House District:128",
+    "PA House District:126"
+  ],
+  "FM Radio:WRTL": [
+    "PA House District:5",
+    "PA House District:129",
+    "PA House District:102",
+    "PA House District:37"
+  ],
+  "FM Radio:WXAC": [
+    "PA House District:5",
+    "PA House District:127",
+    "PA House District:126"
+  ],
+  "FM Radio:WFVY": [
+    "PA House District:5",
+    "PA House District:104",
+    "PA House District:106",
+    "PA House District:101",
+    "PA House District:102",
+    "PA House District:37"
+  ],
+  "FM Radio:WRFY-FM": [
+    "PA House District:5",
+    "PA House District:124"
+  ],
+  "FM Radio:WBYN-FM": [
+    "PA House District:5",
+    "PA House District:124"
+  ],
+  "PA House District:6": [
+    "FM Radio:WEFR",
+    "FM Radio:WFSE",
+    "FM Radio:WCGV",
+    "FM Radio:WARC",
+    "FM Radio:WQLN-FM",
+    "FM Radio:WVME",
+    "FM Radio:WTWF",
+    "FM Radio:WRQI",
+    "FM Radio:WXBB",
+    "FM Radio:WYLE",
+    "FM Radio:WXTA",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WXKC",
+    "FM Radio:WGYY",
+    "FM Radio:WMVL",
+    "FM Radio:WQHZ",
+    "FM Radio:WRTS",
+    "FM Radio:WXMJ",
+    "FM Radio:WCTL",
+    "FM Radio:WRQW"
+  ],
+  "FM Radio:WEFR": [
+    "PA House District:6",
+    "PA House District:3",
+    "PA House District:2",
+    "PA House District:4"
+  ],
+  "FM Radio:WFSE": [
+    "PA House District:6",
+    "PA House District:17",
+    "PA House District:3"
+  ],
+  "FM Radio:WCGV": [
+    "PA House District:6",
+    "PA House District:17"
+  ],
+  "FM Radio:WARC": [
+    "PA House District:6"
+  ],
+  "FM Radio:WQLN-FM": [
+    "PA House District:6",
+    "PA House District:17",
+    "PA House District:4"
+  ],
+  "FM Radio:WVME": [
+    "PA House District:6",
+    "PA House District:17",
+    "PA House District:8"
+  ],
+  "FM Radio:WTWF": [
+    "PA House District:6",
+    "PA House District:17",
+    "PA House District:3",
+    "PA House District:4"
+  ],
+  "FM Radio:WRQI": [
+    "PA House District:6",
+    "PA House District:17",
+    "PA House District:8"
+  ],
+  "FM Radio:WXBB": [
+    "PA House District:6",
+    "PA House District:3",
+    "PA House District:4"
+  ],
+  "FM Radio:WXTA": [
+    "PA House District:6",
+    "PA House District:17",
+    "PA House District:4"
+  ],
+  "FM Radio:WXKC": [
+    "PA House District:6",
+    "PA House District:65",
+    "PA House District:4"
+  ],
+  "FM Radio:WMVL": [
+    "PA House District:6",
+    "PA House District:17"
+  ],
+  "FM Radio:WQHZ": [
+    "PA House District:6",
+    "PA House District:3",
+    "PA House District:4"
+  ],
+  "FM Radio:WRTS": [
+    "PA House District:6",
+    "PA House District:65",
+    "PA House District:4"
+  ],
+  "FM Radio:WXMJ": [
+    "PA House District:6",
+    "PA House District:17"
+  ],
+  "FM Radio:WCTL": [
+    "PA House District:6",
+    "PA House District:3",
+    "PA House District:4"
+  ],
+  "PA House District:17": [
+    "FM Radio:WXTC",
+    "FM Radio:WFSE",
+    "FM Radio:WCGV",
+    "FM Radio:WQLN-FM",
+    "FM Radio:WVME",
+    "FM Radio:WTWF",
+    "FM Radio:WRQI",
+    "FM Radio:WYLE",
+    "FM Radio:WAKZ",
+    "FM Radio:WLLF",
+    "FM Radio:WXTA",
+    "FM Radio:WHMJ",
+    "FM Radio:WGYY",
+    "FM Radio:WMVL",
+    "FM Radio:WYFM",
+    "FM Radio:WWIZ",
+    "FM Radio:WXMJ",
+    "FM Radio:WLVX"
+  ],
+  "FM Radio:WXTC": [
+    "PA House District:17",
+    "PA House District:7"
+  ],
+  "FM Radio:WAKZ": [
+    "PA House District:17",
+    "PA House District:7",
+    "PA House District:9"
+  ],
+  "FM Radio:WLLF": [
+    "PA House District:17",
+    "PA House District:7",
+    "PA House District:8"
+  ],
+  "FM Radio:WYFM": [
+    "PA House District:17",
+    "PA House District:8"
+  ],
+  "FM Radio:WWIZ": [
+    "PA House District:17",
+    "PA House District:7",
+    "PA House District:8",
+    "PA House District:9"
+  ],
+  "FM Radio:WLVX": [
+    "PA House District:17",
+    "PA House District:7",
+    "PA House District:8"
+  ],
+  "PA House District:3": [
+    "FM Radio:WEFR",
+    "FM Radio:WMCE-FM",
+    "FM Radio:WFSE",
+    "FM Radio:WERG",
+    "FM Radio:WICU-FM",
+    "FM Radio:WTWF",
+    "FM Radio:WXBB",
+    "FM Radio:WQHZ",
+    "FM Radio:WRKT",
+    "FM Radio:WCTL"
+  ],
+  "FM Radio:WMCE-FM": [
+    "PA House District:3",
+    "PA House District:2",
+    "PA House District:4"
+  ],
+  "FM Radio:WERG": [
+    "PA House District:3",
+    "PA House District:4"
+  ],
+  "FM Radio:WICU-FM": [
+    "PA House District:3",
+    "PA House District:2",
+    "PA House District:4"
+  ],
+  "FM Radio:WRKT": [
+    "PA House District:3",
+    "PA House District:4"
+  ],
+  "PA House District:2": [
+    "FM Radio:WEFR",
+    "FM Radio:WMCE-FM",
+    "FM Radio:WICU-FM"
+  ],
+  "PA House District:72": [
+    "FM Radio:WHHN",
+    "FM Radio:WCOA-FM",
+    "FM Radio:WQEJ",
+    "FM Radio:WPAI",
+    "FM Radio:WCOX",
+    "FM Radio:WMMH",
+    "FM Radio:WJHT",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WLKE",
+    "FM Radio:WBXQ",
+    "FM Radio:WBRX",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKYE",
+    "FM Radio:WPCL",
+    "FM Radio:WFGY",
+    "FM Radio:WRKW",
+    "FM Radio:WWOT",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WLKJ"
+  ],
+  "FM Radio:WHHN": [
+    "PA House District:72",
+    "PA House District:80",
+    "PA House District:79",
+    "PA House District:78",
+    "PA House District:81"
+  ],
+  "FM Radio:WCOX": [
+    "PA House District:72",
+    "PA House District:71",
+    "PA House District:80",
+    "PA House District:69",
+    "PA House District:78",
+    "PA House District:81"
+  ],
+  "FM Radio:WJSM-FM": [
+    "PA House District:72",
+    "PA House District:80",
+    "PA House District:79",
+    "PA House District:78",
+    "PA House District:81"
+  ],
+  "FM Radio:WBRX": [
+    "PA House District:72",
+    "PA House District:80",
+    "PA House District:79",
+    "PA House District:78",
+    "PA House District:81"
+  ],
+  "FM Radio:WALY": [
+    "PA House District:72",
+    "PA House District:80",
+    "PA House District:79"
+  ],
+  "FM Radio:WRKY-FM": [
+    "PA House District:72",
+    "PA House District:80",
+    "PA House District:79",
+    "PA House District:81"
+  ],
+  "FM Radio:WLKJ": [
+    "PA House District:72",
+    "PA House District:71",
+    "PA House District:80"
+  ],
+  "PA House District:71": [
+    "FM Radio:WPAI",
+    "FM Radio:WCOX",
+    "FM Radio:WJHT",
+    "FM Radio:WPCL",
+    "FM Radio:WCCL",
+    "FM Radio:WLKJ"
+  ],
+  "PA House District:62": [
+    "FM Radio:WCOA-FM",
+    "FM Radio:WQEJ",
+    "FM Radio:WIUP-FM",
+    "FM Radio:WPAI",
+    "FM Radio:WJHT",
+    "FM Radio:WQMU",
+    "FM Radio:WKYE",
+    "FM Radio:WPCL",
+    "FM Radio:WFGY",
+    "FM Radio:WRKW",
+    "FM Radio:WLCY"
+  ],
+  "FM Radio:WIUP-FM": [
+    "PA House District:62"
+  ],
+  "FM Radio:WQMU": [
+    "PA House District:62",
+    "PA House District:66",
+    "PA House District:60",
+    "PA House District:63"
+  ],
+  "FM Radio:WLCY": [
+    "PA House District:62",
+    "PA House District:55",
+    "PA House District:60"
+  ],
+  "PA House District:80": [
+    "FM Radio:WHHN",
+    "FM Radio:WPMN",
+    "FM Radio:WCOX",
+    "FM Radio:WMMH",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WLKE",
+    "FM Radio:WBRX",
+    "FM Radio:WKYE",
+    "FM Radio:WFGY",
+    "FM Radio:WRKW",
+    "FM Radio:WWOT",
+    "FM Radio:WFGE",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WLKJ",
+    "FM Radio:WQCK"
+  ],
+  "FM Radio:WPMN": [
+    "PA House District:80",
+    "PA House District:78",
+    "PA House District:81"
+  ],
+  "FM Radio:WHUN-FM": [
+    "PA House District:80",
+    "PA House District:81"
+  ],
+  "PA House District:79": [
+    "FM Radio:WHHN",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WLKE",
+    "FM Radio:WBRX",
+    "FM Radio:WALY",
+    "FM Radio:WRKY-FM"
+  ],
+  "PA House District:69": [
+    "FM Radio:WQEJ",
+    "FM Radio:WCOX",
+    "FM Radio:WQZS",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKYE",
+    "FM Radio:WLKH",
+    "FM Radio:WYRA",
+    "FM Radio:WRKW",
+    "FM Radio:WAYC",
+    "FM Radio:WCCL",
+    "FM Radio:WSKE",
+    "FM Radio:WBVE"
+  ],
+  "FM Radio:WAYC": [
+    "PA House District:69",
+    "PA House District:78"
+  ],
+  "FM Radio:WSKE": [
+    "PA House District:69",
+    "PA House District:78"
+  ],
+  "FM Radio:WBVE": [
+    "PA House District:69",
+    "PA House District:78"
+  ],
+  "PA House District:65": [
+    "FM Radio:WQHE",
+    "FM Radio:WYVL",
+    "FM Radio:WTWP",
+    "FM Radio:WNJA",
+    "FM Radio:WPSX",
+    "FM Radio:WCOT",
+    "FM Radio:WRRN",
+    "FM Radio:WWSE",
+    "FM Radio:WLKW",
+    "FM Radio:WLOQ",
+    "FM Radio:WDDH",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WXKC",
+    "FM Radio:WGYY",
+    "FM Radio:WKFT",
+    "FM Radio:WHUG",
+    "FM Radio:WCGM",
+    "FM Radio:WQFX-FM",
+    "FM Radio:WRTS",
+    "FM Radio:WNAE",
+    "FM Radio:WJKB",
+    "FM Radio:WCGH",
+    "FM Radio:WKZA",
+    "FM Radio:WRQW"
+  ],
+  "FM Radio:WYVL": [
+    "PA House District:65"
+  ],
+  "FM Radio:WTWP": [
+    "PA House District:65",
+    "PA House District:4"
+  ],
+  "FM Radio:WNJA": [
+    "PA House District:65"
+  ],
+  "FM Radio:WPSX": [
+    "PA House District:65",
+    "PA House District:67",
+    "PA House District:75"
+  ],
+  "FM Radio:WCOT": [
+    "PA House District:65",
+    "PA House District:67"
+  ],
+  "FM Radio:WRRN": [
+    "PA House District:65",
+    "PA House District:67",
+    "PA House District:75",
+    "PA House District:4"
+  ],
+  "FM Radio:WWSE": [
+    "PA House District:65",
+    "PA House District:67",
+    "PA House District:4"
+  ],
+  "FM Radio:WLKW": [
+    "PA House District:65"
+  ],
+  "FM Radio:WDDH": [
+    "PA House District:65",
+    "PA House District:67",
+    "PA House District:75",
+    "PA House District:66",
+    "PA House District:63"
+  ],
+  "FM Radio:WKFT": [
+    "PA House District:65",
+    "PA House District:66",
+    "PA House District:63"
+  ],
+  "FM Radio:WHUG": [
+    "PA House District:65"
+  ],
+  "FM Radio:WCGM": [
+    "PA House District:65",
+    "PA House District:4"
+  ],
+  "FM Radio:WQFX-FM": [
+    "PA House District:65"
+  ],
+  "FM Radio:WNAE": [
+    "PA House District:65"
+  ],
+  "FM Radio:WJKB": [
+    "PA House District:65",
+    "PA House District:67"
+  ],
+  "FM Radio:WKZA": [
+    "PA House District:65"
+  ],
+  "PA House District:67": [
+    "FM Radio:WTWR",
+    "FM Radio:WCOV-FM",
+    "FM Radio:WPSX",
+    "FM Radio:WCOT",
+    "FM Radio:WOLN",
+    "FM Radio:WCGN",
+    "FM Radio:WRRN",
+    "FM Radio:WWSE",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WHKS",
+    "FM Radio:WPIG",
+    "FM Radio:WCOR-FM",
+    "FM Radio:WDDH",
+    "FM Radio:WQRS",
+    "FM Radio:WQKY",
+    "FM Radio:WBRR",
+    "FM Radio:WCOG-FM",
+    "FM Radio:WMXO",
+    "FM Radio:WJQZ",
+    "FM Radio:WCOP",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WJKB",
+    "FM Radio:WCGS",
+    "FM Radio:WXMT",
+    "FM Radio:WCOH"
+  ],
+  "FM Radio:WTWR": [
+    "PA House District:67",
+    "PA House District:75"
+  ],
+  "FM Radio:WCOV-FM": [
+    "PA House District:67"
+  ],
+  "FM Radio:WOLN": [
+    "PA House District:67"
+  ],
+  "FM Radio:WCGN": [
+    "PA House District:67"
+  ],
+  "FM Radio:WKBI-FM": [
+    "PA House District:67",
+    "PA House District:75",
+    "PA House District:66"
+  ],
+  "FM Radio:WHKS": [
+    "PA House District:67"
+  ],
+  "FM Radio:WPIG": [
+    "PA House District:67"
+  ],
+  "FM Radio:WCOR-FM": [
+    "PA House District:67"
+  ],
+  "FM Radio:WQRS": [
+    "PA House District:67"
+  ],
+  "FM Radio:WQKY": [
+    "PA House District:67",
+    "PA House District:75"
+  ],
+  "FM Radio:WBRR": [
+    "PA House District:67"
+  ],
+  "FM Radio:WMXO": [
+    "PA House District:67"
+  ],
+  "FM Radio:WJQZ": [
+    "PA House District:67"
+  ],
+  "FM Radio:WCOP": [
+    "PA House District:67"
+  ],
+  "FM Radio:WCGS": [
+    "PA House District:67"
+  ],
+  "FM Radio:WXMT": [
+    "PA House District:67"
+  ],
+  "PA House District:75": [
+    "FM Radio:WRQV",
+    "FM Radio:WTWR",
+    "FM Radio:WPMU",
+    "FM Radio:WPSX",
+    "FM Radio:WRVI",
+    "FM Radio:WRPV",
+    "FM Radio:WPSU",
+    "FM Radio:WRRN",
+    "FM Radio:WPQP",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WQQP",
+    "FM Radio:WDDH",
+    "FM Radio:WQKY",
+    "FM Radio:WJNG",
+    "FM Radio:WFGE",
+    "FM Radio:WIFT",
+    "FM Radio:WOKW",
+    "FM Radio:WKQL",
+    "FM Radio:WMKX",
+    "FM Radio:WDSN",
+    "FM Radio:WCOH"
+  ],
+  "FM Radio:WRQV": [
+    "PA House District:75",
+    "PA House District:66"
+  ],
+  "FM Radio:WRPV": [
+    "PA House District:75"
+  ],
+  "FM Radio:WJNG": [
+    "PA House District:75",
+    "PA House District:66"
+  ],
+  "FM Radio:WKQL": [
+    "PA House District:75",
+    "PA House District:66",
+    "PA House District:63"
+  ],
+  "FM Radio:WMKX": [
+    "PA House District:75",
+    "PA House District:66",
+    "PA House District:63"
+  ],
+  "PA House District:66": [
+    "FM Radio:WRQV",
+    "FM Radio:WCOA-FM",
+    "FM Radio:WPMU",
+    "FM Radio:WQMU",
+    "FM Radio:WCCR-FM",
+    "FM Radio:WPQP",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WBXQ",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WQQP",
+    "FM Radio:WKYE",
+    "FM Radio:WDDH",
+    "FM Radio:WFGY",
+    "FM Radio:WRKW",
+    "FM Radio:WJNG",
+    "FM Radio:WKFT",
+    "FM Radio:WIFT",
+    "FM Radio:WKQL",
+    "FM Radio:WPXZ-FM",
+    "FM Radio:WMKX",
+    "FM Radio:WDSN",
+    "FM Radio:WCOH"
+  ],
+  "FM Radio:WCCR-FM": [
+    "PA House District:66",
+    "PA House District:63"
+  ],
+  "FM Radio:WPXZ-FM": [
+    "PA House District:66"
+  ],
+  "PA House District:134": [
+    "FM Radio:WDIY",
+    "FM Radio:WJCS",
+    "FM Radio:WZXB",
+    "FM Radio:WMUH"
+  ],
+  "FM Radio:WDIY": [
+    "PA House District:134",
+    "PA House District:131",
+    "PA House District:136",
+    "PA House District:187",
+    "PA House District:138",
+    "PA House District:183",
+    "PA House District:145"
+  ],
+  "FM Radio:WJCS": [
+    "PA House District:134",
+    "PA House District:131",
+    "PA House District:136",
+    "PA House District:135",
+    "PA House District:133",
+    "PA House District:187",
+    "PA House District:183"
+  ],
+  "FM Radio:WMUH": [
+    "PA House District:134",
+    "PA House District:133",
+    "PA House District:132",
+    "PA House District:183",
+    "PA House District:22"
+  ],
+  "PA House District:131": [
+    "FM Radio:WDIY",
+    "FM Radio:WBYO",
+    "FM Radio:WJCS",
+    "FM Radio:WLVR-FM"
+  ],
+  "FM Radio:WBYO": [
+    "PA House District:131",
+    "PA House District:53",
+    "PA House District:147",
+    "PA House District:143",
+    "PA House District:145",
+    "PA House District:144"
+  ],
+  "FM Radio:WLVR-FM": [
+    "PA House District:131",
+    "PA House District:136",
+    "PA House District:135",
+    "PA House District:133",
+    "PA House District:138",
+    "PA House District:145"
+  ],
+  "PA House District:136": [
+    "FM Radio:WDIY",
+    "FM Radio:WJCS",
+    "FM Radio:WLVR-FM",
+    "FM Radio:WJRH"
+  ],
+  "FM Radio:WJRH": [
+    "PA House District:136"
+  ],
+  "PA House District:135": [
+    "FM Radio:WJCS",
+    "FM Radio:WLVR-FM"
+  ],
+  "PA House District:133": [
+    "FM Radio:WJCS",
+    "FM Radio:WLHI",
+    "FM Radio:WLVR-FM",
+    "FM Radio:WMUH"
+  ],
+  "FM Radio:WLHI": [
+    "PA House District:133",
+    "PA House District:187",
+    "PA House District:132",
+    "PA House District:183"
+  ],
+  "PA House District:114": [
+    "FM Radio:WLKA",
+    "FM Radio:WZZH",
+    "FM Radio:WVMW-FM",
+    "FM Radio:WTRW",
+    "FM Radio:WBHD",
+    "FM Radio:WUSR",
+    "FM Radio:WQFN",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "FM Radio:WLKA": [
+    "PA House District:114",
+    "PA House District:139",
+    "PA House District:112",
+    "PA House District:111"
+  ],
+  "FM Radio:WZZH": [
+    "PA House District:114",
+    "PA House District:112",
+    "PA House District:111"
+  ],
+  "FM Radio:WVMW-FM": [
+    "PA House District:114",
+    "PA House District:113",
+    "PA House District:118",
+    "PA House District:112"
+  ],
+  "FM Radio:WTRW": [
+    "PA House District:114",
+    "PA House District:139",
+    "PA House District:112",
+    "PA House District:111"
+  ],
+  "FM Radio:WQFN": [
+    "PA House District:114",
+    "PA House District:139",
+    "PA House District:112",
+    "PA House District:111"
+  ],
+  "PA House District:113": [
+    "FM Radio:WVMW-FM"
+  ],
+  "PA House District:118": [
+    "FM Radio:WRKC",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WCLH",
+    "FM Radio:WVMW-FM",
+    "FM Radio:WQFM",
+    "FM Radio:WMGS",
+    "FM Radio:WSJR",
+    "FM Radio:WBHD",
+    "FM Radio:WBHT",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WUSR",
+    "FM Radio:WGGY",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WPZX",
+    "FM Radio:WEZX",
+    "FM Radio:WCIG"
+  ],
+  "PA House District:116": [
+    "FM Radio:WRGN",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WCLH",
+    "FM Radio:WCDH",
+    "FM Radio:WQFM",
+    "FM Radio:WMGS",
+    "FM Radio:WSJR",
+    "FM Radio:WKBP",
+    "FM Radio:WBHT",
+    "FM Radio:WBSX",
+    "FM Radio:WGGY",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WMMZ",
+    "FM Radio:WCFT-FM"
+  ],
+  "PA House District:122": [
+    "FM Radio:WBYX",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WRTY",
+    "FM Radio:WMGS",
+    "FM Radio:WZZO",
+    "FM Radio:WCTO",
+    "FM Radio:WBSX",
+    "FM Radio:WKRZ",
+    "FM Radio:WODE-FM",
+    "FM Radio:WLEV",
+    "FM Radio:WGGY",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WMGH-FM",
+    "FM Radio:WPZX",
+    "FM Radio:WKRF"
+  ],
+  "FM Radio:WBYX": [
+    "PA House District:122",
+    "PA House District:115",
+    "PA House District:189",
+    "PA House District:137",
+    "PA House District:138",
+    "PA House District:183",
+    "PA House District:176"
+  ],
+  "FM Radio:WRTY": [
+    "PA House District:122",
+    "PA House District:115",
+    "PA House District:189",
+    "PA House District:176"
+  ],
+  "FM Radio:WZZO": [
+    "PA House District:122",
+    "PA House District:124",
+    "PA House District:176"
+  ],
+  "FM Radio:WCTO": [
+    "PA House District:122",
+    "PA House District:124"
+  ],
+  "FM Radio:WODE-FM": [
+    "PA House District:122",
+    "PA House District:189",
+    "PA House District:176"
+  ],
+  "FM Radio:WLEV": [
+    "PA House District:122",
+    "PA House District:124"
+  ],
+  "FM Radio:WAEB-FM": [
+    "PA House District:122",
+    "PA House District:124"
+  ],
+  "FM Radio:WMGH-FM": [
+    "PA House District:122",
+    "PA House District:125",
+    "PA House District:123",
+    "PA House District:124",
+    "PA House District:187"
+  ],
+  "FM Radio:WKRF": [
+    "PA House District:122",
+    "PA House District:115",
+    "PA House District:189",
+    "PA House District:137",
+    "PA House District:138",
+    "PA House District:176"
+  ],
+  "PA House District:139": [
+    "FM Radio:WLKA",
+    "FM Radio:WBYH",
+    "FM Radio:WJFF",
+    "FM Radio:WPAU",
+    "FM Radio:WTRW",
+    "FM Radio:WDNH-FM",
+    "FM Radio:WQFN",
+    "FM Radio:WGGY",
+    "FM Radio:WDNB",
+    "FM Radio:WYCY"
+  ],
+  "FM Radio:WBYH": [
+    "PA House District:139"
+  ],
+  "FM Radio:WJFF": [
+    "PA House District:139"
+  ],
+  "FM Radio:WPAU": [
+    "PA House District:139"
+  ],
+  "FM Radio:WDNH-FM": [
+    "PA House District:139",
+    "PA House District:111"
+  ],
+  "FM Radio:WDNB": [
+    "PA House District:139"
+  ],
+  "FM Radio:WYCY": [
+    "PA House District:139",
+    "PA House District:111"
+  ],
+  "PA House District:115": [
+    "FM Radio:WBYX",
+    "FM Radio:WESS",
+    "FM Radio:WRTY",
+    "FM Radio:WSBG",
+    "FM Radio:WPZX",
+    "FM Radio:WKRF"
+  ],
+  "FM Radio:WESS": [
+    "PA House District:115",
+    "PA House District:189",
+    "PA House District:137"
+  ],
+  "FM Radio:WSBG": [
+    "PA House District:115",
+    "PA House District:189",
+    "PA House District:137",
+    "PA House District:176"
+  ],
+  "PA House District:112": [
+    "FM Radio:WLKA",
+    "FM Radio:WZZH",
+    "FM Radio:WVMW-FM",
+    "FM Radio:WTRW",
+    "FM Radio:WBHD",
+    "FM Radio:WQFN",
+    "FM Radio:WMQX",
+    "FM Radio:WILK-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WEZX"
+  ],
+  "PA House District:189": [
+    "FM Radio:WBYX",
+    "FM Radio:WWPJ",
+    "FM Radio:WESS",
+    "FM Radio:WRTY",
+    "FM Radio:WSBG",
+    "FM Radio:WABT",
+    "FM Radio:WODE-FM",
+    "FM Radio:WKRF"
+  ],
+  "FM Radio:WWPJ": [
+    "PA House District:189",
+    "PA House District:137",
+    "PA House District:138",
+    "PA House District:176"
+  ],
+  "FM Radio:WABT": [
+    "PA House District:189",
+    "PA House District:137"
+  ],
+  "PA House District:125": [
+    "FM Radio:WFCP",
+    "FM Radio:WKHW",
+    "FM Radio:WQSU",
+    "FM Radio:WITF-FM",
+    "FM Radio:WFBA",
+    "FM Radio:WZRG",
+    "FM Radio:WQKX",
+    "FM Radio:WRBT",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WVRZ",
+    "FM Radio:WQBG",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WMGH-FM",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WWKL",
+    "FM Radio:WEGH"
+  ],
+  "FM Radio:WKHW": [
+    "PA House District:125",
+    "PA House District:86",
+    "PA House District:104"
+  ],
+  "FM Radio:WITF-FM": [
+    "PA House District:125",
+    "PA House District:193",
+    "PA House District:82",
+    "PA House District:86",
+    "PA House District:199",
+    "PA House District:104",
+    "PA House District:92",
+    "PA House District:102"
+  ],
+  "FM Radio:WRBT": [
+    "PA House District:125",
+    "PA House District:193",
+    "PA House District:82",
+    "PA House District:86",
+    "PA House District:104",
+    "PA House District:85"
+  ],
+  "FM Radio:WRVV": [
+    "PA House District:125",
+    "PA House District:193",
+    "PA House District:82",
+    "PA House District:86",
+    "PA House District:104",
+    "PA House District:85"
+  ],
+  "FM Radio:WWKL": [
+    "PA House District:125",
+    "PA House District:193",
+    "PA House District:86",
+    "PA House District:104",
+    "PA House District:100"
+  ],
+  "PA House District:123": [
+    "FM Radio:WFBA",
+    "FM Radio:WCDH",
+    "FM Radio:WZRG",
+    "FM Radio:WVRZ",
+    "FM Radio:WMGH-FM"
+  ],
+  "PA House District:107": [
+    "FM Radio:WQSU",
+    "FM Radio:WFBA",
+    "FM Radio:WEVW",
+    "FM Radio:WGRC",
+    "FM Radio:WZRG",
+    "FM Radio:WHNA",
+    "FM Radio:WQKX",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WKBP",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WVRZ",
+    "FM Radio:WQBG",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WEGH",
+    "FM Radio:WOTH"
+  ],
+  "PA House District:124": [
+    "FM Radio:WZMV",
+    "FM Radio:WCDH",
+    "FM Radio:WZZO",
+    "FM Radio:WCTO",
+    "FM Radio:WBSX",
+    "FM Radio:WLEV",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WMGH-FM",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WBYN-FM"
+  ],
+  "PA House District:129": [
+    "FM Radio:WYBQ",
+    "FM Radio:WZMV",
+    "FM Radio:WRTL",
+    "FM Radio:WYTL"
+  ],
+  "FM Radio:WYTL": [
+    "PA House District:129",
+    "PA House District:26",
+    "PA House District:130",
+    "PA House District:128",
+    "PA House District:99"
+  ],
+  "PA House District:187": [
+    "FM Radio:WDIY",
+    "FM Radio:WJCS",
+    "FM Radio:WLHI",
+    "FM Radio:WMGH-FM"
+  ],
+  "PA House District:132": [
+    "FM Radio:WLHI",
+    "FM Radio:WMUH"
+  ],
+  "PA House District:137": [
+    "FM Radio:WBYX",
+    "FM Radio:WWPJ",
+    "FM Radio:WESS",
+    "FM Radio:WPNJ",
+    "FM Radio:WSBG",
+    "FM Radio:WABT",
+    "FM Radio:WKRF"
+  ],
+  "FM Radio:WPNJ": [
+    "PA House District:137",
+    "PA House District:138"
+  ],
+  "PA House District:138": [
+    "FM Radio:WDIY",
+    "FM Radio:WBYX",
+    "FM Radio:WWPJ",
+    "FM Radio:WPNJ",
+    "FM Radio:WLVR-FM",
+    "FM Radio:WKRF"
+  ],
+  "PA House District:148": [
+    "FM Radio:WXVU"
+  ],
+  "FM Radio:WXVU": [
+    "PA House District:148",
+    "PA House District:149",
+    "PA House District:166",
+    "PA House District:165"
+  ],
+  "PA House District:149": [
+    "FM Radio:WXVU"
+  ],
+  "PA House District:12": [
+    "FM Radio:WESA",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WKPL",
+    "FM Radio:WLER-FM",
+    "FM Radio:WPKV"
+  ],
+  "FM Radio:WKPL": [
+    "PA House District:12",
+    "PA House District:16",
+    "PA House District:14",
+    "PA House District:9",
+    "PA House District:15",
+    "PA House District:10"
+  ],
+  "FM Radio:WLER-FM": [
+    "PA House District:12",
+    "PA House District:11",
+    "PA House District:60",
+    "PA House District:8",
+    "PA House District:10"
+  ],
+  "PA House District:7": [
+    "FM Radio:WXTC",
+    "FM Radio:WWNW",
+    "FM Radio:WAKZ",
+    "FM Radio:WLLF",
+    "FM Radio:WWIZ",
+    "FM Radio:WLVX"
+  ],
+  "FM Radio:WWNW": [
+    "PA House District:7",
+    "PA House District:9",
+    "PA House District:10"
+  ],
+  "PA House District:45": [
+    "FM Radio:WRCT"
+  ],
+  "FM Radio:WRCT": [
+    "PA House District:45",
+    "PA House District:34",
+    "PA House District:24",
+    "PA House District:21",
+    "PA House District:20",
+    "PA House District:19",
+    "PA House District:38",
+    "PA House District:27",
+    "PA House District:30",
+    "PA House District:36"
+  ],
+  "PA House District:192": [
+    "FM Radio:WHHS"
+  ],
+  "FM Radio:WHHS": [
+    "PA House District:192",
+    "PA House District:163",
+    "PA House District:164",
+    "PA House District:166"
+  ],
+  "PA House District:190": [
+    "FM Radio:WPEB",
+    "FM Radio:WKDU"
+  ],
+  "FM Radio:WPEB": [
+    "PA House District:190",
+    "PA House District:188",
+    "PA House District:191",
+    "PA House District:186"
+  ],
+  "FM Radio:WKDU": [
+    "PA House District:190",
+    "PA House District:184",
+    "PA House District:185"
+  ],
+  "PA House District:188": [
+    "FM Radio:WPEB"
+  ],
+  "PA House District:162": [
+    "FM Radio:WSRN-FM",
+    "FM Radio:WRSD"
+  ],
+  "FM Radio:WSRN-FM": [
+    "PA House District:162",
+    "PA House District:165",
+    "PA House District:168",
+    "PA House District:159",
+    "PA House District:161"
+  ],
+  "FM Radio:WRSD": [
+    "PA House District:162",
+    "PA House District:159",
+    "PA House District:161"
+  ],
+  "PA House District:191": [
+    "FM Radio:WPEB"
+  ],
+  "PA House District:184": [
+    "FM Radio:WKDU"
+  ],
+  "PA House District:185": [
+    "FM Radio:WKDU"
+  ],
+  "PA House District:196": [
+    "FM Radio:WXPH",
+    "FM Radio:WZXY",
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM"
+  ],
+  "FM Radio:WZXY": [
+    "PA House District:196",
+    "PA House District:193",
+    "PA House District:91",
+    "PA House District:169"
+  ],
+  "PA House District:193": [
+    "FM Radio:WDCV-FM",
+    "FM Radio:WITF-FM",
+    "FM Radio:WZXN",
+    "FM Radio:WZXY",
+    "FM Radio:WPFG",
+    "FM Radio:WRBT",
+    "FM Radio:WRVV",
+    "FM Radio:WYCR",
+    "FM Radio:WROZ",
+    "FM Radio:WCAT-FM",
+    "FM Radio:WARM-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WWKL",
+    "FM Radio:WGTY"
+  ],
+  "FM Radio:WDCV-FM": [
+    "PA House District:193",
+    "PA House District:199"
+  ],
+  "FM Radio:WZXN": [
+    "PA House District:193",
+    "PA House District:89",
+    "PA House District:86",
+    "PA House District:199"
+  ],
+  "FM Radio:WPFG": [
+    "PA House District:193",
+    "PA House District:86",
+    "PA House District:199"
+  ],
+  "FM Radio:WYCR": [
+    "PA House District:193",
+    "PA House District:91"
+  ],
+  "FM Radio:WROZ": [
+    "PA House District:193",
+    "PA House District:104",
+    "PA House District:100"
+  ],
+  "FM Radio:WCAT-FM": [
+    "PA House District:193",
+    "PA House District:86",
+    "PA House District:87",
+    "PA House District:88",
+    "PA House District:199",
+    "PA House District:92"
+  ],
+  "FM Radio:WARM-FM": [
+    "PA House District:193",
+    "PA House District:104",
+    "PA House District:100"
+  ],
+  "FM Radio:WNNK-FM": [
+    "PA House District:193",
+    "PA House District:82",
+    "PA House District:86",
+    "PA House District:104",
+    "PA House District:85"
+  ],
+  "FM Radio:WQXA-FM": [
+    "PA House District:193",
+    "PA House District:91",
+    "PA House District:86",
+    "PA House District:104",
+    "PA House District:100"
+  ],
+  "FM Radio:WGTY": [
+    "PA House District:193",
+    "PA House District:91",
+    "PA House District:86",
+    "PA House District:199"
+  ],
+  "PA House District:163": [
+    "FM Radio:WHHS"
+  ],
+  "PA House District:53": [
+    "FM Radio:WBYO",
+    "FM Radio:WBMR"
+  ],
+  "FM Radio:WBMR": [
+    "PA House District:53",
+    "PA House District:147",
+    "PA House District:61",
+    "PA House District:145",
+    "PA House District:144"
+  ],
+  "PA House District:164": [
+    "FM Radio:WHHS"
+  ],
+  "PA House District:178": [
+    "FM Radio:WRDV"
+  ],
+  "FM Radio:WRDV": [
+    "PA House District:178",
+    "PA House District:142",
+    "PA House District:151",
+    "PA House District:153",
+    "PA House District:152",
+    "PA House District:29",
+    "PA House District:144"
+  ],
+  "PA House District:186": [
+    "FM Radio:WPEB"
+  ],
+  "PA House District:142": [
+    "FM Radio:WRDV",
+    "FM Radio:WLBS"
+  ],
+  "FM Radio:WLBS": [
+    "PA House District:142",
+    "PA House District:140",
+    "PA House District:141"
+  ],
+  "PA House District:156": [
+    "FM Radio:WCUR"
+  ],
+  "FM Radio:WCUR": [
+    "PA House District:156",
+    "PA House District:158"
+  ],
+  "PA House District:155": [
+    "FM Radio:WZZD",
+    "FM Radio:WRTJ"
+  ],
+  "FM Radio:WZZD": [
+    "PA House District:155",
+    "PA House District:26",
+    "PA House District:128",
+    "PA House District:99"
+  ],
+  "FM Radio:WRTJ": [
+    "PA House District:155",
+    "PA House District:26",
+    "PA House District:158",
+    "PA House District:74"
+  ],
+  "PA House District:26": [
+    "FM Radio:WZZD",
+    "FM Radio:WRTJ",
+    "FM Radio:WYTL"
+  ],
+  "PA House District:147": [
+    "FM Radio:WBYO",
+    "FM Radio:WBMR"
+  ],
+  "PA House District:61": [
+    "FM Radio:WBMR"
+  ],
+  "PA House District:16": [
+    "FM Radio:WKPL"
+  ],
+  "PA House District:54": [
+    "FM Radio:WKGO",
+    "FM Radio:WESA",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WPKV"
+  ],
+  "FM Radio:WKGO": [
+    "PA House District:54",
+    "PA House District:55",
+    "PA House District:56",
+    "PA House District:25"
+  ],
+  "PA House District:55": [
+    "FM Radio:WKGO",
+    "FM Radio:WQEJ",
+    "FM Radio:WLWG",
+    "FM Radio:WJHT",
+    "FM Radio:WBZZ",
+    "FM Radio:WLCY",
+    "FM Radio:WHJB"
+  ],
+  "FM Radio:WBZZ": [
+    "PA House District:55",
+    "PA House District:60",
+    "PA House District:15"
+  ],
+  "PA House District:57": [
+    "FM Radio:WYEP-FM",
+    "FM Radio:WLWG",
+    "FM Radio:WHJB"
+  ],
+  "PA House District:56": [
+    "FM Radio:WKGO"
+  ],
+  "PA House District:25": [
+    "FM Radio:WKGO"
+  ],
+  "PA House District:39": [
+    "FM Radio:WESA",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WJPA-FM",
+    "FM Radio:WPKV",
+    "FM Radio:WKVE"
+  ],
+  "PA House District:58": [
+    "FM Radio:WESA",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WCAL",
+    "FM Radio:WOGG",
+    "FM Radio:WKVE",
+    "FM Radio:WKHB-FM",
+    "FM Radio:WHJB"
+  ],
+  "PA House District:34": [
+    "FM Radio:WRCT",
+    "FM Radio:WPTS-FM"
+  ],
+  "FM Radio:WPTS-FM": [
+    "PA House District:34",
+    "PA House District:24",
+    "PA House District:21",
+    "PA House District:23",
+    "PA House District:19",
+    "PA House District:36"
+  ],
+  "PA House District:183": [
+    "FM Radio:WDIY",
+    "FM Radio:WBYX",
+    "FM Radio:WJCS",
+    "FM Radio:WLHI",
+    "FM Radio:WMUH"
+  ],
+  "PA House District:130": [
+    "FM Radio:WZXB",
+    "FM Radio:WYTL"
+  ],
+  "PA House District:78": [
+    "FM Radio:WHHN",
+    "FM Radio:WPME",
+    "FM Radio:WWCF",
+    "FM Radio:WPMN",
+    "FM Radio:WCOX",
+    "FM Radio:WIKG",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WYPM",
+    "FM Radio:WQCM",
+    "FM Radio:WBRX",
+    "FM Radio:WIKZ",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WFGY",
+    "FM Radio:WRKW",
+    "FM Radio:WAYC",
+    "FM Radio:WBHB-FM",
+    "FM Radio:WEEO-FM",
+    "FM Radio:WSKE",
+    "FM Radio:WBVE"
+  ],
+  "FM Radio:WPME": [
+    "PA House District:78"
+  ],
+  "FM Radio:WWCF": [
+    "PA House District:78"
+  ],
+  "FM Radio:WIKG": [
+    "PA House District:78",
+    "PA House District:90",
+    "PA House District:89"
+  ],
+  "FM Radio:WYPM": [
+    "PA House District:78",
+    "PA House District:81",
+    "PA House District:90",
+    "PA House District:89",
+    "PA House District:82",
+    "PA House District:86"
+  ],
+  "FM Radio:WQCM": [
+    "PA House District:78",
+    "PA House District:90",
+    "PA House District:89"
+  ],
+  "FM Radio:WIKZ": [
+    "PA House District:78",
+    "PA House District:81",
+    "PA House District:90",
+    "PA House District:89",
+    "PA House District:82",
+    "PA House District:86"
+  ],
+  "FM Radio:WBHB-FM": [
+    "PA House District:78",
+    "PA House District:81",
+    "PA House District:90",
+    "PA House District:89",
+    "PA House District:82"
+  ],
+  "FM Radio:WEEO-FM": [
+    "PA House District:78",
+    "PA House District:90",
+    "PA House District:82"
+  ],
+  "PA House District:81": [
+    "FM Radio:WHHN",
+    "FM Radio:WCOB",
+    "FM Radio:WRYV",
+    "FM Radio:WRXV",
+    "FM Radio:WPMN",
+    "FM Radio:WTLR",
+    "FM Radio:WCOX",
+    "FM Radio:WPSU",
+    "FM Radio:WMMH",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WYPM",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WBRX",
+    "FM Radio:WIKZ",
+    "FM Radio:WZWW",
+    "FM Radio:WVNW",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WFGY",
+    "FM Radio:WLEJ",
+    "FM Radio:WRKW",
+    "FM Radio:WBUS",
+    "FM Radio:WWOT",
+    "FM Radio:WFGE",
+    "FM Radio:WBHB-FM",
+    "FM Radio:WAPY",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WQCK",
+    "FM Radio:WDBF-FM",
+    "FM Radio:WKPA"
+  ],
+  "FM Radio:WRYV": [
+    "PA House District:81",
+    "PA House District:82",
+    "PA House District:171"
+  ],
+  "FM Radio:WVNW": [
+    "PA House District:81",
+    "PA House District:82",
+    "PA House District:171"
+  ],
+  "FM Radio:WDBF-FM": [
+    "PA House District:81",
+    "PA House District:82"
+  ],
+  "PA House District:90": [
+    "FM Radio:WZXQ",
+    "FM Radio:WIKG",
+    "FM Radio:WYPM",
+    "FM Radio:WQCM",
+    "FM Radio:WIKZ",
+    "FM Radio:WBHB-FM",
+    "FM Radio:WEEO-FM"
+  ],
+  "FM Radio:WZXQ": [
+    "PA House District:90",
+    "PA House District:89",
+    "PA House District:91"
+  ],
+  "PA House District:89": [
+    "FM Radio:WZXQ",
+    "FM Radio:WSYC-FM",
+    "FM Radio:WZXN",
+    "FM Radio:WIKG",
+    "FM Radio:WYPM",
+    "FM Radio:WQCM",
+    "FM Radio:WIKZ",
+    "FM Radio:WBHB-FM"
+  ],
+  "FM Radio:WSYC-FM": [
+    "PA House District:89"
+  ],
+  "PA House District:91": [
+    "FM Radio:WZXQ",
+    "FM Radio:WZXY",
+    "FM Radio:WZBT",
+    "FM Radio:WYCR",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WGTY"
+  ],
+  "FM Radio:WZBT": [
+    "PA House District:91"
+  ],
+  "PA House District:82": [
+    "FM Radio:WRYV",
+    "FM Radio:WITF-FM",
+    "FM Radio:WTLR",
+    "FM Radio:WFBM",
+    "FM Radio:WJRC",
+    "FM Radio:WIBF",
+    "FM Radio:WYPM",
+    "FM Radio:WMAJ",
+    "FM Radio:WRBT",
+    "FM Radio:WIKZ",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WVNW",
+    "FM Radio:WRVV",
+    "FM Radio:WFGY",
+    "FM Radio:WQLV",
+    "FM Radio:WBUS",
+    "FM Radio:WFGE",
+    "FM Radio:WBHB-FM",
+    "FM Radio:WAPY",
+    "FM Radio:WEEO-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WCHX",
+    "FM Radio:WNNA",
+    "FM Radio:WDBF-FM",
+    "FM Radio:WQJU"
+  ],
+  "FM Radio:WFBM": [
+    "PA House District:82",
+    "PA House District:85"
+  ],
+  "FM Radio:WJRC": [
+    "PA House District:82",
+    "PA House District:171"
+  ],
+  "FM Radio:WIBF": [
+    "PA House District:82",
+    "PA House District:86",
+    "PA House District:171"
+  ],
+  "FM Radio:WMRF-FM": [
+    "PA House District:82",
+    "PA House District:86",
+    "PA House District:171"
+  ],
+  "FM Radio:WQLV": [
+    "PA House District:82",
+    "PA House District:86",
+    "PA House District:104",
+    "PA House District:85"
+  ],
+  "FM Radio:WCHX": [
+    "PA House District:82",
+    "PA House District:171"
+  ],
+  "FM Radio:WNNA": [
+    "PA House District:82",
+    "PA House District:86",
+    "PA House District:171",
+    "PA House District:85"
+  ],
+  "FM Radio:WQJU": [
+    "PA House District:82",
+    "PA House District:86",
+    "PA House District:171"
+  ],
+  "PA House District:86": [
+    "FM Radio:WKHW",
+    "FM Radio:WITF-FM",
+    "FM Radio:WZXN",
+    "FM Radio:WPFG",
+    "FM Radio:WJAZ",
+    "FM Radio:WIBF",
+    "FM Radio:WYPM",
+    "FM Radio:WQKX",
+    "FM Radio:WRBT",
+    "FM Radio:WIKZ",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WQLV",
+    "FM Radio:WQBG",
+    "FM Radio:WCAT-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WNNA",
+    "FM Radio:WWKL",
+    "FM Radio:WQJU",
+    "FM Radio:WGTY"
+  ],
+  "FM Radio:WJAZ": [
+    "PA House District:86",
+    "PA House District:87",
+    "PA House District:199",
+    "PA House District:104",
+    "PA House District:92"
+  ],
+  "PA House District:87": [
+    "FM Radio:WZXM",
+    "FM Radio:WVMM",
+    "FM Radio:WJAZ",
+    "FM Radio:WCAT-FM"
+  ],
+  "FM Radio:WZXM": [
+    "PA House District:87",
+    "PA House District:88",
+    "PA House District:103",
+    "PA House District:105",
+    "PA House District:106"
+  ],
+  "FM Radio:WVMM": [
+    "PA House District:87",
+    "PA House District:88",
+    "PA House District:92"
+  ],
+  "PA House District:88": [
+    "FM Radio:WZXM",
+    "FM Radio:WVMM",
+    "FM Radio:WCAT-FM"
+  ],
+  "PA House District:199": [
+    "FM Radio:WDCV-FM",
+    "FM Radio:WITF-FM",
+    "FM Radio:WZXN",
+    "FM Radio:WPFG",
+    "FM Radio:WJAZ",
+    "FM Radio:WCAT-FM",
+    "FM Radio:WGTY"
+  ],
+  "PA House District:104": [
+    "FM Radio:WKHW",
+    "FM Radio:WITF-FM",
+    "FM Radio:WJAZ",
+    "FM Radio:WKHL",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WQKX",
+    "FM Radio:WRBT",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WQLV",
+    "FM Radio:WHKF",
+    "FM Radio:WFVY",
+    "FM Radio:WQBG",
+    "FM Radio:WROZ",
+    "FM Radio:WARM-FM",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WWKL"
+  ],
+  "FM Radio:WKHL": [
+    "PA House District:104",
+    "PA House District:105",
+    "PA House District:106",
+    "PA House District:101",
+    "PA House District:102",
+    "PA House District:98"
+  ],
+  "FM Radio:WLAN-FM": [
+    "PA House District:104",
+    "PA House District:100"
+  ],
+  "PA House District:103": [
+    "FM Radio:WZXM"
+  ],
+  "PA House District:105": [
+    "FM Radio:WZXM",
+    "FM Radio:WMSS",
+    "FM Radio:WKHL",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WHKF"
+  ],
+  "PA House District:106": [
+    "FM Radio:WZXM",
+    "FM Radio:WMSS",
+    "FM Radio:WKHL",
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WHKF",
+    "FM Radio:WFVY"
+  ],
+  "PA House District:92": [
+    "FM Radio:WITF-FM",
+    "FM Radio:WVMM",
+    "FM Radio:WMSS",
+    "FM Radio:WJAZ",
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WHKF",
+    "FM Radio:WCAT-FM"
+  ],
+  "PA House District:171": [
+    "FM Radio:WCOB",
+    "FM Radio:WRYV",
+    "FM Radio:WRXV",
+    "FM Radio:WTLR",
+    "FM Radio:WJVM",
+    "FM Radio:WJRC",
+    "FM Radio:WPSU",
+    "FM Radio:WSQV",
+    "FM Radio:WIBF",
+    "FM Radio:WMAJ",
+    "FM Radio:WBHV-FM",
+    "FM Radio:WZWW",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WVNW",
+    "FM Radio:WOWY",
+    "FM Radio:WGJC",
+    "FM Radio:WLEJ",
+    "FM Radio:WBUS",
+    "FM Radio:WFGE",
+    "FM Radio:WAPY",
+    "FM Radio:WCHX",
+    "FM Radio:WNNA",
+    "FM Radio:WQJU",
+    "FM Radio:WKPA"
+  ],
+  "PA House District:85": [
+    "FM Radio:WBGM",
+    "FM Radio:WQSU",
+    "FM Radio:WFBV",
+    "FM Radio:WFBM",
+    "FM Radio:WVBU-FM",
+    "FM Radio:WGRC",
+    "FM Radio:WHNA",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WQKX",
+    "FM Radio:WRBT",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WRVV",
+    "FM Radio:WRBG",
+    "FM Radio:WQLV",
+    "FM Radio:WQBG",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WKSB",
+    "FM Radio:WCXR",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WNNA",
+    "FM Radio:WCFT-FM",
+    "FM Radio:WEGH"
+  ],
+  "PA House District:140": [
+    "FM Radio:WLBS"
+  ],
+  "PA House District:151": [
+    "FM Radio:WRDV"
+  ],
+  "PA House District:153": [
+    "FM Radio:WRDV"
+  ],
+  "PA House District:152": [
+    "FM Radio:WRDV"
+  ],
+  "PA House District:83": [
+    "FM Radio:WKWP",
+    "FM Radio:WVYA",
+    "FM Radio:WCRG",
+    "FM Radio:WRLC",
+    "FM Radio:WBYL",
+    "FM Radio:WVRT",
+    "FM Radio:WZXR",
+    "FM Radio:WQBR",
+    "FM Radio:WOTH"
+  ],
+  "FM Radio:WKWP": [
+    "PA House District:83"
+  ],
+  "FM Radio:WRLC": [
+    "PA House District:83"
+  ],
+  "PA House District:68": [
+    "FM Radio:WTIO",
+    "FM Radio:WCIH",
+    "FM Radio:WSQE",
+    "FM Radio:WOGA",
+    "FM Radio:WENI-FM",
+    "FM Radio:WMTT-FM",
+    "FM Radio:WCBF",
+    "FM Radio:WZBF",
+    "FM Radio:WOKN",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WCOG-FM",
+    "FM Radio:WDKC",
+    "FM Radio:WAVR",
+    "FM Radio:WKSB",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WNKI",
+    "FM Radio:DWLIH"
+  ],
+  "FM Radio:WTIO": [
+    "PA House District:68"
+  ],
+  "FM Radio:WCIH": [
+    "PA House District:68",
+    "PA House District:110"
+  ],
+  "FM Radio:WSQE": [
+    "PA House District:68"
+  ],
+  "FM Radio:WOGA": [
+    "PA House District:68"
+  ],
+  "FM Radio:WENI-FM": [
+    "PA House District:68"
+  ],
+  "FM Radio:WMTT-FM": [
+    "PA House District:68"
+  ],
+  "FM Radio:WCBF": [
+    "PA House District:68"
+  ],
+  "FM Radio:WZBF": [
+    "PA House District:68",
+    "PA House District:110"
+  ],
+  "FM Radio:WOKN": [
+    "PA House District:68"
+  ],
+  "FM Radio:WDKC": [
+    "PA House District:68"
+  ],
+  "FM Radio:WAVR": [
+    "PA House District:68",
+    "PA House District:110"
+  ],
+  "FM Radio:WNKI": [
+    "PA House District:68",
+    "PA House District:110"
+  ],
+  "FM Radio:DWLIH": [
+    "PA House District:68"
+  ],
+  "PA House District:110": [
+    "FM Radio:WCII",
+    "FM Radio:WSKG-FM",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WCIH",
+    "FM Radio:WCDR",
+    "FM Radio:WCDJ",
+    "FM Radio:WCOZ",
+    "FM Radio:WMGS",
+    "FM Radio:WBZD-FM",
+    "FM Radio:WTTC-FM",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WZBF",
+    "FM Radio:WBSX",
+    "FM Radio:WHWK",
+    "FM Radio:WKRZ",
+    "FM Radio:WAAL",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WGGY",
+    "FM Radio:WAVR",
+    "FM Radio:WKSB",
+    "FM Radio:WGMF-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WBNW-FM",
+    "FM Radio:WNKI",
+    "FM Radio:WCFT-FM"
+  ],
+  "FM Radio:WCII": [
+    "PA House District:110"
+  ],
+  "FM Radio:WSKG-FM": [
+    "PA House District:110",
+    "PA House District:111"
+  ],
+  "FM Radio:WCDR": [
+    "PA House District:110"
+  ],
+  "FM Radio:WCOZ": [
+    "PA House District:110"
+  ],
+  "FM Radio:WTTC-FM": [
+    "PA House District:110"
+  ],
+  "FM Radio:WHWK": [
+    "PA House District:110",
+    "PA House District:111"
+  ],
+  "FM Radio:WAAL": [
+    "PA House District:110",
+    "PA House District:111"
+  ],
+  "FM Radio:WBNW-FM": [
+    "PA House District:110",
+    "PA House District:111"
+  ],
+  "PA House District:111": [
+    "FM Radio:WLKA",
+    "FM Radio:WSKG-FM",
+    "FM Radio:WZZH",
+    "FM Radio:WSQX-FM",
+    "FM Radio:WKGB-FM",
+    "FM Radio:WMGS",
+    "FM Radio:WJOB-FM",
+    "FM Radio:WTRW",
+    "FM Radio:WIYN",
+    "FM Radio:WDNH-FM",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WHWK",
+    "FM Radio:WKRZ",
+    "FM Radio:WAAL",
+    "FM Radio:WQFN",
+    "FM Radio:WDRE",
+    "FM Radio:WGGY",
+    "FM Radio:WLTB",
+    "FM Radio:WMXW",
+    "FM Radio:WHNB",
+    "FM Radio:WYCY",
+    "FM Radio:WBNW-FM",
+    "FM Radio:WCDW"
+  ],
+  "FM Radio:WSQX-FM": [
+    "PA House District:111"
+  ],
+  "FM Radio:WKGB-FM": [
+    "PA House District:111"
+  ],
+  "FM Radio:WJOB-FM": [
+    "PA House District:111"
+  ],
+  "FM Radio:WIYN": [
+    "PA House District:111"
+  ],
+  "FM Radio:WDRE": [
+    "PA House District:111"
+  ],
+  "FM Radio:WLTB": [
+    "PA House District:111"
+  ],
+  "FM Radio:WMXW": [
+    "PA House District:111"
+  ],
+  "FM Radio:WHNB": [
+    "PA House District:111"
+  ],
+  "FM Radio:WCDW": [
+    "PA House District:111"
+  ],
+  "PA House District:100": [
+    "FM Radio:WZXE",
+    "FM Radio:WXPH",
+    "FM Radio:WJTL",
+    "FM Radio:WDAC",
+    "FM Radio:WSOX",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WROZ",
+    "FM Radio:WARM-FM",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WWKL"
+  ],
+  "FM Radio:WZXE": [
+    "PA House District:100",
+    "PA House District:13"
+  ],
+  "FM Radio:WDAC": [
+    "PA House District:100"
+  ],
+  "FM Radio:WSOX": [
+    "PA House District:100"
+  ],
+  "FM Radio:WIOV-FM": [
+    "PA House District:100"
+  ],
+  "PA House District:96": [
+    "FM Radio:WFNM",
+    "FM Radio:WLCH"
+  ],
+  "FM Radio:WFNM": [
+    "PA House District:96",
+    "PA House District:43",
+    "PA House District:41",
+    "PA House District:97"
+  ],
+  "FM Radio:WLCH": [
+    "PA House District:96",
+    "PA House District:43",
+    "PA House District:97"
+  ],
+  "PA House District:43": [
+    "FM Radio:WXPH",
+    "FM Radio:WFNM",
+    "FM Radio:WJTL",
+    "FM Radio:WLCH"
+  ],
+  "PA House District:143": [
+    "FM Radio:WBYO"
+  ],
+  "PA House District:13": [
+    "FM Radio:WZXE",
+    "FM Radio:WZWG"
+  ],
+  "FM Radio:WZWG": [
+    "PA House District:13"
+  ],
+  "PA House District:158": [
+    "FM Radio:WRTJ",
+    "FM Radio:WCUR"
+  ],
+  "PA House District:121": [
+    "FM Radio:WRKC",
+    "FM Radio:WSFX",
+    "FM Radio:WCLH"
+  ],
+  "PA House District:127": [
+    "FM Radio:WXAC"
+  ],
+  "PA House District:128": [
+    "FM Radio:WZZD",
+    "FM Radio:WZXB",
+    "FM Radio:WYTL"
+  ],
+  "PA House District:145": [
+    "FM Radio:WDIY",
+    "FM Radio:WBYO",
+    "FM Radio:WLVR-FM",
+    "FM Radio:WBMR"
+  ],
+  "PA House District:141": [
+    "FM Radio:WLBS"
+  ],
+  "PA House District:169": [
+    "FM Radio:WXPH",
+    "FM Radio:WZXY"
+  ],
+  "PA House District:176": [
+    "FM Radio:WBYX",
+    "FM Radio:WWPJ",
+    "FM Radio:WRTY",
+    "FM Radio:WSBG",
+    "FM Radio:WZZO",
+    "FM Radio:WBSX",
+    "FM Radio:WODE-FM",
+    "FM Radio:WPZX",
+    "FM Radio:WKRF"
+  ],
+  "PA House District:166": [
+    "FM Radio:WXVU",
+    "FM Radio:WHHS"
+  ],
+  "PA House District:165": [
+    "FM Radio:WXVU",
+    "FM Radio:WSRN-FM"
+  ],
+  "PA House District:168": [
+    "FM Radio:WSRN-FM"
+  ],
+  "PA House District:159": [
+    "FM Radio:WSRN-FM",
+    "FM Radio:WRSD"
+  ],
+  "PA House District:24": [
+    "FM Radio:WRCT",
+    "FM Radio:WPTS-FM"
+  ],
+  "PA House District:21": [
+    "FM Radio:WRCT",
+    "FM Radio:WPTS-FM"
+  ],
+  "PA House District:23": [
+    "FM Radio:WPTS-FM"
+  ],
+  "PA House District:22": [
+    "FM Radio:WMUH"
+  ],
+  "PA House District:20": [
+    "FM Radio:WRCT"
+  ],
+  "PA House District:19": [
+    "FM Radio:WRCT",
+    "FM Radio:WPTS-FM"
+  ],
+  "PA House District:11": [
+    "FM Radio:WLER-FM"
+  ],
+  "PA House District:60": [
+    "FM Radio:WCOA-FM",
+    "FM Radio:WQED-FM",
+    "FM Radio:WQMU",
+    "FM Radio:WLTJ",
+    "FM Radio:KDKA-FM",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WKST-FM",
+    "FM Radio:WKYE",
+    "FM Radio:WRRK",
+    "FM Radio:WLER-FM",
+    "FM Radio:WSHH",
+    "FM Radio:WBZZ",
+    "FM Radio:WORD-FM",
+    "FM Radio:WDVE",
+    "FM Radio:WPGB",
+    "FM Radio:WXDX-FM",
+    "FM Radio:WLCY",
+    "FM Radio:WAOB-FM",
+    "FM Radio:WHJB",
+    "FM Radio:WDSY-FM"
+  ],
+  "FM Radio:WLTJ": [
+    "PA House District:60",
+    "PA House District:15"
+  ],
+  "FM Radio:KDKA-FM": [
+    "PA House District:60",
+    "PA House District:15"
+  ],
+  "FM Radio:WKST-FM": [
+    "PA House District:60",
+    "PA House District:15"
+  ],
+  "FM Radio:WSHH": [
+    "PA House District:60",
+    "PA House District:15"
+  ],
+  "FM Radio:WORD-FM": [
+    "PA House District:60",
+    "PA House District:15"
+  ],
+  "FM Radio:WPGB": [
+    "PA House District:60",
+    "PA House District:14",
+    "PA House District:15"
+  ],
+  "FM Radio:WXDX-FM": [
+    "PA House District:60",
+    "PA House District:15"
+  ],
+  "FM Radio:WAOB-FM": [
+    "PA House District:60",
+    "PA House District:14",
+    "PA House District:15"
+  ],
+  "FM Radio:WDSY-FM": [
+    "PA House District:60",
+    "PA House District:15"
+  ],
+  "PA House District:8": [
+    "FM Radio:WCGT",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WVME",
+    "FM Radio:WRQI",
+    "FM Radio:WYLE",
+    "FM Radio:WLLF",
+    "FM Radio:WLER-FM",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WGYY",
+    "FM Radio:WYFM",
+    "FM Radio:WWIZ",
+    "FM Radio:WLVX"
+  ],
+  "PA House District:14": [
+    "FM Radio:WQED-FM",
+    "FM Radio:WESA",
+    "FM Radio:WKPL",
+    "FM Radio:WOGI",
+    "FM Radio:WPGB",
+    "FM Radio:WAOB-FM"
+  ],
+  "FM Radio:WOGI": [
+    "PA House District:14",
+    "PA House District:15"
+  ],
+  "PA House District:9": [
+    "FM Radio:WWNW",
+    "FM Radio:WVMN",
+    "FM Radio:WKPL",
+    "FM Radio:WAKZ",
+    "FM Radio:WWIZ"
+  ],
+  "FM Radio:WVMN": [
+    "PA House District:9",
+    "PA House District:10"
+  ],
+  "PA House District:15": [
+    "FM Radio:WQED-FM",
+    "FM Radio:WESA",
+    "FM Radio:WNJR",
+    "FM Radio:WKPL",
+    "FM Radio:WLTJ",
+    "FM Radio:KDKA-FM",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WJPA-FM",
+    "FM Radio:WKST-FM",
+    "FM Radio:WRRK",
+    "FM Radio:WPKV",
+    "FM Radio:WSHH",
+    "FM Radio:WBZZ",
+    "FM Radio:WORD-FM",
+    "FM Radio:WDVE",
+    "FM Radio:WOGH",
+    "FM Radio:WLYI",
+    "FM Radio:WOGI",
+    "FM Radio:WPGB",
+    "FM Radio:WXDX-FM",
+    "FM Radio:WAOB-FM",
+    "FM Radio:WDSY-FM"
+  ],
+  "PA House District:63": [
+    "FM Radio:WCOA-FM",
+    "FM Radio:WCUC-FM",
+    "FM Radio:WQMU",
+    "FM Radio:WCCR-FM",
+    "FM Radio:WLOQ",
+    "FM Radio:WDDH",
+    "FM Radio:WGYI",
+    "FM Radio:WHMJ",
+    "FM Radio:WKFT",
+    "FM Radio:WIFT",
+    "FM Radio:WKQL",
+    "FM Radio:WMKX",
+    "FM Radio:WCGH",
+    "FM Radio:WCOH"
+  ],
+  "FM Radio:WCUC-FM": [
+    "PA House District:63"
+  ],
+  "PA House District:10": [
+    "FM Radio:WSRU",
+    "FM Radio:WWNW",
+    "FM Radio:WVMN",
+    "FM Radio:WKPL",
+    "FM Radio:WLER-FM"
+  ],
+  "FM Radio:WSRU": [
+    "PA House District:10"
+  ],
+  "PA House District:38": [
+    "FM Radio:WRCT"
+  ],
+  "PA House District:44": [
+    "FM Radio:WYEP-FM"
+  ],
+  "PA House District:74": [
+    "FM Radio:WRTJ"
+  ],
+  "PA House District:27": [
+    "FM Radio:WRCT"
+  ],
+  "PA House District:29": [
+    "FM Radio:WRDV"
+  ],
+  "PA House District:30": [
+    "FM Radio:WRCT"
+  ],
+  "PA House District:41": [
+    "FM Radio:WXPH",
+    "FM Radio:WFNM",
+    "FM Radio:WJTL",
+    "FM Radio:WIXQ"
+  ],
+  "FM Radio:WIXQ": [
+    "PA House District:41"
+  ],
+  "PA House District:36": [
+    "FM Radio:WRCT",
+    "FM Radio:WPTS-FM"
+  ],
+  "PA House District:144": [
+    "FM Radio:WBYO",
+    "FM Radio:WRDV",
+    "FM Radio:WBMR"
+  ],
+  "PA House District:126": [
+    "FM Radio:WYBQ",
+    "FM Radio:WZXB",
+    "FM Radio:WXAC"
+  ],
+  "PA House District:101": [
+    "FM Radio:WXPH",
+    "FM Radio:WJTL",
+    "FM Radio:WKHL",
+    "FM Radio:WFVY"
+  ],
+  "PA House District:102": [
+    "FM Radio:WFCP",
+    "FM Radio:WITF-FM",
+    "FM Radio:WRTL",
+    "FM Radio:WKHL",
+    "FM Radio:WFVY"
+  ],
+  "PA House District:37": [
+    "FM Radio:WWEC",
+    "FM Radio:WXPH",
+    "FM Radio:WJTL",
+    "FM Radio:WRTL",
+    "FM Radio:WFVY"
+  ],
+  "FM Radio:WWEC": [
+    "PA House District:37",
+    "PA House District:98"
+  ],
+  "PA House District:97": [
+    "FM Radio:WFNM",
+    "FM Radio:WLCH"
+  ],
+  "PA House District:99": [
+    "FM Radio:WZZD",
+    "FM Radio:WYTL"
+  ],
+  "PA House District:98": [
+    "FM Radio:WWEC",
+    "FM Radio:WXPH",
+    "FM Radio:WJTL",
+    "FM Radio:WMSS",
+    "FM Radio:WKHL",
+    "FM Radio:WNUU",
+    "FM Radio:WTPA-FM",
+    "FM Radio:WHKF"
+  ],
+  "PA House District:95": [
+    "FM Radio:WVYC"
+  ],
+  "FM Radio:WVYC": [
+    "PA House District:95"
+  ],
+  "PA House District:93": [
+    "FM Radio:WXPH",
+    "FM Radio:WJTL"
+  ],
+  "PA House District:94": [
+    "FM Radio:WXPH",
+    "FM Radio:WJTL"
+  ],
+  "PA House District:161": [
+    "FM Radio:WSRN-FM",
+    "FM Radio:WRSD"
+  ],
+  "PA House District:4": [
+    "FM Radio:WEFR",
+    "FM Radio:WMCE-FM",
+    "FM Radio:WTWP",
+    "FM Radio:WERG",
+    "FM Radio:WQLN-FM",
+    "FM Radio:WRRN",
+    "FM Radio:WICU-FM",
+    "FM Radio:WWSE",
+    "FM Radio:WTWF",
+    "FM Radio:WXBB",
+    "FM Radio:WEBG",
+    "FM Radio:WXTA",
+    "FM Radio:WXKC",
+    "FM Radio:WGYY",
+    "FM Radio:WCGE",
+    "FM Radio:WQHZ",
+    "FM Radio:WCGM",
+    "FM Radio:WRTS",
+    "FM Radio:WRKT",
+    "FM Radio:WCTL"
+  ],
+  "FM Radio:WEBG": [
+    "PA House District:4"
+  ],
+  "FM Radio:WCGE": [
+    "PA House District:4"
+  ]
+}

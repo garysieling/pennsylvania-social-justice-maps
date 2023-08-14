@@ -1,0 +1,298 @@
+{
+  "County:Elk": [
+    "State Police:C"
+  ],
+  "State Police:C": [
+    "County:Elk",
+    "County:Forest",
+    "County:Jefferson",
+    "County:Clarion",
+    "County:Clearfield",
+    "County:McKean"
+  ],
+  "County:Erie": [
+    "State Police:E"
+  ],
+  "State Police:E": [
+    "County:Erie",
+    "County:Crawford",
+    "County:Venango",
+    "County:Warren"
+  ],
+  "County:Fayette": [
+    "State Police:B"
+  ],
+  "State Police:B": [
+    "County:Fayette",
+    "County:Greene",
+    "County:Allegheny",
+    "County:Washington"
+  ],
+  "County:Forest": [
+    "State Police:C"
+  ],
+  "County:Franklin": [
+    "State Police:H"
+  ],
+  "State Police:H": [
+    "County:Franklin",
+    "County:Adams",
+    "County:Cumberland",
+    "County:Dauphin",
+    "County:Perry"
+  ],
+  "County:Fulton": [
+    "State Police:G"
+  ],
+  "State Police:G": [
+    "County:Fulton",
+    "County:Huntingdon",
+    "County:Juniata",
+    "County:Bedford",
+    "County:Blair",
+    "County:Centre",
+    "County:Mifflin"
+  ],
+  "County:Greene": [
+    "State Police:B"
+  ],
+  "County:Huntingdon": [
+    "State Police:G"
+  ],
+  "County:Indiana": [
+    "State Police:A"
+  ],
+  "State Police:A": [
+    "County:Indiana",
+    "County:Cambria",
+    "County:Westmoreland",
+    "County:Somerset"
+  ],
+  "County:Jefferson": [
+    "State Police:C"
+  ],
+  "County:Juniata": [
+    "State Police:G"
+  ],
+  "County:Lackawanna": [
+    "State Police:R"
+  ],
+  "State Police:R": [
+    "County:Lackawanna",
+    "County:Wayne",
+    "County:Pike",
+    "County:Susquehanna"
+  ],
+  "County:Lancaster": [
+    "State Police:J"
+  ],
+  "State Police:J": [
+    "County:Lancaster",
+    "County:York",
+    "County:Chester"
+  ],
+  "County:Lawrence": [
+    "State Police:D"
+  ],
+  "State Police:D": [
+    "County:Lawrence",
+    "County:Armstrong",
+    "County:Beaver",
+    "County:Butler",
+    "County:Mercer"
+  ],
+  "County:Adams": [
+    "State Police:H"
+  ],
+  "County:Allegheny": [
+    "State Police:B"
+  ],
+  "County:Armstrong": [
+    "State Police:D"
+  ],
+  "County:Beaver": [
+    "State Police:D"
+  ],
+  "County:Bedford": [
+    "State Police:G"
+  ],
+  "County:Berks": [
+    "State Police:L"
+  ],
+  "State Police:L": [
+    "County:Berks",
+    "County:Lebanon",
+    "County:Schuylkill"
+  ],
+  "County:Blair": [
+    "State Police:G"
+  ],
+  "County:Bradford": [
+    "State Police:P"
+  ],
+  "State Police:P": [
+    "County:Bradford",
+    "County:Wyoming",
+    "County:Luzerne",
+    "County:Sullivan"
+  ],
+  "County:Butler": [
+    "State Police:D"
+  ],
+  "County:Cambria": [
+    "State Police:A"
+  ],
+  "County:Cameron": [
+    "State Police:F"
+  ],
+  "State Police:F": [
+    "County:Cameron",
+    "County:Clinton",
+    "County:Lycoming",
+    "County:Northumberland",
+    "County:Potter",
+    "County:Snyder",
+    "County:Tioga",
+    "County:Union"
+  ],
+  "County:Carbon": [
+    "State Police:N"
+  ],
+  "State Police:N": [
+    "County:Carbon",
+    "County:Columbia",
+    "County:Luzerne",
+    "County:Monroe"
+  ],
+  "County:Centre": [
+    "State Police:G"
+  ],
+  "County:Clarion": [
+    "State Police:C"
+  ],
+  "County:Clearfield": [
+    "State Police:C"
+  ],
+  "County:Clinton": [
+    "State Police:F"
+  ],
+  "County:Columbia": [
+    "State Police:N"
+  ],
+  "County:Crawford": [
+    "State Police:E"
+  ],
+  "County:Cumberland": [
+    "State Police:H"
+  ],
+  "County:Dauphin": [
+    "State Police:H"
+  ],
+  "County:Wayne": [
+    "State Police:R"
+  ],
+  "County:Westmoreland": [
+    "State Police:A"
+  ],
+  "County:Wyoming": [
+    "State Police:P"
+  ],
+  "County:York": [
+    "State Police:J"
+  ],
+  "County:Lebanon": [
+    "State Police:L"
+  ],
+  "County:Lehigh": [
+    "State Police:M"
+  ],
+  "State Police:M": [
+    "County:Lehigh",
+    "County:Northampton",
+    "County:Bucks"
+  ],
+  "County:Luzerne": [
+    "State Police:N",
+    "State Police:P"
+  ],
+  "County:Lycoming": [
+    "State Police:F"
+  ],
+  "County:McKean": [
+    "State Police:C"
+  ],
+  "County:Mercer": [
+    "State Police:D"
+  ],
+  "County:Mifflin": [
+    "State Police:G"
+  ],
+  "County:Monroe": [
+    "State Police:N"
+  ],
+  "County:Northampton": [
+    "State Police:M"
+  ],
+  "County:Northumberland": [
+    "State Police:F"
+  ],
+  "County:Perry": [
+    "State Police:H"
+  ],
+  "County:Pike": [
+    "State Police:R"
+  ],
+  "County:Potter": [
+    "State Police:F"
+  ],
+  "County:Schuylkill": [
+    "State Police:L"
+  ],
+  "County:Snyder": [
+    "State Police:F"
+  ],
+  "County:Somerset": [
+    "State Police:A"
+  ],
+  "County:Sullivan": [
+    "State Police:P"
+  ],
+  "County:Susquehanna": [
+    "State Police:R"
+  ],
+  "County:Tioga": [
+    "State Police:F"
+  ],
+  "County:Union": [
+    "State Police:F"
+  ],
+  "County:Venango": [
+    "State Police:E"
+  ],
+  "County:Warren": [
+    "State Police:E"
+  ],
+  "County:Washington": [
+    "State Police:B"
+  ],
+  "County:Bucks": [
+    "State Police:M"
+  ],
+  "County:Montgomery": [
+    "State Police:K"
+  ],
+  "State Police:K": [
+    "County:Montgomery",
+    "County:Philadelphia",
+    "County:Delaware"
+  ],
+  "County:Chester": [
+    "State Police:J"
+  ],
+  "County:Philadelphia": [
+    "State Police:K"
+  ],
+  "County:Delaware": [
+    "State Police:K"
+  ]
+}

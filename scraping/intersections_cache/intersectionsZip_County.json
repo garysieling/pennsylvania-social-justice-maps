@@ -1,0 +1,1628 @@
+{
+  "Zip:17353": [
+    "County:Adams"
+  ],
+  "County:Adams": [
+    "Zip:17353",
+    "Zip:17325",
+    "Zip:17320",
+    "Zip:17307",
+    "Zip:17350",
+    "Zip:17372",
+    "Zip:17340",
+    "Zip:17331"
+  ],
+  "Zip:17325": [
+    "County:Adams"
+  ],
+  "Zip:16117": [
+    "County:Lawrence"
+  ],
+  "County:Lawrence": [
+    "Zip:16117",
+    "Zip:16102",
+    "Zip:16120",
+    "Zip:16157",
+    "Zip:16105",
+    "Zip:16156",
+    "Zip:16101",
+    "Zip:16116"
+  ],
+  "Zip:15009": [
+    "County:Beaver"
+  ],
+  "County:Beaver": [
+    "Zip:15009",
+    "Zip:15026",
+    "Zip:15050",
+    "Zip:16115",
+    "Zip:15001",
+    "Zip:15010",
+    "Zip:15043"
+  ],
+  "Zip:15535": [
+    "County:Bedford"
+  ],
+  "County:Bedford": [
+    "Zip:15535",
+    "Zip:15522",
+    "Zip:15550",
+    "Zip:15537"
+  ],
+  "Zip:16662": [
+    "County:Blair"
+  ],
+  "County:Blair": [
+    "Zip:16662",
+    "Zip:16635",
+    "Zip:16686",
+    "Zip:16693",
+    "Zip:16648",
+    "Zip:16601"
+  ],
+  "Zip:16657": [
+    "County:Huntingdon"
+  ],
+  "County:Huntingdon": [
+    "Zip:16657",
+    "Zip:16652",
+    "Zip:17264",
+    "Zip:16669"
+  ],
+  "Zip:18938": [
+    "County:Bucks"
+  ],
+  "County:Bucks": [
+    "Zip:18938",
+    "Zip:18951",
+    "Zip:18944",
+    "Zip:18940"
+  ],
+  "Zip:16841": [
+    "County:Centre"
+  ],
+  "County:Centre": [
+    "Zip:16841",
+    "Zip:16823",
+    "Zip:16844",
+    "Zip:16870",
+    "Zip:16866",
+    "Zip:16845",
+    "Zip:16875"
+  ],
+  "Zip:16255": [
+    "County:Clarion"
+  ],
+  "County:Clarion": [
+    "Zip:16255",
+    "Zip:16049",
+    "Zip:16254",
+    "Zip:16232",
+    "Zip:16258",
+    "Zip:16233",
+    "Zip:16242",
+    "Zip:16248",
+    "Zip:16214"
+  ],
+  "Zip:15824": [
+    "County:Jefferson"
+  ],
+  "County:Jefferson": [
+    "Zip:15824",
+    "Zip:15767",
+    "Zip:15825",
+    "Zip:15851",
+    "Zip:15860"
+  ],
+  "Zip:17751": [
+    "County:Clinton"
+  ],
+  "County:Clinton": [
+    "Zip:17751",
+    "Zip:17760",
+    "Zip:17764",
+    "Zip:17747",
+    "Zip:17745",
+    "Zip:16822",
+    "Zip:17778"
+  ],
+  "Zip:17740": [
+    "County:Lycoming"
+  ],
+  "County:Lycoming": [
+    "Zip:17740",
+    "Zip:17756",
+    "Zip:17737",
+    "Zip:17771",
+    "Zip:17776",
+    "Zip:17701"
+  ],
+  "Zip:17820": [
+    "County:Columbia"
+  ],
+  "County:Columbia": [
+    "Zip:17820",
+    "Zip:17859",
+    "Zip:17846",
+    "Zip:17814",
+    "Zip:18603",
+    "Zip:17815"
+  ],
+  "Zip:16403": [
+    "County:Crawford"
+  ],
+  "County:Crawford": [
+    "Zip:16403",
+    "Zip:16435",
+    "Zip:16404",
+    "Zip:16433",
+    "Zip:16335",
+    "Zip:16314",
+    "Zip:16406",
+    "Zip:16424",
+    "Zip:16327"
+  ],
+  "Zip:16438": [
+    "County:Erie"
+  ],
+  "County:Erie": [
+    "Zip:16438",
+    "Zip:16428",
+    "Zip:16441",
+    "Zip:16401",
+    "Zip:16417",
+    "Zip:16407",
+    "Zip:16442",
+    "Zip:16412"
+  ],
+  "Zip:15868": [
+    "County:Elk"
+  ],
+  "County:Elk": [
+    "Zip:15868",
+    "Zip:15857",
+    "Zip:15853",
+    "Zip:16735",
+    "Zip:15860",
+    "Zip:15846",
+    "Zip:15870"
+  ],
+  "Zip:15857": [
+    "County:Elk"
+  ],
+  "Zip:16428": [
+    "County:Erie"
+  ],
+  "Zip:15431": [
+    "County:Fayette"
+  ],
+  "County:Fayette": [
+    "Zip:15431",
+    "Zip:15478",
+    "Zip:15437",
+    "Zip:15425",
+    "Zip:15401",
+    "Zip:15464"
+  ],
+  "Zip:15478": [
+    "County:Fayette"
+  ],
+  "Zip:17236": [
+    "County:Franklin"
+  ],
+  "County:Franklin": [
+    "Zip:17236",
+    "Zip:17225",
+    "Zip:17202",
+    "Zip:17268",
+    "Zip:17257"
+  ],
+  "Zip:17021": [
+    "County:Juniata"
+  ],
+  "County:Juniata": [
+    "Zip:17021",
+    "Zip:17058",
+    "Zip:17049",
+    "Zip:17059",
+    "Zip:17035",
+    "Zip:17082",
+    "Zip:17094"
+  ],
+  "Zip:18433": [
+    "County:Lackawanna"
+  ],
+  "County:Lackawanna": [
+    "Zip:18433",
+    "Zip:18407",
+    "Zip:18411",
+    "Zip:18414",
+    "Zip:18444",
+    "Zip:18424"
+  ],
+  "Zip:18436": [
+    "County:Wayne"
+  ],
+  "County:Wayne": [
+    "Zip:18436",
+    "Zip:18431",
+    "Zip:18453",
+    "Zip:18472",
+    "Zip:18417"
+  ],
+  "Zip:17963": [
+    "County:Schuylkill"
+  ],
+  "County:Schuylkill": [
+    "Zip:17963",
+    "Zip:18252",
+    "Zip:17901",
+    "Zip:17960"
+  ],
+  "Zip:18702": [
+    "County:Luzerne"
+  ],
+  "County:Luzerne": [
+    "Zip:18702",
+    "Zip:18707",
+    "Zip:18656",
+    "Zip:18661",
+    "Zip:18655",
+    "Zip:18612"
+  ],
+  "Zip:18707": [
+    "County:Luzerne"
+  ],
+  "Zip:17004": [
+    "County:Mifflin"
+  ],
+  "County:Mifflin": [
+    "Zip:17004",
+    "Zip:17044",
+    "Zip:17084",
+    "Zip:17063",
+    "Zip:17841",
+    "Zip:17051"
+  ],
+  "Zip:18353": [
+    "County:Monroe"
+  ],
+  "County:Monroe": [
+    "Zip:18353",
+    "Zip:18360",
+    "Zip:18301",
+    "Zip:18058",
+    "Zip:18302",
+    "Zip:18326",
+    "Zip:18466",
+    "Zip:18325"
+  ],
+  "Zip:17772": [
+    "County:Montour"
+  ],
+  "County:Montour": [
+    "Zip:17772",
+    "Zip:17847",
+    "Zip:17821"
+  ],
+  "Zip:18067": [
+    "County:Northampton"
+  ],
+  "County:Northampton": [
+    "Zip:18067",
+    "Zip:18064",
+    "Zip:18055",
+    "Zip:18013",
+    "Zip:18042",
+    "Zip:18014",
+    "Zip:18343"
+  ],
+  "Zip:17872": [
+    "County:Northumberland"
+  ],
+  "County:Northumberland": [
+    "Zip:17872",
+    "Zip:17857",
+    "Zip:17830",
+    "Zip:17847",
+    "Zip:17801",
+    "Zip:17777",
+    "Zip:17821",
+    "Zip:17860",
+    "Zip:17866",
+    "Zip:17823"
+  ],
+  "Zip:17090": [
+    "County:Perry"
+  ],
+  "County:Perry": [
+    "Zip:17090",
+    "Zip:17068",
+    "Zip:17024",
+    "Zip:17006",
+    "Zip:17074",
+    "Zip:17047",
+    "Zip:17020",
+    "Zip:17040",
+    "Zip:17062"
+  ],
+  "Zip:17068": [
+    "County:Perry"
+  ],
+  "Zip:17024": [
+    "County:Perry"
+  ],
+  "Zip:17006": [
+    "County:Perry"
+  ],
+  "Zip:16922": [
+    "County:Potter"
+  ],
+  "County:Potter": [
+    "Zip:16922",
+    "Zip:16748",
+    "Zip:16923",
+    "Zip:16948",
+    "Zip:16915",
+    "Zip:16720",
+    "Zip:17729"
+  ],
+  "Zip:17813": [
+    "County:Snyder"
+  ],
+  "County:Snyder": [
+    "Zip:17813",
+    "Zip:17812",
+    "Zip:17870",
+    "Zip:17864",
+    "Zip:17842",
+    "Zip:17853",
+    "Zip:17841",
+    "Zip:17086"
+  ],
+  "Zip:17812": [
+    "County:Snyder"
+  ],
+  "Zip:15501": [
+    "County:Somerset"
+  ],
+  "County:Somerset": [
+    "Zip:15501",
+    "Zip:15538",
+    "Zip:15552",
+    "Zip:15963",
+    "Zip:15557",
+    "Zip:15530"
+  ],
+  "Zip:15538": [
+    "County:Somerset"
+  ],
+  "Zip:18616": [
+    "County:Sullivan"
+  ],
+  "County:Sullivan": [
+    "Zip:18616",
+    "Zip:18619",
+    "Zip:17814",
+    "Zip:18614",
+    "Zip:18626",
+    "Zip:17758",
+    "Zip:17768"
+  ],
+  "Zip:18619": [
+    "County:Sullivan"
+  ],
+  "Zip:18818": [
+    "County:Susquehanna"
+  ],
+  "County:Susquehanna": [
+    "Zip:18818",
+    "Zip:18826",
+    "Zip:18470",
+    "Zip:18801",
+    "Zip:18847",
+    "Zip:18834"
+  ],
+  "Zip:17837": [
+    "County:Union"
+  ],
+  "County:Union": [
+    "Zip:17837",
+    "Zip:17844",
+    "Zip:17856",
+    "Zip:17845"
+  ],
+  "Zip:16340": [
+    "County:Warren"
+  ],
+  "County:Warren": [
+    "Zip:16340",
+    "Zip:16420",
+    "Zip:16313",
+    "Zip:16345",
+    "Zip:16347",
+    "Zip:16351",
+    "Zip:16365"
+  ],
+  "Zip:15021": [
+    "County:Washington"
+  ],
+  "County:Washington": [
+    "Zip:15021",
+    "Zip:15317",
+    "Zip:15301",
+    "Zip:15323",
+    "Zip:15312"
+  ],
+  "Zip:18431": [
+    "County:Wayne"
+  ],
+  "Zip:17315": [
+    "County:York"
+  ],
+  "County:York": [
+    "Zip:17315",
+    "Zip:17362",
+    "Zip:17406",
+    "Zip:17019"
+  ],
+  "Zip:17362": [
+    "County:York"
+  ],
+  "Zip:17324": [
+    "County:Cumberland"
+  ],
+  "County:Cumberland": [
+    "Zip:17324",
+    "Zip:17015",
+    "Zip:17055",
+    "Zip:17241",
+    "Zip:17050",
+    "Zip:17257",
+    "Zip:17013"
+  ],
+  "Zip:16222": [
+    "County:Armstrong"
+  ],
+  "County:Armstrong": [
+    "Zip:16222",
+    "Zip:16226",
+    "Zip:16259",
+    "Zip:16201",
+    "Zip:16242"
+  ],
+  "Zip:16049": [
+    "County:Clarion"
+  ],
+  "Zip:15522": [
+    "County:Bedford"
+  ],
+  "Zip:18848": [
+    "County:Bradford"
+  ],
+  "County:Bradford": [
+    "Zip:18848",
+    "Zip:16947",
+    "Zip:16925",
+    "Zip:17724",
+    "Zip:18837",
+    "Zip:18853",
+    "Zip:18833",
+    "Zip:16914"
+  ],
+  "Zip:16947": [
+    "County:Bradford"
+  ],
+  "Zip:16057": [
+    "County:Butler"
+  ],
+  "County:Butler": [
+    "Zip:16057",
+    "Zip:16002",
+    "Zip:16061",
+    "Zip:16025",
+    "Zip:16001"
+  ],
+  "Zip:16127": [
+    "County:Mercer"
+  ],
+  "County:Mercer": [
+    "Zip:16127",
+    "Zip:16145",
+    "Zip:16137",
+    "Zip:16125",
+    "Zip:16153"
+  ],
+  "Zip:18240": [
+    "County:Carbon"
+  ],
+  "County:Carbon": [
+    "Zip:18240",
+    "Zip:18235",
+    "Zip:18071",
+    "Zip:18210",
+    "Zip:18661",
+    "Zip:18229",
+    "Zip:18255"
+  ],
+  "Zip:16823": [
+    "County:Centre"
+  ],
+  "Zip:16844": [
+    "County:Centre"
+  ],
+  "Zip:16870": [
+    "County:Centre"
+  ],
+  "Zip:19342": [
+    "County:Delaware"
+  ],
+  "County:Delaware": [
+    "Zip:19342",
+    "Zip:19063",
+    "Zip:19073"
+  ],
+  "Zip:15849": [
+    "County:Clearfield"
+  ],
+  "County:Clearfield": [
+    "Zip:15849",
+    "Zip:15801",
+    "Zip:16836",
+    "Zip:16830",
+    "Zip:16833",
+    "Zip:15757"
+  ],
+  "Zip:17760": [
+    "County:Clinton"
+  ],
+  "Zip:17859": [
+    "County:Columbia"
+  ],
+  "Zip:16435": [
+    "County:Crawford"
+  ],
+  "Zip:16441": [
+    "County:Erie"
+  ],
+  "Zip:16401": [
+    "County:Erie"
+  ],
+  "Zip:17015": [
+    "County:Cumberland"
+  ],
+  "Zip:17061": [
+    "County:Dauphin"
+  ],
+  "County:Dauphin": [
+    "Zip:17061",
+    "Zip:17018",
+    "Zip:17057",
+    "Zip:17032",
+    "Zip:17112",
+    "Zip:17048"
+  ],
+  "Zip:15437": [
+    "County:Fayette"
+  ],
+  "Zip:15352": [
+    "County:Greene"
+  ],
+  "County:Greene": [
+    "Zip:15352",
+    "Zip:15337",
+    "Zip:15320",
+    "Zip:15370",
+    "Zip:15380",
+    "Zip:15349",
+    "Zip:15341",
+    "Zip:15364"
+  ],
+  "Zip:16652": [
+    "County:Huntingdon"
+  ],
+  "Zip:16102": [
+    "County:Lawrence"
+  ],
+  "Zip:17046": [
+    "County:Lebanon"
+  ],
+  "County:Lebanon": [
+    "Zip:17046",
+    "Zip:17073",
+    "Zip:17026",
+    "Zip:17078",
+    "Zip:17038",
+    "Zip:17042",
+    "Zip:17067",
+    "Zip:17003"
+  ],
+  "Zip:18066": [
+    "County:Lehigh"
+  ],
+  "County:Lehigh": [
+    "Zip:18066",
+    "Zip:18104",
+    "Zip:18080"
+  ],
+  "Zip:16748": [
+    "County:Potter"
+  ],
+  "Zip:16145": [
+    "County:Mercer"
+  ],
+  "Zip:17044": [
+    "County:Mifflin"
+  ],
+  "Zip:17084": [
+    "County:Mifflin"
+  ],
+  "Zip:18360": [
+    "County:Monroe"
+  ],
+  "Zip:18324": [
+    "County:Pike"
+  ],
+  "County:Pike": [
+    "Zip:18324",
+    "Zip:18458",
+    "Zip:18428",
+    "Zip:18337",
+    "Zip:18426",
+    "Zip:18328"
+  ],
+  "Zip:18301": [
+    "County:Monroe"
+  ],
+  "Zip:18064": [
+    "County:Northampton"
+  ],
+  "Zip:17857": [
+    "County:Northumberland"
+  ],
+  "Zip:17074": [
+    "County:Perry"
+  ],
+  "Zip:17047": [
+    "County:Perry"
+  ],
+  "Zip:16923": [
+    "County:Potter"
+  ],
+  "Zip:18252": [
+    "County:Schuylkill"
+  ],
+  "Zip:18826": [
+    "County:Susquehanna"
+  ],
+  "Zip:16946": [
+    "County:Tioga"
+  ],
+  "County:Tioga": [
+    "Zip:16946",
+    "Zip:16921",
+    "Zip:16950",
+    "Zip:16901",
+    "Zip:16938",
+    "Zip:16933"
+  ],
+  "Zip:18453": [
+    "County:Wayne"
+  ],
+  "Zip:18472": [
+    "County:Wayne"
+  ],
+  "Zip:17320": [
+    "County:Adams"
+  ],
+  "Zip:17307": [
+    "County:Adams"
+  ],
+  "Zip:15026": [
+    "County:Beaver"
+  ],
+  "Zip:16226": [
+    "County:Armstrong"
+  ],
+  "Zip:16259": [
+    "County:Armstrong"
+  ],
+  "Zip:15050": [
+    "County:Beaver"
+  ],
+  "Zip:16115": [
+    "County:Beaver"
+  ],
+  "Zip:16120": [
+    "County:Lawrence"
+  ],
+  "Zip:19506": [
+    "County:Berks"
+  ],
+  "County:Berks": [
+    "Zip:19506",
+    "Zip:19526",
+    "Zip:19522",
+    "Zip:19530"
+  ],
+  "Zip:16925": [
+    "County:Bradford"
+  ],
+  "Zip:17724": [
+    "County:Bradford"
+  ],
+  "Zip:18951": [
+    "County:Bucks"
+  ],
+  "Zip:16002": [
+    "County:Butler"
+  ],
+  "Zip:16668": [
+    "County:Cambria"
+  ],
+  "County:Cambria": [
+    "Zip:16668",
+    "Zip:15931"
+  ],
+  "Zip:18235": [
+    "County:Carbon"
+  ],
+  "Zip:18058": [
+    "County:Monroe"
+  ],
+  "Zip:19382": [
+    "County:Chester"
+  ],
+  "County:Chester": [
+    "Zip:19382",
+    "Zip:19320",
+    "Zip:19335",
+    "Zip:19363"
+  ],
+  "Zip:16254": [
+    "County:Clarion"
+  ],
+  "Zip:16232": [
+    "County:Clarion"
+  ],
+  "Zip:16258": [
+    "County:Clarion"
+  ],
+  "Zip:16233": [
+    "County:Clarion"
+  ],
+  "Zip:17764": [
+    "County:Clinton"
+  ],
+  "Zip:17846": [
+    "County:Columbia"
+  ],
+  "Zip:17814": [
+    "County:Columbia",
+    "County:Sullivan"
+  ],
+  "Zip:16404": [
+    "County:Crawford"
+  ],
+  "Zip:16433": [
+    "County:Crawford"
+  ],
+  "Zip:16354": [
+    "County:Venango"
+  ],
+  "County:Venango": [
+    "Zip:16354",
+    "Zip:16374",
+    "Zip:16323",
+    "Zip:16301",
+    "Zip:16342",
+    "Zip:16373",
+    "Zip:16341"
+  ],
+  "Zip:17018": [
+    "County:Dauphin"
+  ],
+  "Zip:17057": [
+    "County:Dauphin"
+  ],
+  "Zip:17032": [
+    "County:Dauphin"
+  ],
+  "Zip:16417": [
+    "County:Erie"
+  ],
+  "Zip:17228": [
+    "County:Fulton"
+  ],
+  "County:Fulton": [
+    "Zip:17228",
+    "Zip:15536",
+    "Zip:17267",
+    "Zip:17233",
+    "Zip:16691",
+    "Zip:17212",
+    "Zip:17238"
+  ],
+  "Zip:15536": [
+    "County:Fulton"
+  ],
+  "Zip:15337": [
+    "County:Greene"
+  ],
+  "Zip:15320": [
+    "County:Greene"
+  ],
+  "Zip:15717": [
+    "County:Indiana"
+  ],
+  "County:Indiana": [
+    "Zip:15717",
+    "Zip:15701",
+    "Zip:15759",
+    "Zip:15748"
+  ],
+  "Zip:18407": [
+    "County:Lackawanna"
+  ],
+  "Zip:18411": [
+    "County:Lackawanna"
+  ],
+  "Zip:17073": [
+    "County:Lebanon"
+  ],
+  "Zip:16738": [
+    "County:McKean"
+  ],
+  "County:McKean": [
+    "Zip:16738",
+    "Zip:16735",
+    "Zip:16743",
+    "Zip:16731",
+    "Zip:16749",
+    "Zip:16701"
+  ],
+  "Zip:16137": [
+    "County:Mercer"
+  ],
+  "Zip:17063": [
+    "County:Mifflin"
+  ],
+  "Zip:18302": [
+    "County:Monroe"
+  ],
+  "Zip:17830": [
+    "County:Northumberland"
+  ],
+  "Zip:16948": [
+    "County:Potter"
+  ],
+  "Zip:15552": [
+    "County:Somerset"
+  ],
+  "Zip:18614": [
+    "County:Sullivan"
+  ],
+  "Zip:18470": [
+    "County:Susquehanna"
+  ],
+  "Zip:16921": [
+    "County:Tioga"
+  ],
+  "Zip:17844": [
+    "County:Union"
+  ],
+  "Zip:16374": [
+    "County:Venango"
+  ],
+  "Zip:16420": [
+    "County:Warren"
+  ],
+  "Zip:16313": [
+    "County:Warren"
+  ],
+  "Zip:18657": [
+    "County:Wyoming"
+  ],
+  "County:Wyoming": [
+    "Zip:18657",
+    "Zip:18419",
+    "Zip:18629",
+    "Zip:18636"
+  ],
+  "Zip:17026": [
+    "County:Lebanon"
+  ],
+  "Zip:16635": [
+    "County:Blair"
+  ],
+  "Zip:18837": [
+    "County:Bradford"
+  ],
+  "Zip:18853": [
+    "County:Bradford"
+  ],
+  "Zip:18055": [
+    "County:Northampton"
+  ],
+  "Zip:16061": [
+    "County:Butler"
+  ],
+  "Zip:15963": [
+    "County:Somerset"
+  ],
+  "Zip:15832": [
+    "County:Cameron"
+  ],
+  "County:Cameron": [
+    "Zip:15832",
+    "Zip:15861",
+    "Zip:15834"
+  ],
+  "Zip:18071": [
+    "County:Carbon"
+  ],
+  "Zip:16866": [
+    "County:Centre"
+  ],
+  "Zip:16845": [
+    "County:Centre"
+  ],
+  "Zip:19320": [
+    "County:Chester"
+  ],
+  "Zip:19335": [
+    "County:Chester"
+  ],
+  "Zip:15801": [
+    "County:Clearfield"
+  ],
+  "Zip:17747": [
+    "County:Clinton"
+  ],
+  "Zip:17745": [
+    "County:Clinton"
+  ],
+  "Zip:17756": [
+    "County:Lycoming"
+  ],
+  "Zip:18603": [
+    "County:Columbia"
+  ],
+  "Zip:16335": [
+    "County:Crawford"
+  ],
+  "Zip:17055": [
+    "County:Cumberland"
+  ],
+  "Zip:17078": [
+    "County:Lebanon"
+  ],
+  "Zip:19063": [
+    "County:Delaware"
+  ],
+  "Zip:15853": [
+    "County:Elk"
+  ],
+  "Zip:16735": [
+    "County:Elk",
+    "County:McKean"
+  ],
+  "Zip:15425": [
+    "County:Fayette"
+  ],
+  "Zip:17225": [
+    "County:Franklin"
+  ],
+  "Zip:17267": [
+    "County:Fulton"
+  ],
+  "Zip:17233": [
+    "County:Fulton"
+  ],
+  "Zip:17264": [
+    "County:Huntingdon"
+  ],
+  "Zip:15370": [
+    "County:Greene"
+  ],
+  "Zip:15701": [
+    "County:Indiana"
+  ],
+  "Zip:15759": [
+    "County:Indiana"
+  ],
+  "Zip:17566": [
+    "County:Lancaster"
+  ],
+  "County:Lancaster": [
+    "Zip:17566",
+    "Zip:17543",
+    "Zip:17545"
+  ],
+  "Zip:17543": [
+    "County:Lancaster"
+  ],
+  "Zip:17038": [
+    "County:Lebanon"
+  ],
+  "Zip:17042": [
+    "County:Lebanon"
+  ],
+  "Zip:18326": [
+    "County:Monroe"
+  ],
+  "Zip:18466": [
+    "County:Monroe"
+  ],
+  "Zip:17847": [
+    "County:Montour",
+    "County:Northumberland"
+  ],
+  "Zip:18013": [
+    "County:Northampton"
+  ],
+  "Zip:17801": [
+    "County:Northumberland"
+  ],
+  "Zip:18458": [
+    "County:Pike"
+  ],
+  "Zip:16950": [
+    "County:Tioga"
+  ],
+  "Zip:16915": [
+    "County:Potter"
+  ],
+  "Zip:17901": [
+    "County:Schuylkill"
+  ],
+  "Zip:17870": [
+    "County:Snyder"
+  ],
+  "Zip:17864": [
+    "County:Snyder"
+  ],
+  "Zip:18626": [
+    "County:Sullivan"
+  ],
+  "Zip:18801": [
+    "County:Susquehanna"
+  ],
+  "Zip:16345": [
+    "County:Warren"
+  ],
+  "Zip:15317": [
+    "County:Washington"
+  ],
+  "Zip:17406": [
+    "County:York"
+  ],
+  "Zip:17019": [
+    "County:York"
+  ],
+  "Zip:15108": [
+    "County:Allegheny"
+  ],
+  "County:Allegheny": [
+    "Zip:15108",
+    "Zip:15044"
+  ],
+  "Zip:15044": [
+    "County:Allegheny"
+  ],
+  "Zip:16201": [
+    "County:Armstrong"
+  ],
+  "Zip:16242": [
+    "County:Armstrong",
+    "County:Clarion"
+  ],
+  "Zip:16025": [
+    "County:Butler"
+  ],
+  "Zip:16157": [
+    "County:Lawrence"
+  ],
+  "Zip:19526": [
+    "County:Berks"
+  ],
+  "Zip:19522": [
+    "County:Berks"
+  ],
+  "Zip:17067": [
+    "County:Lebanon"
+  ],
+  "Zip:15931": [
+    "County:Cambria"
+  ],
+  "Zip:15861": [
+    "County:Cameron"
+  ],
+  "Zip:16720": [
+    "County:Potter"
+  ],
+  "Zip:16875": [
+    "County:Centre"
+  ],
+  "Zip:15767": [
+    "County:Jefferson"
+  ],
+  "Zip:16836": [
+    "County:Clearfield"
+  ],
+  "Zip:16314": [
+    "County:Crawford"
+  ],
+  "Zip:16407": [
+    "County:Erie"
+  ],
+  "Zip:17241": [
+    "County:Cumberland"
+  ],
+  "Zip:17050": [
+    "County:Cumberland"
+  ],
+  "Zip:17112": [
+    "County:Dauphin"
+  ],
+  "Zip:17020": [
+    "County:Perry"
+  ],
+  "Zip:15557": [
+    "County:Somerset"
+  ],
+  "Zip:16347": [
+    "County:Forest",
+    "County:Warren"
+  ],
+  "County:Forest": [
+    "Zip:16347",
+    "Zip:16239",
+    "Zip:16353"
+  ],
+  "Zip:17202": [
+    "County:Franklin"
+  ],
+  "Zip:17268": [
+    "County:Franklin"
+  ],
+  "Zip:16691": [
+    "County:Fulton"
+  ],
+  "Zip:17212": [
+    "County:Fulton"
+  ],
+  "Zip:15380": [
+    "County:Greene"
+  ],
+  "Zip:15748": [
+    "County:Indiana"
+  ],
+  "Zip:15825": [
+    "County:Jefferson"
+  ],
+  "Zip:15851": [
+    "County:Jefferson"
+  ],
+  "Zip:17058": [
+    "County:Juniata"
+  ],
+  "Zip:18414": [
+    "County:Lackawanna"
+  ],
+  "Zip:18419": [
+    "County:Wyoming"
+  ],
+  "Zip:17003": [
+    "County:Lebanon"
+  ],
+  "Zip:18104": [
+    "County:Lehigh"
+  ],
+  "Zip:18656": [
+    "County:Luzerne"
+  ],
+  "Zip:17737": [
+    "County:Lycoming"
+  ],
+  "Zip:17758": [
+    "County:Sullivan"
+  ],
+  "Zip:16743": [
+    "County:McKean"
+  ],
+  "Zip:16731": [
+    "County:McKean"
+  ],
+  "Zip:19426": [
+    "County:Montgomery"
+  ],
+  "County:Montgomery": [
+    "Zip:19426"
+  ],
+  "Zip:17777": [
+    "County:Northumberland"
+  ],
+  "Zip:18042": [
+    "County:Northampton"
+  ],
+  "Zip:16901": [
+    "County:Tioga"
+  ],
+  "Zip:17856": [
+    "County:Union"
+  ],
+  "Zip:17845": [
+    "County:Union"
+  ],
+  "Zip:16323": [
+    "County:Venango"
+  ],
+  "Zip:16301": [
+    "County:Venango"
+  ],
+  "Zip:15001": [
+    "County:Beaver"
+  ],
+  "Zip:15550": [
+    "County:Bedford"
+  ],
+  "Zip:16686": [
+    "County:Blair"
+  ],
+  "Zip:16693": [
+    "County:Blair"
+  ],
+  "Zip:18833": [
+    "County:Bradford"
+  ],
+  "Zip:16914": [
+    "County:Bradford"
+  ],
+  "Zip:18944": [
+    "County:Bucks"
+  ],
+  "Zip:18940": [
+    "County:Bucks"
+  ],
+  "Zip:15834": [
+    "County:Cameron"
+  ],
+  "Zip:18210": [
+    "County:Carbon"
+  ],
+  "Zip:19073": [
+    "County:Delaware"
+  ],
+  "Zip:16248": [
+    "County:Clarion"
+  ],
+  "Zip:15860": [
+    "County:Elk",
+    "County:Jefferson"
+  ],
+  "Zip:16830": [
+    "County:Clearfield"
+  ],
+  "Zip:16833": [
+    "County:Clearfield"
+  ],
+  "Zip:17821": [
+    "County:Montour",
+    "County:Northumberland"
+  ],
+  "Zip:16406": [
+    "County:Crawford"
+  ],
+  "Zip:16125": [
+    "County:Mercer"
+  ],
+  "Zip:17257": [
+    "County:Franklin",
+    "County:Cumberland"
+  ],
+  "Zip:15846": [
+    "County:Elk"
+  ],
+  "Zip:16239": [
+    "County:Forest"
+  ],
+  "Zip:16351": [
+    "County:Warren"
+  ],
+  "Zip:17049": [
+    "County:Juniata"
+  ],
+  "Zip:17059": [
+    "County:Juniata"
+  ],
+  "Zip:17035": [
+    "County:Juniata"
+  ],
+  "Zip:16105": [
+    "County:Lawrence"
+  ],
+  "Zip:16156": [
+    "County:Lawrence"
+  ],
+  "Zip:18080": [
+    "County:Lehigh"
+  ],
+  "Zip:16749": [
+    "County:McKean"
+  ],
+  "Zip:16153": [
+    "County:Mercer"
+  ],
+  "Zip:16342": [
+    "County:Venango"
+  ],
+  "Zip:18325": [
+    "County:Monroe"
+  ],
+  "Zip:17860": [
+    "County:Northumberland"
+  ],
+  "Zip:17866": [
+    "County:Northumberland"
+  ],
+  "Zip:18428": [
+    "County:Pike"
+  ],
+  "Zip:18337": [
+    "County:Pike"
+  ],
+  "Zip:17960": [
+    "County:Schuylkill"
+  ],
+  "Zip:17842": [
+    "County:Snyder"
+  ],
+  "Zip:17768": [
+    "County:Sullivan"
+  ],
+  "Zip:16365": [
+    "County:Warren"
+  ],
+  "Zip:18417": [
+    "County:Wayne"
+  ],
+  "Zip:15650": [
+    "County:Westmoreland"
+  ],
+  "County:Westmoreland": [
+    "Zip:15650",
+    "Zip:15601",
+    "Zip:15658"
+  ],
+  "Zip:18629": [
+    "County:Wyoming"
+  ],
+  "Zip:17350": [
+    "County:Adams"
+  ],
+  "Zip:17372": [
+    "County:Adams"
+  ],
+  "Zip:17340": [
+    "County:Adams"
+  ],
+  "Zip:15010": [
+    "County:Beaver"
+  ],
+  "Zip:15043": [
+    "County:Beaver"
+  ],
+  "Zip:15537": [
+    "County:Bedford"
+  ],
+  "Zip:16648": [
+    "County:Blair"
+  ],
+  "Zip:18661": [
+    "County:Carbon",
+    "County:Luzerne"
+  ],
+  "Zip:18229": [
+    "County:Carbon"
+  ],
+  "Zip:16822": [
+    "County:Clinton"
+  ],
+  "Zip:18655": [
+    "County:Luzerne"
+  ],
+  "Zip:15870": [
+    "County:Elk"
+  ],
+  "Zip:16442": [
+    "County:Erie"
+  ],
+  "Zip:15401": [
+    "County:Fayette"
+  ],
+  "Zip:17238": [
+    "County:Fulton"
+  ],
+  "Zip:15349": [
+    "County:Greene"
+  ],
+  "Zip:16669": [
+    "County:Huntingdon"
+  ],
+  "Zip:17082": [
+    "County:Juniata"
+  ],
+  "Zip:17094": [
+    "County:Juniata"
+  ],
+  "Zip:17853": [
+    "County:Snyder"
+  ],
+  "Zip:18444": [
+    "County:Lackawanna"
+  ],
+  "Zip:16101": [
+    "County:Lawrence"
+  ],
+  "Zip:16116": [
+    "County:Lawrence"
+  ],
+  "Zip:18612": [
+    "County:Luzerne"
+  ],
+  "Zip:18636": [
+    "County:Wyoming"
+  ],
+  "Zip:17771": [
+    "County:Lycoming"
+  ],
+  "Zip:17776": [
+    "County:Lycoming"
+  ],
+  "Zip:16938": [
+    "County:Tioga"
+  ],
+  "Zip:16701": [
+    "County:McKean"
+  ],
+  "Zip:17841": [
+    "County:Mifflin",
+    "County:Snyder"
+  ],
+  "Zip:17051": [
+    "County:Mifflin"
+  ],
+  "Zip:18014": [
+    "County:Northampton"
+  ],
+  "Zip:18343": [
+    "County:Northampton"
+  ],
+  "Zip:17823": [
+    "County:Northumberland"
+  ],
+  "Zip:17040": [
+    "County:Perry"
+  ],
+  "Zip:18426": [
+    "County:Pike"
+  ],
+  "Zip:15530": [
+    "County:Somerset"
+  ],
+  "Zip:18847": [
+    "County:Susquehanna"
+  ],
+  "Zip:16933": [
+    "County:Tioga"
+  ],
+  "Zip:15301": [
+    "County:Washington"
+  ],
+  "Zip:15601": [
+    "County:Westmoreland"
+  ],
+  "Zip:17331": [
+    "County:Adams"
+  ],
+  "Zip:19530": [
+    "County:Berks"
+  ],
+  "Zip:16601": [
+    "County:Blair"
+  ],
+  "Zip:16001": [
+    "County:Butler"
+  ],
+  "Zip:16373": [
+    "County:Venango"
+  ],
+  "Zip:18255": [
+    "County:Carbon"
+  ],
+  "Zip:19363": [
+    "County:Chester"
+  ],
+  "Zip:16214": [
+    "County:Clarion"
+  ],
+  "Zip:16353": [
+    "County:Forest"
+  ],
+  "Zip:15757": [
+    "County:Clearfield"
+  ],
+  "Zip:17778": [
+    "County:Clinton"
+  ],
+  "Zip:17729": [
+    "County:Potter"
+  ],
+  "Zip:17815": [
+    "County:Columbia"
+  ],
+  "Zip:16412": [
+    "County:Erie"
+  ],
+  "Zip:16424": [
+    "County:Crawford"
+  ],
+  "Zip:16327": [
+    "County:Crawford"
+  ],
+  "Zip:17013": [
+    "County:Cumberland"
+  ],
+  "Zip:17048": [
+    "County:Dauphin"
+  ],
+  "Zip:15464": [
+    "County:Fayette"
+  ],
+  "Zip:16341": [
+    "County:Venango"
+  ],
+  "Zip:15341": [
+    "County:Greene"
+  ],
+  "Zip:15364": [
+    "County:Greene"
+  ],
+  "Zip:17086": [
+    "County:Snyder"
+  ],
+  "Zip:17062": [
+    "County:Perry"
+  ],
+  "Zip:18424": [
+    "County:Lackawanna"
+  ],
+  "Zip:17545": [
+    "County:Lancaster"
+  ],
+  "Zip:17701": [
+    "County:Lycoming"
+  ],
+  "Zip:19153": [
+    "County:Philadelphia"
+  ],
+  "County:Philadelphia": [
+    "Zip:19153"
+  ],
+  "Zip:18328": [
+    "County:Pike"
+  ],
+  "Zip:18834": [
+    "County:Susquehanna"
+  ],
+  "Zip:15323": [
+    "County:Washington"
+  ],
+  "Zip:15312": [
+    "County:Washington"
+  ],
+  "Zip:15658": [
+    "County:Westmoreland"
+  ]
+}

@@ -1,0 +1,760 @@
+{
+  "Magesterial Courts:07-1-02": [
+    "Municipality:Bucks - Bristol Borough",
+    "Municipality:Bucks - Bristol Township"
+  ],
+  "Municipality:Bucks - Bristol Borough": [
+    "Magesterial Courts:07-1-02"
+  ],
+  "Municipality:Bucks - Bristol Township": [
+    "Magesterial Courts:07-1-02",
+    "Magesterial Courts:07-1-04",
+    "Magesterial Courts:07-1-03"
+  ],
+  "Magesterial Courts:07-1-04": [
+    "Municipality:Bucks - Bristol Township",
+    "Municipality:Bucks - Tullytown Borough"
+  ],
+  "Municipality:Bucks - Tullytown Borough": [
+    "Magesterial Courts:07-1-04"
+  ],
+  "Magesterial Courts:07-2-01": [
+    "Municipality:Bucks - Northampton Township",
+    "Municipality:Bucks - Upper Southampton Township"
+  ],
+  "Municipality:Bucks - Northampton Township": [
+    "Magesterial Courts:07-2-01"
+  ],
+  "Municipality:Bucks - Upper Southampton Township": [
+    "Magesterial Courts:07-2-01"
+  ],
+  "Magesterial Courts:07-1-09": [
+    "Municipality:Bucks - Warminster Township"
+  ],
+  "Municipality:Bucks - Warminster Township": [
+    "Magesterial Courts:07-1-09"
+  ],
+  "Magesterial Courts:07-1-11": [
+    "Municipality:Bucks - Morrisville Borough",
+    "Municipality:Bucks - Lower Makefield Township"
+  ],
+  "Municipality:Bucks - Morrisville Borough": [
+    "Magesterial Courts:07-1-11"
+  ],
+  "Municipality:Bucks - Lower Makefield Township": [
+    "Magesterial Courts:07-1-11"
+  ],
+  "Magesterial Courts:07-2-07": [
+    "Municipality:Bucks - Upper Makefield Township",
+    "Municipality:Bucks - Newtown Township",
+    "Municipality:Bucks - Wrightstown Township"
+  ],
+  "Municipality:Bucks - Upper Makefield Township": [
+    "Magesterial Courts:07-2-07"
+  ],
+  "Municipality:Bucks - Newtown Township": [
+    "Magesterial Courts:07-2-07"
+  ],
+  "Municipality:Bucks - Wrightstown Township": [
+    "Magesterial Courts:07-2-07"
+  ],
+  "Magesterial Courts:07-3-02": [
+    "Municipality:Bucks - Warrington Township",
+    "Municipality:Bucks - Warwick Township"
+  ],
+  "Municipality:Bucks - Warrington Township": [
+    "Magesterial Courts:07-3-02"
+  ],
+  "Municipality:Bucks - Warwick Township": [
+    "Magesterial Courts:07-3-02"
+  ],
+  "Magesterial Courts:07-2-08": [
+    "Municipality:Bucks - New Britain Township",
+    "Municipality:Bucks - Hilltown Township"
+  ],
+  "Municipality:Bucks - New Britain Township": [
+    "Magesterial Courts:07-2-08"
+  ],
+  "Municipality:Bucks - Hilltown Township": [
+    "Magesterial Courts:07-2-08"
+  ],
+  "Magesterial Courts:07-2-02": [
+    "Municipality:Bucks - Doylestown Borough",
+    "Municipality:Bucks - Doylestown Township"
+  ],
+  "Municipality:Bucks - Doylestown Borough": [
+    "Magesterial Courts:07-2-02"
+  ],
+  "Municipality:Bucks - Doylestown Township": [
+    "Magesterial Courts:07-2-02"
+  ],
+  "Magesterial Courts:07-3-01": [
+    "Municipality:Bucks - Buckingham Township",
+    "Municipality:Bucks - Solebury Township"
+  ],
+  "Municipality:Bucks - Buckingham Township": [
+    "Magesterial Courts:07-3-01"
+  ],
+  "Municipality:Bucks - Solebury Township": [
+    "Magesterial Courts:07-3-01"
+  ],
+  "Magesterial Courts:07-3-03": [
+    "Municipality:Bucks - Bedminster Township",
+    "Municipality:Bucks - Plumstead Township",
+    "Municipality:Bucks - Nockamixon Township",
+    "Municipality:Bucks - Haycock Township",
+    "Municipality:Bucks - Tinicum Township",
+    "Municipality:Bucks - Springfield Township"
+  ],
+  "Municipality:Bucks - Bedminster Township": [
+    "Magesterial Courts:07-3-03"
+  ],
+  "Municipality:Bucks - Plumstead Township": [
+    "Magesterial Courts:07-3-03"
+  ],
+  "Municipality:Bucks - Nockamixon Township": [
+    "Magesterial Courts:07-3-03"
+  ],
+  "Municipality:Bucks - Haycock Township": [
+    "Magesterial Courts:07-3-03"
+  ],
+  "Municipality:Bucks - Tinicum Township": [
+    "Magesterial Courts:07-3-03"
+  ],
+  "Municipality:Bucks - Springfield Township": [
+    "Magesterial Courts:07-3-03"
+  ],
+  "Magesterial Courts:07-2-05": [
+    "Municipality:Bucks - East Rockhill Township",
+    "Municipality:Bucks - West Rockhill Township",
+    "Municipality:Bucks - Richland Township",
+    "Municipality:Bucks - Milford Township"
+  ],
+  "Municipality:Bucks - East Rockhill Township": [
+    "Magesterial Courts:07-2-05"
+  ],
+  "Municipality:Bucks - West Rockhill Township": [
+    "Magesterial Courts:07-2-05"
+  ],
+  "Municipality:Bucks - Richland Township": [
+    "Magesterial Courts:07-2-05"
+  ],
+  "Municipality:Bucks - Milford Township": [
+    "Magesterial Courts:07-2-05"
+  ],
+  "Magesterial Courts:07-1-03": [
+    "Municipality:Bucks - Bristol Township"
+  ],
+  "Magesterial Courts:07-1-07": [
+    "Municipality:Bucks - Middletown Township",
+    "Municipality:Bucks - Lower Southampton Township"
+  ],
+  "Municipality:Bucks - Middletown Township": [
+    "Magesterial Courts:07-1-07",
+    "Magesterial Courts:07-1-08"
+  ],
+  "Municipality:Bucks - Lower Southampton Township": [
+    "Magesterial Courts:07-1-07"
+  ],
+  "Magesterial Courts:07-1-01": [
+    "Municipality:Bucks - Bensalem Township"
+  ],
+  "Municipality:Bucks - Bensalem Township": [
+    "Magesterial Courts:07-1-01",
+    "Magesterial Courts:07-1-12"
+  ],
+  "Magesterial Courts:07-1-12": [
+    "Municipality:Bucks - Bensalem Township"
+  ],
+  "Magesterial Courts:07-1-08": [
+    "Municipality:Bucks - Middletown Township"
+  ],
+  "Magesterial Courts:07-1-10": [
+    "Municipality:Bucks - Falls Township"
+  ],
+  "Municipality:Bucks - Falls Township": [
+    "Magesterial Courts:07-1-10",
+    "Magesterial Courts:undefined"
+  ],
+  "Magesterial Courts:undefined": [
+    "Municipality:Bucks - Falls Township"
+  ],
+  "Magesterial Courts:2015-02-07": [
+    "Municipality:Chester - East Caln Township",
+    "Municipality:Chester - West Pikeland Township",
+    "Municipality:Chester - Upper Uwchlan Township",
+    "Municipality:Chester - Uwchlan Township"
+  ],
+  "Municipality:Chester - East Caln Township": [
+    "Magesterial Courts:2015-02-07"
+  ],
+  "Municipality:Chester - West Pikeland Township": [
+    "Magesterial Courts:2015-02-07"
+  ],
+  "Municipality:Chester - Upper Uwchlan Township": [
+    "Magesterial Courts:2015-02-07"
+  ],
+  "Municipality:Chester - Uwchlan Township": [
+    "Magesterial Courts:2015-02-07"
+  ],
+  "Magesterial Courts:2015-02-03": [
+    "Municipality:Chester - West Goshen Township",
+    "Municipality:Chester - Thornbury Township",
+    "Municipality:Chester - Westtown Township"
+  ],
+  "Municipality:Chester - West Goshen Township": [
+    "Magesterial Courts:2015-02-03"
+  ],
+  "Municipality:Chester - Thornbury Township": [
+    "Magesterial Courts:2015-02-03"
+  ],
+  "Municipality:Chester - Westtown Township": [
+    "Magesterial Courts:2015-02-03"
+  ],
+  "Magesterial Courts:2015-03-05": [
+    "Municipality:Chester - Penn Township",
+    "Municipality:Chester - East Nottingham Township",
+    "Municipality:Chester - Elk Township",
+    "Municipality:Chester - West Nottingham Township",
+    "Municipality:Chester - Upper Oxford Township",
+    "Municipality:Chester - Lower Oxford Township",
+    "Municipality:Chester - New London Township"
+  ],
+  "Municipality:Chester - Penn Township": [
+    "Magesterial Courts:2015-03-05"
+  ],
+  "Municipality:Chester - East Nottingham Township": [
+    "Magesterial Courts:2015-03-05"
+  ],
+  "Municipality:Chester - Elk Township": [
+    "Magesterial Courts:2015-03-05"
+  ],
+  "Municipality:Chester - West Nottingham Township": [
+    "Magesterial Courts:2015-03-05"
+  ],
+  "Municipality:Chester - Upper Oxford Township": [
+    "Magesterial Courts:2015-03-05"
+  ],
+  "Municipality:Chester - Lower Oxford Township": [
+    "Magesterial Courts:2015-03-05"
+  ],
+  "Municipality:Chester - New London Township": [
+    "Magesterial Courts:2015-03-05"
+  ],
+  "Magesterial Courts:2015-04-02": [
+    "Municipality:Chester - Caln Township",
+    "Municipality:Chester - East Brandywine Township",
+    "Municipality:Chester - Downingtown Borough"
+  ],
+  "Municipality:Chester - Caln Township": [
+    "Magesterial Courts:2015-04-02"
+  ],
+  "Municipality:Chester - East Brandywine Township": [
+    "Magesterial Courts:2015-04-02"
+  ],
+  "Municipality:Chester - Downingtown Borough": [
+    "Magesterial Courts:2015-04-02"
+  ],
+  "Magesterial Courts:2015-04-01": [
+    "Municipality:Chester - Tredyffrin Township",
+    "Municipality:Chester - East Whiteland Township"
+  ],
+  "Municipality:Chester - Tredyffrin Township": [
+    "Magesterial Courts:2015-04-01",
+    "Magesterial Courts:2015-01-02"
+  ],
+  "Municipality:Chester - East Whiteland Township": [
+    "Magesterial Courts:2015-04-01",
+    "Magesterial Courts:2015-04-03"
+  ],
+  "Magesterial Courts:2015-04-03": [
+    "Municipality:Chester - East Whiteland Township",
+    "Municipality:Chester - West Whiteland Township"
+  ],
+  "Municipality:Chester - West Whiteland Township": [
+    "Magesterial Courts:2015-04-03"
+  ],
+  "Magesterial Courts:2015-04-04": [
+    "Municipality:Chester - Franklin Township",
+    "Municipality:Chester - London Britain Township",
+    "Municipality:Chester - West Marlborough Township",
+    "Municipality:Chester - New Garden Township",
+    "Municipality:Chester - London Grove Township"
+  ],
+  "Municipality:Chester - Franklin Township": [
+    "Magesterial Courts:2015-04-04"
+  ],
+  "Municipality:Chester - London Britain Township": [
+    "Magesterial Courts:2015-04-04"
+  ],
+  "Municipality:Chester - West Marlborough Township": [
+    "Magesterial Courts:2015-04-04"
+  ],
+  "Municipality:Chester - New Garden Township": [
+    "Magesterial Courts:2015-04-04"
+  ],
+  "Municipality:Chester - London Grove Township": [
+    "Magesterial Courts:2015-04-04"
+  ],
+  "Magesterial Courts:2015-01-02": [
+    "Municipality:Chester - Willistown Township",
+    "Municipality:Chester - Tredyffrin Township",
+    "Municipality:Chester - Easttown Township",
+    "Municipality:Chester - East Goshen Township"
+  ],
+  "Municipality:Chester - Willistown Township": [
+    "Magesterial Courts:2015-01-02"
+  ],
+  "Municipality:Chester - Easttown Township": [
+    "Magesterial Courts:2015-01-02"
+  ],
+  "Municipality:Chester - East Goshen Township": [
+    "Magesterial Courts:2015-01-02"
+  ],
+  "Magesterial Courts:2015-01-04": [
+    "Municipality:Chester - West Chester Borough"
+  ],
+  "Municipality:Chester - West Chester Borough": [
+    "Magesterial Courts:2015-01-04"
+  ],
+  "Magesterial Courts:2015-01-03": [
+    "Municipality:Chester - Coatesville City",
+    "Municipality:Chester - South Coatesville Borough"
+  ],
+  "Municipality:Chester - Coatesville City": [
+    "Magesterial Courts:2015-01-03"
+  ],
+  "Municipality:Chester - South Coatesville Borough": [
+    "Magesterial Courts:2015-01-03"
+  ],
+  "Magesterial Courts:2015-01-01": [
+    "Municipality:Chester - East Bradford Township",
+    "Municipality:Chester - West Bradford Township"
+  ],
+  "Municipality:Chester - East Bradford Township": [
+    "Magesterial Courts:2015-01-01"
+  ],
+  "Municipality:Chester - West Bradford Township": [
+    "Magesterial Courts:2015-01-01"
+  ],
+  "Magesterial Courts:2015-02-01": [
+    "Municipality:Chester - Phoenixville Borough",
+    "Municipality:Chester - Charlestown Township",
+    "Municipality:Chester - Schuylkill Township"
+  ],
+  "Municipality:Chester - Phoenixville Borough": [
+    "Magesterial Courts:2015-02-01"
+  ],
+  "Municipality:Chester - Charlestown Township": [
+    "Magesterial Courts:2015-02-01"
+  ],
+  "Municipality:Chester - Schuylkill Township": [
+    "Magesterial Courts:2015-02-01"
+  ],
+  "Magesterial Courts:2015-03-01": [
+    "Municipality:Chester - East Pikeland Township",
+    "Municipality:Chester - East Coventry Township",
+    "Municipality:Chester - East Vincent Township",
+    "Municipality:Chester - North Coventry Township",
+    "Municipality:Chester - East Nantmeal Township",
+    "Municipality:Chester - West Vincent Township",
+    "Municipality:Chester - South Coventry Township",
+    "Municipality:Chester - Warwick Township"
+  ],
+  "Municipality:Chester - East Pikeland Township": [
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Municipality:Chester - East Coventry Township": [
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Municipality:Chester - East Vincent Township": [
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Municipality:Chester - North Coventry Township": [
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Municipality:Chester - East Nantmeal Township": [
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Municipality:Chester - West Vincent Township": [
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Municipality:Chester - South Coventry Township": [
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Municipality:Chester - Warwick Township": [
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Magesterial Courts:2015-03-04": [
+    "Municipality:Chester - Birmingham Township",
+    "Municipality:Chester - East Marlborough Township",
+    "Municipality:Chester - Pocopson Township",
+    "Municipality:Chester - Newlin Township",
+    "Municipality:Chester - Kennett Township",
+    "Municipality:Chester - Pennsbury Township"
+  ],
+  "Municipality:Chester - Birmingham Township": [
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Municipality:Chester - East Marlborough Township": [
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Municipality:Chester - Pocopson Township": [
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Municipality:Chester - Newlin Township": [
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Municipality:Chester - Kennett Township": [
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Municipality:Chester - Pennsbury Township": [
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Magesterial Courts:2015-03-06": [
+    "Municipality:Chester - Wallace Township",
+    "Municipality:Chester - West Nantmeal Township",
+    "Municipality:Chester - West Caln Township",
+    "Municipality:Chester - West Brandywine Township",
+    "Municipality:Chester - Sadsbury Township",
+    "Municipality:Chester - Honey Brook Township"
+  ],
+  "Municipality:Chester - Wallace Township": [
+    "Magesterial Courts:2015-03-06"
+  ],
+  "Municipality:Chester - West Nantmeal Township": [
+    "Magesterial Courts:2015-03-06"
+  ],
+  "Municipality:Chester - West Caln Township": [
+    "Magesterial Courts:2015-03-06"
+  ],
+  "Municipality:Chester - West Brandywine Township": [
+    "Magesterial Courts:2015-03-06"
+  ],
+  "Municipality:Chester - Sadsbury Township": [
+    "Magesterial Courts:2015-03-06"
+  ],
+  "Municipality:Chester - Honey Brook Township": [
+    "Magesterial Courts:2015-03-06"
+  ],
+  "Magesterial Courts:2015-03-07": [
+    "Municipality:Chester - Highland Township",
+    "Municipality:Chester - East Fallowfield Township",
+    "Municipality:Chester - West Fallowfield Township",
+    "Municipality:Chester - West Sadsbury Township",
+    "Municipality:Chester - Londonderry Township",
+    "Municipality:Chester - Valley Township"
+  ],
+  "Municipality:Chester - Highland Township": [
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Municipality:Chester - East Fallowfield Township": [
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Municipality:Chester - West Fallowfield Township": [
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Municipality:Chester - West Sadsbury Township": [
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Municipality:Chester - Londonderry Township": [
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Municipality:Chester - Valley Township": [
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Magesterial Courts:1938-01-01": [
+    "Municipality:Montgomery - West Norriton Township",
+    "Municipality:Montgomery - East Norriton Township"
+  ],
+  "Municipality:Montgomery - West Norriton Township": [
+    "Magesterial Courts:1938-01-01"
+  ],
+  "Municipality:Montgomery - East Norriton Township": [
+    "Magesterial Courts:1938-01-01"
+  ],
+  "Magesterial Courts:1938-01-02": [
+    "Municipality:Montgomery - Jenkintown Borough",
+    "Municipality:Montgomery - Cheltenham Township"
+  ],
+  "Municipality:Montgomery - Jenkintown Borough": [
+    "Magesterial Courts:1938-01-02"
+  ],
+  "Municipality:Montgomery - Cheltenham Township": [
+    "Magesterial Courts:1938-01-02",
+    "Magesterial Courts:1938-01-03"
+  ],
+  "Magesterial Courts:1938-01-03": [
+    "Municipality:Montgomery - Cheltenham Township"
+  ],
+  "Magesterial Courts:1938-01-04": [
+    "Municipality:Montgomery - Abington Township"
+  ],
+  "Municipality:Montgomery - Abington Township": [
+    "Magesterial Courts:1938-01-04",
+    "Magesterial Courts:1938-01-05"
+  ],
+  "Magesterial Courts:1938-01-05": [
+    "Municipality:Montgomery - Abington Township"
+  ],
+  "Magesterial Courts:1938-01-06": [
+    "Municipality:Montgomery - Lower Merion Township"
+  ],
+  "Municipality:Montgomery - Lower Merion Township": [
+    "Magesterial Courts:1938-01-06",
+    "Magesterial Courts:1938-01-07",
+    "Magesterial Courts:1938-02-04"
+  ],
+  "Magesterial Courts:1938-01-07": [
+    "Municipality:Montgomery - Lower Merion Township",
+    "Municipality:Montgomery - Narberth Borough"
+  ],
+  "Municipality:Montgomery - Narberth Borough": [
+    "Magesterial Courts:1938-01-07"
+  ],
+  "Magesterial Courts:1938-01-08": [
+    "Municipality:Montgomery - Springfield Township"
+  ],
+  "Municipality:Montgomery - Springfield Township": [
+    "Magesterial Courts:1938-01-08"
+  ],
+  "Magesterial Courts:1938-01-09": [
+    "Municipality:Montgomery - West Conshohocken Borough",
+    "Municipality:Montgomery - Upper Merion Township"
+  ],
+  "Municipality:Montgomery - West Conshohocken Borough": [
+    "Magesterial Courts:1938-01-09"
+  ],
+  "Municipality:Montgomery - Upper Merion Township": [
+    "Magesterial Courts:1938-01-09",
+    "Magesterial Courts:1938-01-25"
+  ],
+  "Magesterial Courts:1938-01-10": [
+    "Municipality:Montgomery - Ambler Borough",
+    "Municipality:Montgomery - Upper Dublin Township"
+  ],
+  "Municipality:Montgomery - Ambler Borough": [
+    "Magesterial Courts:1938-01-10"
+  ],
+  "Municipality:Montgomery - Upper Dublin Township": [
+    "Magesterial Courts:1938-01-10"
+  ],
+  "Magesterial Courts:1938-01-11": [
+    "Municipality:Montgomery - Pottstown Borough",
+    "Municipality:Montgomery - West Pottsgrove Township"
+  ],
+  "Municipality:Montgomery - Pottstown Borough": [
+    "Magesterial Courts:1938-01-11",
+    "Magesterial Courts:1938-01-12"
+  ],
+  "Municipality:Montgomery - West Pottsgrove Township": [
+    "Magesterial Courts:1938-01-11"
+  ],
+  "Magesterial Courts:1938-01-12": [
+    "Municipality:Montgomery - Lower Pottsgrove Township",
+    "Municipality:Montgomery - Pottstown Borough"
+  ],
+  "Municipality:Montgomery - Lower Pottsgrove Township": [
+    "Magesterial Courts:1938-01-12"
+  ],
+  "Magesterial Courts:1938-01-13": [
+    "Municipality:Montgomery - Conshohocken Borough",
+    "Municipality:Montgomery - Plymouth Township"
+  ],
+  "Municipality:Montgomery - Conshohocken Borough": [
+    "Magesterial Courts:1938-01-13"
+  ],
+  "Municipality:Montgomery - Plymouth Township": [
+    "Magesterial Courts:1938-01-13"
+  ],
+  "Magesterial Courts:1938-01-14": [
+    "Municipality:Montgomery - Horsham Township",
+    "Municipality:Montgomery - Hatboro Borough",
+    "Municipality:Montgomery - Upper Moreland Township"
+  ],
+  "Municipality:Montgomery - Horsham Township": [
+    "Magesterial Courts:1938-01-14",
+    "Magesterial Courts:1938-01-22"
+  ],
+  "Municipality:Montgomery - Hatboro Borough": [
+    "Magesterial Courts:1938-01-14"
+  ],
+  "Municipality:Montgomery - Upper Moreland Township": [
+    "Magesterial Courts:1938-01-14",
+    "Magesterial Courts:1938-02-08"
+  ],
+  "Magesterial Courts:1938-01-15": [
+    "Municipality:Montgomery - Norristown Borough"
+  ],
+  "Municipality:Montgomery - Norristown Borough": [
+    "Magesterial Courts:1938-01-15",
+    "Magesterial Courts:1938-01-16",
+    "Magesterial Courts:1938-02-09"
+  ],
+  "Magesterial Courts:1938-01-16": [
+    "Municipality:Montgomery - Norristown Borough"
+  ],
+  "Magesterial Courts:1938-01-18": [
+    "Municipality:Montgomery - Montgomery Township",
+    "Municipality:Montgomery - Hatfield Township"
+  ],
+  "Municipality:Montgomery - Montgomery Township": [
+    "Magesterial Courts:1938-01-18"
+  ],
+  "Municipality:Montgomery - Hatfield Township": [
+    "Magesterial Courts:1938-01-18",
+    "Magesterial Courts:1938-01-28"
+  ],
+  "Magesterial Courts:1938-01-19": [
+    "Municipality:Montgomery - Limerick Township",
+    "Municipality:Montgomery - Upper Providence Township"
+  ],
+  "Municipality:Montgomery - Limerick Township": [
+    "Magesterial Courts:1938-01-19"
+  ],
+  "Municipality:Montgomery - Upper Providence Township": [
+    "Magesterial Courts:1938-01-19",
+    "Magesterial Courts:1938-01-20"
+  ],
+  "Magesterial Courts:1938-01-20": [
+    "Municipality:Montgomery - Collegeville Borough",
+    "Municipality:Montgomery - Trappe Borough",
+    "Municipality:Montgomery - Lower Providence Township",
+    "Municipality:Montgomery - Upper Providence Township"
+  ],
+  "Municipality:Montgomery - Collegeville Borough": [
+    "Magesterial Courts:1938-01-20"
+  ],
+  "Municipality:Montgomery - Trappe Borough": [
+    "Magesterial Courts:1938-01-20"
+  ],
+  "Municipality:Montgomery - Lower Providence Township": [
+    "Magesterial Courts:1938-01-20"
+  ],
+  "Magesterial Courts:1938-01-21": [
+    "Municipality:Montgomery - Whitpain Township",
+    "Municipality:Montgomery - Lower Gwynedd Township",
+    "Municipality:Montgomery - Upper Gwynedd Township"
+  ],
+  "Municipality:Montgomery - Whitpain Township": [
+    "Magesterial Courts:1938-01-21"
+  ],
+  "Municipality:Montgomery - Lower Gwynedd Township": [
+    "Magesterial Courts:1938-01-21"
+  ],
+  "Municipality:Montgomery - Upper Gwynedd Township": [
+    "Magesterial Courts:1938-01-21"
+  ],
+  "Magesterial Courts:1938-01-22": [
+    "Municipality:Montgomery - Horsham Township"
+  ],
+  "Magesterial Courts:1938-01-23": [
+    "Municipality:Montgomery - Whitemarsh Township"
+  ],
+  "Municipality:Montgomery - Whitemarsh Township": [
+    "Magesterial Courts:1938-01-23"
+  ],
+  "Magesterial Courts:1938-01-24": [
+    "Municipality:Montgomery - Worcester Township",
+    "Municipality:Montgomery - Skippack Township",
+    "Municipality:Montgomery - Lower Salford Township",
+    "Municipality:Montgomery - Franconia Township",
+    "Municipality:Montgomery - Perkiomen Township"
+  ],
+  "Municipality:Montgomery - Worcester Township": [
+    "Magesterial Courts:1938-01-24"
+  ],
+  "Municipality:Montgomery - Skippack Township": [
+    "Magesterial Courts:1938-01-24"
+  ],
+  "Municipality:Montgomery - Lower Salford Township": [
+    "Magesterial Courts:1938-01-24"
+  ],
+  "Municipality:Montgomery - Franconia Township": [
+    "Magesterial Courts:1938-01-24"
+  ],
+  "Municipality:Montgomery - Perkiomen Township": [
+    "Magesterial Courts:1938-01-24"
+  ],
+  "Magesterial Courts:1938-01-25": [
+    "Municipality:Montgomery - Bridgeport Borough",
+    "Municipality:Montgomery - Upper Merion Township"
+  ],
+  "Municipality:Montgomery - Bridgeport Borough": [
+    "Magesterial Courts:1938-01-25"
+  ],
+  "Magesterial Courts:1938-01-28": [
+    "Municipality:Montgomery - Lansdale Borough",
+    "Municipality:Montgomery - Towamencin Township",
+    "Municipality:Montgomery - Hatfield Township"
+  ],
+  "Municipality:Montgomery - Lansdale Borough": [
+    "Magesterial Courts:1938-01-28"
+  ],
+  "Municipality:Montgomery - Towamencin Township": [
+    "Magesterial Courts:1938-01-28"
+  ],
+  "Magesterial Courts:1938-02-02": [
+    "Municipality:Montgomery - Upper Salford Township",
+    "Municipality:Montgomery - Marlborough Township",
+    "Municipality:Montgomery - Salford Township",
+    "Municipality:Montgomery - Upper Hanover Township"
+  ],
+  "Municipality:Montgomery - Upper Salford Township": [
+    "Magesterial Courts:1938-02-02"
+  ],
+  "Municipality:Montgomery - Marlborough Township": [
+    "Magesterial Courts:1938-02-02"
+  ],
+  "Municipality:Montgomery - Salford Township": [
+    "Magesterial Courts:1938-02-02"
+  ],
+  "Municipality:Montgomery - Upper Hanover Township": [
+    "Magesterial Courts:1938-02-02"
+  ],
+  "Magesterial Courts:1938-02-03": [
+    "Municipality:Montgomery - Upper Frederick Township",
+    "Municipality:Montgomery - New Hanover Township",
+    "Municipality:Montgomery - Lower Frederick Township",
+    "Municipality:Montgomery - Douglass Township",
+    "Municipality:Montgomery - Upper Pottsgrove Township"
+  ],
+  "Municipality:Montgomery - Upper Frederick Township": [
+    "Magesterial Courts:1938-02-03"
+  ],
+  "Municipality:Montgomery - New Hanover Township": [
+    "Magesterial Courts:1938-02-03"
+  ],
+  "Municipality:Montgomery - Lower Frederick Township": [
+    "Magesterial Courts:1938-02-03"
+  ],
+  "Municipality:Montgomery - Douglass Township": [
+    "Magesterial Courts:1938-02-03"
+  ],
+  "Municipality:Montgomery - Upper Pottsgrove Township": [
+    "Magesterial Courts:1938-02-03"
+  ],
+  "Magesterial Courts:1938-02-04": [
+    "Municipality:Montgomery - Lower Merion Township"
+  ],
+  "Magesterial Courts:1938-02-08": [
+    "Municipality:Montgomery - Upper Moreland Township",
+    "Municipality:Montgomery - Lower Moreland Township",
+    "Municipality:Montgomery - Bryn Athyn Borough"
+  ],
+  "Municipality:Montgomery - Lower Moreland Township": [
+    "Magesterial Courts:1938-02-08"
+  ],
+  "Municipality:Montgomery - Bryn Athyn Borough": [
+    "Magesterial Courts:1938-02-08"
+  ],
+  "Magesterial Courts:1938-02-09": [
+    "Municipality:Montgomery - Norristown Borough"
+  ],
+  "Magesterial Courts:District": [
+    "Municipality:Allegheny - East Deer Township"
+  ],
+  "Municipality:Allegheny - East Deer Township": [
+    "Magesterial Courts:District"
+  ]
+}

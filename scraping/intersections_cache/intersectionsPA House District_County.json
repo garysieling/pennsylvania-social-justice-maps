@@ -1,0 +1,826 @@
+{
+  "PA House District:77": [
+    "County:Centre"
+  ],
+  "County:Centre": [
+    "PA House District:77",
+    "PA House District:76",
+    "PA House District:81",
+    "PA House District:171"
+  ],
+  "PA House District:73": [
+    "County:Cambria",
+    "County:Clearfield"
+  ],
+  "County:Cambria": [
+    "PA House District:73",
+    "PA House District:72",
+    "PA House District:71"
+  ],
+  "County:Clearfield": [
+    "PA House District:73",
+    "PA House District:75"
+  ],
+  "PA House District:50": [
+    "County:Greene"
+  ],
+  "County:Greene": [
+    "PA House District:50"
+  ],
+  "PA House District:46": [
+    "County:Washington"
+  ],
+  "County:Washington": [
+    "PA House District:46",
+    "PA House District:48",
+    "PA House District:49",
+    "PA House District:39",
+    "PA House District:15"
+  ],
+  "PA House District:47": [
+    "County:York"
+  ],
+  "County:York": [
+    "PA House District:47",
+    "PA House District:196",
+    "PA House District:92",
+    "PA House District:169",
+    "PA House District:93",
+    "PA House District:94"
+  ],
+  "PA House District:48": [
+    "County:Washington"
+  ],
+  "PA House District:49": [
+    "County:Fayette",
+    "County:Washington"
+  ],
+  "County:Fayette": [
+    "PA House District:49",
+    "PA House District:51",
+    "PA House District:52"
+  ],
+  "PA House District:59": [
+    "County:Westmoreland",
+    "County:Somerset"
+  ],
+  "County:Westmoreland": [
+    "PA House District:59",
+    "PA House District:54",
+    "PA House District:55",
+    "PA House District:57",
+    "PA House District:56",
+    "PA House District:58"
+  ],
+  "County:Somerset": [
+    "PA House District:59",
+    "PA House District:51",
+    "PA House District:69"
+  ],
+  "PA House District:51": [
+    "County:Fayette",
+    "County:Somerset"
+  ],
+  "PA House District:52": [
+    "County:Fayette"
+  ],
+  "PA House District:109": [
+    "County:Columbia"
+  ],
+  "County:Columbia": [
+    "PA House District:109",
+    "PA House District:107"
+  ],
+  "PA House District:117": [
+    "County:Wyoming",
+    "County:Luzerne"
+  ],
+  "County:Wyoming": [
+    "PA House District:117"
+  ],
+  "County:Luzerne": [
+    "PA House District:117",
+    "PA House District:119",
+    "PA House District:120",
+    "PA House District:118",
+    "PA House District:116"
+  ],
+  "PA House District:119": [
+    "County:Luzerne"
+  ],
+  "PA House District:120": [
+    "County:Luzerne"
+  ],
+  "PA House District:108": [
+    "County:Northumberland",
+    "County:Snyder"
+  ],
+  "County:Northumberland": [
+    "PA House District:108",
+    "PA House District:107"
+  ],
+  "County:Snyder": [
+    "PA House District:108",
+    "PA House District:85"
+  ],
+  "PA House District:76": [
+    "County:Centre",
+    "County:Clinton"
+  ],
+  "County:Clinton": [
+    "PA House District:76"
+  ],
+  "PA House District:84": [
+    "County:Lycoming"
+  ],
+  "County:Lycoming": [
+    "PA House District:84",
+    "PA House District:83"
+  ],
+  "PA House District:64": [
+    "County:Butler",
+    "County:Venango"
+  ],
+  "County:Butler": [
+    "PA House District:64",
+    "PA House District:12",
+    "PA House District:11",
+    "PA House District:8"
+  ],
+  "County:Venango": [
+    "PA House District:64"
+  ],
+  "PA House District:5": [
+    "County:Berks"
+  ],
+  "County:Berks": [
+    "PA House District:5",
+    "PA House District:134",
+    "PA House District:124",
+    "PA House District:129",
+    "PA House District:130",
+    "PA House District:128"
+  ],
+  "PA House District:6": [
+    "County:Erie",
+    "County:Crawford"
+  ],
+  "County:Erie": [
+    "PA House District:6",
+    "PA House District:17",
+    "PA House District:3",
+    "PA House District:4"
+  ],
+  "County:Crawford": [
+    "PA House District:6",
+    "PA House District:17",
+    "PA House District:65"
+  ],
+  "PA House District:17": [
+    "County:Erie",
+    "County:Crawford",
+    "County:Mercer"
+  ],
+  "County:Mercer": [
+    "PA House District:17",
+    "PA House District:7",
+    "PA House District:8"
+  ],
+  "PA House District:3": [
+    "County:Erie"
+  ],
+  "PA House District:72": [
+    "County:Cambria"
+  ],
+  "PA House District:71": [
+    "County:Cambria"
+  ],
+  "PA House District:62": [
+    "County:Indiana"
+  ],
+  "County:Indiana": [
+    "PA House District:62",
+    "PA House District:66",
+    "PA House District:60"
+  ],
+  "PA House District:80": [
+    "County:Blair"
+  ],
+  "County:Blair": [
+    "PA House District:80",
+    "PA House District:79"
+  ],
+  "PA House District:79": [
+    "County:Blair"
+  ],
+  "PA House District:69": [
+    "County:Bedford",
+    "County:Somerset"
+  ],
+  "County:Bedford": [
+    "PA House District:69",
+    "PA House District:78"
+  ],
+  "PA House District:65": [
+    "County:Forest",
+    "County:Crawford",
+    "County:Warren"
+  ],
+  "County:Forest": [
+    "PA House District:65",
+    "PA House District:63"
+  ],
+  "County:Warren": [
+    "PA House District:65"
+  ],
+  "PA House District:67": [
+    "County:Cameron",
+    "County:McKean",
+    "County:Potter"
+  ],
+  "County:Cameron": [
+    "PA House District:67"
+  ],
+  "County:McKean": [
+    "PA House District:67"
+  ],
+  "County:Potter": [
+    "PA House District:67"
+  ],
+  "PA House District:75": [
+    "County:Elk",
+    "County:Clearfield"
+  ],
+  "County:Elk": [
+    "PA House District:75"
+  ],
+  "PA House District:66": [
+    "County:Indiana",
+    "County:Jefferson"
+  ],
+  "County:Jefferson": [
+    "PA House District:66"
+  ],
+  "PA House District:134": [
+    "County:Berks",
+    "County:Lehigh"
+  ],
+  "County:Lehigh": [
+    "PA House District:134",
+    "PA House District:131",
+    "PA House District:133",
+    "PA House District:187",
+    "PA House District:183"
+  ],
+  "PA House District:131": [
+    "County:Lehigh"
+  ],
+  "PA House District:136": [
+    "County:Northampton"
+  ],
+  "County:Northampton": [
+    "PA House District:136",
+    "PA House District:137",
+    "PA House District:138",
+    "PA House District:183"
+  ],
+  "PA House District:133": [
+    "County:Lehigh"
+  ],
+  "PA House District:114": [
+    "County:Lackawanna"
+  ],
+  "County:Lackawanna": [
+    "PA House District:114",
+    "PA House District:113",
+    "PA House District:118",
+    "PA House District:112"
+  ],
+  "PA House District:113": [
+    "County:Lackawanna"
+  ],
+  "PA House District:118": [
+    "County:Lackawanna",
+    "County:Luzerne"
+  ],
+  "PA House District:116": [
+    "County:Luzerne"
+  ],
+  "PA House District:122": [
+    "County:Carbon"
+  ],
+  "County:Carbon": [
+    "PA House District:122"
+  ],
+  "PA House District:139": [
+    "County:Wayne",
+    "County:Pike"
+  ],
+  "County:Wayne": [
+    "PA House District:139",
+    "PA House District:111"
+  ],
+  "County:Pike": [
+    "PA House District:139",
+    "PA House District:189"
+  ],
+  "PA House District:115": [
+    "County:Monroe"
+  ],
+  "County:Monroe": [
+    "PA House District:115",
+    "PA House District:189",
+    "PA House District:176"
+  ],
+  "PA House District:112": [
+    "County:Lackawanna"
+  ],
+  "PA House District:189": [
+    "County:Monroe",
+    "County:Pike"
+  ],
+  "PA House District:125": [
+    "County:Dauphin",
+    "County:Schuylkill"
+  ],
+  "County:Dauphin": [
+    "PA House District:125",
+    "PA House District:104",
+    "PA House District:105",
+    "PA House District:106"
+  ],
+  "County:Schuylkill": [
+    "PA House District:125",
+    "PA House District:123",
+    "PA House District:124"
+  ],
+  "PA House District:123": [
+    "County:Schuylkill"
+  ],
+  "PA House District:107": [
+    "County:Columbia",
+    "County:Montour",
+    "County:Northumberland"
+  ],
+  "County:Montour": [
+    "PA House District:107"
+  ],
+  "PA House District:124": [
+    "County:Berks",
+    "County:Schuylkill"
+  ],
+  "PA House District:129": [
+    "County:Berks"
+  ],
+  "PA House District:187": [
+    "County:Lehigh"
+  ],
+  "PA House District:137": [
+    "County:Northampton"
+  ],
+  "PA House District:138": [
+    "County:Northampton"
+  ],
+  "PA House District:148": [
+    "County:Montgomery"
+  ],
+  "County:Montgomery": [
+    "PA House District:148",
+    "PA House District:149",
+    "PA House District:70",
+    "PA House District:53",
+    "PA House District:146",
+    "PA House District:147",
+    "PA House District:150",
+    "PA House District:61",
+    "PA House District:151"
+  ],
+  "PA House District:149": [
+    "County:Montgomery"
+  ],
+  "PA House District:70": [
+    "County:Montgomery"
+  ],
+  "PA House District:12": [
+    "County:Butler"
+  ],
+  "PA House District:7": [
+    "County:Mercer"
+  ],
+  "PA House District:162": [
+    "County:Delaware"
+  ],
+  "County:Delaware": [
+    "PA House District:162",
+    "PA House District:166",
+    "PA House District:165",
+    "PA House District:168",
+    "PA House District:160",
+    "PA House District:159",
+    "PA House District:161"
+  ],
+  "PA House District:185": [
+    "County:Philadelphia"
+  ],
+  "County:Philadelphia": [
+    "PA House District:185",
+    "PA House District:177",
+    "PA House District:200",
+    "PA House District:170",
+    "PA House District:173",
+    "PA House District:194"
+  ],
+  "PA House District:196": [
+    "County:York"
+  ],
+  "PA House District:193": [
+    "County:Adams",
+    "County:Cumberland"
+  ],
+  "County:Adams": [
+    "PA House District:193",
+    "PA House District:91"
+  ],
+  "County:Cumberland": [
+    "PA House District:193",
+    "PA House District:86",
+    "PA House District:87",
+    "PA House District:88",
+    "PA House District:199"
+  ],
+  "PA House District:53": [
+    "County:Montgomery"
+  ],
+  "PA House District:167": [
+    "County:Chester"
+  ],
+  "County:Chester": [
+    "PA House District:167",
+    "PA House District:155",
+    "PA House District:26",
+    "PA House District:13",
+    "PA House District:158",
+    "PA House District:74"
+  ],
+  "PA House District:177": [
+    "County:Philadelphia"
+  ],
+  "PA House District:178": [
+    "County:Bucks"
+  ],
+  "County:Bucks": [
+    "PA House District:178",
+    "PA House District:140",
+    "PA House District:31",
+    "PA House District:143",
+    "PA House District:145",
+    "PA House District:29",
+    "PA House District:144"
+  ],
+  "PA House District:155": [
+    "County:Chester"
+  ],
+  "PA House District:26": [
+    "County:Chester"
+  ],
+  "PA House District:146": [
+    "County:Montgomery"
+  ],
+  "PA House District:147": [
+    "County:Montgomery"
+  ],
+  "PA House District:150": [
+    "County:Montgomery"
+  ],
+  "PA House District:61": [
+    "County:Montgomery"
+  ],
+  "PA House District:28": [
+    "County:Allegheny"
+  ],
+  "County:Allegheny": [
+    "PA House District:28",
+    "PA House District:54",
+    "PA House District:33",
+    "PA House District:32",
+    "PA House District:39",
+    "PA House District:44",
+    "PA House District:30"
+  ],
+  "PA House District:16": [
+    "County:Beaver"
+  ],
+  "County:Beaver": [
+    "PA House District:16",
+    "PA House District:14",
+    "PA House District:15",
+    "PA House District:10"
+  ],
+  "PA House District:54": [
+    "County:Allegheny",
+    "County:Westmoreland"
+  ],
+  "PA House District:33": [
+    "County:Allegheny"
+  ],
+  "PA House District:55": [
+    "County:Westmoreland"
+  ],
+  "PA House District:57": [
+    "County:Westmoreland"
+  ],
+  "PA House District:56": [
+    "County:Westmoreland"
+  ],
+  "PA House District:32": [
+    "County:Allegheny"
+  ],
+  "PA House District:39": [
+    "County:Allegheny",
+    "County:Washington"
+  ],
+  "PA House District:58": [
+    "County:Westmoreland"
+  ],
+  "PA House District:183": [
+    "County:Lehigh",
+    "County:Northampton"
+  ],
+  "PA House District:130": [
+    "County:Berks"
+  ],
+  "PA House District:78": [
+    "County:Franklin",
+    "County:Fulton",
+    "County:Bedford"
+  ],
+  "County:Franklin": [
+    "PA House District:78",
+    "PA House District:90",
+    "PA House District:89",
+    "PA House District:82"
+  ],
+  "County:Fulton": [
+    "PA House District:78"
+  ],
+  "PA House District:81": [
+    "County:Huntingdon",
+    "County:Centre"
+  ],
+  "County:Huntingdon": [
+    "PA House District:81"
+  ],
+  "PA House District:90": [
+    "County:Franklin"
+  ],
+  "PA House District:89": [
+    "County:Franklin"
+  ],
+  "PA House District:91": [
+    "County:Adams"
+  ],
+  "PA House District:82": [
+    "County:Franklin",
+    "County:Juniata",
+    "County:Mifflin"
+  ],
+  "County:Juniata": [
+    "PA House District:82"
+  ],
+  "County:Mifflin": [
+    "PA House District:82",
+    "PA House District:171"
+  ],
+  "PA House District:86": [
+    "County:Cumberland",
+    "County:Perry"
+  ],
+  "County:Perry": [
+    "PA House District:86"
+  ],
+  "PA House District:87": [
+    "County:Cumberland"
+  ],
+  "PA House District:88": [
+    "County:Cumberland"
+  ],
+  "PA House District:199": [
+    "County:Cumberland"
+  ],
+  "PA House District:104": [
+    "County:Dauphin",
+    "County:Lebanon"
+  ],
+  "County:Lebanon": [
+    "PA House District:104",
+    "PA House District:101",
+    "PA House District:102"
+  ],
+  "PA House District:105": [
+    "County:Dauphin"
+  ],
+  "PA House District:106": [
+    "County:Dauphin"
+  ],
+  "PA House District:92": [
+    "County:York"
+  ],
+  "PA House District:171": [
+    "County:Centre",
+    "County:Mifflin"
+  ],
+  "PA House District:85": [
+    "County:Snyder",
+    "County:Union"
+  ],
+  "County:Union": [
+    "PA House District:85"
+  ],
+  "PA House District:140": [
+    "County:Bucks"
+  ],
+  "PA House District:151": [
+    "County:Montgomery"
+  ],
+  "PA House District:31": [
+    "County:Bucks"
+  ],
+  "PA House District:83": [
+    "County:Lycoming"
+  ],
+  "PA House District:68": [
+    "County:Bradford",
+    "County:Tioga"
+  ],
+  "County:Bradford": [
+    "PA House District:68",
+    "PA House District:110"
+  ],
+  "County:Tioga": [
+    "PA House District:68"
+  ],
+  "PA House District:110": [
+    "County:Bradford",
+    "County:Sullivan",
+    "County:Susquehanna"
+  ],
+  "County:Sullivan": [
+    "PA House District:110"
+  ],
+  "County:Susquehanna": [
+    "PA House District:110",
+    "PA House District:111"
+  ],
+  "PA House District:111": [
+    "County:Wayne",
+    "County:Susquehanna"
+  ],
+  "PA House District:100": [
+    "County:Lancaster"
+  ],
+  "County:Lancaster": [
+    "PA House District:100",
+    "PA House District:43",
+    "PA House District:41",
+    "PA House District:37",
+    "PA House District:99",
+    "PA House District:98"
+  ],
+  "PA House District:43": [
+    "County:Lancaster"
+  ],
+  "PA House District:143": [
+    "County:Bucks"
+  ],
+  "PA House District:13": [
+    "County:Chester"
+  ],
+  "PA House District:158": [
+    "County:Chester"
+  ],
+  "PA House District:128": [
+    "County:Berks"
+  ],
+  "PA House District:145": [
+    "County:Bucks"
+  ],
+  "PA House District:200": [
+    "County:Philadelphia"
+  ],
+  "PA House District:170": [
+    "County:Philadelphia"
+  ],
+  "PA House District:169": [
+    "County:York"
+  ],
+  "PA House District:176": [
+    "County:Monroe"
+  ],
+  "PA House District:166": [
+    "County:Delaware"
+  ],
+  "PA House District:165": [
+    "County:Delaware"
+  ],
+  "PA House District:168": [
+    "County:Delaware"
+  ],
+  "PA House District:160": [
+    "County:Delaware"
+  ],
+  "PA House District:159": [
+    "County:Delaware"
+  ],
+  "PA House District:11": [
+    "County:Butler"
+  ],
+  "PA House District:60": [
+    "County:Indiana",
+    "County:Armstrong"
+  ],
+  "County:Armstrong": [
+    "PA House District:60",
+    "PA House District:63"
+  ],
+  "PA House District:8": [
+    "County:Butler",
+    "County:Mercer"
+  ],
+  "PA House District:14": [
+    "County:Beaver"
+  ],
+  "PA House District:9": [
+    "County:Lawrence"
+  ],
+  "County:Lawrence": [
+    "PA House District:9",
+    "PA House District:10"
+  ],
+  "PA House District:15": [
+    "County:Beaver",
+    "County:Washington"
+  ],
+  "PA House District:63": [
+    "County:Forest",
+    "County:Armstrong",
+    "County:Clarion"
+  ],
+  "County:Clarion": [
+    "PA House District:63"
+  ],
+  "PA House District:10": [
+    "County:Lawrence",
+    "County:Beaver"
+  ],
+  "PA House District:173": [
+    "County:Philadelphia"
+  ],
+  "PA House District:44": [
+    "County:Allegheny"
+  ],
+  "PA House District:74": [
+    "County:Chester"
+  ],
+  "PA House District:29": [
+    "County:Bucks"
+  ],
+  "PA House District:30": [
+    "County:Allegheny"
+  ],
+  "PA House District:41": [
+    "County:Lancaster"
+  ],
+  "PA House District:144": [
+    "County:Bucks"
+  ],
+  "PA House District:101": [
+    "County:Lebanon"
+  ],
+  "PA House District:102": [
+    "County:Lebanon"
+  ],
+  "PA House District:37": [
+    "County:Lancaster"
+  ],
+  "PA House District:99": [
+    "County:Lancaster"
+  ],
+  "PA House District:98": [
+    "County:Lancaster"
+  ],
+  "PA House District:93": [
+    "County:York"
+  ],
+  "PA House District:94": [
+    "County:York"
+  ],
+  "PA House District:194": [
+    "County:Philadelphia"
+  ],
+  "PA House District:161": [
+    "County:Delaware"
+  ],
+  "PA House District:4": [
+    "County:Erie"
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "PA Senate District:41": [
+    "State Police:A",
+    "State Police:D"
+  ],
+  "State Police:A": [
+    "PA Senate District:41",
+    "PA Senate District:35",
+    "PA Senate District:32",
+    "PA Senate District:39"
+  ],
+  "State Police:D": [
+    "PA Senate District:41",
+    "PA Senate District:47",
+    "PA Senate District:50",
+    "PA Senate District:21"
+  ],
+  "PA Senate District:23": [
+    "State Police:F",
+    "State Police:P",
+    "State Police:R"
+  ],
+  "State Police:F": [
+    "PA Senate District:23",
+    "PA Senate District:27",
+    "PA Senate District:25"
+  ],
+  "State Police:P": [
+    "PA Senate District:23",
+    "PA Senate District:20",
+    "PA Senate District:14"
+  ],
+  "State Police:R": [
+    "PA Senate District:23",
+    "PA Senate District:20",
+    "PA Senate District:22"
+  ],
+  "PA Senate District:27": [
+    "State Police:F",
+    "State Police:N"
+  ],
+  "State Police:N": [
+    "PA Senate District:27",
+    "PA Senate District:14",
+    "PA Senate District:22",
+    "PA Senate District:40"
+  ],
+  "PA Senate District:15": [
+    "State Police:H"
+  ],
+  "State Police:H": [
+    "PA Senate District:15",
+    "PA Senate District:30",
+    "PA Senate District:33",
+    "PA Senate District:31"
+  ],
+  "PA Senate District:28": [
+    "State Police:J"
+  ],
+  "State Police:J": [
+    "PA Senate District:28",
+    "PA Senate District:13",
+    "PA Senate District:31",
+    "PA Senate District:19",
+    "PA Senate District:44",
+    "PA Senate District:36"
+  ],
+  "PA Senate District:13": [
+    "State Police:J"
+  ],
+  "PA Senate District:35": [
+    "State Police:A",
+    "State Police:C",
+    "State Police:G"
+  ],
+  "State Police:C": [
+    "PA Senate District:35",
+    "PA Senate District:21",
+    "PA Senate District:25"
+  ],
+  "State Police:G": [
+    "PA Senate District:35",
+    "PA Senate District:30",
+    "PA Senate District:34"
+  ],
+  "PA Senate District:30": [
+    "State Police:G",
+    "State Police:H"
+  ],
+  "PA Senate District:34": [
+    "State Police:G"
+  ],
+  "PA Senate District:33": [
+    "State Police:H"
+  ],
+  "PA Senate District:31": [
+    "State Police:H",
+    "State Police:J"
+  ],
+  "PA Senate District:32": [
+    "State Police:A",
+    "State Police:B"
+  ],
+  "State Police:B": [
+    "PA Senate District:32",
+    "PA Senate District:37",
+    "PA Senate District:46"
+  ],
+  "PA Senate District:47": [
+    "State Police:D"
+  ],
+  "PA Senate District:50": [
+    "State Police:D",
+    "State Police:E"
+  ],
+  "State Police:E": [
+    "PA Senate District:50",
+    "PA Senate District:49",
+    "PA Senate District:21"
+  ],
+  "PA Senate District:49": [
+    "State Police:E"
+  ],
+  "PA Senate District:21": [
+    "State Police:C",
+    "State Police:D",
+    "State Police:E"
+  ],
+  "PA Senate District:37": [
+    "State Police:B"
+  ],
+  "PA Senate District:18": [
+    "State Police:M"
+  ],
+  "State Police:M": [
+    "PA Senate District:18",
+    "PA Senate District:16",
+    "PA Senate District:24",
+    "PA Senate District:40",
+    "PA Senate District:10",
+    "PA Senate District:6"
+  ],
+  "PA Senate District:7": [
+    "State Police:K"
+  ],
+  "State Police:K": [
+    "PA Senate District:7",
+    "PA Senate District:4",
+    "PA Senate District:44",
+    "PA Senate District:9",
+    "PA Senate District:24",
+    "PA Senate District:26",
+    "PA Senate District:17",
+    "PA Senate District:12"
+  ],
+  "PA Senate District:4": [
+    "State Police:K"
+  ],
+  "PA Senate District:48": [
+    "State Police:L"
+  ],
+  "State Police:L": [
+    "PA Senate District:48",
+    "PA Senate District:11",
+    "PA Senate District:29"
+  ],
+  "PA Senate District:20": [
+    "State Police:P",
+    "State Police:R"
+  ],
+  "PA Senate District:14": [
+    "State Police:N",
+    "State Police:P"
+  ],
+  "PA Senate District:11": [
+    "State Police:L"
+  ],
+  "PA Senate District:19": [
+    "State Police:J"
+  ],
+  "PA Senate District:44": [
+    "State Police:J",
+    "State Police:K"
+  ],
+  "PA Senate District:22": [
+    "State Police:N",
+    "State Police:R"
+  ],
+  "PA Senate District:9": [
+    "State Police:K"
+  ],
+  "PA Senate District:16": [
+    "State Police:M"
+  ],
+  "PA Senate District:24": [
+    "State Police:K",
+    "State Police:M"
+  ],
+  "PA Senate District:40": [
+    "State Police:M",
+    "State Police:N"
+  ],
+  "PA Senate District:26": [
+    "State Police:K"
+  ],
+  "PA Senate District:10": [
+    "State Police:M"
+  ],
+  "PA Senate District:17": [
+    "State Police:K"
+  ],
+  "PA Senate District:12": [
+    "State Police:K"
+  ],
+  "PA Senate District:6": [
+    "State Police:M"
+  ],
+  "PA Senate District:36": [
+    "State Police:J"
+  ],
+  "PA Senate District:29": [
+    "State Police:L"
+  ],
+  "PA Senate District:46": [
+    "State Police:B"
+  ],
+  "PA Senate District:39": [
+    "State Police:A"
+  ],
+  "PA Senate District:25": [
+    "State Police:C",
+    "State Police:F"
+  ]
+}
