@@ -29,7 +29,7 @@ const listItemStyles = {
 const showMoreCount = 5;
 const showAllCount = showMoreCount + 3;
 
-const Facets = ({layers, facets, facetClicker, facetItemClicker, getValueFromRow}) => {
+const Facets = ({layers, title, facets, facetClicker, facetItemClicker, getValueFromRow, filters}) => {
     const [showMore, updateShowMore] = React.useState({});
 
     const toggleShowMore = (facetName) => {
@@ -41,61 +41,97 @@ const Facets = ({layers, facets, facetClicker, facetItemClicker, getValueFromRow
 
     return (
         <>
-        <h3 style={headingStyles}>Facets</h3>
+        <h3 style={headingStyles}>{title}</h3>
         <ul style={listStyles}>{
-            layers.map(
-              (facet) => (
-                <li key={facet.key} style={listItemStyles}>
-                  <Label>
-                    <Checkbox 
-                      data-facetname={facet.name}
-                      checked={!!facets[facet.name].visible}
-                      key={facet.key}
-                      onChange={facetClicker}
-                    />
-                    <b>{facet.name}</b>
- 
-                  </Label>
-                  <ul style={listStyles}>
-                    {
-                      facet.geojson.features.filter(
-                        (value, index) => 
-                          index < showMoreCount ||
-                            facet.geojson.features.length <= showAllCount ||
-                            showMore[facet.name]
-                      ).map(
-                        (feature, index) => {
-                          const facetValue = getValueFromRow(feature.properties, facet.nameAttribute);
-                          return (
-                            <Label key={index} >
-                              <Checkbox 
-                                  data-facetname={facet.name}
-                                  data-facetvalue={facetValue}
-                                  key={facet.key + ' ' + index}
-                                  checked={facet.values[facetValue].selected}
-                                  onChange={facetItemClicker} 
-                              />
-                              {facetValue}
-                            </Label>
+            layers.filter(
+              (facet) => {
+                if (!filters) {
+                  return true;
+                }
+
+                for (let key in filters) {
+                  if (key === facet.name) {
+                    return true;
+                  }
+                }
+
+                return false;
+              }
+            ).map(
+              (facet) => {
+                            
+                const features = facet.geojson.features.filter(
+                  (feature, index) => {
+                    if (!filters) {
+                      return true;
+                    }
+
+                    let values = [];
+                    for (let key in filters) {
+                      if (key === facet.name) {
+                        values = filters[key];
+                      }
+                    }
+
+                    const facetValue = getValueFromRow(feature.properties, facet.nameAttribute);
+
+                    return values.indexOf(facetValue) >= 0;
+                  }
+                );
+
+                return (
+                  <li key={facet.key} style={listItemStyles}>
+                    <Label>
+                      <Checkbox 
+                        data-facetname={facet.name}
+                        checked={!!facets[facet.name].visible}
+                        key={facet.key}
+                        onChange={facetClicker}
+                      />
+                      <b>{facet.name}</b>
+  
+                    </Label>
+                    <ul style={listStyles}>
+                      {
+                        features.filter(
+                          (feature, index) => 
+                            index < showMoreCount ||
+                              features.length <= showAllCount ||
+                              showMore[facet.name]
+                        ).map(
+                          (feature, index) => {
+                            const facetValue = getValueFromRow(feature.properties, facet.nameAttribute);
+                            return (
+                              <Label key={index} >
+                                <Checkbox 
+                                    data-facetname={facet.name}
+                                    data-facetvalue={facetValue}
+                                    key={facet.key + ' ' + index}
+                                    checked={facet.values[facetValue].selected}
+                                    onChange={facetItemClicker} 
+                                />
+                                {facetValue}
+                              </Label>
+                            )
+                          }
+                        )
+                      }
+                      {
+                        features.length > showAllCount &&
+                        !showMore[facet.name] &&
+                        (
+                          <li key='showMore'>
+                              <a href="#" onClick={() => toggleShowMore(facet.name)}>
+                                Show More
+                              </a>
+                            </li>
                           )
                         }
-                      )
-                    }
-                    {
-                      facet.geojson.features.length > showAllCount &&
-                      !showMore[facet.name] &&
-                      (
-                      <li key='showMore'>
-                          <a href="#" onClick={() => toggleShowMore(facet.name)}>
-                            Show More
-                          </a>
-                        </li>
-                      )
-                    }
-                  </ul>
-                </li>
+                      </ul>
+                    </li>
+                  );
+                }
               )
-            )
             }</ul>
         </>
     )

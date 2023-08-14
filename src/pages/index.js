@@ -1077,6 +1077,7 @@ const IndexPage = () => {
   console.time("render");
 
   const [facets, updateFacets] = React.useState({});
+  const [intersectionFacets, updateIntersectionFacets] = React.useState({});
   const [story, selectStory] = React.useState('N/A');
   const [coloration, setColorStrategy] = React.useState({});
   const [legend, setLegend] = React.useState({});
@@ -1319,6 +1320,7 @@ const IndexPage = () => {
         ).then(
           responses => {
             updateFacets(initialFacetData);
+            updateIntersectionFacets(initialFacetData);
           }
         );
       }
@@ -1516,21 +1518,32 @@ const IndexPage = () => {
       )
   );
 
+  console.log(selectedIntersections);
+  console.log(facets);
+
   const result = (
     <Grid
       gap={2} 
       columns={[3, '0.8fr .5fr 3fr']}>
       <aside>
-        <Facets layers={layers} 
+        <Facets title={'Facets'}
+          layers={layers} 
           facets={facets}
           facetClicker={facetClicker}
           facetItemClicker={facetItemClicker}
           getValueFromRow={getValueFromRow}
         />
       </aside>
-      <div>
-        {JSON.stringify(selectedIntersections, null, 2)}
-      </div>        
+      <aside>
+      <Facets title={'Intersects'}
+          layers={layers} 
+          facets={intersectionFacets}
+          facetClicker={facetClicker}
+          facetItemClicker={facetItemClicker}
+          getValueFromRow={getValueFromRow}
+          filters={selectedIntersections}
+        />
+      </aside>     
       <main style={pageStyles}>
         <Grid
           gap={2} 
