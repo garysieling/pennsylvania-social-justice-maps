@@ -1350,6 +1350,24 @@ const IndexPage = () => {
     console.timeEnd("facetClicker");
   } 
 
+  const facetIntersectionClicker = (e) => {
+    console.time("facetIntersectionClicker");
+    const facetName = e.target.dataset.facetname;
+
+    const newIntersectionFacets = Object.assign({}, intersectionFacets);
+    Object.keys(newIntersectionFacets[facetName].values)
+      .map(
+        key => {
+          newIntersectionFacets[facetName].values[key].selected = e.target.checked;
+        }
+      );
+
+    newIntersectionFacets[facetName].visible = e.target.checked;
+
+    updateIntersectionFacets(newIntersectionFacets);
+    console.timeEnd("facetClicker");
+  } 
+
   const facetItemClicker = (e) => {
     console.time("facetItemClicker");
     const facetName = e.target.dataset.facetname;
@@ -1370,6 +1388,23 @@ const IndexPage = () => {
     updateFacets(newFacets);
     console.timeEnd("facetItemClicker");
   }
+
+  
+  const intersectionItemClicker = (e) => {
+    const facetName = e.target.dataset.facetname;
+    const facetValue = e.target.dataset.facetvalue;
+
+    const newIntersectionFacets = Object.assign({}, intersectionFacets);
+    newIntersectionFacets[facetName].values[facetValue].selected = e.target.checked;
+
+    if (e.target.checked) {
+      newIntersectionFacets[facetName].visible = true;
+    }
+
+    updateIntersectionFacets(newIntersectionFacets);
+    console.timeEnd("facetItemClicker");
+  }
+
 
   const layers = Object.keys(facets)
     .map(
@@ -1518,9 +1553,6 @@ const IndexPage = () => {
       )
   );
 
-  console.log(selectedIntersections);
-  console.log(facets);
-
   const result = (
     <Grid
       gap={2} 
@@ -1538,8 +1570,8 @@ const IndexPage = () => {
       <Facets title={'Intersects'}
           layers={layers} 
           facets={intersectionFacets}
-          facetClicker={facetClicker}
-          facetItemClicker={facetItemClicker}
+          facetClicker={facetIntersectionClicker}
+          facetItemClicker={intersectionItemClicker}
           getValueFromRow={getValueFromRow}
           filters={selectedIntersections}
         />
