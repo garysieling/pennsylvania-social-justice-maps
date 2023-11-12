@@ -2,34 +2,16 @@ import * as React from "react";
 
 import { 
   MapContainer, 
-  TileLayer, 
-  Marker, 
-  Popup, 
-  GeoJSON,
-  Circle,
-  Polygon,
-  Polyline
+  TileLayer,
+  GeoJSON
 } from "react-leaflet";
 
-import { 
-  Checkbox, 
+import {  
   Grid, 
-  Label, 
-  Link, 
-  Button,
-  IconButton,
-  MenuButton,
-  Progress,
-  Radio,
-  Select,
-  Option,
-  Slider,
-  Spinner,
-  Switch
+  Button
 } from "theme-ui";
 
-import { cloneDeep, isObject } from "lodash";
-import Papa from "papaparse";
+import { cloneDeep } from "lodash";
 
 import { 
   schemeTableau10 as tileRenderColorScheme,
@@ -69,77 +51,7 @@ const buttonStyle = {
   marginTop: 20
 }
 
-const headingAccentStyles = {
-  color: "#663399",
-}
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-const listStyles = {
-  marginBottom: 10,
-  paddingLeft: 0,
-}
 
-const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 16,
-  maxWidth: 560,
-  marginBottom: 10,
-  listStyleType: "none"
-}
-
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%",
-}
-
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  marginBottom: 24,
-}
-
-const descriptionStyle = {
-  color: "#232129",
-  fontSize: 14,
-  marginTop: 10,
-  marginBottom: 0,
-  lineHeight: 1.25,
-}
-
-const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
-  color: "#8954A8",
-}
-
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
-}
-
-
-let j = 0;
 let trim = (value) => (value + '').trim().replace(/[ ]+/g, ' ');
 
 const filterMap = (map, fn) => {
@@ -158,69 +70,39 @@ const sourceData = [
   {
     name: 'County',
     key: '1',
-    loaded: false,
     source: '/static/Counties.geojson',
     nameAttribute: 'co_name',
     whereObtained: 'Public Datasets',
-    nameProcessor: trim,
     attributeSource: '/static/Data Sheets - Counties.tsv',
     attributeSourceKey: 'Name',
     attributeCategoryTypes: {
-      'Constables': 'Ordered',
-      'Moms For Liberty Members': 'Ordered'
     },
     attributeNumericAttributes: [
-      'Constables',
-      'Moms For Liberty Members'
     ],
     attributesToDisplay: [
-      'Constables',
-      'Moms For Liberty Members'
     ]
   },
   {
     name: 'Zip',
     key: '2',
-    loaded: false,
     source: '/static/zcta.geojson',
-    nameAttribute: 'ZCTA5CE10',
-    // https://www.pccdcis.pa.gov/CCETS/Public/ConstableFinder.aspx
-    whereObtained: 'Converted from https://www.pccdcis.pa.gov/CCETS/Public/ConstableFinder.aspx',
-    nameProcessor: trim
+    nameAttribute: 'ZCTA5CE10'
   },
   {
     name: 'Municipality',
     key: '3',
-    loaded: false,
     source: '/static/Municipalities.geojson',
     nameAttribute: ['co_name', 'mun_name'],
-    whereObtained: 'Chester County Public Datasets',
-    nameProcessor: trim,
     attributeSource: '/static/municipalities/data.tsv',
     // TODO this needs TO JOIN ON BOTH COUNTY AND MUNICIPALITY OR THE FIPS CODE
     attributeSourceKey: ['County', 'Municipality'],
     // TODO source some attributes from the geojson
     // like Municipal_Class
     attributeCategoryTypes: {
-      '2020': 'Ordered',
-      '2010': 'Ordered',
-      'Percent Change': 'Ordered',
-      'Environmental Action Communitee': 'Categorical',
-      'Human Rights Comittee': 'Categorical',
-      'Municipal Class': 'Categorical'    },
+    },
     attributeNumericAttributes: [
-      '2020',
-      '2010',
-      'Percent Change'
     ],
     attributesToDisplay: [
-      '2020',
-      '2010',
-      'Percent Change',
-      'Environmental Action Communitee',
-      'Human Rights Comittee',
-      'Municipal Class',
-      'Square Miles'
     ]
   },
   {
@@ -229,67 +111,13 @@ const sourceData = [
     loaded: false,
     source: '/static/SchoolDistricts.geojson',
     nameAttribute: ['County', 'school_nam'],
-    whereObtained: 'Multiple',
-    nameProcessor: trim,
-    // School District	County	White Share	 Median Household Income 	Poverty Percent 0-99%	Poverty Percent 100-184%	 2017-18 Adjusted ADM 	 2019-20 Actual BEF 	 2019-20 All Formula 	 Inequity 	 Per Student Actual BEF 	 Per Student All Formula BEF 	 Per Student Inequity 
-    // TODO join from two sheets...
-    //attributeSource: '/static/SchoolDistricts.csv',
-    //attributeSource: '/static/Data Sheets - Schoold.tsv',
     attributeSourceKey: ['County', 'School District'],
     attributeCategoryTypes: {
-      'Level Up': 'Categorical',
-      'OSTCP Eligible': 'Categorical'
-      /*'White Share': 'Ordered',
-      'Median Household Income': 'Ordered',
-      'Poverty Percent 0-99%': 'Ordered',
-      'Poverty Percent 100-184%': 'Ordered',
-      '2017-18 Adjusted ADM': 'Ordered',
-      '2019-20 Actual BEF': 'Ordered',
-      '2019-20 All Formula': 'Ordered',
-      'Inequity': 'Ordered',
-      'Per Student Actual BEF': 'Ordered',
-      'Per Student All Formula BEF': 'Ordered',
-      'Per Student Inequity': 'Ordered'*/
     },
     attributeNumericAttributes: [
-      /*'White Share',
-      'Median Household Income',
-      'Poverty Percent 0-99%',
-      'Poverty Percent 100-184%',
-      '2017-18 Adjusted ADM',
-      '2019-20 Actual BEF',
-      '2019-20 All Formula',
-      'Inequity',
-      'Per Student Actual BEF',
-      'Per Student All Formula BEF',
-      'Per Student Inequity',*/
     ],
     attributesToDisplay: [
-      'Level Up',
-      'OSTCP Eligible'
-      /*'White Share',
-      'Median Household Income',
-      'Poverty Percent 0-99%',
-      'Poverty Percent 100-184%',
-      '2017-18 Adjusted ADM',
-      '2019-20 Actual BEF',
-      '2019-20 All Formula',
-      'Inequity',
-      'Per Student Actual BEF',
-      'Per Student All Formula BEF',
-      'Per Student Inequity'*/
-    ],
-    //attributeSource: '/static/SchoolDistricts.csv',
-    //attributeSourceKey: ['LEA'],
-    //attributeCategoryTypes: {
-//      'Ratio of black to white discipline': 'Ordered',
-  //  },
-//    attributeNumericAttributes: [
-  //    'Ratio of black to white discipline',
-    //],
-    //attributesToDisplay: [
-    //  'Ratio of black to white discipline',
-   // ]
+    ]
   },
   {
     name: 'Police Department',
@@ -297,33 +125,13 @@ const sourceData = [
     loaded: false,
     source: '/static/Police.geojson',
     nameAttribute: ['County', 'Name'],
-    nameProcessor: trim,
     attributeSource: '/static/Data Sheets - Police.tsv',
     attributeSourceKey: ['County', 'Location'],
     attributeCategoryTypes: {
-      'Pennsylvania Chief of Police Association Accreditation': 'Categorical',
-      'Total Employees': 'Ordered',
-      'Full Time Civilians': 'Ordered',
-      'Full Time Sworn Officers': 'Ordered',
-      'Part Time Civilians': 'Ordered',
-      'Part Time Sworn Officers': 'Ordered',
     },
     attributeNumericAttributes: [
-      'Total Employees',
-      'Full Time Civilians',
-      'Full Time Sworn Officers',
-      'Part Time Civilians',
-      'Part Time Sworn Officers'
     ],
     attributesToDisplay: [
-      'Chief Name',
-      'Last Update',
-      'Total Employees',
-      'Pennsylvania Chief of Police Association Accreditation',
-      'Full Time Civilians',
-      'Full Time Sworn Officers',
-      'Part Time Civilians',
-      'Part Time Sworn Officers'
     ]
   },
   {
@@ -333,8 +141,7 @@ const sourceData = [
     source: '/static/MagesterialCourts.geojson',
     nameAttribute: 'District',
     whereObtained: 'Montgomery County Public Datasets',
-    citation: 'https://data-montcopa.opendata.arcgis.com/datasets/ea654fc7b22f4039a8c3e1e85bcf868f_0/explore?location=40.210302%2C-75.353586%2C10.69',
-    nameProcessor: trim
+    citation: 'https://data-montcopa.opendata.arcgis.com/datasets/ea654fc7b22f4039a8c3e1e85bcf868f_0/explore?location=40.210302%2C-75.353586%2C10.69'
   },
   {
     name: 'PA Senate District',
@@ -344,44 +151,13 @@ const sourceData = [
     nameAttribute: 'leg_distri',
     whereObtained: 'Montgomery County Public Datasets',
     citation: 'https://data-montcopa.opendata.arcgis.com/datasets/montcopa::montgomery-county-pa-senate-districts-2022-1/explore?location=40.210380%2C-75.353586%2C10.94',
-    nameProcessor: (name) => name + '',
     attributeSource: '/static/Data Sheets - PA State Senate.tsv',
     attributeSourceKey: 'District',
     attributeCategoryTypes: {
-      'Party': 'Categorical'
-      //'2020 Population': 'Ordered',
-      //'Registered Voters': 'Ordered',
-      //'Registered Democrats': 'Ordered',
-      //'Registered Republicans': 'Ordered',
-      //'Registered Independents': 'Ordered', 
-      //'Registered Other': 'Ordered',
-      // the values don't add up?
-      //'Square Miles': 'Ordered'
     },
     attributeNumericAttributes: [
-      //'2020 Population',
-     // 'Registered Voters',
-     // 'Registered Democrats',
-     // 'Registered Republicans',
-     // 'Registered Independents',
-     // 'Registered Other',
-      // the values don't add up?
-      //'Square Miles'
     ],
     attributesToDisplay: [
-      'Name',
-      'Party',
-      'District'
-      //'2020 Population',
-      //'Representative', 
-      //'Home County',
-      //'Representative Party', 
-      //'Registered Voters',
-      //'Registered Democrats',	
-      //'Registered Republicans',
-      //'Registered Independents',	
-      //'Registered Other',
-      //'Square Miles'
     ]
   },
   {
@@ -391,45 +167,13 @@ const sourceData = [
     source: '/static/Pennsylvania_State_House_Boundaries.geojson',
     nameAttribute: 'leg_distri',
     whereObtained: 'PA Public Datasets',
-    nameProcessor: (name) => name + '',
     attributeSource: '/static/Data Sheets - PA State House.tsv',
     attributeSourceKey: 'District',
     attributeCategoryTypes: {
-      'Party': 'Categorical'
-      //'2020 Population': 'Ordered',
-      //'Registered Voters': 'Ordered',
-      //'Registered Democrats': 'Ordered',
-      //'Registered Republicans': 'Ordered',
-      //'Registered Independents': 'Ordered', 
-      //'Registered Other': 'Ordered',
-      // the values don't add up?
-      //'Square Miles': 'Ordered'
     },
     attributeNumericAttributes: [
-      //'2020 Population',
-      //'Registered Voters',
-      //'Registered Democrats',
-      //'Registered Republicans',
-      //'Registered Independents',
-      //'Registered Other',
-      // the values don't add up?
-      //'Square Miles'
     ],
     attributesToDisplay: [
-      'Name',
-      'Party',
-      'District'
-      //'2020 Population',
-      //'Representative',
-      //'Home County',
-      //'Representative Party', 
-      //'Registered Voters',
-      //'Registered Democrats',	
-      //'Registered Republicans',
-      //'Registered Independents',	
-      //'Registered Other',
-      // the values don't add up?
-      //'Square Miles'
     ]
   },
   {
@@ -438,8 +182,7 @@ const sourceData = [
     loaded: false,
     source: '/static/StatePolice.geojson',
     nameAttribute: 'Troop',
-    whereObtained: 'https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=1691',
-    nameProcessor: trim
+    whereObtained: 'https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=1691'
   },
   {
     name: 'FM Radio',
@@ -447,103 +190,14 @@ const sourceData = [
     loaded: false,
     source: '/static/radio.geojson',
     nameAttribute: 'callsign',
-    whereObtained: 'FCC',
     attributeCategoryTypes: {
-      'FLN': 'Categorical',
-      'type': 'Categorical'
     },
     attributeNumericAttributes: [
     ],
     attributesToDisplay: [
-      'callsign',
-      'frequency',
-      'city',
-      'state',
-      'FLN',
-      'type'
     ]
-  },
-  //{
-  //  // TODO what is this for?
-  //  name: 'JPO Districts',
-  //  key: 9,
-  //  loaded: false,
-  //  source: '/static/Montgomery_County_-_JPO_Districts.geojson',
-  //  nameAttribute: 'Name',
-  //  nameProcessor: trim
-  //}
- //TODO Libraries */
- // TODO NAACPs */
-];
-
-
-let stories = [
-  {
-    name: 'N/A',
-    key: '0',
-    loaded: true,
-    data: [],
-    popupFields: [],
-    legend: cloneDeep(DEFAULT_LEGEND),
-    description: ``
-  },
-  {
-    name: 'Ambler NAACP - Police Meeting',
-    key: '2',
-    loaded: false,
-    source: '/static/ambler naacp - meeting.csv',
-    popupFields: [],
-    description: `
-      The Ambler NAACP met publically with several police departments in 2020.
-      
-      <a href="https://www.facebook.com/UpperGwyneddPD/posts/shaykh-anwar-muhammad-president-of-the-ambler-area-naacp-members-of-his-executiv/1597643733736356/">[1]</a>
-    `
-  },
-  {
-    name: 'Ambler NAACP - Police Memorandum',
-    key: '2',
-    loaded: false,
-    source: '/static/ambler naacp - memorandum.csv',
-    popupFields: [],
-    description: `
-      The Ambler NAACP signed a memorandum of understanding with several 
-      departments in 2020.
-      
-      <a href="https://whyy.org/wp-content/uploads/2021/04/Police-Document-Final.pdf">[1]</a>
-    `
-  }, 
-  {
-    name: 'My research',
-    key: '3',
-    categoryVariable: 'Characterization',
-    loaded: false,
-    source: '/static/Data Sheets - Comments.csv',
-    fuzzyLocations: true,
-    popupFields: [
-      'Speaker Race',
-      'Inferred Target',
-      'Institution', 
-      'Description',
-      'When Heard',
-      'When Occurred',
-      'Location Reference'
-    ], 
-    description: `
-      My personal notes
-    `
-  },
-  {
-    name: 'A church by zip',
-    key: '4',
-    loaded: false,
-    source: '/static/Data Sheets - A Church By Zip.tsv',
-    popupFields: [],
-    description: `
-    `
   }
 ];
-
-
 
 function getValueFromRow(row, sourceKey) {
   if (Array.isArray(sourceKey)) {
@@ -569,348 +223,9 @@ function globalExists(varName) {
   }
 }
 
-if (globalExists('window'))
- {
-  const numberFormatter = (v) => {
-    if (v !== null && v !== undefined) {
-      return v.toLocaleString()
-    } else {
-      return v;
-    }
-  }
-
-  const percentFormatter = (v) => {
-    if (v !== null && v !== undefined) {
-      return v.toLocaleString(null, {minimumFractionDigits: 0 }) + '%'
-    } else {
-      return v;
-    }
-  }
-
-  const dollarFormatter = (v) => {
-    if (v !== null && v !== undefined) {
-      return '$' + v.toLocaleString(null, {minimumFractionDigits: 2 })
-    } else {
-      return v;
-    }
-  }
-
-  sourceData.filter(
-    (recordType) => 
-      !!recordType.attributeSource
-  ).map(
-    (recordType) => {
-      Papa.parse(recordType.attributeSource, {
-        download: true,
-        header: true,
-        skipEmptyLines: true,
-
-        complete: function(results, file) {
-          recordType.attributes = {};
-          
-          results.data.map(
-            (row) => {
-              if (!recordType.attributeNumericFormatters) {
-                recordType.attributeNumericFormatters = {};
-              }
-
-              Object.keys(row).map(
-                (key) => {
-                  const trimmed = key.trim();
-
-                  if (key !== trimmed) {
-                    row[trimmed] = row[key];
-                    delete row[key];
-                  }
-
-                  if (!recordType.attributeNumericFormatters[key]) {
-                    recordType.attributeNumericFormatters[key] = numberFormatter;
-                  }
-                }
-              );
-
-              (recordType.attributeNumericAttributes || []).map(
-                (attribute) => {
-                  // trim %
-                  // TODO save formatter...
-                  let value = row[attribute] || '';
-
-                  if (undefined === row[attribute]) {
-                    if (recordType.name === 'School District') {
-                      debugger;
-                    }
-                    console.log('undefined for ' + recordType.name + '.' + attribute);
-                  }
-
-                  if (!recordType.attributeNumericFormatters[attribute]) {
-                    if (value.indexOf('$') >= 0) {
-                      recordType.attributeNumericFormatters[attribute] = dollarFormatter;
-                    } else if (value.indexOf('%') >= 0) {
-                      recordType.attributeNumericFormatters[attribute] = percentFormatter;
-                    } else {
-                      recordType.attributeNumericFormatters[attribute] = numberFormatter;
-                    }
-                  }
-
-                  value = value
-                    .replace(',', '')
-                    .replace('$', '')
-                    .replace('%', '')
-                    .trim();
-
-                  // TODO the legend should show the zero point in a way that 
-                  // makes sense for this
-                  if (value[0] === '(' && value[value.length - 1] === ')') {
-                    value = '-' + value.substring(1, value.length - 2);
-                  }
-
-                  console.log(row[attribute], value);
-
-                  row[attribute] = parseFloat(value) || 0;
-                }
-              )
-              
-              const joinKey = getValueFromRow(row, recordType.attributeSourceKey);
-              recordType.attributes[joinKey] = row;
-            }
-          )
-        }
-      });
-    }
-  )
-
-  stories.filter(
-    (story) => !!story.source
-  ).map(
-    (story) => {
-      const colorScheme = tileRenderColorScheme;
-      const maxColor = colorScheme.length;
-
-      Papa.parse(story.source, {
-        download: true,
-        header: true,
-        skipEmptyLines: true,
-        complete: function(results, file) {
-          story.legend = {
-            type: 'Categorical',
-            attribute: story.categoryVariable,
-            attributes: {}
-          };
-
-          story.data = results.data.map(
-            (record) => {
-              if (record.latitude) {
-                record.latitude = parseFloat(record.latitude.trim());
-
-                if (story.fuzzyLocations) {
-                  record.latitude = record.latitude + (Math.random() - 0.5) / 100.0;
-                }
-              }
-
-              if (record.longitude) {
-                record.longitude = parseFloat(record.longitude.trim());
-
-                record.longitude = record.longitude + (Math.random() - 0.5) / 100.0;
-              }
-
-              if (record.certainty) {
-                record.certainty = parseInt(record.certainty);
-              }
-
-              const categoricalValue = record[story.categoryVariable] || 'All Values';
-              if (story.legend.attributes[categoricalValue]) {
-                record.tileRenderColor = story.legend.attributes[categoricalValue].color;
-              } else {
-                if (Object.keys(story.legend.attributes) >= maxColor) {
-                  throw 'Only 10 colors available'
-                }
-    
-                const colorIndex = Object.keys(story.legend.attributes).length;
-                const color = colorScheme[colorIndex];
-
-                story.legend.attributes[categoricalValue] = color;
-
-                record.tileRenderColor = color;
-              }
-
-              return record;
-            }
-          )
-
-          story.loaded = true;
-        }
-      });
-    }
-  );
-}
-
 let firstLoad = true;
 
-// Things that make this "special"
-    // compute areas of all the geojsons
-    // match areas to census units, so everything has base population data
-    // ability to link a database of addresses to each grouping (intersection of addresses and social institutions)
-    // ability to find intersecting entities
-
-
-// TODO overlay description for the whole story
-// TODO overlay description for each segment of the story
-// TODO coloration control for the parts of a story
-// TODO facet control for parts of a story
-// TODO a feature to select all overlapping items between the different levels of government
-// TODO story with points doesn't clear when you switch off it
-
-// rangers??
-
-// TODO range control in the legend should have commas
-
-// TODO need ratios / support for ratios
-// TODO house/senate should be alpha
-
-// TODO environmental data: https://gis.dep.pa.gov/esaSearch/
-// TODO special ed data: https://penndata.hbg.psu.edu/Public-Reporting/Data-at-a-Glance
-// TODO: is there more than one superfund thing? https://www.arcgis.com/home/item.html?id=8f9d8703b4c94d36804a3031f397bc98
-
-// TODO There is some sort of major issue w/ switching between "story" mode and regular mode
-//      the colors don't reset and also the range legend doesn't work on the regular one
-
-// TODO this site (originally census data) has info on race, housing:
-//   https://pasdc.hbg.psu.edu/Census-2020-Dashboards/Census-2020-Municipal-Data
-
-// TODO React Router
-// TODO Stories
-    // Spider chart (a graph)
-    // or just tie these to areas
-        // maybe some kind of workflow that lets you pick?
-
-// todo a cronological view
-
-// A mechanism to turn a list of addresses into an anonmyized dataset
-  // or tag to the facets?
-
-// A mechanism to "join" two+ areas into one unit
-
-// A mechanism to compute the population of an area
-
-// TODO libraries / historical society
-
-// "Stories"
-  // Link Zion vs people
-  // BMC group
-
-// TODO: a history of this topic through music
-
-// TODO: research duty to intervene stats
-// TODO: research training budgets vs incidents
-// TODO: research on stats on Act 459
-// TODO: research on Bill 21205 Statewide database of discipline and use of force
-
-// TODO: something around the building of the food co-op
-
-// TODO: there are sheriffs and constables - independent of police?
-// Extract this in tabular form https://en.wikipedia.org/wiki/Pennsylvania_State_Constables
-// TODO: something around historic preservation
-
-// TODO: something around the borough hall move
-
-// TODO: something to demonstrate the school funding stuff
-  // underfundedness
-
-// TODO the color picker control doesn't know the difference between attribute classes
-//    i.e. categorical/diverging/uniform
-
-// TODO there are a lot more color schems at https://github.com/d3/d3-scale-chromatic
-
-// TODO: something about ADA compliance (sidewalks)
-
-// TODO naacp chapters
-
-// TODO measure of living in the neighborhood
-
-// TODO shapefiles for delco/chester county
-   // which implies a facet that loads each file, vs one file w/ all
-
-// School district stats
-  // # of kids
-  // demographics
-  // teacher demographics
-  // budget
-  // # of elementary buildings
-  // special ed stats
-  // underfundedness
-  
-// labor stats
-// scraper for special ed data, i.e https://penndata.hbg.psu.edu/Public-Reporting/Data-at-a-Glance
-
-// split out the sheets:
-//    historically black churches (suburban baptist assn)
-//    historical markers / events / black achievements
-
-// a website w/ findings to show the value - blog type thing...
-
-// think about data protection
-
-// some commentary / policies on ethics - written up
-
-// historical stuff around bb. is there a way to get a list of historical markers?
-    // carve this out into a separate page/app on my website?
-    // list out neighborhoods, churches, events
-    
-/*
-underfunded
-power plants that are toxic
-targetting election districts
-underfunded districts
-
-live free team in philly
-  
-
-airbnb - housing would save a lot of stuff
-
-water access
-
-climate issues
-
-show intersectionality
-
-illustrate systemic racism
-
-lack of affordable housing
-
-history of faith, land
-
-identify where there is power
-
-places where people are marginalized
-
-history of redlining
-*/
-
-
-
 let cacheBuster = 0;
-
-const StoryPicker = ({onSelectStory, story}) => {
-  return (
-    <div>
-      Story:
-      <Select onChange={(e) => onSelectStory(e)} value={story}>
-        {
-          // TODO There are bugs here because this select is not controlled by React
-          stories.map(
-            (story, i) => {
-              return (
-                <option key={i}>
-                  {story.name}
-                </option>
-              );
-            }
-          )
-        }
-      </Select>
-    </div>
-  )
-}
 
 
 function recomputeColoration({facet, attribute}, colorFn, facets) {  
@@ -1078,7 +393,6 @@ const IndexPage = () => {
 
   const [facets, updateFacets] = React.useState({});
   const [intersectionFacets, updateIntersectionFacets] = React.useState({});
-  const [story, selectStory] = React.useState('N/A');
   const [coloration, setColorStrategy] = React.useState({});
   const [legend, setLegend] = React.useState({});
   const [description, setDescription] = React.useState('');
@@ -1087,7 +401,6 @@ const IndexPage = () => {
   function copyLink() {
     const changes = {
       facets: facets,
-      story: story,
       coloration: coloration
     }
 
@@ -1142,73 +455,6 @@ const IndexPage = () => {
     console.timeEnd("setColoration");
   }
 
-  function onSelectStory(e) {
-    console.time("onSelectStory");
-
-    const storyName = e.target.value;
-    let description = '';
-    let newLegend = cloneDeep(DEFAULT_LEGEND);
-
-    // re-rendering not a side effect of this, of something later
-    stories.forEach(
-      (story) => {
-        story.selected = story.name === storyName;
-
-        if (story.selected) {
-          newLegend = story.legend;
-          description = story.description;
-        }
-      }
-    )
-  
-    Object.keys(facets).map(
-      (facetName) => {
-        const facet = facets[facetName];
-        facet.geojson.features.map(
-          feature => {
-            const facetValue = getValueFromRow(feature.properties, facet.nameAttribute);
-            const selectedFacetFromStory = stories.filter(
-                (story) => story.loaded
-              ).filter(
-                (story) => story.name === storyName
-              ).flatMap(
-                (story) => story.data
-              ).filter(
-                (story) => story.facet && story.facetvalue
-              ).filter(
-                (story) => 
-                  story.facet === facet.name &&
-                  story.facetvalue === facetValue
-              );
-
-            let facetValueChecked = selectedFacetFromStory.length > 0;
-    
-            if (storyName === 'N/A') {
-              facetValueChecked = false;
-            }
-
-            let tileRenderColor = DEFAULT_BLUE;
-            if (selectedFacetFromStory.length > 0) {
-              if (!!selectedFacetFromStory[0].tileRenderColor) {
-                tileRenderColor = selectedFacetFromStory[0].tileRenderColor;
-              }
-            }
-    
-            facets[facet.name].values[facetValue].selected = facetValueChecked;
-            facets[facet.name].values[facetValue].tileRenderColor = tileRenderColor;
-          }
-        );
-      }
-    );
-    
-    setLegend(newLegend);
-    selectStory(storyName);
-    updateFacets(facets);
-    setDescription(description);
-
-    console.timeEnd("onSelectStory");
-  }
-
   let urlFacetData = {};
   if (globalExists('window')) {
     if (window.location.href.indexOf('?') > 0) {
@@ -1238,7 +484,7 @@ const IndexPage = () => {
                   geojson.features.map(
                     (value) => {
                       const name = getValueFromRow(value.properties, facet.nameAttribute)
-                      value.properties[name] = (facet.nameProcessor || trim)(
+                      value.properties[name] = (trim)(
                         value.properties[name],
                         value.properties
                       );
@@ -1272,20 +518,8 @@ const IndexPage = () => {
 
                   facet.loaded = true;
 
-                  // story selects facet
                   let facetLayerVisible = 
-                    urlFacetData.hasOwnProperty(facet.key + '') ||
-                    // todo - kind of buggy thing here...
-                    stories.filter(
-                      (story) => story.loaded
-                    ).flatMap(
-                      (story) => story.data
-                    ).filter(
-                      (story) => story.facet && story.facetvalue
-                    ).filter(
-                      (story) => 
-                        story.facet === facet.name
-                    ).length > 0;
+                    urlFacetData.hasOwnProperty(facet.key + '');
 
                   initialFacetData[facet.name] = Object.assign(
                     facet, {
@@ -1422,7 +656,7 @@ const IndexPage = () => {
       (layer) => layer.visible
     ).map(
       (layer) => {
-        const filteredGeojson = Object.assign({},layer.geojson);
+        const filteredGeojson = Object.assign({}, layer.geojson);
 
         filteredGeojson.features = filteredGeojson.features.filter(
           (feature) => {
@@ -1458,8 +692,6 @@ const IndexPage = () => {
                           return '';
                         }
 
-                        // attributeNumericAttributes
-
                         let attributeValue = attributesForSelected[attr];
 
                         if (layer.attributeNumericAttributes.indexOf(attr) > 0) {
@@ -1490,7 +722,9 @@ const IndexPage = () => {
 
                     setIntersections(intersectKeys);
                   }
-                  return tooltipContents || '';
+console.log(tooltipContents)
+
+                  return tooltipContents;
                 }, popupOptions);
             }}
             style={
@@ -1510,48 +744,6 @@ const IndexPage = () => {
         );
       }
     );
-
-  const markers = stories.filter(
-    (story) => story.selected && story.data
-  ).flatMap(
-    (story, storyIndex) =>
-      story.data.filter(
-        (record) => record.latitude && record.longitude
-      ).flatMap(
-        (record, recordIndex) => {
-          let popupContents = 
-            story.popupFields.map(
-              (field) => 
-                <p>
-                  <b>{field}:</b> {record[field]}
-                </p>
-            );
-
-
-          const results = [(
-            <Marker color={record.tileRenderColor || 'blue'} position={[record.latitude, record.longitude]} key={storyIndex + '-' + recordIndex}>
-              <Popup>
-                {popupContents}
-              </Popup>
-            </Marker>
-          )];
-
-          if (record.certainty) {
-            results.push((
-              <Circle 
-                center={[record.latitude, record.longitude]} 
-                pathOptions={{ 
-                  fillColor: record.tileRenderColor || DEFAULT_BLUE,
-                  color: record.tileRenderColor || DEFAULT_BLUE
-                }} 
-                radius={150 * record.certainty} />
-            ));
-          }
-
-          return results;
-        }
-      )
-  );
 
   const result = (
     <Grid
@@ -1581,7 +773,6 @@ const IndexPage = () => {
           gap={2} 
           columns={[2, '1fr 1fr']}>
             <div>
-              <StoryPicker onSelectStory={onSelectStory} story={story} />
               <RenderingControls 
                 layers={layers} 
                 facets={facets} 
@@ -1598,7 +789,6 @@ const IndexPage = () => {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            { markers }
             { facetLayers }
           </MapContainer>
           <Button 
