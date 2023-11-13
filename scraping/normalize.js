@@ -147,6 +147,13 @@ sourceData.map(
                     throw feature.properties;
                 }
 
+                      // Needed for house/senate districts
+                if (parseInt(feature.properties._name)) {
+                    feature.properties._sort = parseInt(feature.properties._name);
+                } else {
+                    feature.properties._sort = feature.properties._name;
+                }
+
                 //console.log(JSON.stringify(feature.properties, null, 2));
             }
         )
