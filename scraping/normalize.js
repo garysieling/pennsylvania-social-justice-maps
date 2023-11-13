@@ -117,6 +117,8 @@ const sourceData = [
     }
   ];
 
+let trim = (value) => (value + '').trim().replace(/[ ]+/g, ' ');
+
 
 sourceData.map(
     (metadata) => {
@@ -126,10 +128,10 @@ sourceData.map(
         data.features.map(
             (feature) => {
                 if(typeof metadata.nameAttribute === 'string') {
-                    feature.properties._name = feature.properties[metadata.nameAttribute];
+                    feature.properties._name = trim(feature.properties[metadata.nameAttribute]);
                 } else {
                     feature.properties._name = 
-                        metadata.nameAttribute.map(
+                        trim(metadata.nameAttribute.map(
                             (v) => {
                                 let res = feature.properties[v];
 
@@ -139,7 +141,7 @@ sourceData.map(
 
                                 return res;
                             }
-                        ).join(" - ");
+                        ).join(" - "));
                 }
 
                 if (!feature.properties._name) {
@@ -156,6 +158,24 @@ sourceData.map(
 
                 //console.log(JSON.stringify(feature.properties, null, 2));
             }
+        )
+
+        
+        data.features.sort(
+          (featureA, featureB) => {
+            let nameA = featureA.properties._sort;
+            let nameB = featureB.properties._sort;
+
+            if (nameA > nameB) {
+              return 1;
+            }
+
+            if (nameA < nameB) {
+              return -1;
+            }
+
+            return 0;
+          }
         )
 
 //        console.log(data);
