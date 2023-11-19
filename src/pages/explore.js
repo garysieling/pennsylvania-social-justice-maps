@@ -147,14 +147,10 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
     legend = cloneDeep(DEFAULT_LEGEND);
 
     // clear all colors - todo - not working
-    Object.keys(facets,
-      (facetKey) => {
-        Object.keys(facets[facetKey].values).map(
-          (value) => {
-            facets[facetKey].values[value].tileRenderColor = DEFAULT_BLUE;
-          }
-        );
-      });
+    facets[facet].geojson.features.map(
+      (feature) => {
+        feature.properties.tileRenderColor = DEFAULT_BLUE;
+      })
   } else {
     legend = {};
     legend.attribute = attribute;
@@ -210,7 +206,7 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
           (feature) => {
             const categoricalValue = feature.properties[attribute] || '';
 
-            feature.tileRenderColor = legend.attributes[categoricalValue].color;
+            feature.properties.tileRenderColor = legend.attributes[categoricalValue].color;
             legend.attributes[categoricalValue].count++;
         });
 
@@ -270,7 +266,7 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
           const record = facets[facet].values[facetValue];
 
           const value = (facets[facet].attributes[facetValue] || {})[attribute];
-          record.tileRenderColor = legend.colorFn(1.0 * value / range)
+          record.properties.tileRenderColor = legend.colorFn(1.0 * value / range)
         });
     }
   }
@@ -389,7 +385,7 @@ const IndexPage = () => {
                     feature => {
                       const facetValue = feature.properties._name;
 
-                      let tileRenderColor = DEFAULT_BLUE;
+                      feature.properties.tileRenderColor = DEFAULT_BLUE;
 
                       let selected = false;
                       if (urlFacetData.hasOwnProperty(facet.key + '')) {
@@ -397,8 +393,7 @@ const IndexPage = () => {
                       }
 
                       initialFacetData[facet.name].values[facetValue] = {
-                        selected: selected,
-                        tileRenderColor: tileRenderColor
+                        selected: selected
                       }
                     }
                   )
@@ -523,10 +518,9 @@ const IndexPage = () => {
                 const facetName = layer.name;
 console.log(reference);
                 const colorFromFacet = reference.properties.tileRenderColor;
-                const defaultColor = DEFAULT_BLUE;
                 
                 return {
-                  color: colorFromFacet || defaultColor
+                  color: colorFromFacet
                 };
               }
             }
