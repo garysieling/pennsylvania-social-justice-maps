@@ -73,7 +73,7 @@ const Facets = ({layers, title, facets, facetClicker, facetItemClicker, getValue
                       }
                     }
 
-                    const facetValue = getValueFromRow(feature.properties, facet.nameAttribute);
+                    const facetValue = feature.properties._name;
 
                     return values.indexOf(facetValue) >= 0;
                   }
@@ -100,7 +100,7 @@ const Facets = ({layers, title, facets, facetClicker, facetItemClicker, getValue
                               showMore[facet.name]
                         ).map(
                           (feature, index) => {
-                            const facetValue = getValueFromRow(feature.properties, facet.nameAttribute);
+                            const facetValue = feature.properties._name;
                             return (
                               <Label key={index} >
                                 <Checkbox 

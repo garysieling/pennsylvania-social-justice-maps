@@ -51,8 +51,6 @@ const buttonStyle = {
   marginTop: 20
 }
 
-let trim = (value) => (value + '').trim().replace(/[ ]+/g, ' ');
-
 const filterMap = (map, fn) => {
   const newMap = {};
   Object.keys(map).forEach(
@@ -69,16 +67,7 @@ const sourceData = [
   {
     name: 'County',
     key: '1',
-    source: '/static/Counties.geojson',
-    nameAttribute: 'co_name',
-    attributeSource: '/static/Data Sheets - Counties.tsv',
-    attributeSourceKey: 'Name',
-    attributeCategoryTypes: {
-    },
-    attributeNumericAttributes: [
-    ],
-    attributesToDisplay: [
-    ]
+    source: '/static/Counties.geojson'
   },
   {
     name: 'Zip',
@@ -89,112 +78,44 @@ const sourceData = [
   {
     name: 'Municipality',
     key: '3',
-    source: '/static/Municipalities.geojson',
-    nameAttribute: ['co_name', 'mun_name'],
-    attributeSource: '/static/municipalities/data.tsv',
-    attributeSourceKey: ['County', 'Municipality'],
-    attributeCategoryTypes: {
-    },
-    attributeNumericAttributes: [
-    ],
-    attributesToDisplay: [
-    ]
+    source: '/static/Municipalities.geojson'
   },
   {
     name: 'School District',
-    key: '4',
     source: '/static/SchoolDistricts.geojson',
-    nameAttribute: ['County', 'school_nam'],
-    attributeSourceKey: ['County', 'School District'],
-    attributeCategoryTypes: {
-    },
-    attributeNumericAttributes: [
-    ],
-    attributesToDisplay: [
-    ]
+    key: '4'
   },
   {
     name: 'Police Department',
     key: '5',
-    source: '/static/Police.geojson',
-    nameAttribute: ['County', 'Name'],
-    attributeSource: '/static/Data Sheets - Police.tsv',
-    attributeSourceKey: ['County', 'Location'],
-    attributeCategoryTypes: {
-    },
-    attributeNumericAttributes: [
-    ],
-    attributesToDisplay: [
-    ]
+    source: '/static/Police.geojson'
   },
   {
     name: 'Magesterial Courts',
     key: '6',
-    source: '/static/MagesterialCourts.geojson',
-    nameAttribute: 'District',
-    citation: 'https://data-montcopa.opendata.arcgis.com/datasets/ea654fc7b22f4039a8c3e1e85bcf868f_0/explore?location=40.210302%2C-75.353586%2C10.69'
+    source: '/static/MagesterialCourts.geojson'
   },
   {
     name: 'PA Senate District',
     key: '7',
-    source: '/static/Pennsylvania_State_Senate_Boundaries.geojson',
-    nameAttribute: 'leg_distri',
-    attributeSource: '/static/Data Sheets - PA State Senate.tsv',
-    attributeSourceKey: 'District',
-    attributeCategoryTypes: {
-    },
-    attributeNumericAttributes: [
-    ],
-    attributesToDisplay: [
-    ]
+    source: '/static/Pennsylvania_State_Senate_Boundaries.geojson'
   },
   {
     name: 'PA House District',
     key: '8',
-    source: '/static/Pennsylvania_State_House_Boundaries.geojson',
-    nameAttribute: 'leg_distri',
-    whereObtained: 'PA Public Datasets',
-    attributeSource: '/static/Data Sheets - PA State House.tsv',
-    attributeSourceKey: 'District',
-    attributeCategoryTypes: {
-    },
-    attributeNumericAttributes: [
-    ],
-    attributesToDisplay: [
-    ]
+    source: '/static/Pennsylvania_State_House_Boundaries.geojson'
   },
   {
     name: 'State Police',
     key: '9',
-    source: '/static/StatePolice.geojson',
-    nameAttribute: 'Troop',
-    whereObtained: 'https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=1691'
+    source: '/static/StatePolice.geojson'
   },
   {
     name: 'FM Radio',
     key: '10',
-    source: '/static/radio.geojson',
-    nameAttribute: 'callsign',
-    attributeCategoryTypes: {
-    },
-    attributeNumericAttributes: [
-    ],
-    attributesToDisplay: [
-    ]
+    source: '/static/radio.geojson'
   }
 ];
-
-function getValueFromRow(row, sourceKey) {
-  if (Array.isArray(sourceKey)) {
-    const result = sourceKey.map(
-      (key) => trim(row[key])
-    ).join(" - ");
-
-    return result;
-  } else {
-    return (row[sourceKey] + '').trim();
-  }
-}
 
 function globalExists(varName) {
   // Calling eval by another name causes evalled code to run in a
@@ -465,43 +386,6 @@ const IndexPage = () => {
                   console.time("process " + facet.name);
                   const geojson = JSON.parse(jsonText);
 
-                  geojson.features.map(
-                    (value) => {
-                      const name = getValueFromRow(value.properties, facet.nameAttribute)
-                      value.properties[name] = (trim)(
-                        value.properties[name],
-                        value.properties
-                      );
-                    }
-                  );
-
-                  geojson.features.sort(
-                    (featureA, featureB) => {
-                      let nameA = getValueFromRow(featureA.properties, facet.nameAttribute);
-                      let nameB = getValueFromRow(featureB.properties, facet.nameAttribute);
-
-                      // Needed for house/senate districts
-                      if (parseInt(nameA) && parseInt(nameB)) {
-                        nameA = parseInt(nameA);
-                        nameB = parseInt(nameB);
-                      }
-
-                      if (nameA > nameB) {
-                        return 1;
-                      }
-
-                      if (nameA < nameB) {
-                        return -1;
-                      }
-
-                      if (nameA === nameB) {
-                        return 0;
-                      }
-                    }
-                  )
-
-                  facet.loaded = true;
-
                   let facetLayerVisible = 
                     urlFacetData.hasOwnProperty(facet.key + '');
 
@@ -516,7 +400,7 @@ const IndexPage = () => {
 
                   geojson.features.map(
                     feature => {
-                      const facetValue = getValueFromRow(feature.properties, facet.nameAttribute);
+                      const facetValue = feature.properties._name;
 
                       let tileRenderColor = DEFAULT_BLUE;
 
@@ -644,7 +528,7 @@ const IndexPage = () => {
 
         filteredGeojson.features = filteredGeojson.features.filter(
           (feature) => {
-            const facetValue = getValueFromRow(feature.properties, layer.nameAttribute);
+            const facetValue = feature.properties._name;
 
             return facets[layer.name].values[facetValue].selected;
           }
@@ -661,8 +545,27 @@ const IndexPage = () => {
                 };
       
                 leafletLayer.bindPopup(()=>{
-                  const clickedItemName = getValueFromRow(feature.properties, layer.nameAttribute);
-              
+                  const clickedItemName = feature.properties._name;
+                  let tooltipContents = '<b>' + layer.name + '</b>: ' + clickedItemName + '<br />';
+                 
+                  if (layer.attributesToDisplay) {
+                    layer.attributesToDisplay.map(
+                      (attr) => {
+                        const attributesForSelected = (layer.attributes || {})[clickedItemName];
+                        if (!attributesForSelected) {
+                          return '';
+                        }
+
+                        let attributeValue = attributesForSelected[attr];
+
+                        if (layer.attributeNumericAttributes.indexOf(attr) > 0) {
+                          attributeValue = attributeValue.toLocaleString('en-US')
+                        }
+
+                        tooltipContents += '<b>' + attr + '</b>: ' + attributeValue + '<br />';
+                      }
+                    );
+                  }
 
                   const interactsWith = intersections[layer.name + ':'+ clickedItemName];
 
@@ -684,13 +587,13 @@ const IndexPage = () => {
                     setIntersections(intersectKeys);
                   }
 
-                  return null;
+                  return tooltipContents;
                 }, popupOptions);
             }}
             style={
               (reference) => {
                 const facetName = layer.name;
-                const facetValue = getValueFromRow(reference.properties, layer.nameAttribute);
+                const facetValue = reference.properties._name;
 
                 const colorFromFacet = facets[facetName].values[facetValue].tileRenderColor;
                 const defaultColor = DEFAULT_BLUE;
@@ -715,7 +618,6 @@ const IndexPage = () => {
           facets={facets}
           facetClicker={facetClicker}
           facetItemClicker={facetItemClicker}
-          getValueFromRow={getValueFromRow}
         />
       </aside>
       <aside>
@@ -724,7 +626,6 @@ const IndexPage = () => {
           facets={intersectionFacets}
           facetClicker={facetIntersectionClicker}
           facetItemClicker={intersectionItemClicker}
-          getValueFromRow={getValueFromRow}
           filters={selectedIntersections}
         />
       </aside>     
