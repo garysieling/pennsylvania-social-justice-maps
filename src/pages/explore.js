@@ -98,7 +98,10 @@ const sourceData = [
     attributesToDisplay: [
       'Party',
       'District'
-    ]
+    ],   
+    attributeCategoryTypes: {
+      'Party': 'Categorical'
+    }
   },
   {
     name: 'PA House District',
@@ -163,24 +166,17 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
       const colorScheme = tileRenderColorScheme;
       const maxColor = colorScheme.length;
 
-      Object.keys(facets[facet].values).map(
-        (facetValue) => {
-          const record = facets[facet].values[facetValue];
-
-          if (!facets[facet] ||  !facets[facet].attributes) {
-            debugger;
+      facets[facet].geojson.features.map(
+        (feature) => {
+          const categoricalValue = feature.properties[attribute] || '';
+          if (!legend.attributes[categoricalValue]) {
+            legend.attributes[categoricalValue] = {
+              color: ''
+            };
           }
 
-          let attrs = {}; 
-          if (facets[facet] &&
-              facets[facet].attributes) {
-            attrs = facets[facet].attributes || {};
-          }
-          const categoricalValue = attrs[attribute] || '';
-          legend.attributes[categoricalValue] = {
-            count: 0
-          };
-          
+          legend.attributes[categoricalValue].count =
+            (legend.attributes[categoricalValue].count || 0) + 1
         });
 
       Object.keys(legend.attributes).sort(
@@ -210,25 +206,14 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
           legend.attributes[key].color = color;
         });
 
-      Object.keys(facets[facet].values).map(
-        (facetValue) => {
-          const record = facets[facet].values[facetValue];
+        facets[facet].geojson.features.map(
+          (feature) => {
+            const categoricalValue = feature.properties[attribute] || '';
 
-          let attrs = {};
-
-          if (facets[facet] && facets[facet].attributes) {
-            attrs = (facets[facet].attributes[facetValue] || {});
-          }
-
-          const categoricalValue = attrs[attribute] || '';
-
-          if (categoricalValue === '') {
-            console.log('Missing value', facetValue, facets[facet].attributes)
-          }
-
-          record.tileRenderColor = legend.attributes[categoricalValue].color;
-          legend.attributes[categoricalValue].count++;
+            feature.tileRenderColor = legend.attributes[categoricalValue].color;
+            legend.attributes[categoricalValue].count++;
         });
+
     } else if (
       legend.type === 'Ordered' ||
       legend.type === 'Diverging') {
@@ -536,9 +521,8 @@ const IndexPage = () => {
             style={
               (reference) => {
                 const facetName = layer.name;
-                const facetValue = reference.properties._name;
-
-                const colorFromFacet = facets[facetName].values[facetValue].tileRenderColor;
+console.log(reference);
+                const colorFromFacet = reference.properties.tileRenderColor;
                 const defaultColor = DEFAULT_BLUE;
                 
                 return {
