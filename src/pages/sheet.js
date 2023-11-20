@@ -7,25 +7,23 @@ import {
 } from "react-leaflet";
 
 import {  
-  Grid
+  Grid, 
+  Button
 } from "theme-ui";
 
 import * as COLOR_SCHEMES from 'd3-scale-chromatic';
 
-import CopyLink from '../components/CopyLink';
 import Legend from '../components/Legend';
 import Description from '../components/Description';
 import RenderingControls from '../components/RenderingControls';
 import Facets from '../components/Facets';
-import intersections from '../data/intersections';
-
+import CopyLink from '../components/CopyLink';
+import SheetPicker from '../components/SheetPicker';
 
 import {
   position,
   zoom,
-  DEFAULT_BLUE,
   pageStyles,
-  globalExists,
   recomputeColoration,
   loadBaseLayer
 } from '../shared/app';
@@ -38,11 +36,9 @@ const IndexPage = () => {
   console.time("render");
 
   const [facets, updateFacets] = React.useState({});
-  const [intersectionFacets, updateIntersectionFacets] = React.useState({});
   const [coloration, setColorStrategy] = React.useState({});
   const [legend, setLegend] = React.useState({});
   const [description, setDescription] = React.useState('');
-  const [selectedIntersections, setIntersections] = React.useState({});
 
   function setColoration({facet, attribute, rangeColorScheme}) {
     console.time("setColoration");
@@ -58,13 +54,10 @@ const IndexPage = () => {
 
     setLegend(colorationResults.legend);
     console.timeEnd("setColoration");
-  }  
+  }
 
   React.useEffect(
-    () => loadBaseLayer((initialFacetData) => {
-      updateFacets(initialFacetData);
-      updateIntersectionFacets(initialFacetData);
-    })
+    () => loadBaseLayer(updateFacets)
   );
 
   const facetClicker = (e) => {
@@ -90,24 +83,6 @@ const IndexPage = () => {
     console.timeEnd("facetClicker");
   } 
 
-  const facetIntersectionClicker = (e) => {
-    console.time("facetIntersectionClicker");
-    const facetName = e.target.dataset.facetname;
-
-    const newIntersectionFacets = Object.assign({}, intersectionFacets);
-    Object.keys(newIntersectionFacets[facetName].values)
-      .map(
-        key => {
-          newIntersectionFacets[facetName].values[key].selected = e.target.checked;
-        }
-      );
-
-    newIntersectionFacets[facetName].visible = e.target.checked;
-
-    updateIntersectionFacets(newIntersectionFacets);
-    console.timeEnd("facetClicker");
-  } 
-
   const facetItemClicker = (e) => {
     console.time("facetItemClicker");
     const facetName = e.target.dataset.facetname;
@@ -128,23 +103,6 @@ const IndexPage = () => {
     updateFacets(newFacets);
     console.timeEnd("facetItemClicker");
   }
-
-  
-  const intersectionItemClicker = (e) => {
-    const facetName = e.target.dataset.facetname;
-    const facetValue = e.target.dataset.facetvalue;
-
-    const newIntersectionFacets = Object.assign({}, intersectionFacets);
-    newIntersectionFacets[facetName].values[facetValue].selected = e.target.checked;
-
-    if (e.target.checked) {
-      newIntersectionFacets[facetName].visible = true;
-    }
-
-    updateIntersectionFacets(newIntersectionFacets);
-    console.timeEnd("facetItemClicker");
-  }
-
 
   const layers = Object.keys(facets)
     .map(
@@ -184,45 +142,22 @@ const IndexPage = () => {
       
                 leafletLayer.bindPopup(()=>{
                   const clickedItemName = feature.properties._name;
-                  let tooltipContents = '<b>' + layer.name + '</b>: ' + clickedItemName + '<br />';
+                  let tooltipContents = '<b>' + layer.name + '</b>: ' + clickedItemName + '<br />'
+                     + '<b>Area: </b>' + feature.properties._areaInMiles + ' square miles<br />';
                  
                   if (layer.attributesToDisplay) {
                     layer.attributesToDisplay.map(
                       (attr) => {
-                        const attributesForSelected = (layer.attributes || {})[clickedItemName];
+                        const attributesForSelected = feature.properties;
                         if (!attributesForSelected) {
                           return '';
                         }
 
                         let attributeValue = attributesForSelected[attr];
 
-                        if (layer.attributeNumericAttributes.indexOf(attr) > 0) {
-                          attributeValue = attributeValue.toLocaleString('en-US')
-                        }
-
                         tooltipContents += '<b>' + attr + '</b>: ' + attributeValue + '<br />';
                       }
                     );
-                  }
-
-                  const interactsWith = intersections[layer.name + ':'+ clickedItemName];
-
-                  if (interactsWith) {
-                    const intersectKeys = {};
-                    interactsWith.map(
-                      (key) => key.split(":")
-                    ).map(
-                      ([key, value]) => {
-                        if (!intersectKeys.hasOwnProperty(key)) {
-                          intersectKeys[key] = [];
-                        }
-
-                        intersectKeys[key].push(value);
-                        intersectKeys[key].sort();
-                      }
-                    );
-
-                    setIntersections(intersectKeys);
                   }
 
                   return tooltipContents;
@@ -230,14 +165,10 @@ const IndexPage = () => {
             }}
             style={
               (reference) => {
-                const facetName = layer.name;
-                const facetValue = reference.properties._name;
-
-                const colorFromFacet = facets[facetName].values[facetValue].tileRenderColor;
-                const defaultColor = DEFAULT_BLUE;
+                const colorFromFacet = reference.properties.tileRenderColor;
                 
                 return {
-                  color: colorFromFacet || defaultColor
+                  color: colorFromFacet
                 };
               }
             }
@@ -249,7 +180,7 @@ const IndexPage = () => {
   const result = (
     <Grid
       gap={2} 
-      columns={[3, '0.8fr .5fr 3fr']}>
+      columns={[2, '0.5fr 5fr']}>
       <aside>
         <Facets title={'Facets'}
           layers={layers} 
@@ -257,21 +188,13 @@ const IndexPage = () => {
           facetClicker={facetClicker}
           facetItemClicker={facetItemClicker}
         />
-      </aside>
-      <aside>
-      <Facets title={'Intersects'}
-          layers={layers} 
-          facets={intersectionFacets}
-          facetClicker={facetIntersectionClicker}
-          facetItemClicker={intersectionItemClicker}
-          filters={selectedIntersections}
-        />
-      </aside>     
+      </aside>    
       <main style={pageStyles}>
         <Grid
           gap={2} 
           columns={[2, '1fr 1fr']}>
             <div>
+              <SheetPicker />
               <RenderingControls 
                 layers={layers} 
                 facets={facets} 

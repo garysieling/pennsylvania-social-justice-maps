@@ -22,18 +22,11 @@ import CopyLink from '../components/CopyLink';
 import {
   position,
   zoom,
-  DEFAULT_BLUE,
-  DEFAULT_LEGEND,
   pageStyles,
-  buttonStyle,
-  globalExists,
-  filterMap,
-  sourceData,
-  recomputeColoration
+  recomputeColoration,
+  loadBaseLayer
 } from '../shared/app';
 
-
-let firstLoad = true;
 
 let cacheBuster = 0;
 
@@ -45,47 +38,6 @@ const IndexPage = () => {
   const [coloration, setColorStrategy] = React.useState({});
   const [legend, setLegend] = React.useState({});
   const [description, setDescription] = React.useState('');
-
-  function copyLink() {
-    const changes = {
-      facets: facets,
-      coloration: coloration
-    }
-
-    const result = {};
-    Object.keys(changes.facets).map( 
-      (key) => changes.facets[key]
-    ).filter( 
-      ({visible}) => visible
-    ).map(
-      (record) => {
-        return { 
-          key: record.key, 
-          values: Object.keys(filterMap(
-            record.values, 
-            ({selected}) => selected 
-          ))
-        }
-      }
-    ).filter( 
-      ({values}) => Object.keys(values).length > 0
-    ).forEach(
-      ({key, values}) => {
-        result[key] = values;
-      }
-    )
-
-    if (globalExists('window')) {
-      let baseUrl = window.location.href;
-      if (baseUrl.indexOf('?') > 0) {
-        baseUrl = baseUrl.split('?')[0];
-      }
-
-      navigator.clipboard.writeText(baseUrl + '?' + JSON.stringify(result));
-    }
-
-    return result;
-  }
 
   function setColoration({facet, attribute, rangeColorScheme}) {
     console.time("setColoration");
@@ -103,72 +55,10 @@ const IndexPage = () => {
     console.timeEnd("setColoration");
   }
 
-  let urlFacetData = {};
-  if (globalExists('window')) {
-    if (window.location.href.indexOf('?') > 0) {
-      const jsonFromUrl = window.location.href.split('?')[1];
-      try {
-        urlFacetData = JSON.parse(decodeURI(jsonFromUrl));
-      } catch (e) {
-        console.log(e);
-      }
-    }
-  }
-
   React.useEffect(
-    () => {
-      if (firstLoad) {
-        firstLoad = false;
-        const initialFacetData = {};
-        Promise.all(
-          sourceData.map(
-            (facet) => 
-              fetch(facet.source)
-                .then(res => res.text())
-                .then(jsonText => {
-                  console.time("process " + facet.name);
-                  const geojson = JSON.parse(jsonText);
-
-                  let facetLayerVisible = 
-                    urlFacetData.hasOwnProperty(facet.key + '');
-
-                  initialFacetData[facet.name] = Object.assign(
-                    facet, {
-                      'visible': facetLayerVisible,
-                      'showMore': false,
-                      'geojson': geojson,
-                      'values': {}
-                    }
-                  );
-
-                  geojson.features.map(
-                    feature => {
-                      const facetValue = feature.properties._name;
-
-                      feature.properties.tileRenderColor = DEFAULT_BLUE;
-
-                      let selected = false;
-                      if (urlFacetData.hasOwnProperty(facet.key + '')) {
-                        selected = urlFacetData[facet.key + ''].includes(facetValue);
-                      }
-
-                      initialFacetData[facet.name].values[facetValue] = {
-                        selected: selected
-                      }
-                    }
-                  )
-
-                  console.timeEnd("process " + facet.name);
-                })
-          )
-        ).then(
-          responses => {
-            updateFacets(initialFacetData);
-          }
-        );
-      }
-    }
+    () => loadBaseLayer(updateFacets)
   );
+
 
   const facetClicker = (e) => {
     console.time("facetClicker");

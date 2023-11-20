@@ -13,7 +13,6 @@ import {
 
 
 const CopyLink = ({facets, coloration}) => {
-    
     function copyLink() {
         const changes = {
             facets: facets,

@@ -258,6 +258,72 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
   };
 }
 
+let firstLoad = true;
+export function loadBaseLayer(updateFacets) {
+  let urlFacetData = {};
+  if (globalExists('window')) {
+    if (window.location.href.indexOf('?') > 0) {
+      const jsonFromUrl = window.location.href.split('?')[1];
+      try {
+        urlFacetData = JSON.parse(decodeURI(jsonFromUrl));
+      } catch (e) {
+        console.log(e);
+      }
+    }
+  }
+
+  if (firstLoad) {
+    firstLoad = false;
+    const initialFacetData = {};
+    Promise.all(
+      sourceData.map(
+        (facet) => 
+          fetch(facet.source)
+            .then(res => res.text())
+            .then(jsonText => {
+              console.time("process " + facet.name);
+              const geojson = JSON.parse(jsonText);
+
+              let facetLayerVisible = 
+                urlFacetData.hasOwnProperty(facet.key + '');
+
+              initialFacetData[facet.name] = Object.assign(
+                facet, {
+                  'visible': facetLayerVisible,
+                  'showMore': false,
+                  'geojson': geojson,
+                  'values': {}
+                }
+              );
+
+              geojson.features.map(
+                feature => {
+                  const facetValue = feature.properties._name;
+
+                  feature.properties.tileRenderColor = DEFAULT_BLUE;
+
+                  let selected = false;
+                  if (urlFacetData.hasOwnProperty(facet.key + '')) {
+                    selected = urlFacetData[facet.key + ''].includes(facetValue);
+                  }
+
+                  initialFacetData[facet.name].values[facetValue] = {
+                    selected: selected
+                  }
+                }
+              )
+
+              console.timeEnd("process " + facet.name);
+            })
+      )
+    ).then(
+      responses => {
+        updateFacets(initialFacetData);
+      }
+    );
+  }
+}
+
 export {
   position,
   zoom,
