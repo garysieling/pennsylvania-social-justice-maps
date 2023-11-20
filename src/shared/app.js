@@ -9,22 +9,46 @@ const sourceData = [
   {
     name: 'County',
     key: '1',
-    source: '/static/Counties.geojson'
+    source: '/static/Counties.geojson',
+    attributesToDisplay: [
+      '_population'
+    ],   
+    attributeCategoryTypes: {
+      '_population': 'Ordered'
+    }
   },
   {
     name: 'Zip',
     key: '2',
-    source: '/static/zcta.geojson'
+    source: '/static/zcta.geojson',
+    attributesToDisplay: [
+      '_population'
+    ],   
+    attributeCategoryTypes: {
+      '_population': 'Ordered'
+    }
   },
   {
     name: 'Municipality',
     key: '3',
-    source: '/static/Municipalities.geojson'
+    source: '/static/Municipalities.geojson',
+    attributesToDisplay: [
+      '_population'
+    ],   
+    attributeCategoryTypes: {
+      '_population': 'Ordered'
+    }
   },
   {
     name: 'School District',
     source: '/static/SchoolDistricts.geojson',
-    key: '4'
+    key: '4',
+    attributesToDisplay: [
+      '_population'
+    ],   
+    attributeCategoryTypes: {
+      '_population': 'Ordered'
+    }
   },
   {
     name: 'Police Department',
@@ -42,10 +66,12 @@ const sourceData = [
     source: '/static/Pennsylvania_State_Senate_Boundaries.geojson',
     attributesToDisplay: [
       'Party',
-      'District'
+      'District',
+      '_population'
     ],   
     attributeCategoryTypes: {
-      'Party': 'Categorical'
+      'Party': 'Categorical',
+      '_population': 'Ordered'
     }
   },
   {
@@ -54,8 +80,13 @@ const sourceData = [
     source: '/static/Pennsylvania_State_House_Boundaries.geojson',
     attributesToDisplay: [
       'Party',
-      'District'
-    ]
+      'District',
+      '_population'
+    ],   
+    attributeCategoryTypes: {
+      'Party': 'Categorical',
+      '_population': 'Ordered'
+    }
   },
   {
     name: 'State Police',
@@ -196,19 +227,12 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
       legend.type === 'Diverging') {
       legend.min = null;
       legend.max = null;
-      legend.attributeNumericFormatter = facets[facet].attributeNumericFormatters[facet];
+      //legend.attributeNumericFormatter = facets[facet].attributeNumericFormatters[facet];
 
-      Object.keys(facets[facet].values).filter(
-        (facetValue) => {
-          return facets[facet].values[facetValue].selected; 
-        }
-      ).map(
-        (facetValue) => {
-          if (!facets[facet] || !facets[facet].attributes) {
-            debugger;
-          }
-
-          const value = (facets[facet].attributes[facetValue] || {})[attribute];
+      
+      facets[facet].geojson.features.map(
+        (feature) => {
+          const value = feature.properties[attribute];
           if (value !== null && value !== undefined) {
             if (legend.min == null) {
               legend.min = value;
@@ -241,13 +265,12 @@ function recomputeColoration({facet, attribute}, colorFn, facets) {
       }
 
       const range = legend.rangeMax - legend.rangeMin;
-
-      Object.keys(facets[facet].values).map(
-        (facetValue) => {
-          const record = facets[facet].values[facetValue];
-
-          const value = (facets[facet].attributes[facetValue] || {})[attribute];
-          record.properties.tileRenderColor = legend.colorFn(1.0 * value / range)
+      
+      facets[facet].geojson.features.map(
+        (feature) => {
+          const value = feature.properties[attribute];
+          debugger;
+          feature.properties.tileRenderColor = legend.colorFn(1.0 * value / range)
         });
     }
   }

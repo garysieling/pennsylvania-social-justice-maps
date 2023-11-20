@@ -7,6 +7,8 @@ const sourceData = [
       name: 'County',
       key: '1',
       source: '/static/Counties.geojson',
+      population: 'county.csv',
+      populationKey: 'CountyName',
       nameAttribute: 'co_name',
       //attributeSource: '../public/static/Data Sheets - Counties.tsv',
       attributeSourceKey: 'Name',
@@ -21,13 +23,18 @@ const sourceData = [
       name: 'Zip',
       key: '2',
       source: '/static/zcta.geojson',
+      population: 'zcta.csv',
+      populationKey: 'zcta',
       nameAttribute: 'ZCTA5CE10'
     },
     {
       name: 'Municipality',
       key: '3',
       source: '/static/Municipalities.geojson',
+      population: 'municipality.csv',
+      populationKey: ['CountyName', 'MCDName'],
       nameAttribute: ['co_name', 'mun_name'],
+      populationTransform: (k) => k.split(',')[0].toLowerCase(),
       //attributeSource: '../public/static/municipalities/data.tsv',
       attributeSourceKey: ['County', 'Municipality'],
       attributeCategoryTypes: {
@@ -41,7 +48,9 @@ const sourceData = [
       name: 'School District',
       key: '4',
       source: '/static/SchoolDistricts.geojson',
-      nameAttribute: ['County', 'school_nam'],
+      population: 'school_district.csv',
+      populationKey: 'uschlnm20',
+      nameAttribute: 'school_dis',
     //  attributeSourceKey: ['County', 'School District'],
       attributeCategoryTypes: {
       },
@@ -75,6 +84,9 @@ const sourceData = [
       key: '7',
       source: '/static/Pennsylvania_State_Senate_Boundaries.geojson',
       nameAttribute: 'leg_distri',
+      population: 'senate.csv',
+      populationKey: 'sldu18',
+      populationTransform: (k) => parseInt(k) + '',
       attributeSource: '../public/static/Data Sheets - PA State Senate.tsv',
       attributeSourceKey: 'District',
       attributeCategoryTypes: {
@@ -91,6 +103,9 @@ const sourceData = [
       key: '8',
       source: '/static/Pennsylvania_State_House_Boundaries.geojson',
       nameAttribute: 'leg_distri',
+      population: 'house.csv',
+      populationKey: 'sldl18',
+      populationTransform: (k) => parseInt(k) + '',
       whereObtained: 'PA Public Datasets',
       attributeSource: '../public/static/Data Sheets - PA State House.tsv',
       attributeSourceKey: 'District',
@@ -140,57 +155,103 @@ function getValueFromRow(row, sourceKey) {
   }
 }
 
-sourceData.filter(
-  (recordType) => 
-    !!recordType.attributeSource
-).map(
-  (recordType) => {
-    const file = fs.createReadStream(recordType.attributeSource);
-    const rows = [];
-
+function toJson (filepath) {
+  const file = fs.createReadStream(filepath)
+  return new Promise((resolve, reject) => {
     Papa.parse(file, {
-      download: false,
       header: true,
-      skipEmptyLines: true,
-      step: function(result) {
-         //console.log('result: ' + JSON.stringify(result));
-        rows.push(result.data);
+      complete (results, file) {
+        resolve(results.data)
       },
-      complete: function(results) {
-       // console.log('csv complete ' + JSON.stringify(rows));
-        writeGeojson(recordType, rows);
+      error (err, file) {
+        reject(err)
       }
-    });
-  }
-);
+    })
+  })
+}
 
-function writeGeojson(metadata, rows) {
+
+function toKey(valueOrValues, src) {
+  if(typeof valueOrValues === 'string') {
+    return trim(src[valueOrValues]);
+  } else {
+      return trim(valueOrValues.map(
+              (v) => {
+                  let res = src[v];
+
+                  if (!res) {
+                      throw src;
+                  }
+
+                  return res;
+              }
+          ).join(" - "));
+  }
+}
+
+function toMap(key, keyCb, rows) {
+  let result = {};
+
+  for (let i = 0; i < rows.length; i++) {
+    result[keyCb(toKey(key, rows[i]))] = rows[i].pop20;
+  }
+
+if (key === 'uschlnm20') {
+  //console.log(result);
+}
+
+  return result;
+}
+
+function run() {
+  console.log('run');
+  sourceData.map(
+    async (recordType) => {
+      let popMatch = 0;
+      let popTotal = 0;
+    
+      let rows = [];
+      if (recordType.attributeSource) {
+        data = await toJson(recordType.attributeSource)
+      }
+
+      let popData = {};
+      if (recordType.population) {
+        popData = toMap(
+          recordType.populationKey,
+          recordType.populationTransform || ((k) => (k || '').toLowerCase()),
+          await toJson('./census/' + recordType.population)
+        )
+      }
+
+      writeGeojson(recordType, rows, popData, () => popMatch++, () => popTotal++);
+
+      console.log('Population matched: ' + popMatch + ' / ' + popTotal + ' for ' + recordType.name);
+    }
+  );
+}
+
+run();
+
+function writeGeojson(metadata, rows, popData, matchCb, totalCb) {
     const file = '../public/' + metadata.source;
     const data = JSON.parse(fs.readFileSync(file) + '');
 
       data.features.map(
           (feature) => {
-              if(typeof metadata.nameAttribute === 'string') {
-                  feature.properties._name = trim(feature.properties[metadata.nameAttribute]);
-              } else {
-                  feature.properties._name = 
-                      trim(metadata.nameAttribute.map(
-                          (v) => {
-                              let res = feature.properties[v];
-
-                              if (!res) {
-                                  throw feature.properties;
-                              }
-
-                              return res;
-                          }
-                      ).join(" - "));
-              }
-
+              feature.properties._name = toKey(metadata.nameAttribute, feature.properties);
+              
               if (!feature.properties._name) {
                   console.log(metadata);
                   throw feature.properties;
               }
+
+              if (popData[feature.properties._name.toLowerCase()]) {
+                feature.properties._population = parseInt(popData[feature.properties._name.toLowerCase()]);
+                matchCb();
+              }
+
+              totalCb();
 
              // console.log(feature.properties._name);
 
@@ -256,13 +317,3 @@ function writeGeojson(metadata, rows) {
           JSON.stringify(data)
       );
   }
-
-
-  
-
-sourceData.filter(
-  (recordType) => 
-    !recordType.attributeSource
-).map(
-  (recordType) => writeGeojson(recordType, [])
-);
