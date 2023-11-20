@@ -11,18 +11,13 @@ import {
   Button
 } from "theme-ui";
 
-import { cloneDeep } from "lodash";
-
-import { 
-  schemeTableau10 as tileRenderColorScheme,
-} from 'd3-scale-chromatic';
-
 import * as COLOR_SCHEMES from 'd3-scale-chromatic';
 
 import Legend from '../components/Legend';
 import Description from '../components/Description';
 import RenderingControls from '../components/RenderingControls';
 import Facets from '../components/Facets';
+import CopyLink from '../components/CopyLink';
 
 import {
   position,
@@ -33,150 +28,14 @@ import {
   buttonStyle,
   globalExists,
   filterMap,
-  sourceData
+  sourceData,
+  recomputeColoration
 } from '../shared/app';
 
 
 let firstLoad = true;
 
 let cacheBuster = 0;
-
-function recomputeColoration({facet, attribute}, colorFn, facets) {  
-  let legend = null;
-
-  if (!facet || !attribute) {
-    legend = cloneDeep(DEFAULT_LEGEND);
-
-    // clear all colors - todo - not working
-    facets[facet].geojson.features.map(
-      (feature) => {
-        feature.properties.tileRenderColor = DEFAULT_BLUE;
-      })
-  } else {
-    legend = {};
-    legend.attribute = attribute;
-    legend.attributes = {};
-    legend.type = facets[facet].attributeCategoryTypes[attribute];
-    legend.colorFn = colorFn;
-
-    if (legend.type === 'Categorical') {
-      const colorScheme = tileRenderColorScheme;
-      const maxColor = colorScheme.length;
-
-      facets[facet].geojson.features.map(
-        (feature) => {
-          const categoricalValue = feature.properties[attribute] || '';
-          if (!legend.attributes[categoricalValue]) {
-            legend.attributes[categoricalValue] = {
-              color: ''
-            };
-          }
-
-          legend.attributes[categoricalValue].count =
-            (legend.attributes[categoricalValue].count || 0) + 1
-        });
-
-      Object.keys(legend.attributes).sort(
-        (a, b) => {
-          if (a === b) {
-            return 0;
-          }
-
-          if (a === '') {
-            return 1;
-          }
-
-          if (b === '') {
-            return -1;
-          }
-
-          if (a > b) {
-            return 1;
-          } else {
-            return -1;
-          }
-        }
-      ).map(
-        (key, colorIndex) => {
-          const color = colorScheme[colorIndex % maxColor];
-
-          legend.attributes[key].color = color;
-        });
-
-        facets[facet].geojson.features.map(
-          (feature) => {
-            const categoricalValue = feature.properties[attribute] || '';
-
-            feature.properties.tileRenderColor = legend.attributes[categoricalValue].color;
-            legend.attributes[categoricalValue].count++;
-        });
-
-    } else if (
-      legend.type === 'Ordered' ||
-      legend.type === 'Diverging') {
-      legend.min = null;
-      legend.max = null;
-      legend.attributeNumericFormatter = facets[facet].attributeNumericFormatters[facet];
-
-      Object.keys(facets[facet].values).filter(
-        (facetValue) => {
-          return facets[facet].values[facetValue].selected; 
-        }
-      ).map(
-        (facetValue) => {
-          if (!facets[facet] || !facets[facet].attributes) {
-            debugger;
-          }
-
-          const value = (facets[facet].attributes[facetValue] || {})[attribute];
-          if (value !== null && value !== undefined) {
-            if (legend.min == null) {
-              legend.min = value;
-            }
-
-            if (legend.max == null) {
-              legend.max = value;
-            }
-
-            if (value > legend.max) { 
-              legend.max = value;
-            }
-
-            if (value < legend.min) {
-              legend.min = value;
-            }
-          }
-        });
-
-      legend.colorFn = colorFn;
-
-      legend.rangeMin = legend.min;
-      legend.rangeMax = legend.max;
-
-      if (legend.min < 0 && legend.max > 0) {
-        legend.rangeMax = Math.max(Math.abs(legend.min), legend.max);
-        legend.rangeMin = -1 * legend.rangeMax;
-      } else {
-        legend.rangeMin = 0;
-      }
-
-      const range = legend.rangeMax - legend.rangeMin;
-
-      Object.keys(facets[facet].values).map(
-        (facetValue) => {
-          const record = facets[facet].values[facetValue];
-
-          const value = (facets[facet].attributes[facetValue] || {})[attribute];
-          record.properties.tileRenderColor = legend.colorFn(1.0 * value / range)
-        });
-    }
-  }
-
-  return  {
-    facets,
-    legend
-  };
-}
 
 
 const IndexPage = () => {
@@ -416,8 +275,6 @@ const IndexPage = () => {
             }}
             style={
               (reference) => {
-                const facetName = layer.name;
-console.log(reference);
                 const colorFromFacet = reference.properties.tileRenderColor;
                 
                 return {
@@ -465,12 +322,7 @@ console.log(reference);
             />
             { facetLayers }
           </MapContainer>
-          <Button 
-            mr={2}
-            style={buttonStyle}
-            onClick={copyLink}>
-              Copy link to this page
-          </Button>
+          <CopyLink facets={facets} coloration={coloration} />
       </main>
     </Grid>
   );

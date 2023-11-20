@@ -19,6 +19,7 @@ import {
 
 import * as COLOR_SCHEMES from 'd3-scale-chromatic';
 
+import CopyLink from '../components/CopyLink';
 import Legend from '../components/Legend';
 import Description from '../components/Description';
 import RenderingControls from '../components/RenderingControls';
@@ -35,172 +36,14 @@ import {
   buttonStyle,
   globalExists,
   filterMap,
-  sourceData
+  sourceData,
+  recomputeColoration
 } from '../shared/app';
 
 
 let firstLoad = true;
 
 let cacheBuster = 0;
-
-function recomputeColoration({facet, attribute}, colorFn, facets) {  
-  let legend = null;
-
-  if (!facet || !attribute) {
-    legend = cloneDeep(DEFAULT_LEGEND);
-
-    // clear all colors - todo - not working
-    Object.keys(facets,
-      (facetKey) => {
-        Object.keys(facets[facetKey].values).map(
-          (value) => {
-            facets[facetKey].values[value].tileRenderColor = DEFAULT_BLUE;
-          }
-        );
-      });
-  } else {
-    legend = {};
-    legend.attribute = attribute;
-    legend.attributes = {};
-    legend.type = facets[facet].attributeCategoryTypes[attribute];
-    legend.colorFn = colorFn;
-
-    if (legend.type === 'Categorical') {
-      const colorScheme = tileRenderColorScheme;
-      const maxColor = colorScheme.length;
-
-      Object.keys(facets[facet].values).map(
-        (facetValue) => {
-          const record = facets[facet].values[facetValue];
-
-          if (!facets[facet] ||  !facets[facet].attributes) {
-            debugger;
-          }
-
-          let attrs = {}; 
-          if (facets[facet] &&
-              facets[facet].attributes) {
-            attrs = facets[facet].attributes || {};
-          }
-          const categoricalValue = attrs[attribute] || '';
-          legend.attributes[categoricalValue] = {
-            count: 0
-          };
-          
-        });
-
-      Object.keys(legend.attributes).sort(
-        (a, b) => {
-          if (a === b) {
-            return 0;
-          }
-
-          if (a === '') {
-            return 1;
-          }
-
-          if (b === '') {
-            return -1;
-          }
-
-          if (a > b) {
-            return 1;
-          } else {
-            return -1;
-          }
-        }
-      ).map(
-        (key, colorIndex) => {
-          const color = colorScheme[colorIndex % maxColor];
-
-          legend.attributes[key].color = color;
-        });
-
-      Object.keys(facets[facet].values).map(
-        (facetValue) => {
-          const record = facets[facet].values[facetValue];
-
-          let attrs = {};
-
-          if (facets[facet] && facets[facet].attributes) {
-            attrs = (facets[facet].attributes[facetValue] || {});
-          }
-
-          const categoricalValue = attrs[attribute] || '';
-
-          if (categoricalValue === '') {
-            console.log('Missing value', facetValue, facets[facet].attributes)
-          }
-
-          record.tileRenderColor = legend.attributes[categoricalValue].color;
-          legend.attributes[categoricalValue].count++;
-        });
-    } else if (
-      legend.type === 'Ordered' ||
-      legend.type === 'Diverging') {
-      legend.min = null;
-      legend.max = null;
-      legend.attributeNumericFormatter = facets[facet].attributeNumericFormatters[facet];
-
-      Object.keys(facets[facet].values).filter(
-        (facetValue) => {
-          return facets[facet].values[facetValue].selected; 
-        }
-      ).map(
-        (facetValue) => {
-          if (!facets[facet] || !facets[facet].attributes) {
-            debugger;
-          }
-
-          const value = (facets[facet].attributes[facetValue] || {})[attribute];
-          if (value !== null && value !== undefined) {
-            if (legend.min == null) {
-              legend.min = value;
-            }
-
-            if (legend.max == null) {
-              legend.max = value;
-            }
-
-            if (value > legend.max) { 
-              legend.max = value;
-            }
-
-            if (value < legend.min) {
-              legend.min = value;
-            }
-          }
-        });
-
-      legend.colorFn = colorFn;
-
-      legend.rangeMin = legend.min;
-      legend.rangeMax = legend.max;
-
-      if (legend.min < 0 && legend.max > 0) {
-        legend.rangeMax = Math.max(Math.abs(legend.min), legend.max);
-        legend.rangeMin = -1 * legend.rangeMax;
-      } else {
-        legend.rangeMin = 0;
-      }
-
-      const range = legend.rangeMax - legend.rangeMin;
-
-      Object.keys(facets[facet].values).map(
-        (facetValue) => {
-          const record = facets[facet].values[facetValue];
-
-          const value = (facets[facet].attributes[facetValue] || {})[attribute];
-          record.tileRenderColor = legend.colorFn(1.0 * value / range)
-        });
-    }
-  }
-
-  return  {
-    facets,
-    legend
-  };
-}
 
 
 const IndexPage = () => {
@@ -212,47 +55,6 @@ const IndexPage = () => {
   const [legend, setLegend] = React.useState({});
   const [description, setDescription] = React.useState('');
   const [selectedIntersections, setIntersections] = React.useState({});
-
-  function copyLink() {
-    const changes = {
-      facets: facets,
-      coloration: coloration
-    }
-
-    const result = {};
-    Object.keys(changes.facets).map( 
-      (key) => changes.facets[key]
-    ).filter( 
-      ({visible}) => visible
-    ).map(
-      (record) => {
-        return { 
-          key: record.key, 
-          values: Object.keys(filterMap(
-            record.values, 
-            ({selected}) => selected 
-          ))
-        }
-      }
-    ).filter( 
-      ({values}) => Object.keys(values).length > 0
-    ).forEach(
-      ({key, values}) => {
-        result[key] = values;
-      }
-    )
-
-    if (globalExists('window')) {
-      let baseUrl = window.location.href;
-      if (baseUrl.indexOf('?') > 0) {
-        baseUrl = baseUrl.split('?')[0];
-      }
-
-      navigator.clipboard.writeText(baseUrl + '?' + JSON.stringify(result));
-    }
-
-    return result;
-  }
 
   function setColoration({facet, attribute, rangeColorScheme}) {
     console.time("setColoration");
@@ -562,12 +364,7 @@ const IndexPage = () => {
             />
             { facetLayers }
           </MapContainer>
-          <Button 
-            mr={2}
-            style={buttonStyle}
-            onClick={copyLink}>
-              Copy link to this page
-          </Button>
+          <CopyLink facets={facets} coloration={coloration} />
       </main>
     </Grid>
   );
