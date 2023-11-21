@@ -1,147 +1,271 @@
 {
-  "School District:Chester - Octorara Area": [
-    "Police Department:Chester - West Fallowfield Township",
-    "Police Department:Chester - Highland Township",
-    "Police Department:Chester - West Sadsbury Township"
+  "School District:Montgomery - Abington": [
+    "Police Department:Montgomery - Abington"
   ],
-  "Police Department:Chester - West Fallowfield Township": [
-    "School District:Chester - Octorara Area"
+  "Police Department:Montgomery - Abington": [
+    "School District:Montgomery - Abington"
   ],
-  "Police Department:Chester - Highland Township": [
-    "School District:Chester - Octorara Area"
+  "School District:Chester - Avon Grove": [
+    "Police Department:Chester - PA State Police Avondale"
   ],
-  "Police Department:Chester - West Sadsbury Township": [
-    "School District:Chester - Octorara Area"
+  "Police Department:Chester - PA State Police Avondale": [
+    "School District:Chester - Avon Grove",
+    "School District:Chester - Oxford Area",
+    "School District:Chester - Unionville-Chadds Ford"
   ],
-  "School District:Bucks - Pennsbury": [
-    "Police Department:Bucks - Falls  Police",
-    "Police Department:Bucks - Lower Makefield  Police"
+  "School District:Bucks - Bensalem Township": [
+    "Police Department:Bucks - PA State Police (Bensalem)"
   ],
-  "Police Department:Bucks - Falls  Police": [
-    "School District:Bucks - Pennsbury"
+  "Police Department:Bucks - PA State Police (Bensalem)": [
+    "School District:Bucks - Bensalem Township"
   ],
-  "Police Department:Bucks - Lower Makefield  Police": [
-    "School District:Bucks - Pennsbury"
+  "School District:Berks - Boyertown Area": [
+    "Police Department:Montgomery - Douglass",
+    "Police Department:Montgomery - New Hanover",
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
   ],
-  "School District:Montgomery - Perkiomen Valley": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack",
-    "Police Department:Montgomery - Lower Frederick"
-  ],
-  "Police Department:Montgomery - State Police - Troop K - Skippack": [
-    "School District:Montgomery - Perkiomen Valley",
-    "School District:Montgomery - Methacton",
-    "School District:Montgomery - Upper Perkiomen",
-    "School District:Montgomery - Souderton Area",
+  "Police Department:Montgomery - Douglass": [
     "School District:Berks - Boyertown Area"
   ],
-  "Police Department:Montgomery - Lower Frederick": [
-    "School District:Montgomery - Perkiomen Valley"
+  "Police Department:Montgomery - New Hanover": [
+    "School District:Berks - Boyertown Area"
   ],
-  "School District:Chester - Phoenixville Area": [
-    "Police Department:Chester - Phoenixville Borough",
-    "Police Department:Chester - Schuylkill Township",
-    "Police Department:Chester - East Pikeland Township"
+  "Police Department:Montgomery - State Police - Troop K - Skippack": [
+    "School District:Berks - Boyertown Area",
+    "School District:Montgomery - Methacton",
+    "School District:Montgomery - Perkiomen Valley",
+    "School District:Montgomery - Souderton Area",
+    "School District:Montgomery - Upper Perkiomen"
   ],
-  "Police Department:Chester - Phoenixville Borough": [
-    "School District:Chester - Phoenixville Area"
+  "School District:Bucks - Bristol Borough": [
+    "Police Department:Bucks - Bristol Borough Police"
   ],
-  "Police Department:Chester - Schuylkill Township": [
-    "School District:Chester - Phoenixville Area"
+  "Police Department:Bucks - Bristol Borough Police": [
+    "School District:Bucks - Bristol Borough"
   ],
-  "Police Department:Chester - East Pikeland Township": [
-    "School District:Chester - Phoenixville Area"
+  "School District:Bucks - Bristol Township": [
+    "Police Department:Bucks - Bristol  Police"
   ],
-  "School District:Delaware - Penn-Delco": [
-    "Police Department:Delaware - Brookhaven",
-    "Police Department:Delaware - Aston"
+  "Police Department:Bucks - Bristol  Police": [
+    "School District:Bucks - Bristol Township"
   ],
-  "Police Department:Delaware - Brookhaven": [
-    "School District:Delaware - Penn-Delco"
+  "School District:Montgomery - Bryn Athyn": [
+    "Police Department:Montgomery - Bryn Athyn"
   ],
-  "Police Department:Delaware - Aston": [
-    "School District:Delaware - Penn-Delco"
+  "Police Department:Montgomery - Bryn Athyn": [
+    "School District:Montgomery - Bryn Athyn"
   ],
-  "School District:Bucks - Pennridge": [
-    "Police Department:Bucks - Pennridge Regional Police",
-    "Police Department:Bucks - Hilltown  Police",
-    "Police Department:Bucks - PA State Police (Dublin)"
+  "School District:Bucks - Centennial": [
+    "Police Department:Bucks - Upper Southampton  Police",
+    "Police Department:Bucks - Warminster  Police"
   ],
-  "Police Department:Bucks - Pennridge Regional Police": [
-    "School District:Bucks - Pennridge"
+  "Police Department:Bucks - Upper Southampton  Police": [
+    "School District:Bucks - Centennial"
   ],
-  "Police Department:Bucks - Hilltown  Police": [
-    "School District:Bucks - Pennridge"
+  "Police Department:Bucks - Warminster  Police": [
+    "School District:Bucks - Centennial"
   ],
-  "Police Department:Bucks - PA State Police (Dublin)": [
-    "School District:Bucks - Pennridge",
-    "School District:Bucks - Quakertown Community",
-    "School District:Bucks - Palisades"
+  "School District:Bucks - Central Bucks": [
+    "Police Department:Bucks - Buckingham  Police",
+    "Police Department:Bucks - Doylestown  Police",
+    "Police Department:Bucks - New Britain  Police",
+    "Police Department:Bucks - Plumstead  Police",
+    "Police Department:Bucks - Warrington  Police",
+    "Police Department:Bucks - Warwick  Police"
   ],
-  "School District:Chester - Tredyffrin-Easttown": [
-    "Police Department:Chester - Tredyffrin Township",
-    "Police Department:Chester - Easttown Township"
+  "Police Department:Bucks - Buckingham  Police": [
+    "School District:Bucks - Central Bucks"
   ],
-  "Police Department:Chester - Tredyffrin Township": [
-    "School District:Chester - Tredyffrin-Easttown"
+  "Police Department:Bucks - Doylestown  Police": [
+    "School District:Bucks - Central Bucks"
   ],
-  "Police Department:Chester - Easttown Township": [
-    "School District:Chester - Tredyffrin-Easttown"
+  "Police Department:Bucks - New Britain  Police": [
+    "School District:Bucks - Central Bucks"
   ],
-  "School District:Delaware - Wallingford-Swarthmore": [
-    "Police Department:Delaware - Swarthmore",
-    "Police Department:Delaware - Nether Providence"
+  "Police Department:Bucks - Plumstead  Police": [
+    "School District:Bucks - Central Bucks"
   ],
-  "Police Department:Delaware - Swarthmore": [
-    "School District:Delaware - Wallingford-Swarthmore"
+  "Police Department:Bucks - Warrington  Police": [
+    "School District:Bucks - Central Bucks"
   ],
-  "Police Department:Delaware - Nether Providence": [
-    "School District:Delaware - Wallingford-Swarthmore"
+  "Police Department:Bucks - Warwick  Police": [
+    "School District:Bucks - Central Bucks"
   ],
-  "School District:Delaware - Radnor Township": [
-    "Police Department:Delaware - Radnor"
+  "School District:Montgomery - Cheltenham Township": [
+    "Police Department:Montgomery - Cheltenham"
   ],
-  "Police Department:Delaware - Radnor": [
-    "School District:Delaware - Radnor Township"
+  "Police Department:Montgomery - Cheltenham": [
+    "School District:Montgomery - Cheltenham Township"
   ],
-  "School District:Delaware - Rose Tree Media": [
-    "Police Department:Delaware - Upper Providence",
-    "Police Department:Delaware - PSP MEDIA STATION"
+  "School District:Delaware - Chester-Upland": [
+    "Police Department:Delaware - Chester",
+    "Police Department:Delaware - Chester City",
+    "Police Department:Delaware - Upload"
   ],
-  "Police Department:Delaware - Upper Providence": [
-    "School District:Delaware - Rose Tree Media"
+  "Police Department:Delaware - Chester": [
+    "School District:Delaware - Chester-Upland"
   ],
-  "Police Department:Delaware - PSP MEDIA STATION": [
-    "School District:Delaware - Rose Tree Media",
-    "School District:Chester - Unionville-Chadds Ford",
-    "School District:Chester - West Chester Area",
-    "School District:Delaware - Garnet Valley"
+  "Police Department:Delaware - Chester City": [
+    "School District:Delaware - Chester-Upland"
   ],
-  "School District:Bucks - Quakertown Community": [
-    "Police Department:Bucks - PA State Police (Dublin)"
+  "Police Department:Delaware - Upload": [
+    "School District:Delaware - Chester-Upland"
   ],
-  "School District:Montgomery - Jenkintown": [
-    "Police Department:Montgomery - Jenkintown"
+  "School District:Delaware - Chichester": [
+    "Police Department:Delaware - Lower Chichester",
+    "Police Department:Delaware - Marcus Hook",
+    "Police Department:Delaware - Trainer",
+    "Police Department:Delaware - Upper Chichester"
   ],
-  "Police Department:Montgomery - Jenkintown": [
-    "School District:Montgomery - Jenkintown"
+  "Police Department:Delaware - Lower Chichester": [
+    "School District:Delaware - Chichester"
   ],
-  "School District:Chester - Great Valley": [
+  "Police Department:Delaware - Marcus Hook": [
+    "School District:Delaware - Chichester"
+  ],
+  "Police Department:Delaware - Trainer": [
+    "School District:Delaware - Chichester"
+  ],
+  "Police Department:Delaware - Upper Chichester": [
+    "School District:Delaware - Chichester"
+  ],
+  "School District:Chester - Coatesville Area": [
+    "Police Department:Chester - Caln Township",
+    "Police Department:Chester - East Fallowfield Township",
+    "Police Department:Chester - Sadsbury Township",
+    "Police Department:Chester - Valley Township",
+    "Police Department:Chester - West Brandywine Township",
+    "Police Department:Chester - West Caln Township"
+  ],
+  "Police Department:Chester - Caln Township": [
+    "School District:Chester - Coatesville Area"
+  ],
+  "Police Department:Chester - East Fallowfield Township": [
+    "School District:Chester - Coatesville Area"
+  ],
+  "Police Department:Chester - Sadsbury Township": [
+    "School District:Chester - Coatesville Area"
+  ],
+  "Police Department:Chester - Valley Township": [
+    "School District:Chester - Coatesville Area"
+  ],
+  "Police Department:Chester - West Brandywine Township": [
+    "School District:Chester - Coatesville Area",
+    "School District:Chester - Downingtown Area"
+  ],
+  "Police Department:Chester - West Caln Township": [
+    "School District:Chester - Coatesville Area"
+  ],
+  "School District:Montgomery - Colonial": [
+    "Police Department:Montgomery - Plymouth",
+    "Police Department:Montgomery - Whitemarsh"
+  ],
+  "Police Department:Montgomery - Plymouth": [
+    "School District:Montgomery - Colonial"
+  ],
+  "Police Department:Montgomery - Whitemarsh": [
+    "School District:Montgomery - Colonial"
+  ],
+  "School District:Bucks - Council Rock": [
+    "Police Department:Bucks - Newtown  Police",
+    "Police Department:Bucks - Northampton  Police",
+    "Police Department:Bucks - Upper Makefield  Police"
+  ],
+  "Police Department:Bucks - Newtown  Police": [
+    "School District:Bucks - Council Rock"
+  ],
+  "Police Department:Bucks - Northampton  Police": [
+    "School District:Bucks - Council Rock"
+  ],
+  "Police Department:Bucks - Upper Makefield  Police": [
+    "School District:Bucks - Council Rock"
+  ],
+  "School District:Chester - Downingtown Area": [
+    "Police Department:Chester - East Brandywine",
     "Police Department:Chester - PA State Police Embreeville",
-    "Police Department:Chester - East Whiteland Township",
-    "Police Department:Chester - Willistown Township"
+    "Police Department:Chester - Upper Uwchlan Township",
+    "Police Department:Chester - Uwchlan Township",
+    "Police Department:Chester - West Brandywine Township",
+    "Police Department:Chester - West Pikeland Township"
+  ],
+  "Police Department:Chester - East Brandywine": [
+    "School District:Chester - Downingtown Area"
   ],
   "Police Department:Chester - PA State Police Embreeville": [
+    "School District:Chester - Downingtown Area",
     "School District:Chester - Great Valley",
     "School District:Chester - Owen J Roberts",
-    "School District:Chester - Unionville-Chadds Ford",
     "School District:Berks - Twin Valley",
+    "School District:Chester - Unionville-Chadds Ford"
+  ],
+  "Police Department:Chester - Upper Uwchlan Township": [
     "School District:Chester - Downingtown Area"
+  ],
+  "Police Department:Chester - Uwchlan Township": [
+    "School District:Chester - Downingtown Area"
+  ],
+  "Police Department:Chester - West Pikeland Township": [
+    "School District:Chester - Downingtown Area"
+  ],
+  "School District:Delaware - Garnet Valley": [
+    "Police Department:Delaware - Bethel",
+    "Police Department:Delaware - PSP MEDIA STATION"
+  ],
+  "Police Department:Delaware - Bethel": [
+    "School District:Delaware - Garnet Valley"
+  ],
+  "Police Department:Delaware - PSP MEDIA STATION": [
+    "School District:Delaware - Garnet Valley",
+    "School District:Delaware - Rose Tree Media",
+    "School District:Chester - Unionville-Chadds Ford",
+    "School District:Chester - West Chester Area"
+  ],
+  "School District:Chester - Great Valley": [
+    "Police Department:Chester - East Whiteland Township",
+    "Police Department:Chester - PA State Police Embreeville",
+    "Police Department:Chester - Willistown Township"
   ],
   "Police Department:Chester - East Whiteland Township": [
     "School District:Chester - Great Valley"
   ],
   "Police Department:Chester - Willistown Township": [
     "School District:Chester - Great Valley"
+  ],
+  "School District:Montgomery - Hatboro-Horsham": [
+    "Police Department:Montgomery - Hatboro",
+    "Police Department:Montgomery - Horsham"
+  ],
+  "Police Department:Montgomery - Hatboro": [
+    "School District:Montgomery - Hatboro-Horsham"
+  ],
+  "Police Department:Montgomery - Horsham": [
+    "School District:Montgomery - Hatboro-Horsham"
+  ],
+  "School District:Delaware - Haverford Township": [
+    "Police Department:Delaware - Haverford"
+  ],
+  "Police Department:Delaware - Haverford": [
+    "School District:Delaware - Haverford Township"
+  ],
+  "School District:Delaware - Interboro": [
+    "Police Department:Delaware - Glenolden",
+    "Police Department:Delaware - Norwood",
+    "Police Department:Delaware - Prospect Park"
+  ],
+  "Police Department:Delaware - Glenolden": [
+    "School District:Delaware - Interboro"
+  ],
+  "Police Department:Delaware - Norwood": [
+    "School District:Delaware - Interboro"
+  ],
+  "Police Department:Delaware - Prospect Park": [
+    "School District:Delaware - Interboro"
+  ],
+  "School District:Montgomery - Jenkintown": [
+    "Police Department:Montgomery - Jenkintown"
+  ],
+  "Police Department:Montgomery - Jenkintown": [
+    "School District:Montgomery - Jenkintown"
   ],
   "School District:Chester - Kennett Consolidated": [
     "Police Department:Chester - Kennett Township",
@@ -165,79 +289,28 @@
   "Police Department:Montgomery - Lower Moreland": [
     "School District:Montgomery - Lower Moreland Township"
   ],
-  "School District:Chester - Owen J Roberts": [
-    "Police Department:Chester - West Vincent Township",
-    "Police Department:Chester - PA State Police Embreeville",
-    "Police Department:Chester - North Coventry Township",
-    "Police Department:Chester - East Coventry Township",
-    "Police Department:Chester - East Vincent Township"
+  "School District:Delaware - Marple Newtown": [
+    "Police Department:Delaware - Marple",
+    "Police Department:Delaware - Newtown"
   ],
-  "Police Department:Chester - West Vincent Township": [
-    "School District:Chester - Owen J Roberts"
+  "Police Department:Delaware - Marple": [
+    "School District:Delaware - Marple Newtown"
   ],
-  "Police Department:Chester - North Coventry Township": [
-    "School District:Chester - Owen J Roberts"
+  "Police Department:Delaware - Newtown": [
+    "School District:Delaware - Marple Newtown"
   ],
-  "Police Department:Chester - East Coventry Township": [
-    "School District:Chester - Owen J Roberts"
+  "School District:Montgomery - Methacton": [
+    "Police Department:Montgomery - Lower Providence",
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
   ],
-  "Police Department:Chester - East Vincent Township": [
-    "School District:Chester - Owen J Roberts"
-  ],
-  "School District:Chester - Oxford Area": [
-    "Police Department:Chester - PA State Police Avondale",
-    "Police Department:Chester - West Nottingham Township"
-  ],
-  "Police Department:Chester - PA State Police Avondale": [
-    "School District:Chester - Oxford Area",
-    "School District:Chester - Unionville-Chadds Ford",
-    "School District:Chester - Avon Grove"
-  ],
-  "Police Department:Chester - West Nottingham Township": [
-    "School District:Chester - Oxford Area"
-  ],
-  "School District:Bucks - Palisades": [
-    "Police Department:Bucks - PA State Police (Dublin)",
-    "Police Department:Bucks - Tinicum  Police"
-  ],
-  "Police Department:Bucks - Tinicum  Police": [
-    "School District:Bucks - Palisades"
+  "Police Department:Montgomery - Lower Providence": [
+    "School District:Montgomery - Methacton"
   ],
   "School District:Bucks - Morrisville Borough": [
     "Police Department:Bucks - Morrisville Borough Police"
   ],
   "Police Department:Bucks - Morrisville Borough Police": [
     "School District:Bucks - Morrisville Borough"
-  ],
-  "School District:Montgomery - Hatboro-Horsham": [
-    "Police Department:Montgomery - Hatboro",
-    "Police Department:Montgomery - Horsham"
-  ],
-  "Police Department:Montgomery - Hatboro": [
-    "School District:Montgomery - Hatboro-Horsham"
-  ],
-  "Police Department:Montgomery - Horsham": [
-    "School District:Montgomery - Hatboro-Horsham"
-  ],
-  "School District:Delaware - Haverford Township": [
-    "Police Department:Delaware - Haverford"
-  ],
-  "Police Department:Delaware - Haverford": [
-    "School District:Delaware - Haverford Township"
-  ],
-  "School District:Delaware - Interboro": [
-    "Police Department:Delaware - Glenolden",
-    "Police Department:Delaware - Prospect Park",
-    "Police Department:Delaware - Norwood"
-  ],
-  "Police Department:Delaware - Glenolden": [
-    "School District:Delaware - Interboro"
-  ],
-  "Police Department:Delaware - Prospect Park": [
-    "School District:Delaware - Interboro"
-  ],
-  "Police Department:Delaware - Norwood": [
-    "School District:Delaware - Interboro"
   ],
   "School District:Bucks - Neshaminy": [
     "Police Department:Bucks - Lower Southampton  Police",
@@ -249,22 +322,11 @@
   "Police Department:Bucks - Middletown  Police": [
     "School District:Bucks - Neshaminy"
   ],
-  "School District:Delaware - Marple Newtown": [
-    "Police Department:Delaware - Newtown",
-    "Police Department:Delaware - Marple"
+  "School District:Bucks - New Hope-Solebury": [
+    "Police Department:Bucks - Solebury  Police"
   ],
-  "Police Department:Delaware - Newtown": [
-    "School District:Delaware - Marple Newtown"
-  ],
-  "Police Department:Delaware - Marple": [
-    "School District:Delaware - Marple Newtown"
-  ],
-  "School District:Montgomery - Methacton": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack",
-    "Police Department:Montgomery - Lower Providence"
-  ],
-  "Police Department:Montgomery - Lower Providence": [
-    "School District:Montgomery - Methacton"
+  "Police Department:Bucks - Solebury  Police": [
+    "School District:Bucks - New Hope-Solebury"
   ],
   "School District:Montgomery - Norristown Area": [
     "Police Department:Montgomery - East Norriton",
@@ -281,26 +343,130 @@
     "School District:Montgomery - Norristown Area"
   ],
   "School District:Montgomery - North Penn": [
-    "Police Department:Montgomery - Montgomery",
-    "Police Department:Montgomery - Upper Gwynedd",
-    "Police Department:Montgomery - Lansdale",
     "Police Department:Montgomery - Hatfield",
-    "Police Department:Montgomery - Towamencin"
+    "Police Department:Montgomery - Lansdale",
+    "Police Department:Montgomery - Montgomery",
+    "Police Department:Montgomery - Towamencin",
+    "Police Department:Montgomery - Upper Gwynedd"
   ],
-  "Police Department:Montgomery - Montgomery": [
-    "School District:Montgomery - North Penn"
-  ],
-  "Police Department:Montgomery - Upper Gwynedd": [
+  "Police Department:Montgomery - Hatfield": [
     "School District:Montgomery - North Penn"
   ],
   "Police Department:Montgomery - Lansdale": [
     "School District:Montgomery - North Penn"
   ],
-  "Police Department:Montgomery - Hatfield": [
+  "Police Department:Montgomery - Montgomery": [
     "School District:Montgomery - North Penn"
   ],
   "Police Department:Montgomery - Towamencin": [
     "School District:Montgomery - North Penn"
+  ],
+  "Police Department:Montgomery - Upper Gwynedd": [
+    "School District:Montgomery - North Penn"
+  ],
+  "School District:Chester - Octorara Area": [
+    "Police Department:Chester - Highland Township",
+    "Police Department:Chester - West Fallowfield Township",
+    "Police Department:Chester - West Sadsbury Township"
+  ],
+  "Police Department:Chester - Highland Township": [
+    "School District:Chester - Octorara Area"
+  ],
+  "Police Department:Chester - West Fallowfield Township": [
+    "School District:Chester - Octorara Area"
+  ],
+  "Police Department:Chester - West Sadsbury Township": [
+    "School District:Chester - Octorara Area"
+  ],
+  "School District:Chester - Owen J Roberts": [
+    "Police Department:Chester - East Coventry Township",
+    "Police Department:Chester - East Vincent Township",
+    "Police Department:Chester - North Coventry Township",
+    "Police Department:Chester - PA State Police Embreeville",
+    "Police Department:Chester - West Vincent Township"
+  ],
+  "Police Department:Chester - East Coventry Township": [
+    "School District:Chester - Owen J Roberts"
+  ],
+  "Police Department:Chester - East Vincent Township": [
+    "School District:Chester - Owen J Roberts"
+  ],
+  "Police Department:Chester - North Coventry Township": [
+    "School District:Chester - Owen J Roberts"
+  ],
+  "Police Department:Chester - West Vincent Township": [
+    "School District:Chester - Owen J Roberts"
+  ],
+  "School District:Chester - Oxford Area": [
+    "Police Department:Chester - PA State Police Avondale",
+    "Police Department:Chester - West Nottingham Township"
+  ],
+  "Police Department:Chester - West Nottingham Township": [
+    "School District:Chester - Oxford Area"
+  ],
+  "School District:Bucks - Palisades": [
+    "Police Department:Bucks - PA State Police (Dublin)",
+    "Police Department:Bucks - Tinicum  Police"
+  ],
+  "Police Department:Bucks - PA State Police (Dublin)": [
+    "School District:Bucks - Palisades",
+    "School District:Bucks - Pennridge",
+    "School District:Bucks - Quakertown Community"
+  ],
+  "Police Department:Bucks - Tinicum  Police": [
+    "School District:Bucks - Palisades"
+  ],
+  "School District:Delaware - Penn-Delco": [
+    "Police Department:Delaware - Aston",
+    "Police Department:Delaware - Brookhaven"
+  ],
+  "Police Department:Delaware - Aston": [
+    "School District:Delaware - Penn-Delco"
+  ],
+  "Police Department:Delaware - Brookhaven": [
+    "School District:Delaware - Penn-Delco"
+  ],
+  "School District:Bucks - Pennridge": [
+    "Police Department:Bucks - Hilltown  Police",
+    "Police Department:Bucks - PA State Police (Dublin)",
+    "Police Department:Bucks - Pennridge Regional Police"
+  ],
+  "Police Department:Bucks - Hilltown  Police": [
+    "School District:Bucks - Pennridge"
+  ],
+  "Police Department:Bucks - Pennridge Regional Police": [
+    "School District:Bucks - Pennridge"
+  ],
+  "School District:Bucks - Pennsbury": [
+    "Police Department:Bucks - Falls  Police",
+    "Police Department:Bucks - Lower Makefield  Police"
+  ],
+  "Police Department:Bucks - Falls  Police": [
+    "School District:Bucks - Pennsbury"
+  ],
+  "Police Department:Bucks - Lower Makefield  Police": [
+    "School District:Bucks - Pennsbury"
+  ],
+  "School District:Montgomery - Perkiomen Valley": [
+    "Police Department:Montgomery - Lower Frederick",
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  ],
+  "Police Department:Montgomery - Lower Frederick": [
+    "School District:Montgomery - Perkiomen Valley"
+  ],
+  "School District:Chester - Phoenixville Area": [
+    "Police Department:Chester - East Pikeland Township",
+    "Police Department:Chester - Phoenixville Borough",
+    "Police Department:Chester - Schuylkill Township"
+  ],
+  "Police Department:Chester - East Pikeland Township": [
+    "School District:Chester - Phoenixville Area"
+  ],
+  "Police Department:Chester - Phoenixville Borough": [
+    "School District:Chester - Phoenixville Area"
+  ],
+  "Police Department:Chester - Schuylkill Township": [
+    "School District:Chester - Phoenixville Area"
   ],
   "School District:Montgomery - Pottsgrove": [
     "Police Department:Montgomery - Lower Pottsgrove",
@@ -322,21 +488,14 @@
   "Police Department:Montgomery - Pottstown": [
     "School District:Montgomery - Pottstown"
   ],
-  "School District:Montgomery - Springfield Township": [
-    "Police Department:Montgomery - Springfield"
+  "School District:Bucks - Quakertown Community": [
+    "Police Department:Bucks - PA State Police (Dublin)"
   ],
-  "Police Department:Montgomery - Springfield": [
-    "School District:Montgomery - Springfield Township"
+  "School District:Delaware - Radnor Township": [
+    "Police Department:Delaware - Radnor"
   ],
-  "School District:Montgomery - Spring-Ford Area": [
-    "Police Department:Montgomery - Upper Providence",
-    "Police Department:Montgomery - Limerick"
-  ],
-  "Police Department:Montgomery - Upper Providence": [
-    "School District:Montgomery - Spring-Ford Area"
-  ],
-  "Police Department:Montgomery - Limerick": [
-    "School District:Montgomery - Spring-Ford Area"
+  "Police Department:Delaware - Radnor": [
+    "School District:Delaware - Radnor Township"
   ],
   "School District:Delaware - Ridley": [
     "Police Department:Delaware - Eddystone",
@@ -352,88 +511,93 @@
   "Police Department:Delaware - Ridley Park": [
     "School District:Delaware - Ridley"
   ],
-  "School District:Delaware - Springfield": [
-    "Police Department:Delaware - Springfield",
-    "Police Department:Delaware - Morton"
+  "School District:Delaware - Rose Tree Media": [
+    "Police Department:Delaware - PSP MEDIA STATION",
+    "Police Department:Delaware - Upper Providence"
   ],
-  "Police Department:Delaware - Springfield": [
-    "School District:Delaware - Springfield"
+  "Police Department:Delaware - Upper Providence": [
+    "School District:Delaware - Rose Tree Media"
   ],
-  "Police Department:Delaware - Morton": [
-    "School District:Delaware - Springfield"
+  "School District:Montgomery - Souderton Area": [
+    "Police Department:Montgomery - Franconia",
+    "Police Department:Montgomery - Lower Salford",
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
   ],
-  "School District:Montgomery - Upper Merion Area": [
-    "Police Department:Montgomery - Upper Merion",
-    "Police Department:Montgomery - Valley Nationl Park Rangers"
+  "Police Department:Montgomery - Franconia": [
+    "School District:Montgomery - Souderton Area"
   ],
-  "Police Department:Montgomery - Upper Merion": [
-    "School District:Montgomery - Upper Merion Area"
-  ],
-  "Police Department:Montgomery - Valley Nationl Park Rangers": [
-    "School District:Montgomery - Upper Merion Area"
-  ],
-  "School District:Delaware - William Penn": [
-    "Police Department:Delaware - Lansdowne",
-    "Police Department:Delaware - Aldan",
-    "Police Department:Delaware - Yeadon",
-    "Police Department:Delaware - Darby",
-    "Police Department:Delaware - Colwyn"
-  ],
-  "Police Department:Delaware - Lansdowne": [
-    "School District:Delaware - William Penn"
-  ],
-  "Police Department:Delaware - Aldan": [
-    "School District:Delaware - William Penn"
-  ],
-  "Police Department:Delaware - Yeadon": [
-    "School District:Delaware - William Penn"
-  ],
-  "Police Department:Delaware - Darby": [
-    "School District:Delaware - William Penn",
-    "School District:Delaware - Southeast Delco"
-  ],
-  "Police Department:Delaware - Colwyn": [
-    "School District:Delaware - William Penn"
-  ],
-  "School District:Montgomery - Upper Moreland Township": [
-    "Police Department:Montgomery - Upper Moreland"
-  ],
-  "Police Department:Montgomery - Upper Moreland": [
-    "School District:Montgomery - Upper Moreland Township"
-  ],
-  "School District:Montgomery - Upper Perkiomen": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack",
-    "Police Department:Montgomery - Marlborough"
-  ],
-  "Police Department:Montgomery - Marlborough": [
-    "School District:Montgomery - Upper Perkiomen"
+  "Police Department:Montgomery - Lower Salford": [
+    "School District:Montgomery - Souderton Area"
   ],
   "School District:Delaware - Southeast Delco": [
+    "Police Department:Delaware - Collingdale",
     "Police Department:Delaware - Darby",
-    "Police Department:Delaware - Sharon Hill",
     "Police Department:Delaware - Folcroft",
-    "Police Department:Delaware - Collingdale"
-  ],
-  "Police Department:Delaware - Sharon Hill": [
-    "School District:Delaware - Southeast Delco"
-  ],
-  "Police Department:Delaware - Folcroft": [
-    "School District:Delaware - Southeast Delco"
+    "Police Department:Delaware - Sharon Hill"
   ],
   "Police Department:Delaware - Collingdale": [
     "School District:Delaware - Southeast Delco"
   ],
+  "Police Department:Delaware - Darby": [
+    "School District:Delaware - Southeast Delco",
+    "School District:Delaware - William Penn"
+  ],
+  "Police Department:Delaware - Folcroft": [
+    "School District:Delaware - Southeast Delco"
+  ],
+  "Police Department:Delaware - Sharon Hill": [
+    "School District:Delaware - Southeast Delco"
+  ],
+  "School District:Montgomery - Spring-Ford Area": [
+    "Police Department:Montgomery - Limerick",
+    "Police Department:Montgomery - Upper Providence"
+  ],
+  "Police Department:Montgomery - Limerick": [
+    "School District:Montgomery - Spring-Ford Area"
+  ],
+  "Police Department:Montgomery - Upper Providence": [
+    "School District:Montgomery - Spring-Ford Area"
+  ],
+  "School District:Delaware - Springfield": [
+    "Police Department:Delaware - Morton",
+    "Police Department:Delaware - Springfield"
+  ],
+  "Police Department:Delaware - Morton": [
+    "School District:Delaware - Springfield"
+  ],
+  "Police Department:Delaware - Springfield": [
+    "School District:Delaware - Springfield"
+  ],
+  "School District:Montgomery - Springfield Township": [
+    "Police Department:Montgomery - Springfield"
+  ],
+  "Police Department:Montgomery - Springfield": [
+    "School District:Montgomery - Springfield Township"
+  ],
+  "School District:Chester - Tredyffrin-Easttown": [
+    "Police Department:Chester - Easttown Township",
+    "Police Department:Chester - Tredyffrin Township"
+  ],
+  "Police Department:Chester - Easttown Township": [
+    "School District:Chester - Tredyffrin-Easttown"
+  ],
+  "Police Department:Chester - Tredyffrin Township": [
+    "School District:Chester - Tredyffrin-Easttown"
+  ],
+  "School District:Berks - Twin Valley": [
+    "Police Department:Chester - PA State Police Embreeville"
+  ],
   "School District:Chester - Unionville-Chadds Ford": [
+    "Police Department:Chester - Birmingham Township",
+    "Police Department:Chester - East Marlborough Township",
     "Police Department:Chester - PA State Police Avondale",
     "Police Department:Chester - PA State Police Embreeville",
-    "Police Department:Chester - East Marlborough Township",
-    "Police Department:Chester - Birmingham Township",
     "Police Department:Delaware - PSP MEDIA STATION"
   ],
-  "Police Department:Chester - East Marlborough Township": [
+  "Police Department:Chester - Birmingham Township": [
     "School District:Chester - Unionville-Chadds Ford"
   ],
-  "Police Department:Chester - Birmingham Township": [
+  "Police Department:Chester - East Marlborough Township": [
     "School District:Chester - Unionville-Chadds Ford"
   ],
   "School District:Delaware - Upper Darby": [
@@ -452,33 +616,76 @@
   "Police Department:Montgomery - Upper Dublin": [
     "School District:Montgomery - Upper Dublin"
   ],
+  "School District:Montgomery - Upper Merion Area": [
+    "Police Department:Montgomery - Upper Merion",
+    "Police Department:Montgomery - Valley Nationl Park Rangers"
+  ],
+  "Police Department:Montgomery - Upper Merion": [
+    "School District:Montgomery - Upper Merion Area"
+  ],
+  "Police Department:Montgomery - Valley Nationl Park Rangers": [
+    "School District:Montgomery - Upper Merion Area"
+  ],
+  "School District:Montgomery - Upper Moreland Township": [
+    "Police Department:Montgomery - Upper Moreland"
+  ],
+  "Police Department:Montgomery - Upper Moreland": [
+    "School District:Montgomery - Upper Moreland Township"
+  ],
+  "School District:Montgomery - Upper Perkiomen": [
+    "Police Department:Montgomery - Marlborough",
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  ],
+  "Police Department:Montgomery - Marlborough": [
+    "School District:Montgomery - Upper Perkiomen"
+  ],
+  "School District:Delaware - Wallingford-Swarthmore": [
+    "Police Department:Delaware - Nether Providence",
+    "Police Department:Delaware - Swarthmore"
+  ],
+  "Police Department:Delaware - Nether Providence": [
+    "School District:Delaware - Wallingford-Swarthmore"
+  ],
+  "Police Department:Delaware - Swarthmore": [
+    "School District:Delaware - Wallingford-Swarthmore"
+  ],
   "School District:Chester - West Chester Area": [
-    "Police Department:Chester - Westtown/E Goshen",
-    "Police Department:Chester - West Goshen Township",
     "Police Department:Chester - West Chester Borough",
+    "Police Department:Chester - West Goshen Township",
     "Police Department:Chester - West Whiteland Township",
+    "Police Department:Chester - Westtown/E Goshen",
     "Police Department:Delaware - PSP MEDIA STATION"
   ],
-  "Police Department:Chester - Westtown/E Goshen": [
+  "Police Department:Chester - West Chester Borough": [
     "School District:Chester - West Chester Area"
   ],
   "Police Department:Chester - West Goshen Township": [
     "School District:Chester - West Chester Area"
   ],
-  "Police Department:Chester - West Chester Borough": [
-    "School District:Chester - West Chester Area"
-  ],
   "Police Department:Chester - West Whiteland Township": [
     "School District:Chester - West Chester Area"
   ],
-  "School District:Bucks - New Hope-Solebury": [
-    "Police Department:Bucks - Solebury  Police"
+  "Police Department:Chester - Westtown/E Goshen": [
+    "School District:Chester - West Chester Area"
   ],
-  "Police Department:Bucks - Solebury  Police": [
-    "School District:Bucks - New Hope-Solebury"
+  "School District:Delaware - William Penn": [
+    "Police Department:Delaware - Aldan",
+    "Police Department:Delaware - Colwyn",
+    "Police Department:Delaware - Darby",
+    "Police Department:Delaware - Lansdowne",
+    "Police Department:Delaware - Yeadon"
   ],
-  "School District:Berks - Twin Valley": [
-    "Police Department:Chester - PA State Police Embreeville"
+  "Police Department:Delaware - Aldan": [
+    "School District:Delaware - William Penn"
+  ],
+  "Police Department:Delaware - Colwyn": [
+    "School District:Delaware - William Penn"
+  ],
+  "Police Department:Delaware - Lansdowne": [
+    "School District:Delaware - William Penn"
+  ],
+  "Police Department:Delaware - Yeadon": [
+    "School District:Delaware - William Penn"
   ],
   "School District:Montgomery - Wissahickon": [
     "Police Department:Montgomery - Lower Gwynedd",
@@ -489,212 +696,5 @@
   ],
   "Police Department:Montgomery - Whitpain": [
     "School District:Montgomery - Wissahickon"
-  ],
-  "School District:Montgomery - Souderton Area": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack",
-    "Police Department:Montgomery - Lower Salford",
-    "Police Department:Montgomery - Franconia"
-  ],
-  "Police Department:Montgomery - Lower Salford": [
-    "School District:Montgomery - Souderton Area"
-  ],
-  "Police Department:Montgomery - Franconia": [
-    "School District:Montgomery - Souderton Area"
-  ],
-  "School District:Bucks - Bensalem Township": [
-    "Police Department:Bucks - PA State Police (Bensalem)"
-  ],
-  "Police Department:Bucks - PA State Police (Bensalem)": [
-    "School District:Bucks - Bensalem Township"
-  ],
-  "School District:Montgomery - Abington": [
-    "Police Department:Montgomery - Abington"
-  ],
-  "Police Department:Montgomery - Abington": [
-    "School District:Montgomery - Abington"
-  ],
-  "School District:Montgomery - Bryn Athyn": [
-    "Police Department:Montgomery - Bryn Athyn"
-  ],
-  "Police Department:Montgomery - Bryn Athyn": [
-    "School District:Montgomery - Bryn Athyn"
-  ],
-  "School District:Chester - Avon Grove": [
-    "Police Department:Chester - PA State Police Avondale"
-  ],
-  "School District:Bucks - Bristol Borough": [
-    "Police Department:Bucks - Bristol Borough Police"
-  ],
-  "Police Department:Bucks - Bristol Borough Police": [
-    "School District:Bucks - Bristol Borough"
-  ],
-  "School District:Delaware - Chichester": [
-    "Police Department:Delaware - Upper Chichester",
-    "Police Department:Delaware - Marcus Hook",
-    "Police Department:Delaware - Trainer",
-    "Police Department:Delaware - Lower Chichester"
-  ],
-  "Police Department:Delaware - Upper Chichester": [
-    "School District:Delaware - Chichester"
-  ],
-  "Police Department:Delaware - Marcus Hook": [
-    "School District:Delaware - Chichester"
-  ],
-  "Police Department:Delaware - Trainer": [
-    "School District:Delaware - Chichester"
-  ],
-  "Police Department:Delaware - Lower Chichester": [
-    "School District:Delaware - Chichester"
-  ],
-  "School District:Berks - Boyertown Area": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack",
-    "Police Department:Montgomery - New Hanover",
-    "Police Department:Montgomery - Douglass"
-  ],
-  "Police Department:Montgomery - New Hanover": [
-    "School District:Berks - Boyertown Area"
-  ],
-  "Police Department:Montgomery - Douglass": [
-    "School District:Berks - Boyertown Area"
-  ],
-  "School District:Chester - Coatesville Area": [
-    "Police Department:Chester - Sadsbury Township",
-    "Police Department:Chester - Caln Township",
-    "Police Department:Chester - Valley Township",
-    "Police Department:Chester - West Caln Township",
-    "Police Department:Chester - West Brandywine Township",
-    "Police Department:Chester - East Fallowfield Township"
-  ],
-  "Police Department:Chester - Sadsbury Township": [
-    "School District:Chester - Coatesville Area"
-  ],
-  "Police Department:Chester - Caln Township": [
-    "School District:Chester - Coatesville Area"
-  ],
-  "Police Department:Chester - Valley Township": [
-    "School District:Chester - Coatesville Area"
-  ],
-  "Police Department:Chester - West Caln Township": [
-    "School District:Chester - Coatesville Area"
-  ],
-  "Police Department:Chester - West Brandywine Township": [
-    "School District:Chester - Coatesville Area",
-    "School District:Chester - Downingtown Area"
-  ],
-  "Police Department:Chester - East Fallowfield Township": [
-    "School District:Chester - Coatesville Area"
-  ],
-  "School District:Bucks - Bristol Township": [
-    "Police Department:Bucks - Bristol  Police"
-  ],
-  "Police Department:Bucks - Bristol  Police": [
-    "School District:Bucks - Bristol Township"
-  ],
-  "School District:Montgomery - Colonial": [
-    "Police Department:Montgomery - Whitemarsh",
-    "Police Department:Montgomery - Plymouth"
-  ],
-  "Police Department:Montgomery - Whitemarsh": [
-    "School District:Montgomery - Colonial"
-  ],
-  "Police Department:Montgomery - Plymouth": [
-    "School District:Montgomery - Colonial"
-  ],
-  "School District:Delaware - Chester-Upland": [
-    "Police Department:Delaware - Upload",
-    "Police Department:Delaware - Chester",
-    "Police Department:Delaware - Chester City"
-  ],
-  "Police Department:Delaware - Upload": [
-    "School District:Delaware - Chester-Upland"
-  ],
-  "Police Department:Delaware - Chester": [
-    "School District:Delaware - Chester-Upland"
-  ],
-  "Police Department:Delaware - Chester City": [
-    "School District:Delaware - Chester-Upland"
-  ],
-  "School District:Bucks - Centennial": [
-    "Police Department:Bucks - Upper Southampton  Police",
-    "Police Department:Bucks - Warminster  Police"
-  ],
-  "Police Department:Bucks - Upper Southampton  Police": [
-    "School District:Bucks - Centennial"
-  ],
-  "Police Department:Bucks - Warminster  Police": [
-    "School District:Bucks - Centennial"
-  ],
-  "School District:Bucks - Central Bucks": [
-    "Police Department:Bucks - Warrington  Police",
-    "Police Department:Bucks - Warwick  Police",
-    "Police Department:Bucks - Doylestown  Police",
-    "Police Department:Bucks - Buckingham  Police",
-    "Police Department:Bucks - Plumstead  Police",
-    "Police Department:Bucks - New Britain  Police"
-  ],
-  "Police Department:Bucks - Warrington  Police": [
-    "School District:Bucks - Central Bucks"
-  ],
-  "Police Department:Bucks - Warwick  Police": [
-    "School District:Bucks - Central Bucks"
-  ],
-  "Police Department:Bucks - Doylestown  Police": [
-    "School District:Bucks - Central Bucks"
-  ],
-  "Police Department:Bucks - Buckingham  Police": [
-    "School District:Bucks - Central Bucks"
-  ],
-  "Police Department:Bucks - Plumstead  Police": [
-    "School District:Bucks - Central Bucks"
-  ],
-  "Police Department:Bucks - New Britain  Police": [
-    "School District:Bucks - Central Bucks"
-  ],
-  "School District:Bucks - Council Rock": [
-    "Police Department:Bucks - Newtown  Police",
-    "Police Department:Bucks - Northampton  Police",
-    "Police Department:Bucks - Upper Makefield  Police"
-  ],
-  "Police Department:Bucks - Newtown  Police": [
-    "School District:Bucks - Council Rock"
-  ],
-  "Police Department:Bucks - Northampton  Police": [
-    "School District:Bucks - Council Rock"
-  ],
-  "Police Department:Bucks - Upper Makefield  Police": [
-    "School District:Bucks - Council Rock"
-  ],
-  "School District:Delaware - Garnet Valley": [
-    "Police Department:Delaware - Bethel",
-    "Police Department:Delaware - PSP MEDIA STATION"
-  ],
-  "Police Department:Delaware - Bethel": [
-    "School District:Delaware - Garnet Valley"
-  ],
-  "School District:Chester - Downingtown Area": [
-    "Police Department:Chester - PA State Police Embreeville",
-    "Police Department:Chester - Upper Uwchlan Township",
-    "Police Department:Chester - West Pikeland Township",
-    "Police Department:Chester - Uwchlan Township",
-    "Police Department:Chester - East Brandywine",
-    "Police Department:Chester - West Brandywine Township"
-  ],
-  "Police Department:Chester - Upper Uwchlan Township": [
-    "School District:Chester - Downingtown Area"
-  ],
-  "Police Department:Chester - West Pikeland Township": [
-    "School District:Chester - Downingtown Area"
-  ],
-  "Police Department:Chester - Uwchlan Township": [
-    "School District:Chester - Downingtown Area"
-  ],
-  "Police Department:Chester - East Brandywine": [
-    "School District:Chester - Downingtown Area"
-  ],
-  "School District:Montgomery - Cheltenham Township": [
-    "Police Department:Montgomery - Cheltenham"
-  ],
-  "Police Department:Montgomery - Cheltenham": [
-    "School District:Montgomery - Cheltenham Township"
   ]
 }

@@ -5,15 +5,48 @@
   "Magesterial Courts:District": [
     "Zip:15030"
   ],
-  "Zip:19504": [
+  "Zip:18036": [
+    "Magesterial Courts:07-3-03"
+  ],
+  "Magesterial Courts:07-3-03": [
+    "Zip:18036",
+    "Zip:18077",
+    "Zip:18902",
+    "Zip:18930",
+    "Zip:18942",
+    "Zip:18944",
+    "Zip:18947",
+    "Zip:18951",
+    "Zip:18972"
+  ],
+  "Zip:18041": [
+    "Magesterial Courts:1938-02-02"
+  ],
+  "Magesterial Courts:1938-02-02": [
+    "Zip:18041",
+    "Zip:18054",
+    "Zip:18073",
+    "Zip:18969",
+    "Zip:19438"
+  ],
+  "Zip:18054": [
+    "Magesterial Courts:1938-02-02"
+  ],
+  "Zip:18073": [
+    "Magesterial Courts:1938-02-02"
+  ],
+  "Zip:18074": [
     "Magesterial Courts:1938-02-03"
   ],
   "Magesterial Courts:1938-02-03": [
-    "Zip:19504",
     "Zip:18074",
-    "Zip:19473",
     "Zip:19464",
+    "Zip:19473",
+    "Zip:19504",
     "Zip:19525"
+  ],
+  "Zip:18077": [
+    "Magesterial Courts:07-3-03"
   ],
   "Zip:18901": [
     "Magesterial Courts:07-2-08",
@@ -22,12 +55,21 @@
   "Magesterial Courts:07-2-08": [
     "Zip:18901",
     "Zip:18914",
-    "Zip:19440",
+    "Zip:18944",
     "Zip:18960",
-    "Zip:18944"
+    "Zip:19440"
   ],
   "Magesterial Courts:07-2-02": [
     "Zip:18901"
+  ],
+  "Zip:18902": [
+    "Magesterial Courts:07-3-01",
+    "Magesterial Courts:07-3-03"
+  ],
+  "Magesterial Courts:07-3-01": [
+    "Zip:18902",
+    "Zip:18925",
+    "Zip:18938"
   ],
   "Zip:18914": [
     "Magesterial Courts:07-3-02",
@@ -36,8 +78,26 @@
   "Magesterial Courts:07-3-02": [
     "Zip:18914",
     "Zip:18929",
-    "Zip:18976",
-    "Zip:18974"
+    "Zip:18974",
+    "Zip:18976"
+  ],
+  "Zip:18915": [
+    "Magesterial Courts:1938-01-18"
+  ],
+  "Magesterial Courts:1938-01-18": [
+    "Zip:18915",
+    "Zip:19440",
+    "Zip:19446",
+    "Zip:19454"
+  ],
+  "Zip:18925": [
+    "Magesterial Courts:07-3-01"
+  ],
+  "Zip:18929": [
+    "Magesterial Courts:07-3-02"
+  ],
+  "Zip:18930": [
+    "Magesterial Courts:07-3-03"
   ],
   "Zip:18938": [
     "Magesterial Courts:07-2-07",
@@ -49,185 +109,95 @@
     "Zip:18977",
     "Zip:18980"
   ],
-  "Magesterial Courts:07-3-01": [
-    "Zip:18938",
-    "Zip:18925",
-    "Zip:18902"
+  "Zip:18940": [
+    "Magesterial Courts:07-2-07"
   ],
-  "Zip:18054": [
-    "Magesterial Courts:1938-02-02"
+  "Zip:18942": [
+    "Magesterial Courts:07-3-03"
   ],
-  "Magesterial Courts:1938-02-02": [
-    "Zip:18054",
+  "Zip:18944": [
+    "Magesterial Courts:07-2-08",
+    "Magesterial Courts:07-3-03",
+    "Magesterial Courts:07-2-05"
+  ],
+  "Magesterial Courts:07-2-05": [
+    "Zip:18944",
+    "Zip:18951",
+    "Zip:18960"
+  ],
+  "Zip:18947": [
+    "Magesterial Courts:07-3-03"
+  ],
+  "Zip:18951": [
+    "Magesterial Courts:07-3-03",
+    "Magesterial Courts:07-2-05"
+  ],
+  "Zip:18954": [
+    "Magesterial Courts:07-2-01"
+  ],
+  "Magesterial Courts:07-2-01": [
+    "Zip:18954",
+    "Zip:18966",
+    "Zip:18974"
+  ],
+  "Zip:18960": [
+    "Magesterial Courts:07-2-08",
+    "Magesterial Courts:07-2-05"
+  ],
+  "Zip:18964": [
+    "Magesterial Courts:1938-01-24"
+  ],
+  "Magesterial Courts:1938-01-24": [
+    "Zip:18964",
     "Zip:18969",
-    "Zip:18073",
-    "Zip:18041",
-    "Zip:19438"
+    "Zip:19403",
+    "Zip:19426",
+    "Zip:19438",
+    "Zip:19446",
+    "Zip:19473"
   ],
-  "Zip:19054": [
-    "Magesterial Courts:07-1-04",
-    "Magesterial Courts:07-1-10",
-    "Magesterial Courts:undefined"
-  ],
-  "Magesterial Courts:07-1-04": [
-    "Zip:19054",
-    "Zip:19057",
-    "Zip:19007",
-    "Zip:19030",
-    "Zip:19055"
-  ],
-  "Magesterial Courts:07-1-10": [
-    "Zip:19054",
-    "Zip:19067",
-    "Zip:19030"
-  ],
-  "Magesterial Courts:undefined": [
-    "Zip:19054",
-    "Zip:19067",
-    "Zip:19030"
+  "Zip:18966": [
+    "Magesterial Courts:07-2-01"
   ],
   "Zip:18969": [
     "Magesterial Courts:1938-01-24",
     "Magesterial Courts:1938-02-02"
   ],
-  "Magesterial Courts:1938-01-24": [
-    "Zip:18969",
-    "Zip:19403",
-    "Zip:18964",
-    "Zip:19446",
-    "Zip:19473",
-    "Zip:19426",
-    "Zip:19438"
+  "Zip:18972": [
+    "Magesterial Courts:07-3-03"
   ],
-  "Zip:19440": [
-    "Magesterial Courts:07-2-08",
-    "Magesterial Courts:1938-01-18",
-    "Magesterial Courts:1938-01-28"
+  "Zip:18974": [
+    "Magesterial Courts:07-2-01",
+    "Magesterial Courts:07-1-09",
+    "Magesterial Courts:07-3-02"
   ],
-  "Magesterial Courts:1938-01-18": [
-    "Zip:19440",
-    "Zip:18915",
-    "Zip:19446",
-    "Zip:19454"
+  "Magesterial Courts:07-1-09": [
+    "Zip:18974"
   ],
-  "Magesterial Courts:1938-01-28": [
-    "Zip:19440",
-    "Zip:19446",
-    "Zip:19438"
+  "Zip:18976": [
+    "Magesterial Courts:07-3-02"
   ],
-  "Zip:19311": [
-    "Magesterial Courts:2015-04-04"
+  "Zip:18977": [
+    "Magesterial Courts:07-2-07"
   ],
-  "Magesterial Courts:2015-04-04": [
-    "Zip:19311",
-    "Zip:19390",
-    "Zip:19320",
-    "Zip:19350"
+  "Zip:18980": [
+    "Magesterial Courts:07-2-07"
   ],
-  "Zip:19460": [
-    "Magesterial Courts:2015-02-01",
-    "Magesterial Courts:2015-03-01",
-    "Magesterial Courts:1938-01-20"
+  "Zip:19001": [
+    "Magesterial Courts:1938-01-04",
+    "Magesterial Courts:1938-01-05"
   ],
-  "Magesterial Courts:2015-02-01": [
-    "Zip:19460",
-    "Zip:19355"
+  "Magesterial Courts:1938-01-04": [
+    "Zip:19001",
+    "Zip:19006",
+    "Zip:19046",
+    "Zip:19090"
   ],
-  "Magesterial Courts:2015-03-01": [
-    "Zip:19460",
-    "Zip:19425",
-    "Zip:19465",
-    "Zip:19343",
-    "Zip:19520",
-    "Zip:19475"
-  ],
-  "Magesterial Courts:1938-01-20": [
-    "Zip:19460",
-    "Zip:19403",
-    "Zip:19426"
-  ],
-  "Zip:19317": [
-    "Magesterial Courts:2015-03-04"
-  ],
-  "Magesterial Courts:2015-03-04": [
-    "Zip:19317",
-    "Zip:19382",
-    "Zip:19348"
-  ],
-  "Zip:19383": [
-    "Magesterial Courts:2015-01-04"
-  ],
-  "Magesterial Courts:2015-01-04": [
-    "Zip:19383"
-  ],
-  "Zip:19330": [
-    "Magesterial Courts:2015-03-05",
-    "Magesterial Courts:2015-03-07"
-  ],
-  "Magesterial Courts:2015-03-05": [
-    "Zip:19330",
-    "Zip:19390",
-    "Zip:19362",
-    "Zip:19363",
-    "Zip:19352"
-  ],
-  "Magesterial Courts:2015-03-07": [
-    "Zip:19330",
-    "Zip:19310",
-    "Zip:19320",
-    "Zip:19365"
-  ],
-  "Zip:19085": [
-    "Magesterial Courts:1938-01-06"
-  ],
-  "Magesterial Courts:1938-01-06": [
-    "Zip:19085",
-    "Zip:19035",
-    "Zip:19072",
-    "Zip:19010"
-  ],
-  "Zip:19031": [
-    "Magesterial Courts:1938-01-08",
-    "Magesterial Courts:1938-01-23"
-  ],
-  "Magesterial Courts:1938-01-08": [
-    "Zip:19031",
-    "Zip:19075",
-    "Zip:19444",
-    "Zip:19038"
-  ],
-  "Magesterial Courts:1938-01-23": [
-    "Zip:19031",
-    "Zip:19462",
-    "Zip:19444",
-    "Zip:19428",
-    "Zip:19034"
-  ],
-  "Zip:19403": [
-    "Magesterial Courts:1938-01-01",
-    "Magesterial Courts:1938-01-20",
-    "Magesterial Courts:1938-01-24"
-  ],
-  "Magesterial Courts:1938-01-01": [
-    "Zip:19403",
-    "Zip:19401"
-  ],
-  "Zip:19468": [
-    "Magesterial Courts:1938-01-19"
-  ],
-  "Magesterial Courts:1938-01-19": [
-    "Zip:19468",
-    "Zip:19473",
-    "Zip:19426",
-    "Zip:19464"
-  ],
-  "Zip:19009": [
-    "Magesterial Courts:1938-02-08"
-  ],
-  "Magesterial Courts:1938-02-08": [
-    "Zip:19009",
-    "Zip:19090",
-    "Zip:19006"
+  "Magesterial Courts:1938-01-05": [
+    "Zip:19001",
+    "Zip:19027",
+    "Zip:19038",
+    "Zip:19046"
   ],
   "Zip:19002": [
     "Magesterial Courts:1938-01-10",
@@ -250,13 +220,74 @@
     "Zip:19040",
     "Zip:19044"
   ],
-  "Zip:19462": [
-    "Magesterial Courts:1938-01-13",
-    "Magesterial Courts:1938-01-23"
+  "Zip:19003": [
+    "Magesterial Courts:1938-01-07"
   ],
-  "Magesterial Courts:1938-01-13": [
-    "Zip:19462",
-    "Zip:19428"
+  "Magesterial Courts:1938-01-07": [
+    "Zip:19003",
+    "Zip:19010",
+    "Zip:19041",
+    "Zip:19072",
+    "Zip:19096"
+  ],
+  "Zip:19004": [
+    "Magesterial Courts:1938-02-04"
+  ],
+  "Magesterial Courts:1938-02-04": [
+    "Zip:19004",
+    "Zip:19066",
+    "Zip:19096"
+  ],
+  "Zip:19006": [
+    "Magesterial Courts:1938-01-04",
+    "Magesterial Courts:1938-02-08"
+  ],
+  "Magesterial Courts:1938-02-08": [
+    "Zip:19006",
+    "Zip:19009",
+    "Zip:19090"
+  ],
+  "Zip:19007": [
+    "Magesterial Courts:07-1-02",
+    "Magesterial Courts:07-1-04",
+    "Magesterial Courts:07-1-03"
+  ],
+  "Magesterial Courts:07-1-02": [
+    "Zip:19007",
+    "Zip:19021"
+  ],
+  "Magesterial Courts:07-1-04": [
+    "Zip:19007",
+    "Zip:19030",
+    "Zip:19054",
+    "Zip:19055",
+    "Zip:19057"
+  ],
+  "Magesterial Courts:07-1-03": [
+    "Zip:19007",
+    "Zip:19056",
+    "Zip:19057"
+  ],
+  "Zip:19009": [
+    "Magesterial Courts:1938-02-08"
+  ],
+  "Zip:19010": [
+    "Magesterial Courts:1938-01-06",
+    "Magesterial Courts:1938-01-07"
+  ],
+  "Magesterial Courts:1938-01-06": [
+    "Zip:19010",
+    "Zip:19035",
+    "Zip:19072",
+    "Zip:19085"
+  ],
+  "Zip:19012": [
+    "Magesterial Courts:1938-01-02"
+  ],
+  "Magesterial Courts:1938-01-02": [
+    "Zip:19012",
+    "Zip:19027",
+    "Zip:19046"
   ],
   "Zip:19020": [
     "Magesterial Courts:07-1-01",
@@ -269,26 +300,65 @@
     "Zip:19020",
     "Zip:19053"
   ],
-  "Zip:19057": [
+  "Zip:19021": [
+    "Magesterial Courts:07-1-02"
+  ],
+  "Zip:19025": [
+    "Magesterial Courts:1938-01-10"
+  ],
+  "Zip:19027": [
+    "Magesterial Courts:1938-01-02",
+    "Magesterial Courts:1938-01-03",
+    "Magesterial Courts:1938-01-05"
+  ],
+  "Magesterial Courts:1938-01-03": [
+    "Zip:19027",
+    "Zip:19038",
+    "Zip:19095"
+  ],
+  "Zip:19030": [
     "Magesterial Courts:07-1-04",
-    "Magesterial Courts:07-1-03",
-    "Magesterial Courts:07-1-08"
+    "Magesterial Courts:07-1-10",
+    "Magesterial Courts:Unknown"
   ],
-  "Magesterial Courts:07-1-03": [
-    "Zip:19057",
-    "Zip:19007",
-    "Zip:19056"
+  "Magesterial Courts:07-1-10": [
+    "Zip:19030",
+    "Zip:19054",
+    "Zip:19067"
   ],
-  "Magesterial Courts:07-1-08": [
-    "Zip:19057",
-    "Zip:19047",
-    "Zip:19056"
+  "Magesterial Courts:Unknown": [
+    "Zip:19030",
+    "Zip:19054",
+    "Zip:19067"
   ],
-  "Zip:18925": [
-    "Magesterial Courts:07-3-01"
+  "Zip:19031": [
+    "Magesterial Courts:1938-01-08",
+    "Magesterial Courts:1938-01-23"
   ],
-  "Zip:18073": [
-    "Magesterial Courts:1938-02-02"
+  "Magesterial Courts:1938-01-08": [
+    "Zip:19031",
+    "Zip:19038",
+    "Zip:19075",
+    "Zip:19444"
+  ],
+  "Magesterial Courts:1938-01-23": [
+    "Zip:19031",
+    "Zip:19034",
+    "Zip:19428",
+    "Zip:19444",
+    "Zip:19462"
+  ],
+  "Zip:19034": [
+    "Magesterial Courts:1938-01-10",
+    "Magesterial Courts:1938-01-23"
+  ],
+  "Zip:19035": [
+    "Magesterial Courts:1938-01-06"
+  ],
+  "Zip:19038": [
+    "Magesterial Courts:1938-01-03",
+    "Magesterial Courts:1938-01-05",
+    "Magesterial Courts:1938-01-08"
   ],
   "Zip:19040": [
     "Magesterial Courts:1938-01-14",
@@ -298,179 +368,17 @@
     "Zip:19040",
     "Zip:19044"
   ],
-  "Zip:19390": [
-    "Magesterial Courts:2015-03-05",
-    "Magesterial Courts:2015-04-04"
-  ],
-  "Zip:19425": [
-    "Magesterial Courts:2015-02-07",
-    "Magesterial Courts:2015-03-01"
-  ],
-  "Magesterial Courts:2015-02-07": [
-    "Zip:19425",
-    "Zip:19335",
-    "Zip:19341"
-  ],
-  "Zip:19380": [
-    "Magesterial Courts:2015-02-03",
-    "Magesterial Courts:2015-04-03",
-    "Magesterial Courts:2015-01-02",
-    "Magesterial Courts:2015-01-01"
-  ],
-  "Magesterial Courts:2015-02-03": [
-    "Zip:19380",
-    "Zip:19382"
-  ],
-  "Magesterial Courts:2015-04-03": [
-    "Zip:19380",
-    "Zip:19355",
-    "Zip:19341"
-  ],
-  "Magesterial Courts:2015-01-02": [
-    "Zip:19380",
-    "Zip:19355",
-    "Zip:19333",
-    "Zip:19073",
-    "Zip:19312"
-  ],
-  "Magesterial Courts:2015-01-01": [
-    "Zip:19380",
-    "Zip:19382",
-    "Zip:19335"
-  ],
-  "Zip:19087": [
-    "Magesterial Courts:2015-04-01",
-    "Magesterial Courts:1938-01-09"
-  ],
-  "Magesterial Courts:2015-04-01": [
-    "Zip:19087",
-    "Zip:19355",
-    "Zip:19301"
-  ],
-  "Magesterial Courts:1938-01-09": [
-    "Zip:19087",
-    "Zip:19428",
-    "Zip:19406"
-  ],
-  "Zip:19075": [
-    "Magesterial Courts:1938-01-08"
-  ],
-  "Zip:19090": [
-    "Magesterial Courts:1938-01-04",
-    "Magesterial Courts:1938-02-08"
-  ],
-  "Magesterial Courts:1938-01-04": [
-    "Zip:19090",
-    "Zip:19001",
-    "Zip:19006",
-    "Zip:19046"
-  ],
-  "Zip:19422": [
-    "Magesterial Courts:1938-01-21"
-  ],
-  "Zip:19027": [
-    "Magesterial Courts:1938-01-02",
-    "Magesterial Courts:1938-01-03",
-    "Magesterial Courts:1938-01-05"
-  ],
-  "Magesterial Courts:1938-01-02": [
-    "Zip:19027",
-    "Zip:19012",
-    "Zip:19046"
-  ],
-  "Magesterial Courts:1938-01-03": [
-    "Zip:19027",
-    "Zip:19095",
-    "Zip:19038"
-  ],
-  "Magesterial Courts:1938-01-05": [
-    "Zip:19027",
-    "Zip:19001",
-    "Zip:19038",
-    "Zip:19046"
-  ],
-  "Zip:18041": [
-    "Magesterial Courts:1938-02-02"
-  ],
-  "Zip:18930": [
-    "Magesterial Courts:07-3-03"
-  ],
-  "Magesterial Courts:07-3-03": [
-    "Zip:18930",
-    "Zip:18951",
-    "Zip:18902",
-    "Zip:18036",
-    "Zip:18947",
-    "Zip:18077",
-    "Zip:18942",
-    "Zip:18944",
-    "Zip:18972"
-  ],
-  "Zip:19067": [
-    "Magesterial Courts:07-1-11",
-    "Magesterial Courts:07-1-10",
-    "Magesterial Courts:undefined"
-  ],
-  "Magesterial Courts:07-1-11": [
-    "Zip:19067"
-  ],
-  "Zip:18951": [
-    "Magesterial Courts:07-3-03",
-    "Magesterial Courts:07-2-05"
-  ],
-  "Magesterial Courts:07-2-05": [
-    "Zip:18951",
-    "Zip:18960",
-    "Zip:18944"
-  ],
-  "Zip:18964": [
-    "Magesterial Courts:1938-01-24"
-  ],
-  "Zip:19362": [
-    "Magesterial Courts:2015-03-05"
-  ],
-  "Zip:19310": [
-    "Magesterial Courts:2015-03-07"
-  ],
-  "Zip:19382": [
-    "Magesterial Courts:2015-02-03",
-    "Magesterial Courts:2015-01-01",
-    "Magesterial Courts:2015-03-04"
-  ],
-  "Zip:19003": [
+  "Zip:19041": [
     "Magesterial Courts:1938-01-07"
   ],
-  "Magesterial Courts:1938-01-07": [
-    "Zip:19003",
-    "Zip:19041",
-    "Zip:19096",
-    "Zip:19072",
-    "Zip:19010"
+  "Zip:19044": [
+    "Magesterial Courts:1938-01-14",
+    "Magesterial Courts:1938-01-22"
   ],
-  "Zip:19001": [
+  "Zip:19046": [
+    "Magesterial Courts:1938-01-02",
     "Magesterial Courts:1938-01-04",
     "Magesterial Courts:1938-01-05"
-  ],
-  "Zip:18915": [
-    "Magesterial Courts:1938-01-18"
-  ],
-  "Zip:19446": [
-    "Magesterial Courts:1938-01-18",
-    "Magesterial Courts:1938-01-21",
-    "Magesterial Courts:1938-01-24",
-    "Magesterial Courts:1938-01-28"
-  ],
-  "Zip:19012": [
-    "Magesterial Courts:1938-01-02"
-  ],
-  "Zip:19007": [
-    "Magesterial Courts:07-1-02",
-    "Magesterial Courts:07-1-04",
-    "Magesterial Courts:07-1-03"
-  ],
-  "Magesterial Courts:07-1-02": [
-    "Zip:19007",
-    "Zip:19021"
   ],
   "Zip:19047": [
     "Magesterial Courts:07-1-07",
@@ -480,28 +388,119 @@
     "Zip:19047",
     "Zip:19053"
   ],
-  "Zip:18902": [
-    "Magesterial Courts:07-3-01",
-    "Magesterial Courts:07-3-03"
+  "Magesterial Courts:07-1-08": [
+    "Zip:19047",
+    "Zip:19056",
+    "Zip:19057"
   ],
-  "Zip:18036": [
-    "Magesterial Courts:07-3-03"
+  "Zip:19053": [
+    "Magesterial Courts:07-1-07",
+    "Magesterial Courts:07-1-12"
   ],
-  "Zip:18960": [
-    "Magesterial Courts:07-2-08",
-    "Magesterial Courts:07-2-05"
+  "Zip:19054": [
+    "Magesterial Courts:07-1-04",
+    "Magesterial Courts:07-1-10",
+    "Magesterial Courts:Unknown"
   ],
-  "Zip:18947": [
-    "Magesterial Courts:07-3-03"
+  "Zip:19055": [
+    "Magesterial Courts:07-1-04"
   ],
-  "Zip:18929": [
-    "Magesterial Courts:07-3-02"
+  "Zip:19056": [
+    "Magesterial Courts:07-1-03",
+    "Magesterial Courts:07-1-08"
   ],
-  "Zip:19355": [
-    "Magesterial Courts:2015-04-01",
-    "Magesterial Courts:2015-04-03",
-    "Magesterial Courts:2015-01-02",
-    "Magesterial Courts:2015-02-01"
+  "Zip:19057": [
+    "Magesterial Courts:07-1-04",
+    "Magesterial Courts:07-1-03",
+    "Magesterial Courts:07-1-08"
+  ],
+  "Zip:19066": [
+    "Magesterial Courts:1938-02-04"
+  ],
+  "Zip:19067": [
+    "Magesterial Courts:07-1-11",
+    "Magesterial Courts:07-1-10",
+    "Magesterial Courts:Unknown"
+  ],
+  "Magesterial Courts:07-1-11": [
+    "Zip:19067"
+  ],
+  "Zip:19072": [
+    "Magesterial Courts:1938-01-06",
+    "Magesterial Courts:1938-01-07"
+  ],
+  "Zip:19073": [
+    "Magesterial Courts:2015-01-02"
+  ],
+  "Magesterial Courts:2015-01-02": [
+    "Zip:19073",
+    "Zip:19312",
+    "Zip:19333",
+    "Zip:19355",
+    "Zip:19380"
+  ],
+  "Zip:19075": [
+    "Magesterial Courts:1938-01-08"
+  ],
+  "Zip:19085": [
+    "Magesterial Courts:1938-01-06"
+  ],
+  "Zip:19087": [
+    "Magesterial Courts:1938-01-09",
+    "Magesterial Courts:2015-04-01"
+  ],
+  "Magesterial Courts:1938-01-09": [
+    "Zip:19087",
+    "Zip:19406",
+    "Zip:19428"
+  ],
+  "Magesterial Courts:2015-04-01": [
+    "Zip:19087",
+    "Zip:19301",
+    "Zip:19355"
+  ],
+  "Zip:19090": [
+    "Magesterial Courts:1938-01-04",
+    "Magesterial Courts:1938-02-08"
+  ],
+  "Zip:19095": [
+    "Magesterial Courts:1938-01-03"
+  ],
+  "Zip:19096": [
+    "Magesterial Courts:1938-01-07",
+    "Magesterial Courts:1938-02-04"
+  ],
+  "Zip:19301": [
+    "Magesterial Courts:2015-04-01"
+  ],
+  "Zip:19310": [
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Magesterial Courts:2015-03-07": [
+    "Zip:19310",
+    "Zip:19320",
+    "Zip:19330",
+    "Zip:19365"
+  ],
+  "Zip:19311": [
+    "Magesterial Courts:2015-04-04"
+  ],
+  "Magesterial Courts:2015-04-04": [
+    "Zip:19311",
+    "Zip:19320",
+    "Zip:19350",
+    "Zip:19390"
+  ],
+  "Zip:19312": [
+    "Magesterial Courts:2015-01-02"
+  ],
+  "Zip:19317": [
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Magesterial Courts:2015-03-04": [
+    "Zip:19317",
+    "Zip:19348",
+    "Zip:19382"
   ],
   "Zip:19320": [
     "Magesterial Courts:2015-04-04",
@@ -514,34 +513,124 @@
     "Zip:19344",
     "Zip:19520"
   ],
+  "Zip:19330": [
+    "Magesterial Courts:2015-03-05",
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Magesterial Courts:2015-03-05": [
+    "Zip:19330",
+    "Zip:19352",
+    "Zip:19362",
+    "Zip:19363",
+    "Zip:19390"
+  ],
+  "Zip:19333": [
+    "Magesterial Courts:2015-01-02"
+  ],
   "Zip:19335": [
     "Magesterial Courts:2015-02-07",
     "Magesterial Courts:2015-04-02",
     "Magesterial Courts:2015-01-01"
   ],
+  "Magesterial Courts:2015-02-07": [
+    "Zip:19335",
+    "Zip:19341",
+    "Zip:19425"
+  ],
   "Magesterial Courts:2015-04-02": [
     "Zip:19335"
+  ],
+  "Magesterial Courts:2015-01-01": [
+    "Zip:19335",
+    "Zip:19380",
+    "Zip:19382"
+  ],
+  "Zip:19341": [
+    "Magesterial Courts:2015-02-07",
+    "Magesterial Courts:2015-04-03"
+  ],
+  "Magesterial Courts:2015-04-03": [
+    "Zip:19341",
+    "Zip:19355",
+    "Zip:19380"
+  ],
+  "Zip:19343": [
+    "Magesterial Courts:2015-03-01",
+    "Magesterial Courts:2015-03-06"
+  ],
+  "Magesterial Courts:2015-03-01": [
+    "Zip:19343",
+    "Zip:19425",
+    "Zip:19460",
+    "Zip:19465",
+    "Zip:19475",
+    "Zip:19520"
+  ],
+  "Zip:19344": [
+    "Magesterial Courts:2015-03-06"
+  ],
+  "Zip:19348": [
+    "Magesterial Courts:2015-03-04"
   ],
   "Zip:19350": [
     "Magesterial Courts:2015-04-04"
   ],
-  "Zip:19041": [
-    "Magesterial Courts:1938-01-07"
+  "Zip:19352": [
+    "Magesterial Courts:2015-03-05"
   ],
-  "Zip:19096": [
-    "Magesterial Courts:1938-01-07",
-    "Magesterial Courts:1938-02-04"
+  "Zip:19355": [
+    "Magesterial Courts:2015-04-01",
+    "Magesterial Courts:2015-04-03",
+    "Magesterial Courts:2015-01-02",
+    "Magesterial Courts:2015-02-01"
   ],
-  "Magesterial Courts:1938-02-04": [
-    "Zip:19096",
-    "Zip:19004",
-    "Zip:19066"
+  "Magesterial Courts:2015-02-01": [
+    "Zip:19355",
+    "Zip:19460"
+  ],
+  "Zip:19362": [
+    "Magesterial Courts:2015-03-05"
+  ],
+  "Zip:19363": [
+    "Magesterial Courts:2015-03-05"
+  ],
+  "Zip:19365": [
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Zip:19380": [
+    "Magesterial Courts:2015-02-03",
+    "Magesterial Courts:2015-04-03",
+    "Magesterial Courts:2015-01-02",
+    "Magesterial Courts:2015-01-01"
+  ],
+  "Magesterial Courts:2015-02-03": [
+    "Zip:19380",
+    "Zip:19382"
+  ],
+  "Zip:19382": [
+    "Magesterial Courts:2015-02-03",
+    "Magesterial Courts:2015-01-01",
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Zip:19383": [
+    "Magesterial Courts:2015-01-04"
+  ],
+  "Magesterial Courts:2015-01-04": [
+    "Zip:19383"
+  ],
+  "Zip:19390": [
+    "Magesterial Courts:2015-03-05",
+    "Magesterial Courts:2015-04-04"
   ],
   "Zip:19401": [
     "Magesterial Courts:1938-01-01",
     "Magesterial Courts:1938-01-15",
     "Magesterial Courts:1938-01-16",
     "Magesterial Courts:1938-02-09"
+  ],
+  "Magesterial Courts:1938-01-01": [
+    "Zip:19401",
+    "Zip:19403"
   ],
   "Magesterial Courts:1938-01-15": [
     "Zip:19401"
@@ -552,67 +641,91 @@
   "Magesterial Courts:1938-02-09": [
     "Zip:19401"
   ],
-  "Zip:19444": [
-    "Magesterial Courts:1938-01-08",
-    "Magesterial Courts:1938-01-23"
+  "Zip:19403": [
+    "Magesterial Courts:1938-01-01",
+    "Magesterial Courts:1938-01-20",
+    "Magesterial Courts:1938-01-24"
   ],
-  "Zip:18074": [
-    "Magesterial Courts:1938-02-03"
+  "Magesterial Courts:1938-01-20": [
+    "Zip:19403",
+    "Zip:19426",
+    "Zip:19460"
+  ],
+  "Zip:19405": [
+    "Magesterial Courts:1938-01-25"
+  ],
+  "Magesterial Courts:1938-01-25": [
+    "Zip:19405",
+    "Zip:19406"
+  ],
+  "Zip:19406": [
+    "Magesterial Courts:1938-01-09",
+    "Magesterial Courts:1938-01-25"
+  ],
+  "Zip:19422": [
+    "Magesterial Courts:1938-01-21"
+  ],
+  "Zip:19425": [
+    "Magesterial Courts:2015-02-07",
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Zip:19426": [
+    "Magesterial Courts:1938-01-19",
+    "Magesterial Courts:1938-01-20",
+    "Magesterial Courts:1938-01-24"
+  ],
+  "Magesterial Courts:1938-01-19": [
+    "Zip:19426",
+    "Zip:19464",
+    "Zip:19468",
+    "Zip:19473"
   ],
   "Zip:19428": [
     "Magesterial Courts:1938-01-09",
     "Magesterial Courts:1938-01-13",
     "Magesterial Courts:1938-01-23"
   ],
-  "Zip:19035": [
-    "Magesterial Courts:1938-01-06"
+  "Magesterial Courts:1938-01-13": [
+    "Zip:19428",
+    "Zip:19462"
   ],
-  "Zip:19473": [
-    "Magesterial Courts:1938-01-19",
+  "Zip:19438": [
     "Magesterial Courts:1938-01-24",
-    "Magesterial Courts:1938-02-03"
+    "Magesterial Courts:1938-01-28",
+    "Magesterial Courts:1938-02-02"
   ],
-  "Zip:19095": [
-    "Magesterial Courts:1938-01-03"
+  "Magesterial Courts:1938-01-28": [
+    "Zip:19438",
+    "Zip:19440",
+    "Zip:19446"
   ],
-  "Zip:18077": [
-    "Magesterial Courts:07-3-03"
+  "Zip:19440": [
+    "Magesterial Courts:07-2-08",
+    "Magesterial Courts:1938-01-18",
+    "Magesterial Courts:1938-01-28"
   ],
-  "Zip:19053": [
-    "Magesterial Courts:07-1-07",
-    "Magesterial Courts:07-1-12"
+  "Zip:19444": [
+    "Magesterial Courts:1938-01-08",
+    "Magesterial Courts:1938-01-23"
   ],
-  "Zip:18942": [
-    "Magesterial Courts:07-3-03"
+  "Zip:19446": [
+    "Magesterial Courts:1938-01-18",
+    "Magesterial Courts:1938-01-21",
+    "Magesterial Courts:1938-01-24",
+    "Magesterial Courts:1938-01-28"
   ],
-  "Zip:18954": [
-    "Magesterial Courts:07-2-01"
+  "Zip:19454": [
+    "Magesterial Courts:1938-01-18",
+    "Magesterial Courts:1938-01-21"
   ],
-  "Magesterial Courts:07-2-01": [
-    "Zip:18954",
-    "Zip:18974",
-    "Zip:18966"
-  ],
-  "Zip:19333": [
-    "Magesterial Courts:2015-01-02"
-  ],
-  "Zip:19038": [
-    "Magesterial Courts:1938-01-03",
-    "Magesterial Courts:1938-01-05",
-    "Magesterial Courts:1938-01-08"
-  ],
-  "Zip:19406": [
-    "Magesterial Courts:1938-01-09",
-    "Magesterial Courts:1938-01-25"
-  ],
-  "Magesterial Courts:1938-01-25": [
-    "Zip:19406",
-    "Zip:19405"
-  ],
-  "Zip:19426": [
-    "Magesterial Courts:1938-01-19",
+  "Zip:19460": [
     "Magesterial Courts:1938-01-20",
-    "Magesterial Courts:1938-01-24"
+    "Magesterial Courts:2015-02-01",
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Zip:19462": [
+    "Magesterial Courts:1938-01-13",
+    "Magesterial Courts:1938-01-23"
   ],
   "Zip:19464": [
     "Magesterial Courts:1938-01-11",
@@ -626,141 +739,28 @@
   "Magesterial Courts:1938-01-12": [
     "Zip:19464"
   ],
-  "Zip:18944": [
-    "Magesterial Courts:07-2-08",
-    "Magesterial Courts:07-3-03",
-    "Magesterial Courts:07-2-05"
-  ],
-  "Zip:19021": [
-    "Magesterial Courts:07-1-02"
-  ],
-  "Zip:19006": [
-    "Magesterial Courts:1938-01-04",
-    "Magesterial Courts:1938-02-08"
-  ],
-  "Zip:18940": [
-    "Magesterial Courts:07-2-07"
-  ],
-  "Zip:18976": [
-    "Magesterial Courts:07-3-02"
-  ],
-  "Zip:19073": [
-    "Magesterial Courts:2015-01-02"
-  ],
   "Zip:19465": [
     "Magesterial Courts:2015-03-01"
   ],
-  "Zip:19365": [
-    "Magesterial Courts:2015-03-07"
+  "Zip:19468": [
+    "Magesterial Courts:1938-01-19"
   ],
-  "Zip:19348": [
-    "Magesterial Courts:2015-03-04"
-  ],
-  "Zip:19072": [
-    "Magesterial Courts:1938-01-06",
-    "Magesterial Courts:1938-01-07"
-  ],
-  "Zip:19405": [
-    "Magesterial Courts:1938-01-25"
-  ],
-  "Zip:19438": [
+  "Zip:19473": [
+    "Magesterial Courts:1938-01-19",
     "Magesterial Courts:1938-01-24",
-    "Magesterial Courts:1938-01-28",
-    "Magesterial Courts:1938-02-02"
+    "Magesterial Courts:1938-02-03"
   ],
-  "Zip:19044": [
-    "Magesterial Courts:1938-01-14",
-    "Magesterial Courts:1938-01-22"
+  "Zip:19475": [
+    "Magesterial Courts:2015-03-01"
   ],
-  "Zip:19025": [
-    "Magesterial Courts:1938-01-10"
-  ],
-  "Zip:18972": [
-    "Magesterial Courts:07-3-03"
-  ],
-  "Zip:18974": [
-    "Magesterial Courts:07-2-01",
-    "Magesterial Courts:07-1-09",
-    "Magesterial Courts:07-3-02"
-  ],
-  "Magesterial Courts:07-1-09": [
-    "Zip:18974"
-  ],
-  "Zip:19056": [
-    "Magesterial Courts:07-1-03",
-    "Magesterial Courts:07-1-08"
-  ],
-  "Zip:19030": [
-    "Magesterial Courts:07-1-04",
-    "Magesterial Courts:07-1-10",
-    "Magesterial Courts:undefined"
-  ],
-  "Zip:18977": [
-    "Magesterial Courts:07-2-07"
-  ],
-  "Zip:18980": [
-    "Magesterial Courts:07-2-07"
-  ],
-  "Zip:19343": [
-    "Magesterial Courts:2015-03-01",
-    "Magesterial Courts:2015-03-06"
-  ],
-  "Zip:19344": [
-    "Magesterial Courts:2015-03-06"
-  ],
-  "Zip:19312": [
-    "Magesterial Courts:2015-01-02"
-  ],
-  "Zip:19046": [
-    "Magesterial Courts:1938-01-02",
-    "Magesterial Courts:1938-01-04",
-    "Magesterial Courts:1938-01-05"
-  ],
-  "Zip:19525": [
+  "Zip:19504": [
     "Magesterial Courts:1938-02-03"
   ],
   "Zip:19520": [
     "Magesterial Courts:2015-03-01",
     "Magesterial Courts:2015-03-06"
   ],
-  "Zip:19055": [
-    "Magesterial Courts:07-1-04"
-  ],
-  "Zip:18966": [
-    "Magesterial Courts:07-2-01"
-  ],
-  "Zip:19475": [
-    "Magesterial Courts:2015-03-01"
-  ],
-  "Zip:19341": [
-    "Magesterial Courts:2015-02-07",
-    "Magesterial Courts:2015-04-03"
-  ],
-  "Zip:19301": [
-    "Magesterial Courts:2015-04-01"
-  ],
-  "Zip:19363": [
-    "Magesterial Courts:2015-03-05"
-  ],
-  "Zip:19352": [
-    "Magesterial Courts:2015-03-05"
-  ],
-  "Zip:19010": [
-    "Magesterial Courts:1938-01-06",
-    "Magesterial Courts:1938-01-07"
-  ],
-  "Zip:19004": [
-    "Magesterial Courts:1938-02-04"
-  ],
-  "Zip:19066": [
-    "Magesterial Courts:1938-02-04"
-  ],
-  "Zip:19454": [
-    "Magesterial Courts:1938-01-18",
-    "Magesterial Courts:1938-01-21"
-  ],
-  "Zip:19034": [
-    "Magesterial Courts:1938-01-10",
-    "Magesterial Courts:1938-01-23"
+  "Zip:19525": [
+    "Magesterial Courts:1938-02-03"
   ]
 }

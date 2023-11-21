@@ -1,44 +1,30 @@
 {
-  "Municipality:Allegheny - South Park Township": [
+  "Municipality:Allegheny - Baldwin Borough": [
+    "PA House District:36",
     "PA House District:38"
+  ],
+  "PA House District:36": [
+    "Municipality:Allegheny - Baldwin Borough",
+    "Municipality:Allegheny - Brentwood Borough",
+    "Municipality:Allegheny - Pittsburgh City"
   ],
   "PA House District:38": [
-    "Municipality:Allegheny - South Park Township",
+    "Municipality:Allegheny - Baldwin Borough",
     "Municipality:Allegheny - Glassport Borough",
     "Municipality:Allegheny - Liberty Borough",
-    "Municipality:Allegheny - West Mifflin Borough",
-    "Municipality:Allegheny - Whitehall Borough",
     "Municipality:Allegheny - Pleasant Hills Borough",
-    "Municipality:Allegheny - Baldwin Borough"
-  ],
-  "Municipality:Allegheny - North Versailles Township": [
-    "PA House District:25"
-  ],
-  "PA House District:25": [
-    "Municipality:Allegheny - North Versailles Township",
-    "Municipality:Allegheny - Plum Borough",
-    "Municipality:Allegheny - Monroeville Borough"
-  ],
-  "Municipality:Allegheny - Clairton City": [
-    "PA House District:35"
-  ],
-  "PA House District:35": [
-    "Municipality:Allegheny - Clairton City",
-    "Municipality:Allegheny - Duquesne City",
-    "Municipality:Allegheny - Mckeesport City",
+    "Municipality:Allegheny - South Park Township",
     "Municipality:Allegheny - West Mifflin Borough",
-    "Municipality:Allegheny - White Oak Borough",
-    "Municipality:Allegheny - Lincoln Borough",
-    "Municipality:Allegheny - Munhall Borough"
+    "Municipality:Allegheny - Whitehall Borough"
   ],
-  "Municipality:Allegheny - Duquesne City": [
-    "PA House District:35"
+  "Municipality:Allegheny - Bellevue Borough": [
+    "PA House District:20"
   ],
-  "Municipality:Allegheny - Mckeesport City": [
-    "PA House District:35"
-  ],
-  "Municipality:Allegheny - Glassport Borough": [
-    "PA House District:38"
+  "PA House District:20": [
+    "Municipality:Allegheny - Bellevue Borough",
+    "Municipality:Allegheny - Pittsburgh City",
+    "Municipality:Allegheny - Ross Township",
+    "Municipality:Allegheny - West View Borough"
   ],
   "Municipality:Allegheny - Bethel Park Borough": [
     "PA House District:40"
@@ -50,13 +36,58 @@
   "Municipality:Allegheny - Brentwood Borough": [
     "PA House District:36"
   ],
-  "PA House District:36": [
-    "Municipality:Allegheny - Brentwood Borough",
-    "Municipality:Allegheny - Baldwin Borough",
+  "Municipality:Allegheny - Castle Shannon Borough": [
+    "PA House District:42"
+  ],
+  "PA House District:42": [
+    "Municipality:Allegheny - Castle Shannon Borough",
+    "Municipality:Allegheny - Dormont Borough",
+    "Municipality:Allegheny - Mt Lebanon Township"
+  ],
+  "Municipality:Allegheny - Churchill Borough": [
+    "PA House District:34"
+  ],
+  "PA House District:34": [
+    "Municipality:Allegheny - Churchill Borough",
+    "Municipality:Allegheny - Forest Hills Borough",
+    "Municipality:Allegheny - North Braddock Borough",
+    "Municipality:Allegheny - Pittsburgh City",
+    "Municipality:Allegheny - Swissvale Borough",
+    "Municipality:Allegheny - Wilkins Township"
+  ],
+  "Municipality:Allegheny - Clairton City": [
+    "PA House District:35"
+  ],
+  "PA House District:35": [
+    "Municipality:Allegheny - Clairton City",
+    "Municipality:Allegheny - Duquesne City",
+    "Municipality:Allegheny - Lincoln Borough",
+    "Municipality:Allegheny - Mckeesport City",
+    "Municipality:Allegheny - Munhall Borough",
+    "Municipality:Allegheny - West Mifflin Borough",
+    "Municipality:Allegheny - White Oak Borough"
+  ],
+  "Municipality:Allegheny - Collier Township": [
+    "PA House District:46"
+  ],
+  "PA House District:46": [
+    "Municipality:Allegheny - Collier Township",
+    "Municipality:Allegheny - South Fayette Township"
+  ],
+  "Municipality:Allegheny - Crafton Borough": [
+    "PA House District:27"
+  ],
+  "PA House District:27": [
+    "Municipality:Allegheny - Crafton Borough",
+    "Municipality:Allegheny - Green Tree Borough",
+    "Municipality:Allegheny - Mckees Rocks Borough",
     "Municipality:Allegheny - Pittsburgh City"
   ],
-  "Municipality:Allegheny - Upper St Clair Township": [
-    "PA House District:40"
+  "Municipality:Allegheny - Dormont Borough": [
+    "PA House District:42"
+  ],
+  "Municipality:Allegheny - Duquesne City": [
+    "PA House District:35"
   ],
   "Municipality:Allegheny - Elizabeth Township": [
     "PA House District:39"
@@ -66,92 +97,6 @@
     "Municipality:Allegheny - Forward Township",
     "Municipality:Allegheny - Jefferson Hills Borough"
   ],
-  "Municipality:Allegheny - Forward Township": [
-    "PA House District:39"
-  ],
-  "Municipality:Allegheny - Liberty Borough": [
-    "PA House District:38"
-  ],
-  "Municipality:Allegheny - West Mifflin Borough": [
-    "PA House District:35",
-    "PA House District:38"
-  ],
-  "Municipality:Allegheny - Whitehall Borough": [
-    "PA House District:38"
-  ],
-  "Municipality:Allegheny - White Oak Borough": [
-    "PA House District:35"
-  ],
-  "Municipality:Allegheny - Pleasant Hills Borough": [
-    "PA House District:38"
-  ],
-  "Municipality:Allegheny - Jefferson Hills Borough": [
-    "PA House District:39"
-  ],
-  "Municipality:Allegheny - Lincoln Borough": [
-    "PA House District:35"
-  ],
-  "Municipality:Allegheny - Castle Shannon Borough": [
-    "PA House District:42"
-  ],
-  "PA House District:42": [
-    "Municipality:Allegheny - Castle Shannon Borough",
-    "Municipality:Allegheny - Dormont Borough",
-    "Municipality:Allegheny - Mt Lebanon Township"
-  ],
-  "Municipality:Allegheny - Marshall Township": [
-    "PA House District:28"
-  ],
-  "PA House District:28": [
-    "Municipality:Allegheny - Marshall Township",
-    "Municipality:Allegheny - Mccandless Township",
-    "Municipality:Allegheny - Pine Township",
-    "Municipality:Allegheny - Franklin Park Borough"
-  ],
-  "Municipality:Allegheny - Forest Hills Borough": [
-    "PA House District:34"
-  ],
-  "PA House District:34": [
-    "Municipality:Allegheny - Forest Hills Borough",
-    "Municipality:Allegheny - Wilkins Township",
-    "Municipality:Allegheny - Churchill Borough",
-    "Municipality:Allegheny - North Braddock Borough",
-    "Municipality:Allegheny - Swissvale Borough",
-    "Municipality:Allegheny - Pittsburgh City"
-  ],
-  "Municipality:Allegheny - Neville Township": [
-    "PA House District:45"
-  ],
-  "PA House District:45": [
-    "Municipality:Allegheny - Neville Township",
-    "Municipality:Allegheny - Stowe Township",
-    "Municipality:Allegheny - Kennedy Township",
-    "Municipality:Allegheny - Scott Township",
-    "Municipality:Allegheny - Kilbuck Township",
-    "Municipality:Allegheny - Robinson Township"
-  ],
-  "Municipality:Allegheny - Mckees Rocks Borough": [
-    "PA House District:27"
-  ],
-  "PA House District:27": [
-    "Municipality:Allegheny - Mckees Rocks Borough",
-    "Municipality:Allegheny - Greentree Borough",
-    "Municipality:Allegheny - Crafton Borough",
-    "Municipality:Allegheny - Pittsburgh City"
-  ],
-  "Municipality:Allegheny - Harrison Township": [
-    "PA House District:33"
-  ],
-  "PA House District:33": [
-    "Municipality:Allegheny - Harrison Township",
-    "Municipality:Allegheny - Harmar Township",
-    "Municipality:Allegheny - Frazer Township",
-    "Municipality:Allegheny - Indiana Township"
-  ],
-  "Municipality:Allegheny - Baldwin Borough": [
-    "PA House District:38",
-    "PA House District:36"
-  ],
   "Municipality:Allegheny - Fawn Township": [
     "PA House District:54"
   ],
@@ -159,14 +104,169 @@
     "Municipality:Allegheny - Fawn Township",
     "Municipality:Allegheny - West Deer Township"
   ],
-  "Municipality:Allegheny - Stowe Township": [
-    "PA House District:45"
+  "Municipality:Allegheny - Findlay Township": [
+    "PA House District:44"
   ],
-  "Municipality:Allegheny - Wilkins Township": [
+  "PA House District:44": [
+    "Municipality:Allegheny - Findlay Township",
+    "Municipality:Allegheny - Moon Township",
+    "Municipality:Allegheny - North Fayette Township",
+    "Municipality:Allegheny - Ohio Township",
+    "Municipality:Allegheny - Sewickley Heights Borough"
+  ],
+  "Municipality:Allegheny - Forest Hills Borough": [
     "PA House District:34"
+  ],
+  "Municipality:Allegheny - Forward Township": [
+    "PA House District:39"
+  ],
+  "Municipality:Allegheny - Fox Chapel Borough": [
+    "PA House District:30"
+  ],
+  "PA House District:30": [
+    "Municipality:Allegheny - Fox Chapel Borough",
+    "Municipality:Allegheny - Hampton Township",
+    "Municipality:Allegheny - Richland Township",
+    "Municipality:Allegheny - Shaler Township"
+  ],
+  "Municipality:Allegheny - Franklin Park Borough": [
+    "PA House District:28"
+  ],
+  "PA House District:28": [
+    "Municipality:Allegheny - Franklin Park Borough",
+    "Municipality:Allegheny - Marshall Township",
+    "Municipality:Allegheny - Mccandless Township",
+    "Municipality:Allegheny - Pine Township"
+  ],
+  "Municipality:Allegheny - Frazer Township": [
+    "PA House District:33"
+  ],
+  "PA House District:33": [
+    "Municipality:Allegheny - Frazer Township",
+    "Municipality:Allegheny - Harmar Township",
+    "Municipality:Allegheny - Harrison Township",
+    "Municipality:Allegheny - Indiana Township"
+  ],
+  "Municipality:Allegheny - Glassport Borough": [
+    "PA House District:38"
+  ],
+  "Municipality:Allegheny - Green Tree Borough": [
+    "PA House District:27"
+  ],
+  "Municipality:Allegheny - Hampton Township": [
+    "PA House District:30"
+  ],
+  "Municipality:Allegheny - Harmar Township": [
+    "PA House District:33"
+  ],
+  "Municipality:Allegheny - Harrison Township": [
+    "PA House District:33"
+  ],
+  "Municipality:Allegheny - Indiana Township": [
+    "PA House District:33"
+  ],
+  "Municipality:Allegheny - Jefferson Hills Borough": [
+    "PA House District:39"
   ],
   "Municipality:Allegheny - Kennedy Township": [
     "PA House District:45"
+  ],
+  "PA House District:45": [
+    "Municipality:Allegheny - Kennedy Township",
+    "Municipality:Allegheny - Kilbuck Township",
+    "Municipality:Allegheny - Neville Township",
+    "Municipality:Allegheny - Robinson Township",
+    "Municipality:Allegheny - Scott Township",
+    "Municipality:Allegheny - Stowe Township"
+  ],
+  "Municipality:Allegheny - Kilbuck Township": [
+    "PA House District:45"
+  ],
+  "Municipality:Allegheny - Liberty Borough": [
+    "PA House District:38"
+  ],
+  "Municipality:Allegheny - Lincoln Borough": [
+    "PA House District:35"
+  ],
+  "Municipality:Allegheny - Marshall Township": [
+    "PA House District:28"
+  ],
+  "Municipality:Allegheny - Mccandless Township": [
+    "PA House District:28"
+  ],
+  "Municipality:Allegheny - Mckees Rocks Borough": [
+    "PA House District:27"
+  ],
+  "Municipality:Allegheny - Mckeesport City": [
+    "PA House District:35"
+  ],
+  "Municipality:Allegheny - Monroeville Borough": [
+    "PA House District:25"
+  ],
+  "PA House District:25": [
+    "Municipality:Allegheny - Monroeville Borough",
+    "Municipality:Allegheny - North Versailles Township",
+    "Municipality:Allegheny - Plum Borough"
+  ],
+  "Municipality:Allegheny - Moon Township": [
+    "PA House District:44"
+  ],
+  "Municipality:Allegheny - Mt Lebanon Township": [
+    "PA House District:42"
+  ],
+  "Municipality:Allegheny - Munhall Borough": [
+    "PA House District:35"
+  ],
+  "Municipality:Allegheny - Neville Township": [
+    "PA House District:45"
+  ],
+  "Municipality:Allegheny - North Braddock Borough": [
+    "PA House District:34"
+  ],
+  "Municipality:Allegheny - North Fayette Township": [
+    "PA House District:44"
+  ],
+  "Municipality:Allegheny - North Versailles Township": [
+    "PA House District:25"
+  ],
+  "Municipality:Allegheny - Ohio Township": [
+    "PA House District:44"
+  ],
+  "Municipality:Allegheny - Penn Hills Township": [
+    "PA House District:32"
+  ],
+  "PA House District:32": [
+    "Municipality:Allegheny - Penn Hills Township",
+    "Municipality:Allegheny - Plum Borough"
+  ],
+  "Municipality:Allegheny - Pine Township": [
+    "PA House District:28"
+  ],
+  "Municipality:Allegheny - Pittsburgh City": [
+    "PA House District:19",
+    "PA House District:20",
+    "PA House District:23",
+    "PA House District:24",
+    "PA House District:27",
+    "PA House District:34",
+    "PA House District:36"
+  ],
+  "PA House District:19": [
+    "Municipality:Allegheny - Pittsburgh City"
+  ],
+  "PA House District:23": [
+    "Municipality:Allegheny - Pittsburgh City"
+  ],
+  "PA House District:24": [
+    "Municipality:Allegheny - Pittsburgh City",
+    "Municipality:Allegheny - Wilkinsburg Borough"
+  ],
+  "Municipality:Allegheny - Pleasant Hills Borough": [
+    "PA House District:38"
+  ],
+  "Municipality:Allegheny - Plum Borough": [
+    "PA House District:25",
+    "PA House District:32"
   ],
   "Municipality:Allegheny - Reserve Township": [
     "PA House District:21"
@@ -175,333 +275,79 @@
     "Municipality:Allegheny - Reserve Township",
     "Municipality:Allegheny - Ross Township"
   ],
-  "Municipality:Allegheny - Dormont Borough": [
-    "PA House District:42"
-  ],
-  "Municipality:Allegheny - South Fayette Township": [
-    "PA House District:46"
-  ],
-  "PA House District:46": [
-    "Municipality:Allegheny - South Fayette Township",
-    "Municipality:Allegheny - Collier Township"
-  ],
-  "Municipality:Allegheny - Greentree Borough": [
-    "PA House District:27"
-  ],
-  "Municipality:Allegheny - Crafton Borough": [
-    "PA House District:27"
-  ],
-  "Municipality:Allegheny - Ohio Township": [
-    "PA House District:44"
-  ],
-  "PA House District:44": [
-    "Municipality:Allegheny - Ohio Township",
-    "Municipality:Allegheny - Moon Township",
-    "Municipality:Allegheny - North Fayette Township",
-    "Municipality:Allegheny - Findlay Township",
-    "Municipality:Allegheny - Sewickley Heights Borough"
-  ],
-  "Municipality:Allegheny - Churchill Borough": [
-    "PA House District:34"
-  ],
-  "Municipality:Allegheny - Fox Chapel Borough": [
+  "Municipality:Allegheny - Richland Township": [
     "PA House District:30"
   ],
-  "PA House District:30": [
-    "Municipality:Allegheny - Fox Chapel Borough",
-    "Municipality:Allegheny - Hampton Township",
-    "Municipality:Allegheny - Shaler Township",
-    "Municipality:Allegheny - Richland Township"
+  "Municipality:Allegheny - Robinson Township": [
+    "PA House District:45"
   ],
-  "Municipality:Allegheny - West Deer Township": [
-    "PA House District:54"
-  ],
-  "Municipality:Allegheny - Bellevue Borough": [
-    "PA House District:20"
-  ],
-  "PA House District:20": [
-    "Municipality:Allegheny - Bellevue Borough",
-    "Municipality:Allegheny - West View Borough",
-    "Municipality:Allegheny - Ross Township",
-    "Municipality:Allegheny - Pittsburgh City"
-  ],
-  "Municipality:Allegheny - Harmar Township": [
-    "PA House District:33"
-  ],
-  "Municipality:Allegheny - Moon Township": [
-    "PA House District:44"
+  "Municipality:Allegheny - Ross Township": [
+    "PA House District:20",
+    "PA House District:21"
   ],
   "Municipality:Allegheny - Scott Township": [
     "PA House District:45"
   ],
-  "Municipality:Allegheny - Frazer Township": [
-    "PA House District:33"
-  ],
-  "Municipality:Allegheny - Hampton Township": [
-    "PA House District:30"
+  "Municipality:Allegheny - Sewickley Heights Borough": [
+    "PA House District:44"
   ],
   "Municipality:Allegheny - Shaler Township": [
     "PA House District:30"
   ],
-  "Municipality:Allegheny - Mccandless Township": [
-    "PA House District:28"
-  ],
-  "Municipality:Allegheny - Kilbuck Township": [
-    "PA House District:45"
-  ],
-  "Municipality:Allegheny - Mt Lebanon Township": [
-    "PA House District:42"
-  ],
-  "Municipality:Allegheny - North Fayette Township": [
-    "PA House District:44"
-  ],
-  "Municipality:Allegheny - Collier Township": [
+  "Municipality:Allegheny - South Fayette Township": [
     "PA House District:46"
   ],
-  "Municipality:Allegheny - Richland Township": [
-    "PA House District:30"
+  "Municipality:Allegheny - South Park Township": [
+    "PA House District:38"
   ],
-  "Municipality:Allegheny - Pine Township": [
-    "PA House District:28"
+  "Municipality:Allegheny - Stowe Township": [
+    "PA House District:45"
   ],
-  "Municipality:Allegheny - Findlay Township": [
-    "PA House District:44"
+  "Municipality:Allegheny - Swissvale Borough": [
+    "PA House District:34"
   ],
-  "Municipality:Allegheny - Indiana Township": [
-    "PA House District:33"
+  "Municipality:Allegheny - Upper St Clair Township": [
+    "PA House District:40"
   ],
-  "Municipality:Allegheny - Franklin Park Borough": [
-    "PA House District:28"
+  "Municipality:Allegheny - West Deer Township": [
+    "PA House District:54"
   ],
-  "Municipality:Allegheny - Plum Borough": [
-    "PA House District:25",
-    "PA House District:32"
+  "Municipality:Allegheny - West Mifflin Borough": [
+    "PA House District:35",
+    "PA House District:38"
   ],
-  "PA House District:32": [
-    "Municipality:Allegheny - Plum Borough",
-    "Municipality:Allegheny - Penn Hills Township"
+  "Municipality:Allegheny - West View Borough": [
+    "PA House District:20"
   ],
-  "Municipality:Allegheny - North Braddock Borough": [
+  "Municipality:Allegheny - White Oak Borough": [
+    "PA House District:35"
+  ],
+  "Municipality:Allegheny - Whitehall Borough": [
+    "PA House District:38"
+  ],
+  "Municipality:Allegheny - Wilkins Township": [
     "PA House District:34"
   ],
   "Municipality:Allegheny - Wilkinsburg Borough": [
     "PA House District:24"
   ],
-  "PA House District:24": [
-    "Municipality:Allegheny - Wilkinsburg Borough",
-    "Municipality:Allegheny - Pittsburgh City"
+  "Municipality:Bucks - Bedminster Township": [
+    "PA House District:143"
   ],
-  "Municipality:Allegheny - Sewickley Heights Borough": [
-    "PA House District:44"
+  "PA House District:143": [
+    "Municipality:Bucks - Bedminster Township",
+    "Municipality:Bucks - Doylestown Township",
+    "Municipality:Bucks - Durham Township",
+    "Municipality:Bucks - Haycock Township",
+    "Municipality:Bucks - Nockamixon Township",
+    "Municipality:Bucks - Plumstead Township",
+    "Municipality:Bucks - Tinicum Township"
   ],
-  "Municipality:Allegheny - Swissvale Borough": [
-    "PA House District:34"
+  "Municipality:Bucks - Bensalem Township": [
+    "PA House District:18"
   ],
-  "Municipality:Allegheny - Penn Hills Township": [
-    "PA House District:32"
-  ],
-  "Municipality:Allegheny - West View Borough": [
-    "PA House District:20"
-  ],
-  "Municipality:Allegheny - Munhall Borough": [
-    "PA House District:35"
-  ],
-  "Municipality:Allegheny - Monroeville Borough": [
-    "PA House District:25"
-  ],
-  "Municipality:Allegheny - Ross Township": [
-    "PA House District:21",
-    "PA House District:20"
-  ],
-  "Municipality:Allegheny - Robinson Township": [
-    "PA House District:45"
-  ],
-  "Municipality:Allegheny - Pittsburgh City": [
-    "PA House District:34",
-    "PA House District:24",
-    "PA House District:23",
-    "PA House District:20",
-    "PA House District:19",
-    "PA House District:27",
-    "PA House District:36"
-  ],
-  "PA House District:23": [
-    "Municipality:Allegheny - Pittsburgh City"
-  ],
-  "PA House District:19": [
-    "Municipality:Allegheny - Pittsburgh City"
-  ],
-  "Municipality:Montgomery - Abington Township": [
-    "PA House District:153"
-  ],
-  "PA House District:153": [
-    "Municipality:Montgomery - Abington Township",
-    "Municipality:Montgomery - Upper Dublin Township"
-  ],
-  "Municipality:Montgomery - Springfield Township": [
-    "PA House District:154"
-  ],
-  "PA House District:154": [
-    "Municipality:Montgomery - Springfield Township",
-    "Municipality:Montgomery - Cheltenham Township"
-  ],
-  "Municipality:Montgomery - Whitemarsh Township": [
-    "PA House District:148"
-  ],
-  "PA House District:148": [
-    "Municipality:Montgomery - Whitemarsh Township",
-    "Municipality:Montgomery - Plymouth Township",
-    "Municipality:Montgomery - Lower Merion Township"
-  ],
-  "Municipality:Montgomery - Plymouth Township": [
-    "PA House District:148",
-    "PA House District:70"
-  ],
-  "PA House District:70": [
-    "Municipality:Montgomery - Plymouth Township",
-    "Municipality:Montgomery - Norristown Borough",
-    "Municipality:Montgomery - East Norriton Township",
-    "Municipality:Montgomery - Worcester Township"
-  ],
-  "Municipality:Montgomery - Norristown Borough": [
-    "PA House District:70"
-  ],
-  "Municipality:Montgomery - West Norriton Township": [
-    "PA House District:149",
-    "PA House District:150"
-  ],
-  "PA House District:149": [
-    "Municipality:Montgomery - West Norriton Township",
-    "Municipality:Montgomery - Lower Merion Township",
-    "Municipality:Montgomery - Upper Merion Township"
-  ],
-  "PA House District:150": [
-    "Municipality:Montgomery - West Norriton Township",
-    "Municipality:Montgomery - Skippack Township",
-    "Municipality:Montgomery - Lower Providence Township",
-    "Municipality:Montgomery - Upper Providence Township"
-  ],
-  "Municipality:Montgomery - Cheltenham Township": [
-    "PA House District:154"
-  ],
-  "Municipality:Montgomery - Upper Dublin Township": [
-    "PA House District:151",
-    "PA House District:153",
-    "PA House District:152"
-  ],
-  "PA House District:151": [
-    "Municipality:Montgomery - Upper Dublin Township",
-    "Municipality:Montgomery - Lower Gwynedd Township",
-    "Municipality:Montgomery - Horsham Township",
-    "Municipality:Montgomery - Montgomery Township"
-  ],
-  "PA House District:152": [
-    "Municipality:Montgomery - Upper Dublin Township",
-    "Municipality:Montgomery - Hatboro Borough",
-    "Municipality:Montgomery - Upper Moreland Township",
-    "Municipality:Montgomery - Lower Moreland Township",
-    "Municipality:Montgomery - Bryn Athyn Borough"
-  ],
-  "Municipality:Montgomery - East Norriton Township": [
-    "PA House District:70"
-  ],
-  "Municipality:Montgomery - Whitpain Township": [
-    "PA House District:61"
-  ],
-  "PA House District:61": [
-    "Municipality:Montgomery - Whitpain Township",
-    "Municipality:Montgomery - Lower Gwynedd Township",
-    "Municipality:Montgomery - Towamencin Township",
-    "Municipality:Montgomery - Upper Gwynedd Township"
-  ],
-  "Municipality:Montgomery - Upper Frederick Township": [
-    "PA House District:147"
-  ],
-  "PA House District:147": [
-    "Municipality:Montgomery - Upper Frederick Township",
-    "Municipality:Montgomery - Upper Salford Township",
-    "Municipality:Montgomery - New Hanover Township",
-    "Municipality:Montgomery - Lower Frederick Township",
-    "Municipality:Montgomery - Lower Salford Township",
-    "Municipality:Montgomery - Douglass Township",
-    "Municipality:Montgomery - Marlborough Township"
-  ],
-  "Municipality:Montgomery - Upper Salford Township": [
-    "PA House District:147"
-  ],
-  "Municipality:Montgomery - Worcester Township": [
-    "PA House District:70"
-  ],
-  "Municipality:Montgomery - Lower Gwynedd Township": [
-    "PA House District:61",
-    "PA House District:151"
-  ],
-  "Municipality:Montgomery - Lansdale Borough": [
-    "PA House District:53"
-  ],
-  "PA House District:53": [
-    "Municipality:Montgomery - Lansdale Borough",
-    "Municipality:Montgomery - Franconia Township",
-    "Municipality:Montgomery - Hatfield Township",
-    "Municipality:Montgomery - Salford Township"
-  ],
-  "Municipality:Montgomery - Skippack Township": [
-    "PA House District:150"
-  ],
-  "Municipality:Montgomery - New Hanover Township": [
-    "PA House District:147"
-  ],
-  "Municipality:Montgomery - Lower Frederick Township": [
-    "PA House District:147"
-  ],
-  "Municipality:Montgomery - Lower Salford Township": [
-    "PA House District:147"
-  ],
-  "Municipality:Montgomery - Franconia Township": [
-    "PA House District:53"
-  ],
-  "Municipality:Montgomery - Horsham Township": [
-    "PA House District:151"
-  ],
-  "Municipality:Montgomery - Montgomery Township": [
-    "PA House District:151"
-  ],
-  "Municipality:Montgomery - Perkiomen Township": [
-    "PA House District:146"
-  ],
-  "PA House District:146": [
-    "Municipality:Montgomery - Perkiomen Township",
-    "Municipality:Montgomery - Lower Pottsgrove Township",
-    "Municipality:Montgomery - Pottstown Borough",
-    "Municipality:Montgomery - Limerick Township"
-  ],
-  "Municipality:Montgomery - Towamencin Township": [
-    "PA House District:61"
-  ],
-  "Municipality:Montgomery - Upper Gwynedd Township": [
-    "PA House District:61"
-  ],
-  "Municipality:Montgomery - Hatfield Township": [
-    "PA House District:53"
-  ],
-  "Municipality:Bucks - Upper Makefield Township": [
-    "PA House District:178"
-  ],
-  "PA House District:178": [
-    "Municipality:Bucks - Upper Makefield Township",
-    "Municipality:Bucks - Northampton Township",
-    "Municipality:Bucks - Wrightstown Township",
-    "Municipality:Bucks - Solebury Township"
-  ],
-  "Municipality:Bucks - Newtown Township": [
-    "PA House District:31"
-  ],
-  "PA House District:31": [
-    "Municipality:Bucks - Newtown Township",
-    "Municipality:Bucks - Lower Makefield Township"
-  ],
-  "Municipality:Bucks - Lower Makefield Township": [
-    "PA House District:31"
+  "PA House District:18": [
+    "Municipality:Bucks - Bensalem Township"
   ],
   "Municipality:Bucks - Bristol Borough": [
     "PA House District:140"
@@ -518,38 +364,104 @@
     "Municipality:Bucks - Bristol Township",
     "Municipality:Bucks - Middletown Township"
   ],
-  "Municipality:Bucks - Middletown Township": [
-    "PA House District:142",
-    "PA House District:141"
+  "Municipality:Bucks - Buckingham Township": [
+    "PA House District:29"
+  ],
+  "PA House District:29": [
+    "Municipality:Bucks - Buckingham Township",
+    "Municipality:Bucks - Warminster Township",
+    "Municipality:Bucks - Warwick Township"
+  ],
+  "Municipality:Bucks - Doylestown Township": [
+    "PA House District:143"
+  ],
+  "Municipality:Bucks - Durham Township": [
+    "PA House District:143"
+  ],
+  "Municipality:Bucks - East Rockhill Township": [
+    "PA House District:145"
+  ],
+  "PA House District:145": [
+    "Municipality:Bucks - East Rockhill Township",
+    "Municipality:Bucks - Milford Township",
+    "Municipality:Bucks - Richland Township",
+    "Municipality:Bucks - Springfield Township",
+    "Municipality:Bucks - West Rockhill Township"
+  ],
+  "Municipality:Bucks - Falls Township": [
+    "PA House District:140"
+  ],
+  "Municipality:Bucks - Haycock Township": [
+    "PA House District:143"
+  ],
+  "Municipality:Bucks - Hilltown Township": [
+    "PA House District:144"
+  ],
+  "PA House District:144": [
+    "Municipality:Bucks - Hilltown Township",
+    "Municipality:Bucks - New Britain Township",
+    "Municipality:Bucks - Warrington Township"
+  ],
+  "Municipality:Bucks - Lower Makefield Township": [
+    "PA House District:31"
+  ],
+  "PA House District:31": [
+    "Municipality:Bucks - Lower Makefield Township",
+    "Municipality:Bucks - Newtown Township"
+  ],
+  "Municipality:Bucks - Lower Southampton Township": [
+    "PA House District:142"
   ],
   "PA House District:142": [
-    "Municipality:Bucks - Middletown Township",
     "Municipality:Bucks - Lower Southampton Township",
+    "Municipality:Bucks - Middletown Township",
     "Municipality:Bucks - Upper Southampton Township"
   ],
-  "Municipality:Bucks - Bensalem Township": [
-    "PA House District:18"
+  "Municipality:Bucks - Middletown Township": [
+    "PA House District:141",
+    "PA House District:142"
   ],
-  "PA House District:18": [
-    "Municipality:Bucks - Bensalem Township"
+  "Municipality:Bucks - Milford Township": [
+    "PA House District:145"
+  ],
+  "Municipality:Bucks - New Britain Township": [
+    "PA House District:144"
+  ],
+  "Municipality:Bucks - Newtown Township": [
+    "PA House District:31"
+  ],
+  "Municipality:Bucks - Nockamixon Township": [
+    "PA House District:143"
   ],
   "Municipality:Bucks - Northampton Township": [
     "PA House District:178"
   ],
-  "Municipality:Montgomery - Hatboro Borough": [
-    "PA House District:152"
+  "PA House District:178": [
+    "Municipality:Bucks - Northampton Township",
+    "Municipality:Bucks - Solebury Township",
+    "Municipality:Bucks - Upper Makefield Township",
+    "Municipality:Bucks - Wrightstown Township"
   ],
-  "Municipality:Montgomery - Upper Moreland Township": [
-    "PA House District:152"
+  "Municipality:Bucks - Plumstead Township": [
+    "PA House District:143"
   ],
-  "Municipality:Montgomery - Lower Moreland Township": [
-    "PA House District:152"
+  "Municipality:Bucks - Richland Township": [
+    "PA House District:145"
   ],
-  "Municipality:Montgomery - Bryn Athyn Borough": [
-    "PA House District:152"
+  "Municipality:Bucks - Solebury Township": [
+    "PA House District:178"
   ],
-  "Municipality:Bucks - Lower Southampton Township": [
-    "PA House District:142"
+  "Municipality:Bucks - Springfield Township": [
+    "PA House District:145"
+  ],
+  "Municipality:Bucks - Tinicum Township": [
+    "PA House District:143"
+  ],
+  "Municipality:Bucks - Tullytown Borough": [
+    "PA House District:140"
+  ],
+  "Municipality:Bucks - Upper Makefield Township": [
+    "PA House District:178"
   ],
   "Municipality:Bucks - Upper Southampton Township": [
     "PA House District:142"
@@ -557,260 +469,27 @@
   "Municipality:Bucks - Warminster Township": [
     "PA House District:29"
   ],
-  "PA House District:29": [
-    "Municipality:Bucks - Warminster Township",
-    "Municipality:Bucks - Warwick Township",
-    "Municipality:Bucks - Buckingham Township"
-  ],
   "Municipality:Bucks - Warrington Township": [
     "PA House District:144"
   ],
-  "PA House District:144": [
-    "Municipality:Bucks - Warrington Township",
-    "Municipality:Bucks - New Britain Township",
-    "Municipality:Bucks - Hilltown Township"
+  "Municipality:Bucks - Warwick Township": [
+    "PA House District:29"
   ],
-  "Municipality:Philadelphia - Philadelphia City": [
-    "PA House District:185",
-    "PA House District:177",
-    "PA House District:200",
-    "PA House District:170",
-    "PA House District:173",
-    "PA House District:194"
+  "Municipality:Bucks - West Rockhill Township": [
+    "PA House District:145"
   ],
-  "PA House District:185": [
-    "Municipality:Philadelphia - Philadelphia City"
+  "Municipality:Bucks - Wrightstown Township": [
+    "PA House District:178"
   ],
-  "PA House District:177": [
-    "Municipality:Philadelphia - Philadelphia City"
+  "Municipality:Chester - Birmingham Township": [
+    "PA House District:156"
   ],
-  "PA House District:200": [
-    "Municipality:Philadelphia - Philadelphia City"
-  ],
-  "PA House District:170": [
-    "Municipality:Philadelphia - Philadelphia City"
-  ],
-  "PA House District:173": [
-    "Municipality:Philadelphia - Philadelphia City"
-  ],
-  "PA House District:194": [
-    "Municipality:Philadelphia - Philadelphia City",
-    "Municipality:Montgomery - Lower Merion Township"
-  ],
-  "Municipality:Montgomery - Lower Merion Township": [
-    "PA House District:148",
-    "PA House District:149",
-    "PA House District:194"
-  ],
-  "Municipality:Delaware - Yeadon Borough": [
-    "PA House District:191",
-    "PA House District:164"
-  ],
-  "PA House District:191": [
-    "Municipality:Delaware - Yeadon Borough",
-    "Municipality:Delaware - Darby Borough"
-  ],
-  "PA House District:164": [
-    "Municipality:Delaware - Yeadon Borough",
-    "Municipality:Delaware - Lansdowne Borough",
-    "Municipality:Delaware - Upper Darby Township"
-  ],
-  "Municipality:Delaware - Darby Borough": [
-    "PA House District:191"
-  ],
-  "Municipality:Delaware - Lansdowne Borough": [
-    "PA House District:164"
-  ],
-  "Municipality:Montgomery - Upper Merion Township": [
-    "PA House District:149"
-  ],
-  "Municipality:Delaware - Aldan Borough": [
-    "PA House District:163"
-  ],
-  "PA House District:163": [
-    "Municipality:Delaware - Aldan Borough",
-    "Municipality:Delaware - Clifton Heights Borough",
-    "Municipality:Delaware - Haverford Township",
-    "Municipality:Delaware - Upper Darby Township"
-  ],
-  "Municipality:Delaware - Clifton Heights Borough": [
-    "PA House District:163"
-  ],
-  "Municipality:Delaware - Folcroft Borough": [
-    "PA House District:162"
-  ],
-  "PA House District:162": [
-    "Municipality:Delaware - Folcroft Borough",
-    "Municipality:Delaware - Tinicum Township",
-    "Municipality:Delaware - Ridley Township",
-    "Municipality:Delaware - Ridley Park Borough",
-    "Municipality:Delaware - Glenolden Borough"
-  ],
-  "Municipality:Delaware - Tinicum Township": [
-    "PA House District:162"
-  ],
-  "Municipality:Delaware - Nether Providence Township": [
-    "PA House District:161"
-  ],
-  "PA House District:161": [
-    "Municipality:Delaware - Nether Providence Township",
-    "Municipality:Delaware - Ridley Township",
-    "Municipality:Delaware - Swarthmore Borough",
-    "Municipality:Delaware - Brookhaven Borough",
-    "Municipality:Delaware - Aston Township"
-  ],
-  "Municipality:Delaware - Radnor Township": [
-    "PA House District:166",
-    "PA House District:165"
-  ],
-  "PA House District:166": [
-    "Municipality:Delaware - Radnor Township",
-    "Municipality:Delaware - Haverford Township"
-  ],
-  "PA House District:165": [
-    "Municipality:Delaware - Radnor Township",
-    "Municipality:Delaware - Marple Township",
-    "Municipality:Delaware - Springfield Township"
-  ],
-  "Municipality:Delaware - Ridley Township": [
-    "PA House District:162",
-    "PA House District:161"
-  ],
-  "Municipality:Delaware - Haverford Township": [
-    "PA House District:163",
-    "PA House District:166"
-  ],
-  "Municipality:Delaware - Swarthmore Borough": [
-    "PA House District:161"
-  ],
-  "Municipality:Delaware - Eddystone Borough": [
-    "PA House District:159"
-  ],
-  "PA House District:159": [
-    "Municipality:Delaware - Eddystone Borough",
-    "Municipality:Delaware - Lower Chichester Township",
-    "Municipality:Delaware - Upper Chichester Township",
-    "Municipality:Delaware - Chester Township",
-    "Municipality:Delaware - Trainer Borough",
-    "Municipality:Delaware - Chester City",
-    "Municipality:Delaware - Marcus Hook Borough"
-  ],
-  "Municipality:Delaware - Marple Township": [
-    "PA House District:165"
-  ],
-  "Municipality:Delaware - Ridley Park Borough": [
-    "PA House District:162"
-  ],
-  "Municipality:Chester - Willistown Township": [
-    "PA House District:167"
-  ],
-  "PA House District:167": [
-    "Municipality:Chester - Willistown Township",
-    "Municipality:Chester - East Whiteland Township",
-    "Municipality:Chester - Charlestown Township",
-    "Municipality:Chester - Easttown Township",
-    "Municipality:Chester - West Whiteland Township",
-    "Municipality:Chester - West Pikeland Township"
-  ],
-  "Municipality:Chester - Tredyffrin Township": [
-    "PA House District:157"
-  ],
-  "PA House District:157": [
-    "Municipality:Chester - Tredyffrin Township",
-    "Municipality:Chester - Schuylkill Township",
-    "Municipality:Montgomery - Upper Providence Township"
-  ],
-  "Municipality:Delaware - Edgmont Township": [
-    "PA House District:168"
-  ],
-  "PA House District:168": [
-    "Municipality:Delaware - Edgmont Township",
-    "Municipality:Delaware - Upper Providence Township",
-    "Municipality:Delaware - Newtown Township",
-    "Municipality:Delaware - Thornbury Township",
-    "Municipality:Delaware - Middletown Township"
-  ],
-  "Municipality:Delaware - Glenolden Borough": [
-    "PA House District:162"
-  ],
-  "Municipality:Chester - East Pikeland Township": [
-    "PA House District:155"
-  ],
-  "PA House District:155": [
-    "Municipality:Chester - East Pikeland Township",
-    "Municipality:Chester - East Brandywine Township",
-    "Municipality:Chester - West Vincent Township",
-    "Municipality:Chester - West Brandywine Township",
-    "Municipality:Chester - Upper Uwchlan Township",
-    "Municipality:Chester - Uwchlan Township"
-  ],
-  "Municipality:Chester - East Whiteland Township": [
-    "PA House District:167"
-  ],
-  "Municipality:Delaware - Upper Providence Township": [
-    "PA House District:168"
-  ],
-  "Municipality:Delaware - Newtown Township": [
-    "PA House District:168"
-  ],
-  "Municipality:Chester - Charlestown Township": [
-    "PA House District:167"
-  ],
-  "Municipality:Chester - Easttown Township": [
-    "PA House District:167"
-  ],
-  "Municipality:Delaware - Springfield Township": [
-    "PA House District:165"
-  ],
-  "Municipality:Delaware - Upper Darby Township": [
-    "PA House District:163",
-    "PA House District:164"
-  ],
-  "Municipality:Chester - Schuylkill Township": [
-    "PA House District:157"
-  ],
-  "Municipality:Chester - East Coventry Township": [
-    "PA House District:26"
-  ],
-  "PA House District:26": [
-    "Municipality:Chester - East Coventry Township",
-    "Municipality:Chester - East Vincent Township",
-    "Municipality:Chester - North Coventry Township",
-    "Municipality:Chester - Wallace Township",
-    "Municipality:Chester - East Nantmeal Township",
-    "Municipality:Chester - West Nantmeal Township",
-    "Municipality:Chester - West Sadsbury Township",
-    "Municipality:Chester - West Caln Township",
-    "Municipality:Chester - Honey Brook Township",
-    "Municipality:Chester - Warwick Township"
-  ],
-  "Municipality:Chester - East Vincent Township": [
-    "PA House District:26"
-  ],
-  "Municipality:Montgomery - Lower Pottsgrove Township": [
-    "PA House District:146"
-  ],
-  "Municipality:Montgomery - Douglass Township": [
-    "PA House District:147"
-  ],
-  "Municipality:Montgomery - Pottstown Borough": [
-    "PA House District:146"
-  ],
-  "Municipality:Montgomery - Limerick Township": [
-    "PA House District:146"
-  ],
-  "Municipality:Chester - North Coventry Township": [
-    "PA House District:26"
-  ],
-  "Municipality:Montgomery - Lower Providence Township": [
-    "PA House District:150"
-  ],
-  "Municipality:Montgomery - Upper Providence Township": [
-    "PA House District:157",
-    "PA House District:150"
-  ],
-  "Municipality:Delaware - Lower Chichester Township": [
-    "PA House District:159"
+  "PA House District:156": [
+    "Municipality:Chester - Birmingham Township",
+    "Municipality:Chester - East Goshen Township",
+    "Municipality:Chester - Thornbury Township",
+    "Municipality:Chester - West Goshen Township",
+    "Municipality:Chester - Westtown Township"
   ],
   "Municipality:Chester - Caln Township": [
     "PA House District:74"
@@ -822,58 +501,16 @@
     "Municipality:Chester - Sadsbury Township",
     "Municipality:Chester - Valley Township"
   ],
-  "Municipality:Delaware - Thornbury Township": [
-    "PA House District:168"
+  "Municipality:Chester - Charlestown Township": [
+    "PA House District:167"
   ],
-  "Municipality:Delaware - Upper Chichester Township": [
-    "PA House District:160",
-    "PA House District:159"
-  ],
-  "PA House District:160": [
-    "Municipality:Delaware - Upper Chichester Township",
-    "Municipality:Delaware - Chadds Ford Township",
-    "Municipality:Delaware - Concord Township",
-    "Municipality:Delaware - Bethel Township",
-    "Municipality:Chester - Pocopson Township",
-    "Municipality:Chester - Kennett Township",
-    "Municipality:Chester - Pennsbury Township"
-  ],
-  "Municipality:Delaware - Chester Township": [
-    "PA House District:159"
-  ],
-  "Municipality:Delaware - Brookhaven Borough": [
-    "PA House District:161"
-  ],
-  "Municipality:Chester - Wallace Township": [
-    "PA House District:26"
-  ],
-  "Municipality:Delaware - Chadds Ford Township": [
-    "PA House District:160"
-  ],
-  "Municipality:Delaware - Trainer Borough": [
-    "PA House District:159"
-  ],
-  "Municipality:Delaware - Aston Township": [
-    "PA House District:161"
-  ],
-  "Municipality:Chester - East Nantmeal Township": [
-    "PA House District:26"
-  ],
-  "Municipality:Chester - East Brandywine Township": [
-    "PA House District:155"
-  ],
-  "Municipality:Chester - East Caln Township": [
-    "PA House District:74"
-  ],
-  "Municipality:Chester - Birmingham Township": [
-    "PA House District:156"
-  ],
-  "PA House District:156": [
-    "Municipality:Chester - Birmingham Township",
-    "Municipality:Chester - East Goshen Township",
-    "Municipality:Chester - West Goshen Township",
-    "Municipality:Chester - Thornbury Township",
-    "Municipality:Chester - Westtown Township"
+  "PA House District:167": [
+    "Municipality:Chester - Charlestown Township",
+    "Municipality:Chester - East Whiteland Township",
+    "Municipality:Chester - Easttown Township",
+    "Municipality:Chester - West Pikeland Township",
+    "Municipality:Chester - West Whiteland Township",
+    "Municipality:Chester - Willistown Township"
   ],
   "Municipality:Chester - East Bradford Township": [
     "PA House District:158"
@@ -882,43 +519,39 @@
     "Municipality:Chester - East Bradford Township",
     "Municipality:Chester - East Marlborough Township",
     "Municipality:Chester - London Britain Township",
-    "Municipality:Chester - West Marlborough Township",
+    "Municipality:Chester - New Garden Township",
     "Municipality:Chester - Newlin Township",
     "Municipality:Chester - West Bradford Township",
-    "Municipality:Chester - New Garden Township"
+    "Municipality:Chester - West Marlborough Township"
   ],
-  "Municipality:Chester - Franklin Township": [
-    "PA House District:13"
-  ],
-  "PA House District:13": [
-    "Municipality:Chester - Franklin Township",
-    "Municipality:Chester - Highland Township",
-    "Municipality:Chester - East Nottingham Township",
-    "Municipality:Chester - West Fallowfield Township",
-    "Municipality:Chester - West Nottingham Township",
-    "Municipality:Chester - Upper Oxford Township",
-    "Municipality:Chester - Londonderry Township",
-    "Municipality:Chester - Lower Oxford Township",
-    "Municipality:Chester - New London Township",
-    "Municipality:Chester - London Grove Township"
-  ],
-  "Municipality:Chester - Highland Township": [
-    "PA House District:13"
-  ],
-  "Municipality:Chester - East Nottingham Township": [
-    "PA House District:13"
-  ],
-  "Municipality:Chester - East Marlborough Township": [
-    "PA House District:158"
-  ],
-  "Municipality:Chester - London Britain Township": [
-    "PA House District:158"
-  ],
-  "Municipality:Chester - West Vincent Township": [
+  "Municipality:Chester - East Brandywine Township": [
     "PA House District:155"
   ],
-  "Municipality:Chester - West Whiteland Township": [
-    "PA House District:167"
+  "PA House District:155": [
+    "Municipality:Chester - East Brandywine Township",
+    "Municipality:Chester - East Pikeland Township",
+    "Municipality:Chester - Upper Uwchlan Township",
+    "Municipality:Chester - Uwchlan Township",
+    "Municipality:Chester - West Brandywine Township",
+    "Municipality:Chester - West Vincent Township"
+  ],
+  "Municipality:Chester - East Caln Township": [
+    "PA House District:74"
+  ],
+  "Municipality:Chester - East Coventry Township": [
+    "PA House District:26"
+  ],
+  "PA House District:26": [
+    "Municipality:Chester - East Coventry Township",
+    "Municipality:Chester - East Nantmeal Township",
+    "Municipality:Chester - East Vincent Township",
+    "Municipality:Chester - Honey Brook Township",
+    "Municipality:Chester - North Coventry Township",
+    "Municipality:Chester - Wallace Township",
+    "Municipality:Chester - Warwick Township",
+    "Municipality:Chester - West Caln Township",
+    "Municipality:Chester - West Nantmeal Township",
+    "Municipality:Chester - West Sadsbury Township"
   ],
   "Municipality:Chester - East Fallowfield Township": [
     "PA House District:74"
@@ -926,17 +559,139 @@
   "Municipality:Chester - East Goshen Township": [
     "PA House District:156"
   ],
-  "Municipality:Delaware - Concord Township": [
+  "Municipality:Chester - East Marlborough Township": [
+    "PA House District:158"
+  ],
+  "Municipality:Chester - East Nantmeal Township": [
+    "PA House District:26"
+  ],
+  "Municipality:Chester - East Nottingham Township": [
+    "PA House District:13"
+  ],
+  "PA House District:13": [
+    "Municipality:Chester - East Nottingham Township",
+    "Municipality:Chester - Franklin Township",
+    "Municipality:Chester - Highland Township",
+    "Municipality:Chester - London Grove Township",
+    "Municipality:Chester - Londonderry Township",
+    "Municipality:Chester - Lower Oxford Township",
+    "Municipality:Chester - New London Township",
+    "Municipality:Chester - Upper Oxford Township",
+    "Municipality:Chester - West Fallowfield Township",
+    "Municipality:Chester - West Nottingham Township"
+  ],
+  "Municipality:Chester - East Pikeland Township": [
+    "PA House District:155"
+  ],
+  "Municipality:Chester - East Vincent Township": [
+    "PA House District:26"
+  ],
+  "Municipality:Chester - East Whiteland Township": [
+    "PA House District:167"
+  ],
+  "Municipality:Chester - Easttown Township": [
+    "PA House District:167"
+  ],
+  "Municipality:Chester - Franklin Township": [
+    "PA House District:13"
+  ],
+  "Municipality:Chester - Highland Township": [
+    "PA House District:13"
+  ],
+  "Municipality:Chester - Honey Brook Township": [
+    "PA House District:26"
+  ],
+  "Municipality:Chester - Kennett Township": [
     "PA House District:160"
   ],
-  "Municipality:Delaware - Bethel Township": [
+  "PA House District:160": [
+    "Municipality:Chester - Kennett Township",
+    "Municipality:Chester - Pennsbury Township",
+    "Municipality:Chester - Pocopson Township",
+    "Municipality:Delaware - Bethel Township",
+    "Municipality:Delaware - Chadds Ford Township",
+    "Municipality:Delaware - Concord Township",
+    "Municipality:Delaware - Upper Chichester Township"
+  ],
+  "Municipality:Chester - London Britain Township": [
+    "PA House District:158"
+  ],
+  "Municipality:Chester - London Grove Township": [
+    "PA House District:13"
+  ],
+  "Municipality:Chester - Londonderry Township": [
+    "PA House District:13"
+  ],
+  "Municipality:Chester - Lower Oxford Township": [
+    "PA House District:13"
+  ],
+  "Municipality:Chester - New Garden Township": [
+    "PA House District:158"
+  ],
+  "Municipality:Chester - New London Township": [
+    "PA House District:13"
+  ],
+  "Municipality:Chester - Newlin Township": [
+    "PA House District:158"
+  ],
+  "Municipality:Chester - North Coventry Township": [
+    "PA House District:26"
+  ],
+  "Municipality:Chester - Pennsbury Township": [
     "PA House District:160"
   ],
   "Municipality:Chester - Pocopson Township": [
     "PA House District:160"
   ],
+  "Municipality:Chester - Sadsbury Township": [
+    "PA House District:74"
+  ],
+  "Municipality:Chester - Schuylkill Township": [
+    "PA House District:157"
+  ],
+  "PA House District:157": [
+    "Municipality:Chester - Schuylkill Township",
+    "Municipality:Chester - Tredyffrin Township",
+    "Municipality:Montgomery - Upper Providence Township"
+  ],
+  "Municipality:Chester - Thornbury Township": [
+    "PA House District:156"
+  ],
+  "Municipality:Chester - Tredyffrin Township": [
+    "PA House District:157"
+  ],
+  "Municipality:Chester - Upper Oxford Township": [
+    "PA House District:13"
+  ],
+  "Municipality:Chester - Upper Uwchlan Township": [
+    "PA House District:155"
+  ],
+  "Municipality:Chester - Uwchlan Township": [
+    "PA House District:155"
+  ],
+  "Municipality:Chester - Valley Township": [
+    "PA House District:74"
+  ],
+  "Municipality:Chester - Wallace Township": [
+    "PA House District:26"
+  ],
+  "Municipality:Chester - Warwick Township": [
+    "PA House District:26"
+  ],
+  "Municipality:Chester - West Bradford Township": [
+    "PA House District:158"
+  ],
+  "Municipality:Chester - West Brandywine Township": [
+    "PA House District:155"
+  ],
+  "Municipality:Chester - West Caln Township": [
+    "PA House District:26"
+  ],
   "Municipality:Chester - West Fallowfield Township": [
     "PA House District:13"
+  ],
+  "Municipality:Chester - West Goshen Township": [
+    "PA House District:156"
   ],
   "Municipality:Chester - West Marlborough Township": [
     "PA House District:158"
@@ -953,132 +708,355 @@
   "Municipality:Chester - West Sadsbury Township": [
     "PA House District:26"
   ],
-  "Municipality:Chester - West Goshen Township": [
-    "PA House District:156"
-  ],
-  "Municipality:Chester - West Caln Township": [
-    "PA House District:26"
-  ],
-  "Municipality:Chester - Thornbury Township": [
-    "PA House District:156"
-  ],
-  "Municipality:Chester - West Brandywine Township": [
+  "Municipality:Chester - West Vincent Township": [
     "PA House District:155"
   ],
-  "Municipality:Chester - Upper Oxford Township": [
-    "PA House District:13"
-  ],
-  "Municipality:Chester - Newlin Township": [
-    "PA House District:158"
-  ],
-  "Municipality:Chester - Upper Uwchlan Township": [
-    "PA House District:155"
-  ],
-  "Municipality:Chester - West Bradford Township": [
-    "PA House District:158"
-  ],
-  "Municipality:Chester - Londonderry Township": [
-    "PA House District:13"
-  ],
-  "Municipality:Chester - Lower Oxford Township": [
-    "PA House District:13"
-  ],
-  "Municipality:Chester - New London Township": [
-    "PA House District:13"
-  ],
-  "Municipality:Chester - New Garden Township": [
-    "PA House District:158"
-  ],
-  "Municipality:Delaware - Middletown Township": [
-    "PA House District:168"
-  ],
-  "Municipality:Delaware - Chester City": [
-    "PA House District:159"
-  ],
-  "Municipality:Chester - Sadsbury Township": [
-    "PA House District:74"
-  ],
-  "Municipality:Chester - Uwchlan Township": [
-    "PA House District:155"
+  "Municipality:Chester - West Whiteland Township": [
+    "PA House District:167"
   ],
   "Municipality:Chester - Westtown Township": [
     "PA House District:156"
   ],
+  "Municipality:Chester - Willistown Township": [
+    "PA House District:167"
+  ],
+  "Municipality:Delaware - Aldan Borough": [
+    "PA House District:163"
+  ],
+  "PA House District:163": [
+    "Municipality:Delaware - Aldan Borough",
+    "Municipality:Delaware - Clifton Heights Borough",
+    "Municipality:Delaware - Haverford Township",
+    "Municipality:Delaware - Upper Darby Township"
+  ],
+  "Municipality:Delaware - Aston Township": [
+    "PA House District:161"
+  ],
+  "PA House District:161": [
+    "Municipality:Delaware - Aston Township",
+    "Municipality:Delaware - Brookhaven Borough",
+    "Municipality:Delaware - Nether Providence Township",
+    "Municipality:Delaware - Ridley Township",
+    "Municipality:Delaware - Swarthmore Borough"
+  ],
+  "Municipality:Delaware - Bethel Township": [
+    "PA House District:160"
+  ],
+  "Municipality:Delaware - Brookhaven Borough": [
+    "PA House District:161"
+  ],
+  "Municipality:Delaware - Chadds Ford Township": [
+    "PA House District:160"
+  ],
+  "Municipality:Delaware - Chester City": [
+    "PA House District:159"
+  ],
+  "PA House District:159": [
+    "Municipality:Delaware - Chester City",
+    "Municipality:Delaware - Chester Township",
+    "Municipality:Delaware - Eddystone Borough",
+    "Municipality:Delaware - Lower Chichester Township",
+    "Municipality:Delaware - Marcus Hook Borough",
+    "Municipality:Delaware - Trainer Borough",
+    "Municipality:Delaware - Upper Chichester Township"
+  ],
+  "Municipality:Delaware - Chester Township": [
+    "PA House District:159"
+  ],
+  "Municipality:Delaware - Clifton Heights Borough": [
+    "PA House District:163"
+  ],
+  "Municipality:Delaware - Concord Township": [
+    "PA House District:160"
+  ],
+  "Municipality:Delaware - Darby Borough": [
+    "PA House District:191"
+  ],
+  "PA House District:191": [
+    "Municipality:Delaware - Darby Borough",
+    "Municipality:Delaware - Yeadon Borough"
+  ],
+  "Municipality:Delaware - Eddystone Borough": [
+    "PA House District:159"
+  ],
+  "Municipality:Delaware - Edgmont Township": [
+    "PA House District:168"
+  ],
+  "PA House District:168": [
+    "Municipality:Delaware - Edgmont Township",
+    "Municipality:Delaware - Middletown Township",
+    "Municipality:Delaware - Newtown Township",
+    "Municipality:Delaware - Thornbury Township",
+    "Municipality:Delaware - Upper Providence Township"
+  ],
+  "Municipality:Delaware - Folcroft Borough": [
+    "PA House District:162"
+  ],
+  "PA House District:162": [
+    "Municipality:Delaware - Folcroft Borough",
+    "Municipality:Delaware - Glenolden Borough",
+    "Municipality:Delaware - Ridley Park Borough",
+    "Municipality:Delaware - Ridley Township",
+    "Municipality:Delaware - Tinicum Township"
+  ],
+  "Municipality:Delaware - Glenolden Borough": [
+    "PA House District:162"
+  ],
+  "Municipality:Delaware - Haverford Township": [
+    "PA House District:163",
+    "PA House District:166"
+  ],
+  "PA House District:166": [
+    "Municipality:Delaware - Haverford Township",
+    "Municipality:Delaware - Radnor Township"
+  ],
+  "Municipality:Delaware - Lansdowne Borough": [
+    "PA House District:164"
+  ],
+  "PA House District:164": [
+    "Municipality:Delaware - Lansdowne Borough",
+    "Municipality:Delaware - Upper Darby Township",
+    "Municipality:Delaware - Yeadon Borough"
+  ],
+  "Municipality:Delaware - Lower Chichester Township": [
+    "PA House District:159"
+  ],
   "Municipality:Delaware - Marcus Hook Borough": [
     "PA House District:159"
   ],
-  "Municipality:Chester - Kennett Township": [
+  "Municipality:Delaware - Marple Township": [
+    "PA House District:165"
+  ],
+  "PA House District:165": [
+    "Municipality:Delaware - Marple Township",
+    "Municipality:Delaware - Radnor Township",
+    "Municipality:Delaware - Springfield Township"
+  ],
+  "Municipality:Delaware - Middletown Township": [
+    "PA House District:168"
+  ],
+  "Municipality:Delaware - Nether Providence Township": [
+    "PA House District:161"
+  ],
+  "Municipality:Delaware - Newtown Township": [
+    "PA House District:168"
+  ],
+  "Municipality:Delaware - Radnor Township": [
+    "PA House District:165",
+    "PA House District:166"
+  ],
+  "Municipality:Delaware - Ridley Park Borough": [
+    "PA House District:162"
+  ],
+  "Municipality:Delaware - Ridley Township": [
+    "PA House District:161",
+    "PA House District:162"
+  ],
+  "Municipality:Delaware - Springfield Township": [
+    "PA House District:165"
+  ],
+  "Municipality:Delaware - Swarthmore Borough": [
+    "PA House District:161"
+  ],
+  "Municipality:Delaware - Thornbury Township": [
+    "PA House District:168"
+  ],
+  "Municipality:Delaware - Tinicum Township": [
+    "PA House District:162"
+  ],
+  "Municipality:Delaware - Trainer Borough": [
+    "PA House District:159"
+  ],
+  "Municipality:Delaware - Upper Chichester Township": [
+    "PA House District:159",
     "PA House District:160"
   ],
-  "Municipality:Chester - Honey Brook Township": [
-    "PA House District:26"
+  "Municipality:Delaware - Upper Darby Township": [
+    "PA House District:163",
+    "PA House District:164"
   ],
-  "Municipality:Chester - London Grove Township": [
-    "PA House District:13"
+  "Municipality:Delaware - Upper Providence Township": [
+    "PA House District:168"
   ],
-  "Municipality:Chester - Pennsbury Township": [
-    "PA House District:160"
+  "Municipality:Delaware - Yeadon Borough": [
+    "PA House District:164",
+    "PA House District:191"
   ],
-  "Municipality:Chester - Valley Township": [
-    "PA House District:74"
+  "Municipality:Montgomery - Abington Township": [
+    "PA House District:153"
   ],
-  "Municipality:Chester - Warwick Township": [
-    "PA House District:26"
+  "PA House District:153": [
+    "Municipality:Montgomery - Abington Township",
+    "Municipality:Montgomery - Upper Dublin Township"
   ],
-  "Municipality:Bucks - Falls Township": [
-    "PA House District:140"
+  "Municipality:Montgomery - Bryn Athyn Borough": [
+    "PA House District:152"
   ],
-  "Municipality:Bucks - Tullytown Borough": [
-    "PA House District:140"
+  "PA House District:152": [
+    "Municipality:Montgomery - Bryn Athyn Borough",
+    "Municipality:Montgomery - Hatboro Borough",
+    "Municipality:Montgomery - Lower Moreland Township",
+    "Municipality:Montgomery - Upper Dublin Township",
+    "Municipality:Montgomery - Upper Moreland Township"
+  ],
+  "Municipality:Montgomery - Cheltenham Township": [
+    "PA House District:154"
+  ],
+  "PA House District:154": [
+    "Municipality:Montgomery - Cheltenham Township",
+    "Municipality:Montgomery - Springfield Township"
+  ],
+  "Municipality:Montgomery - Douglass Township": [
+    "PA House District:147"
+  ],
+  "PA House District:147": [
+    "Municipality:Montgomery - Douglass Township",
+    "Municipality:Montgomery - Lower Frederick Township",
+    "Municipality:Montgomery - Lower Salford Township",
+    "Municipality:Montgomery - Marlborough Township",
+    "Municipality:Montgomery - New Hanover Township",
+    "Municipality:Montgomery - Upper Frederick Township",
+    "Municipality:Montgomery - Upper Salford Township"
+  ],
+  "Municipality:Montgomery - East Norriton Township": [
+    "PA House District:70"
+  ],
+  "PA House District:70": [
+    "Municipality:Montgomery - East Norriton Township",
+    "Municipality:Montgomery - Norristown Borough",
+    "Municipality:Montgomery - Plymouth Township",
+    "Municipality:Montgomery - Worcester Township"
+  ],
+  "Municipality:Montgomery - Franconia Township": [
+    "PA House District:53"
+  ],
+  "PA House District:53": [
+    "Municipality:Montgomery - Franconia Township",
+    "Municipality:Montgomery - Hatfield Township",
+    "Municipality:Montgomery - Lansdale Borough",
+    "Municipality:Montgomery - Salford Township"
+  ],
+  "Municipality:Montgomery - Hatboro Borough": [
+    "PA House District:152"
+  ],
+  "Municipality:Montgomery - Hatfield Township": [
+    "PA House District:53"
+  ],
+  "Municipality:Montgomery - Horsham Township": [
+    "PA House District:151"
+  ],
+  "PA House District:151": [
+    "Municipality:Montgomery - Horsham Township",
+    "Municipality:Montgomery - Lower Gwynedd Township",
+    "Municipality:Montgomery - Montgomery Township",
+    "Municipality:Montgomery - Upper Dublin Township"
+  ],
+  "Municipality:Montgomery - Lansdale Borough": [
+    "PA House District:53"
+  ],
+  "Municipality:Montgomery - Limerick Township": [
+    "PA House District:146"
+  ],
+  "PA House District:146": [
+    "Municipality:Montgomery - Limerick Township",
+    "Municipality:Montgomery - Lower Pottsgrove Township",
+    "Municipality:Montgomery - Perkiomen Township",
+    "Municipality:Montgomery - Pottstown Borough"
+  ],
+  "Municipality:Montgomery - Lower Frederick Township": [
+    "PA House District:147"
+  ],
+  "Municipality:Montgomery - Lower Gwynedd Township": [
+    "PA House District:61",
+    "PA House District:151"
+  ],
+  "PA House District:61": [
+    "Municipality:Montgomery - Lower Gwynedd Township",
+    "Municipality:Montgomery - Towamencin Township",
+    "Municipality:Montgomery - Upper Gwynedd Township",
+    "Municipality:Montgomery - Whitpain Township"
+  ],
+  "Municipality:Montgomery - Lower Merion Township": [
+    "PA House District:148",
+    "PA House District:149",
+    "PA House District:194"
+  ],
+  "PA House District:148": [
+    "Municipality:Montgomery - Lower Merion Township",
+    "Municipality:Montgomery - Plymouth Township",
+    "Municipality:Montgomery - Whitemarsh Township"
+  ],
+  "PA House District:149": [
+    "Municipality:Montgomery - Lower Merion Township",
+    "Municipality:Montgomery - Upper Merion Township",
+    "Municipality:Montgomery - West Norriton Township"
+  ],
+  "PA House District:194": [
+    "Municipality:Montgomery - Lower Merion Township",
+    "Municipality:Philadelphia - Philadelphia City"
+  ],
+  "Municipality:Montgomery - Lower Moreland Township": [
+    "PA House District:152"
+  ],
+  "Municipality:Montgomery - Lower Pottsgrove Township": [
+    "PA House District:146"
+  ],
+  "Municipality:Montgomery - Lower Providence Township": [
+    "PA House District:150"
+  ],
+  "PA House District:150": [
+    "Municipality:Montgomery - Lower Providence Township",
+    "Municipality:Montgomery - Skippack Township",
+    "Municipality:Montgomery - Upper Providence Township",
+    "Municipality:Montgomery - West Norriton Township"
+  ],
+  "Municipality:Montgomery - Lower Salford Township": [
+    "PA House District:147"
   ],
   "Municipality:Montgomery - Marlborough Township": [
     "PA House District:147"
   ],
+  "Municipality:Montgomery - Montgomery Township": [
+    "PA House District:151"
+  ],
+  "Municipality:Montgomery - New Hanover Township": [
+    "PA House District:147"
+  ],
+  "Municipality:Montgomery - Norristown Borough": [
+    "PA House District:70"
+  ],
+  "Municipality:Montgomery - Perkiomen Township": [
+    "PA House District:146"
+  ],
+  "Municipality:Montgomery - Plymouth Township": [
+    "PA House District:70",
+    "PA House District:148"
+  ],
+  "Municipality:Montgomery - Pottstown Borough": [
+    "PA House District:146"
+  ],
   "Municipality:Montgomery - Salford Township": [
     "PA House District:53"
   ],
-  "Municipality:Bucks - Bedminster Township": [
-    "PA House District:143"
+  "Municipality:Montgomery - Skippack Township": [
+    "PA House District:150"
   ],
-  "PA House District:143": [
-    "Municipality:Bucks - Bedminster Township",
-    "Municipality:Bucks - Plumstead Township",
-    "Municipality:Bucks - Doylestown Township",
-    "Municipality:Bucks - Durham Township",
-    "Municipality:Bucks - Nockamixon Township",
-    "Municipality:Bucks - Haycock Township",
-    "Municipality:Bucks - Tinicum Township"
+  "Municipality:Montgomery - Springfield Township": [
+    "PA House District:154"
   ],
-  "Municipality:Bucks - Warwick Township": [
-    "PA House District:29"
+  "Municipality:Montgomery - Towamencin Township": [
+    "PA House District:61"
   ],
-  "Municipality:Bucks - Wrightstown Township": [
-    "PA House District:178"
+  "Municipality:Montgomery - Upper Dublin Township": [
+    "PA House District:151",
+    "PA House District:152",
+    "PA House District:153"
   ],
-  "Municipality:Bucks - Buckingham Township": [
-    "PA House District:29"
+  "Municipality:Montgomery - Upper Frederick Township": [
+    "PA House District:147"
   ],
-  "Municipality:Bucks - East Rockhill Township": [
-    "PA House District:145"
-  ],
-  "PA House District:145": [
-    "Municipality:Bucks - East Rockhill Township",
-    "Municipality:Bucks - West Rockhill Township",
-    "Municipality:Bucks - Richland Township",
-    "Municipality:Bucks - Milford Township",
-    "Municipality:Bucks - Springfield Township"
-  ],
-  "Municipality:Bucks - New Britain Township": [
-    "PA House District:144"
-  ],
-  "Municipality:Bucks - Plumstead Township": [
-    "PA House District:143"
-  ],
-  "Municipality:Bucks - Solebury Township": [
-    "PA House District:178"
-  ],
-  "Municipality:Bucks - West Rockhill Township": [
-    "PA House District:145"
+  "Municipality:Montgomery - Upper Gwynedd Township": [
+    "PA House District:61"
   ],
   "Municipality:Montgomery - Upper Hanover Township": [
     "PA House District:131"
@@ -1086,31 +1064,53 @@
   "PA House District:131": [
     "Municipality:Montgomery - Upper Hanover Township"
   ],
-  "Municipality:Bucks - Doylestown Township": [
-    "PA House District:143"
+  "Municipality:Montgomery - Upper Merion Township": [
+    "PA House District:149"
   ],
-  "Municipality:Bucks - Richland Township": [
-    "PA House District:145"
+  "Municipality:Montgomery - Upper Moreland Township": [
+    "PA House District:152"
   ],
-  "Municipality:Bucks - Hilltown Township": [
-    "PA House District:144"
+  "Municipality:Montgomery - Upper Providence Township": [
+    "PA House District:150",
+    "PA House District:157"
   ],
-  "Municipality:Bucks - Milford Township": [
-    "PA House District:145"
+  "Municipality:Montgomery - Upper Salford Township": [
+    "PA House District:147"
   ],
-  "Municipality:Bucks - Durham Township": [
-    "PA House District:143"
+  "Municipality:Montgomery - West Norriton Township": [
+    "PA House District:149",
+    "PA House District:150"
   ],
-  "Municipality:Bucks - Nockamixon Township": [
-    "PA House District:143"
+  "Municipality:Montgomery - Whitemarsh Township": [
+    "PA House District:148"
   ],
-  "Municipality:Bucks - Haycock Township": [
-    "PA House District:143"
+  "Municipality:Montgomery - Whitpain Township": [
+    "PA House District:61"
   ],
-  "Municipality:Bucks - Tinicum Township": [
-    "PA House District:143"
+  "Municipality:Montgomery - Worcester Township": [
+    "PA House District:70"
   ],
-  "Municipality:Bucks - Springfield Township": [
-    "PA House District:145"
+  "Municipality:Philadelphia - Philadelphia City": [
+    "PA House District:170",
+    "PA House District:173",
+    "PA House District:177",
+    "PA House District:185",
+    "PA House District:194",
+    "PA House District:200"
+  ],
+  "PA House District:170": [
+    "Municipality:Philadelphia - Philadelphia City"
+  ],
+  "PA House District:173": [
+    "Municipality:Philadelphia - Philadelphia City"
+  ],
+  "PA House District:177": [
+    "Municipality:Philadelphia - Philadelphia City"
+  ],
+  "PA House District:185": [
+    "Municipality:Philadelphia - Philadelphia City"
+  ],
+  "PA House District:200": [
+    "Municipality:Philadelphia - Philadelphia City"
   ]
 }

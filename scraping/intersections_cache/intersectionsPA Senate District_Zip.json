@@ -1,13 +1,584 @@
 {
-  "PA Senate District:41": [
-    "Zip:15701",
-    "Zip:16201"
+  "PA Senate District:1": [
+    "Zip:19112",
+    "Zip:19145",
+    "Zip:19147",
+    "Zip:19148",
+    "Zip:19153"
   ],
-  "Zip:15701": [
-    "PA Senate District:41"
+  "Zip:19112": [
+    "PA Senate District:1"
   ],
-  "Zip:16201": [
-    "PA Senate District:41"
+  "Zip:19145": [
+    "PA Senate District:1",
+    "PA Senate District:8"
+  ],
+  "Zip:19147": [
+    "PA Senate District:1"
+  ],
+  "Zip:19148": [
+    "PA Senate District:1"
+  ],
+  "Zip:19153": [
+    "PA Senate District:1",
+    "PA Senate District:8"
+  ],
+  "PA Senate District:2": [
+    "Zip:19111",
+    "Zip:19115",
+    "Zip:19124",
+    "Zip:19149"
+  ],
+  "Zip:19111": [
+    "PA Senate District:2"
+  ],
+  "Zip:19115": [
+    "PA Senate District:2",
+    "PA Senate District:5"
+  ],
+  "Zip:19124": [
+    "PA Senate District:2"
+  ],
+  "Zip:19149": [
+    "PA Senate District:2"
+  ],
+  "PA Senate District:3": [
+    "Zip:19120",
+    "Zip:19121",
+    "Zip:19128",
+    "Zip:19132",
+    "Zip:19140",
+    "Zip:19141",
+    "Zip:19144"
+  ],
+  "Zip:19120": [
+    "PA Senate District:3"
+  ],
+  "Zip:19121": [
+    "PA Senate District:3"
+  ],
+  "Zip:19128": [
+    "PA Senate District:3",
+    "PA Senate District:7"
+  ],
+  "Zip:19132": [
+    "PA Senate District:3"
+  ],
+  "Zip:19140": [
+    "PA Senate District:3"
+  ],
+  "Zip:19141": [
+    "PA Senate District:3"
+  ],
+  "Zip:19144": [
+    "PA Senate District:3"
+  ],
+  "PA Senate District:4": [
+    "Zip:19001",
+    "Zip:19027",
+    "Zip:19038",
+    "Zip:19046",
+    "Zip:19118",
+    "Zip:19119"
+  ],
+  "Zip:19001": [
+    "PA Senate District:4"
+  ],
+  "Zip:19027": [
+    "PA Senate District:4"
+  ],
+  "Zip:19038": [
+    "PA Senate District:4"
+  ],
+  "Zip:19046": [
+    "PA Senate District:4"
+  ],
+  "Zip:19118": [
+    "PA Senate District:4"
+  ],
+  "Zip:19119": [
+    "PA Senate District:4"
+  ],
+  "PA Senate District:5": [
+    "Zip:19114",
+    "Zip:19115",
+    "Zip:19116",
+    "Zip:19136",
+    "Zip:19137",
+    "Zip:19152",
+    "Zip:19154"
+  ],
+  "Zip:19114": [
+    "PA Senate District:5"
+  ],
+  "Zip:19116": [
+    "PA Senate District:5"
+  ],
+  "Zip:19136": [
+    "PA Senate District:5"
+  ],
+  "Zip:19137": [
+    "PA Senate District:5"
+  ],
+  "Zip:19152": [
+    "PA Senate District:5"
+  ],
+  "Zip:19154": [
+    "PA Senate District:5"
+  ],
+  "PA Senate District:6": [
+    "Zip:18929",
+    "Zip:18940",
+    "Zip:18954",
+    "Zip:18966",
+    "Zip:18974",
+    "Zip:19007",
+    "Zip:19020",
+    "Zip:19047",
+    "Zip:19053"
+  ],
+  "Zip:18929": [
+    "PA Senate District:6"
+  ],
+  "Zip:18940": [
+    "PA Senate District:6",
+    "PA Senate District:10"
+  ],
+  "Zip:18954": [
+    "PA Senate District:6"
+  ],
+  "Zip:18966": [
+    "PA Senate District:6"
+  ],
+  "Zip:18974": [
+    "PA Senate District:6",
+    "PA Senate District:12"
+  ],
+  "Zip:19007": [
+    "PA Senate District:6"
+  ],
+  "Zip:19020": [
+    "PA Senate District:6"
+  ],
+  "Zip:19047": [
+    "PA Senate District:6"
+  ],
+  "Zip:19053": [
+    "PA Senate District:6"
+  ],
+  "PA Senate District:7": [
+    "Zip:19002",
+    "Zip:19025",
+    "Zip:19034",
+    "Zip:19128",
+    "Zip:19131",
+    "Zip:19428",
+    "Zip:19444"
+  ],
+  "Zip:19002": [
+    "PA Senate District:7",
+    "PA Senate District:12"
+  ],
+  "Zip:19025": [
+    "PA Senate District:7"
+  ],
+  "Zip:19034": [
+    "PA Senate District:7"
+  ],
+  "Zip:19131": [
+    "PA Senate District:7"
+  ],
+  "Zip:19428": [
+    "PA Senate District:7"
+  ],
+  "Zip:19444": [
+    "PA Senate District:7"
+  ],
+  "PA Senate District:8": [
+    "Zip:19023",
+    "Zip:19032",
+    "Zip:19050",
+    "Zip:19079",
+    "Zip:19142",
+    "Zip:19143",
+    "Zip:19145",
+    "Zip:19146",
+    "Zip:19153"
+  ],
+  "Zip:19023": [
+    "PA Senate District:8"
+  ],
+  "Zip:19032": [
+    "PA Senate District:8"
+  ],
+  "Zip:19050": [
+    "PA Senate District:8"
+  ],
+  "Zip:19079": [
+    "PA Senate District:8"
+  ],
+  "Zip:19142": [
+    "PA Senate District:8"
+  ],
+  "Zip:19143": [
+    "PA Senate District:8"
+  ],
+  "Zip:19146": [
+    "PA Senate District:8"
+  ],
+  "PA Senate District:9": [
+    "Zip:19063",
+    "Zip:19317",
+    "Zip:19342",
+    "Zip:19348",
+    "Zip:19380",
+    "Zip:19382"
+  ],
+  "Zip:19063": [
+    "PA Senate District:9",
+    "PA Senate District:26"
+  ],
+  "Zip:19317": [
+    "PA Senate District:9"
+  ],
+  "Zip:19342": [
+    "PA Senate District:9"
+  ],
+  "Zip:19348": [
+    "PA Senate District:9"
+  ],
+  "Zip:19380": [
+    "PA Senate District:9"
+  ],
+  "Zip:19382": [
+    "PA Senate District:9"
+  ],
+  "PA Senate District:10": [
+    "Zip:18901",
+    "Zip:18902",
+    "Zip:18938",
+    "Zip:18940",
+    "Zip:18944",
+    "Zip:18960",
+    "Zip:19067"
+  ],
+  "Zip:18901": [
+    "PA Senate District:10"
+  ],
+  "Zip:18902": [
+    "PA Senate District:10"
+  ],
+  "Zip:18938": [
+    "PA Senate District:10"
+  ],
+  "Zip:18944": [
+    "PA Senate District:10"
+  ],
+  "Zip:18960": [
+    "PA Senate District:10"
+  ],
+  "Zip:19067": [
+    "PA Senate District:10"
+  ],
+  "PA Senate District:11": [
+    "Zip:19508",
+    "Zip:19522",
+    "Zip:19530",
+    "Zip:19540",
+    "Zip:19541",
+    "Zip:19543",
+    "Zip:19547",
+    "Zip:19606"
+  ],
+  "Zip:19508": [
+    "PA Senate District:11"
+  ],
+  "Zip:19522": [
+    "PA Senate District:11"
+  ],
+  "Zip:19530": [
+    "PA Senate District:11"
+  ],
+  "Zip:19540": [
+    "PA Senate District:11"
+  ],
+  "Zip:19541": [
+    "PA Senate District:11"
+  ],
+  "Zip:19543": [
+    "PA Senate District:11"
+  ],
+  "Zip:19547": [
+    "PA Senate District:11"
+  ],
+  "Zip:19606": [
+    "PA Senate District:11"
+  ],
+  "PA Senate District:12": [
+    "Zip:18964",
+    "Zip:18974",
+    "Zip:18976",
+    "Zip:19002",
+    "Zip:19006",
+    "Zip:19044",
+    "Zip:19440",
+    "Zip:19446",
+    "Zip:19454"
+  ],
+  "Zip:18964": [
+    "PA Senate District:12"
+  ],
+  "Zip:18976": [
+    "PA Senate District:12"
+  ],
+  "Zip:19006": [
+    "PA Senate District:12"
+  ],
+  "Zip:19044": [
+    "PA Senate District:12"
+  ],
+  "Zip:19440": [
+    "PA Senate District:12"
+  ],
+  "Zip:19446": [
+    "PA Senate District:12"
+  ],
+  "Zip:19454": [
+    "PA Senate District:12"
+  ],
+  "PA Senate District:13": [
+    "Zip:17563",
+    "Zip:17566",
+    "Zip:17603"
+  ],
+  "Zip:17563": [
+    "PA Senate District:13"
+  ],
+  "Zip:17566": [
+    "PA Senate District:13"
+  ],
+  "Zip:17603": [
+    "PA Senate District:13"
+  ],
+  "PA Senate District:14": [
+    "Zip:18229",
+    "Zip:18235",
+    "Zip:18255",
+    "Zip:18661",
+    "Zip:18702"
+  ],
+  "Zip:18229": [
+    "PA Senate District:14"
+  ],
+  "Zip:18235": [
+    "PA Senate District:14"
+  ],
+  "Zip:18255": [
+    "PA Senate District:14"
+  ],
+  "Zip:18661": [
+    "PA Senate District:14"
+  ],
+  "Zip:18702": [
+    "PA Senate District:14"
+  ],
+  "PA Senate District:15": [
+    "Zip:17006",
+    "Zip:17020",
+    "Zip:17032",
+    "Zip:17062",
+    "Zip:17074",
+    "Zip:17112"
+  ],
+  "Zip:17006": [
+    "PA Senate District:15"
+  ],
+  "Zip:17020": [
+    "PA Senate District:15"
+  ],
+  "Zip:17032": [
+    "PA Senate District:15"
+  ],
+  "Zip:17062": [
+    "PA Senate District:15"
+  ],
+  "Zip:17074": [
+    "PA Senate District:15"
+  ],
+  "Zip:17112": [
+    "PA Senate District:15"
+  ],
+  "PA Senate District:16": [
+    "Zip:18036",
+    "Zip:18053",
+    "Zip:18066",
+    "Zip:18080",
+    "Zip:18104",
+    "Zip:19529"
+  ],
+  "Zip:18036": [
+    "PA Senate District:16"
+  ],
+  "Zip:18053": [
+    "PA Senate District:16"
+  ],
+  "Zip:18066": [
+    "PA Senate District:16"
+  ],
+  "Zip:18080": [
+    "PA Senate District:16"
+  ],
+  "Zip:18104": [
+    "PA Senate District:16"
+  ],
+  "Zip:19529": [
+    "PA Senate District:16"
+  ],
+  "PA Senate District:17": [
+    "Zip:19010",
+    "Zip:19083",
+    "Zip:19085",
+    "Zip:19087",
+    "Zip:19401",
+    "Zip:19406",
+    "Zip:19422",
+    "Zip:19462"
+  ],
+  "Zip:19010": [
+    "PA Senate District:17"
+  ],
+  "Zip:19083": [
+    "PA Senate District:17"
+  ],
+  "Zip:19085": [
+    "PA Senate District:17"
+  ],
+  "Zip:19087": [
+    "PA Senate District:17"
+  ],
+  "Zip:19401": [
+    "PA Senate District:17"
+  ],
+  "Zip:19406": [
+    "PA Senate District:17"
+  ],
+  "Zip:19422": [
+    "PA Senate District:17"
+  ],
+  "Zip:19462": [
+    "PA Senate District:17"
+  ],
+  "PA Senate District:18": [
+    "Zip:18015",
+    "Zip:18017",
+    "Zip:18020",
+    "Zip:18042",
+    "Zip:18045",
+    "Zip:18052",
+    "Zip:18055"
+  ],
+  "Zip:18015": [
+    "PA Senate District:18"
+  ],
+  "Zip:18017": [
+    "PA Senate District:18"
+  ],
+  "Zip:18020": [
+    "PA Senate District:18"
+  ],
+  "Zip:18042": [
+    "PA Senate District:18"
+  ],
+  "Zip:18045": [
+    "PA Senate District:18"
+  ],
+  "Zip:18052": [
+    "PA Senate District:18"
+  ],
+  "Zip:18055": [
+    "PA Senate District:18"
+  ],
+  "PA Senate District:19": [
+    "Zip:19320",
+    "Zip:19330",
+    "Zip:19350",
+    "Zip:19355",
+    "Zip:19363",
+    "Zip:19390"
+  ],
+  "Zip:19320": [
+    "PA Senate District:19",
+    "PA Senate District:44"
+  ],
+  "Zip:19330": [
+    "PA Senate District:19"
+  ],
+  "Zip:19350": [
+    "PA Senate District:19"
+  ],
+  "Zip:19355": [
+    "PA Senate District:19",
+    "PA Senate District:26"
+  ],
+  "Zip:19363": [
+    "PA Senate District:19"
+  ],
+  "Zip:19390": [
+    "PA Senate District:19"
+  ],
+  "PA Senate District:20": [
+    "Zip:18428",
+    "Zip:18431",
+    "Zip:18847"
+  ],
+  "Zip:18428": [
+    "PA Senate District:20"
+  ],
+  "Zip:18431": [
+    "PA Senate District:20"
+  ],
+  "Zip:18847": [
+    "PA Senate District:20"
+  ],
+  "PA Senate District:21": [
+    "Zip:16239",
+    "Zip:16353",
+    "Zip:16365"
+  ],
+  "Zip:16239": [
+    "PA Senate District:21"
+  ],
+  "Zip:16353": [
+    "PA Senate District:21"
+  ],
+  "Zip:16365": [
+    "PA Senate District:21"
+  ],
+  "PA Senate District:22": [
+    "Zip:18325",
+    "Zip:18407",
+    "Zip:18411",
+    "Zip:18424",
+    "Zip:18444",
+    "Zip:18466"
+  ],
+  "Zip:18325": [
+    "PA Senate District:22"
+  ],
+  "Zip:18407": [
+    "PA Senate District:22"
+  ],
+  "Zip:18411": [
+    "PA Senate District:22"
+  ],
+  "Zip:18424": [
+    "PA Senate District:22"
+  ],
+  "Zip:18444": [
+    "PA Senate District:22"
+  ],
+  "Zip:18466": [
+    "PA Senate District:22"
   ],
   "PA Senate District:23": [
     "Zip:17771"
@@ -15,73 +586,69 @@
   "Zip:17771": [
     "PA Senate District:23"
   ],
-  "PA Senate District:27": [
-    "Zip:17820",
-    "Zip:17814",
-    "Zip:17821",
-    "Zip:17815"
+  "PA Senate District:24": [
+    "Zip:18951",
+    "Zip:18972",
+    "Zip:19512"
   ],
-  "Zip:17820": [
-    "PA Senate District:27"
+  "Zip:18951": [
+    "PA Senate District:24"
+  ],
+  "Zip:18972": [
+    "PA Senate District:24"
+  ],
+  "Zip:19512": [
+    "PA Senate District:24"
+  ],
+  "PA Senate District:26": [
+    "Zip:19008",
+    "Zip:19063",
+    "Zip:19064",
+    "Zip:19073",
+    "Zip:19312",
+    "Zip:19355"
+  ],
+  "Zip:19008": [
+    "PA Senate District:26"
+  ],
+  "Zip:19064": [
+    "PA Senate District:26"
+  ],
+  "Zip:19073": [
+    "PA Senate District:26"
+  ],
+  "Zip:19312": [
+    "PA Senate District:26"
+  ],
+  "PA Senate District:27": [
+    "Zip:17814",
+    "Zip:17815",
+    "Zip:17820",
+    "Zip:17821"
   ],
   "Zip:17814": [
-    "PA Senate District:27"
-  ],
-  "Zip:17821": [
     "PA Senate District:27"
   ],
   "Zip:17815": [
     "PA Senate District:27"
   ],
-  "PA Senate District:15": [
-    "Zip:17006",
-    "Zip:17074",
-    "Zip:17032",
-    "Zip:17112",
-    "Zip:17020",
-    "Zip:17062"
+  "Zip:17820": [
+    "PA Senate District:27"
   ],
-  "Zip:17006": [
-    "PA Senate District:15"
-  ],
-  "Zip:17074": [
-    "PA Senate District:15"
-  ],
-  "Zip:17032": [
-    "PA Senate District:15"
-  ],
-  "Zip:17112": [
-    "PA Senate District:15"
-  ],
-  "Zip:17020": [
-    "PA Senate District:15"
-  ],
-  "Zip:17062": [
-    "PA Senate District:15"
+  "Zip:17821": [
+    "PA Senate District:27"
   ],
   "PA Senate District:28": [
-    "Zip:17362",
     "Zip:17302",
-    "Zip:17406",
-    "Zip:17356",
-    "Zip:17327",
     "Zip:17314",
     "Zip:17322",
-    "Zip:17363"
-  ],
-  "Zip:17362": [
-    "PA Senate District:28"
+    "Zip:17327",
+    "Zip:17356",
+    "Zip:17362",
+    "Zip:17363",
+    "Zip:17406"
   ],
   "Zip:17302": [
-    "PA Senate District:28"
-  ],
-  "Zip:17406": [
-    "PA Senate District:28"
-  ],
-  "Zip:17356": [
-    "PA Senate District:28"
-  ],
-  "Zip:17327": [
     "PA Senate District:28"
   ],
   "Zip:17314": [
@@ -90,119 +657,73 @@
   "Zip:17322": [
     "PA Senate District:28"
   ],
+  "Zip:17327": [
+    "PA Senate District:28"
+  ],
+  "Zip:17356": [
+    "PA Senate District:28"
+  ],
+  "Zip:17362": [
+    "PA Senate District:28"
+  ],
   "Zip:17363": [
     "PA Senate District:28"
   ],
-  "PA Senate District:13": [
-    "Zip:17566",
-    "Zip:17603",
-    "Zip:17563"
+  "Zip:17406": [
+    "PA Senate District:28"
   ],
-  "Zip:17566": [
-    "PA Senate District:13"
+  "PA Senate District:29": [
+    "Zip:17901",
+    "Zip:17963",
+    "Zip:19506"
   ],
-  "Zip:17603": [
-    "PA Senate District:13"
+  "Zip:17901": [
+    "PA Senate District:29"
   ],
-  "Zip:17563": [
-    "PA Senate District:13"
+  "Zip:17963": [
+    "PA Senate District:29"
   ],
-  "PA Senate District:35": [
-    "Zip:15535",
-    "Zip:15522"
-  ],
-  "Zip:15535": [
-    "PA Senate District:35"
-  ],
-  "Zip:15522": [
-    "PA Senate District:35"
+  "Zip:19506": [
+    "PA Senate District:29"
   ],
   "PA Senate District:30": [
-    "Zip:17236",
-    "Zip:16686"
-  ],
-  "Zip:17236": [
-    "PA Senate District:30"
+    "Zip:16686",
+    "Zip:17236"
   ],
   "Zip:16686": [
     "PA Senate District:30"
   ],
-  "PA Senate District:34": [
-    "Zip:16841",
-    "Zip:16823",
-    "Zip:16866"
-  ],
-  "Zip:16841": [
-    "PA Senate District:34"
-  ],
-  "Zip:16823": [
-    "PA Senate District:34"
-  ],
-  "Zip:16866": [
-    "PA Senate District:34"
-  ],
-  "PA Senate District:33": [
-    "Zip:17325",
-    "Zip:17320",
-    "Zip:17222",
-    "Zip:17307",
-    "Zip:17202",
-    "Zip:17268",
-    "Zip:17257",
-    "Zip:17331"
-  ],
-  "Zip:17325": [
-    "PA Senate District:33"
-  ],
-  "Zip:17320": [
-    "PA Senate District:33"
-  ],
-  "Zip:17222": [
-    "PA Senate District:33"
-  ],
-  "Zip:17307": [
-    "PA Senate District:33"
-  ],
-  "Zip:17202": [
-    "PA Senate District:33"
-  ],
-  "Zip:17268": [
-    "PA Senate District:33"
-  ],
-  "Zip:17257": [
-    "PA Senate District:33"
-  ],
-  "Zip:17331": [
-    "PA Senate District:33"
+  "Zip:17236": [
+    "PA Senate District:30"
   ],
   "PA Senate District:31": [
-    "Zip:17315",
-    "Zip:17339",
-    "Zip:17324",
     "Zip:17015",
-    "Zip:17055",
     "Zip:17019",
-    "Zip:17050"
-  ],
-  "Zip:17315": [
-    "PA Senate District:31"
-  ],
-  "Zip:17339": [
-    "PA Senate District:31"
-  ],
-  "Zip:17324": [
-    "PA Senate District:31"
+    "Zip:17050",
+    "Zip:17055",
+    "Zip:17315",
+    "Zip:17324",
+    "Zip:17339"
   ],
   "Zip:17015": [
-    "PA Senate District:31"
-  ],
-  "Zip:17055": [
     "PA Senate District:31"
   ],
   "Zip:17019": [
     "PA Senate District:31"
   ],
   "Zip:17050": [
+    "PA Senate District:31"
+  ],
+  "Zip:17055": [
+    "PA Senate District:31"
+  ],
+  "Zip:17315": [
+    "PA Senate District:31"
+  ],
+  "Zip:17324": [
+    "PA Senate District:31"
+  ],
+  "Zip:17339": [
     "PA Senate District:31"
   ],
   "PA Senate District:32": [
@@ -215,6 +736,327 @@
   "Zip:15552": [
     "PA Senate District:32"
   ],
+  "PA Senate District:33": [
+    "Zip:17202",
+    "Zip:17222",
+    "Zip:17257",
+    "Zip:17268",
+    "Zip:17307",
+    "Zip:17320",
+    "Zip:17325",
+    "Zip:17331"
+  ],
+  "Zip:17202": [
+    "PA Senate District:33"
+  ],
+  "Zip:17222": [
+    "PA Senate District:33"
+  ],
+  "Zip:17257": [
+    "PA Senate District:33"
+  ],
+  "Zip:17268": [
+    "PA Senate District:33"
+  ],
+  "Zip:17307": [
+    "PA Senate District:33"
+  ],
+  "Zip:17320": [
+    "PA Senate District:33"
+  ],
+  "Zip:17325": [
+    "PA Senate District:33"
+  ],
+  "Zip:17331": [
+    "PA Senate District:33"
+  ],
+  "PA Senate District:34": [
+    "Zip:16823",
+    "Zip:16841",
+    "Zip:16866"
+  ],
+  "Zip:16823": [
+    "PA Senate District:34"
+  ],
+  "Zip:16841": [
+    "PA Senate District:34"
+  ],
+  "Zip:16866": [
+    "PA Senate District:34"
+  ],
+  "PA Senate District:35": [
+    "Zip:15522",
+    "Zip:15535"
+  ],
+  "Zip:15522": [
+    "PA Senate District:35"
+  ],
+  "Zip:15535": [
+    "PA Senate District:35"
+  ],
+  "PA Senate District:36": [
+    "Zip:17022",
+    "Zip:17517",
+    "Zip:17522",
+    "Zip:17543",
+    "Zip:17545",
+    "Zip:17552",
+    "Zip:17557"
+  ],
+  "Zip:17022": [
+    "PA Senate District:36"
+  ],
+  "Zip:17517": [
+    "PA Senate District:36"
+  ],
+  "Zip:17522": [
+    "PA Senate District:36"
+  ],
+  "Zip:17543": [
+    "PA Senate District:36"
+  ],
+  "Zip:17545": [
+    "PA Senate District:36"
+  ],
+  "Zip:17552": [
+    "PA Senate District:36"
+  ],
+  "Zip:17557": [
+    "PA Senate District:36"
+  ],
+  "PA Senate District:37": [
+    "Zip:15057",
+    "Zip:15071",
+    "Zip:15108",
+    "Zip:15126",
+    "Zip:15143"
+  ],
+  "Zip:15057": [
+    "PA Senate District:37"
+  ],
+  "Zip:15071": [
+    "PA Senate District:37"
+  ],
+  "Zip:15108": [
+    "PA Senate District:37"
+  ],
+  "Zip:15126": [
+    "PA Senate District:37"
+  ],
+  "Zip:15143": [
+    "PA Senate District:37"
+  ],
+  "PA Senate District:38": [
+    "Zip:15024",
+    "Zip:15044",
+    "Zip:15065",
+    "Zip:15084",
+    "Zip:15090",
+    "Zip:15101",
+    "Zip:15237",
+    "Zip:15238"
+  ],
+  "Zip:15024": [
+    "PA Senate District:38"
+  ],
+  "Zip:15044": [
+    "PA Senate District:38"
+  ],
+  "Zip:15065": [
+    "PA Senate District:38"
+  ],
+  "Zip:15084": [
+    "PA Senate District:38"
+  ],
+  "Zip:15090": [
+    "PA Senate District:38"
+  ],
+  "Zip:15101": [
+    "PA Senate District:38"
+  ],
+  "Zip:15237": [
+    "PA Senate District:38"
+  ],
+  "Zip:15238": [
+    "PA Senate District:38"
+  ],
+  "PA Senate District:39": [
+    "Zip:15601",
+    "Zip:15642",
+    "Zip:15650",
+    "Zip:15658",
+    "Zip:15944"
+  ],
+  "Zip:15601": [
+    "PA Senate District:39"
+  ],
+  "Zip:15642": [
+    "PA Senate District:39"
+  ],
+  "Zip:15650": [
+    "PA Senate District:39"
+  ],
+  "Zip:15658": [
+    "PA Senate District:39"
+  ],
+  "Zip:15944": [
+    "PA Senate District:39"
+  ],
+  "PA Senate District:40": [
+    "Zip:18013",
+    "Zip:18058",
+    "Zip:18064",
+    "Zip:18301",
+    "Zip:18302",
+    "Zip:18353",
+    "Zip:18360"
+  ],
+  "Zip:18013": [
+    "PA Senate District:40"
+  ],
+  "Zip:18058": [
+    "PA Senate District:40"
+  ],
+  "Zip:18064": [
+    "PA Senate District:40"
+  ],
+  "Zip:18301": [
+    "PA Senate District:40"
+  ],
+  "Zip:18302": [
+    "PA Senate District:40"
+  ],
+  "Zip:18353": [
+    "PA Senate District:40"
+  ],
+  "Zip:18360": [
+    "PA Senate District:40"
+  ],
+  "PA Senate District:41": [
+    "Zip:15701",
+    "Zip:16201"
+  ],
+  "Zip:15701": [
+    "PA Senate District:41"
+  ],
+  "Zip:16201": [
+    "PA Senate District:41"
+  ],
+  "PA Senate District:42": [
+    "Zip:15136",
+    "Zip:15205",
+    "Zip:15212",
+    "Zip:15220"
+  ],
+  "Zip:15136": [
+    "PA Senate District:42"
+  ],
+  "Zip:15205": [
+    "PA Senate District:42"
+  ],
+  "Zip:15212": [
+    "PA Senate District:42"
+  ],
+  "Zip:15220": [
+    "PA Senate District:42"
+  ],
+  "PA Senate District:43": [
+    "Zip:15120",
+    "Zip:15147",
+    "Zip:15207",
+    "Zip:15217",
+    "Zip:15221",
+    "Zip:15235"
+  ],
+  "Zip:15120": [
+    "PA Senate District:43"
+  ],
+  "Zip:15147": [
+    "PA Senate District:43"
+  ],
+  "Zip:15207": [
+    "PA Senate District:43"
+  ],
+  "Zip:15217": [
+    "PA Senate District:43"
+  ],
+  "Zip:15221": [
+    "PA Senate District:43"
+  ],
+  "Zip:15235": [
+    "PA Senate District:43"
+  ],
+  "PA Senate District:44": [
+    "Zip:19320",
+    "Zip:19335",
+    "Zip:19343",
+    "Zip:19344",
+    "Zip:19403",
+    "Zip:19465",
+    "Zip:19518",
+    "Zip:19520"
+  ],
+  "Zip:19335": [
+    "PA Senate District:44"
+  ],
+  "Zip:19343": [
+    "PA Senate District:44"
+  ],
+  "Zip:19344": [
+    "PA Senate District:44"
+  ],
+  "Zip:19403": [
+    "PA Senate District:44"
+  ],
+  "Zip:19465": [
+    "PA Senate District:44"
+  ],
+  "Zip:19518": [
+    "PA Senate District:44"
+  ],
+  "Zip:19520": [
+    "PA Senate District:44"
+  ],
+  "PA Senate District:45": [
+    "Zip:15037",
+    "Zip:15068",
+    "Zip:15122",
+    "Zip:15146",
+    "Zip:15239",
+    "Zip:15656"
+  ],
+  "Zip:15037": [
+    "PA Senate District:45"
+  ],
+  "Zip:15068": [
+    "PA Senate District:45"
+  ],
+  "Zip:15122": [
+    "PA Senate District:45"
+  ],
+  "Zip:15146": [
+    "PA Senate District:45"
+  ],
+  "Zip:15239": [
+    "PA Senate District:45"
+  ],
+  "Zip:15656": [
+    "PA Senate District:45"
+  ],
+  "PA Senate District:46": [
+    "Zip:15021",
+    "Zip:15301",
+    "Zip:15370"
+  ],
+  "Zip:15021": [
+    "PA Senate District:46"
+  ],
+  "Zip:15301": [
+    "PA Senate District:46"
+  ],
+  "Zip:15370": [
+    "PA Senate District:46"
+  ],
   "PA Senate District:47": [
     "Zip:15010",
     "Zip:16101"
@@ -225,343 +1067,15 @@
   "Zip:16101": [
     "PA Senate District:47"
   ],
-  "PA Senate District:49": [
-    "Zip:16428",
-    "Zip:16441",
-    "Zip:16401",
-    "Zip:16417",
-    "Zip:16510",
-    "Zip:16509",
-    "Zip:16442"
-  ],
-  "Zip:16428": [
-    "PA Senate District:49"
-  ],
-  "Zip:16441": [
-    "PA Senate District:49"
-  ],
-  "Zip:16401": [
-    "PA Senate District:49"
-  ],
-  "Zip:16417": [
-    "PA Senate District:49"
-  ],
-  "Zip:16510": [
-    "PA Senate District:49"
-  ],
-  "Zip:16509": [
-    "PA Senate District:49"
-  ],
-  "Zip:16442": [
-    "PA Senate District:49"
-  ],
-  "PA Senate District:21": [
-    "Zip:16239",
-    "Zip:16365",
-    "Zip:16353"
-  ],
-  "Zip:16239": [
-    "PA Senate District:21"
-  ],
-  "Zip:16365": [
-    "PA Senate District:21"
-  ],
-  "Zip:16353": [
-    "PA Senate District:21"
-  ],
-  "PA Senate District:42": [
-    "Zip:15212",
-    "Zip:15220",
-    "Zip:15205",
-    "Zip:15136"
-  ],
-  "Zip:15212": [
-    "PA Senate District:42"
-  ],
-  "Zip:15220": [
-    "PA Senate District:42"
-  ],
-  "Zip:15205": [
-    "PA Senate District:42"
-  ],
-  "Zip:15136": [
-    "PA Senate District:42"
-  ],
-  "PA Senate District:37": [
-    "Zip:15108",
-    "Zip:15143",
-    "Zip:15057",
-    "Zip:15126",
-    "Zip:15071"
-  ],
-  "Zip:15108": [
-    "PA Senate District:37"
-  ],
-  "Zip:15143": [
-    "PA Senate District:37"
-  ],
-  "Zip:15057": [
-    "PA Senate District:37"
-  ],
-  "Zip:15126": [
-    "PA Senate District:37"
-  ],
-  "Zip:15071": [
-    "PA Senate District:37"
-  ],
-  "PA Senate District:45": [
-    "Zip:15037",
-    "Zip:15068",
-    "Zip:15146",
-    "Zip:15122",
-    "Zip:15239",
-    "Zip:15656"
-  ],
-  "Zip:15037": [
-    "PA Senate District:45"
-  ],
-  "Zip:15068": [
-    "PA Senate District:45"
-  ],
-  "Zip:15146": [
-    "PA Senate District:45"
-  ],
-  "Zip:15122": [
-    "PA Senate District:45"
-  ],
-  "Zip:15239": [
-    "PA Senate District:45"
-  ],
-  "Zip:15656": [
-    "PA Senate District:45"
-  ],
-  "PA Senate District:38": [
-    "Zip:15238",
-    "Zip:15090",
-    "Zip:15065",
-    "Zip:15044",
-    "Zip:15084",
-    "Zip:15024",
-    "Zip:15101",
-    "Zip:15237"
-  ],
-  "Zip:15238": [
-    "PA Senate District:38"
-  ],
-  "Zip:15090": [
-    "PA Senate District:38"
-  ],
-  "Zip:15065": [
-    "PA Senate District:38"
-  ],
-  "Zip:15044": [
-    "PA Senate District:38"
-  ],
-  "Zip:15084": [
-    "PA Senate District:38"
-  ],
-  "Zip:15024": [
-    "PA Senate District:38"
-  ],
-  "Zip:15101": [
-    "PA Senate District:38"
-  ],
-  "Zip:15237": [
-    "PA Senate District:38"
-  ],
-  "PA Senate District:18": [
-    "Zip:18045",
-    "Zip:18055",
-    "Zip:18052",
-    "Zip:18017",
-    "Zip:18020",
-    "Zip:18042",
-    "Zip:18015"
-  ],
-  "Zip:18045": [
-    "PA Senate District:18"
-  ],
-  "Zip:18055": [
-    "PA Senate District:18"
-  ],
-  "Zip:18052": [
-    "PA Senate District:18"
-  ],
-  "Zip:18017": [
-    "PA Senate District:18"
-  ],
-  "Zip:18020": [
-    "PA Senate District:18"
-  ],
-  "Zip:18042": [
-    "PA Senate District:18"
-  ],
-  "Zip:18015": [
-    "PA Senate District:18"
-  ],
-  "PA Senate District:43": [
-    "Zip:15207",
-    "Zip:15221",
-    "Zip:15235",
-    "Zip:15120",
-    "Zip:15147",
-    "Zip:15217"
-  ],
-  "Zip:15207": [
-    "PA Senate District:43"
-  ],
-  "Zip:15221": [
-    "PA Senate District:43"
-  ],
-  "Zip:15235": [
-    "PA Senate District:43"
-  ],
-  "Zip:15120": [
-    "PA Senate District:43"
-  ],
-  "Zip:15147": [
-    "PA Senate District:43"
-  ],
-  "Zip:15217": [
-    "PA Senate District:43"
-  ],
-  "PA Senate District:7": [
-    "Zip:19002",
-    "Zip:19444",
-    "Zip:19428",
-    "Zip:19131",
-    "Zip:19128",
-    "Zip:19025",
-    "Zip:19034"
-  ],
-  "Zip:19002": [
-    "PA Senate District:7",
-    "PA Senate District:12"
-  ],
-  "Zip:19444": [
-    "PA Senate District:7"
-  ],
-  "Zip:19428": [
-    "PA Senate District:7"
-  ],
-  "Zip:19131": [
-    "PA Senate District:7"
-  ],
-  "Zip:19128": [
-    "PA Senate District:7",
-    "PA Senate District:3"
-  ],
-  "Zip:19025": [
-    "PA Senate District:7"
-  ],
-  "Zip:19034": [
-    "PA Senate District:7"
-  ],
-  "PA Senate District:8": [
-    "Zip:19142",
-    "Zip:19050",
-    "Zip:19023",
-    "Zip:19079",
-    "Zip:19143",
-    "Zip:19145",
-    "Zip:19032",
-    "Zip:19146",
-    "Zip:19153"
-  ],
-  "Zip:19142": [
-    "PA Senate District:8"
-  ],
-  "Zip:19050": [
-    "PA Senate District:8"
-  ],
-  "Zip:19023": [
-    "PA Senate District:8"
-  ],
-  "Zip:19079": [
-    "PA Senate District:8"
-  ],
-  "Zip:19143": [
-    "PA Senate District:8"
-  ],
-  "Zip:19145": [
-    "PA Senate District:8",
-    "PA Senate District:1"
-  ],
-  "Zip:19032": [
-    "PA Senate District:8"
-  ],
-  "Zip:19146": [
-    "PA Senate District:8"
-  ],
-  "Zip:19153": [
-    "PA Senate District:8",
-    "PA Senate District:1"
-  ],
-  "PA Senate District:4": [
-    "Zip:19027",
-    "Zip:19118",
-    "Zip:19001",
-    "Zip:19119",
-    "Zip:19038",
-    "Zip:19046"
-  ],
-  "Zip:19027": [
-    "PA Senate District:4"
-  ],
-  "Zip:19118": [
-    "PA Senate District:4"
-  ],
-  "Zip:19001": [
-    "PA Senate District:4"
-  ],
-  "Zip:19119": [
-    "PA Senate District:4"
-  ],
-  "Zip:19038": [
-    "PA Senate District:4"
-  ],
-  "Zip:19046": [
-    "PA Senate District:4"
-  ],
-  "PA Senate District:3": [
-    "Zip:19120",
-    "Zip:19141",
-    "Zip:19144",
-    "Zip:19128",
-    "Zip:19132",
-    "Zip:19140",
-    "Zip:19121"
-  ],
-  "Zip:19120": [
-    "PA Senate District:3"
-  ],
-  "Zip:19141": [
-    "PA Senate District:3"
-  ],
-  "Zip:19144": [
-    "PA Senate District:3"
-  ],
-  "Zip:19132": [
-    "PA Senate District:3"
-  ],
-  "Zip:19140": [
-    "PA Senate District:3"
-  ],
-  "Zip:19121": [
-    "PA Senate District:3"
-  ],
   "PA Senate District:48": [
-    "Zip:17046",
-    "Zip:17057",
+    "Zip:17003",
     "Zip:17038",
     "Zip:17042",
-    "Zip:17067",
-    "Zip:17003"
+    "Zip:17046",
+    "Zip:17057",
+    "Zip:17067"
   ],
-  "Zip:17046": [
-    "PA Senate District:48"
-  ],
-  "Zip:17057": [
+  "Zip:17003": [
     "PA Senate District:48"
   ],
   "Zip:17038": [
@@ -570,557 +1084,43 @@
   "Zip:17042": [
     "PA Senate District:48"
   ],
+  "Zip:17046": [
+    "PA Senate District:48"
+  ],
+  "Zip:17057": [
+    "PA Senate District:48"
+  ],
   "Zip:17067": [
     "PA Senate District:48"
   ],
-  "Zip:17003": [
-    "PA Senate District:48"
-  ],
-  "PA Senate District:20": [
-    "Zip:18431",
-    "Zip:18428",
-    "Zip:18847"
-  ],
-  "Zip:18431": [
-    "PA Senate District:20"
-  ],
-  "Zip:18428": [
-    "PA Senate District:20"
-  ],
-  "Zip:18847": [
-    "PA Senate District:20"
-  ],
-  "PA Senate District:14": [
-    "Zip:18702",
-    "Zip:18235",
-    "Zip:18661",
-    "Zip:18229",
-    "Zip:18255"
-  ],
-  "Zip:18702": [
-    "PA Senate District:14"
-  ],
-  "Zip:18235": [
-    "PA Senate District:14"
-  ],
-  "Zip:18661": [
-    "PA Senate District:14"
-  ],
-  "Zip:18229": [
-    "PA Senate District:14"
-  ],
-  "Zip:18255": [
-    "PA Senate District:14"
-  ],
-  "PA Senate District:11": [
-    "Zip:19543",
-    "Zip:19522",
-    "Zip:19547",
-    "Zip:19508",
-    "Zip:19540",
-    "Zip:19541",
-    "Zip:19606",
-    "Zip:19530"
-  ],
-  "Zip:19543": [
-    "PA Senate District:11"
-  ],
-  "Zip:19522": [
-    "PA Senate District:11"
-  ],
-  "Zip:19547": [
-    "PA Senate District:11"
-  ],
-  "Zip:19508": [
-    "PA Senate District:11"
-  ],
-  "Zip:19540": [
-    "PA Senate District:11"
-  ],
-  "Zip:19541": [
-    "PA Senate District:11"
-  ],
-  "Zip:19606": [
-    "PA Senate District:11"
-  ],
-  "Zip:19530": [
-    "PA Senate District:11"
-  ],
-  "PA Senate District:19": [
-    "Zip:19330",
-    "Zip:19390",
-    "Zip:19355",
-    "Zip:19320",
-    "Zip:19350",
-    "Zip:19363"
-  ],
-  "Zip:19330": [
-    "PA Senate District:19"
-  ],
-  "Zip:19390": [
-    "PA Senate District:19"
-  ],
-  "Zip:19355": [
-    "PA Senate District:19",
-    "PA Senate District:26"
-  ],
-  "Zip:19320": [
-    "PA Senate District:19",
-    "PA Senate District:44"
-  ],
-  "Zip:19350": [
-    "PA Senate District:19"
-  ],
-  "Zip:19363": [
-    "PA Senate District:19"
-  ],
-  "PA Senate District:44": [
-    "Zip:19403",
-    "Zip:19518",
-    "Zip:19320",
-    "Zip:19335",
-    "Zip:19465",
-    "Zip:19343",
-    "Zip:19344",
-    "Zip:19520"
-  ],
-  "Zip:19403": [
-    "PA Senate District:44"
-  ],
-  "Zip:19518": [
-    "PA Senate District:44"
-  ],
-  "Zip:19335": [
-    "PA Senate District:44"
-  ],
-  "Zip:19465": [
-    "PA Senate District:44"
-  ],
-  "Zip:19343": [
-    "PA Senate District:44"
-  ],
-  "Zip:19344": [
-    "PA Senate District:44"
-  ],
-  "Zip:19520": [
-    "PA Senate District:44"
-  ],
-  "PA Senate District:22": [
-    "Zip:18407",
-    "Zip:18411",
-    "Zip:18466",
-    "Zip:18325",
-    "Zip:18444",
-    "Zip:18424"
-  ],
-  "Zip:18407": [
-    "PA Senate District:22"
-  ],
-  "Zip:18411": [
-    "PA Senate District:22"
-  ],
-  "Zip:18466": [
-    "PA Senate District:22"
-  ],
-  "Zip:18325": [
-    "PA Senate District:22"
-  ],
-  "Zip:18444": [
-    "PA Senate District:22"
-  ],
-  "Zip:18424": [
-    "PA Senate District:22"
-  ],
-  "PA Senate District:9": [
-    "Zip:19317",
-    "Zip:19380",
-    "Zip:19342",
-    "Zip:19382",
-    "Zip:19063",
-    "Zip:19348"
-  ],
-  "Zip:19317": [
-    "PA Senate District:9"
-  ],
-  "Zip:19380": [
-    "PA Senate District:9"
-  ],
-  "Zip:19342": [
-    "PA Senate District:9"
-  ],
-  "Zip:19382": [
-    "PA Senate District:9"
-  ],
-  "Zip:19063": [
-    "PA Senate District:9",
-    "PA Senate District:26"
-  ],
-  "Zip:19348": [
-    "PA Senate District:9"
-  ],
-  "PA Senate District:16": [
-    "Zip:18066",
-    "Zip:18053",
-    "Zip:18036",
-    "Zip:19529",
-    "Zip:18104",
-    "Zip:18080"
-  ],
-  "Zip:18066": [
-    "PA Senate District:16"
-  ],
-  "Zip:18053": [
-    "PA Senate District:16"
-  ],
-  "Zip:18036": [
-    "PA Senate District:16"
-  ],
-  "Zip:19529": [
-    "PA Senate District:16"
-  ],
-  "Zip:18104": [
-    "PA Senate District:16"
-  ],
-  "Zip:18080": [
-    "PA Senate District:16"
-  ],
-  "PA Senate District:24": [
-    "Zip:18951",
-    "Zip:19512",
-    "Zip:18972"
-  ],
-  "Zip:18951": [
-    "PA Senate District:24"
-  ],
-  "Zip:19512": [
-    "PA Senate District:24"
-  ],
-  "Zip:18972": [
-    "PA Senate District:24"
-  ],
-  "PA Senate District:40": [
-    "Zip:18353",
-    "Zip:18360",
-    "Zip:18301",
-    "Zip:18064",
-    "Zip:18058",
-    "Zip:18302",
-    "Zip:18013"
-  ],
-  "Zip:18353": [
-    "PA Senate District:40"
-  ],
-  "Zip:18360": [
-    "PA Senate District:40"
-  ],
-  "Zip:18301": [
-    "PA Senate District:40"
-  ],
-  "Zip:18064": [
-    "PA Senate District:40"
-  ],
-  "Zip:18058": [
-    "PA Senate District:40"
-  ],
-  "Zip:18302": [
-    "PA Senate District:40"
-  ],
-  "Zip:18013": [
-    "PA Senate District:40"
-  ],
-  "PA Senate District:26": [
-    "Zip:19008",
-    "Zip:19355",
-    "Zip:19063",
-    "Zip:19073",
-    "Zip:19312",
-    "Zip:19064"
-  ],
-  "Zip:19008": [
-    "PA Senate District:26"
-  ],
-  "Zip:19073": [
-    "PA Senate District:26"
-  ],
-  "Zip:19312": [
-    "PA Senate District:26"
-  ],
-  "Zip:19064": [
-    "PA Senate District:26"
-  ],
-  "PA Senate District:10": [
-    "Zip:18901",
-    "Zip:18938",
-    "Zip:19067",
-    "Zip:18902",
-    "Zip:18960",
-    "Zip:18944",
-    "Zip:18940"
-  ],
-  "Zip:18901": [
-    "PA Senate District:10"
-  ],
-  "Zip:18938": [
-    "PA Senate District:10"
-  ],
-  "Zip:19067": [
-    "PA Senate District:10"
-  ],
-  "Zip:18902": [
-    "PA Senate District:10"
-  ],
-  "Zip:18960": [
-    "PA Senate District:10"
-  ],
-  "Zip:18944": [
-    "PA Senate District:10"
-  ],
-  "Zip:18940": [
-    "PA Senate District:10",
-    "PA Senate District:6"
-  ],
-  "PA Senate District:17": [
-    "Zip:19085",
-    "Zip:19462",
-    "Zip:19087",
-    "Zip:19422",
-    "Zip:19083",
-    "Zip:19401",
-    "Zip:19406",
-    "Zip:19010"
-  ],
-  "Zip:19085": [
-    "PA Senate District:17"
-  ],
-  "Zip:19462": [
-    "PA Senate District:17"
-  ],
-  "Zip:19087": [
-    "PA Senate District:17"
-  ],
-  "Zip:19422": [
-    "PA Senate District:17"
-  ],
-  "Zip:19083": [
-    "PA Senate District:17"
-  ],
-  "Zip:19401": [
-    "PA Senate District:17"
-  ],
-  "Zip:19406": [
-    "PA Senate District:17"
-  ],
-  "Zip:19010": [
-    "PA Senate District:17"
-  ],
-  "PA Senate District:12": [
-    "Zip:19440",
-    "Zip:19002",
-    "Zip:18964",
-    "Zip:19446",
-    "Zip:19006",
-    "Zip:18976",
-    "Zip:19044",
-    "Zip:18974",
-    "Zip:19454"
-  ],
-  "Zip:19440": [
-    "PA Senate District:12"
-  ],
-  "Zip:18964": [
-    "PA Senate District:12"
-  ],
-  "Zip:19446": [
-    "PA Senate District:12"
-  ],
-  "Zip:19006": [
-    "PA Senate District:12"
-  ],
-  "Zip:18976": [
-    "PA Senate District:12"
-  ],
-  "Zip:19044": [
-    "PA Senate District:12"
-  ],
-  "Zip:18974": [
-    "PA Senate District:12",
-    "PA Senate District:6"
-  ],
-  "Zip:19454": [
-    "PA Senate District:12"
-  ],
-  "PA Senate District:1": [
-    "Zip:19147",
-    "Zip:19148",
-    "Zip:19145",
-    "Zip:19112",
-    "Zip:19153"
-  ],
-  "Zip:19147": [
-    "PA Senate District:1"
-  ],
-  "Zip:19148": [
-    "PA Senate District:1"
-  ],
-  "Zip:19112": [
-    "PA Senate District:1"
-  ],
-  "PA Senate District:2": [
-    "Zip:19124",
-    "Zip:19149",
-    "Zip:19111",
-    "Zip:19115"
-  ],
-  "Zip:19124": [
-    "PA Senate District:2"
-  ],
-  "Zip:19149": [
-    "PA Senate District:2"
-  ],
-  "Zip:19111": [
-    "PA Senate District:2"
-  ],
-  "Zip:19115": [
-    "PA Senate District:2",
-    "PA Senate District:5"
-  ],
-  "PA Senate District:5": [
-    "Zip:19114",
-    "Zip:19116",
-    "Zip:19136",
-    "Zip:19154",
-    "Zip:19152",
-    "Zip:19137",
-    "Zip:19115"
-  ],
-  "Zip:19114": [
-    "PA Senate District:5"
-  ],
-  "Zip:19116": [
-    "PA Senate District:5"
-  ],
-  "Zip:19136": [
-    "PA Senate District:5"
-  ],
-  "Zip:19154": [
-    "PA Senate District:5"
-  ],
-  "Zip:19152": [
-    "PA Senate District:5"
-  ],
-  "Zip:19137": [
-    "PA Senate District:5"
-  ],
-  "PA Senate District:6": [
-    "Zip:19020",
-    "Zip:19007",
-    "Zip:19047",
-    "Zip:18929",
-    "Zip:19053",
-    "Zip:18954",
-    "Zip:18940",
-    "Zip:18974",
-    "Zip:18966"
-  ],
-  "Zip:19020": [
-    "PA Senate District:6"
-  ],
-  "Zip:19007": [
-    "PA Senate District:6"
-  ],
-  "Zip:19047": [
-    "PA Senate District:6"
-  ],
-  "Zip:18929": [
-    "PA Senate District:6"
-  ],
-  "Zip:19053": [
-    "PA Senate District:6"
-  ],
-  "Zip:18954": [
-    "PA Senate District:6"
-  ],
-  "Zip:18966": [
-    "PA Senate District:6"
-  ],
-  "PA Senate District:36": [
-    "Zip:17557",
-    "Zip:17517",
-    "Zip:17543",
-    "Zip:17022",
-    "Zip:17522",
-    "Zip:17545",
-    "Zip:17552"
-  ],
-  "Zip:17557": [
-    "PA Senate District:36"
-  ],
-  "Zip:17517": [
-    "PA Senate District:36"
-  ],
-  "Zip:17543": [
-    "PA Senate District:36"
-  ],
-  "Zip:17022": [
-    "PA Senate District:36"
-  ],
-  "Zip:17522": [
-    "PA Senate District:36"
-  ],
-  "Zip:17545": [
-    "PA Senate District:36"
-  ],
-  "Zip:17552": [
-    "PA Senate District:36"
-  ],
-  "PA Senate District:29": [
-    "Zip:17963",
-    "Zip:19506",
-    "Zip:17901"
-  ],
-  "Zip:17963": [
-    "PA Senate District:29"
-  ],
-  "Zip:19506": [
-    "PA Senate District:29"
-  ],
-  "Zip:17901": [
-    "PA Senate District:29"
-  ],
-  "PA Senate District:46": [
-    "Zip:15021",
-    "Zip:15370",
-    "Zip:15301"
-  ],
-  "Zip:15021": [
-    "PA Senate District:46"
-  ],
-  "Zip:15370": [
-    "PA Senate District:46"
-  ],
-  "Zip:15301": [
-    "PA Senate District:46"
-  ],
-  "PA Senate District:39": [
-    "Zip:15642",
-    "Zip:15944",
-    "Zip:15650",
-    "Zip:15601",
-    "Zip:15658"
-  ],
-  "Zip:15642": [
-    "PA Senate District:39"
-  ],
-  "Zip:15944": [
-    "PA Senate District:39"
-  ],
-  "Zip:15650": [
-    "PA Senate District:39"
-  ],
-  "Zip:15601": [
-    "PA Senate District:39"
-  ],
-  "Zip:15658": [
-    "PA Senate District:39"
+  "PA Senate District:49": [
+    "Zip:16401",
+    "Zip:16417",
+    "Zip:16428",
+    "Zip:16441",
+    "Zip:16442",
+    "Zip:16509",
+    "Zip:16510"
+  ],
+  "Zip:16401": [
+    "PA Senate District:49"
+  ],
+  "Zip:16417": [
+    "PA Senate District:49"
+  ],
+  "Zip:16428": [
+    "PA Senate District:49"
+  ],
+  "Zip:16441": [
+    "PA Senate District:49"
+  ],
+  "Zip:16442": [
+    "PA Senate District:49"
+  ],
+  "Zip:16509": [
+    "PA Senate District:49"
+  ],
+  "Zip:16510": [
+    "PA Senate District:49"
   ]
 }

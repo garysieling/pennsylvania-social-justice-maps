@@ -15,21 +15,21 @@
   "PA House District:140": [
     "Magesterial Courts:07-1-04",
     "Magesterial Courts:07-1-10",
-    "Magesterial Courts:undefined"
+    "Magesterial Courts:Unknown"
   ],
   "Magesterial Courts:07-2-01": [
-    "PA House District:178",
-    "PA House District:142"
-  ],
-  "PA House District:178": [
-    "Magesterial Courts:07-2-01",
-    "Magesterial Courts:07-2-07",
-    "Magesterial Courts:07-3-01"
+    "PA House District:142",
+    "PA House District:178"
   ],
   "PA House District:142": [
     "Magesterial Courts:07-2-01",
     "Magesterial Courts:07-1-07",
     "Magesterial Courts:07-1-08"
+  ],
+  "PA House District:178": [
+    "Magesterial Courts:07-2-01",
+    "Magesterial Courts:07-2-07",
+    "Magesterial Courts:07-3-01"
   ],
   "Magesterial Courts:07-1-09": [
     "PA House District:29"
@@ -47,8 +47,8 @@
     "Magesterial Courts:07-2-07"
   ],
   "Magesterial Courts:07-2-07": [
-    "PA House District:178",
-    "PA House District:31"
+    "PA House District:31",
+    "PA House District:178"
   ],
   "Magesterial Courts:07-3-02": [
     "PA House District:29",
@@ -69,8 +69,8 @@
     "Magesterial Courts:07-3-03"
   ],
   "Magesterial Courts:07-3-01": [
-    "PA House District:178",
-    "PA House District:29"
+    "PA House District:29",
+    "PA House District:178"
   ],
   "Magesterial Courts:07-3-03": [
     "PA House District:143",
@@ -87,8 +87,8 @@
     "PA House District:141"
   ],
   "Magesterial Courts:07-1-07": [
-    "PA House District:142",
-    "PA House District:141"
+    "PA House District:141",
+    "PA House District:142"
   ],
   "Magesterial Courts:07-1-01": [
     "PA House District:18"
@@ -106,112 +106,8 @@
   "Magesterial Courts:07-1-10": [
     "PA House District:140"
   ],
-  "Magesterial Courts:undefined": [
+  "Magesterial Courts:Unknown": [
     "PA House District:140"
-  ],
-  "Magesterial Courts:2015-02-07": [
-    "PA House District:167",
-    "PA House District:155"
-  ],
-  "PA House District:167": [
-    "Magesterial Courts:2015-02-07",
-    "Magesterial Courts:2015-04-01",
-    "Magesterial Courts:2015-04-03",
-    "Magesterial Courts:2015-01-02",
-    "Magesterial Courts:2015-02-01"
-  ],
-  "PA House District:155": [
-    "Magesterial Courts:2015-02-07",
-    "Magesterial Courts:2015-04-02",
-    "Magesterial Courts:2015-03-01",
-    "Magesterial Courts:2015-03-06"
-  ],
-  "Magesterial Courts:2015-02-03": [
-    "PA House District:156"
-  ],
-  "PA House District:156": [
-    "Magesterial Courts:2015-02-03",
-    "Magesterial Courts:2015-01-02",
-    "Magesterial Courts:2015-03-04"
-  ],
-  "Magesterial Courts:2015-03-05": [
-    "PA House District:13"
-  ],
-  "PA House District:13": [
-    "Magesterial Courts:2015-03-05",
-    "Magesterial Courts:2015-04-04",
-    "Magesterial Courts:2015-03-07"
-  ],
-  "Magesterial Courts:2015-04-02": [
-    "PA House District:155",
-    "PA House District:74"
-  ],
-  "PA House District:74": [
-    "Magesterial Courts:2015-04-02",
-    "Magesterial Courts:2015-01-03",
-    "Magesterial Courts:2015-03-07"
-  ],
-  "Magesterial Courts:2015-04-01": [
-    "PA House District:167",
-    "PA House District:157"
-  ],
-  "PA House District:157": [
-    "Magesterial Courts:2015-04-01",
-    "Magesterial Courts:2015-01-02",
-    "Magesterial Courts:2015-02-01",
-    "Magesterial Courts:1938-01-19",
-    "Magesterial Courts:1938-01-20"
-  ],
-  "Magesterial Courts:2015-04-03": [
-    "PA House District:167"
-  ],
-  "Magesterial Courts:2015-04-04": [
-    "PA House District:13",
-    "PA House District:158"
-  ],
-  "PA House District:158": [
-    "Magesterial Courts:2015-04-04",
-    "Magesterial Courts:2015-01-01",
-    "Magesterial Courts:2015-03-04"
-  ],
-  "Magesterial Courts:2015-01-02": [
-    "PA House District:167",
-    "PA House District:156",
-    "PA House District:157"
-  ],
-  "Magesterial Courts:2015-01-03": [
-    "PA House District:74"
-  ],
-  "Magesterial Courts:2015-01-01": [
-    "PA House District:158"
-  ],
-  "Magesterial Courts:2015-02-01": [
-    "PA House District:167",
-    "PA House District:157"
-  ],
-  "Magesterial Courts:2015-03-01": [
-    "PA House District:155",
-    "PA House District:26"
-  ],
-  "PA House District:26": [
-    "Magesterial Courts:2015-03-01",
-    "Magesterial Courts:2015-03-06"
-  ],
-  "Magesterial Courts:2015-03-04": [
-    "PA House District:156",
-    "PA House District:158",
-    "PA House District:160"
-  ],
-  "PA House District:160": [
-    "Magesterial Courts:2015-03-04"
-  ],
-  "Magesterial Courts:2015-03-06": [
-    "PA House District:155",
-    "PA House District:26"
-  ],
-  "Magesterial Courts:2015-03-07": [
-    "PA House District:13",
-    "PA House District:74"
   ],
   "Magesterial Courts:1938-01-01": [
     "PA House District:70",
@@ -277,8 +173,8 @@
   ],
   "Magesterial Courts:1938-01-10": [
     "PA House District:151",
-    "PA House District:153",
-    "PA House District:152"
+    "PA House District:152",
+    "PA House District:153"
   ],
   "PA House District:151": [
     "Magesterial Courts:1938-01-10",
@@ -299,8 +195,8 @@
     "Magesterial Courts:1938-01-19"
   ],
   "Magesterial Courts:1938-01-13": [
-    "PA House District:148",
-    "PA House District:70"
+    "PA House District:70",
+    "PA House District:148"
   ],
   "Magesterial Courts:1938-01-14": [
     "PA House District:151",
@@ -318,12 +214,19 @@
   ],
   "Magesterial Courts:1938-01-19": [
     "PA House District:146",
-    "PA House District:157",
-    "PA House District:150"
+    "PA House District:150",
+    "PA House District:157"
+  ],
+  "PA House District:157": [
+    "Magesterial Courts:1938-01-19",
+    "Magesterial Courts:1938-01-20",
+    "Magesterial Courts:2015-04-01",
+    "Magesterial Courts:2015-01-02",
+    "Magesterial Courts:2015-02-01"
   ],
   "Magesterial Courts:1938-01-20": [
-    "PA House District:157",
-    "PA House District:150"
+    "PA House District:150",
+    "PA House District:157"
   ],
   "Magesterial Courts:1938-01-21": [
     "PA House District:61"
@@ -339,8 +242,8 @@
     "PA House District:148"
   ],
   "Magesterial Courts:1938-01-24": [
-    "PA House District:70",
     "PA House District:53",
+    "PA House District:70",
     "PA House District:147",
     "PA House District:150"
   ],
@@ -357,8 +260,8 @@
     "PA House District:61"
   ],
   "Magesterial Courts:1938-02-02": [
-    "PA House District:131",
     "PA House District:53",
+    "PA House District:131",
     "PA House District:147"
   ],
   "PA House District:131": [
@@ -376,5 +279,102 @@
   ],
   "Magesterial Courts:1938-02-08": [
     "PA House District:152"
+  ],
+  "Magesterial Courts:2015-02-07": [
+    "PA House District:155",
+    "PA House District:167"
+  ],
+  "PA House District:155": [
+    "Magesterial Courts:2015-02-07",
+    "Magesterial Courts:2015-04-02",
+    "Magesterial Courts:2015-03-01",
+    "Magesterial Courts:2015-03-06"
+  ],
+  "PA House District:167": [
+    "Magesterial Courts:2015-02-07",
+    "Magesterial Courts:2015-04-01",
+    "Magesterial Courts:2015-04-03",
+    "Magesterial Courts:2015-01-02",
+    "Magesterial Courts:2015-02-01"
+  ],
+  "Magesterial Courts:2015-02-03": [
+    "PA House District:156"
+  ],
+  "PA House District:156": [
+    "Magesterial Courts:2015-02-03",
+    "Magesterial Courts:2015-01-02",
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Magesterial Courts:2015-03-05": [
+    "PA House District:13"
+  ],
+  "PA House District:13": [
+    "Magesterial Courts:2015-03-05",
+    "Magesterial Courts:2015-04-04",
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Magesterial Courts:2015-04-02": [
+    "PA House District:74",
+    "PA House District:155"
+  ],
+  "PA House District:74": [
+    "Magesterial Courts:2015-04-02",
+    "Magesterial Courts:2015-01-03",
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Magesterial Courts:2015-04-01": [
+    "PA House District:157",
+    "PA House District:167"
+  ],
+  "Magesterial Courts:2015-04-03": [
+    "PA House District:167"
+  ],
+  "Magesterial Courts:2015-04-04": [
+    "PA House District:13",
+    "PA House District:158"
+  ],
+  "PA House District:158": [
+    "Magesterial Courts:2015-04-04",
+    "Magesterial Courts:2015-01-01",
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Magesterial Courts:2015-01-02": [
+    "PA House District:156",
+    "PA House District:157",
+    "PA House District:167"
+  ],
+  "Magesterial Courts:2015-01-03": [
+    "PA House District:74"
+  ],
+  "Magesterial Courts:2015-01-01": [
+    "PA House District:158"
+  ],
+  "Magesterial Courts:2015-02-01": [
+    "PA House District:157",
+    "PA House District:167"
+  ],
+  "Magesterial Courts:2015-03-01": [
+    "PA House District:26",
+    "PA House District:155"
+  ],
+  "PA House District:26": [
+    "Magesterial Courts:2015-03-01",
+    "Magesterial Courts:2015-03-06"
+  ],
+  "Magesterial Courts:2015-03-04": [
+    "PA House District:156",
+    "PA House District:158",
+    "PA House District:160"
+  ],
+  "PA House District:160": [
+    "Magesterial Courts:2015-03-04"
+  ],
+  "Magesterial Courts:2015-03-06": [
+    "PA House District:26",
+    "PA House District:155"
+  ],
+  "Magesterial Courts:2015-03-07": [
+    "PA House District:13",
+    "PA House District:74"
   ]
 }

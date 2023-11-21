@@ -1,93 +1,36 @@
 {
-  "Municipality:Allegheny - South Park Township": [
-    "Zip:15236",
-    "Zip:15129"
+  "Municipality:Allegheny - Aspinwall Borough": [
+    "Zip:15215"
   ],
-  "Zip:15236": [
-    "Municipality:Allegheny - South Park Township",
-    "Municipality:Allegheny - Whitehall Borough",
-    "Municipality:Allegheny - Pleasant Hills Borough",
-    "Municipality:Allegheny - Baldwin Borough"
+  "Zip:15215": [
+    "Municipality:Allegheny - Aspinwall Borough",
+    "Municipality:Allegheny - Fox Chapel Borough",
+    "Municipality:Allegheny - Sharpsburg Borough"
   ],
-  "Zip:15129": [
-    "Municipality:Allegheny - South Park Township"
+  "Municipality:Allegheny - Avalon Borough": [
+    "Zip:15202"
   ],
-  "Municipality:Allegheny - North Versailles Township": [
-    "Zip:15137"
+  "Zip:15202": [
+    "Municipality:Allegheny - Avalon Borough",
+    "Municipality:Allegheny - Bellevue Borough",
+    "Municipality:Allegheny - Ben Avon Borough",
+    "Municipality:Allegheny - Emsworth Borough",
+    "Municipality:Allegheny - Kilbuck Township"
   ],
-  "Zip:15137": [
-    "Municipality:Allegheny - North Versailles Township"
-  ],
-  "Municipality:Allegheny - Clairton City": [
-    "Zip:15025"
-  ],
-  "Zip:15025": [
-    "Municipality:Allegheny - Clairton City",
-    "Municipality:Allegheny - Jefferson Hills Borough"
-  ],
-  "Municipality:Allegheny - Duquesne City": [
-    "Zip:15110"
-  ],
-  "Zip:15110": [
-    "Municipality:Allegheny - Duquesne City"
-  ],
-  "Municipality:Allegheny - Mckeesport City": [
-    "Zip:15132"
-  ],
-  "Zip:15132": [
-    "Municipality:Allegheny - Mckeesport City",
-    "Municipality:Allegheny - Versailles Borough"
-  ],
-  "Municipality:Allegheny - East Mckeesport Borough": [
-    "Zip:15035"
-  ],
-  "Zip:15035": [
-    "Municipality:Allegheny - East Mckeesport Borough"
-  ],
-  "Municipality:Allegheny - Glassport Borough": [
-    "Zip:15045"
-  ],
-  "Zip:15045": [
-    "Municipality:Allegheny - Glassport Borough"
-  ],
-  "Municipality:Allegheny - Bethel Park Borough": [
-    "Zip:15102"
-  ],
-  "Zip:15102": [
-    "Municipality:Allegheny - Bethel Park Borough"
-  ],
-  "Municipality:Allegheny - Brentwood Borough": [
-    "Zip:15227"
+  "Municipality:Allegheny - Baldwin Borough": [
+    "Zip:15227",
+    "Zip:15236"
   ],
   "Zip:15227": [
+    "Municipality:Allegheny - Baldwin Borough",
     "Municipality:Allegheny - Brentwood Borough",
-    "Municipality:Allegheny - Whitehall Borough",
-    "Municipality:Allegheny - Baldwin Borough"
+    "Municipality:Allegheny - Whitehall Borough"
   ],
-  "Municipality:Allegheny - Bridgeville Borough": [
-    "Zip:15017"
-  ],
-  "Zip:15017": [
-    "Municipality:Allegheny - Bridgeville Borough",
-    "Municipality:Allegheny - South Fayette Township",
-    "Municipality:Allegheny - Collier Township"
-  ],
-  "Municipality:Allegheny - Upper St Clair Township": [
-    "Zip:15241"
-  ],
-  "Zip:15241": [
-    "Municipality:Allegheny - Upper St Clair Township"
-  ],
-  "Municipality:Allegheny - South Versailles Township": [
-    "Zip:15028",
-    "Zip:15131"
-  ],
-  "Zip:15028": [
-    "Municipality:Allegheny - South Versailles Township"
-  ],
-  "Zip:15131": [
-    "Municipality:Allegheny - South Versailles Township",
-    "Municipality:Allegheny - White Oak Borough"
+  "Zip:15236": [
+    "Municipality:Allegheny - Baldwin Borough",
+    "Municipality:Allegheny - Pleasant Hills Borough",
+    "Municipality:Allegheny - South Park Township",
+    "Municipality:Allegheny - Whitehall Borough"
   ],
   "Municipality:Allegheny - Baldwin Township": [
     "Zip:15226",
@@ -99,6 +42,169 @@
   "Zip:15234": [
     "Municipality:Allegheny - Baldwin Township",
     "Municipality:Allegheny - Castle Shannon Borough"
+  ],
+  "Municipality:Allegheny - Bell Acres Borough": [
+    "Zip:15143"
+  ],
+  "Zip:15143": [
+    "Municipality:Allegheny - Bell Acres Borough",
+    "Municipality:Allegheny - Franklin Park Borough",
+    "Municipality:Allegheny - Ohio Township",
+    "Municipality:Allegheny - Sewickley Heights Borough",
+    "Municipality:Allegheny - Sewickley Hills Borough"
+  ],
+  "Municipality:Allegheny - Bellevue Borough": [
+    "Zip:15202"
+  ],
+  "Municipality:Allegheny - Ben Avon Borough": [
+    "Zip:15202"
+  ],
+  "Municipality:Allegheny - Bethel Park Borough": [
+    "Zip:15102"
+  ],
+  "Zip:15102": [
+    "Municipality:Allegheny - Bethel Park Borough"
+  ],
+  "Municipality:Allegheny - Brackenridge Borough": [
+    "Zip:15014"
+  ],
+  "Zip:15014": [
+    "Municipality:Allegheny - Brackenridge Borough"
+  ],
+  "Municipality:Allegheny - Braddock Borough": [
+    "Zip:15104"
+  ],
+  "Zip:15104": [
+    "Municipality:Allegheny - Braddock Borough",
+    "Municipality:Allegheny - North Braddock Borough",
+    "Municipality:Allegheny - Rankin Borough"
+  ],
+  "Municipality:Allegheny - Braddock Hills Borough": [
+    "Zip:15221"
+  ],
+  "Zip:15221": [
+    "Municipality:Allegheny - Braddock Hills Borough",
+    "Municipality:Allegheny - Forest Hills Borough",
+    "Municipality:Allegheny - Wilkinsburg Borough"
+  ],
+  "Municipality:Allegheny - Bradford Woods Borough": [
+    "Zip:15015"
+  ],
+  "Zip:15015": [
+    "Municipality:Allegheny - Bradford Woods Borough"
+  ],
+  "Municipality:Allegheny - Brentwood Borough": [
+    "Zip:15227"
+  ],
+  "Municipality:Allegheny - Bridgeville Borough": [
+    "Zip:15017"
+  ],
+  "Zip:15017": [
+    "Municipality:Allegheny - Bridgeville Borough",
+    "Municipality:Allegheny - Collier Township",
+    "Municipality:Allegheny - South Fayette Township"
+  ],
+  "Municipality:Allegheny - Carnegie Borough": [
+    "Zip:15106"
+  ],
+  "Zip:15106": [
+    "Municipality:Allegheny - Carnegie Borough",
+    "Municipality:Allegheny - Collier Township",
+    "Municipality:Allegheny - Scott Township"
+  ],
+  "Municipality:Allegheny - Castle Shannon Borough": [
+    "Zip:15234"
+  ],
+  "Municipality:Allegheny - Chalfant Borough": [
+    "Zip:15112"
+  ],
+  "Zip:15112": [
+    "Municipality:Allegheny - Chalfant Borough",
+    "Municipality:Allegheny - East Pittsburgh Borough",
+    "Municipality:Allegheny - Wilkins Township"
+  ],
+  "Municipality:Allegheny - Churchill Borough": [
+    "Zip:15235"
+  ],
+  "Zip:15235": [
+    "Municipality:Allegheny - Churchill Borough",
+    "Municipality:Allegheny - Penn Hills Township",
+    "Municipality:Allegheny - Wilkins Township"
+  ],
+  "Municipality:Allegheny - Clairton City": [
+    "Zip:15025"
+  ],
+  "Zip:15025": [
+    "Municipality:Allegheny - Clairton City",
+    "Municipality:Allegheny - Jefferson Hills Borough"
+  ],
+  "Municipality:Allegheny - Collier Township": [
+    "Zip:15017",
+    "Zip:15071",
+    "Zip:15106",
+    "Zip:15142"
+  ],
+  "Zip:15071": [
+    "Municipality:Allegheny - Collier Township",
+    "Municipality:Allegheny - North Fayette Township",
+    "Municipality:Allegheny - South Fayette Township"
+  ],
+  "Zip:15142": [
+    "Municipality:Allegheny - Collier Township"
+  ],
+  "Municipality:Allegheny - Crafton Borough": [
+    "Zip:15205"
+  ],
+  "Zip:15205": [
+    "Municipality:Allegheny - Crafton Borough",
+    "Municipality:Allegheny - Robinson Township"
+  ],
+  "Municipality:Allegheny - Crescent Township": [
+    "Zip:15046"
+  ],
+  "Zip:15046": [
+    "Municipality:Allegheny - Crescent Township"
+  ],
+  "Municipality:Allegheny - Dormont Borough": [
+    "Zip:15216"
+  ],
+  "Zip:15216": [
+    "Municipality:Allegheny - Dormont Borough",
+    "Municipality:Allegheny - Mt Lebanon Township"
+  ],
+  "Municipality:Allegheny - Dravosburg Borough": [
+    "Zip:15034"
+  ],
+  "Zip:15034": [
+    "Municipality:Allegheny - Dravosburg Borough"
+  ],
+  "Municipality:Allegheny - Duquesne City": [
+    "Zip:15110"
+  ],
+  "Zip:15110": [
+    "Municipality:Allegheny - Duquesne City"
+  ],
+  "Municipality:Allegheny - East Deer Township": [
+    "Zip:15030"
+  ],
+  "Zip:15030": [
+    "Municipality:Allegheny - East Deer Township"
+  ],
+  "Municipality:Allegheny - East Mckeesport Borough": [
+    "Zip:15035"
+  ],
+  "Zip:15035": [
+    "Municipality:Allegheny - East Mckeesport Borough"
+  ],
+  "Municipality:Allegheny - East Pittsburgh Borough": [
+    "Zip:15112"
+  ],
+  "Municipality:Allegheny - Edgewood Borough": [
+    "Zip:15218"
+  ],
+  "Zip:15218": [
+    "Municipality:Allegheny - Edgewood Borough",
+    "Municipality:Allegheny - Swissvale Borough"
   ],
   "Municipality:Allegheny - Elizabeth Township": [
     "Zip:15018",
@@ -116,278 +222,8 @@
   "Zip:15135": [
     "Municipality:Allegheny - Elizabeth Township"
   ],
-  "Municipality:Allegheny - Forward Township": [
-    "Zip:15037",
-    "Zip:15063",
-    "Zip:15020"
-  ],
-  "Zip:15063": [
-    "Municipality:Allegheny - Forward Township"
-  ],
-  "Zip:15020": [
-    "Municipality:Allegheny - Forward Township"
-  ],
-  "Municipality:Allegheny - Dravosburg Borough": [
-    "Zip:15034"
-  ],
-  "Zip:15034": [
-    "Municipality:Allegheny - Dravosburg Borough"
-  ],
-  "Municipality:Allegheny - West Elizabeth Borough": [
-    "Zip:15088"
-  ],
-  "Zip:15088": [
-    "Municipality:Allegheny - West Elizabeth Borough"
-  ],
-  "Municipality:Allegheny - Liberty Borough": [
-    "Zip:15133"
-  ],
-  "Zip:15133": [
-    "Municipality:Allegheny - Liberty Borough",
-    "Municipality:Allegheny - Port Vue Borough",
-    "Municipality:Allegheny - Lincoln Borough"
-  ],
-  "Municipality:Allegheny - West Mifflin Borough": [
-    "Zip:15122"
-  ],
-  "Zip:15122": [
-    "Municipality:Allegheny - West Mifflin Borough"
-  ],
-  "Municipality:Allegheny - Whitehall Borough": [
-    "Zip:15236",
-    "Zip:15227"
-  ],
-  "Municipality:Allegheny - White Oak Borough": [
-    "Zip:15131"
-  ],
-  "Municipality:Allegheny - Pleasant Hills Borough": [
-    "Zip:15236"
-  ],
-  "Municipality:Allegheny - Port Vue Borough": [
-    "Zip:15133"
-  ],
-  "Municipality:Allegheny - Versailles Borough": [
-    "Zip:15132"
-  ],
-  "Municipality:Allegheny - Wall Borough": [
-    "Zip:15148"
-  ],
-  "Zip:15148": [
-    "Municipality:Allegheny - Wall Borough",
-    "Municipality:Allegheny - Wilmerding Borough"
-  ],
-  "Municipality:Allegheny - Jefferson Hills Borough": [
-    "Zip:15025",
-    "Zip:15332"
-  ],
-  "Zip:15332": [
-    "Municipality:Allegheny - Jefferson Hills Borough"
-  ],
-  "Municipality:Allegheny - Lincoln Borough": [
-    "Zip:15037",
-    "Zip:15133"
-  ],
-  "Municipality:Allegheny - Castle Shannon Borough": [
-    "Zip:15234"
-  ],
-  "Municipality:Allegheny - Wilmerding Borough": [
-    "Zip:15148"
-  ],
-  "Municipality:Allegheny - Marshall Township": [
-    "Zip:15090",
-    "Zip:16046",
-    "Zip:15005",
-    "Zip:15086"
-  ],
-  "Zip:15090": [
-    "Municipality:Allegheny - Marshall Township",
-    "Municipality:Allegheny - Mccandless Township",
-    "Municipality:Allegheny - Pine Township",
-    "Municipality:Allegheny - Franklin Park Borough"
-  ],
-  "Zip:16046": [
-    "Municipality:Allegheny - Marshall Township"
-  ],
-  "Zip:15005": [
-    "Municipality:Allegheny - Marshall Township"
-  ],
-  "Zip:15086": [
-    "Municipality:Allegheny - Marshall Township"
-  ],
-  "Municipality:Allegheny - Forest Hills Borough": [
-    "Zip:15221"
-  ],
-  "Zip:15221": [
-    "Municipality:Allegheny - Forest Hills Borough",
-    "Municipality:Allegheny - Braddock Hills Borough",
-    "Municipality:Allegheny - Wilkinsburg Borough"
-  ],
-  "Municipality:Allegheny - Edgewood Borough": [
-    "Zip:15218"
-  ],
-  "Zip:15218": [
-    "Municipality:Allegheny - Edgewood Borough",
-    "Municipality:Allegheny - Swissvale Borough"
-  ],
-  "Municipality:Allegheny - Neville Township": [
-    "Zip:15225"
-  ],
-  "Zip:15225": [
-    "Municipality:Allegheny - Neville Township"
-  ],
-  "Municipality:Allegheny - Mckees Rocks Borough": [
-    "Zip:15136"
-  ],
-  "Zip:15136": [
-    "Municipality:Allegheny - Mckees Rocks Borough",
-    "Municipality:Allegheny - Stowe Township",
-    "Municipality:Allegheny - Kennedy Township",
-    "Municipality:Allegheny - Robinson Township"
-  ],
-  "Municipality:Allegheny - Millvale Borough": [
-    "Zip:15209"
-  ],
-  "Zip:15209": [
-    "Municipality:Allegheny - Millvale Borough",
-    "Municipality:Allegheny - Shaler Township"
-  ],
-  "Municipality:Allegheny - East Deer Township": [
-    "Zip:15030"
-  ],
-  "Zip:15030": [
-    "Municipality:Allegheny - East Deer Township"
-  ],
-  "Municipality:Allegheny - Harrison Township": [
-    "Zip:15065"
-  ],
-  "Zip:15065": [
-    "Municipality:Allegheny - Harrison Township",
-    "Municipality:Allegheny - Fawn Township"
-  ],
-  "Municipality:Allegheny - Aspinwall Borough": [
-    "Zip:15215"
-  ],
-  "Zip:15215": [
-    "Municipality:Allegheny - Aspinwall Borough",
-    "Municipality:Allegheny - Fox Chapel Borough",
-    "Municipality:Allegheny - Sharpsburg Borough"
-  ],
-  "Municipality:Allegheny - Baldwin Borough": [
-    "Zip:15236",
-    "Zip:15227"
-  ],
-  "Municipality:Allegheny - Avalon Borough": [
-    "Zip:15202"
-  ],
-  "Zip:15202": [
-    "Municipality:Allegheny - Avalon Borough",
-    "Municipality:Allegheny - Ben Avon Borough",
-    "Municipality:Allegheny - Emsworth Borough",
-    "Municipality:Allegheny - Bellevue Borough",
-    "Municipality:Allegheny - Kilbuck Township"
-  ],
-  "Municipality:Allegheny - Fawn Township": [
-    "Zip:15065",
-    "Zip:15084"
-  ],
-  "Zip:15084": [
-    "Municipality:Allegheny - Fawn Township",
-    "Municipality:Allegheny - West Deer Township",
-    "Municipality:Allegheny - Frazer Township"
-  ],
-  "Municipality:Allegheny - Stowe Township": [
-    "Zip:15136"
-  ],
-  "Municipality:Allegheny - Wilkins Township": [
-    "Zip:15145",
-    "Zip:15112",
-    "Zip:15235"
-  ],
-  "Zip:15145": [
-    "Municipality:Allegheny - Wilkins Township",
-    "Municipality:Allegheny - Turtle Creek Borough"
-  ],
-  "Zip:15112": [
-    "Municipality:Allegheny - Wilkins Township",
-    "Municipality:Allegheny - Chalfant Borough",
-    "Municipality:Allegheny - East Pittsburgh Borough"
-  ],
-  "Zip:15235": [
-    "Municipality:Allegheny - Wilkins Township",
-    "Municipality:Allegheny - Churchill Borough",
-    "Municipality:Allegheny - Penn Hills Township"
-  ],
-  "Municipality:Allegheny - Kennedy Township": [
-    "Zip:15136"
-  ],
-  "Municipality:Allegheny - Reserve Township": [
-    "Zip:15212"
-  ],
-  "Zip:15212": [
-    "Municipality:Allegheny - Reserve Township",
-    "Municipality:Allegheny - Pittsburgh City"
-  ],
-  "Municipality:Allegheny - Chalfant Borough": [
-    "Zip:15112"
-  ],
-  "Municipality:Allegheny - Dormont Borough": [
-    "Zip:15216"
-  ],
-  "Zip:15216": [
-    "Municipality:Allegheny - Dormont Borough",
-    "Municipality:Allegheny - Mt Lebanon Township"
-  ],
-  "Municipality:Allegheny - Ben Avon Borough": [
-    "Zip:15202"
-  ],
-  "Municipality:Allegheny - South Fayette Township": [
-    "Zip:15017",
-    "Zip:15057",
-    "Zip:15071"
-  ],
-  "Zip:15057": [
-    "Municipality:Allegheny - South Fayette Township",
-    "Municipality:Allegheny - North Fayette Township"
-  ],
-  "Zip:15071": [
-    "Municipality:Allegheny - South Fayette Township",
-    "Municipality:Allegheny - North Fayette Township",
-    "Municipality:Allegheny - Collier Township"
-  ],
   "Municipality:Allegheny - Emsworth Borough": [
     "Zip:15202"
-  ],
-  "Municipality:Allegheny - Greentree Borough": [
-    "Zip:15220"
-  ],
-  "Zip:15220": [
-    "Municipality:Allegheny - Greentree Borough",
-    "Municipality:Allegheny - Scott Township"
-  ],
-  "Municipality:Allegheny - Crafton Borough": [
-    "Zip:15205"
-  ],
-  "Zip:15205": [
-    "Municipality:Allegheny - Crafton Borough",
-    "Municipality:Allegheny - Robinson Township"
-  ],
-  "Municipality:Allegheny - Ohio Township": [
-    "Zip:15143",
-    "Zip:15237"
-  ],
-  "Zip:15143": [
-    "Municipality:Allegheny - Ohio Township",
-    "Municipality:Allegheny - Franklin Park Borough",
-    "Municipality:Allegheny - Bell Acres Borough",
-    "Municipality:Allegheny - Sewickley Heights Borough",
-    "Municipality:Allegheny - Sewickley Hills Borough"
-  ],
-  "Zip:15237": [
-    "Municipality:Allegheny - Ohio Township",
-    "Municipality:Allegheny - Mccandless Township",
-    "Municipality:Allegheny - Kilbuck Township",
-    "Municipality:Allegheny - Franklin Park Borough",
-    "Municipality:Allegheny - Ross Township"
   ],
   "Municipality:Allegheny - Etna Borough": [
     "Zip:15223"
@@ -396,19 +232,49 @@
     "Municipality:Allegheny - Etna Borough",
     "Municipality:Allegheny - Shaler Township"
   ],
-  "Municipality:Allegheny - East Pittsburgh Borough": [
-    "Zip:15112"
+  "Municipality:Allegheny - Fawn Township": [
+    "Zip:15065",
+    "Zip:15084"
   ],
-  "Municipality:Allegheny - Churchill Borough": [
-    "Zip:15235"
+  "Zip:15065": [
+    "Municipality:Allegheny - Fawn Township",
+    "Municipality:Allegheny - Harrison Township"
   ],
-  "Municipality:Allegheny - Braddock Borough": [
-    "Zip:15104"
+  "Zip:15084": [
+    "Municipality:Allegheny - Fawn Township",
+    "Municipality:Allegheny - Frazer Township",
+    "Municipality:Allegheny - West Deer Township"
   ],
-  "Zip:15104": [
-    "Municipality:Allegheny - Braddock Borough",
-    "Municipality:Allegheny - Rankin Borough",
-    "Municipality:Allegheny - North Braddock Borough"
+  "Municipality:Allegheny - Findlay Township": [
+    "Zip:15026",
+    "Zip:15108",
+    "Zip:15126"
+  ],
+  "Zip:15026": [
+    "Municipality:Allegheny - Findlay Township"
+  ],
+  "Zip:15108": [
+    "Municipality:Allegheny - Findlay Township",
+    "Municipality:Allegheny - Moon Township",
+    "Municipality:Allegheny - Robinson Township"
+  ],
+  "Zip:15126": [
+    "Municipality:Allegheny - Findlay Township",
+    "Municipality:Allegheny - North Fayette Township"
+  ],
+  "Municipality:Allegheny - Forest Hills Borough": [
+    "Zip:15221"
+  ],
+  "Municipality:Allegheny - Forward Township": [
+    "Zip:15020",
+    "Zip:15037",
+    "Zip:15063"
+  ],
+  "Zip:15020": [
+    "Municipality:Allegheny - Forward Township"
+  ],
+  "Zip:15063": [
+    "Municipality:Allegheny - Forward Township"
   ],
   "Municipality:Allegheny - Fox Chapel Borough": [
     "Zip:15215",
@@ -419,173 +285,102 @@
     "Municipality:Allegheny - Harmar Township",
     "Municipality:Allegheny - Indiana Township"
   ],
-  "Municipality:Allegheny - Carnegie Borough": [
-    "Zip:15106"
+  "Municipality:Allegheny - Franklin Park Borough": [
+    "Zip:15090",
+    "Zip:15143",
+    "Zip:15237"
   ],
-  "Zip:15106": [
-    "Municipality:Allegheny - Carnegie Borough",
-    "Municipality:Allegheny - Scott Township",
-    "Municipality:Allegheny - Collier Township"
-  ],
-  "Municipality:Allegheny - West Deer Township": [
-    "Zip:15044",
-    "Zip:15084",
-    "Zip:15024"
-  ],
-  "Zip:15044": [
-    "Municipality:Allegheny - West Deer Township",
-    "Municipality:Allegheny - Hampton Township",
-    "Municipality:Allegheny - Richland Township",
+  "Zip:15090": [
+    "Municipality:Allegheny - Franklin Park Borough",
+    "Municipality:Allegheny - Marshall Township",
+    "Municipality:Allegheny - Mccandless Township",
     "Municipality:Allegheny - Pine Township"
   ],
-  "Zip:15024": [
-    "Municipality:Allegheny - West Deer Township",
-    "Municipality:Allegheny - Harmar Township",
-    "Municipality:Allegheny - Indiana Township"
+  "Zip:15237": [
+    "Municipality:Allegheny - Franklin Park Borough",
+    "Municipality:Allegheny - Kilbuck Township",
+    "Municipality:Allegheny - Mccandless Township",
+    "Municipality:Allegheny - Ohio Township",
+    "Municipality:Allegheny - Ross Township"
   ],
-  "Municipality:Allegheny - Brackenridge Borough": [
-    "Zip:15014"
+  "Municipality:Allegheny - Frazer Township": [
+    "Zip:15084"
   ],
-  "Zip:15014": [
-    "Municipality:Allegheny - Brackenridge Borough"
+  "Municipality:Allegheny - Glassport Borough": [
+    "Zip:15045"
   ],
-  "Municipality:Allegheny - Bellevue Borough": [
-    "Zip:15202"
+  "Zip:15045": [
+    "Municipality:Allegheny - Glassport Borough"
   ],
-  "Municipality:Allegheny - Braddock Hills Borough": [
-    "Zip:15221"
+  "Municipality:Allegheny - Green Tree Borough": [
+    "Zip:15220"
   ],
-  "Municipality:Allegheny - Bradfordwoods Borough": [
-    "Zip:15015"
+  "Zip:15220": [
+    "Municipality:Allegheny - Green Tree Borough",
+    "Municipality:Allegheny - Scott Township"
   ],
-  "Zip:15015": [
-    "Municipality:Allegheny - Bradfordwoods Borough"
+  "Municipality:Allegheny - Hampton Township": [
+    "Zip:15044",
+    "Zip:15101"
+  ],
+  "Zip:15044": [
+    "Municipality:Allegheny - Hampton Township",
+    "Municipality:Allegheny - Pine Township",
+    "Municipality:Allegheny - Richland Township",
+    "Municipality:Allegheny - West Deer Township"
+  ],
+  "Zip:15101": [
+    "Municipality:Allegheny - Hampton Township",
+    "Municipality:Allegheny - Mccandless Township"
   ],
   "Municipality:Allegheny - Harmar Township": [
-    "Zip:15238",
-    "Zip:15024"
+    "Zip:15024",
+    "Zip:15238"
+  ],
+  "Zip:15024": [
+    "Municipality:Allegheny - Harmar Township",
+    "Municipality:Allegheny - Indiana Township",
+    "Municipality:Allegheny - West Deer Township"
+  ],
+  "Municipality:Allegheny - Harrison Township": [
+    "Zip:15065"
   ],
   "Municipality:Allegheny - Homestead Borough": [
     "Zip:15120"
   ],
   "Zip:15120": [
     "Municipality:Allegheny - Homestead Borough",
+    "Municipality:Allegheny - Munhall Borough",
     "Municipality:Allegheny - West Homestead Borough",
-    "Municipality:Allegheny - Whitaker Borough",
-    "Municipality:Allegheny - Munhall Borough"
+    "Municipality:Allegheny - Whitaker Borough"
   ],
-  "Municipality:Allegheny - Moon Township": [
-    "Zip:15108"
-  ],
-  "Zip:15108": [
-    "Municipality:Allegheny - Moon Township",
-    "Municipality:Allegheny - Findlay Township",
-    "Municipality:Allegheny - Robinson Township"
-  ],
-  "Municipality:Allegheny - Scott Township": [
-    "Zip:15106",
-    "Zip:15220",
-    "Zip:15243"
-  ],
-  "Zip:15243": [
-    "Municipality:Allegheny - Scott Township",
-    "Municipality:Allegheny - Mt Lebanon Township"
-  ],
-  "Municipality:Allegheny - Frazer Township": [
-    "Zip:15084"
-  ],
-  "Municipality:Allegheny - Hampton Township": [
-    "Zip:15044",
-    "Zip:15101"
-  ],
-  "Zip:15101": [
-    "Municipality:Allegheny - Hampton Township",
-    "Municipality:Allegheny - Mccandless Township"
-  ],
-  "Municipality:Allegheny - Shaler Township": [
-    "Zip:15209",
-    "Zip:15223",
-    "Zip:15116"
+  "Municipality:Allegheny - Indiana Township": [
+    "Zip:15024",
+    "Zip:15116",
+    "Zip:15238"
   ],
   "Zip:15116": [
-    "Municipality:Allegheny - Shaler Township",
-    "Municipality:Allegheny - Indiana Township"
+    "Municipality:Allegheny - Indiana Township",
+    "Municipality:Allegheny - Shaler Township"
   ],
-  "Municipality:Allegheny - Mccandless Township": [
-    "Zip:15090",
-    "Zip:15101",
-    "Zip:15237"
+  "Municipality:Allegheny - Jefferson Hills Borough": [
+    "Zip:15025",
+    "Zip:15332"
+  ],
+  "Zip:15332": [
+    "Municipality:Allegheny - Jefferson Hills Borough"
+  ],
+  "Municipality:Allegheny - Kennedy Township": [
+    "Zip:15136"
+  ],
+  "Zip:15136": [
+    "Municipality:Allegheny - Kennedy Township",
+    "Municipality:Allegheny - Mckees Rocks Borough",
+    "Municipality:Allegheny - Robinson Township",
+    "Municipality:Allegheny - Stowe Township"
   ],
   "Municipality:Allegheny - Kilbuck Township": [
     "Zip:15202",
-    "Zip:15237"
-  ],
-  "Municipality:Allegheny - Crescent Township": [
-    "Zip:15046"
-  ],
-  "Zip:15046": [
-    "Municipality:Allegheny - Crescent Township"
-  ],
-  "Municipality:Allegheny - Mt Lebanon Township": [
-    "Zip:15228",
-    "Zip:15216",
-    "Zip:15243"
-  ],
-  "Zip:15228": [
-    "Municipality:Allegheny - Mt Lebanon Township"
-  ],
-  "Municipality:Allegheny - North Fayette Township": [
-    "Zip:15057",
-    "Zip:15126",
-    "Zip:15071"
-  ],
-  "Zip:15126": [
-    "Municipality:Allegheny - North Fayette Township",
-    "Municipality:Allegheny - Findlay Township"
-  ],
-  "Municipality:Allegheny - Springdale Township": [
-    "Zip:15049",
-    "Zip:15144"
-  ],
-  "Zip:15049": [
-    "Municipality:Allegheny - Springdale Township"
-  ],
-  "Zip:15144": [
-    "Municipality:Allegheny - Springdale Township",
-    "Municipality:Allegheny - Springdale Borough"
-  ],
-  "Municipality:Allegheny - Collier Township": [
-    "Zip:15017",
-    "Zip:15106",
-    "Zip:15142",
-    "Zip:15071"
-  ],
-  "Zip:15142": [
-    "Municipality:Allegheny - Collier Township"
-  ],
-  "Municipality:Allegheny - Richland Township": [
-    "Zip:15044"
-  ],
-  "Municipality:Allegheny - Pine Township": [
-    "Zip:15090",
-    "Zip:15044"
-  ],
-  "Municipality:Allegheny - Findlay Township": [
-    "Zip:15026",
-    "Zip:15108",
-    "Zip:15126"
-  ],
-  "Zip:15026": [
-    "Municipality:Allegheny - Findlay Township"
-  ],
-  "Municipality:Allegheny - Indiana Township": [
-    "Zip:15238",
-    "Zip:15024",
-    "Zip:15116"
-  ],
-  "Municipality:Allegheny - Franklin Park Borough": [
-    "Zip:15090",
-    "Zip:15143",
     "Zip:15237"
   ],
   "Municipality:Allegheny - Leetsdale Borough": [
@@ -594,6 +389,76 @@
   "Zip:15056": [
     "Municipality:Allegheny - Leetsdale Borough"
   ],
+  "Municipality:Allegheny - Liberty Borough": [
+    "Zip:15133"
+  ],
+  "Zip:15133": [
+    "Municipality:Allegheny - Liberty Borough",
+    "Municipality:Allegheny - Lincoln Borough",
+    "Municipality:Allegheny - Port Vue Borough"
+  ],
+  "Municipality:Allegheny - Lincoln Borough": [
+    "Zip:15037",
+    "Zip:15133"
+  ],
+  "Municipality:Allegheny - Marshall Township": [
+    "Zip:15005",
+    "Zip:15086",
+    "Zip:15090",
+    "Zip:16046"
+  ],
+  "Zip:15005": [
+    "Municipality:Allegheny - Marshall Township"
+  ],
+  "Zip:15086": [
+    "Municipality:Allegheny - Marshall Township"
+  ],
+  "Zip:16046": [
+    "Municipality:Allegheny - Marshall Township"
+  ],
+  "Municipality:Allegheny - Mccandless Township": [
+    "Zip:15090",
+    "Zip:15101",
+    "Zip:15237"
+  ],
+  "Municipality:Allegheny - Mckees Rocks Borough": [
+    "Zip:15136"
+  ],
+  "Municipality:Allegheny - Mckeesport City": [
+    "Zip:15132"
+  ],
+  "Zip:15132": [
+    "Municipality:Allegheny - Mckeesport City",
+    "Municipality:Allegheny - Versailles Borough"
+  ],
+  "Municipality:Allegheny - Millvale Borough": [
+    "Zip:15209"
+  ],
+  "Zip:15209": [
+    "Municipality:Allegheny - Millvale Borough",
+    "Municipality:Allegheny - Shaler Township"
+  ],
+  "Municipality:Allegheny - Monroeville Borough": [
+    "Zip:15146"
+  ],
+  "Zip:15146": [
+    "Municipality:Allegheny - Monroeville Borough"
+  ],
+  "Municipality:Allegheny - Moon Township": [
+    "Zip:15108"
+  ],
+  "Municipality:Allegheny - Mt Lebanon Township": [
+    "Zip:15216",
+    "Zip:15228",
+    "Zip:15243"
+  ],
+  "Zip:15228": [
+    "Municipality:Allegheny - Mt Lebanon Township"
+  ],
+  "Zip:15243": [
+    "Municipality:Allegheny - Mt Lebanon Township",
+    "Municipality:Allegheny - Scott Township"
+  ],
   "Municipality:Allegheny - Mt Oliver Borough": [
     "Zip:15210"
   ],
@@ -601,8 +466,83 @@
     "Municipality:Allegheny - Mt Oliver Borough",
     "Municipality:Allegheny - Pittsburgh City"
   ],
-  "Municipality:Allegheny - Bell Acres Borough": [
-    "Zip:15143"
+  "Municipality:Allegheny - Munhall Borough": [
+    "Zip:15120"
+  ],
+  "Municipality:Allegheny - Neville Township": [
+    "Zip:15225"
+  ],
+  "Zip:15225": [
+    "Municipality:Allegheny - Neville Township"
+  ],
+  "Municipality:Allegheny - North Braddock Borough": [
+    "Zip:15104"
+  ],
+  "Municipality:Allegheny - North Fayette Township": [
+    "Zip:15057",
+    "Zip:15071",
+    "Zip:15126"
+  ],
+  "Zip:15057": [
+    "Municipality:Allegheny - North Fayette Township",
+    "Municipality:Allegheny - South Fayette Township"
+  ],
+  "Municipality:Allegheny - North Versailles Township": [
+    "Zip:15137"
+  ],
+  "Zip:15137": [
+    "Municipality:Allegheny - North Versailles Township"
+  ],
+  "Municipality:Allegheny - Oakmont Borough": [
+    "Zip:15139"
+  ],
+  "Zip:15139": [
+    "Municipality:Allegheny - Oakmont Borough"
+  ],
+  "Municipality:Allegheny - Ohio Township": [
+    "Zip:15143",
+    "Zip:15237"
+  ],
+  "Municipality:Allegheny - Penn Hills Township": [
+    "Zip:15147",
+    "Zip:15235"
+  ],
+  "Zip:15147": [
+    "Municipality:Allegheny - Penn Hills Township",
+    "Municipality:Allegheny - Verona Borough"
+  ],
+  "Municipality:Allegheny - Pine Township": [
+    "Zip:15044",
+    "Zip:15090"
+  ],
+  "Municipality:Allegheny - Pitcairn Borough": [
+    "Zip:15140"
+  ],
+  "Zip:15140": [
+    "Municipality:Allegheny - Pitcairn Borough"
+  ],
+  "Municipality:Allegheny - Pittsburgh City": [
+    "Zip:15206",
+    "Zip:15207",
+    "Zip:15210",
+    "Zip:15212",
+    "Zip:15217"
+  ],
+  "Zip:15206": [
+    "Municipality:Allegheny - Pittsburgh City"
+  ],
+  "Zip:15207": [
+    "Municipality:Allegheny - Pittsburgh City"
+  ],
+  "Zip:15212": [
+    "Municipality:Allegheny - Pittsburgh City",
+    "Municipality:Allegheny - Reserve Township"
+  ],
+  "Zip:15217": [
+    "Municipality:Allegheny - Pittsburgh City"
+  ],
+  "Municipality:Allegheny - Pleasant Hills Borough": [
+    "Zip:15236"
   ],
   "Municipality:Allegheny - Plum Borough": [
     "Zip:15068",
@@ -614,458 +554,187 @@
   "Zip:15239": [
     "Municipality:Allegheny - Plum Borough"
   ],
+  "Municipality:Allegheny - Port Vue Borough": [
+    "Zip:15133"
+  ],
   "Municipality:Allegheny - Rankin Borough": [
     "Zip:15104"
   ],
-  "Municipality:Allegheny - West Homestead Borough": [
-    "Zip:15120"
+  "Municipality:Allegheny - Reserve Township": [
+    "Zip:15212"
   ],
-  "Municipality:Allegheny - North Braddock Borough": [
-    "Zip:15104"
+  "Municipality:Allegheny - Richland Township": [
+    "Zip:15044"
   ],
-  "Municipality:Allegheny - Turtle Creek Borough": [
-    "Zip:15145"
-  ],
-  "Municipality:Allegheny - Wilkinsburg Borough": [
-    "Zip:15221"
-  ],
-  "Municipality:Allegheny - Oakmont Borough": [
-    "Zip:15139"
-  ],
-  "Zip:15139": [
-    "Municipality:Allegheny - Oakmont Borough"
-  ],
-  "Municipality:Allegheny - Sewickley Heights Borough": [
-    "Zip:15143"
-  ],
-  "Municipality:Allegheny - Verona Borough": [
-    "Zip:15147"
-  ],
-  "Zip:15147": [
-    "Municipality:Allegheny - Verona Borough",
-    "Municipality:Allegheny - Penn Hills Township"
-  ],
-  "Municipality:Allegheny - Swissvale Borough": [
-    "Zip:15218"
-  ],
-  "Municipality:Allegheny - Penn Hills Township": [
-    "Zip:15235",
-    "Zip:15147"
-  ],
-  "Municipality:Allegheny - West View Borough": [
-    "Zip:15229"
-  ],
-  "Zip:15229": [
-    "Municipality:Allegheny - West View Borough",
-    "Municipality:Allegheny - Ross Township"
-  ],
-  "Municipality:Allegheny - Whitaker Borough": [
-    "Zip:15120"
-  ],
-  "Municipality:Allegheny - Sewickley Hills Borough": [
-    "Zip:15143"
-  ],
-  "Municipality:Allegheny - Sharpsburg Borough": [
-    "Zip:15215"
-  ],
-  "Municipality:Allegheny - Springdale Borough": [
-    "Zip:15144"
-  ],
-  "Municipality:Allegheny - Pitcairn Borough": [
-    "Zip:15140"
-  ],
-  "Zip:15140": [
-    "Municipality:Allegheny - Pitcairn Borough"
-  ],
-  "Municipality:Allegheny - Munhall Borough": [
-    "Zip:15120"
-  ],
-  "Municipality:Allegheny - Monroeville Borough": [
-    "Zip:15146"
-  ],
-  "Zip:15146": [
-    "Municipality:Allegheny - Monroeville Borough"
+  "Municipality:Allegheny - Robinson Township": [
+    "Zip:15108",
+    "Zip:15136",
+    "Zip:15205"
   ],
   "Municipality:Allegheny - Ross Township": [
     "Zip:15214",
-    "Zip:15237",
-    "Zip:15229"
+    "Zip:15229",
+    "Zip:15237"
   ],
   "Zip:15214": [
     "Municipality:Allegheny - Ross Township"
   ],
-  "Municipality:Allegheny - Robinson Township": [
-    "Zip:15108",
-    "Zip:15205",
+  "Zip:15229": [
+    "Municipality:Allegheny - Ross Township",
+    "Municipality:Allegheny - West View Borough"
+  ],
+  "Municipality:Allegheny - Scott Township": [
+    "Zip:15106",
+    "Zip:15220",
+    "Zip:15243"
+  ],
+  "Municipality:Allegheny - Sewickley Heights Borough": [
+    "Zip:15143"
+  ],
+  "Municipality:Allegheny - Sewickley Hills Borough": [
+    "Zip:15143"
+  ],
+  "Municipality:Allegheny - Shaler Township": [
+    "Zip:15116",
+    "Zip:15209",
+    "Zip:15223"
+  ],
+  "Municipality:Allegheny - Sharpsburg Borough": [
+    "Zip:15215"
+  ],
+  "Municipality:Allegheny - South Fayette Township": [
+    "Zip:15017",
+    "Zip:15057",
+    "Zip:15071"
+  ],
+  "Municipality:Allegheny - South Park Township": [
+    "Zip:15129",
+    "Zip:15236"
+  ],
+  "Zip:15129": [
+    "Municipality:Allegheny - South Park Township"
+  ],
+  "Municipality:Allegheny - South Versailles Township": [
+    "Zip:15028",
+    "Zip:15131"
+  ],
+  "Zip:15028": [
+    "Municipality:Allegheny - South Versailles Township"
+  ],
+  "Zip:15131": [
+    "Municipality:Allegheny - South Versailles Township",
+    "Municipality:Allegheny - White Oak Borough"
+  ],
+  "Municipality:Allegheny - Springdale Borough": [
+    "Zip:15144"
+  ],
+  "Zip:15144": [
+    "Municipality:Allegheny - Springdale Borough",
+    "Municipality:Allegheny - Springdale Township"
+  ],
+  "Municipality:Allegheny - Springdale Township": [
+    "Zip:15049",
+    "Zip:15144"
+  ],
+  "Zip:15049": [
+    "Municipality:Allegheny - Springdale Township"
+  ],
+  "Municipality:Allegheny - Stowe Township": [
     "Zip:15136"
   ],
-  "Municipality:Allegheny - Pittsburgh City": [
-    "Zip:15210",
-    "Zip:15207",
-    "Zip:15212",
-    "Zip:15206",
-    "Zip:15217"
-  ],
-  "Zip:15207": [
-    "Municipality:Allegheny - Pittsburgh City"
-  ],
-  "Zip:15206": [
-    "Municipality:Allegheny - Pittsburgh City"
-  ],
-  "Zip:15217": [
-    "Municipality:Allegheny - Pittsburgh City"
-  ],
-  "Municipality:Montgomery - Conshohocken Borough": [
-    "Zip:19428"
-  ],
-  "Zip:19428": [
-    "Municipality:Montgomery - Conshohocken Borough",
-    "Municipality:Montgomery - Whitemarsh Township",
-    "Municipality:Montgomery - Plymouth Township",
-    "Municipality:Montgomery - West Conshohocken Borough"
-  ],
-  "Municipality:Montgomery - Abington Township": [
-    "Zip:19001",
-    "Zip:19038",
-    "Zip:19006",
-    "Zip:19046"
-  ],
-  "Zip:19001": [
-    "Municipality:Montgomery - Abington Township"
-  ],
-  "Zip:19038": [
-    "Municipality:Montgomery - Abington Township",
-    "Municipality:Montgomery - Springfield Township",
-    "Municipality:Montgomery - Cheltenham Township"
-  ],
-  "Zip:19006": [
-    "Municipality:Montgomery - Abington Township",
-    "Municipality:Montgomery - Upper Moreland Township",
-    "Municipality:Montgomery - Lower Moreland Township"
-  ],
-  "Zip:19046": [
-    "Municipality:Montgomery - Abington Township",
-    "Municipality:Montgomery - Jenkintown Borough"
-  ],
-  "Municipality:Montgomery - Springfield Township": [
-    "Zip:19031",
-    "Zip:19075",
-    "Zip:19444",
-    "Zip:19038"
-  ],
-  "Zip:19031": [
-    "Municipality:Montgomery - Springfield Township",
-    "Municipality:Montgomery - Whitemarsh Township"
-  ],
-  "Zip:19075": [
-    "Municipality:Montgomery - Springfield Township"
-  ],
-  "Zip:19444": [
-    "Municipality:Montgomery - Springfield Township",
-    "Municipality:Montgomery - Whitemarsh Township"
-  ],
-  "Municipality:Montgomery - Whitemarsh Township": [
-    "Zip:19031",
-    "Zip:19462",
-    "Zip:19444",
-    "Zip:19428",
-    "Zip:19034"
-  ],
-  "Zip:19462": [
-    "Municipality:Montgomery - Whitemarsh Township",
-    "Municipality:Montgomery - Plymouth Township"
-  ],
-  "Zip:19034": [
-    "Municipality:Montgomery - Whitemarsh Township",
-    "Municipality:Montgomery - Upper Dublin Township"
-  ],
-  "Municipality:Montgomery - Plymouth Township": [
-    "Zip:19462",
-    "Zip:19428"
-  ],
-  "Municipality:Montgomery - Norristown Borough": [
-    "Zip:19401"
-  ],
-  "Zip:19401": [
-    "Municipality:Montgomery - Norristown Borough",
-    "Municipality:Montgomery - East Norriton Township"
-  ],
-  "Municipality:Montgomery - Bridgeport Borough": [
-    "Zip:19405"
-  ],
-  "Zip:19405": [
-    "Municipality:Montgomery - Bridgeport Borough"
-  ],
-  "Municipality:Montgomery - Jenkintown Borough": [
-    "Zip:19046"
-  ],
-  "Municipality:Montgomery - West Norriton Township": [
-    "Zip:19403"
-  ],
-  "Zip:19403": [
-    "Municipality:Montgomery - West Norriton Township",
-    "Municipality:Montgomery - East Norriton Township",
-    "Municipality:Montgomery - Worcester Township",
-    "Municipality:Montgomery - Lower Providence Township"
-  ],
-  "Municipality:Montgomery - Cheltenham Township": [
-    "Zip:19027",
-    "Zip:19012",
-    "Zip:19095",
-    "Zip:19038"
-  ],
-  "Zip:19027": [
-    "Municipality:Montgomery - Cheltenham Township"
-  ],
-  "Zip:19012": [
-    "Municipality:Montgomery - Cheltenham Township"
-  ],
-  "Zip:19095": [
-    "Municipality:Montgomery - Cheltenham Township"
-  ],
-  "Municipality:Montgomery - Upper Dublin Township": [
-    "Zip:19002",
-    "Zip:19025",
-    "Zip:19034"
-  ],
-  "Zip:19002": [
-    "Municipality:Montgomery - Upper Dublin Township",
-    "Municipality:Montgomery - Lower Gwynedd Township",
-    "Municipality:Montgomery - Horsham Township"
-  ],
-  "Zip:19025": [
-    "Municipality:Montgomery - Upper Dublin Township"
-  ],
-  "Municipality:Montgomery - East Norriton Township": [
-    "Zip:19403",
-    "Zip:19401"
-  ],
-  "Municipality:Montgomery - Whitpain Township": [
-    "Zip:19422"
-  ],
-  "Zip:19422": [
-    "Municipality:Montgomery - Whitpain Township"
-  ],
-  "Municipality:Montgomery - Souderton Borough": [
-    "Zip:18964"
-  ],
-  "Zip:18964": [
-    "Municipality:Montgomery - Souderton Borough",
-    "Municipality:Montgomery - Franconia Township"
-  ],
-  "Municipality:Montgomery - Upper Frederick Township": [
-    "Zip:18054",
-    "Zip:18074"
-  ],
-  "Zip:18054": [
-    "Municipality:Montgomery - Upper Frederick Township",
-    "Municipality:Montgomery - Marlborough Township",
-    "Municipality:Montgomery - Salford Township",
-    "Municipality:Bucks - West Rockhill Township"
-  ],
-  "Zip:18074": [
-    "Municipality:Montgomery - Upper Frederick Township",
-    "Municipality:Montgomery - New Hanover Township",
-    "Municipality:Montgomery - Lower Frederick Township"
-  ],
-  "Municipality:Montgomery - Upper Salford Township": [
-    "Zip:19473",
-    "Zip:19438"
-  ],
-  "Zip:19473": [
-    "Municipality:Montgomery - Upper Salford Township",
-    "Municipality:Montgomery - Skippack Township",
-    "Municipality:Montgomery - Lower Frederick Township",
-    "Municipality:Montgomery - Lower Salford Township",
-    "Municipality:Montgomery - Perkiomen Township",
-    "Municipality:Montgomery - Limerick Township"
-  ],
-  "Zip:19438": [
-    "Municipality:Montgomery - Upper Salford Township",
-    "Municipality:Montgomery - Lower Salford Township",
-    "Municipality:Montgomery - Towamencin Township"
-  ],
-  "Municipality:Montgomery - Worcester Township": [
-    "Zip:19403",
-    "Zip:19446",
-    "Zip:19426"
-  ],
-  "Zip:19446": [
-    "Municipality:Montgomery - Worcester Township",
-    "Municipality:Montgomery - Lansdale Borough",
-    "Municipality:Montgomery - Montgomery Township",
-    "Municipality:Montgomery - Towamencin Township",
-    "Municipality:Montgomery - Upper Gwynedd Township"
-  ],
-  "Zip:19426": [
-    "Municipality:Montgomery - Worcester Township",
-    "Municipality:Montgomery - Trappe Borough",
-    "Municipality:Montgomery - Skippack Township",
-    "Municipality:Montgomery - Perkiomen Township",
-    "Municipality:Montgomery - Lower Providence Township",
-    "Municipality:Montgomery - Upper Providence Township"
-  ],
-  "Municipality:Montgomery - Trappe Borough": [
-    "Zip:19426"
-  ],
-  "Municipality:Montgomery - Lower Gwynedd Township": [
-    "Zip:19002",
-    "Zip:19437"
-  ],
-  "Zip:19437": [
-    "Municipality:Montgomery - Lower Gwynedd Township"
-  ],
-  "Municipality:Montgomery - Lansdale Borough": [
-    "Zip:19446"
-  ],
-  "Municipality:Montgomery - Skippack Township": [
-    "Zip:19473",
-    "Zip:19426"
-  ],
-  "Municipality:Montgomery - Hatfield Borough": [
-    "Zip:19440"
-  ],
-  "Zip:19440": [
-    "Municipality:Montgomery - Hatfield Borough",
-    "Municipality:Montgomery - Hatfield Township",
-    "Municipality:Bucks - Hilltown Township"
-  ],
-  "Municipality:Montgomery - New Hanover Township": [
-    "Zip:18074",
-    "Zip:19525"
-  ],
-  "Zip:19525": [
-    "Municipality:Montgomery - New Hanover Township",
-    "Municipality:Montgomery - Douglass Township"
-  ],
-  "Municipality:Montgomery - Lower Frederick Township": [
-    "Zip:18074",
-    "Zip:19473",
-    "Zip:19492"
-  ],
-  "Zip:19492": [
-    "Municipality:Montgomery - Lower Frederick Township"
-  ],
-  "Municipality:Montgomery - Lower Salford Township": [
-    "Zip:19473",
-    "Zip:19438"
-  ],
-  "Municipality:Montgomery - Franconia Township": [
-    "Zip:18969",
-    "Zip:18964"
-  ],
-  "Zip:18969": [
-    "Municipality:Montgomery - Franconia Township",
-    "Municipality:Montgomery - Salford Township"
-  ],
-  "Municipality:Montgomery - Horsham Township": [
-    "Zip:19002",
-    "Zip:19040",
-    "Zip:19044"
-  ],
-  "Zip:19040": [
-    "Municipality:Montgomery - Horsham Township",
-    "Municipality:Montgomery - Hatboro Borough",
-    "Municipality:Montgomery - Upper Moreland Township"
-  ],
-  "Zip:19044": [
-    "Municipality:Montgomery - Horsham Township"
-  ],
-  "Municipality:Montgomery - Montgomery Township": [
-    "Zip:19446",
-    "Zip:18936",
-    "Zip:19454"
-  ],
-  "Zip:18936": [
-    "Municipality:Montgomery - Montgomery Township"
-  ],
-  "Zip:19454": [
-    "Municipality:Montgomery - Montgomery Township",
-    "Municipality:Montgomery - Upper Gwynedd Township"
-  ],
-  "Municipality:Montgomery - Perkiomen Township": [
-    "Zip:19473",
-    "Zip:19426"
-  ],
-  "Municipality:Montgomery - Towamencin Township": [
-    "Zip:19446",
-    "Zip:19438"
-  ],
-  "Municipality:Montgomery - Upper Gwynedd Township": [
-    "Zip:19446",
-    "Zip:19454"
-  ],
-  "Municipality:Montgomery - Hatfield Township": [
-    "Zip:19440",
-    "Zip:18915"
-  ],
-  "Zip:18915": [
-    "Municipality:Montgomery - Hatfield Township"
-  ],
-  "Municipality:Bucks - Upper Makefield Township": [
-    "Zip:18938",
-    "Zip:18940",
-    "Zip:18977"
-  ],
-  "Zip:18938": [
-    "Municipality:Bucks - Upper Makefield Township",
-    "Municipality:Bucks - Buckingham Township",
-    "Municipality:Bucks - Solebury Township"
-  ],
-  "Zip:18940": [
-    "Municipality:Bucks - Upper Makefield Township",
-    "Municipality:Bucks - Newtown Township",
-    "Municipality:Bucks - Wrightstown Township"
-  ],
-  "Zip:18977": [
-    "Municipality:Bucks - Upper Makefield Township"
-  ],
-  "Municipality:Bucks - Newtown Township": [
-    "Zip:18940"
-  ],
-  "Municipality:Bucks - Morrisville Borough": [
-    "Zip:19067"
-  ],
-  "Zip:19067": [
-    "Municipality:Bucks - Morrisville Borough",
-    "Municipality:Bucks - Lower Makefield Township",
-    "Municipality:Bucks - Falls Township"
-  ],
-  "Municipality:Bucks - Lower Makefield Township": [
-    "Zip:19067"
-  ],
-  "Municipality:Bucks - Bristol Borough": [
-    "Zip:19007"
-  ],
-  "Zip:19007": [
-    "Municipality:Bucks - Bristol Borough",
-    "Municipality:Bucks - Bristol Township",
-    "Municipality:Bucks - Tullytown Borough"
-  ],
-  "Municipality:Bucks - Bristol Township": [
-    "Zip:19057",
-    "Zip:19007",
-    "Zip:19021",
-    "Zip:19055"
-  ],
-  "Zip:19057": [
-    "Municipality:Bucks - Bristol Township"
-  ],
-  "Zip:19021": [
-    "Municipality:Bucks - Bristol Township"
-  ],
-  "Zip:19055": [
-    "Municipality:Bucks - Bristol Township"
-  ],
-  "Municipality:Bucks - Middletown Township": [
-    "Zip:19047",
-    "Zip:19056"
-  ],
-  "Zip:19047": [
-    "Municipality:Bucks - Middletown Township"
-  ],
-  "Zip:19056": [
-    "Municipality:Bucks - Middletown Township"
+  "Municipality:Allegheny - Swissvale Borough": [
+    "Zip:15218"
+  ],
+  "Municipality:Allegheny - Turtle Creek Borough": [
+    "Zip:15145"
+  ],
+  "Zip:15145": [
+    "Municipality:Allegheny - Turtle Creek Borough",
+    "Municipality:Allegheny - Wilkins Township"
+  ],
+  "Municipality:Allegheny - Upper St Clair Township": [
+    "Zip:15241"
+  ],
+  "Zip:15241": [
+    "Municipality:Allegheny - Upper St Clair Township"
+  ],
+  "Municipality:Allegheny - Verona Borough": [
+    "Zip:15147"
+  ],
+  "Municipality:Allegheny - Versailles Borough": [
+    "Zip:15132"
+  ],
+  "Municipality:Allegheny - Wall Borough": [
+    "Zip:15148"
+  ],
+  "Zip:15148": [
+    "Municipality:Allegheny - Wall Borough",
+    "Municipality:Allegheny - Wilmerding Borough"
+  ],
+  "Municipality:Allegheny - West Deer Township": [
+    "Zip:15024",
+    "Zip:15044",
+    "Zip:15084"
+  ],
+  "Municipality:Allegheny - West Elizabeth Borough": [
+    "Zip:15088"
+  ],
+  "Zip:15088": [
+    "Municipality:Allegheny - West Elizabeth Borough"
+  ],
+  "Municipality:Allegheny - West Homestead Borough": [
+    "Zip:15120"
+  ],
+  "Municipality:Allegheny - West Mifflin Borough": [
+    "Zip:15122"
+  ],
+  "Zip:15122": [
+    "Municipality:Allegheny - West Mifflin Borough"
+  ],
+  "Municipality:Allegheny - West View Borough": [
+    "Zip:15229"
+  ],
+  "Municipality:Allegheny - Whitaker Borough": [
+    "Zip:15120"
+  ],
+  "Municipality:Allegheny - White Oak Borough": [
+    "Zip:15131"
+  ],
+  "Municipality:Allegheny - Whitehall Borough": [
+    "Zip:15227",
+    "Zip:15236"
+  ],
+  "Municipality:Allegheny - Wilkins Township": [
+    "Zip:15112",
+    "Zip:15145",
+    "Zip:15235"
+  ],
+  "Municipality:Allegheny - Wilkinsburg Borough": [
+    "Zip:15221"
+  ],
+  "Municipality:Allegheny - Wilmerding Borough": [
+    "Zip:15148"
+  ],
+  "Municipality:Bucks - Bedminster Township": [
+    "Zip:18942",
+    "Zip:18944",
+    "Zip:18947"
+  ],
+  "Zip:18942": [
+    "Municipality:Bucks - Bedminster Township",
+    "Municipality:Bucks - Nockamixon Township",
+    "Municipality:Bucks - Tinicum Township"
+  ],
+  "Zip:18944": [
+    "Municipality:Bucks - Bedminster Township",
+    "Municipality:Bucks - East Rockhill Township",
+    "Municipality:Bucks - Hilltown Township",
+    "Municipality:Bucks - Perkasie Borough"
+  ],
+  "Zip:18947": [
+    "Municipality:Bucks - Bedminster Township",
+    "Municipality:Bucks - Plumstead Township",
+    "Municipality:Bucks - Tinicum Township"
   ],
   "Municipality:Bucks - Bensalem Township": [
     "Zip:19020",
@@ -1078,45 +747,273 @@
     "Municipality:Bucks - Bensalem Township",
     "Municipality:Bucks - Lower Southampton Township"
   ],
+  "Municipality:Bucks - Bridgeton Township": [
+    "Zip:18972"
+  ],
+  "Zip:18972": [
+    "Municipality:Bucks - Bridgeton Township",
+    "Municipality:Bucks - Nockamixon Township",
+    "Municipality:Bucks - Tinicum Township"
+  ],
+  "Municipality:Bucks - Bristol Borough": [
+    "Zip:19007"
+  ],
+  "Zip:19007": [
+    "Municipality:Bucks - Bristol Borough",
+    "Municipality:Bucks - Bristol Township",
+    "Municipality:Bucks - Tullytown Borough"
+  ],
+  "Municipality:Bucks - Bristol Township": [
+    "Zip:19007",
+    "Zip:19021",
+    "Zip:19055",
+    "Zip:19057"
+  ],
+  "Zip:19021": [
+    "Municipality:Bucks - Bristol Township"
+  ],
+  "Zip:19055": [
+    "Municipality:Bucks - Bristol Township"
+  ],
+  "Zip:19057": [
+    "Municipality:Bucks - Bristol Township"
+  ],
+  "Municipality:Bucks - Buckingham Township": [
+    "Zip:18902",
+    "Zip:18925",
+    "Zip:18938"
+  ],
+  "Zip:18902": [
+    "Municipality:Bucks - Buckingham Township",
+    "Municipality:Bucks - Plumstead Township"
+  ],
+  "Zip:18925": [
+    "Municipality:Bucks - Buckingham Township"
+  ],
+  "Zip:18938": [
+    "Municipality:Bucks - Buckingham Township",
+    "Municipality:Bucks - Solebury Township",
+    "Municipality:Bucks - Upper Makefield Township"
+  ],
+  "Municipality:Bucks - Chalfont Borough": [
+    "Zip:18914"
+  ],
+  "Zip:18914": [
+    "Municipality:Bucks - Chalfont Borough",
+    "Municipality:Bucks - New Britain Township",
+    "Municipality:Bucks - Warrington Township"
+  ],
+  "Municipality:Bucks - Doylestown Borough": [
+    "Zip:18901"
+  ],
+  "Zip:18901": [
+    "Municipality:Bucks - Doylestown Borough",
+    "Municipality:Bucks - Doylestown Township",
+    "Municipality:Bucks - New Britain Borough",
+    "Municipality:Bucks - New Britain Township"
+  ],
+  "Municipality:Bucks - Doylestown Township": [
+    "Zip:18901"
+  ],
+  "Municipality:Bucks - Dublin Borough": [
+    "Zip:18917"
+  ],
+  "Zip:18917": [
+    "Municipality:Bucks - Dublin Borough"
+  ],
+  "Municipality:Bucks - Durham Township": [
+    "Zip:18077",
+    "Zip:18930"
+  ],
+  "Zip:18077": [
+    "Municipality:Bucks - Durham Township",
+    "Municipality:Bucks - Riegelsville Borough",
+    "Municipality:Bucks - Springfield Township"
+  ],
+  "Zip:18930": [
+    "Municipality:Bucks - Durham Township",
+    "Municipality:Bucks - Haycock Township",
+    "Municipality:Bucks - Nockamixon Township",
+    "Municipality:Bucks - Springfield Township"
+  ],
+  "Municipality:Bucks - East Rockhill Township": [
+    "Zip:18944",
+    "Zip:18960"
+  ],
+  "Zip:18960": [
+    "Municipality:Bucks - East Rockhill Township",
+    "Municipality:Bucks - Hilltown Township",
+    "Municipality:Bucks - Sellersville Borough",
+    "Municipality:Bucks - West Rockhill Township"
+  ],
+  "Municipality:Bucks - Falls Township": [
+    "Zip:19030",
+    "Zip:19054",
+    "Zip:19067"
+  ],
+  "Zip:19030": [
+    "Municipality:Bucks - Falls Township"
+  ],
+  "Zip:19054": [
+    "Municipality:Bucks - Falls Township"
+  ],
+  "Zip:19067": [
+    "Municipality:Bucks - Falls Township",
+    "Municipality:Bucks - Lower Makefield Township",
+    "Municipality:Bucks - Morrisville Borough"
+  ],
+  "Municipality:Bucks - Haycock Township": [
+    "Zip:18930",
+    "Zip:18951"
+  ],
+  "Zip:18951": [
+    "Municipality:Bucks - Haycock Township",
+    "Municipality:Bucks - Milford Township",
+    "Municipality:Bucks - Richland Township",
+    "Municipality:Bucks - Springfield Township"
+  ],
+  "Municipality:Bucks - Hilltown Township": [
+    "Zip:18944",
+    "Zip:18960",
+    "Zip:19440"
+  ],
+  "Zip:19440": [
+    "Municipality:Bucks - Hilltown Township",
+    "Municipality:Montgomery - Hatfield Borough",
+    "Municipality:Montgomery - Hatfield Township"
+  ],
+  "Municipality:Bucks - Lower Makefield Township": [
+    "Zip:19067"
+  ],
+  "Municipality:Bucks - Lower Southampton Township": [
+    "Zip:19053"
+  ],
+  "Municipality:Bucks - Middletown Township": [
+    "Zip:19047",
+    "Zip:19056"
+  ],
+  "Zip:19047": [
+    "Municipality:Bucks - Middletown Township"
+  ],
+  "Zip:19056": [
+    "Municipality:Bucks - Middletown Township"
+  ],
+  "Municipality:Bucks - Milford Township": [
+    "Zip:18073",
+    "Zip:18951"
+  ],
+  "Zip:18073": [
+    "Municipality:Bucks - Milford Township",
+    "Municipality:Montgomery - Marlborough Township",
+    "Municipality:Montgomery - Upper Hanover Township"
+  ],
+  "Municipality:Bucks - Morrisville Borough": [
+    "Zip:19067"
+  ],
+  "Municipality:Bucks - New Britain Borough": [
+    "Zip:18901"
+  ],
+  "Municipality:Bucks - New Britain Township": [
+    "Zip:18901",
+    "Zip:18914"
+  ],
+  "Municipality:Bucks - Newtown Township": [
+    "Zip:18940"
+  ],
+  "Zip:18940": [
+    "Municipality:Bucks - Newtown Township",
+    "Municipality:Bucks - Upper Makefield Township",
+    "Municipality:Bucks - Wrightstown Township"
+  ],
+  "Municipality:Bucks - Nockamixon Township": [
+    "Zip:18930",
+    "Zip:18942",
+    "Zip:18972"
+  ],
   "Municipality:Bucks - Northampton Township": [
     "Zip:18954",
-    "Zip:18974",
-    "Zip:18966"
+    "Zip:18966",
+    "Zip:18974"
   ],
   "Zip:18954": [
     "Municipality:Bucks - Northampton Township"
+  ],
+  "Zip:18966": [
+    "Municipality:Bucks - Northampton Township",
+    "Municipality:Bucks - Upper Southampton Township"
   ],
   "Zip:18974": [
     "Municipality:Bucks - Northampton Township",
     "Municipality:Bucks - Warminster Township",
     "Municipality:Bucks - Warwick Township"
   ],
-  "Zip:18966": [
-    "Municipality:Bucks - Northampton Township",
-    "Municipality:Bucks - Upper Southampton Township"
+  "Municipality:Bucks - Perkasie Borough": [
+    "Zip:18944"
   ],
-  "Municipality:Montgomery - Hatboro Borough": [
-    "Zip:19040"
+  "Municipality:Bucks - Plumstead Township": [
+    "Zip:18902",
+    "Zip:18947"
   ],
-  "Municipality:Montgomery - Upper Moreland Township": [
-    "Zip:19040",
-    "Zip:19090",
-    "Zip:19006"
+  "Municipality:Bucks - Richland Township": [
+    "Zip:18951",
+    "Zip:18955"
   ],
-  "Zip:19090": [
-    "Municipality:Montgomery - Upper Moreland Township"
+  "Zip:18955": [
+    "Municipality:Bucks - Richland Township",
+    "Municipality:Bucks - Richlandtown Borough"
   ],
-  "Municipality:Montgomery - Lower Moreland Township": [
-    "Zip:19006"
+  "Municipality:Bucks - Richlandtown Borough": [
+    "Zip:18955"
   ],
-  "Municipality:Montgomery - Bryn Athyn Borough": [
-    "Zip:19009"
+  "Municipality:Bucks - Riegelsville Borough": [
+    "Zip:18077"
   ],
-  "Zip:19009": [
-    "Municipality:Montgomery - Bryn Athyn Borough"
+  "Municipality:Bucks - Sellersville Borough": [
+    "Zip:18960"
   ],
-  "Municipality:Bucks - Lower Southampton Township": [
-    "Zip:19053"
+  "Municipality:Bucks - Silverdale Borough": [
+    "Zip:18962"
+  ],
+  "Zip:18962": [
+    "Municipality:Bucks - Silverdale Borough"
+  ],
+  "Municipality:Bucks - Solebury Township": [
+    "Zip:18938"
+  ],
+  "Municipality:Bucks - Springfield Township": [
+    "Zip:18036",
+    "Zip:18077",
+    "Zip:18930",
+    "Zip:18951"
+  ],
+  "Zip:18036": [
+    "Municipality:Bucks - Springfield Township"
+  ],
+  "Municipality:Bucks - Tinicum Township": [
+    "Zip:18920",
+    "Zip:18942",
+    "Zip:18947",
+    "Zip:18972"
+  ],
+  "Zip:18920": [
+    "Municipality:Bucks - Tinicum Township"
+  ],
+  "Municipality:Bucks - Trumbauersville Borough": [
+    "Zip:18970"
+  ],
+  "Zip:18970": [
+    "Municipality:Bucks - Trumbauersville Borough"
+  ],
+  "Municipality:Bucks - Tullytown Borough": [
+    "Zip:19007"
+  ],
+  "Municipality:Bucks - Upper Makefield Township": [
+    "Zip:18938",
+    "Zip:18940",
+    "Zip:18977"
+  ],
+  "Zip:18977": [
+    "Municipality:Bucks - Upper Makefield Township"
   ],
   "Municipality:Bucks - Upper Southampton Township": [
     "Zip:18966"
@@ -1128,344 +1025,104 @@
     "Zip:18914",
     "Zip:18976"
   ],
-  "Zip:18914": [
-    "Municipality:Bucks - Warrington Township",
-    "Municipality:Bucks - Chalfont Borough",
-    "Municipality:Bucks - New Britain Township"
-  ],
   "Zip:18976": [
     "Municipality:Bucks - Warrington Township"
   ],
-  "Municipality:Philadelphia - Philadelphia City": [
-    "Zip:19153"
-  ],
-  "Zip:19153": [
-    "Municipality:Philadelphia - Philadelphia City"
-  ],
-  "Municipality:Montgomery - West Conshohocken Borough": [
-    "Zip:19428"
-  ],
-  "Municipality:Montgomery - Lower Merion Township": [
-    "Zip:19085",
-    "Zip:19096",
-    "Zip:19035",
-    "Zip:19072",
-    "Zip:19010",
-    "Zip:19004",
-    "Zip:19066"
-  ],
-  "Zip:19085": [
-    "Municipality:Montgomery - Lower Merion Township",
-    "Municipality:Delaware - Radnor Township"
-  ],
-  "Zip:19096": [
-    "Municipality:Montgomery - Lower Merion Township"
-  ],
-  "Zip:19035": [
-    "Municipality:Montgomery - Lower Merion Township"
-  ],
-  "Zip:19072": [
-    "Municipality:Montgomery - Lower Merion Township",
-    "Municipality:Montgomery - Narberth Borough"
-  ],
-  "Zip:19010": [
-    "Municipality:Montgomery - Lower Merion Township",
-    "Municipality:Delaware - Radnor Township"
-  ],
-  "Zip:19004": [
-    "Municipality:Montgomery - Lower Merion Township"
-  ],
-  "Zip:19066": [
-    "Municipality:Montgomery - Lower Merion Township"
-  ],
-  "Municipality:Delaware - Yeadon Borough": [
-    "Zip:19050"
-  ],
-  "Zip:19050": [
-    "Municipality:Delaware - Yeadon Borough",
-    "Municipality:Delaware - East Lansdowne Borough",
-    "Municipality:Delaware - Lansdowne Borough",
-    "Municipality:Delaware - Upper Darby Township"
-  ],
-  "Municipality:Delaware - Colwyn Borough": [
-    "Zip:19023"
-  ],
-  "Zip:19023": [
-    "Municipality:Delaware - Colwyn Borough",
-    "Municipality:Delaware - Darby Borough",
-    "Municipality:Delaware - Collingdale Borough"
-  ],
-  "Municipality:Delaware - Darby Borough": [
-    "Zip:19023"
-  ],
-  "Municipality:Delaware - East Lansdowne Borough": [
-    "Zip:19050"
-  ],
-  "Municipality:Delaware - Lansdowne Borough": [
-    "Zip:19050"
-  ],
-  "Municipality:Montgomery - Upper Merion Township": [
-    "Zip:19087",
-    "Zip:19406"
-  ],
-  "Zip:19087": [
-    "Municipality:Montgomery - Upper Merion Township",
-    "Municipality:Delaware - Radnor Township",
-    "Municipality:Chester - Tredyffrin Township"
-  ],
-  "Zip:19406": [
-    "Municipality:Montgomery - Upper Merion Township"
-  ],
-  "Municipality:Montgomery - Narberth Borough": [
-    "Zip:19072"
-  ],
-  "Municipality:Delaware - Aldan Borough": [
-    "Zip:19018"
-  ],
-  "Zip:19018": [
-    "Municipality:Delaware - Aldan Borough",
-    "Municipality:Delaware - Clifton Heights Borough",
-    "Municipality:Delaware - Upper Darby Township"
-  ],
-  "Municipality:Delaware - Sharon Hill Borough": [
-    "Zip:19079"
-  ],
-  "Zip:19079": [
-    "Municipality:Delaware - Sharon Hill Borough",
-    "Municipality:Delaware - Folcroft Borough",
-    "Municipality:Delaware - Darby Township"
-  ],
-  "Municipality:Delaware - Clifton Heights Borough": [
-    "Zip:19018"
-  ],
-  "Municipality:Delaware - Collingdale Borough": [
-    "Zip:19023"
-  ],
-  "Municipality:Delaware - Folcroft Borough": [
-    "Zip:19079",
-    "Zip:19032"
-  ],
-  "Zip:19032": [
-    "Municipality:Delaware - Folcroft Borough"
-  ],
-  "Municipality:Delaware - Tinicum Township": [
-    "Zip:19113",
-    "Zip:19029"
-  ],
-  "Zip:19113": [
-    "Municipality:Delaware - Tinicum Township"
-  ],
-  "Zip:19029": [
-    "Municipality:Delaware - Tinicum Township"
-  ],
-  "Municipality:Delaware - Darby Township": [
-    "Zip:19036",
-    "Zip:19079"
-  ],
-  "Zip:19036": [
-    "Municipality:Delaware - Darby Township",
-    "Municipality:Delaware - Glenolden Borough"
-  ],
-  "Municipality:Delaware - Nether Providence Township": [
-    "Zip:19086"
-  ],
-  "Zip:19086": [
-    "Municipality:Delaware - Nether Providence Township",
-    "Municipality:Delaware - Rose Valley Borough"
-  ],
-  "Municipality:Delaware - Radnor Township": [
-    "Zip:19085",
-    "Zip:19087",
-    "Zip:19010"
-  ],
-  "Municipality:Delaware - Ridley Township": [
-    "Zip:19094",
-    "Zip:19033",
-    "Zip:19043",
-    "Zip:19070",
-    "Zip:19081",
-    "Zip:19078"
-  ],
-  "Zip:19094": [
-    "Municipality:Delaware - Ridley Township"
-  ],
-  "Zip:19033": [
-    "Municipality:Delaware - Ridley Township"
-  ],
-  "Zip:19043": [
-    "Municipality:Delaware - Ridley Township"
-  ],
-  "Zip:19070": [
-    "Municipality:Delaware - Ridley Township",
-    "Municipality:Delaware - Rutledge Borough",
-    "Municipality:Delaware - Morton Borough"
-  ],
-  "Zip:19081": [
-    "Municipality:Delaware - Ridley Township",
-    "Municipality:Delaware - Swarthmore Borough"
-  ],
-  "Zip:19078": [
-    "Municipality:Delaware - Ridley Township",
-    "Municipality:Delaware - Ridley Park Borough"
-  ],
-  "Municipality:Delaware - Haverford Township": [
-    "Zip:19003",
-    "Zip:19083",
-    "Zip:19041"
-  ],
-  "Zip:19003": [
-    "Municipality:Delaware - Haverford Township"
-  ],
-  "Zip:19083": [
-    "Municipality:Delaware - Haverford Township"
-  ],
-  "Zip:19041": [
-    "Municipality:Delaware - Haverford Township"
-  ],
-  "Municipality:Delaware - Rutledge Borough": [
-    "Zip:19070"
-  ],
-  "Municipality:Delaware - Swarthmore Borough": [
-    "Zip:19081"
-  ],
-  "Municipality:Delaware - Rose Valley Borough": [
-    "Zip:19086"
-  ],
-  "Municipality:Delaware - Eddystone Borough": [
-    "Zip:19022"
-  ],
-  "Zip:19022": [
-    "Municipality:Delaware - Eddystone Borough"
-  ],
-  "Municipality:Delaware - Norwood Borough": [
-    "Zip:19074"
-  ],
-  "Zip:19074": [
-    "Municipality:Delaware - Norwood Borough"
-  ],
-  "Municipality:Delaware - Marple Township": [
-    "Zip:19008",
-    "Zip:19064"
-  ],
-  "Zip:19008": [
-    "Municipality:Delaware - Marple Township"
-  ],
-  "Zip:19064": [
-    "Municipality:Delaware - Marple Township",
-    "Municipality:Delaware - Springfield Township"
-  ],
-  "Municipality:Delaware - Morton Borough": [
-    "Zip:19070"
-  ],
-  "Municipality:Delaware - Prospect Park Borough": [
-    "Zip:19076"
-  ],
-  "Zip:19076": [
-    "Municipality:Delaware - Prospect Park Borough"
-  ],
-  "Municipality:Delaware - Ridley Park Borough": [
-    "Zip:19078"
-  ],
-  "Municipality:Chester - Willistown Township": [
-    "Zip:19355",
-    "Zip:19073",
-    "Zip:19301"
-  ],
-  "Zip:19355": [
-    "Municipality:Chester - Willistown Township",
-    "Municipality:Chester - Tredyffrin Township",
-    "Municipality:Chester - East Whiteland Township",
-    "Municipality:Chester - Charlestown Township"
-  ],
-  "Zip:19073": [
-    "Municipality:Chester - Willistown Township",
-    "Municipality:Delaware - Edgmont Township",
-    "Municipality:Delaware - Newtown Township"
-  ],
-  "Zip:19301": [
-    "Municipality:Chester - Willistown Township",
-    "Municipality:Chester - Tredyffrin Township"
-  ],
-  "Municipality:Chester - Phoenixville Borough": [
-    "Zip:19460"
-  ],
-  "Zip:19460": [
-    "Municipality:Chester - Phoenixville Borough",
-    "Municipality:Chester - East Pikeland Township",
-    "Municipality:Chester - Charlestown Township",
-    "Municipality:Chester - Schuylkill Township",
-    "Municipality:Chester - East Vincent Township",
-    "Municipality:Montgomery - Upper Providence Township"
-  ],
-  "Municipality:Chester - Tredyffrin Township": [
-    "Zip:19087",
-    "Zip:19355",
-    "Zip:19312",
-    "Zip:19301"
-  ],
-  "Zip:19312": [
-    "Municipality:Chester - Tredyffrin Township",
-    "Municipality:Chester - Easttown Township"
-  ],
-  "Municipality:Delaware - Edgmont Township": [
-    "Zip:19342",
-    "Zip:19063",
-    "Zip:19073"
-  ],
-  "Zip:19342": [
-    "Municipality:Delaware - Edgmont Township",
-    "Municipality:Delaware - Thornbury Township",
-    "Municipality:Delaware - Concord Township",
-    "Municipality:Delaware - Middletown Township"
-  ],
-  "Zip:19063": [
-    "Municipality:Delaware - Edgmont Township",
-    "Municipality:Delaware - Upper Providence Township",
-    "Municipality:Delaware - Middletown Township"
-  ],
-  "Municipality:Delaware - Glenolden Borough": [
-    "Zip:19036"
-  ],
-  "Municipality:Chester - East Pikeland Township": [
-    "Zip:19460"
-  ],
-  "Municipality:Chester - East Whiteland Township": [
-    "Zip:19355"
-  ],
-  "Municipality:Delaware - Upper Providence Township": [
-    "Zip:19063"
-  ],
-  "Municipality:Delaware - Newtown Township": [
-    "Zip:19073"
+  "Municipality:Bucks - Warwick Township": [
+    "Zip:18929",
+    "Zip:18974"
+  ],
+  "Zip:18929": [
+    "Municipality:Bucks - Warwick Township"
+  ],
+  "Municipality:Bucks - West Rockhill Township": [
+    "Zip:18054",
+    "Zip:18960"
+  ],
+  "Zip:18054": [
+    "Municipality:Bucks - West Rockhill Township",
+    "Municipality:Montgomery - Marlborough Township",
+    "Municipality:Montgomery - Salford Township",
+    "Municipality:Montgomery - Upper Frederick Township"
+  ],
+  "Municipality:Bucks - Wrightstown Township": [
+    "Zip:18940",
+    "Zip:18980"
+  ],
+  "Zip:18980": [
+    "Municipality:Bucks - Wrightstown Township"
+  ],
+  "Municipality:Chester - Atglen Borough": [
+    "Zip:19310"
+  ],
+  "Zip:19310": [
+    "Municipality:Chester - Atglen Borough",
+    "Municipality:Chester - West Fallowfield Township",
+    "Municipality:Chester - West Sadsbury Township"
+  ],
+  "Municipality:Chester - Birmingham Township": [
+    "Zip:19382"
+  ],
+  "Zip:19382": [
+    "Municipality:Chester - Birmingham Township",
+    "Municipality:Chester - East Bradford Township",
+    "Municipality:Chester - Pocopson Township",
+    "Municipality:Chester - Thornbury Township",
+    "Municipality:Chester - West Bradford Township",
+    "Municipality:Chester - West Goshen Township",
+    "Municipality:Chester - Westtown Township"
+  ],
+  "Municipality:Chester - Caln Township": [
+    "Zip:19335",
+    "Zip:19372"
+  ],
+  "Zip:19335": [
+    "Municipality:Chester - Caln Township",
+    "Municipality:Chester - East Bradford Township",
+    "Municipality:Chester - East Brandywine Township",
+    "Municipality:Chester - East Caln Township",
+    "Municipality:Chester - Upper Uwchlan Township",
+    "Municipality:Chester - Uwchlan Township",
+    "Municipality:Chester - West Bradford Township"
+  ],
+  "Zip:19372": [
+    "Municipality:Chester - Caln Township"
   ],
   "Municipality:Chester - Charlestown Township": [
-    "Zip:19460",
-    "Zip:19355"
-  ],
-  "Municipality:Chester - Easttown Township": [
-    "Zip:19333",
-    "Zip:19312"
-  ],
-  "Zip:19333": [
-    "Municipality:Chester - Easttown Township"
-  ],
-  "Municipality:Delaware - Springfield Township": [
-    "Zip:19064"
-  ],
-  "Municipality:Delaware - Upper Darby Township": [
-    "Zip:19082",
-    "Zip:19050",
-    "Zip:19026",
-    "Zip:19018"
-  ],
-  "Zip:19082": [
-    "Municipality:Delaware - Upper Darby Township"
-  ],
-  "Zip:19026": [
-    "Municipality:Delaware - Upper Darby Township"
-  ],
-  "Municipality:Chester - Schuylkill Township": [
+    "Zip:19355",
     "Zip:19460"
+  ],
+  "Zip:19355": [
+    "Municipality:Chester - Charlestown Township",
+    "Municipality:Chester - East Whiteland Township",
+    "Municipality:Chester - Tredyffrin Township",
+    "Municipality:Chester - Willistown Township"
+  ],
+  "Zip:19460": [
+    "Municipality:Chester - Charlestown Township",
+    "Municipality:Chester - East Pikeland Township",
+    "Municipality:Chester - East Vincent Township",
+    "Municipality:Chester - Phoenixville Borough",
+    "Municipality:Chester - Schuylkill Township",
+    "Municipality:Montgomery - Upper Providence Township"
+  ],
+  "Municipality:Chester - East Bradford Township": [
+    "Zip:19335",
+    "Zip:19380",
+    "Zip:19382"
+  ],
+  "Zip:19380": [
+    "Municipality:Chester - East Bradford Township",
+    "Municipality:Chester - East Goshen Township",
+    "Municipality:Chester - West Bradford Township",
+    "Municipality:Chester - West Goshen Township",
+    "Municipality:Chester - West Whiteland Township"
+  ],
+  "Municipality:Chester - East Brandywine Township": [
+    "Zip:19335"
+  ],
+  "Municipality:Chester - East Caln Township": [
+    "Zip:19335"
   ],
   "Municipality:Chester - East Coventry Township": [
     "Zip:19465",
@@ -1482,249 +1139,44 @@
     "Municipality:Chester - East Vincent Township",
     "Municipality:Chester - West Vincent Township"
   ],
-  "Municipality:Chester - East Vincent Township": [
-    "Zip:19460",
-    "Zip:19475"
+  "Municipality:Chester - East Fallowfield Township": [
+    "Zip:19320"
   ],
-  "Municipality:Montgomery - Lower Pottsgrove Township": [
-    "Zip:19464"
-  ],
-  "Zip:19464": [
-    "Municipality:Montgomery - Lower Pottsgrove Township",
-    "Municipality:Montgomery - Pottstown Borough",
-    "Municipality:Montgomery - West Pottsgrove Township",
-    "Municipality:Montgomery - Limerick Township",
-    "Municipality:Montgomery - Upper Pottsgrove Township"
-  ],
-  "Municipality:Montgomery - Douglass Township": [
-    "Zip:19504",
-    "Zip:19525"
-  ],
-  "Zip:19504": [
-    "Municipality:Montgomery - Douglass Township"
-  ],
-  "Municipality:Montgomery - Pottstown Borough": [
-    "Zip:19464"
-  ],
-  "Municipality:Montgomery - West Pottsgrove Township": [
-    "Zip:19464"
-  ],
-  "Municipality:Montgomery - Limerick Township": [
-    "Zip:19468",
-    "Zip:19473",
-    "Zip:19464"
-  ],
-  "Zip:19468": [
-    "Municipality:Montgomery - Limerick Township",
-    "Municipality:Montgomery - Upper Providence Township"
-  ],
-  "Municipality:Chester - North Coventry Township": [
-    "Zip:19465"
-  ],
-  "Municipality:Montgomery - Upper Pottsgrove Township": [
-    "Zip:19464"
-  ],
-  "Municipality:Montgomery - Lower Providence Township": [
-    "Zip:19403",
-    "Zip:19426"
-  ],
-  "Municipality:Montgomery - Upper Providence Township": [
-    "Zip:19460",
-    "Zip:19468",
-    "Zip:19426"
-  ],
-  "Municipality:Chester - Modena Borough": [
-    "Zip:19358"
-  ],
-  "Zip:19358": [
-    "Municipality:Chester - Modena Borough"
-  ],
-  "Municipality:Delaware - Lower Chichester Township": [
-    "Zip:19061"
-  ],
-  "Zip:19061": [
-    "Municipality:Delaware - Lower Chichester Township",
-    "Municipality:Delaware - Upper Chichester Township",
-    "Municipality:Delaware - Trainer Borough",
-    "Municipality:Delaware - Marcus Hook Borough"
-  ],
-  "Municipality:Chester - Caln Township": [
-    "Zip:19335",
-    "Zip:19372"
-  ],
-  "Zip:19335": [
-    "Municipality:Chester - Caln Township",
-    "Municipality:Chester - East Brandywine Township",
-    "Municipality:Chester - East Caln Township",
-    "Municipality:Chester - East Bradford Township",
-    "Municipality:Chester - Upper Uwchlan Township",
-    "Municipality:Chester - West Bradford Township",
-    "Municipality:Chester - Uwchlan Township"
-  ],
-  "Zip:19372": [
-    "Municipality:Chester - Caln Township"
-  ],
-  "Municipality:Delaware - Thornbury Township": [
-    "Zip:19319",
-    "Zip:19342",
-    "Zip:19373"
-  ],
-  "Zip:19319": [
-    "Municipality:Delaware - Thornbury Township"
-  ],
-  "Zip:19373": [
-    "Municipality:Delaware - Thornbury Township",
-    "Municipality:Delaware - Concord Township"
-  ],
-  "Municipality:Delaware - Upper Chichester Township": [
-    "Zip:19061",
-    "Zip:19014"
-  ],
-  "Zip:19014": [
-    "Municipality:Delaware - Upper Chichester Township",
-    "Municipality:Delaware - Chester Township",
-    "Municipality:Delaware - Aston Township"
-  ],
-  "Municipality:Delaware - Upland Borough": [
-    "Zip:19015"
-  ],
-  "Zip:19015": [
-    "Municipality:Delaware - Upland Borough",
-    "Municipality:Delaware - Brookhaven Borough",
-    "Municipality:Delaware - Parkside Borough"
-  ],
-  "Municipality:Delaware - Chester Township": [
-    "Zip:19013",
-    "Zip:19014"
-  ],
-  "Zip:19013": [
-    "Municipality:Delaware - Chester Township",
-    "Municipality:Delaware - Chester City"
-  ],
-  "Municipality:Delaware - Brookhaven Borough": [
-    "Zip:19015"
-  ],
-  "Municipality:Delaware - Parkside Borough": [
-    "Zip:19015"
-  ],
-  "Municipality:Chester - Wallace Township": [
-    "Zip:19343"
-  ],
-  "Zip:19343": [
-    "Municipality:Chester - Wallace Township",
-    "Municipality:Chester - East Nantmeal Township",
+  "Zip:19320": [
+    "Municipality:Chester - East Fallowfield Township",
+    "Municipality:Chester - Highland Township",
+    "Municipality:Chester - Newlin Township",
+    "Municipality:Chester - Valley Township",
     "Municipality:Chester - West Brandywine Township",
-    "Municipality:Chester - Upper Uwchlan Township"
+    "Municipality:Chester - West Caln Township",
+    "Municipality:Chester - West Marlborough Township"
   ],
-  "Municipality:Delaware - Chester Heights Borough": [
-    "Zip:19017"
+  "Municipality:Chester - East Goshen Township": [
+    "Zip:19380"
   ],
-  "Zip:19017": [
-    "Municipality:Delaware - Chester Heights Borough"
+  "Municipality:Chester - East Marlborough Township": [
+    "Zip:19348"
   ],
-  "Municipality:Delaware - Chadds Ford Township": [
-    "Zip:19317"
-  ],
-  "Zip:19317": [
-    "Municipality:Delaware - Chadds Ford Township",
+  "Zip:19348": [
+    "Municipality:Chester - East Marlborough Township",
     "Municipality:Chester - Kennett Township",
-    "Municipality:Chester - Pennsbury Township"
-  ],
-  "Municipality:Delaware - Trainer Borough": [
-    "Zip:19061"
-  ],
-  "Municipality:Delaware - Aston Township": [
-    "Zip:19014"
+    "Municipality:Chester - Newlin Township",
+    "Municipality:Chester - West Marlborough Township"
   ],
   "Municipality:Chester - East Nantmeal Township": [
     "Zip:19343",
     "Zip:19520"
   ],
+  "Zip:19343": [
+    "Municipality:Chester - East Nantmeal Township",
+    "Municipality:Chester - Upper Uwchlan Township",
+    "Municipality:Chester - Wallace Township",
+    "Municipality:Chester - West Brandywine Township"
+  ],
   "Zip:19520": [
     "Municipality:Chester - East Nantmeal Township",
-    "Municipality:Chester - West Nantmeal Township",
-    "Municipality:Chester - Warwick Township"
-  ],
-  "Municipality:Chester - East Brandywine Township": [
-    "Zip:19335"
-  ],
-  "Municipality:Chester - Penn Township": [
-    "Zip:19330",
-    "Zip:19390"
-  ],
-  "Zip:19330": [
-    "Municipality:Chester - Penn Township",
-    "Municipality:Chester - Highland Township",
-    "Municipality:Chester - West Fallowfield Township",
-    "Municipality:Chester - Upper Oxford Township",
-    "Municipality:Chester - Londonderry Township"
-  ],
-  "Zip:19390": [
-    "Municipality:Chester - Penn Township",
-    "Municipality:Chester - West Marlborough Township",
-    "Municipality:Chester - New London Township",
-    "Municipality:Chester - London Grove Township"
-  ],
-  "Municipality:Chester - East Caln Township": [
-    "Zip:19335"
-  ],
-  "Municipality:Chester - Birmingham Township": [
-    "Zip:19382"
-  ],
-  "Zip:19382": [
-    "Municipality:Chester - Birmingham Township",
-    "Municipality:Chester - East Bradford Township",
-    "Municipality:Chester - Pocopson Township",
-    "Municipality:Chester - West Goshen Township",
-    "Municipality:Chester - Thornbury Township",
-    "Municipality:Chester - West Bradford Township",
-    "Municipality:Chester - Westtown Township"
-  ],
-  "Municipality:Chester - East Bradford Township": [
-    "Zip:19380",
-    "Zip:19382",
-    "Zip:19335"
-  ],
-  "Zip:19380": [
-    "Municipality:Chester - East Bradford Township",
-    "Municipality:Chester - West Whiteland Township",
-    "Municipality:Chester - East Goshen Township",
-    "Municipality:Chester - West Goshen Township",
-    "Municipality:Chester - West Bradford Township"
-  ],
-  "Municipality:Chester - Franklin Township": [
-    "Zip:19350",
-    "Zip:19352"
-  ],
-  "Zip:19350": [
-    "Municipality:Chester - Franklin Township",
-    "Municipality:Chester - London Britain Township",
-    "Municipality:Chester - New Garden Township"
-  ],
-  "Zip:19352": [
-    "Municipality:Chester - Franklin Township",
-    "Municipality:Chester - Upper Oxford Township",
-    "Municipality:Chester - New London Township"
-  ],
-  "Municipality:Chester - Highland Township": [
-    "Zip:19330",
-    "Zip:19320",
-    "Zip:19365"
-  ],
-  "Zip:19320": [
-    "Municipality:Chester - Highland Township",
-    "Municipality:Chester - East Fallowfield Township",
-    "Municipality:Chester - West Marlborough Township",
-    "Municipality:Chester - West Caln Township",
-    "Municipality:Chester - West Brandywine Township",
-    "Municipality:Chester - Newlin Township",
-    "Municipality:Chester - Valley Township"
-  ],
-  "Zip:19365": [
-    "Municipality:Chester - Highland Township",
-    "Municipality:Chester - West Sadsbury Township",
-    "Municipality:Chester - Parkesburg Borough",
-    "Municipality:Chester - Sadsbury Township"
+    "Municipality:Chester - Warwick Township",
+    "Municipality:Chester - West Nantmeal Township"
   ],
   "Municipality:Chester - East Nottingham Township": [
     "Zip:19362",
@@ -1737,83 +1189,237 @@
   "Zip:19363": [
     "Municipality:Chester - East Nottingham Township",
     "Municipality:Chester - Elk Township",
-    "Municipality:Chester - Upper Oxford Township",
-    "Municipality:Chester - Lower Oxford Township"
+    "Municipality:Chester - Lower Oxford Township",
+    "Municipality:Chester - Upper Oxford Township"
   ],
-  "Municipality:Chester - East Marlborough Township": [
-    "Zip:19348"
+  "Municipality:Chester - East Pikeland Township": [
+    "Zip:19460"
   ],
-  "Zip:19348": [
-    "Municipality:Chester - East Marlborough Township",
-    "Municipality:Chester - West Marlborough Township",
-    "Municipality:Chester - Newlin Township",
-    "Municipality:Chester - Kennett Township"
-  ],
-  "Municipality:Chester - London Britain Township": [
-    "Zip:19350"
-  ],
-  "Municipality:Chester - West Vincent Township": [
-    "Zip:19425",
+  "Municipality:Chester - East Vincent Township": [
+    "Zip:19460",
     "Zip:19475"
   ],
-  "Zip:19425": [
-    "Municipality:Chester - West Vincent Township",
-    "Municipality:Chester - West Pikeland Township",
-    "Municipality:Chester - Upper Uwchlan Township"
+  "Municipality:Chester - East Whiteland Township": [
+    "Zip:19355"
   ],
-  "Municipality:Chester - West Whiteland Township": [
-    "Zip:19380",
-    "Zip:19341"
+  "Municipality:Chester - Easttown Township": [
+    "Zip:19312",
+    "Zip:19333"
   ],
-  "Zip:19341": [
-    "Municipality:Chester - West Whiteland Township",
-    "Municipality:Chester - Uwchlan Township"
+  "Zip:19312": [
+    "Municipality:Chester - Easttown Township",
+    "Municipality:Chester - Tredyffrin Township"
   ],
-  "Municipality:Chester - East Fallowfield Township": [
-    "Zip:19320"
-  ],
-  "Municipality:Chester - East Goshen Township": [
-    "Zip:19380"
-  ],
-  "Municipality:Delaware - Concord Township": [
-    "Zip:19342",
-    "Zip:19373",
-    "Zip:19060"
-  ],
-  "Zip:19060": [
-    "Municipality:Delaware - Concord Township",
-    "Municipality:Delaware - Bethel Township"
-  ],
-  "Municipality:Delaware - Bethel Township": [
-    "Zip:19060"
-  ],
-  "Municipality:Chester - Pocopson Township": [
-    "Zip:19382"
-  ],
-  "Municipality:Chester - West Fallowfield Township": [
-    "Zip:19330",
-    "Zip:19310"
-  ],
-  "Zip:19310": [
-    "Municipality:Chester - West Fallowfield Township",
-    "Municipality:Chester - West Sadsbury Township",
-    "Municipality:Chester - Atglen Borough"
+  "Zip:19333": [
+    "Municipality:Chester - Easttown Township"
   ],
   "Municipality:Chester - Elk Township": [
     "Zip:19363"
   ],
-  "Municipality:Chester - West Marlborough Township": [
-    "Zip:19390",
+  "Municipality:Chester - Franklin Township": [
+    "Zip:19350",
+    "Zip:19352"
+  ],
+  "Zip:19350": [
+    "Municipality:Chester - Franklin Township",
+    "Municipality:Chester - London Britain Township",
+    "Municipality:Chester - New Garden Township"
+  ],
+  "Zip:19352": [
+    "Municipality:Chester - Franklin Township",
+    "Municipality:Chester - New London Township",
+    "Municipality:Chester - Upper Oxford Township"
+  ],
+  "Municipality:Chester - Highland Township": [
+    "Zip:19320",
+    "Zip:19330",
+    "Zip:19365"
+  ],
+  "Zip:19330": [
+    "Municipality:Chester - Highland Township",
+    "Municipality:Chester - Londonderry Township",
+    "Municipality:Chester - Penn Township",
+    "Municipality:Chester - Upper Oxford Township",
+    "Municipality:Chester - West Fallowfield Township"
+  ],
+  "Zip:19365": [
+    "Municipality:Chester - Highland Township",
+    "Municipality:Chester - Parkesburg Borough",
+    "Municipality:Chester - Sadsbury Township",
+    "Municipality:Chester - West Sadsbury Township"
+  ],
+  "Municipality:Chester - Honey Brook Township": [
+    "Zip:19344"
+  ],
+  "Zip:19344": [
+    "Municipality:Chester - Honey Brook Township",
+    "Municipality:Chester - West Nantmeal Township"
+  ],
+  "Municipality:Chester - Kennett Township": [
+    "Zip:19317",
+    "Zip:19348"
+  ],
+  "Zip:19317": [
+    "Municipality:Chester - Kennett Township",
+    "Municipality:Chester - Pennsbury Township",
+    "Municipality:Delaware - Chadds Ford Township"
+  ],
+  "Municipality:Chester - London Britain Township": [
+    "Zip:19350"
+  ],
+  "Municipality:Chester - London Grove Township": [
+    "Zip:19311",
+    "Zip:19390"
+  ],
+  "Zip:19311": [
+    "Municipality:Chester - London Grove Township",
+    "Municipality:Chester - New Garden Township"
+  ],
+  "Zip:19390": [
+    "Municipality:Chester - London Grove Township",
+    "Municipality:Chester - New London Township",
+    "Municipality:Chester - Penn Township",
+    "Municipality:Chester - West Marlborough Township"
+  ],
+  "Municipality:Chester - Londonderry Township": [
+    "Zip:19330"
+  ],
+  "Municipality:Chester - Lower Oxford Township": [
+    "Zip:19363"
+  ],
+  "Municipality:Chester - Modena Borough": [
+    "Zip:19358"
+  ],
+  "Zip:19358": [
+    "Municipality:Chester - Modena Borough"
+  ],
+  "Municipality:Chester - New Garden Township": [
+    "Zip:19311",
+    "Zip:19350",
+    "Zip:19374"
+  ],
+  "Zip:19374": [
+    "Municipality:Chester - New Garden Township"
+  ],
+  "Municipality:Chester - New London Township": [
+    "Zip:19352",
+    "Zip:19390"
+  ],
+  "Municipality:Chester - Newlin Township": [
     "Zip:19320",
     "Zip:19348"
+  ],
+  "Municipality:Chester - North Coventry Township": [
+    "Zip:19465"
+  ],
+  "Municipality:Chester - Parkesburg Borough": [
+    "Zip:19365"
+  ],
+  "Municipality:Chester - Penn Township": [
+    "Zip:19330",
+    "Zip:19390"
+  ],
+  "Municipality:Chester - Pennsbury Township": [
+    "Zip:19317"
+  ],
+  "Municipality:Chester - Phoenixville Borough": [
+    "Zip:19460"
+  ],
+  "Municipality:Chester - Pocopson Township": [
+    "Zip:19382"
+  ],
+  "Municipality:Chester - Sadsbury Township": [
+    "Zip:19365"
+  ],
+  "Municipality:Chester - Schuylkill Township": [
+    "Zip:19460"
+  ],
+  "Municipality:Chester - South Coventry Township": [
+    "Zip:19465"
+  ],
+  "Municipality:Chester - Thornbury Township": [
+    "Zip:19382"
+  ],
+  "Municipality:Chester - Tredyffrin Township": [
+    "Zip:19087",
+    "Zip:19301",
+    "Zip:19312",
+    "Zip:19355"
+  ],
+  "Zip:19087": [
+    "Municipality:Chester - Tredyffrin Township",
+    "Municipality:Delaware - Radnor Township",
+    "Municipality:Montgomery - Upper Merion Township"
+  ],
+  "Zip:19301": [
+    "Municipality:Chester - Tredyffrin Township",
+    "Municipality:Chester - Willistown Township"
+  ],
+  "Municipality:Chester - Upper Oxford Township": [
+    "Zip:19330",
+    "Zip:19352",
+    "Zip:19363"
+  ],
+  "Municipality:Chester - Upper Uwchlan Township": [
+    "Zip:19335",
+    "Zip:19343",
+    "Zip:19425"
+  ],
+  "Zip:19425": [
+    "Municipality:Chester - Upper Uwchlan Township",
+    "Municipality:Chester - West Pikeland Township",
+    "Municipality:Chester - West Vincent Township"
+  ],
+  "Municipality:Chester - Uwchlan Township": [
+    "Zip:19335",
+    "Zip:19341"
+  ],
+  "Zip:19341": [
+    "Municipality:Chester - Uwchlan Township",
+    "Municipality:Chester - West Whiteland Township"
+  ],
+  "Municipality:Chester - Valley Township": [
+    "Zip:19320"
+  ],
+  "Municipality:Chester - Wallace Township": [
+    "Zip:19343"
+  ],
+  "Municipality:Chester - Warwick Township": [
+    "Zip:19465",
+    "Zip:19520"
+  ],
+  "Municipality:Chester - West Bradford Township": [
+    "Zip:19335",
+    "Zip:19380",
+    "Zip:19382"
+  ],
+  "Municipality:Chester - West Brandywine Township": [
+    "Zip:19316",
+    "Zip:19320",
+    "Zip:19343"
+  ],
+  "Zip:19316": [
+    "Municipality:Chester - West Brandywine Township"
+  ],
+  "Municipality:Chester - West Caln Township": [
+    "Zip:19320"
+  ],
+  "Municipality:Chester - West Fallowfield Township": [
+    "Zip:19310",
+    "Zip:19330"
+  ],
+  "Municipality:Chester - West Goshen Township": [
+    "Zip:19380",
+    "Zip:19382"
+  ],
+  "Municipality:Chester - West Marlborough Township": [
+    "Zip:19320",
+    "Zip:19348",
+    "Zip:19390"
   ],
   "Municipality:Chester - West Nantmeal Township": [
     "Zip:19344",
     "Zip:19520"
-  ],
-  "Zip:19344": [
-    "Municipality:Chester - West Nantmeal Township",
-    "Municipality:Chester - Honey Brook Township"
   ],
   "Municipality:Chester - West Nottingham Township": [
     "Zip:19362"
@@ -1825,128 +1431,613 @@
     "Zip:19310",
     "Zip:19365"
   ],
-  "Municipality:Chester - West Goshen Township": [
-    "Zip:19380",
-    "Zip:19382"
-  ],
-  "Municipality:Chester - Atglen Borough": [
-    "Zip:19310"
-  ],
-  "Municipality:Chester - West Caln Township": [
-    "Zip:19320"
-  ],
-  "Municipality:Chester - Thornbury Township": [
-    "Zip:19382"
-  ],
-  "Municipality:Chester - Parkesburg Borough": [
-    "Zip:19365"
-  ],
-  "Municipality:Chester - West Brandywine Township": [
-    "Zip:19320",
-    "Zip:19316",
-    "Zip:19343"
-  ],
-  "Zip:19316": [
-    "Municipality:Chester - West Brandywine Township"
-  ],
-  "Municipality:Chester - Upper Oxford Township": [
-    "Zip:19330",
-    "Zip:19363",
-    "Zip:19352"
-  ],
-  "Municipality:Chester - Newlin Township": [
-    "Zip:19320",
-    "Zip:19348"
-  ],
-  "Municipality:Chester - Upper Uwchlan Township": [
+  "Municipality:Chester - West Vincent Township": [
     "Zip:19425",
-    "Zip:19335",
-    "Zip:19343"
+    "Zip:19475"
   ],
-  "Municipality:Chester - West Bradford Township": [
-    "Zip:19380",
-    "Zip:19382",
-    "Zip:19335"
-  ],
-  "Municipality:Chester - Londonderry Township": [
-    "Zip:19330"
-  ],
-  "Municipality:Chester - Lower Oxford Township": [
-    "Zip:19363"
-  ],
-  "Municipality:Chester - New London Township": [
-    "Zip:19390",
-    "Zip:19352"
-  ],
-  "Municipality:Chester - New Garden Township": [
-    "Zip:19311",
-    "Zip:19374",
-    "Zip:19350"
-  ],
-  "Zip:19311": [
-    "Municipality:Chester - New Garden Township",
-    "Municipality:Chester - London Grove Township"
-  ],
-  "Zip:19374": [
-    "Municipality:Chester - New Garden Township"
-  ],
-  "Municipality:Delaware - Middletown Township": [
-    "Zip:19342",
-    "Zip:19063"
-  ],
-  "Municipality:Delaware - Chester City": [
-    "Zip:19013"
-  ],
-  "Municipality:Chester - Sadsbury Township": [
-    "Zip:19365"
-  ],
-  "Municipality:Chester - Uwchlan Township": [
-    "Zip:19335",
-    "Zip:19341"
+  "Municipality:Chester - West Whiteland Township": [
+    "Zip:19341",
+    "Zip:19380"
   ],
   "Municipality:Chester - Westtown Township": [
     "Zip:19382"
   ],
+  "Municipality:Chester - Willistown Township": [
+    "Zip:19073",
+    "Zip:19301",
+    "Zip:19355"
+  ],
+  "Zip:19073": [
+    "Municipality:Chester - Willistown Township",
+    "Municipality:Delaware - Edgmont Township",
+    "Municipality:Delaware - Newtown Township"
+  ],
+  "Municipality:Delaware - Aldan Borough": [
+    "Zip:19018"
+  ],
+  "Zip:19018": [
+    "Municipality:Delaware - Aldan Borough",
+    "Municipality:Delaware - Clifton Heights Borough",
+    "Municipality:Delaware - Upper Darby Township"
+  ],
+  "Municipality:Delaware - Aston Township": [
+    "Zip:19014"
+  ],
+  "Zip:19014": [
+    "Municipality:Delaware - Aston Township",
+    "Municipality:Delaware - Chester Township",
+    "Municipality:Delaware - Upper Chichester Township"
+  ],
+  "Municipality:Delaware - Bethel Township": [
+    "Zip:19060"
+  ],
+  "Zip:19060": [
+    "Municipality:Delaware - Bethel Township",
+    "Municipality:Delaware - Concord Township"
+  ],
+  "Municipality:Delaware - Brookhaven Borough": [
+    "Zip:19015"
+  ],
+  "Zip:19015": [
+    "Municipality:Delaware - Brookhaven Borough",
+    "Municipality:Delaware - Parkside Borough",
+    "Municipality:Delaware - Upland Borough"
+  ],
+  "Municipality:Delaware - Chadds Ford Township": [
+    "Zip:19317"
+  ],
+  "Municipality:Delaware - Chester City": [
+    "Zip:19013"
+  ],
+  "Zip:19013": [
+    "Municipality:Delaware - Chester City",
+    "Municipality:Delaware - Chester Township"
+  ],
+  "Municipality:Delaware - Chester Heights Borough": [
+    "Zip:19017"
+  ],
+  "Zip:19017": [
+    "Municipality:Delaware - Chester Heights Borough"
+  ],
+  "Municipality:Delaware - Chester Township": [
+    "Zip:19013",
+    "Zip:19014"
+  ],
+  "Municipality:Delaware - Clifton Heights Borough": [
+    "Zip:19018"
+  ],
+  "Municipality:Delaware - Collingdale Borough": [
+    "Zip:19023"
+  ],
+  "Zip:19023": [
+    "Municipality:Delaware - Collingdale Borough",
+    "Municipality:Delaware - Colwyn Borough",
+    "Municipality:Delaware - Darby Borough"
+  ],
+  "Municipality:Delaware - Colwyn Borough": [
+    "Zip:19023"
+  ],
+  "Municipality:Delaware - Concord Township": [
+    "Zip:19060",
+    "Zip:19342",
+    "Zip:19373"
+  ],
+  "Zip:19342": [
+    "Municipality:Delaware - Concord Township",
+    "Municipality:Delaware - Edgmont Township",
+    "Municipality:Delaware - Middletown Township",
+    "Municipality:Delaware - Thornbury Township"
+  ],
+  "Zip:19373": [
+    "Municipality:Delaware - Concord Township",
+    "Municipality:Delaware - Thornbury Township"
+  ],
+  "Municipality:Delaware - Darby Borough": [
+    "Zip:19023"
+  ],
+  "Municipality:Delaware - Darby Township": [
+    "Zip:19036",
+    "Zip:19079"
+  ],
+  "Zip:19036": [
+    "Municipality:Delaware - Darby Township",
+    "Municipality:Delaware - Glenolden Borough"
+  ],
+  "Zip:19079": [
+    "Municipality:Delaware - Darby Township",
+    "Municipality:Delaware - Folcroft Borough",
+    "Municipality:Delaware - Sharon Hill Borough"
+  ],
+  "Municipality:Delaware - East Lansdowne Borough": [
+    "Zip:19050"
+  ],
+  "Zip:19050": [
+    "Municipality:Delaware - East Lansdowne Borough",
+    "Municipality:Delaware - Lansdowne Borough",
+    "Municipality:Delaware - Upper Darby Township",
+    "Municipality:Delaware - Yeadon Borough"
+  ],
+  "Municipality:Delaware - Eddystone Borough": [
+    "Zip:19022"
+  ],
+  "Zip:19022": [
+    "Municipality:Delaware - Eddystone Borough"
+  ],
+  "Municipality:Delaware - Edgmont Township": [
+    "Zip:19063",
+    "Zip:19073",
+    "Zip:19342"
+  ],
+  "Zip:19063": [
+    "Municipality:Delaware - Edgmont Township",
+    "Municipality:Delaware - Middletown Township",
+    "Municipality:Delaware - Upper Providence Township"
+  ],
+  "Municipality:Delaware - Folcroft Borough": [
+    "Zip:19032",
+    "Zip:19079"
+  ],
+  "Zip:19032": [
+    "Municipality:Delaware - Folcroft Borough"
+  ],
+  "Municipality:Delaware - Glenolden Borough": [
+    "Zip:19036"
+  ],
+  "Municipality:Delaware - Haverford Township": [
+    "Zip:19003",
+    "Zip:19041",
+    "Zip:19083"
+  ],
+  "Zip:19003": [
+    "Municipality:Delaware - Haverford Township"
+  ],
+  "Zip:19041": [
+    "Municipality:Delaware - Haverford Township"
+  ],
+  "Zip:19083": [
+    "Municipality:Delaware - Haverford Township"
+  ],
+  "Municipality:Delaware - Lansdowne Borough": [
+    "Zip:19050"
+  ],
+  "Municipality:Delaware - Lower Chichester Township": [
+    "Zip:19061"
+  ],
+  "Zip:19061": [
+    "Municipality:Delaware - Lower Chichester Township",
+    "Municipality:Delaware - Marcus Hook Borough",
+    "Municipality:Delaware - Trainer Borough",
+    "Municipality:Delaware - Upper Chichester Township"
+  ],
   "Municipality:Delaware - Marcus Hook Borough": [
     "Zip:19061"
   ],
-  "Municipality:Chester - Kennett Township": [
-    "Zip:19317",
-    "Zip:19348"
+  "Municipality:Delaware - Marple Township": [
+    "Zip:19008",
+    "Zip:19064"
   ],
-  "Municipality:Chester - Honey Brook Township": [
-    "Zip:19344"
+  "Zip:19008": [
+    "Municipality:Delaware - Marple Township"
   ],
-  "Municipality:Chester - London Grove Township": [
-    "Zip:19311",
-    "Zip:19390"
+  "Zip:19064": [
+    "Municipality:Delaware - Marple Township",
+    "Municipality:Delaware - Springfield Township"
   ],
-  "Municipality:Chester - Pennsbury Township": [
-    "Zip:19317"
+  "Municipality:Delaware - Middletown Township": [
+    "Zip:19063",
+    "Zip:19342"
   ],
-  "Municipality:Chester - Valley Township": [
-    "Zip:19320"
+  "Municipality:Delaware - Morton Borough": [
+    "Zip:19070"
   ],
-  "Municipality:Chester - South Coventry Township": [
-    "Zip:19465"
+  "Zip:19070": [
+    "Municipality:Delaware - Morton Borough",
+    "Municipality:Delaware - Ridley Township",
+    "Municipality:Delaware - Rutledge Borough"
   ],
-  "Municipality:Chester - Warwick Township": [
-    "Zip:19465",
-    "Zip:19520"
+  "Municipality:Delaware - Nether Providence Township": [
+    "Zip:19086"
   ],
-  "Municipality:Bucks - Falls Township": [
-    "Zip:19054",
-    "Zip:19067",
-    "Zip:19030"
+  "Zip:19086": [
+    "Municipality:Delaware - Nether Providence Township",
+    "Municipality:Delaware - Rose Valley Borough"
   ],
-  "Zip:19054": [
-    "Municipality:Bucks - Falls Township"
+  "Municipality:Delaware - Newtown Township": [
+    "Zip:19073"
   ],
-  "Zip:19030": [
-    "Municipality:Bucks - Falls Township"
+  "Municipality:Delaware - Norwood Borough": [
+    "Zip:19074"
   ],
-  "Municipality:Bucks - Tullytown Borough": [
-    "Zip:19007"
+  "Zip:19074": [
+    "Municipality:Delaware - Norwood Borough"
+  ],
+  "Municipality:Delaware - Parkside Borough": [
+    "Zip:19015"
+  ],
+  "Municipality:Delaware - Prospect Park Borough": [
+    "Zip:19076"
+  ],
+  "Zip:19076": [
+    "Municipality:Delaware - Prospect Park Borough"
+  ],
+  "Municipality:Delaware - Radnor Township": [
+    "Zip:19010",
+    "Zip:19085",
+    "Zip:19087"
+  ],
+  "Zip:19010": [
+    "Municipality:Delaware - Radnor Township",
+    "Municipality:Montgomery - Lower Merion Township"
+  ],
+  "Zip:19085": [
+    "Municipality:Delaware - Radnor Township",
+    "Municipality:Montgomery - Lower Merion Township"
+  ],
+  "Municipality:Delaware - Ridley Park Borough": [
+    "Zip:19078"
+  ],
+  "Zip:19078": [
+    "Municipality:Delaware - Ridley Park Borough",
+    "Municipality:Delaware - Ridley Township"
+  ],
+  "Municipality:Delaware - Ridley Township": [
+    "Zip:19033",
+    "Zip:19043",
+    "Zip:19070",
+    "Zip:19078",
+    "Zip:19081",
+    "Zip:19094"
+  ],
+  "Zip:19033": [
+    "Municipality:Delaware - Ridley Township"
+  ],
+  "Zip:19043": [
+    "Municipality:Delaware - Ridley Township"
+  ],
+  "Zip:19081": [
+    "Municipality:Delaware - Ridley Township",
+    "Municipality:Delaware - Swarthmore Borough"
+  ],
+  "Zip:19094": [
+    "Municipality:Delaware - Ridley Township"
+  ],
+  "Municipality:Delaware - Rose Valley Borough": [
+    "Zip:19086"
+  ],
+  "Municipality:Delaware - Rutledge Borough": [
+    "Zip:19070"
+  ],
+  "Municipality:Delaware - Sharon Hill Borough": [
+    "Zip:19079"
+  ],
+  "Municipality:Delaware - Springfield Township": [
+    "Zip:19064"
+  ],
+  "Municipality:Delaware - Swarthmore Borough": [
+    "Zip:19081"
+  ],
+  "Municipality:Delaware - Thornbury Township": [
+    "Zip:19319",
+    "Zip:19342",
+    "Zip:19373"
+  ],
+  "Zip:19319": [
+    "Municipality:Delaware - Thornbury Township"
+  ],
+  "Municipality:Delaware - Tinicum Township": [
+    "Zip:19029",
+    "Zip:19113"
+  ],
+  "Zip:19029": [
+    "Municipality:Delaware - Tinicum Township"
+  ],
+  "Zip:19113": [
+    "Municipality:Delaware - Tinicum Township"
+  ],
+  "Municipality:Delaware - Trainer Borough": [
+    "Zip:19061"
+  ],
+  "Municipality:Delaware - Upland Borough": [
+    "Zip:19015"
+  ],
+  "Municipality:Delaware - Upper Chichester Township": [
+    "Zip:19014",
+    "Zip:19061"
+  ],
+  "Municipality:Delaware - Upper Darby Township": [
+    "Zip:19018",
+    "Zip:19026",
+    "Zip:19050",
+    "Zip:19082"
+  ],
+  "Zip:19026": [
+    "Municipality:Delaware - Upper Darby Township"
+  ],
+  "Zip:19082": [
+    "Municipality:Delaware - Upper Darby Township"
+  ],
+  "Municipality:Delaware - Upper Providence Township": [
+    "Zip:19063"
+  ],
+  "Municipality:Delaware - Yeadon Borough": [
+    "Zip:19050"
+  ],
+  "Municipality:Montgomery - Abington Township": [
+    "Zip:19001",
+    "Zip:19006",
+    "Zip:19038",
+    "Zip:19046"
+  ],
+  "Zip:19001": [
+    "Municipality:Montgomery - Abington Township"
+  ],
+  "Zip:19006": [
+    "Municipality:Montgomery - Abington Township",
+    "Municipality:Montgomery - Lower Moreland Township",
+    "Municipality:Montgomery - Upper Moreland Township"
+  ],
+  "Zip:19038": [
+    "Municipality:Montgomery - Abington Township",
+    "Municipality:Montgomery - Cheltenham Township",
+    "Municipality:Montgomery - Springfield Township"
+  ],
+  "Zip:19046": [
+    "Municipality:Montgomery - Abington Township",
+    "Municipality:Montgomery - Jenkintown Borough"
+  ],
+  "Municipality:Montgomery - Bridgeport Borough": [
+    "Zip:19405"
+  ],
+  "Zip:19405": [
+    "Municipality:Montgomery - Bridgeport Borough"
+  ],
+  "Municipality:Montgomery - Bryn Athyn Borough": [
+    "Zip:19009"
+  ],
+  "Zip:19009": [
+    "Municipality:Montgomery - Bryn Athyn Borough"
+  ],
+  "Municipality:Montgomery - Cheltenham Township": [
+    "Zip:19012",
+    "Zip:19027",
+    "Zip:19038",
+    "Zip:19095"
+  ],
+  "Zip:19012": [
+    "Municipality:Montgomery - Cheltenham Township"
+  ],
+  "Zip:19027": [
+    "Municipality:Montgomery - Cheltenham Township"
+  ],
+  "Zip:19095": [
+    "Municipality:Montgomery - Cheltenham Township"
+  ],
+  "Municipality:Montgomery - Conshohocken Borough": [
+    "Zip:19428"
+  ],
+  "Zip:19428": [
+    "Municipality:Montgomery - Conshohocken Borough",
+    "Municipality:Montgomery - Plymouth Township",
+    "Municipality:Montgomery - West Conshohocken Borough",
+    "Municipality:Montgomery - Whitemarsh Township"
+  ],
+  "Municipality:Montgomery - Douglass Township": [
+    "Zip:19504",
+    "Zip:19525"
+  ],
+  "Zip:19504": [
+    "Municipality:Montgomery - Douglass Township"
+  ],
+  "Zip:19525": [
+    "Municipality:Montgomery - Douglass Township",
+    "Municipality:Montgomery - New Hanover Township"
+  ],
+  "Municipality:Montgomery - East Norriton Township": [
+    "Zip:19401",
+    "Zip:19403"
+  ],
+  "Zip:19401": [
+    "Municipality:Montgomery - East Norriton Township",
+    "Municipality:Montgomery - Norristown Borough"
+  ],
+  "Zip:19403": [
+    "Municipality:Montgomery - East Norriton Township",
+    "Municipality:Montgomery - Lower Providence Township",
+    "Municipality:Montgomery - West Norriton Township",
+    "Municipality:Montgomery - Worcester Township"
+  ],
+  "Municipality:Montgomery - Franconia Township": [
+    "Zip:18964",
+    "Zip:18969"
+  ],
+  "Zip:18964": [
+    "Municipality:Montgomery - Franconia Township",
+    "Municipality:Montgomery - Souderton Borough"
+  ],
+  "Zip:18969": [
+    "Municipality:Montgomery - Franconia Township",
+    "Municipality:Montgomery - Salford Township"
+  ],
+  "Municipality:Montgomery - Hatboro Borough": [
+    "Zip:19040"
+  ],
+  "Zip:19040": [
+    "Municipality:Montgomery - Hatboro Borough",
+    "Municipality:Montgomery - Horsham Township",
+    "Municipality:Montgomery - Upper Moreland Township"
+  ],
+  "Municipality:Montgomery - Hatfield Borough": [
+    "Zip:19440"
+  ],
+  "Municipality:Montgomery - Hatfield Township": [
+    "Zip:18915",
+    "Zip:19440"
+  ],
+  "Zip:18915": [
+    "Municipality:Montgomery - Hatfield Township"
+  ],
+  "Municipality:Montgomery - Horsham Township": [
+    "Zip:19002",
+    "Zip:19040",
+    "Zip:19044"
+  ],
+  "Zip:19002": [
+    "Municipality:Montgomery - Horsham Township",
+    "Municipality:Montgomery - Lower Gwynedd Township",
+    "Municipality:Montgomery - Upper Dublin Township"
+  ],
+  "Zip:19044": [
+    "Municipality:Montgomery - Horsham Township"
+  ],
+  "Municipality:Montgomery - Jenkintown Borough": [
+    "Zip:19046"
+  ],
+  "Municipality:Montgomery - Lansdale Borough": [
+    "Zip:19446"
+  ],
+  "Zip:19446": [
+    "Municipality:Montgomery - Lansdale Borough",
+    "Municipality:Montgomery - Montgomery Township",
+    "Municipality:Montgomery - Towamencin Township",
+    "Municipality:Montgomery - Upper Gwynedd Township",
+    "Municipality:Montgomery - Worcester Township"
+  ],
+  "Municipality:Montgomery - Limerick Township": [
+    "Zip:19464",
+    "Zip:19468",
+    "Zip:19473"
+  ],
+  "Zip:19464": [
+    "Municipality:Montgomery - Limerick Township",
+    "Municipality:Montgomery - Lower Pottsgrove Township",
+    "Municipality:Montgomery - Pottstown Borough",
+    "Municipality:Montgomery - Upper Pottsgrove Township",
+    "Municipality:Montgomery - West Pottsgrove Township"
+  ],
+  "Zip:19468": [
+    "Municipality:Montgomery - Limerick Township",
+    "Municipality:Montgomery - Upper Providence Township"
+  ],
+  "Zip:19473": [
+    "Municipality:Montgomery - Limerick Township",
+    "Municipality:Montgomery - Lower Frederick Township",
+    "Municipality:Montgomery - Lower Salford Township",
+    "Municipality:Montgomery - Perkiomen Township",
+    "Municipality:Montgomery - Skippack Township",
+    "Municipality:Montgomery - Upper Salford Township"
+  ],
+  "Municipality:Montgomery - Lower Frederick Township": [
+    "Zip:18074",
+    "Zip:19473",
+    "Zip:19492"
+  ],
+  "Zip:18074": [
+    "Municipality:Montgomery - Lower Frederick Township",
+    "Municipality:Montgomery - New Hanover Township",
+    "Municipality:Montgomery - Upper Frederick Township"
+  ],
+  "Zip:19492": [
+    "Municipality:Montgomery - Lower Frederick Township"
+  ],
+  "Municipality:Montgomery - Lower Gwynedd Township": [
+    "Zip:19002",
+    "Zip:19437"
+  ],
+  "Zip:19437": [
+    "Municipality:Montgomery - Lower Gwynedd Township"
+  ],
+  "Municipality:Montgomery - Lower Merion Township": [
+    "Zip:19004",
+    "Zip:19010",
+    "Zip:19035",
+    "Zip:19066",
+    "Zip:19072",
+    "Zip:19085",
+    "Zip:19096"
+  ],
+  "Zip:19004": [
+    "Municipality:Montgomery - Lower Merion Township"
+  ],
+  "Zip:19035": [
+    "Municipality:Montgomery - Lower Merion Township"
+  ],
+  "Zip:19066": [
+    "Municipality:Montgomery - Lower Merion Township"
+  ],
+  "Zip:19072": [
+    "Municipality:Montgomery - Lower Merion Township",
+    "Municipality:Montgomery - Narberth Borough"
+  ],
+  "Zip:19096": [
+    "Municipality:Montgomery - Lower Merion Township"
+  ],
+  "Municipality:Montgomery - Lower Moreland Township": [
+    "Zip:19006"
+  ],
+  "Municipality:Montgomery - Lower Pottsgrove Township": [
+    "Zip:19464"
+  ],
+  "Municipality:Montgomery - Lower Providence Township": [
+    "Zip:19403",
+    "Zip:19426"
+  ],
+  "Zip:19426": [
+    "Municipality:Montgomery - Lower Providence Township",
+    "Municipality:Montgomery - Perkiomen Township",
+    "Municipality:Montgomery - Skippack Township",
+    "Municipality:Montgomery - Trappe Borough",
+    "Municipality:Montgomery - Upper Providence Township",
+    "Municipality:Montgomery - Worcester Township"
+  ],
+  "Municipality:Montgomery - Lower Salford Township": [
+    "Zip:19438",
+    "Zip:19473"
+  ],
+  "Zip:19438": [
+    "Municipality:Montgomery - Lower Salford Township",
+    "Municipality:Montgomery - Towamencin Township",
+    "Municipality:Montgomery - Upper Salford Township"
+  ],
+  "Municipality:Montgomery - Marlborough Township": [
+    "Zip:18054",
+    "Zip:18073"
+  ],
+  "Municipality:Montgomery - Montgomery Township": [
+    "Zip:18936",
+    "Zip:19446",
+    "Zip:19454"
+  ],
+  "Zip:18936": [
+    "Municipality:Montgomery - Montgomery Township"
+  ],
+  "Zip:19454": [
+    "Municipality:Montgomery - Montgomery Township",
+    "Municipality:Montgomery - Upper Gwynedd Township"
+  ],
+  "Municipality:Montgomery - Narberth Borough": [
+    "Zip:19072"
+  ],
+  "Municipality:Montgomery - New Hanover Township": [
+    "Zip:18074",
+    "Zip:19525"
+  ],
+  "Municipality:Montgomery - Norristown Borough": [
+    "Zip:19401"
+  ],
+  "Municipality:Montgomery - Perkiomen Township": [
+    "Zip:19426",
+    "Zip:19473"
+  ],
+  "Municipality:Montgomery - Plymouth Township": [
+    "Zip:19428",
+    "Zip:19462"
+  ],
+  "Zip:19462": [
+    "Municipality:Montgomery - Plymouth Township",
+    "Municipality:Montgomery - Whitemarsh Township"
+  ],
+  "Municipality:Montgomery - Pottstown Borough": [
+    "Zip:19464"
   ],
   "Municipality:Montgomery - Red Hill Borough": [
     "Zip:18076"
@@ -1954,141 +2045,65 @@
   "Zip:18076": [
     "Municipality:Montgomery - Red Hill Borough"
   ],
-  "Municipality:Bucks - New Britain Borough": [
-    "Zip:18901"
-  ],
-  "Zip:18901": [
-    "Municipality:Bucks - New Britain Borough",
-    "Municipality:Bucks - Doylestown Borough",
-    "Municipality:Bucks - New Britain Township",
-    "Municipality:Bucks - Doylestown Township"
-  ],
-  "Municipality:Montgomery - Marlborough Township": [
-    "Zip:18054",
-    "Zip:18073"
-  ],
-  "Zip:18073": [
-    "Municipality:Montgomery - Marlborough Township",
-    "Municipality:Montgomery - Upper Hanover Township",
-    "Municipality:Bucks - Milford Township"
-  ],
   "Municipality:Montgomery - Salford Township": [
     "Zip:18054",
     "Zip:18969"
   ],
-  "Municipality:Bucks - Bedminster Township": [
-    "Zip:18947",
-    "Zip:18942",
-    "Zip:18944"
+  "Municipality:Montgomery - Skippack Township": [
+    "Zip:19426",
+    "Zip:19473"
   ],
-  "Zip:18947": [
-    "Municipality:Bucks - Bedminster Township",
-    "Municipality:Bucks - Plumstead Township",
-    "Municipality:Bucks - Tinicum Township"
+  "Municipality:Montgomery - Souderton Borough": [
+    "Zip:18964"
   ],
-  "Zip:18942": [
-    "Municipality:Bucks - Bedminster Township",
-    "Municipality:Bucks - Nockamixon Township",
-    "Municipality:Bucks - Tinicum Township"
+  "Municipality:Montgomery - Springfield Township": [
+    "Zip:19031",
+    "Zip:19038",
+    "Zip:19075",
+    "Zip:19444"
   ],
-  "Zip:18944": [
-    "Municipality:Bucks - Bedminster Township",
-    "Municipality:Bucks - East Rockhill Township",
-    "Municipality:Bucks - Perkasie Borough",
-    "Municipality:Bucks - Hilltown Township"
+  "Zip:19031": [
+    "Municipality:Montgomery - Springfield Township",
+    "Municipality:Montgomery - Whitemarsh Township"
   ],
-  "Municipality:Bucks - Warwick Township": [
-    "Zip:18929",
-    "Zip:18974"
+  "Zip:19075": [
+    "Municipality:Montgomery - Springfield Township"
   ],
-  "Zip:18929": [
-    "Municipality:Bucks - Warwick Township"
+  "Zip:19444": [
+    "Municipality:Montgomery - Springfield Township",
+    "Municipality:Montgomery - Whitemarsh Township"
   ],
-  "Municipality:Bucks - Wrightstown Township": [
-    "Zip:18940",
-    "Zip:18980"
+  "Municipality:Montgomery - Towamencin Township": [
+    "Zip:19438",
+    "Zip:19446"
   ],
-  "Zip:18980": [
-    "Municipality:Bucks - Wrightstown Township"
+  "Municipality:Montgomery - Trappe Borough": [
+    "Zip:19426"
   ],
-  "Municipality:Bucks - Chalfont Borough": [
-    "Zip:18914"
+  "Municipality:Montgomery - Upper Dublin Township": [
+    "Zip:19002",
+    "Zip:19025",
+    "Zip:19034"
   ],
-  "Municipality:Bucks - Doylestown Borough": [
-    "Zip:18901"
+  "Zip:19025": [
+    "Municipality:Montgomery - Upper Dublin Township"
   ],
-  "Municipality:Bucks - Dublin Borough": [
-    "Zip:18917"
+  "Zip:19034": [
+    "Municipality:Montgomery - Upper Dublin Township",
+    "Municipality:Montgomery - Whitemarsh Township"
   ],
-  "Zip:18917": [
-    "Municipality:Bucks - Dublin Borough"
-  ],
-  "Municipality:Bucks - Trumbauersville Borough": [
-    "Zip:18970"
-  ],
-  "Zip:18970": [
-    "Municipality:Bucks - Trumbauersville Borough"
-  ],
-  "Municipality:Bucks - Buckingham Township": [
-    "Zip:18938",
-    "Zip:18925",
-    "Zip:18902"
-  ],
-  "Zip:18925": [
-    "Municipality:Bucks - Buckingham Township"
-  ],
-  "Zip:18902": [
-    "Municipality:Bucks - Buckingham Township",
-    "Municipality:Bucks - Plumstead Township"
-  ],
-  "Municipality:Bucks - East Rockhill Township": [
-    "Zip:18960",
-    "Zip:18944"
-  ],
-  "Zip:18960": [
-    "Municipality:Bucks - East Rockhill Township",
-    "Municipality:Bucks - Sellersville Borough",
-    "Municipality:Bucks - West Rockhill Township",
-    "Municipality:Bucks - Hilltown Township"
-  ],
-  "Municipality:Bucks - New Britain Township": [
-    "Zip:18901",
-    "Zip:18914"
-  ],
-  "Municipality:Bucks - Richlandtown Borough": [
-    "Zip:18955"
-  ],
-  "Zip:18955": [
-    "Municipality:Bucks - Richlandtown Borough",
-    "Municipality:Bucks - Richland Township"
-  ],
-  "Municipality:Bucks - Sellersville Borough": [
-    "Zip:18960"
-  ],
-  "Municipality:Bucks - Silverdale Borough": [
-    "Zip:18962"
-  ],
-  "Zip:18962": [
-    "Municipality:Bucks - Silverdale Borough"
-  ],
-  "Municipality:Bucks - Perkasie Borough": [
-    "Zip:18944"
-  ],
-  "Municipality:Bucks - Plumstead Township": [
-    "Zip:18902",
-    "Zip:18947"
-  ],
-  "Municipality:Bucks - Solebury Township": [
-    "Zip:18938"
-  ],
-  "Municipality:Bucks - West Rockhill Township": [
+  "Municipality:Montgomery - Upper Frederick Township": [
     "Zip:18054",
-    "Zip:18960"
+    "Zip:18074"
+  ],
+  "Municipality:Montgomery - Upper Gwynedd Township": [
+    "Zip:19446",
+    "Zip:19454"
   ],
   "Municipality:Montgomery - Upper Hanover Township": [
-    "Zip:18073",
     "Zip:18041",
-    "Zip:18070"
+    "Zip:18070",
+    "Zip:18073"
   ],
   "Zip:18041": [
     "Municipality:Montgomery - Upper Hanover Township"
@@ -2096,79 +2111,64 @@
   "Zip:18070": [
     "Municipality:Montgomery - Upper Hanover Township"
   ],
-  "Municipality:Bucks - Doylestown Township": [
-    "Zip:18901"
+  "Municipality:Montgomery - Upper Merion Township": [
+    "Zip:19087",
+    "Zip:19406"
   ],
-  "Municipality:Bucks - Richland Township": [
-    "Zip:18951",
-    "Zip:18955"
+  "Zip:19406": [
+    "Municipality:Montgomery - Upper Merion Township"
   ],
-  "Zip:18951": [
-    "Municipality:Bucks - Richland Township",
-    "Municipality:Bucks - Milford Township",
-    "Municipality:Bucks - Haycock Township",
-    "Municipality:Bucks - Springfield Township"
+  "Municipality:Montgomery - Upper Moreland Township": [
+    "Zip:19006",
+    "Zip:19040",
+    "Zip:19090"
   ],
-  "Municipality:Bucks - Hilltown Township": [
-    "Zip:19440",
-    "Zip:18960",
-    "Zip:18944"
+  "Zip:19090": [
+    "Municipality:Montgomery - Upper Moreland Township"
   ],
-  "Municipality:Bucks - Milford Township": [
-    "Zip:18073",
-    "Zip:18951"
+  "Municipality:Montgomery - Upper Pottsgrove Township": [
+    "Zip:19464"
   ],
-  "Municipality:Bucks - Durham Township": [
-    "Zip:18930",
-    "Zip:18077"
+  "Municipality:Montgomery - Upper Providence Township": [
+    "Zip:19426",
+    "Zip:19460",
+    "Zip:19468"
   ],
-  "Zip:18930": [
-    "Municipality:Bucks - Durham Township",
-    "Municipality:Bucks - Nockamixon Township",
-    "Municipality:Bucks - Haycock Township",
-    "Municipality:Bucks - Springfield Township"
+  "Municipality:Montgomery - Upper Salford Township": [
+    "Zip:19438",
+    "Zip:19473"
   ],
-  "Zip:18077": [
-    "Municipality:Bucks - Durham Township",
-    "Municipality:Bucks - Riegelsville Borough",
-    "Municipality:Bucks - Springfield Township"
+  "Municipality:Montgomery - West Conshohocken Borough": [
+    "Zip:19428"
   ],
-  "Municipality:Bucks - Riegelsville Borough": [
-    "Zip:18077"
+  "Municipality:Montgomery - West Norriton Township": [
+    "Zip:19403"
   ],
-  "Municipality:Bucks - Nockamixon Township": [
-    "Zip:18930",
-    "Zip:18942",
-    "Zip:18972"
+  "Municipality:Montgomery - West Pottsgrove Township": [
+    "Zip:19464"
   ],
-  "Zip:18972": [
-    "Municipality:Bucks - Nockamixon Township",
-    "Municipality:Bucks - Tinicum Township",
-    "Municipality:Bucks - Bridgeton Township"
+  "Municipality:Montgomery - Whitemarsh Township": [
+    "Zip:19031",
+    "Zip:19034",
+    "Zip:19428",
+    "Zip:19444",
+    "Zip:19462"
   ],
-  "Municipality:Bucks - Haycock Township": [
-    "Zip:18930",
-    "Zip:18951"
+  "Municipality:Montgomery - Whitpain Township": [
+    "Zip:19422"
   ],
-  "Municipality:Bucks - Tinicum Township": [
-    "Zip:18920",
-    "Zip:18947",
-    "Zip:18942",
-    "Zip:18972"
+  "Zip:19422": [
+    "Municipality:Montgomery - Whitpain Township"
   ],
-  "Zip:18920": [
-    "Municipality:Bucks - Tinicum Township"
+  "Municipality:Montgomery - Worcester Township": [
+    "Zip:19403",
+    "Zip:19426",
+    "Zip:19446"
   ],
-  "Municipality:Bucks - Springfield Township": [
-    "Zip:18930",
-    "Zip:18951",
-    "Zip:18036",
-    "Zip:18077"
+  "Municipality:Philadelphia - Philadelphia City": [
+    "Zip:19153"
   ],
-  "Zip:18036": [
-    "Municipality:Bucks - Springfield Township"
-  ],
-  "Municipality:Bucks - Bridgeton Township": [
-    "Zip:18972"
+  "Zip:19153": [
+    "Municipality:Philadelphia - Philadelphia City"
   ]
 }

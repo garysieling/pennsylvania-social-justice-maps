@@ -1,1102 +1,1353 @@
 {
-  "School District:Tioga - Northern Tioga": [
-    "PA House District:68"
+  "School District:Lackawanna - Abington Heights": [
+    "PA House District:113",
+    "PA House District:114"
   ],
-  "PA House District:68": [
-    "School District:Tioga - Northern Tioga",
-    "School District:Potter - Galeton Area",
-    "School District:Tioga - Southern Tioga",
-    "School District:Tioga - Wellsboro Area",
-    "School District:Bradford - Troy Area"
+  "PA House District:113": [
+    "School District:Lackawanna - Abington Heights",
+    "School District:Lackawanna - Scranton"
   ],
-  "School District:York - Northern York County": [
-    "PA House District:92"
+  "PA House District:114": [
+    "School District:Lackawanna - Abington Heights",
+    "School District:Lackawanna - Carbondale Area",
+    "School District:Lackawanna - Lakeland",
+    "School District:Lackawanna - Riverside"
   ],
-  "PA House District:92": [
-    "School District:York - Northern York County",
-    "School District:York - West Shore",
-    "School District:Cumberland - Cumberland Valley",
-    "School District:York - Dover Area"
+  "School District:Montgomery - Abington": [
+    "PA House District:153"
   ],
-  "School District:Allegheny - Northgate": [
-    "PA House District:20"
+  "PA House District:153": [
+    "School District:Montgomery - Abington",
+    "School District:Montgomery - Upper Dublin"
   ],
-  "PA House District:20": [
-    "School District:Allegheny - Northgate",
-    "School District:Allegheny - Pittsburgh",
-    "School District:Allegheny - North Hills"
-  ],
-  "School District:Luzerne - Northwest Area": [
-    "PA House District:117",
-    "PA House District:116"
-  ],
-  "PA House District:117": [
-    "School District:Luzerne - Northwest Area",
-    "School District:Wyoming - Lackawanna Trail",
-    "School District:Luzerne - Lake-Lehman",
-    "School District:Wyoming - Tunkhannock Area"
-  ],
-  "PA House District:116": [
-    "School District:Luzerne - Northwest Area",
-    "School District:Luzerne - Greater Nanticoke Area",
-    "School District:Luzerne - Hazleton Area",
-    "School District:Columbia - Berwick Area",
-    "School District:Luzerne - Crestwood"
-  ],
-  "School District:Lehigh - Northwestern Lehigh": [
-    "PA House District:187"
-  ],
-  "PA House District:187": [
-    "School District:Lehigh - Northwestern Lehigh",
-    "School District:Lehigh - Parkland",
-    "School District:Berks - Kutztown Area"
-  ],
-  "School District:Schuylkill - Pine Grove Area": [
-    "PA House District:125"
-  ],
-  "PA House District:125": [
-    "School District:Schuylkill - Pine Grove Area",
-    "School District:Schuylkill - Tri-Valley",
-    "School District:Dauphin - Upper Dauphin Area",
-    "School District:Schuylkill - Williams Valley",
-    "School District:Schuylkill - Schuylkill Haven Area",
-    "School District:Schuylkill - Blue Mountain"
-  ],
-  "School District:Westmoreland - Norwin": [
-    "PA House District:56"
-  ],
-  "PA House District:56": [
-    "School District:Westmoreland - Norwin",
-    "School District:Westmoreland - Penn-Trafford"
-  ],
-  "School District:Chester - Octorara Area": [
-    "PA House District:13"
-  ],
-  "PA House District:13": [
-    "School District:Chester - Octorara Area",
-    "School District:Chester - Oxford Area",
-    "School District:Chester - Avon Grove"
-  ],
-  "School District:Allegheny - Pine-Richland": [
-    "PA House District:28",
-    "PA House District:30"
-  ],
-  "PA House District:28": [
-    "School District:Allegheny - Pine-Richland",
-    "School District:Allegheny - North Allegheny"
-  ],
-  "PA House District:30": [
-    "School District:Allegheny - Pine-Richland",
-    "School District:Allegheny - Hampton Township",
-    "School District:Allegheny - Shaler Area",
-    "School District:Allegheny - Fox Chapel Area"
-  ],
-  "School District:Somerset - Salisbury-Elk Lick": [
+  "School District:Fayette - Albert Gallatin Area": [
     "PA House District:51"
   ],
   "PA House District:51": [
-    "School District:Somerset - Salisbury-Elk Lick",
-    "School District:Somerset - Meyersdale Area",
-    "School District:Fayette - Uniontown Area",
-    "School District:Somerset - Turkeyfoot Valley Area",
     "School District:Fayette - Albert Gallatin Area",
-    "School District:Fayette - Connellsville Area"
+    "School District:Fayette - Connellsville Area",
+    "School District:Somerset - Meyersdale Area",
+    "School District:Somerset - Salisbury-Elk Lick",
+    "School District:Somerset - Turkeyfoot Valley Area",
+    "School District:Fayette - Uniontown Area"
   ],
-  "School District:Venango - Oil City Area": [
+  "School District:Beaver - Aliquippa": [
+    "PA House District:16"
+  ],
+  "PA House District:16": [
+    "School District:Beaver - Aliquippa",
+    "School District:Beaver - Ambridge Area",
+    "School District:Beaver - Hopewell Area"
+  ],
+  "School District:Allegheny - Allegheny Valley": [
+    "PA House District:33"
+  ],
+  "PA House District:33": [
+    "School District:Allegheny - Allegheny Valley",
+    "School District:Allegheny - Deer Lakes",
+    "School District:Allegheny - Fox Chapel Area",
+    "School District:Allegheny - Highlands",
+    "School District:Westmoreland - New Kensington-Arnold"
+  ],
+  "School District:Clarion - Allegheny-Clarion Valley": [
     "PA House District:64"
   ],
   "PA House District:64": [
-    "School District:Venango - Oil City Area",
-    "School District:Venango - Valley Grove",
-    "School District:Butler - Moniteau",
-    "School District:Venango - Titusville Area",
     "School District:Clarion - Allegheny-Clarion Valley",
     "School District:Venango - Cranberry Area",
-    "School District:Venango - Franklin Area"
+    "School District:Venango - Franklin Area",
+    "School District:Butler - Moniteau",
+    "School District:Venango - Oil City Area",
+    "School District:Venango - Titusville Area",
+    "School District:Venango - Valley Grove"
   ],
-  "School District:Centre - Penns Valley Area": [
-    "PA House District:76",
-    "PA House District:171"
+  "School District:Lehigh - Allentown City": [
+    "PA House District:22",
+    "PA House District:132"
   ],
-  "PA House District:76": [
-    "School District:Centre - Penns Valley Area",
-    "School District:Clinton - Keystone Central",
-    "School District:Centre - Bald Eagle Area"
+  "PA House District:22": [
+    "School District:Lehigh - Allentown City"
   ],
-  "PA House District:171": [
-    "School District:Centre - Penns Valley Area",
-    "School District:Mifflin - Mifflin County",
-    "School District:Centre - State College Area",
-    "School District:Centre - Bellefonte Area"
+  "PA House District:132": [
+    "School District:Lehigh - Allentown City"
   ],
-  "School District:Bucks - Pennsbury": [
-    "PA House District:140",
-    "PA House District:31"
+  "School District:Blair - Altoona Area": [
+    "PA House District:79"
   ],
-  "PA House District:140": [
-    "School District:Bucks - Pennsbury",
-    "School District:Bucks - Bristol Borough"
+  "PA House District:79": [
+    "School District:Blair - Altoona Area",
+    "School District:Blair - Hollidaysburg Area"
   ],
-  "PA House District:31": [
-    "School District:Bucks - Pennsbury",
-    "School District:Bucks - Council Rock"
+  "School District:Beaver - Ambridge Area": [
+    "PA House District:16"
   ],
-  "School District:Lancaster - Pequea Valley": [
-    "PA House District:100",
-    "PA House District:99"
+  "School District:Lebanon - Annville-Cleona": [
+    "PA House District:101"
   ],
-  "PA House District:100": [
-    "School District:Lancaster - Pequea Valley",
-    "School District:Lancaster - Penn Manor",
-    "School District:Lancaster - Solanco"
+  "PA House District:101": [
+    "School District:Lebanon - Annville-Cleona",
+    "School District:Lebanon - Cornwall-Lebanon",
+    "School District:Lebanon - Palmyra Area"
   ],
-  "PA House District:99": [
-    "School District:Lancaster - Pequea Valley",
-    "School District:Lancaster - Eastern Lancaster County",
-    "School District:Lancaster - Ephrata Area"
+  "School District:Berks - Antietam": [
+    "PA House District:126"
   ],
-  "School District:Montgomery - Perkiomen Valley": [
-    "PA House District:146",
-    "PA House District:147",
-    "PA House District:150"
+  "PA House District:126": [
+    "School District:Berks - Antietam",
+    "School District:Berks - Muhlenberg",
+    "School District:Berks - Reading"
   ],
-  "PA House District:146": [
-    "School District:Montgomery - Perkiomen Valley",
-    "School District:Montgomery - Pottsgrove",
-    "School District:Montgomery - Pottstown",
-    "School District:Montgomery - Spring-Ford Area"
+  "School District:Armstrong - Apollo-Ridge": [
+    "PA House District:60"
   ],
-  "PA House District:147": [
-    "School District:Montgomery - Perkiomen Valley",
-    "School District:Montgomery - Pottsgrove",
-    "School District:Montgomery - Upper Perkiomen",
-    "School District:Montgomery - Souderton Area",
-    "School District:Berks - Boyertown Area"
+  "PA House District:60": [
+    "School District:Armstrong - Apollo-Ridge",
+    "School District:Armstrong - Armstrong",
+    "School District:Indiana - Blairsville-Saltsburg",
+    "School District:Armstrong - Freeport Area"
   ],
-  "PA House District:150": [
-    "School District:Montgomery - Perkiomen Valley",
-    "School District:Montgomery - Methacton",
-    "School District:Montgomery - Norristown Area",
-    "School District:Montgomery - Spring-Ford Area"
+  "School District:Armstrong - Armstrong": [
+    "PA House District:60",
+    "PA House District:63"
   ],
-  "School District:Washington - Peters Township": [
-    "PA House District:40"
+  "PA House District:63": [
+    "School District:Armstrong - Armstrong",
+    "School District:Clarion - Clarion Area",
+    "School District:Clarion - Clarion-Limestone Area",
+    "School District:Forest - Forest Area",
+    "School District:Clarion - Keystone",
+    "School District:Clarion - North Clarion County",
+    "School District:Clarion - Redbank Valley",
+    "School District:Clarion - Union"
   ],
-  "PA House District:40": [
-    "School District:Washington - Peters Township",
-    "School District:Allegheny - Bethel Park",
-    "School District:Allegheny - Upper Saint Clair"
-  ],
-  "School District:Philadelphia - Philadelphia City": [
-    "PA House District:185",
-    "PA House District:177",
-    "PA House District:200",
-    "PA House District:170",
-    "PA House District:173",
-    "PA House District:194"
-  ],
-  "PA House District:185": [
-    "School District:Philadelphia - Philadelphia City",
-    "School District:Delaware - Southeast Delco"
-  ],
-  "PA House District:177": [
-    "School District:Philadelphia - Philadelphia City"
-  ],
-  "PA House District:200": [
-    "School District:Philadelphia - Philadelphia City"
-  ],
-  "PA House District:170": [
-    "School District:Philadelphia - Philadelphia City"
-  ],
-  "PA House District:173": [
-    "School District:Philadelphia - Philadelphia City"
-  ],
-  "PA House District:194": [
-    "School District:Philadelphia - Philadelphia City",
-    "School District:Montgomery - Lower Merion"
-  ],
-  "School District:Clearfield - Philipsburg-Osceola Area": [
-    "PA House District:77",
-    "PA House District:73"
-  ],
-  "PA House District:77": [
-    "School District:Clearfield - Philipsburg-Osceola Area"
-  ],
-  "PA House District:73": [
-    "School District:Clearfield - Philipsburg-Osceola Area",
-    "School District:Indiana - Purchase Line",
-    "School District:Cambria - Northern Cambria",
-    "School District:Clearfield - Moshannon Valley",
-    "School District:Clearfield - West Branch Area",
-    "School District:Clearfield - Clearfield Area",
-    "School District:Clearfield - Curwensville Area",
-    "School District:Clearfield - Harmony Area"
-  ],
-  "School District:Chester - Phoenixville Area": [
-    "PA House District:155",
-    "PA House District:157"
-  ],
-  "PA House District:155": [
-    "School District:Chester - Phoenixville Area",
-    "School District:Chester - Owen J Roberts",
-    "School District:Chester - Coatesville Area",
-    "School District:Chester - Downingtown Area"
-  ],
-  "PA House District:157": [
-    "School District:Chester - Phoenixville Area",
-    "School District:Chester - Tredyffrin-Easttown",
-    "School District:Montgomery - Spring-Ford Area"
-  ],
-  "School District:Bradford - Towanda Area": [
+  "School District:Bradford - Athens Area": [
     "PA House District:110"
   ],
   "PA House District:110": [
-    "School District:Bradford - Towanda Area",
-    "School District:Bradford - Northeast Bradford",
-    "School District:Bradford - Wyalusing Area",
-    "School District:Sullivan - Sullivan County",
     "School District:Bradford - Athens Area",
-    "School District:Susquehanna - Elk Lake"
+    "School District:Susquehanna - Elk Lake",
+    "School District:Bradford - Northeast Bradford",
+    "School District:Sullivan - Sullivan County",
+    "School District:Bradford - Towanda Area",
+    "School District:Bradford - Wyalusing Area"
   ],
-  "School District:Northampton - Saucon Valley": [
-    "PA House District:131",
-    "PA House District:136"
+  "School District:Potter - Austin Area": [
+    "PA House District:67"
   ],
-  "PA House District:131": [
-    "School District:Northampton - Saucon Valley",
-    "School District:Lehigh - Southern Lehigh",
-    "School District:Montgomery - Upper Perkiomen",
-    "School District:Lehigh - East Penn"
+  "PA House District:67": [
+    "School District:Potter - Austin Area",
+    "School District:Mckean - Bradford Area",
+    "School District:Cameron - Cameron County",
+    "School District:Potter - Coudersport Area",
+    "School District:Potter - Galeton Area",
+    "School District:Mckean - Kane Area",
+    "School District:Potter - Northern Potter",
+    "School District:Mckean - Port Allegany",
+    "School District:Mckean - Smethport Area"
   ],
-  "PA House District:136": [
-    "School District:Northampton - Saucon Valley",
-    "School District:Northampton - Wilson Area",
-    "School District:Northampton - Easton Area"
-  ],
-  "School District:Lehigh - Parkland": [
-    "PA House District:187",
-    "PA House District:183"
-  ],
-  "PA House District:183": [
-    "School District:Lehigh - Parkland",
-    "School District:Northampton - Northampton Area",
-    "School District:Lehigh - Northern Lehigh",
-    "School District:Lehigh - Whitehall-Coplay"
-  ],
-  "School District:Northampton - Pen Argyl Area": [
-    "PA House District:138"
-  ],
-  "PA House District:138": [
-    "School District:Northampton - Pen Argyl Area",
-    "School District:Northampton - Nazareth Area",
-    "School District:Northampton - Northampton Area",
-    "School District:Northampton - Bethlehem Area"
-  ],
-  "School District:Delaware - Penn-Delco": [
-    "PA House District:161"
-  ],
-  "PA House District:161": [
-    "School District:Delaware - Penn-Delco",
-    "School District:Delaware - Wallingford-Swarthmore",
-    "School District:Delaware - Ridley"
-  ],
-  "School District:Allegheny - Penn Hills": [
-    "PA House District:32"
-  ],
-  "PA House District:32": [
-    "School District:Allegheny - Penn Hills",
-    "School District:Allegheny - Plum Borough"
-  ],
-  "School District:Lancaster - Penn Manor": [
-    "PA House District:100",
-    "PA House District:41"
-  ],
-  "PA House District:41": [
-    "School District:Lancaster - Penn Manor",
-    "School District:Lancaster - Hempfield"
-  ],
-  "School District:Westmoreland - Penn-Trafford": [
-    "PA House District:56"
-  ],
-  "School District:Cambria - Penn Cambria": [
-    "PA House District:72"
-  ],
-  "PA House District:72": [
-    "School District:Cambria - Penn Cambria",
-    "School District:Cambria - Portage Area",
-    "School District:Cambria - Forest Hills",
-    "School District:Cambria - Cambria Heights",
-    "School District:Cambria - Central Cambria",
-    "School District:Clearfield - Glendale"
-  ],
-  "School District:Crawford - Penncrest": [
-    "PA House District:6"
-  ],
-  "PA House District:6": [
-    "School District:Crawford - Penncrest",
-    "School District:Erie - Northwestern",
-    "School District:Erie - Fairview",
-    "School District:Crawford - Conneaut",
-    "School District:Crawford - Crawford Central"
-  ],
-  "School District:Bucks - Pennridge": [
-    "PA House District:143",
-    "PA House District:145",
-    "PA House District:144"
-  ],
-  "PA House District:143": [
-    "School District:Bucks - Pennridge",
-    "School District:Bucks - Quakertown Community",
-    "School District:Bucks - Palisades",
-    "School District:Bucks - Central Bucks"
-  ],
-  "PA House District:145": [
-    "School District:Bucks - Pennridge",
-    "School District:Bucks - Quakertown Community",
-    "School District:Bucks - Palisades"
-  ],
-  "PA House District:144": [
-    "School District:Bucks - Pennridge",
-    "School District:Bucks - Central Bucks"
-  ],
-  "School District:Indiana - Penns Manor Area": [
-    "PA House District:62"
-  ],
-  "PA House District:62": [
-    "School District:Indiana - Penns Manor Area",
-    "School District:Indiana - Marion Center Area",
-    "School District:Indiana - Homer-Center",
-    "School District:Indiana - Indiana Area",
-    "School District:Indiana - United",
-    "School District:Indiana - Blairsville-Saltsburg"
-  ],
-  "School District:Chester - Tredyffrin-Easttown": [
-    "PA House District:167",
-    "PA House District:157"
-  ],
-  "PA House District:167": [
-    "School District:Chester - Tredyffrin-Easttown",
-    "School District:Chester - Great Valley",
-    "School District:Chester - West Chester Area",
-    "School District:Chester - Downingtown Area"
-  ],
-  "School District:Butler - South Butler County": [
-    "PA House District:12",
-    "PA House District:11"
-  ],
-  "PA House District:12": [
-    "School District:Butler - South Butler County",
-    "School District:Butler - Mars Area",
-    "School District:Butler - Seneca Valley"
-  ],
-  "PA House District:11": [
-    "School District:Butler - South Butler County",
-    "School District:Butler - Karns City Area",
-    "School District:Butler - Butler Area"
-  ],
-  "School District:York - South Eastern": [
-    "PA House District:93",
-    "PA House District:94"
-  ],
-  "PA House District:93": [
-    "School District:York - South Eastern",
-    "School District:York - Red Lion Area",
-    "School District:York - Dallastown Area"
-  ],
-  "PA House District:94": [
-    "School District:York - South Eastern",
-    "School District:York - Red Lion Area",
-    "School District:York - Eastern York"
-  ],
-  "School District:Allegheny - South Fayette Township": [
-    "PA House District:46"
-  ],
-  "PA House District:46": [
-    "School District:Allegheny - South Fayette Township",
-    "School District:Washington - Trinity Area",
-    "School District:Washington - Fort Cherry",
-    "School District:Washington - Canon-McMillan",
-    "School District:Washington - Burgettstown Area",
-    "School District:Allegheny - Chartiers Valley"
-  ],
-  "School District:Huntingdon - Southern Huntingdon County": [
-    "PA House District:81"
-  ],
-  "PA House District:81": [
-    "School District:Huntingdon - Southern Huntingdon County",
-    "School District:Huntingdon - Juniata Valley",
-    "School District:Huntingdon - Huntingdon Area",
-    "School District:Huntingdon - Mount Union Area",
-    "School District:Centre - State College Area",
-    "School District:Bedford - Tussey Mountain",
-    "School District:Blair - Tyrone Area"
-  ],
-  "School District:Cumberland - South Middleton": [
-    "PA House District:193"
-  ],
-  "PA House District:193": [
-    "School District:Cumberland - South Middleton",
-    "School District:Adams - Upper Adams",
-    "School District:Adams - Bermudian Springs",
-    "School District:Cumberland - Big Spring",
-    "School District:Adams - Conewago Valley"
-  ],
-  "School District:Venango - Valley Grove": [
-    "PA House District:64"
-  ],
-  "School District:Schuylkill - Tri-Valley": [
-    "PA House District:125"
-  ],
-  "School District:Washington - Trinity Area": [
-    "PA House District:46",
-    "PA House District:48",
+  "School District:Washington - Avella Area": [
     "PA House District:15"
   ],
-  "PA House District:48": [
-    "School District:Washington - Trinity Area",
-    "School District:Washington - Canon-McMillan",
-    "School District:Washington - Chartiers-Houston"
-  ],
   "PA House District:15": [
-    "School District:Washington - Trinity Area",
+    "School District:Washington - Avella Area",
+    "School District:Washington - Burgettstown Area",
     "School District:Beaver - Hopewell Area",
     "School District:Washington - Mcguffey",
     "School District:Beaver - South Side Area",
-    "School District:Washington - Burgettstown Area",
-    "School District:Washington - Avella Area"
+    "School District:Washington - Trinity Area"
   ],
-  "School District:Berks - Tulpehocken Area": [
-    "PA House District:5"
+  "School District:Chester - Avon Grove": [
+    "PA House District:13",
+    "PA House District:158"
   ],
-  "PA House District:5": [
-    "School District:Berks - Tulpehocken Area",
+  "PA House District:13": [
+    "School District:Chester - Avon Grove",
+    "School District:Chester - Octorara Area",
+    "School District:Chester - Oxford Area"
+  ],
+  "PA House District:158": [
+    "School District:Chester - Avon Grove",
+    "School District:Chester - Downingtown Area",
+    "School District:Chester - Kennett Consolidated",
+    "School District:Chester - Unionville-Chadds Ford",
+    "School District:Chester - West Chester Area"
+  ],
+  "School District:Allegheny - Avonworth": [
+    "PA House District:44",
+    "PA House District:45"
+  ],
+  "PA House District:44": [
+    "School District:Allegheny - Avonworth",
+    "School District:Allegheny - Moon Area",
+    "School District:Allegheny - Quaker Valley",
+    "School District:Allegheny - West Allegheny"
+  ],
+  "PA House District:45": [
+    "School District:Allegheny - Avonworth",
+    "School District:Allegheny - Carlynton",
+    "School District:Allegheny - Chartiers Valley",
+    "School District:Allegheny - Cornell",
+    "School District:Allegheny - Montour",
+    "School District:Allegheny - Sto-Rox"
+  ],
+  "School District:Centre - Bald Eagle Area": [
+    "PA House District:76"
+  ],
+  "PA House District:76": [
+    "School District:Centre - Bald Eagle Area",
+    "School District:Clinton - Keystone Central",
+    "School District:Centre - Penns Valley Area"
+  ],
+  "School District:Allegheny - Baldwin-Whitehall": [
+    "PA House District:36",
+    "PA House District:38"
+  ],
+  "PA House District:36": [
+    "School District:Allegheny - Baldwin-Whitehall",
+    "School District:Allegheny - Brentwood Borough",
+    "School District:Allegheny - Pittsburgh"
+  ],
+  "PA House District:38": [
+    "School District:Allegheny - Baldwin-Whitehall",
+    "School District:Allegheny - South Allegheny",
+    "School District:Allegheny - South Park",
+    "School District:Allegheny - West Jefferson Hills",
+    "School District:Allegheny - West Mifflin Area"
+  ],
+  "School District:Northampton - Bangor Area": [
+    "PA House District:137"
+  ],
+  "PA House District:137": [
+    "School District:Northampton - Bangor Area",
+    "School District:Northampton - Easton Area",
+    "School District:Northampton - Nazareth Area"
+  ],
+  "School District:Bedford - Bedford Area": [
+    "PA House District:69",
+    "PA House District:78"
+  ],
+  "PA House District:69": [
+    "School District:Bedford - Bedford Area",
+    "School District:Somerset - Berlin Brothersvalley",
+    "School District:Bedford - Chestnut Ridge",
+    "School District:Somerset - Meyersdale Area",
+    "School District:Somerset - Rockwood Area",
+    "School District:Somerset - Shade-Central City",
+    "School District:Somerset - Shanksville-Stonycreek",
+    "School District:Somerset - Somerset Area",
+    "School District:Somerset - Windber Area"
+  ],
+  "PA House District:78": [
+    "School District:Bedford - Bedford Area",
+    "School District:Fulton - Central Fulton",
+    "School District:Bedford - Everett Area",
+    "School District:Fulton - Forbes Road",
+    "School District:Bedford - Northern Bedford",
+    "School District:Fulton - Southern Fulton",
+    "School District:Franklin - Tuscarora",
+    "School District:Bedford - Tussey Mountain"
+  ],
+  "School District:Westmoreland - Belle Vernon Area": [
+    "PA House District:58"
+  ],
+  "PA House District:58": [
+    "School District:Westmoreland - Belle Vernon Area",
+    "School District:Westmoreland - Hempfield Area",
+    "School District:Westmoreland - Southmoreland",
+    "School District:Westmoreland - Yough"
+  ],
+  "School District:Centre - Bellefonte Area": [
+    "PA House District:171"
+  ],
+  "PA House District:171": [
+    "School District:Centre - Bellefonte Area",
+    "School District:Mifflin - Mifflin County",
+    "School District:Centre - Penns Valley Area",
+    "School District:Centre - State College Area"
+  ],
+  "School District:Blair - Bellwood-Antis": [
+    "PA House District:80"
+  ],
+  "PA House District:80": [
+    "School District:Blair - Bellwood-Antis",
+    "School District:Blair - Claysburg-Kimmel",
+    "School District:Blair - Hollidaysburg Area",
+    "School District:Blair - Spring Cove",
+    "School District:Blair - Tyrone Area",
+    "School District:Blair - Williamsburg Community"
+  ],
+  "School District:Bucks - Bensalem Township": [
+    "PA House District:18"
+  ],
+  "PA House District:18": [
+    "School District:Bucks - Bensalem Township"
+  ],
+  "School District:Columbia - Benton Area": [
+    "PA House District:109"
+  ],
+  "PA House District:109": [
+    "School District:Columbia - Benton Area",
+    "School District:Columbia - Berwick Area",
+    "School District:Columbia - Bloomsburg Area",
+    "School District:Columbia - Central Columbia",
+    "School District:Columbia - Millville Area",
+    "School District:Columbia - Southern Columbia Area"
+  ],
+  "School District:Washington - Bentworth": [
+    "PA House District:39",
+    "PA House District:49"
+  ],
+  "PA House District:39": [
+    "School District:Washington - Bentworth",
+    "School District:Allegheny - Elizabeth Forward",
+    "School District:Washington - Ringgold",
+    "School District:Allegheny - West Jefferson Hills"
+  ],
+  "PA House District:49": [
+    "School District:Washington - Bentworth",
+    "School District:Washington - Bethlehem-Center",
+    "School District:Washington - California Area",
+    "School District:Washington - Charleroi",
+    "School District:Fayette - Frazier",
+    "School District:Washington - Ringgold",
+    "School District:Fayette - Uniontown Area"
+  ],
+  "School District:Somerset - Berlin Brothersvalley": [
+    "PA House District:69"
+  ],
+  "School District:Adams - Bermudian Springs": [
+    "PA House District:193"
+  ],
+  "PA House District:193": [
+    "School District:Adams - Bermudian Springs",
+    "School District:Cumberland - Big Spring",
+    "School District:Adams - Conewago Valley",
+    "School District:Cumberland - South Middleton",
+    "School District:Adams - Upper Adams"
+  ],
+  "School District:Columbia - Berwick Area": [
+    "PA House District:109",
+    "PA House District:116"
+  ],
+  "PA House District:116": [
+    "School District:Columbia - Berwick Area",
+    "School District:Luzerne - Crestwood",
+    "School District:Luzerne - Greater Nanticoke Area",
+    "School District:Luzerne - Hazleton Area",
+    "School District:Luzerne - Northwest Area"
+  ],
+  "School District:Allegheny - Bethel Park": [
+    "PA House District:40"
+  ],
+  "PA House District:40": [
+    "School District:Allegheny - Bethel Park",
+    "School District:Washington - Peters Township",
+    "School District:Allegheny - Upper Saint Clair"
+  ],
+  "School District:Northampton - Bethlehem Area": [
+    "PA House District:133",
+    "PA House District:135",
+    "PA House District:138"
+  ],
+  "PA House District:133": [
+    "School District:Northampton - Bethlehem Area",
+    "School District:Lehigh - Catasauqua Area",
+    "School District:Lehigh - Salisbury Township",
+    "School District:Lehigh - Whitehall-Coplay"
+  ],
+  "PA House District:135": [
+    "School District:Northampton - Bethlehem Area"
+  ],
+  "PA House District:138": [
+    "School District:Northampton - Bethlehem Area",
+    "School District:Northampton - Nazareth Area",
+    "School District:Northampton - Northampton Area",
+    "School District:Northampton - Pen Argyl Area"
+  ],
+  "School District:Washington - Bethlehem-Center": [
+    "PA House District:49"
+  ],
+  "School District:Beaver - Big Beaver Falls Area": [
+    "PA House District:14"
+  ],
+  "PA House District:14": [
+    "School District:Beaver - Big Beaver Falls Area",
+    "School District:Beaver - Blackhawk",
+    "School District:Beaver - Freedom Area",
+    "School District:Butler - Seneca Valley",
+    "School District:Beaver - South Side Area",
+    "School District:Beaver - Western Beaver County"
+  ],
+  "School District:Cumberland - Big Spring": [
+    "PA House District:193",
+    "PA House District:199"
+  ],
+  "PA House District:199": [
+    "School District:Cumberland - Big Spring",
+    "School District:Cumberland - Carlisle Area",
+    "School District:Cumberland - Cumberland Valley"
+  ],
+  "School District:Beaver - Blackhawk": [
+    "PA House District:14"
+  ],
+  "School District:Indiana - Blairsville-Saltsburg": [
+    "PA House District:55",
+    "PA House District:60",
+    "PA House District:62"
+  ],
+  "PA House District:55": [
+    "School District:Indiana - Blairsville-Saltsburg",
+    "School District:Westmoreland - Derry Area",
+    "School District:Westmoreland - Greater Latrobe",
+    "School District:Westmoreland - Kiski Area"
+  ],
+  "PA House District:62": [
+    "School District:Indiana - Blairsville-Saltsburg",
+    "School District:Indiana - Homer-Center",
+    "School District:Indiana - Indiana Area",
+    "School District:Indiana - Marion Center Area",
+    "School District:Indiana - Penns Manor Area",
+    "School District:Indiana - United"
+  ],
+  "School District:Columbia - Bloomsburg Area": [
+    "PA House District:109"
+  ],
+  "School District:Schuylkill - Blue Mountain": [
+    "PA House District:124",
+    "PA House District:125"
+  ],
+  "PA House District:124": [
+    "School District:Schuylkill - Blue Mountain",
     "School District:Berks - Hamburg Area",
-    "School District:Berks - Oley Valley",
-    "School District:Berks - Schuylkill Valley",
-    "School District:Berks - Fleetwood Area",
-    "School District:Berks - Conrad Weiser Area"
+    "School District:Luzerne - Hazleton Area",
+    "School District:Berks - Kutztown Area",
+    "School District:Schuylkill - Tamaqua Area"
   ],
-  "School District:Lackawanna - Valley View": [
-    "PA House District:112"
+  "PA House District:125": [
+    "School District:Schuylkill - Blue Mountain",
+    "School District:Schuylkill - Pine Grove Area",
+    "School District:Schuylkill - Schuylkill Haven Area",
+    "School District:Schuylkill - Tri-Valley",
+    "School District:Dauphin - Upper Dauphin Area",
+    "School District:Schuylkill - Williams Valley"
   ],
-  "PA House District:112": [
-    "School District:Lackawanna - Valley View",
-    "School District:Lackawanna - Mid Valley",
-    "School District:Lackawanna - Dunmore"
-  ],
-  "School District:Wayne - Wallenpaupack Area": [
-    "PA House District:139"
-  ],
-  "PA House District:139": [
-    "School District:Wayne - Wallenpaupack Area",
-    "School District:Wayne - Western Wayne",
-    "School District:Wayne - Wayne Highlands",
-    "School District:Pike - Delaware Valley"
-  ],
-  "School District:Delaware - Wallingford-Swarthmore": [
-    "PA House District:161"
-  ],
-  "School District:Warren - Warren County": [
-    "PA House District:65"
-  ],
-  "PA House District:65": [
-    "School District:Warren - Warren County",
-    "School District:Venango - Titusville Area",
-    "School District:Forest - Forest Area",
-    "School District:Erie - Corry Area"
-  ],
-  "School District:Lackawanna - Riverside": [
-    "PA House District:114"
-  ],
-  "PA House District:114": [
-    "School District:Lackawanna - Riverside",
-    "School District:Lackawanna - Lakeland",
-    "School District:Lackawanna - Abington Heights",
-    "School District:Lackawanna - Carbondale Area"
-  ],
-  "School District:Susquehanna - Forest City Regional": [
+  "School District:Susquehanna - Blue Ridge": [
     "PA House District:111"
   ],
   "PA House District:111": [
+    "School District:Susquehanna - Blue Ridge",
     "School District:Susquehanna - Forest City Regional",
     "School District:Susquehanna - Montrose Area",
     "School District:Susquehanna - Mountain View",
     "School District:Susquehanna - Susquehanna Community",
-    "School District:Wayne - Western Wayne",
     "School District:Wayne - Wayne Highlands",
-    "School District:Susquehanna - Blue Ridge"
+    "School District:Wayne - Western Wayne"
   ],
-  "School District:Beaver - Riverside Beaver County": [
-    "PA House District:10"
+  "School District:Berks - Boyertown Area": [
+    "PA House District:130",
+    "PA House District:147"
   ],
-  "PA House District:10": [
-    "School District:Beaver - Riverside Beaver County",
-    "School District:Lawrence - Laurel",
-    "School District:Lawrence - Mohawk Area",
-    "School District:Lawrence - Wilmington Area",
-    "School District:Butler - Slippery Rock Area",
-    "School District:Lawrence - Ellwood City Area"
+  "PA House District:130": [
+    "School District:Berks - Boyertown Area",
+    "School District:Berks - Brandywine Heights Area",
+    "School District:Berks - Daniel Boone Area",
+    "School District:Berks - Exeter Township",
+    "School District:Berks - Oley Valley"
   ],
-  "School District:Elk - Johnsonburg Area": [
-    "PA House District:75"
+  "PA House District:147": [
+    "School District:Berks - Boyertown Area",
+    "School District:Montgomery - Perkiomen Valley",
+    "School District:Montgomery - Pottsgrove",
+    "School District:Montgomery - Souderton Area",
+    "School District:Montgomery - Upper Perkiomen"
   ],
-  "PA House District:75": [
-    "School District:Elk - Johnsonburg Area",
-    "School District:Elk - Saint Marys Area",
-    "School District:Elk - Ridgway Area",
-    "School District:Clearfield - Dubois Area",
-    "School District:Clearfield - Clearfield Area",
-    "School District:Mckean - Kane Area"
+  "School District:Mckean - Bradford Area": [
+    "PA House District:67"
   ],
-  "School District:Northumberland - Shamokin Area": [
-    "PA House District:107"
+  "School District:Berks - Brandywine Heights Area": [
+    "PA House District:130",
+    "PA House District:134"
   ],
-  "PA House District:107": [
-    "School District:Northumberland - Shamokin Area",
-    "School District:Northumberland - Line Mountain",
-    "School District:Northumberland - Mount Carmel Area",
-    "School District:Northumberland - Warrior Run",
-    "School District:Columbia - Southern Columbia Area",
-    "School District:Montour - Danville Area"
+  "PA House District:134": [
+    "School District:Berks - Brandywine Heights Area",
+    "School District:Lehigh - East Penn",
+    "School District:Berks - Fleetwood Area",
+    "School District:Montgomery - Upper Perkiomen"
   ],
-  "School District:Somerset - Shanksville-Stonycreek": [
-    "PA House District:69"
+  "School District:Allegheny - Brentwood Borough": [
+    "PA House District:36"
   ],
-  "PA House District:69": [
-    "School District:Somerset - Shanksville-Stonycreek",
-    "School District:Somerset - Rockwood Area",
-    "School District:Somerset - Meyersdale Area",
-    "School District:Somerset - Shade-Central City",
-    "School District:Somerset - Windber Area",
-    "School District:Somerset - Somerset Area",
-    "School District:Bedford - Bedford Area",
-    "School District:Bedford - Chestnut Ridge",
-    "School District:Somerset - Berlin Brothersvalley"
+  "School District:Bucks - Bristol Borough": [
+    "PA House District:140"
   ],
-  "School District:Juniata - Juniata County": [
-    "PA House District:82"
+  "PA House District:140": [
+    "School District:Bucks - Bristol Borough",
+    "School District:Bucks - Pennsbury"
   ],
-  "PA House District:82": [
-    "School District:Juniata - Juniata County",
-    "School District:Mifflin - Mifflin County",
-    "School District:Franklin - Tuscarora",
-    "School District:Franklin - Fannett-Metal"
+  "School District:Bucks - Bristol Township": [
+    "PA House District:141"
   ],
-  "School District:Huntingdon - Juniata Valley": [
-    "PA House District:81"
+  "PA House District:141": [
+    "School District:Bucks - Bristol Township",
+    "School District:Bucks - Neshaminy"
   ],
-  "School District:Lawrence - Laurel": [
-    "PA House District:9",
-    "PA House District:10"
-  ],
-  "PA House District:9": [
-    "School District:Lawrence - Laurel",
-    "School District:Lawrence - Mohawk Area",
-    "School District:Lawrence - Neshannock Township",
-    "School District:Lawrence - Shenango Area",
-    "School District:Lawrence - Wilmington Area",
-    "School District:Lawrence - Union Area"
-  ],
-  "School District:Delaware - Radnor Township": [
-    "PA House District:166",
-    "PA House District:165"
-  ],
-  "PA House District:166": [
-    "School District:Delaware - Radnor Township",
-    "School District:Delaware - Haverford Township"
-  ],
-  "PA House District:165": [
-    "School District:Delaware - Radnor Township",
-    "School District:Delaware - Marple Newtown",
-    "School District:Delaware - Springfield"
-  ],
-  "School District:Somerset - Rockwood Area": [
-    "PA House District:69"
-  ],
-  "School District:Delaware - Rose Tree Media": [
-    "PA House District:168"
-  ],
-  "PA House District:168": [
-    "School District:Delaware - Rose Tree Media",
-    "School District:Delaware - Marple Newtown",
-    "School District:Chester - West Chester Area"
-  ],
-  "School District:Fayette - Laurel Highlands": [
-    "PA House District:52"
-  ],
-  "PA House District:52": [
-    "School District:Fayette - Laurel Highlands",
-    "School District:Westmoreland - Southmoreland",
-    "School District:Fayette - Connellsville Area",
-    "School District:Fayette - Frazier"
-  ],
-  "School District:Mercer - Sharpsville Area": [
-    "PA House District:7"
-  ],
-  "PA House District:7": [
-    "School District:Mercer - Sharpsville Area",
-    "School District:Mercer - Hermitage",
-    "School District:Mercer - Reynolds",
-    "School District:Mercer - West Middlesex Area"
-  ],
-  "School District:Schuylkill - Shenandoah Valley": [
-    "PA House District:123"
-  ],
-  "PA House District:123": [
-    "School District:Schuylkill - Shenandoah Valley",
-    "School District:Schuylkill - Saint Clair Area",
-    "School District:Schuylkill - Minersville Area",
-    "School District:Schuylkill - Mahanoy Area",
-    "School District:Schuylkill - North Schuylkill"
-  ],
-  "School District:Northumberland - Shikellamy": [
-    "PA House District:108"
-  ],
-  "PA House District:108": [
-    "School District:Northumberland - Shikellamy",
-    "School District:Northumberland - Line Mountain",
-    "School District:Northumberland - Milton Area",
-    "School District:Snyder - Selinsgrove Area",
-    "School District:Northumberland - Warrior Run",
-    "School District:Montour - Danville Area"
-  ],
-  "School District:Cumberland - Shippensburg Area": [
-    "PA House District:89",
-    "PA House District:86"
-  ],
-  "PA House District:89": [
-    "School District:Cumberland - Shippensburg Area",
-    "School District:Franklin - Chambersburg Area"
-  ],
-  "PA House District:86": [
-    "School District:Cumberland - Shippensburg Area",
-    "School District:Perry - Greenwood",
-    "School District:Perry - Newport",
-    "School District:Perry - West Perry",
-    "School District:Perry - Susquenita"
-  ],
-  "School District:Monroe - Pleasant Valley": [
-    "PA House District:176"
-  ],
-  "PA House District:176": [
-    "School District:Monroe - Pleasant Valley",
-    "School District:Monroe - Pocono Mountain"
-  ],
-  "School District:Allegheny - Plum Borough": [
-    "PA House District:25",
-    "PA House District:32"
-  ],
-  "PA House District:25": [
-    "School District:Allegheny - Plum Borough",
-    "School District:Allegheny - East Allegheny",
-    "School District:Allegheny - Gateway"
-  ],
-  "School District:Monroe - Pocono Mountain": [
-    "PA House District:115",
-    "PA House District:189",
-    "PA House District:176"
-  ],
-  "PA House District:115": [
-    "School District:Monroe - Pocono Mountain",
-    "School District:Monroe - Stroudsburg Area",
-    "School District:Monroe - East Stroudsburg Area"
-  ],
-  "PA House District:189": [
-    "School District:Monroe - Pocono Mountain",
-    "School District:Monroe - Stroudsburg Area",
-    "School District:Monroe - East Stroudsburg Area",
-    "School District:Pike - Delaware Valley"
-  ],
-  "School District:Indiana - Purchase Line": [
-    "PA House District:73",
+  "School District:Jefferson - Brockway Area": [
     "PA House District:66"
   ],
   "PA House District:66": [
-    "School District:Indiana - Purchase Line",
+    "School District:Jefferson - Brockway Area",
+    "School District:Jefferson - Brookville Area",
     "School District:Indiana - Marion Center Area",
     "School District:Jefferson - Punxsutawney Area",
-    "School District:Jefferson - Brookville Area",
-    "School District:Jefferson - Brockway Area"
+    "School District:Indiana - Purchase Line"
   ],
-  "School District:Schuylkill - Saint Clair Area": [
-    "PA House District:123"
+  "School District:Jefferson - Brookville Area": [
+    "PA House District:66"
   ],
-  "School District:Mercer - Grove City Area": [
-    "PA House District:8"
+  "School District:Fayette - Brownsville Area": [
+    "PA House District:50"
   ],
-  "PA House District:8": [
-    "School District:Mercer - Grove City Area",
-    "School District:Mercer - Lakeview",
-    "School District:Butler - Moniteau",
-    "School District:Mercer - Mercer Area",
-    "School District:Butler - Slippery Rock Area",
-    "School District:Mercer - Commodore Perry"
+  "PA House District:50": [
+    "School District:Fayette - Brownsville Area",
+    "School District:Greene - Carmichaels Area",
+    "School District:Greene - Central Greene",
+    "School District:Greene - Jefferson-Morgan",
+    "School District:Greene - Southeastern Greene",
+    "School District:Greene - West Greene"
   ],
-  "School District:Allegheny - Quaker Valley": [
-    "PA House District:44"
+  "School District:Montgomery - Bryn Athyn": [
+    "PA House District:152"
   ],
-  "PA House District:44": [
-    "School District:Allegheny - Quaker Valley",
-    "School District:Allegheny - Moon Area",
-    "School District:Allegheny - West Allegheny",
-    "School District:Allegheny - Avonworth"
+  "PA House District:152": [
+    "School District:Montgomery - Bryn Athyn",
+    "School District:Montgomery - Lower Moreland Township",
+    "School District:Montgomery - Upper Dublin",
+    "School District:Montgomery - Upper Moreland Township"
   ],
-  "School District:Bucks - Quakertown Community": [
-    "PA House District:143",
-    "PA House District:145"
+  "School District:Washington - Burgettstown Area": [
+    "PA House District:15",
+    "PA House District:46"
   ],
-  "School District:Lehigh - Salisbury Township": [
-    "PA House District:133"
+  "PA House District:46": [
+    "School District:Washington - Burgettstown Area",
+    "School District:Washington - Canon-McMillan",
+    "School District:Allegheny - Chartiers Valley",
+    "School District:Washington - Fort Cherry",
+    "School District:Allegheny - South Fayette Township",
+    "School District:Washington - Trinity Area"
   ],
-  "PA House District:133": [
-    "School District:Lehigh - Salisbury Township",
-    "School District:Lehigh - Whitehall-Coplay",
-    "School District:Northampton - Bethlehem Area",
-    "School District:Lehigh - Catasauqua Area"
+  "School District:Westmoreland - Burrell": [
+    "PA House District:54"
   ],
-  "School District:Luzerne - Pittston Area": [
-    "PA House District:118"
+  "PA House District:54": [
+    "School District:Westmoreland - Burrell",
+    "School District:Allegheny - Deer Lakes",
+    "School District:Westmoreland - Franklin Regional",
+    "School District:Allegheny - Highlands",
+    "School District:Westmoreland - Kiski Area"
   ],
-  "PA House District:118": [
-    "School District:Luzerne - Pittston Area",
-    "School District:Lackawanna - North Pocono",
-    "School District:Luzerne - Wilkes-Barre Area"
+  "School District:Butler - Butler Area": [
+    "PA House District:11"
   ],
-  "School District:Allegheny - Pittsburgh": [
-    "PA House District:34",
-    "PA House District:24",
-    "PA House District:23",
-    "PA House District:20",
-    "PA House District:19",
-    "PA House District:27",
-    "PA House District:36"
+  "PA House District:11": [
+    "School District:Butler - Butler Area",
+    "School District:Butler - Karns City Area",
+    "School District:Butler - South Butler County"
   ],
-  "PA House District:34": [
-    "School District:Allegheny - Pittsburgh",
-    "School District:Allegheny - Steel Valley",
-    "School District:Allegheny - Woodland Hills"
+  "School District:Washington - California Area": [
+    "PA House District:49"
   ],
-  "PA House District:24": [
-    "School District:Allegheny - Pittsburgh",
-    "School District:Allegheny - Wilkinsburg Borough"
+  "School District:Cambria - Cambria Heights": [
+    "PA House District:72"
   ],
-  "PA House District:23": [
-    "School District:Allegheny - Pittsburgh"
+  "PA House District:72": [
+    "School District:Cambria - Cambria Heights",
+    "School District:Cambria - Central Cambria",
+    "School District:Cambria - Forest Hills",
+    "School District:Clearfield - Glendale",
+    "School District:Cambria - Penn Cambria",
+    "School District:Cambria - Portage Area"
   ],
-  "PA House District:19": [
-    "School District:Allegheny - Pittsburgh"
+  "School District:Cameron - Cameron County": [
+    "PA House District:67"
   ],
-  "PA House District:27": [
-    "School District:Allegheny - Pittsburgh",
-    "School District:Allegheny - Keystone Oaks",
-    "School District:Allegheny - Sto-Rox",
-    "School District:Allegheny - Carlynton"
+  "School District:Washington - Canon-McMillan": [
+    "PA House District:46",
+    "PA House District:48"
   ],
-  "PA House District:36": [
-    "School District:Allegheny - Pittsburgh",
-    "School District:Allegheny - Baldwin-Whitehall",
-    "School District:Allegheny - Brentwood Borough"
+  "PA House District:48": [
+    "School District:Washington - Canon-McMillan",
+    "School District:Washington - Chartiers-Houston",
+    "School District:Washington - Trinity Area"
   ],
-  "School District:Clarion - Keystone": [
-    "PA House District:63"
-  ],
-  "PA House District:63": [
-    "School District:Clarion - Keystone",
-    "School District:Clarion - North Clarion County",
-    "School District:Clarion - Redbank Valley",
-    "School District:Clarion - Union",
-    "School District:Forest - Forest Area",
-    "School District:Armstrong - Armstrong",
-    "School District:Clarion - Clarion Area",
-    "School District:Clarion - Clarion-Limestone Area"
-  ],
-  "School District:Clinton - Keystone Central": [
-    "PA House District:76"
-  ],
-  "School District:Carbon - Lehighton Area": [
-    "PA House District:122"
-  ],
-  "PA House District:122": [
-    "School District:Carbon - Lehighton Area",
-    "School District:Carbon - Palmerton Area",
-    "School District:Carbon - Panther Valley",
-    "School District:Carbon - Weatherly Area",
-    "School District:Carbon - Jim Thorpe Area"
-  ],
-  "School District:Union - Lewisburg Area": [
-    "PA House District:85"
-  ],
-  "PA House District:85": [
-    "School District:Union - Lewisburg Area",
-    "School District:Union - Mifflinburg Area",
-    "School District:Snyder - Midd-West",
-    "School District:Snyder - Selinsgrove Area"
-  ],
-  "School District:Westmoreland - Ligonier Valley": [
-    "PA House District:59"
-  ],
-  "PA House District:59": [
-    "School District:Westmoreland - Ligonier Valley",
-    "School District:Westmoreland - Greater Latrobe",
-    "School District:Westmoreland - Mount Pleasant Area",
-    "School District:Somerset - North Star",
-    "School District:Somerset - Conemaugh Township Area"
-  ],
-  "School District:Northumberland - Line Mountain": [
-    "PA House District:108",
-    "PA House District:107"
-  ],
-  "School District:Adams - Littlestown Area": [
-    "PA House District:91"
-  ],
-  "PA House District:91": [
-    "School District:Adams - Littlestown Area",
-    "School District:Adams - Conewago Valley",
-    "School District:Adams - Fairfield Area",
-    "School District:Adams - Gettysburg Area"
-  ],
-  "School District:Dauphin - Lower Dauphin": [
-    "PA House District:104",
-    "PA House District:105",
-    "PA House District:106",
-    "PA House District:98"
-  ],
-  "PA House District:104": [
-    "School District:Dauphin - Lower Dauphin",
-    "School District:Dauphin - Millersburg Area",
-    "School District:Dauphin - Halifax Area",
-    "School District:Lebanon - Northern Lebanon",
-    "School District:Dauphin - Upper Dauphin Area",
-    "School District:Schuylkill - Williams Valley",
-    "School District:Dauphin - Central Dauphin"
-  ],
-  "PA House District:105": [
-    "School District:Dauphin - Lower Dauphin",
-    "School District:Dauphin - Central Dauphin"
-  ],
-  "PA House District:106": [
-    "School District:Dauphin - Lower Dauphin",
-    "School District:Dauphin - Middletown Area",
-    "School District:Dauphin - Derry Township"
-  ],
-  "PA House District:98": [
-    "School District:Dauphin - Lower Dauphin",
-    "School District:Lancaster - Hempfield",
-    "School District:Lancaster - Elizabethtown Area",
-    "School District:Lancaster - Donegal"
-  ],
-  "School District:Lycoming - Montoursville Area": [
+  "School District:Bradford - Canton Area": [
     "PA House District:84"
   ],
   "PA House District:84": [
+    "School District:Bradford - Canton Area",
+    "School District:Lycoming - East Lycoming",
+    "School District:Lycoming - Jersey Shore Area",
     "School District:Lycoming - Montoursville Area",
     "School District:Tioga - Southern Tioga",
     "School District:Tioga - Wellsboro Area",
-    "School District:Lycoming - Williamsport Area",
-    "School District:Lycoming - East Lycoming",
-    "School District:Lycoming - Jersey Shore Area",
-    "School District:Bradford - Canton Area"
+    "School District:Lycoming - Williamsport Area"
   ],
-  "School District:Dauphin - Millersburg Area": [
-    "PA House District:104"
+  "School District:Lackawanna - Carbondale Area": [
+    "PA House District:114"
+  ],
+  "School District:Cumberland - Carlisle Area": [
+    "PA House District:199"
+  ],
+  "School District:Allegheny - Carlynton": [
+    "PA House District:27",
+    "PA House District:45"
+  ],
+  "PA House District:27": [
+    "School District:Allegheny - Carlynton",
+    "School District:Allegheny - Keystone Oaks",
+    "School District:Allegheny - Pittsburgh",
+    "School District:Allegheny - Sto-Rox"
+  ],
+  "School District:Greene - Carmichaels Area": [
+    "PA House District:50"
+  ],
+  "School District:Lehigh - Catasauqua Area": [
+    "PA House District:133"
+  ],
+  "School District:Bucks - Centennial": [
+    "PA House District:29",
+    "PA House District:142"
+  ],
+  "PA House District:29": [
+    "School District:Bucks - Centennial",
+    "School District:Bucks - Central Bucks"
+  ],
+  "PA House District:142": [
+    "School District:Bucks - Centennial",
+    "School District:Bucks - Neshaminy"
+  ],
+  "School District:Bucks - Central Bucks": [
+    "PA House District:29",
+    "PA House District:143",
+    "PA House District:144"
+  ],
+  "PA House District:143": [
+    "School District:Bucks - Central Bucks",
+    "School District:Bucks - Palisades",
+    "School District:Bucks - Pennridge",
+    "School District:Bucks - Quakertown Community"
+  ],
+  "PA House District:144": [
+    "School District:Bucks - Central Bucks",
+    "School District:Bucks - Pennridge"
+  ],
+  "School District:Cambria - Central Cambria": [
+    "PA House District:72"
+  ],
+  "School District:Columbia - Central Columbia": [
+    "PA House District:109"
+  ],
+  "School District:Dauphin - Central Dauphin": [
+    "PA House District:104",
+    "PA House District:105"
+  ],
+  "PA House District:104": [
+    "School District:Dauphin - Central Dauphin",
+    "School District:Dauphin - Halifax Area",
+    "School District:Dauphin - Lower Dauphin",
+    "School District:Dauphin - Millersburg Area",
+    "School District:Lebanon - Northern Lebanon",
+    "School District:Dauphin - Upper Dauphin Area",
+    "School District:Schuylkill - Williams Valley"
+  ],
+  "PA House District:105": [
+    "School District:Dauphin - Central Dauphin",
+    "School District:Dauphin - Lower Dauphin"
+  ],
+  "School District:Fulton - Central Fulton": [
+    "PA House District:78"
+  ],
+  "School District:Greene - Central Greene": [
+    "PA House District:50"
+  ],
+  "School District:York - Central York": [
+    "PA House District:47"
+  ],
+  "PA House District:47": [
+    "School District:York - Central York",
+    "School District:York - Eastern York",
+    "School District:York - Northeastern York"
+  ],
+  "School District:Franklin - Chambersburg Area": [
+    "PA House District:89",
+    "PA House District:90"
+  ],
+  "PA House District:89": [
+    "School District:Franklin - Chambersburg Area",
+    "School District:Cumberland - Shippensburg Area"
+  ],
+  "PA House District:90": [
+    "School District:Franklin - Chambersburg Area",
+    "School District:Franklin - Greencastle-Antrim",
+    "School District:Franklin - Waynesboro Area"
+  ],
+  "School District:Washington - Charleroi": [
+    "PA House District:49"
+  ],
+  "School District:Allegheny - Chartiers Valley": [
+    "PA House District:45",
+    "PA House District:46"
+  ],
+  "School District:Washington - Chartiers-Houston": [
+    "PA House District:48"
+  ],
+  "School District:Montgomery - Cheltenham Township": [
+    "PA House District:154"
+  ],
+  "PA House District:154": [
+    "School District:Montgomery - Cheltenham Township",
+    "School District:Montgomery - Springfield Township"
+  ],
+  "School District:Delaware - Chester-Upland": [
+    "PA House District:159"
+  ],
+  "PA House District:159": [
+    "School District:Delaware - Chester-Upland",
+    "School District:Delaware - Chichester",
+    "School District:Delaware - Ridley"
+  ],
+  "School District:Bedford - Chestnut Ridge": [
+    "PA House District:69"
+  ],
+  "School District:Delaware - Chichester": [
+    "PA House District:159",
+    "PA House District:160"
+  ],
+  "PA House District:160": [
+    "School District:Delaware - Chichester",
+    "School District:Delaware - Garnet Valley",
+    "School District:Chester - Kennett Consolidated",
+    "School District:Chester - Unionville-Chadds Ford"
+  ],
+  "School District:Allegheny - Clairton City": [
+    "PA House District:35"
+  ],
+  "PA House District:35": [
+    "School District:Allegheny - Clairton City",
+    "School District:Allegheny - Duquesne City",
+    "School District:Allegheny - McKeesport Area",
+    "School District:Allegheny - South Allegheny",
+    "School District:Allegheny - Steel Valley",
+    "School District:Allegheny - West Mifflin Area"
+  ],
+  "School District:Clarion - Clarion Area": [
+    "PA House District:63"
+  ],
+  "School District:Clarion - Clarion-Limestone Area": [
+    "PA House District:63"
+  ],
+  "School District:Blair - Claysburg-Kimmel": [
+    "PA House District:80"
+  ],
+  "School District:Clearfield - Clearfield Area": [
+    "PA House District:73",
+    "PA House District:75"
+  ],
+  "PA House District:73": [
+    "School District:Clearfield - Clearfield Area",
+    "School District:Clearfield - Curwensville Area",
+    "School District:Clearfield - Harmony Area",
+    "School District:Clearfield - Moshannon Valley",
+    "School District:Cambria - Northern Cambria",
+    "School District:Clearfield - Philipsburg-Osceola Area",
+    "School District:Indiana - Purchase Line",
+    "School District:Clearfield - West Branch Area"
+  ],
+  "PA House District:75": [
+    "School District:Clearfield - Clearfield Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Elk - Johnsonburg Area",
+    "School District:Mckean - Kane Area",
+    "School District:Elk - Ridgway Area",
+    "School District:Elk - Saint Marys Area"
+  ],
+  "School District:Chester - Coatesville Area": [
+    "PA House District:26",
+    "PA House District:74",
+    "PA House District:155"
+  ],
+  "PA House District:26": [
+    "School District:Chester - Coatesville Area",
+    "School District:Chester - Owen J Roberts",
+    "School District:Berks - Twin Valley"
+  ],
+  "PA House District:74": [
+    "School District:Chester - Coatesville Area"
+  ],
+  "PA House District:155": [
+    "School District:Chester - Coatesville Area",
+    "School District:Chester - Downingtown Area",
+    "School District:Chester - Owen J Roberts",
+    "School District:Chester - Phoenixville Area"
+  ],
+  "School District:Lancaster - Cocalico": [
+    "PA House District:37",
+    "PA House District:129"
+  ],
+  "PA House District:37": [
+    "School District:Lancaster - Cocalico",
+    "School District:Lancaster - Elizabethtown Area",
+    "School District:Lancaster - Ephrata Area",
+    "School District:Lancaster - Manheim Central",
+    "School District:Lancaster - Warwick"
+  ],
+  "PA House District:129": [
+    "School District:Lancaster - Cocalico",
+    "School District:Berks - Conrad Weiser Area",
+    "School District:Berks - Wilson"
+  ],
+  "School District:Montgomery - Colonial": [
+    "PA House District:148"
+  ],
+  "PA House District:148": [
+    "School District:Montgomery - Colonial",
+    "School District:Montgomery - Lower Merion"
+  ],
+  "School District:Mercer - Commodore Perry": [
+    "PA House District:8"
+  ],
+  "PA House District:8": [
+    "School District:Mercer - Commodore Perry",
+    "School District:Mercer - Grove City Area",
+    "School District:Mercer - Lakeview",
+    "School District:Mercer - Mercer Area",
+    "School District:Butler - Moniteau",
+    "School District:Butler - Slippery Rock Area"
+  ],
+  "School District:Somerset - Conemaugh Township Area": [
+    "PA House District:59"
+  ],
+  "PA House District:59": [
+    "School District:Somerset - Conemaugh Township Area",
+    "School District:Westmoreland - Greater Latrobe",
+    "School District:Westmoreland - Ligonier Valley",
+    "School District:Westmoreland - Mount Pleasant Area",
+    "School District:Somerset - North Star"
+  ],
+  "School District:Cambria - Conemaugh Valley": [
+    "PA House District:71"
+  ],
+  "PA House District:71": [
+    "School District:Cambria - Conemaugh Valley",
+    "School District:Cambria - Forest Hills",
+    "School District:Cambria - Greater Johnstown",
+    "School District:Cambria - Richland"
+  ],
+  "School District:Lancaster - Conestoga Valley": [
+    "PA House District:43"
+  ],
+  "PA House District:43": [
+    "School District:Lancaster - Conestoga Valley",
+    "School District:Lancaster - Lampeter-Strasburg"
+  ],
+  "School District:Adams - Conewago Valley": [
+    "PA House District:91",
+    "PA House District:193"
+  ],
+  "PA House District:91": [
+    "School District:Adams - Conewago Valley",
+    "School District:Adams - Fairfield Area",
+    "School District:Adams - Gettysburg Area",
+    "School District:Adams - Littlestown Area"
+  ],
+  "School District:Crawford - Conneaut": [
+    "PA House District:6",
+    "PA House District:17"
+  ],
+  "PA House District:6": [
+    "School District:Crawford - Conneaut",
+    "School District:Crawford - Crawford Central",
+    "School District:Erie - Fairview",
+    "School District:Erie - Northwestern",
+    "School District:Crawford - Penncrest"
+  ],
+  "PA House District:17": [
+    "School District:Crawford - Conneaut",
+    "School District:Erie - Girard",
+    "School District:Mercer - Jamestown Area",
+    "School District:Mercer - Mercer Area",
+    "School District:Erie - Northwestern"
+  ],
+  "School District:Fayette - Connellsville Area": [
+    "PA House District:51",
+    "PA House District:52"
+  ],
+  "PA House District:52": [
+    "School District:Fayette - Connellsville Area",
+    "School District:Fayette - Frazier",
+    "School District:Fayette - Laurel Highlands",
+    "School District:Westmoreland - Southmoreland"
+  ],
+  "School District:Berks - Conrad Weiser Area": [
+    "PA House District:5",
+    "PA House District:129"
+  ],
+  "PA House District:5": [
+    "School District:Berks - Conrad Weiser Area",
+    "School District:Berks - Fleetwood Area",
+    "School District:Berks - Hamburg Area",
+    "School District:Berks - Oley Valley",
+    "School District:Berks - Schuylkill Valley",
+    "School District:Berks - Tulpehocken Area"
+  ],
+  "School District:Allegheny - Cornell": [
+    "PA House District:45"
+  ],
+  "School District:Lebanon - Cornwall-Lebanon": [
+    "PA House District:101",
+    "PA House District:102"
+  ],
+  "PA House District:102": [
+    "School District:Lebanon - Cornwall-Lebanon",
+    "School District:Lebanon - Eastern Lebanon County",
+    "School District:Lebanon - Northern Lebanon"
+  ],
+  "School District:Erie - Corry Area": [
+    "PA House District:4",
+    "PA House District:65"
+  ],
+  "PA House District:4": [
+    "School District:Erie - Corry Area",
+    "School District:Erie - Fort Leboeuf",
+    "School District:Erie - Harbor Creek",
+    "School District:Erie - North East",
+    "School District:Erie - Union City Area",
+    "School District:Erie - Wattsburg Area"
+  ],
+  "PA House District:65": [
+    "School District:Erie - Corry Area",
+    "School District:Forest - Forest Area",
+    "School District:Venango - Titusville Area",
+    "School District:Warren - Warren County"
+  ],
+  "School District:Potter - Coudersport Area": [
+    "PA House District:67"
+  ],
+  "School District:Bucks - Council Rock": [
+    "PA House District:31",
+    "PA House District:178"
+  ],
+  "PA House District:31": [
+    "School District:Bucks - Council Rock",
+    "School District:Bucks - Pennsbury"
+  ],
+  "PA House District:178": [
+    "School District:Bucks - Council Rock",
+    "School District:Bucks - New Hope-Solebury"
+  ],
+  "School District:Venango - Cranberry Area": [
+    "PA House District:64"
+  ],
+  "School District:Crawford - Crawford Central": [
+    "PA House District:6"
+  ],
+  "School District:Luzerne - Crestwood": [
+    "PA House District:116",
+    "PA House District:119",
+    "PA House District:121"
+  ],
+  "PA House District:119": [
+    "School District:Luzerne - Crestwood",
+    "School District:Luzerne - Greater Nanticoke Area",
+    "School District:Luzerne - Hazleton Area"
+  ],
+  "PA House District:121": [
+    "School District:Luzerne - Crestwood",
+    "School District:Luzerne - Hanover Area",
+    "School District:Luzerne - Wilkes-Barre Area"
+  ],
+  "School District:Cumberland - Cumberland Valley": [
+    "PA House District:87",
+    "PA House District:92",
+    "PA House District:199"
+  ],
+  "PA House District:87": [
+    "School District:Cumberland - Cumberland Valley",
+    "School District:Cumberland - East Pennsboro Area"
+  ],
+  "PA House District:92": [
+    "School District:Cumberland - Cumberland Valley",
+    "School District:York - Dover Area",
+    "School District:York - Northern York County",
+    "School District:York - West Shore"
+  ],
+  "School District:Clearfield - Curwensville Area": [
+    "PA House District:73"
+  ],
+  "School District:Luzerne - Dallas": [
+    "PA House District:120"
+  ],
+  "PA House District:120": [
+    "School District:Luzerne - Dallas",
+    "School District:Luzerne - Lake-Lehman",
+    "School District:Luzerne - Wyoming Area",
+    "School District:Luzerne - Wyoming Valley West"
+  ],
+  "School District:York - Dallastown Area": [
+    "PA House District:93"
+  ],
+  "PA House District:93": [
+    "School District:York - Dallastown Area",
+    "School District:York - Red Lion Area",
+    "School District:York - South Eastern"
+  ],
+  "School District:Berks - Daniel Boone Area": [
+    "PA House District:130"
+  ],
+  "School District:Montour - Danville Area": [
+    "PA House District:107",
+    "PA House District:108"
+  ],
+  "PA House District:107": [
+    "School District:Montour - Danville Area",
+    "School District:Northumberland - Line Mountain",
+    "School District:Northumberland - Mount Carmel Area",
+    "School District:Northumberland - Shamokin Area",
+    "School District:Columbia - Southern Columbia Area",
+    "School District:Northumberland - Warrior Run"
+  ],
+  "PA House District:108": [
+    "School District:Montour - Danville Area",
+    "School District:Northumberland - Line Mountain",
+    "School District:Northumberland - Milton Area",
+    "School District:Snyder - Selinsgrove Area",
+    "School District:Northumberland - Shikellamy",
+    "School District:Northumberland - Warrior Run"
+  ],
+  "School District:Allegheny - Deer Lakes": [
+    "PA House District:33",
+    "PA House District:54"
+  ],
+  "School District:Pike - Delaware Valley": [
+    "PA House District:139",
+    "PA House District:189"
+  ],
+  "PA House District:139": [
+    "School District:Pike - Delaware Valley",
+    "School District:Wayne - Wallenpaupack Area",
+    "School District:Wayne - Wayne Highlands",
+    "School District:Wayne - Western Wayne"
+  ],
+  "PA House District:189": [
+    "School District:Pike - Delaware Valley",
+    "School District:Monroe - East Stroudsburg Area",
+    "School District:Monroe - Pocono Mountain",
+    "School District:Monroe - Stroudsburg Area"
+  ],
+  "School District:Westmoreland - Derry Area": [
+    "PA House District:55"
+  ],
+  "School District:Dauphin - Derry Township": [
+    "PA House District:106"
+  ],
+  "PA House District:106": [
+    "School District:Dauphin - Derry Township",
+    "School District:Dauphin - Lower Dauphin",
+    "School District:Dauphin - Middletown Area"
+  ],
+  "School District:Lancaster - Donegal": [
+    "PA House District:98"
+  ],
+  "PA House District:98": [
+    "School District:Lancaster - Donegal",
+    "School District:Lancaster - Elizabethtown Area",
+    "School District:Lancaster - Hempfield",
+    "School District:Dauphin - Lower Dauphin"
+  ],
+  "School District:York - Dover Area": [
+    "PA House District:92",
+    "PA House District:196"
+  ],
+  "PA House District:196": [
+    "School District:York - Dover Area",
+    "School District:York - Spring Grove Area",
+    "School District:York - West York Area"
+  ],
+  "School District:Chester - Downingtown Area": [
+    "PA House District:155",
+    "PA House District:158",
+    "PA House District:167"
+  ],
+  "PA House District:167": [
+    "School District:Chester - Downingtown Area",
+    "School District:Chester - Great Valley",
+    "School District:Chester - Tredyffrin-Easttown",
+    "School District:Chester - West Chester Area"
+  ],
+  "School District:Clearfield - Dubois Area": [
+    "PA House District:75"
+  ],
+  "School District:Lackawanna - Dunmore": [
+    "PA House District:112"
+  ],
+  "PA House District:112": [
+    "School District:Lackawanna - Dunmore",
+    "School District:Lackawanna - Mid Valley",
+    "School District:Lackawanna - Valley View"
+  ],
+  "School District:Allegheny - Duquesne City": [
+    "PA House District:35"
+  ],
+  "School District:Allegheny - East Allegheny": [
+    "PA House District:25"
+  ],
+  "PA House District:25": [
+    "School District:Allegheny - East Allegheny",
+    "School District:Allegheny - Gateway",
+    "School District:Allegheny - Plum Borough"
+  ],
+  "School District:Lycoming - East Lycoming": [
+    "PA House District:84"
+  ],
+  "School District:Lehigh - East Penn": [
+    "PA House District:131",
+    "PA House District:134"
+  ],
+  "PA House District:131": [
+    "School District:Lehigh - East Penn",
+    "School District:Northampton - Saucon Valley",
+    "School District:Lehigh - Southern Lehigh",
+    "School District:Montgomery - Upper Perkiomen"
+  ],
+  "School District:Cumberland - East Pennsboro Area": [
+    "PA House District:87"
+  ],
+  "School District:Monroe - East Stroudsburg Area": [
+    "PA House District:115",
+    "PA House District:189"
+  ],
+  "PA House District:115": [
+    "School District:Monroe - East Stroudsburg Area",
+    "School District:Monroe - Pocono Mountain",
+    "School District:Monroe - Stroudsburg Area"
+  ],
+  "School District:Lancaster - Eastern Lancaster County": [
+    "PA House District:99",
+    "PA House District:128"
+  ],
+  "PA House District:99": [
+    "School District:Lancaster - Eastern Lancaster County",
+    "School District:Lancaster - Ephrata Area",
+    "School District:Lancaster - Pequea Valley"
+  ],
+  "PA House District:128": [
+    "School District:Lancaster - Eastern Lancaster County",
+    "School District:Berks - Governor Mifflin",
+    "School District:Berks - Twin Valley"
+  ],
+  "School District:Lebanon - Eastern Lebanon County": [
+    "PA House District:102"
+  ],
+  "School District:York - Eastern York": [
+    "PA House District:47",
+    "PA House District:94"
+  ],
+  "PA House District:94": [
+    "School District:York - Eastern York",
+    "School District:York - Red Lion Area",
+    "School District:York - South Eastern"
+  ],
+  "School District:Northampton - Easton Area": [
+    "PA House District:136",
+    "PA House District:137"
+  ],
+  "PA House District:136": [
+    "School District:Northampton - Easton Area",
+    "School District:Northampton - Saucon Valley",
+    "School District:Northampton - Wilson Area"
+  ],
+  "School District:Allegheny - Elizabeth Forward": [
+    "PA House District:39"
+  ],
+  "School District:Lancaster - Elizabethtown Area": [
+    "PA House District:37",
+    "PA House District:98"
+  ],
+  "School District:Susquehanna - Elk Lake": [
+    "PA House District:110"
+  ],
+  "School District:Lawrence - Ellwood City Area": [
+    "PA House District:10"
+  ],
+  "PA House District:10": [
+    "School District:Lawrence - Ellwood City Area",
+    "School District:Lawrence - Laurel",
+    "School District:Lawrence - Mohawk Area",
+    "School District:Beaver - Riverside Beaver County",
+    "School District:Butler - Slippery Rock Area",
+    "School District:Lawrence - Wilmington Area"
+  ],
+  "School District:Lancaster - Ephrata Area": [
+    "PA House District:37",
+    "PA House District:99"
+  ],
+  "School District:Erie - Erie City": [
+    "PA House District:1",
+    "PA House District:2"
+  ],
+  "PA House District:1": [
+    "School District:Erie - Erie City",
+    "School District:Erie - Iroquois"
+  ],
+  "PA House District:2": [
+    "School District:Erie - Erie City",
+    "School District:Erie - Fort Leboeuf",
+    "School District:Erie - Millcreek Township"
+  ],
+  "School District:Bedford - Everett Area": [
+    "PA House District:78"
+  ],
+  "School District:Berks - Exeter Township": [
+    "PA House District:130"
+  ],
+  "School District:Adams - Fairfield Area": [
+    "PA House District:91"
+  ],
+  "School District:Erie - Fairview": [
+    "PA House District:6"
+  ],
+  "School District:Franklin - Fannett-Metal": [
+    "PA House District:82"
+  ],
+  "PA House District:82": [
+    "School District:Franklin - Fannett-Metal",
+    "School District:Juniata - Juniata County",
+    "School District:Mifflin - Mifflin County",
+    "School District:Franklin - Tuscarora"
+  ],
+  "School District:Berks - Fleetwood Area": [
+    "PA House District:5",
+    "PA House District:134"
+  ],
+  "School District:Fulton - Forbes Road": [
+    "PA House District:78"
+  ],
+  "School District:Forest - Forest Area": [
+    "PA House District:63",
+    "PA House District:65"
+  ],
+  "School District:Susquehanna - Forest City Regional": [
+    "PA House District:111"
+  ],
+  "School District:Cambria - Forest Hills": [
+    "PA House District:71",
+    "PA House District:72"
+  ],
+  "School District:Washington - Fort Cherry": [
+    "PA House District:46"
+  ],
+  "School District:Erie - Fort Leboeuf": [
+    "PA House District:2",
+    "PA House District:4"
+  ],
+  "School District:Allegheny - Fox Chapel Area": [
+    "PA House District:30",
+    "PA House District:33"
+  ],
+  "PA House District:30": [
+    "School District:Allegheny - Fox Chapel Area",
+    "School District:Allegheny - Hampton Township",
+    "School District:Allegheny - Pine-Richland",
+    "School District:Allegheny - Shaler Area"
+  ],
+  "School District:Venango - Franklin Area": [
+    "PA House District:64"
+  ],
+  "School District:Westmoreland - Franklin Regional": [
+    "PA House District:54"
+  ],
+  "School District:Fayette - Frazier": [
+    "PA House District:49",
+    "PA House District:52"
+  ],
+  "School District:Beaver - Freedom Area": [
+    "PA House District:14"
   ],
   "School District:Armstrong - Freeport Area": [
     "PA House District:60"
-  ],
-  "PA House District:60": [
-    "School District:Armstrong - Freeport Area",
-    "School District:Armstrong - Apollo-Ridge",
-    "School District:Armstrong - Armstrong",
-    "School District:Indiana - Blairsville-Saltsburg"
-  ],
-  "School District:Columbia - Millville Area": [
-    "PA House District:109"
-  ],
-  "PA House District:109": [
-    "School District:Columbia - Millville Area",
-    "School District:Columbia - Southern Columbia Area",
-    "School District:Columbia - Berwick Area",
-    "School District:Columbia - Bloomsburg Area",
-    "School District:Columbia - Central Columbia",
-    "School District:Columbia - Benton Area"
-  ],
-  "School District:Northumberland - Milton Area": [
-    "PA House District:108"
   ],
   "School District:Potter - Galeton Area": [
     "PA House District:67",
     "PA House District:68"
   ],
-  "PA House District:67": [
+  "PA House District:68": [
     "School District:Potter - Galeton Area",
-    "School District:Mckean - Port Allegany",
-    "School District:Potter - Northern Potter",
-    "School District:Mckean - Smethport Area",
-    "School District:Cameron - Cameron County",
-    "School District:Potter - Austin Area",
-    "School District:Mckean - Bradford Area",
-    "School District:Potter - Coudersport Area",
-    "School District:Mckean - Kane Area"
+    "School District:Tioga - Northern Tioga",
+    "School District:Tioga - Southern Tioga",
+    "School District:Bradford - Troy Area",
+    "School District:Tioga - Wellsboro Area"
   ],
-  "School District:Greene - Jefferson-Morgan": [
-    "PA House District:50"
+  "School District:Delaware - Garnet Valley": [
+    "PA House District:160"
   ],
-  "PA House District:50": [
-    "School District:Greene - Jefferson-Morgan",
-    "School District:Greene - Southeastern Greene",
-    "School District:Greene - West Greene",
-    "School District:Fayette - Brownsville Area",
-    "School District:Greene - Carmichaels Area",
-    "School District:Greene - Central Greene"
+  "School District:Allegheny - Gateway": [
+    "PA House District:25"
   ],
-  "School District:Schuylkill - Minersville Area": [
-    "PA House District:123"
+  "School District:Erie - General McLane": [
+    "PA House District:3"
   ],
-  "School District:Allegheny - Keystone Oaks": [
-    "PA House District:27",
-    "PA House District:42"
+  "PA House District:3": [
+    "School District:Erie - General McLane",
+    "School District:Erie - Millcreek Township"
   ],
-  "PA House District:42": [
-    "School District:Allegheny - Keystone Oaks",
-    "School District:Allegheny - Mt Lebanon"
+  "School District:Adams - Gettysburg Area": [
+    "PA House District:91"
   ],
-  "School District:Westmoreland - Kiski Area": [
-    "PA House District:54",
-    "PA House District:55"
+  "School District:Erie - Girard": [
+    "PA House District:17"
   ],
-  "PA House District:54": [
-    "School District:Westmoreland - Kiski Area",
-    "School District:Allegheny - Highlands",
-    "School District:Westmoreland - Burrell",
-    "School District:Allegheny - Deer Lakes",
-    "School District:Westmoreland - Franklin Regional"
-  ],
-  "PA House District:55": [
-    "School District:Westmoreland - Kiski Area",
-    "School District:Westmoreland - Greater Latrobe",
-    "School District:Indiana - Blairsville-Saltsburg",
-    "School District:Westmoreland - Derry Area"
-  ],
-  "School District:Berks - Kutztown Area": [
-    "PA House District:124",
-    "PA House District:187"
-  ],
-  "PA House District:124": [
-    "School District:Berks - Kutztown Area",
-    "School District:Berks - Hamburg Area",
-    "School District:Luzerne - Hazleton Area",
-    "School District:Schuylkill - Tamaqua Area",
-    "School District:Schuylkill - Blue Mountain"
-  ],
-  "School District:Wyoming - Lackawanna Trail": [
-    "PA House District:117"
+  "School District:Clearfield - Glendale": [
+    "PA House District:72"
   ],
   "School District:Berks - Governor Mifflin": [
     "PA House District:128"
   ],
-  "PA House District:128": [
-    "School District:Berks - Governor Mifflin",
-    "School District:Berks - Twin Valley",
-    "School District:Lancaster - Eastern Lancaster County"
-  ],
   "School District:Chester - Great Valley": [
     "PA House District:167"
-  ],
-  "School District:Schuylkill - Mahanoy Area": [
-    "PA House District:123"
-  ],
-  "School District:Lancaster - Manheim Central": [
-    "PA House District:37"
-  ],
-  "PA House District:37": [
-    "School District:Lancaster - Manheim Central",
-    "School District:Lancaster - Warwick",
-    "School District:Lancaster - Cocalico",
-    "School District:Lancaster - Elizabethtown Area",
-    "School District:Lancaster - Ephrata Area"
   ],
   "School District:Cambria - Greater Johnstown": [
     "PA House District:71"
   ],
-  "PA House District:71": [
-    "School District:Cambria - Greater Johnstown",
-    "School District:Cambria - Richland",
-    "School District:Cambria - Forest Hills",
-    "School District:Cambria - Conemaugh Valley"
-  ],
   "School District:Westmoreland - Greater Latrobe": [
-    "PA House District:59",
-    "PA House District:55"
-  ],
-  "School District:Lancaster - Manheim Township": [
-    "PA House District:97"
-  ],
-  "PA House District:97": [
-    "School District:Lancaster - Manheim Township",
-    "School District:Lancaster - Warwick"
-  ],
-  "School District:Indiana - Marion Center Area": [
-    "PA House District:62",
-    "PA House District:66"
+    "PA House District:55",
+    "PA House District:59"
   ],
   "School District:Luzerne - Greater Nanticoke Area": [
-    "PA House District:119",
-    "PA House District:116"
-  ],
-  "PA House District:119": [
-    "School District:Luzerne - Greater Nanticoke Area",
-    "School District:Luzerne - Hazleton Area",
-    "School District:Luzerne - Crestwood"
+    "PA House District:116",
+    "PA House District:119"
   ],
   "School District:Franklin - Greencastle-Antrim": [
     "PA House District:90"
   ],
-  "PA House District:90": [
-    "School District:Franklin - Greencastle-Antrim",
-    "School District:Franklin - Waynesboro Area",
-    "School District:Franklin - Chambersburg Area"
+  "School District:Westmoreland - Greensburg Salem": [
+    "PA House District:57"
   ],
-  "School District:Luzerne - Lake-Lehman": [
-    "PA House District:117",
-    "PA House District:120"
-  ],
-  "PA House District:120": [
-    "School District:Luzerne - Lake-Lehman",
-    "School District:Luzerne - Wyoming Area",
-    "School District:Luzerne - Wyoming Valley West",
-    "School District:Luzerne - Dallas"
-  ],
-  "School District:Chester - Kennett Consolidated": [
-    "PA House District:158",
-    "PA House District:160"
-  ],
-  "PA House District:158": [
-    "School District:Chester - Kennett Consolidated",
-    "School District:Chester - Unionville-Chadds Ford",
-    "School District:Chester - West Chester Area",
-    "School District:Chester - Avon Grove",
-    "School District:Chester - Downingtown Area"
-  ],
-  "PA House District:160": [
-    "School District:Chester - Kennett Consolidated",
-    "School District:Chester - Unionville-Chadds Ford",
-    "School District:Delaware - Chichester",
-    "School District:Delaware - Garnet Valley"
-  ],
-  "School District:Lackawanna - Lakeland": [
-    "PA House District:114"
-  ],
-  "School District:Mercer - Lakeview": [
-    "PA House District:8"
-  ],
-  "School District:Susquehanna - Montrose Area": [
-    "PA House District:111"
-  ],
-  "School District:Allegheny - Moon Area": [
-    "PA House District:44"
+  "PA House District:57": [
+    "School District:Westmoreland - Greensburg Salem",
+    "School District:Westmoreland - Hempfield Area"
   ],
   "School District:Perry - Greenwood": [
     "PA House District:86"
+  ],
+  "PA House District:86": [
+    "School District:Perry - Greenwood",
+    "School District:Perry - Newport",
+    "School District:Cumberland - Shippensburg Area",
+    "School District:Perry - Susquenita",
+    "School District:Perry - West Perry"
+  ],
+  "School District:Mercer - Grove City Area": [
+    "PA House District:8"
   ],
   "School District:Dauphin - Halifax Area": [
     "PA House District:104"
@@ -1108,119 +1359,21 @@
   "School District:Allegheny - Hampton Township": [
     "PA House District:30"
   ],
-  "School District:Beaver - Freedom Area": [
-    "PA House District:14"
+  "School District:Luzerne - Hanover Area": [
+    "PA House District:121"
   ],
-  "PA House District:14": [
-    "School District:Beaver - Freedom Area",
-    "School District:Butler - Seneca Valley",
-    "School District:Beaver - Western Beaver County",
-    "School District:Beaver - South Side Area",
-    "School District:Beaver - Big Beaver Falls Area",
-    "School District:Beaver - Blackhawk"
+  "School District:Erie - Harbor Creek": [
+    "PA House District:4"
   ],
-  "School District:Montgomery - Lower Merion": [
-    "PA House District:148",
-    "PA House District:149",
-    "PA House District:194"
+  "School District:Clearfield - Harmony Area": [
+    "PA House District:73"
   ],
-  "PA House District:148": [
-    "School District:Montgomery - Lower Merion",
-    "School District:Montgomery - Colonial"
+  "School District:Dauphin - Harrisburg City": [
+    "PA House District:103"
   ],
-  "PA House District:149": [
-    "School District:Montgomery - Lower Merion",
-    "School District:Montgomery - Upper Merion Area"
-  ],
-  "School District:Montgomery - Lower Moreland Township": [
-    "PA House District:152"
-  ],
-  "PA House District:152": [
-    "School District:Montgomery - Lower Moreland Township",
-    "School District:Montgomery - Upper Moreland Township",
-    "School District:Montgomery - Upper Dublin",
-    "School District:Montgomery - Bryn Athyn"
-  ],
-  "School District:Allegheny - Highlands": [
-    "PA House District:54",
-    "PA House District:33"
-  ],
-  "PA House District:33": [
-    "School District:Allegheny - Highlands",
-    "School District:Westmoreland - New Kensington-Arnold",
-    "School District:Allegheny - Allegheny Valley",
-    "School District:Allegheny - Deer Lakes",
-    "School District:Allegheny - Fox Chapel Area"
-  ],
-  "School District:Blair - Hollidaysburg Area": [
-    "PA House District:80",
-    "PA House District:79"
-  ],
-  "PA House District:80": [
-    "School District:Blair - Hollidaysburg Area",
-    "School District:Blair - Spring Cove",
-    "School District:Blair - Williamsburg Community",
-    "School District:Blair - Tyrone Area",
-    "School District:Blair - Bellwood-Antis",
-    "School District:Blair - Claysburg-Kimmel"
-  ],
-  "PA House District:79": [
-    "School District:Blair - Hollidaysburg Area",
-    "School District:Blair - Altoona Area"
-  ],
-  "School District:Indiana - Homer-Center": [
-    "PA House District:62"
-  ],
-  "School District:Beaver - Hopewell Area": [
-    "PA House District:16",
-    "PA House District:15"
-  ],
-  "PA House District:16": [
-    "School District:Beaver - Hopewell Area",
-    "School District:Beaver - Aliquippa",
-    "School District:Beaver - Ambridge Area"
-  ],
-  "School District:Huntingdon - Huntingdon Area": [
-    "PA House District:81"
-  ],
-  "School District:Indiana - Indiana Area": [
-    "PA House District:62"
-  ],
-  "School District:Lycoming - Loyalsock Township": [
-    "PA House District:83"
-  ],
-  "PA House District:83": [
-    "School District:Lycoming - Loyalsock Township",
-    "School District:Lycoming - Montgomery Area",
-    "School District:Lycoming - South Williamsport Area",
-    "School District:Lycoming - Williamsport Area"
-  ],
-  "School District:Chester - Owen J Roberts": [
-    "PA House District:155",
-    "PA House District:26"
-  ],
-  "PA House District:26": [
-    "School District:Chester - Owen J Roberts",
-    "School District:Berks - Twin Valley",
-    "School District:Chester - Coatesville Area"
-  ],
-  "School District:Chester - Oxford Area": [
-    "PA House District:13"
-  ],
-  "School District:Bucks - Palisades": [
-    "PA House District:143",
-    "PA House District:145"
-  ],
-  "School District:Westmoreland - Greensburg Salem": [
-    "PA House District:57"
-  ],
-  "PA House District:57": [
-    "School District:Westmoreland - Greensburg Salem",
-    "School District:Westmoreland - Hempfield Area"
-  ],
-  "School District:Lawrence - Mohawk Area": [
-    "PA House District:9",
-    "PA House District:10"
+  "PA House District:103": [
+    "School District:Dauphin - Harrisburg City",
+    "School District:Dauphin - Steelton-Highspire"
   ],
   "School District:Montgomery - Hatboro-Horsham": [
     "PA House District:151"
@@ -1230,17 +1383,6 @@
     "School District:Montgomery - North Penn",
     "School District:Montgomery - Upper Dublin"
   ],
-  "School District:Carbon - Palmerton Area": [
-    "PA House District:122"
-  ],
-  "School District:Lebanon - Palmyra Area": [
-    "PA House District:101"
-  ],
-  "PA House District:101": [
-    "School District:Lebanon - Palmyra Area",
-    "School District:Lebanon - Annville-Cleona",
-    "School District:Lebanon - Cornwall-Lebanon"
-  ],
   "School District:Delaware - Haverford Township": [
     "PA House District:163",
     "PA House District:166"
@@ -1249,30 +1391,65 @@
     "School District:Delaware - Haverford Township",
     "School District:Delaware - Upper Darby"
   ],
-  "School District:Luzerne - Hazleton Area": [
-    "PA House District:119",
-    "PA House District:116",
-    "PA House District:124"
+  "PA House District:166": [
+    "School District:Delaware - Haverford Township",
+    "School District:Delaware - Radnor Township"
   ],
-  "School District:Lancaster - Hempfield": [
-    "PA House District:41",
-    "PA House District:98"
+  "School District:Luzerne - Hazleton Area": [
+    "PA House District:116",
+    "PA House District:119",
+    "PA House District:124"
   ],
   "School District:Westmoreland - Hempfield Area": [
     "PA House District:57",
     "PA House District:58"
   ],
-  "PA House District:58": [
-    "School District:Westmoreland - Hempfield Area",
-    "School District:Westmoreland - Southmoreland",
-    "School District:Westmoreland - Yough",
-    "School District:Westmoreland - Belle Vernon Area"
+  "School District:Lancaster - Hempfield": [
+    "PA House District:41",
+    "PA House District:98"
+  ],
+  "PA House District:41": [
+    "School District:Lancaster - Hempfield",
+    "School District:Lancaster - Penn Manor"
   ],
   "School District:Mercer - Hermitage": [
     "PA House District:7"
   ],
-  "School District:Carbon - Panther Valley": [
-    "PA House District:122"
+  "PA House District:7": [
+    "School District:Mercer - Hermitage",
+    "School District:Mercer - Reynolds",
+    "School District:Mercer - Sharpsville Area",
+    "School District:Mercer - West Middlesex Area"
+  ],
+  "School District:Allegheny - Highlands": [
+    "PA House District:33",
+    "PA House District:54"
+  ],
+  "School District:Blair - Hollidaysburg Area": [
+    "PA House District:79",
+    "PA House District:80"
+  ],
+  "School District:Indiana - Homer-Center": [
+    "PA House District:62"
+  ],
+  "School District:Beaver - Hopewell Area": [
+    "PA House District:15",
+    "PA House District:16"
+  ],
+  "School District:Huntingdon - Huntingdon Area": [
+    "PA House District:81"
+  ],
+  "PA House District:81": [
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Huntingdon - Juniata Valley",
+    "School District:Huntingdon - Mount Union Area",
+    "School District:Huntingdon - Southern Huntingdon County",
+    "School District:Centre - State College Area",
+    "School District:Bedford - Tussey Mountain",
+    "School District:Blair - Tyrone Area"
+  ],
+  "School District:Indiana - Indiana Area": [
+    "PA House District:62"
   ],
   "School District:Delaware - Interboro": [
     "PA House District:162"
@@ -1285,139 +1462,219 @@
   "School District:Erie - Iroquois": [
     "PA House District:1"
   ],
-  "PA House District:1": [
-    "School District:Erie - Iroquois",
-    "School District:Erie - Erie City"
-  ],
   "School District:Mercer - Jamestown Area": [
     "PA House District:17"
   ],
-  "PA House District:17": [
-    "School District:Mercer - Jamestown Area",
-    "School District:Mercer - Mercer Area",
-    "School District:Erie - Northwestern",
-    "School District:Crawford - Conneaut",
-    "School District:Erie - Girard"
+  "School District:Greene - Jefferson-Morgan": [
+    "PA House District:50"
   ],
-  "School District:Butler - Mars Area": [
-    "PA House District:12"
+  "School District:Lycoming - Jersey Shore Area": [
+    "PA House District:84"
   ],
-  "School District:Washington - Mcguffey": [
-    "PA House District:15"
+  "School District:Carbon - Jim Thorpe Area": [
+    "PA House District:122"
   ],
-  "School District:Allegheny - Mt Lebanon": [
+  "PA House District:122": [
+    "School District:Carbon - Jim Thorpe Area",
+    "School District:Carbon - Lehighton Area",
+    "School District:Carbon - Palmerton Area",
+    "School District:Carbon - Panther Valley",
+    "School District:Carbon - Weatherly Area"
+  ],
+  "School District:Elk - Johnsonburg Area": [
+    "PA House District:75"
+  ],
+  "School District:Juniata - Juniata County": [
+    "PA House District:82"
+  ],
+  "School District:Huntingdon - Juniata Valley": [
+    "PA House District:81"
+  ],
+  "School District:Mckean - Kane Area": [
+    "PA House District:67",
+    "PA House District:75"
+  ],
+  "School District:Butler - Karns City Area": [
+    "PA House District:11"
+  ],
+  "School District:Chester - Kennett Consolidated": [
+    "PA House District:158",
+    "PA House District:160"
+  ],
+  "School District:Clinton - Keystone Central": [
+    "PA House District:76"
+  ],
+  "School District:Allegheny - Keystone Oaks": [
+    "PA House District:27",
     "PA House District:42"
   ],
-  "School District:Westmoreland - Mount Pleasant Area": [
-    "PA House District:59"
+  "PA House District:42": [
+    "School District:Allegheny - Keystone Oaks",
+    "School District:Allegheny - Mt Lebanon"
   ],
-  "School District:Berks - Muhlenberg": [
-    "PA House District:126"
+  "School District:Clarion - Keystone": [
+    "PA House District:63"
   ],
-  "PA House District:126": [
-    "School District:Berks - Muhlenberg",
-    "School District:Berks - Reading",
-    "School District:Berks - Antietam"
+  "School District:Westmoreland - Kiski Area": [
+    "PA House District:54",
+    "PA House District:55"
   ],
-  "School District:Mifflin - Mifflin County": [
-    "PA House District:82",
-    "PA House District:171"
+  "School District:Berks - Kutztown Area": [
+    "PA House District:124",
+    "PA House District:187"
   ],
-  "School District:Union - Mifflinburg Area": [
-    "PA House District:85"
+  "PA House District:187": [
+    "School District:Berks - Kutztown Area",
+    "School District:Lehigh - Northwestern Lehigh",
+    "School District:Lehigh - Parkland"
   ],
-  "School District:Erie - Millcreek Township": [
-    "PA House District:3",
-    "PA House District:2"
+  "School District:Wyoming - Lackawanna Trail": [
+    "PA House District:117"
   ],
-  "PA House District:3": [
-    "School District:Erie - Millcreek Township",
-    "School District:Erie - General McLane"
+  "PA House District:117": [
+    "School District:Wyoming - Lackawanna Trail",
+    "School District:Luzerne - Lake-Lehman",
+    "School District:Luzerne - Northwest Area",
+    "School District:Wyoming - Tunkhannock Area"
   ],
-  "PA House District:2": [
-    "School District:Erie - Millcreek Township",
-    "School District:Erie - Erie City",
-    "School District:Erie - Fort Leboeuf"
+  "School District:Luzerne - Lake-Lehman": [
+    "PA House District:117",
+    "PA House District:120"
   ],
-  "School District:Northampton - Nazareth Area": [
-    "PA House District:137",
-    "PA House District:138"
+  "School District:Lackawanna - Lakeland": [
+    "PA House District:114"
   ],
-  "PA House District:137": [
-    "School District:Northampton - Nazareth Area",
-    "School District:Northampton - Easton Area",
-    "School District:Northampton - Bangor Area"
-  ],
-  "School District:Bucks - Neshaminy": [
-    "PA House District:142",
-    "PA House District:141"
-  ],
-  "PA House District:142": [
-    "School District:Bucks - Neshaminy",
-    "School District:Bucks - Centennial"
-  ],
-  "PA House District:141": [
-    "School District:Bucks - Neshaminy",
-    "School District:Bucks - Bristol Township"
-  ],
-  "School District:Bedford - Northern Bedford": [
-    "PA House District:78"
-  ],
-  "PA House District:78": [
-    "School District:Bedford - Northern Bedford",
-    "School District:Fulton - Southern Fulton",
-    "School District:Franklin - Tuscarora",
-    "School District:Bedford - Tussey Mountain",
-    "School District:Fulton - Forbes Road",
-    "School District:Bedford - Bedford Area",
-    "School District:Fulton - Central Fulton",
-    "School District:Bedford - Everett Area"
-  ],
-  "School District:Cambria - Northern Cambria": [
-    "PA House District:73"
-  ],
-  "School District:Lawrence - Neshannock Township": [
-    "PA House District:9"
-  ],
-  "School District:Butler - Moniteau": [
-    "PA House District:64",
+  "School District:Mercer - Lakeview": [
     "PA House District:8"
   ],
-  "School District:Northampton - Northampton Area": [
-    "PA House District:138",
-    "PA House District:183"
+  "School District:Lancaster - Lampeter-Strasburg": [
+    "PA House District:43"
   ],
-  "School District:Bradford - Northeast Bradford": [
-    "PA House District:110"
+  "School District:Lancaster - Lancaster": [
+    "PA House District:96"
   ],
-  "School District:Westmoreland - New Kensington-Arnold": [
-    "PA House District:33"
+  "PA House District:96": [
+    "School District:Lancaster - Lancaster"
+  ],
+  "School District:Fayette - Laurel Highlands": [
+    "PA House District:52"
+  ],
+  "School District:Lawrence - Laurel": [
+    "PA House District:9",
+    "PA House District:10"
+  ],
+  "PA House District:9": [
+    "School District:Lawrence - Laurel",
+    "School District:Lawrence - Mohawk Area",
+    "School District:Lawrence - Neshannock Township",
+    "School District:Lawrence - Shenango Area",
+    "School District:Lawrence - Union Area",
+    "School District:Lawrence - Wilmington Area"
+  ],
+  "School District:Carbon - Lehighton Area": [
+    "PA House District:122"
+  ],
+  "School District:Union - Lewisburg Area": [
+    "PA House District:85"
+  ],
+  "PA House District:85": [
+    "School District:Union - Lewisburg Area",
+    "School District:Snyder - Midd-West",
+    "School District:Union - Mifflinburg Area",
+    "School District:Snyder - Selinsgrove Area"
+  ],
+  "School District:Westmoreland - Ligonier Valley": [
+    "PA House District:59"
+  ],
+  "School District:Northumberland - Line Mountain": [
+    "PA House District:107",
+    "PA House District:108"
+  ],
+  "School District:Adams - Littlestown Area": [
+    "PA House District:91"
+  ],
+  "School District:Dauphin - Lower Dauphin": [
+    "PA House District:98",
+    "PA House District:104",
+    "PA House District:105",
+    "PA House District:106"
+  ],
+  "School District:Montgomery - Lower Merion": [
+    "PA House District:148",
+    "PA House District:149",
+    "PA House District:194"
+  ],
+  "PA House District:149": [
+    "School District:Montgomery - Lower Merion",
+    "School District:Montgomery - Upper Merion Area"
+  ],
+  "PA House District:194": [
+    "School District:Montgomery - Lower Merion",
+    "School District:Philadelphia - Philadelphia City"
+  ],
+  "School District:Montgomery - Lower Moreland Township": [
+    "PA House District:152"
+  ],
+  "School District:Lycoming - Loyalsock Township": [
+    "PA House District:83"
+  ],
+  "PA House District:83": [
+    "School District:Lycoming - Loyalsock Township",
+    "School District:Lycoming - Montgomery Area",
+    "School District:Lycoming - South Williamsport Area",
+    "School District:Lycoming - Williamsport Area"
+  ],
+  "School District:Schuylkill - Mahanoy Area": [
+    "PA House District:123"
+  ],
+  "PA House District:123": [
+    "School District:Schuylkill - Mahanoy Area",
+    "School District:Schuylkill - Minersville Area",
+    "School District:Schuylkill - North Schuylkill",
+    "School District:Schuylkill - Shenandoah Valley",
+    "School District:Schuylkill - Saint Clair Area"
+  ],
+  "School District:Lancaster - Manheim Central": [
+    "PA House District:37"
+  ],
+  "School District:Lancaster - Manheim Township": [
+    "PA House District:97"
+  ],
+  "PA House District:97": [
+    "School District:Lancaster - Manheim Township",
+    "School District:Lancaster - Warwick"
+  ],
+  "School District:Indiana - Marion Center Area": [
+    "PA House District:62",
+    "PA House District:66"
   ],
   "School District:Delaware - Marple Newtown": [
     "PA House District:165",
     "PA House District:168"
   ],
-  "School District:York - Northeastern York": [
-    "PA House District:47"
+  "PA House District:165": [
+    "School District:Delaware - Marple Newtown",
+    "School District:Delaware - Radnor Township",
+    "School District:Delaware - Springfield"
   ],
-  "PA House District:47": [
-    "School District:York - Northeastern York",
-    "School District:York - Eastern York",
-    "School District:York - Central York"
+  "PA House District:168": [
+    "School District:Delaware - Marple Newtown",
+    "School District:Delaware - Rose Tree Media",
+    "School District:Chester - West Chester Area"
   ],
-  "School District:Cambria - Portage Area": [
-    "PA House District:72"
+  "School District:Butler - Mars Area": [
+    "PA House District:12"
+  ],
+  "PA House District:12": [
+    "School District:Butler - Mars Area",
+    "School District:Butler - Seneca Valley",
+    "School District:Butler - South Butler County"
+  ],
+  "School District:Washington - Mcguffey": [
+    "PA House District:15"
   ],
   "School District:Allegheny - McKeesport Area": [
     "PA House District:35"
-  ],
-  "PA House District:35": [
-    "School District:Allegheny - McKeesport Area",
-    "School District:Allegheny - Steel Valley",
-    "School District:Allegheny - West Mifflin Area",
-    "School District:Allegheny - South Allegheny",
-    "School District:Allegheny - Duquesne City",
-    "School District:Allegheny - Clairton City"
   ],
   "School District:Cumberland - Mechanicsburg Area": [
     "PA House District:88"
@@ -1427,8 +1684,8 @@
     "School District:York - West Shore"
   ],
   "School District:Mercer - Mercer Area": [
-    "PA House District:17",
-    "PA House District:8"
+    "PA House District:8",
+    "PA House District:17"
   ],
   "School District:Montgomery - Methacton": [
     "PA House District:70",
@@ -1437,6 +1694,12 @@
   "PA House District:70": [
     "School District:Montgomery - Methacton",
     "School District:Montgomery - Norristown Area"
+  ],
+  "PA House District:150": [
+    "School District:Montgomery - Methacton",
+    "School District:Montgomery - Norristown Area",
+    "School District:Montgomery - Perkiomen Valley",
+    "School District:Montgomery - Spring-Ford Area"
   ],
   "School District:Somerset - Meyersdale Area": [
     "PA House District:51",
@@ -1451,6 +1714,90 @@
   "School District:Dauphin - Middletown Area": [
     "PA House District:106"
   ],
+  "School District:Mifflin - Mifflin County": [
+    "PA House District:82",
+    "PA House District:171"
+  ],
+  "School District:Union - Mifflinburg Area": [
+    "PA House District:85"
+  ],
+  "School District:Erie - Millcreek Township": [
+    "PA House District:2",
+    "PA House District:3"
+  ],
+  "School District:Dauphin - Millersburg Area": [
+    "PA House District:104"
+  ],
+  "School District:Columbia - Millville Area": [
+    "PA House District:109"
+  ],
+  "School District:Northumberland - Milton Area": [
+    "PA House District:108"
+  ],
+  "School District:Schuylkill - Minersville Area": [
+    "PA House District:123"
+  ],
+  "School District:Lawrence - Mohawk Area": [
+    "PA House District:9",
+    "PA House District:10"
+  ],
+  "School District:Butler - Moniteau": [
+    "PA House District:8",
+    "PA House District:64"
+  ],
+  "School District:Lycoming - Montgomery Area": [
+    "PA House District:83"
+  ],
+  "School District:Allegheny - Montour": [
+    "PA House District:45"
+  ],
+  "School District:Lycoming - Montoursville Area": [
+    "PA House District:84"
+  ],
+  "School District:Susquehanna - Montrose Area": [
+    "PA House District:111"
+  ],
+  "School District:Allegheny - Moon Area": [
+    "PA House District:44"
+  ],
+  "School District:Clearfield - Moshannon Valley": [
+    "PA House District:73"
+  ],
+  "School District:Susquehanna - Mountain View": [
+    "PA House District:111"
+  ],
+  "School District:Northumberland - Mount Carmel Area": [
+    "PA House District:107"
+  ],
+  "School District:Allegheny - Mt Lebanon": [
+    "PA House District:42"
+  ],
+  "School District:Westmoreland - Mount Pleasant Area": [
+    "PA House District:59"
+  ],
+  "School District:Huntingdon - Mount Union Area": [
+    "PA House District:81"
+  ],
+  "School District:Berks - Muhlenberg": [
+    "PA House District:126"
+  ],
+  "School District:Northampton - Nazareth Area": [
+    "PA House District:137",
+    "PA House District:138"
+  ],
+  "School District:Bucks - Neshaminy": [
+    "PA House District:141",
+    "PA House District:142"
+  ],
+  "School District:Lawrence - Neshannock Township": [
+    "PA House District:9"
+  ],
+  "School District:Bucks - New Hope-Solebury": [
+    "PA House District:178"
+  ],
+  "School District:Westmoreland - New Kensington-Arnold": [
+    "PA House District:33"
+  ],
   "School District:Perry - Newport": [
     "PA House District:86"
   ],
@@ -1460,6 +1807,29 @@
   ],
   "School District:Allegheny - North Allegheny": [
     "PA House District:28"
+  ],
+  "PA House District:28": [
+    "School District:Allegheny - North Allegheny",
+    "School District:Allegheny - Pine-Richland"
+  ],
+  "School District:Clarion - North Clarion County": [
+    "PA House District:63"
+  ],
+  "School District:Erie - North East": [
+    "PA House District:4"
+  ],
+  "School District:Allegheny - North Hills": [
+    "PA House District:20",
+    "PA House District:21"
+  ],
+  "PA House District:20": [
+    "School District:Allegheny - North Hills",
+    "School District:Allegheny - Northgate",
+    "School District:Allegheny - Pittsburgh"
+  ],
+  "PA House District:21": [
+    "School District:Allegheny - North Hills",
+    "School District:Allegheny - Shaler Area"
   ],
   "School District:Montgomery - North Penn": [
     "PA House District:53",
@@ -1477,83 +1847,309 @@
   "School District:Lackawanna - North Pocono": [
     "PA House District:118"
   ],
+  "PA House District:118": [
+    "School District:Lackawanna - North Pocono",
+    "School District:Luzerne - Pittston Area",
+    "School District:Luzerne - Wilkes-Barre Area"
+  ],
   "School District:Schuylkill - North Schuylkill": [
     "PA House District:123"
   ],
   "School District:Somerset - North Star": [
     "PA House District:59"
   ],
+  "School District:Northampton - Northampton Area": [
+    "PA House District:138",
+    "PA House District:183"
+  ],
+  "PA House District:183": [
+    "School District:Northampton - Northampton Area",
+    "School District:Lehigh - Northern Lehigh",
+    "School District:Lehigh - Parkland",
+    "School District:Lehigh - Whitehall-Coplay"
+  ],
+  "School District:Bradford - Northeast Bradford": [
+    "PA House District:110"
+  ],
+  "School District:York - Northeastern York": [
+    "PA House District:47"
+  ],
+  "School District:Bedford - Northern Bedford": [
+    "PA House District:78"
+  ],
+  "School District:Cambria - Northern Cambria": [
+    "PA House District:73"
+  ],
+  "School District:Lebanon - Northern Lebanon": [
+    "PA House District:102",
+    "PA House District:104"
+  ],
+  "School District:Lehigh - Northern Lehigh": [
+    "PA House District:183"
+  ],
+  "School District:Potter - Northern Potter": [
+    "PA House District:67"
+  ],
+  "School District:Tioga - Northern Tioga": [
+    "PA House District:68"
+  ],
+  "School District:York - Northern York County": [
+    "PA House District:92"
+  ],
+  "School District:Allegheny - Northgate": [
+    "PA House District:20"
+  ],
+  "School District:Luzerne - Northwest Area": [
+    "PA House District:116",
+    "PA House District:117"
+  ],
+  "School District:Lehigh - Northwestern Lehigh": [
+    "PA House District:187"
+  ],
+  "School District:Erie - Northwestern": [
+    "PA House District:6",
+    "PA House District:17"
+  ],
+  "School District:Westmoreland - Norwin": [
+    "PA House District:56"
+  ],
+  "PA House District:56": [
+    "School District:Westmoreland - Norwin",
+    "School District:Westmoreland - Penn-Trafford"
+  ],
+  "School District:Chester - Octorara Area": [
+    "PA House District:13"
+  ],
+  "School District:Venango - Oil City Area": [
+    "PA House District:64"
+  ],
   "School District:Berks - Oley Valley": [
     "PA House District:5",
     "PA House District:130"
   ],
-  "PA House District:130": [
-    "School District:Berks - Oley Valley",
-    "School District:Berks - Brandywine Heights Area",
-    "School District:Berks - Boyertown Area",
-    "School District:Berks - Exeter Township",
-    "School District:Berks - Daniel Boone Area"
+  "School District:Chester - Owen J Roberts": [
+    "PA House District:26",
+    "PA House District:155"
   ],
-  "School District:Allegheny - North Hills": [
-    "PA House District:21",
-    "PA House District:20"
+  "School District:Chester - Oxford Area": [
+    "PA House District:13"
   ],
-  "PA House District:21": [
-    "School District:Allegheny - North Hills",
-    "School District:Allegheny - Shaler Area"
+  "School District:Bucks - Palisades": [
+    "PA House District:143",
+    "PA House District:145"
   ],
-  "School District:Clarion - North Clarion County": [
-    "PA House District:63"
+  "PA House District:145": [
+    "School District:Bucks - Palisades",
+    "School District:Bucks - Pennridge",
+    "School District:Bucks - Quakertown Community"
   ],
-  "School District:Erie - North East": [
-    "PA House District:4"
+  "School District:Carbon - Palmerton Area": [
+    "PA House District:122"
   ],
-  "PA House District:4": [
-    "School District:Erie - North East",
-    "School District:Erie - Harbor Creek",
-    "School District:Erie - Union City Area",
-    "School District:Erie - Wattsburg Area",
-    "School District:Erie - Corry Area",
-    "School District:Erie - Fort Leboeuf"
+  "School District:Lebanon - Palmyra Area": [
+    "PA House District:101"
   ],
-  "School District:Lawrence - Shenango Area": [
-    "PA House District:9"
+  "School District:Carbon - Panther Valley": [
+    "PA House District:122"
   ],
-  "School District:Clearfield - Moshannon Valley": [
-    "PA House District:73"
+  "School District:Lehigh - Parkland": [
+    "PA House District:183",
+    "PA House District:187"
   ],
-  "School District:Huntingdon - Mount Union Area": [
-    "PA House District:81"
+  "School District:Northampton - Pen Argyl Area": [
+    "PA House District:138"
   ],
-  "School District:Susquehanna - Mountain View": [
-    "PA House District:111"
+  "School District:Cambria - Penn Cambria": [
+    "PA House District:72"
   ],
-  "School District:Lycoming - Montgomery Area": [
-    "PA House District:83"
+  "School District:Allegheny - Penn Hills": [
+    "PA House District:32"
   ],
-  "School District:Allegheny - Montour": [
-    "PA House District:45"
+  "PA House District:32": [
+    "School District:Allegheny - Penn Hills",
+    "School District:Allegheny - Plum Borough"
   ],
-  "PA House District:45": [
-    "School District:Allegheny - Montour",
-    "School District:Allegheny - Sto-Rox",
-    "School District:Allegheny - Avonworth",
-    "School District:Allegheny - Chartiers Valley",
-    "School District:Allegheny - Carlynton",
-    "School District:Allegheny - Cornell"
+  "School District:Lancaster - Penn Manor": [
+    "PA House District:41",
+    "PA House District:100"
   ],
-  "School District:Northumberland - Mount Carmel Area": [
-    "PA House District:107"
+  "PA House District:100": [
+    "School District:Lancaster - Penn Manor",
+    "School District:Lancaster - Pequea Valley",
+    "School District:Lancaster - Solanco"
+  ],
+  "School District:Delaware - Penn-Delco": [
+    "PA House District:161"
+  ],
+  "PA House District:161": [
+    "School District:Delaware - Penn-Delco",
+    "School District:Delaware - Ridley",
+    "School District:Delaware - Wallingford-Swarthmore"
+  ],
+  "School District:Westmoreland - Penn-Trafford": [
+    "PA House District:56"
+  ],
+  "School District:Crawford - Penncrest": [
+    "PA House District:6"
+  ],
+  "School District:Bucks - Pennridge": [
+    "PA House District:143",
+    "PA House District:144",
+    "PA House District:145"
+  ],
+  "School District:Indiana - Penns Manor Area": [
+    "PA House District:62"
+  ],
+  "School District:Centre - Penns Valley Area": [
+    "PA House District:76",
+    "PA House District:171"
+  ],
+  "School District:Bucks - Pennsbury": [
+    "PA House District:31",
+    "PA House District:140"
+  ],
+  "School District:Lancaster - Pequea Valley": [
+    "PA House District:99",
+    "PA House District:100"
+  ],
+  "School District:Montgomery - Perkiomen Valley": [
+    "PA House District:146",
+    "PA House District:147",
+    "PA House District:150"
+  ],
+  "PA House District:146": [
+    "School District:Montgomery - Perkiomen Valley",
+    "School District:Montgomery - Pottsgrove",
+    "School District:Montgomery - Pottstown",
+    "School District:Montgomery - Spring-Ford Area"
+  ],
+  "School District:Washington - Peters Township": [
+    "PA House District:40"
+  ],
+  "School District:Philadelphia - Philadelphia City": [
+    "PA House District:170",
+    "PA House District:173",
+    "PA House District:177",
+    "PA House District:185",
+    "PA House District:194",
+    "PA House District:200"
+  ],
+  "PA House District:170": [
+    "School District:Philadelphia - Philadelphia City"
+  ],
+  "PA House District:173": [
+    "School District:Philadelphia - Philadelphia City"
+  ],
+  "PA House District:177": [
+    "School District:Philadelphia - Philadelphia City"
+  ],
+  "PA House District:185": [
+    "School District:Philadelphia - Philadelphia City",
+    "School District:Delaware - Southeast Delco"
+  ],
+  "PA House District:200": [
+    "School District:Philadelphia - Philadelphia City"
+  ],
+  "School District:Clearfield - Philipsburg-Osceola Area": [
+    "PA House District:73",
+    "PA House District:77"
+  ],
+  "PA House District:77": [
+    "School District:Clearfield - Philipsburg-Osceola Area"
+  ],
+  "School District:Chester - Phoenixville Area": [
+    "PA House District:155",
+    "PA House District:157"
+  ],
+  "PA House District:157": [
+    "School District:Chester - Phoenixville Area",
+    "School District:Montgomery - Spring-Ford Area",
+    "School District:Chester - Tredyffrin-Easttown"
+  ],
+  "School District:Schuylkill - Pine Grove Area": [
+    "PA House District:125"
+  ],
+  "School District:Allegheny - Pine-Richland": [
+    "PA House District:28",
+    "PA House District:30"
+  ],
+  "School District:Allegheny - Pittsburgh": [
+    "PA House District:19",
+    "PA House District:20",
+    "PA House District:23",
+    "PA House District:24",
+    "PA House District:27",
+    "PA House District:34",
+    "PA House District:36"
+  ],
+  "PA House District:19": [
+    "School District:Allegheny - Pittsburgh"
+  ],
+  "PA House District:23": [
+    "School District:Allegheny - Pittsburgh"
+  ],
+  "PA House District:24": [
+    "School District:Allegheny - Pittsburgh",
+    "School District:Allegheny - Wilkinsburg Borough"
+  ],
+  "PA House District:34": [
+    "School District:Allegheny - Pittsburgh",
+    "School District:Allegheny - Steel Valley",
+    "School District:Allegheny - Woodland Hills"
+  ],
+  "School District:Luzerne - Pittston Area": [
+    "PA House District:118"
+  ],
+  "School District:Monroe - Pleasant Valley": [
+    "PA House District:176"
+  ],
+  "PA House District:176": [
+    "School District:Monroe - Pleasant Valley",
+    "School District:Monroe - Pocono Mountain"
+  ],
+  "School District:Allegheny - Plum Borough": [
+    "PA House District:25",
+    "PA House District:32"
+  ],
+  "School District:Monroe - Pocono Mountain": [
+    "PA House District:115",
+    "PA House District:176",
+    "PA House District:189"
   ],
   "School District:Mckean - Port Allegany": [
     "PA House District:67"
   ],
-  "School District:Allegheny - Bethel Park": [
-    "PA House District:40"
+  "School District:Cambria - Portage Area": [
+    "PA House District:72"
+  ],
+  "School District:Montgomery - Pottsgrove": [
+    "PA House District:146",
+    "PA House District:147"
+  ],
+  "School District:Montgomery - Pottstown": [
+    "PA House District:146"
+  ],
+  "School District:Jefferson - Punxsutawney Area": [
+    "PA House District:66"
+  ],
+  "School District:Indiana - Purchase Line": [
+    "PA House District:66",
+    "PA House District:73"
+  ],
+  "School District:Allegheny - Quaker Valley": [
+    "PA House District:44"
+  ],
+  "School District:Bucks - Quakertown Community": [
+    "PA House District:143",
+    "PA House District:145"
+  ],
+  "School District:Delaware - Radnor Township": [
+    "PA House District:165",
+    "PA House District:166"
   ],
   "School District:Berks - Reading": [
-    "PA House District:127",
-    "PA House District:126"
+    "PA House District:126",
+    "PA House District:127"
   ],
   "PA House District:127": [
     "School District:Berks - Reading"
@@ -1568,87 +2164,55 @@
   "School District:Mercer - Reynolds": [
     "PA House District:7"
   ],
-  "School District:Berks - Brandywine Heights Area": [
-    "PA House District:134",
-    "PA House District:130"
+  "School District:Cambria - Richland": [
+    "PA House District:71"
   ],
-  "PA House District:134": [
-    "School District:Berks - Brandywine Heights Area",
-    "School District:Montgomery - Upper Perkiomen",
-    "School District:Lehigh - East Penn",
-    "School District:Berks - Fleetwood Area"
+  "School District:Elk - Ridgway Area": [
+    "PA House District:75"
   ],
-  "School District:Montgomery - Pottsgrove": [
-    "PA House District:146",
-    "PA House District:147"
+  "School District:Delaware - Ridley": [
+    "PA House District:159",
+    "PA House District:161",
+    "PA House District:162"
   ],
-  "School District:Potter - Northern Potter": [
-    "PA House District:67"
+  "School District:Washington - Ringgold": [
+    "PA House District:39",
+    "PA House District:49"
   ],
-  "School District:Montgomery - Pottstown": [
-    "PA House District:146"
+  "School District:Beaver - Riverside Beaver County": [
+    "PA House District:10"
+  ],
+  "School District:Lackawanna - Riverside": [
+    "PA House District:114"
+  ],
+  "School District:Somerset - Rockwood Area": [
+    "PA House District:69"
+  ],
+  "School District:Delaware - Rose Tree Media": [
+    "PA House District:168"
+  ],
+  "School District:Lehigh - Salisbury Township": [
+    "PA House District:133"
+  ],
+  "School District:Somerset - Salisbury-Elk Lick": [
+    "PA House District:51"
+  ],
+  "School District:Northampton - Saucon Valley": [
+    "PA House District:131",
+    "PA House District:136"
+  ],
+  "School District:Schuylkill - Schuylkill Haven Area": [
+    "PA House District:125"
+  ],
+  "School District:Berks - Schuylkill Valley": [
+    "PA House District:5"
   ],
   "School District:Lackawanna - Scranton": [
     "PA House District:113"
   ],
-  "PA House District:113": [
-    "School District:Lackawanna - Scranton",
-    "School District:Lackawanna - Abington Heights"
-  ],
   "School District:Snyder - Selinsgrove Area": [
-    "PA House District:108",
-    "PA House District:85"
-  ],
-  "School District:Montgomery - Springfield Township": [
-    "PA House District:154"
-  ],
-  "PA House District:154": [
-    "School District:Montgomery - Springfield Township",
-    "School District:Montgomery - Cheltenham Township"
-  ],
-  "School District:Jefferson - Punxsutawney Area": [
-    "PA House District:66"
-  ],
-  "School District:Westmoreland - Southmoreland": [
-    "PA House District:52",
-    "PA House District:58"
-  ],
-  "School District:Blair - Spring Cove": [
-    "PA House District:80"
-  ],
-  "School District:Montgomery - Spring-Ford Area": [
-    "PA House District:146",
-    "PA House District:157",
-    "PA House District:150"
-  ],
-  "School District:York - Spring Grove Area": [
-    "PA House District:196",
-    "PA House District:169"
-  ],
-  "PA House District:196": [
-    "School District:York - Spring Grove Area",
-    "School District:York - West York Area",
-    "School District:York - Dover Area"
-  ],
-  "PA House District:169": [
-    "School District:York - Spring Grove Area",
-    "School District:York - Southern York County",
-    "School District:York - South Western"
-  ],
-  "School District:Lebanon - Northern Lebanon": [
-    "PA House District:104",
-    "PA House District:102"
-  ],
-  "PA House District:102": [
-    "School District:Lebanon - Northern Lebanon",
-    "School District:Lebanon - Eastern Lebanon County",
-    "School District:Lebanon - Cornwall-Lebanon"
-  ],
-  "School District:Lehigh - Northern Lehigh": [
-    "PA House District:183"
-  ],
-  "School District:Elk - Saint Marys Area": [
-    "PA House District:75"
+    "PA House District:85",
+    "PA House District:108"
   ],
   "School District:Butler - Seneca Valley": [
     "PA House District:12",
@@ -1661,173 +2225,65 @@
     "PA House District:21",
     "PA House District:30"
   ],
-  "School District:Cambria - Richland": [
-    "PA House District:71"
-  ],
-  "School District:Elk - Ridgway Area": [
-    "PA House District:75"
-  ],
-  "School District:Lehigh - Southern Lehigh": [
-    "PA House District:131"
-  ],
-  "School District:Delaware - Ridley": [
-    "PA House District:162",
-    "PA House District:159",
-    "PA House District:161"
-  ],
-  "PA House District:159": [
-    "School District:Delaware - Ridley",
-    "School District:Delaware - Chichester",
-    "School District:Delaware - Chester-Upland"
-  ],
-  "School District:Washington - Ringgold": [
-    "PA House District:49",
-    "PA House District:39"
-  ],
-  "PA House District:49": [
-    "School District:Washington - Ringgold",
-    "School District:Fayette - Uniontown Area",
-    "School District:Washington - California Area",
-    "School District:Washington - Bethlehem-Center",
-    "School District:Washington - Charleroi",
-    "School District:Washington - Bentworth",
-    "School District:Fayette - Frazier"
-  ],
-  "PA House District:39": [
-    "School District:Washington - Ringgold",
-    "School District:Allegheny - West Jefferson Hills",
-    "School District:Allegheny - Elizabeth Forward",
-    "School District:Washington - Bentworth"
-  ],
-  "School District:York - Southern York County": [
-    "PA House District:169"
-  ],
-  "School District:Delaware - Springfield": [
-    "PA House District:165"
-  ],
-  "School District:Tioga - Southern Tioga": [
-    "PA House District:84",
-    "PA House District:68"
-  ],
-  "School District:Centre - State College Area": [
-    "PA House District:81",
-    "PA House District:171"
-  ],
-  "School District:Allegheny - Steel Valley": [
-    "PA House District:35",
-    "PA House District:34"
-  ],
-  "School District:Venango - Titusville Area": [
-    "PA House District:64",
-    "PA House District:65"
-  ],
-  "School District:Perry - West Perry": [
-    "PA House District:86"
-  ],
-  "School District:York - West Shore": [
-    "PA House District:88",
-    "PA House District:92"
-  ],
-  "School District:York - West York Area": [
-    "PA House District:196",
-    "PA House District:95"
-  ],
-  "PA House District:95": [
-    "School District:York - West York Area",
-    "School District:York - York City",
-    "School District:York - York Suburban"
-  ],
-  "School District:Montgomery - Upper Merion Area": [
-    "PA House District:149"
-  ],
-  "School District:Delaware - William Penn": [
-    "PA House District:191",
-    "PA House District:164"
-  ],
-  "PA House District:191": [
-    "School District:Delaware - William Penn"
-  ],
-  "PA House District:164": [
-    "School District:Delaware - William Penn",
-    "School District:Delaware - Upper Darby"
-  ],
-  "School District:Montgomery - Upper Moreland Township": [
-    "PA House District:152"
-  ],
-  "School District:Lawrence - Wilmington Area": [
-    "PA House District:9",
-    "PA House District:10"
-  ],
-  "School District:Berks - Wilson": [
-    "PA House District:129"
-  ],
-  "PA House District:129": [
-    "School District:Berks - Wilson",
-    "School District:Lancaster - Cocalico",
-    "School District:Berks - Conrad Weiser Area"
-  ],
-  "School District:Montgomery - Upper Perkiomen": [
-    "PA House District:134",
-    "PA House District:131",
-    "PA House District:147"
-  ],
-  "School District:Lehigh - Whitehall-Coplay": [
-    "PA House District:133",
-    "PA House District:183"
-  ],
-  "School District:Allegheny - Upper Saint Clair": [
-    "PA House District:40"
-  ],
-  "School District:Luzerne - Wilkes-Barre Area": [
-    "PA House District:118",
-    "PA House District:121"
-  ],
-  "PA House District:121": [
-    "School District:Luzerne - Wilkes-Barre Area",
-    "School District:Luzerne - Hanover Area",
-    "School District:Luzerne - Crestwood"
-  ],
-  "School District:Erie - Northwestern": [
-    "PA House District:6",
-    "PA House District:17"
-  ],
-  "School District:Dauphin - Steelton-Highspire": [
-    "PA House District:103"
-  ],
-  "PA House District:103": [
-    "School District:Dauphin - Steelton-Highspire",
-    "School District:Dauphin - Harrisburg City"
-  ],
-  "School District:Erie - Harbor Creek": [
-    "PA House District:4"
-  ],
-  "School District:Beaver - Western Beaver County": [
-    "PA House District:14"
-  ],
-  "School District:Susquehanna - Susquehanna Community": [
-    "PA House District:111"
-  ],
-  "School District:Wayne - Western Wayne": [
-    "PA House District:139",
-    "PA House District:111"
-  ],
-  "School District:Northumberland - Warrior Run": [
-    "PA House District:108",
+  "School District:Northumberland - Shamokin Area": [
     "PA House District:107"
   ],
-  "School District:Lancaster - Warwick": [
-    "PA House District:37",
-    "PA House District:97"
+  "School District:Somerset - Shanksville-Stonycreek": [
+    "PA House District:69"
+  ],
+  "School District:Mercer - Sharpsville Area": [
+    "PA House District:7"
+  ],
+  "School District:Schuylkill - Shenandoah Valley": [
+    "PA House District:123"
+  ],
+  "School District:Lawrence - Shenango Area": [
+    "PA House District:9"
+  ],
+  "School District:Northumberland - Shikellamy": [
+    "PA House District:108"
+  ],
+  "School District:Cumberland - Shippensburg Area": [
+    "PA House District:86",
+    "PA House District:89"
+  ],
+  "School District:Butler - Slippery Rock Area": [
+    "PA House District:8",
+    "PA House District:10"
+  ],
+  "School District:Mckean - Smethport Area": [
+    "PA House District:67"
+  ],
+  "School District:Lancaster - Solanco": [
+    "PA House District:100"
+  ],
+  "School District:Somerset - Somerset Area": [
+    "PA House District:69"
+  ],
+  "School District:Montgomery - Souderton Area": [
+    "PA House District:53",
+    "PA House District:147"
+  ],
+  "School District:Allegheny - South Allegheny": [
+    "PA House District:35",
+    "PA House District:38"
+  ],
+  "School District:Butler - South Butler County": [
+    "PA House District:11",
+    "PA House District:12"
+  ],
+  "School District:York - South Eastern": [
+    "PA House District:93",
+    "PA House District:94"
+  ],
+  "School District:Allegheny - South Fayette Township": [
+    "PA House District:46"
+  ],
+  "School District:Cumberland - South Middleton": [
+    "PA House District:193"
   ],
   "School District:Allegheny - South Park": [
     "PA House District:38"
-  ],
-  "PA House District:38": [
-    "School District:Allegheny - South Park",
-    "School District:Allegheny - West Jefferson Hills",
-    "School District:Allegheny - West Mifflin Area",
-    "School District:Allegheny - South Allegheny",
-    "School District:Allegheny - Baldwin-Whitehall"
   ],
   "School District:Beaver - South Side Area": [
     "PA House District:14",
@@ -1835,6 +2291,11 @@
   ],
   "School District:York - South Western": [
     "PA House District:169"
+  ],
+  "PA House District:169": [
+    "School District:York - South Western",
+    "School District:York - Southern York County",
+    "School District:York - Spring Grove Area"
   ],
   "School District:Lycoming - South Williamsport Area": [
     "PA House District:83"
@@ -1847,14 +2308,139 @@
     "PA House District:50"
   ],
   "School District:Columbia - Southern Columbia Area": [
-    "PA House District:109",
-    "PA House District:107"
+    "PA House District:107",
+    "PA House District:109"
   ],
   "School District:Fulton - Southern Fulton": [
     "PA House District:78"
   ],
+  "School District:Huntingdon - Southern Huntingdon County": [
+    "PA House District:81"
+  ],
+  "School District:Lehigh - Southern Lehigh": [
+    "PA House District:131"
+  ],
+  "School District:Tioga - Southern Tioga": [
+    "PA House District:68",
+    "PA House District:84"
+  ],
+  "School District:York - Southern York County": [
+    "PA House District:169"
+  ],
+  "School District:Westmoreland - Southmoreland": [
+    "PA House District:52",
+    "PA House District:58"
+  ],
+  "School District:Blair - Spring Cove": [
+    "PA House District:80"
+  ],
+  "School District:York - Spring Grove Area": [
+    "PA House District:169",
+    "PA House District:196"
+  ],
+  "School District:Montgomery - Spring-Ford Area": [
+    "PA House District:146",
+    "PA House District:150",
+    "PA House District:157"
+  ],
+  "School District:Delaware - Springfield": [
+    "PA House District:165"
+  ],
+  "School District:Montgomery - Springfield Township": [
+    "PA House District:154"
+  ],
+  "School District:Schuylkill - Saint Clair Area": [
+    "PA House District:123"
+  ],
+  "School District:Elk - Saint Marys Area": [
+    "PA House District:75"
+  ],
+  "School District:Centre - State College Area": [
+    "PA House District:81",
+    "PA House District:171"
+  ],
+  "School District:Allegheny - Steel Valley": [
+    "PA House District:34",
+    "PA House District:35"
+  ],
+  "School District:Dauphin - Steelton-Highspire": [
+    "PA House District:103"
+  ],
+  "School District:Allegheny - Sto-Rox": [
+    "PA House District:27",
+    "PA House District:45"
+  ],
+  "School District:Monroe - Stroudsburg Area": [
+    "PA House District:115",
+    "PA House District:189"
+  ],
+  "School District:Sullivan - Sullivan County": [
+    "PA House District:110"
+  ],
+  "School District:Susquehanna - Susquehanna Community": [
+    "PA House District:111"
+  ],
+  "School District:Perry - Susquenita": [
+    "PA House District:86"
+  ],
+  "School District:Schuylkill - Tamaqua Area": [
+    "PA House District:124"
+  ],
+  "School District:Venango - Titusville Area": [
+    "PA House District:64",
+    "PA House District:65"
+  ],
+  "School District:Bradford - Towanda Area": [
+    "PA House District:110"
+  ],
+  "School District:Chester - Tredyffrin-Easttown": [
+    "PA House District:157",
+    "PA House District:167"
+  ],
+  "School District:Schuylkill - Tri-Valley": [
+    "PA House District:125"
+  ],
+  "School District:Washington - Trinity Area": [
+    "PA House District:15",
+    "PA House District:46",
+    "PA House District:48"
+  ],
+  "School District:Bradford - Troy Area": [
+    "PA House District:68"
+  ],
+  "School District:Berks - Tulpehocken Area": [
+    "PA House District:5"
+  ],
+  "School District:Wyoming - Tunkhannock Area": [
+    "PA House District:117"
+  ],
+  "School District:Somerset - Turkeyfoot Valley Area": [
+    "PA House District:51"
+  ],
+  "School District:Franklin - Tuscarora": [
+    "PA House District:78",
+    "PA House District:82"
+  ],
+  "School District:Bedford - Tussey Mountain": [
+    "PA House District:78",
+    "PA House District:81"
+  ],
+  "School District:Berks - Twin Valley": [
+    "PA House District:26",
+    "PA House District:128"
+  ],
+  "School District:Blair - Tyrone Area": [
+    "PA House District:80",
+    "PA House District:81"
+  ],
+  "School District:Lawrence - Union Area": [
+    "PA House District:9"
+  ],
   "School District:Erie - Union City Area": [
     "PA House District:4"
+  ],
+  "School District:Clarion - Union": [
+    "PA House District:63"
   ],
   "School District:Fayette - Uniontown Area": [
     "PA House District:49",
@@ -1879,16 +2465,62 @@
     "PA House District:163",
     "PA House District:164"
   ],
+  "PA House District:164": [
+    "School District:Delaware - Upper Darby",
+    "School District:Delaware - William Penn"
+  ],
   "School District:Dauphin - Upper Dauphin Area": [
-    "PA House District:125",
-    "PA House District:104"
+    "PA House District:104",
+    "PA House District:125"
+  ],
+  "School District:Montgomery - Upper Dublin": [
+    "PA House District:151",
+    "PA House District:152",
+    "PA House District:153"
+  ],
+  "School District:Montgomery - Upper Merion Area": [
+    "PA House District:149"
+  ],
+  "School District:Montgomery - Upper Moreland Township": [
+    "PA House District:152"
+  ],
+  "School District:Montgomery - Upper Perkiomen": [
+    "PA House District:131",
+    "PA House District:134",
+    "PA House District:147"
+  ],
+  "School District:Allegheny - Upper Saint Clair": [
+    "PA House District:40"
+  ],
+  "School District:Venango - Valley Grove": [
+    "PA House District:64"
+  ],
+  "School District:Lackawanna - Valley View": [
+    "PA House District:112"
+  ],
+  "School District:Wayne - Wallenpaupack Area": [
+    "PA House District:139"
+  ],
+  "School District:Delaware - Wallingford-Swarthmore": [
+    "PA House District:161"
+  ],
+  "School District:Warren - Warren County": [
+    "PA House District:65"
+  ],
+  "School District:Northumberland - Warrior Run": [
+    "PA House District:107",
+    "PA House District:108"
+  ],
+  "School District:Lancaster - Warwick": [
+    "PA House District:37",
+    "PA House District:97"
   ],
   "School District:Erie - Wattsburg Area": [
     "PA House District:4"
   ],
   "School District:Wayne - Wayne Highlands": [
-    "PA House District:139",
-    "PA House District:111"
+    "PA House District:111",
+    "PA House District:139"
   ],
   "School District:Franklin - Waynesboro Area": [
     "PA House District:90"
@@ -1896,24 +2528,9 @@
   "School District:Carbon - Weatherly Area": [
     "PA House District:122"
   ],
-  "School District:Wyoming - Tunkhannock Area": [
-    "PA House District:117"
-  ],
-  "School District:Somerset - Turkeyfoot Valley Area": [
-    "PA House District:51"
-  ],
-  "School District:Montgomery - Upper Dublin": [
-    "PA House District:151",
-    "PA House District:153",
-    "PA House District:152"
-  ],
-  "PA House District:153": [
-    "School District:Montgomery - Upper Dublin",
-    "School District:Montgomery - Abington"
-  ],
   "School District:Tioga - Wellsboro Area": [
-    "PA House District:84",
-    "PA House District:68"
+    "PA House District:68",
+    "PA House District:84"
   ],
   "School District:Allegheny - West Allegheny": [
     "PA House District:44"
@@ -1922,28 +2539,17 @@
     "PA House District:73"
   ],
   "School District:Chester - West Chester Area": [
-    "PA House District:167",
     "PA House District:156",
     "PA House District:158",
+    "PA House District:167",
     "PA House District:168"
   ],
   "School District:Greene - West Greene": [
     "PA House District:50"
   ],
-  "School District:Franklin - Tuscarora": [
-    "PA House District:78",
-    "PA House District:82"
-  ],
-  "School District:Bedford - Tussey Mountain": [
-    "PA House District:78",
-    "PA House District:81"
-  ],
   "School District:Allegheny - West Jefferson Hills": [
-    "PA House District:39",
-    "PA House District:38"
-  ],
-  "School District:Westmoreland - Yough": [
-    "PA House District:58"
+    "PA House District:38",
+    "PA House District:39"
   ],
   "School District:Mercer - West Middlesex Area": [
     "PA House District:7"
@@ -1952,40 +2558,70 @@
     "PA House District:35",
     "PA House District:38"
   ],
-  "School District:Bucks - New Hope-Solebury": [
-    "PA House District:178"
+  "School District:Perry - West Perry": [
+    "PA House District:86"
   ],
-  "PA House District:178": [
-    "School District:Bucks - New Hope-Solebury",
-    "School District:Bucks - Council Rock"
+  "School District:York - West Shore": [
+    "PA House District:88",
+    "PA House District:92"
+  ],
+  "School District:York - West York Area": [
+    "PA House District:95",
+    "PA House District:196"
+  ],
+  "PA House District:95": [
+    "School District:York - West York Area",
+    "School District:York - York City",
+    "School District:York - York Suburban"
+  ],
+  "School District:Beaver - Western Beaver County": [
+    "PA House District:14"
+  ],
+  "School District:Wayne - Western Wayne": [
+    "PA House District:111",
+    "PA House District:139"
+  ],
+  "School District:Lehigh - Whitehall-Coplay": [
+    "PA House District:133",
+    "PA House District:183"
+  ],
+  "School District:Luzerne - Wilkes-Barre Area": [
+    "PA House District:118",
+    "PA House District:121"
   ],
   "School District:Allegheny - Wilkinsburg Borough": [
     "PA House District:24"
   ],
+  "School District:Delaware - William Penn": [
+    "PA House District:164",
+    "PA House District:191"
+  ],
+  "PA House District:191": [
+    "School District:Delaware - William Penn"
+  ],
   "School District:Schuylkill - Williams Valley": [
-    "PA House District:125",
-    "PA House District:104"
+    "PA House District:104",
+    "PA House District:125"
   ],
   "School District:Blair - Williamsburg Community": [
     "PA House District:80"
   ],
   "School District:Lycoming - Williamsport Area": [
-    "PA House District:84",
-    "PA House District:83"
+    "PA House District:83",
+    "PA House District:84"
   ],
-  "School District:Berks - Twin Valley": [
-    "PA House District:26",
-    "PA House District:128"
+  "School District:Lawrence - Wilmington Area": [
+    "PA House District:9",
+    "PA House District:10"
   ],
-  "School District:Blair - Tyrone Area": [
-    "PA House District:80",
-    "PA House District:81"
+  "School District:Northampton - Wilson Area": [
+    "PA House District:136"
   ],
-  "School District:Clarion - Union": [
-    "PA House District:63"
+  "School District:Berks - Wilson": [
+    "PA House District:129"
   ],
-  "School District:Lawrence - Union Area": [
-    "PA House District:9"
+  "School District:Somerset - Windber Area": [
+    "PA House District:69"
   ],
   "School District:Montgomery - Wissahickon": [
     "PA House District:61"
@@ -2008,643 +2644,7 @@
   "School District:York - York Suburban": [
     "PA House District:95"
   ],
-  "School District:Northampton - Wilson Area": [
-    "PA House District:136"
-  ],
-  "School District:Somerset - Windber Area": [
-    "PA House District:69"
-  ],
-  "School District:Erie - Fairview": [
-    "PA House District:6"
-  ],
-  "School District:Bradford - Troy Area": [
-    "PA House District:68"
-  ],
-  "School District:Allegheny - Sto-Rox": [
-    "PA House District:45",
-    "PA House District:27"
-  ],
-  "School District:Monroe - Stroudsburg Area": [
-    "PA House District:115",
-    "PA House District:189"
-  ],
-  "School District:Sullivan - Sullivan County": [
-    "PA House District:110"
-  ],
-  "School District:Perry - Susquenita": [
-    "PA House District:86"
-  ],
-  "School District:Schuylkill - Tamaqua Area": [
-    "PA House District:124"
-  ],
-  "School District:Butler - Slippery Rock Area": [
-    "PA House District:8",
-    "PA House District:10"
-  ],
-  "School District:Mckean - Smethport Area": [
-    "PA House District:67"
-  ],
-  "School District:Lancaster - Solanco": [
-    "PA House District:100"
-  ],
-  "School District:Somerset - Somerset Area": [
-    "PA House District:69"
-  ],
-  "School District:Cambria - Forest Hills": [
-    "PA House District:72",
-    "PA House District:71"
-  ],
-  "School District:Montgomery - Souderton Area": [
-    "PA House District:53",
-    "PA House District:147"
-  ],
-  "School District:Washington - Fort Cherry": [
-    "PA House District:46"
-  ],
-  "School District:Allegheny - South Allegheny": [
-    "PA House District:35",
-    "PA House District:38"
-  ],
-  "School District:Lehigh - East Penn": [
-    "PA House District:134",
-    "PA House District:131"
-  ],
-  "School District:Schuylkill - Schuylkill Haven Area": [
-    "PA House District:125"
-  ],
-  "School District:Berks - Schuylkill Valley": [
-    "PA House District:5"
-  ],
-  "School District:Fulton - Forbes Road": [
-    "PA House District:78"
-  ],
-  "School District:Forest - Forest Area": [
-    "PA House District:65",
-    "PA House District:63"
-  ],
-  "School District:Berks - Fleetwood Area": [
-    "PA House District:5",
-    "PA House District:134"
-  ],
-  "School District:Clearfield - Dubois Area": [
-    "PA House District:75"
-  ],
-  "School District:Lackawanna - Dunmore": [
-    "PA House District:112"
-  ],
-  "School District:Allegheny - Duquesne City": [
-    "PA House District:35"
-  ],
-  "School District:Allegheny - East Allegheny": [
-    "PA House District:25"
-  ],
-  "School District:Lycoming - East Lycoming": [
-    "PA House District:84"
-  ],
-  "School District:Bedford - Bedford Area": [
-    "PA House District:69",
-    "PA House District:78"
-  ],
-  "School District:Westmoreland - Belle Vernon Area": [
+  "School District:Westmoreland - Yough": [
     "PA House District:58"
-  ],
-  "School District:Cumberland - East Pennsboro Area": [
-    "PA House District:87"
-  ],
-  "PA House District:87": [
-    "School District:Cumberland - East Pennsboro Area",
-    "School District:Cumberland - Cumberland Valley"
-  ],
-  "School District:Monroe - East Stroudsburg Area": [
-    "PA House District:115",
-    "PA House District:189"
-  ],
-  "School District:Lancaster - Eastern Lancaster County": [
-    "PA House District:128",
-    "PA House District:99"
-  ],
-  "School District:Lebanon - Eastern Lebanon County": [
-    "PA House District:102"
-  ],
-  "School District:York - Eastern York": [
-    "PA House District:47",
-    "PA House District:94"
-  ],
-  "School District:Northampton - Easton Area": [
-    "PA House District:136",
-    "PA House District:137"
-  ],
-  "School District:Lycoming - Jersey Shore Area": [
-    "PA House District:84"
-  ],
-  "School District:Carbon - Jim Thorpe Area": [
-    "PA House District:122"
-  ],
-  "School District:Centre - Bellefonte Area": [
-    "PA House District:171"
-  ],
-  "School District:Allegheny - Allegheny Valley": [
-    "PA House District:33"
-  ],
-  "School District:Blair - Bellwood-Antis": [
-    "PA House District:80"
-  ],
-  "School District:Bucks - Bensalem Township": [
-    "PA House District:18"
-  ],
-  "PA House District:18": [
-    "School District:Bucks - Bensalem Township"
-  ],
-  "School District:Berks - Antietam": [
-    "PA House District:126"
-  ],
-  "School District:Armstrong - Apollo-Ridge": [
-    "PA House District:60"
-  ],
-  "School District:Montgomery - Abington": [
-    "PA House District:153"
-  ],
-  "School District:Lackawanna - Abington Heights": [
-    "PA House District:114",
-    "PA House District:113"
-  ],
-  "School District:Fayette - Albert Gallatin Area": [
-    "PA House District:51"
-  ],
-  "School District:Beaver - Aliquippa": [
-    "PA House District:16"
-  ],
-  "School District:Clarion - Allegheny-Clarion Valley": [
-    "PA House District:64"
-  ],
-  "School District:Lehigh - Allentown City": [
-    "PA House District:132",
-    "PA House District:22"
-  ],
-  "PA House District:132": [
-    "School District:Lehigh - Allentown City"
-  ],
-  "PA House District:22": [
-    "School District:Lehigh - Allentown City"
-  ],
-  "School District:Cameron - Cameron County": [
-    "PA House District:67"
-  ],
-  "School District:Blair - Altoona Area": [
-    "PA House District:79"
-  ],
-  "School District:Beaver - Ambridge Area": [
-    "PA House District:16"
-  ],
-  "School District:Lebanon - Annville-Cleona": [
-    "PA House District:101"
-  ],
-  "School District:Northampton - Bangor Area": [
-    "PA House District:137"
-  ],
-  "School District:Adams - Bermudian Springs": [
-    "PA House District:193"
-  ],
-  "School District:Washington - Canon-McMillan": [
-    "PA House District:46",
-    "PA House District:48"
-  ],
-  "School District:Armstrong - Armstrong": [
-    "PA House District:60",
-    "PA House District:63"
-  ],
-  "School District:Jefferson - Brookville Area": [
-    "PA House District:66"
-  ],
-  "School District:Fayette - Brownsville Area": [
-    "PA House District:50"
-  ],
-  "School District:Montgomery - Bryn Athyn": [
-    "PA House District:152"
-  ],
-  "School District:Washington - Burgettstown Area": [
-    "PA House District:46",
-    "PA House District:15"
-  ],
-  "School District:Westmoreland - Burrell": [
-    "PA House District:54"
-  ],
-  "School District:Washington - California Area": [
-    "PA House District:49"
-  ],
-  "School District:Cambria - Cambria Heights": [
-    "PA House District:72"
-  ],
-  "School District:Bradford - Athens Area": [
-    "PA House District:110"
-  ],
-  "School District:Potter - Austin Area": [
-    "PA House District:67"
-  ],
-  "School District:Washington - Avella Area": [
-    "PA House District:15"
-  ],
-  "School District:Chester - Avon Grove": [
-    "PA House District:13",
-    "PA House District:158"
-  ],
-  "School District:Allegheny - Avonworth": [
-    "PA House District:45",
-    "PA House District:44"
-  ],
-  "School District:Centre - Bald Eagle Area": [
-    "PA House District:76"
-  ],
-  "School District:Allegheny - Baldwin-Whitehall": [
-    "PA House District:38",
-    "PA House District:36"
-  ],
-  "School District:Columbia - Berwick Area": [
-    "PA House District:109",
-    "PA House District:116"
-  ],
-  "School District:Northampton - Bethlehem Area": [
-    "PA House District:135",
-    "PA House District:133",
-    "PA House District:138"
-  ],
-  "PA House District:135": [
-    "School District:Northampton - Bethlehem Area"
-  ],
-  "School District:Washington - Bethlehem-Center": [
-    "PA House District:49"
-  ],
-  "School District:Beaver - Big Beaver Falls Area": [
-    "PA House District:14"
-  ],
-  "School District:Bucks - Bristol Borough": [
-    "PA House District:140"
-  ],
-  "School District:Cumberland - Big Spring": [
-    "PA House District:193",
-    "PA House District:199"
-  ],
-  "PA House District:199": [
-    "School District:Cumberland - Big Spring",
-    "School District:Cumberland - Carlisle Area",
-    "School District:Cumberland - Cumberland Valley"
-  ],
-  "School District:Delaware - Chichester": [
-    "PA House District:160",
-    "PA House District:159"
-  ],
-  "School District:Beaver - Blackhawk": [
-    "PA House District:14"
-  ],
-  "School District:Indiana - Blairsville-Saltsburg": [
-    "PA House District:62",
-    "PA House District:55",
-    "PA House District:60"
-  ],
-  "School District:Columbia - Bloomsburg Area": [
-    "PA House District:109"
-  ],
-  "School District:Schuylkill - Blue Mountain": [
-    "PA House District:125",
-    "PA House District:124"
-  ],
-  "School District:Susquehanna - Blue Ridge": [
-    "PA House District:111"
-  ],
-  "School District:Berks - Boyertown Area": [
-    "PA House District:147",
-    "PA House District:130"
-  ],
-  "School District:Mckean - Bradford Area": [
-    "PA House District:67"
-  ],
-  "School District:Blair - Claysburg-Kimmel": [
-    "PA House District:80"
-  ],
-  "School District:Clearfield - Clearfield Area": [
-    "PA House District:73",
-    "PA House District:75"
-  ],
-  "School District:Chester - Coatesville Area": [
-    "PA House District:155",
-    "PA House District:26",
-    "PA House District:74"
-  ],
-  "PA House District:74": [
-    "School District:Chester - Coatesville Area"
-  ],
-  "School District:Lancaster - Cocalico": [
-    "PA House District:129",
-    "PA House District:37"
-  ],
-  "School District:Bradford - Canton Area": [
-    "PA House District:84"
-  ],
-  "School District:Lackawanna - Carbondale Area": [
-    "PA House District:114"
-  ],
-  "School District:Allegheny - Clairton City": [
-    "PA House District:35"
-  ],
-  "School District:Cumberland - Carlisle Area": [
-    "PA House District:199"
-  ],
-  "School District:Washington - Charleroi": [
-    "PA House District:49"
-  ],
-  "School District:Allegheny - Brentwood Borough": [
-    "PA House District:36"
-  ],
-  "School District:Dauphin - Central Dauphin": [
-    "PA House District:104",
-    "PA House District:105"
-  ],
-  "School District:Bucks - Bristol Township": [
-    "PA House District:141"
-  ],
-  "School District:Jefferson - Brockway Area": [
-    "PA House District:66"
-  ],
-  "School District:Franklin - Chambersburg Area": [
-    "PA House District:90",
-    "PA House District:89"
-  ],
-  "School District:Montgomery - Colonial": [
-    "PA House District:148"
-  ],
-  "School District:Franklin - Fannett-Metal": [
-    "PA House District:82"
-  ],
-  "School District:Allegheny - Elizabeth Forward": [
-    "PA House District:39"
-  ],
-  "School District:Lancaster - Elizabethtown Area": [
-    "PA House District:37",
-    "PA House District:98"
-  ],
-  "School District:Mercer - Commodore Perry": [
-    "PA House District:8"
-  ],
-  "School District:Allegheny - Chartiers Valley": [
-    "PA House District:46",
-    "PA House District:45"
-  ],
-  "School District:Washington - Chartiers-Houston": [
-    "PA House District:48"
-  ],
-  "School District:Delaware - Chester-Upland": [
-    "PA House District:159"
-  ],
-  "School District:Bedford - Chestnut Ridge": [
-    "PA House District:69"
-  ],
-  "School District:Allegheny - Carlynton": [
-    "PA House District:45",
-    "PA House District:27"
-  ],
-  "School District:Greene - Carmichaels Area": [
-    "PA House District:50"
-  ],
-  "School District:Luzerne - Hanover Area": [
-    "PA House District:121"
-  ],
-  "School District:Lehigh - Catasauqua Area": [
-    "PA House District:133"
-  ],
-  "School District:Bucks - Centennial": [
-    "PA House District:142",
-    "PA House District:29"
-  ],
-  "PA House District:29": [
-    "School District:Bucks - Centennial",
-    "School District:Bucks - Central Bucks"
-  ],
-  "School District:Cambria - Conemaugh Valley": [
-    "PA House District:71"
-  ],
-  "School District:Bucks - Central Bucks": [
-    "PA House District:143",
-    "PA House District:29",
-    "PA House District:144"
-  ],
-  "School District:Cambria - Central Cambria": [
-    "PA House District:72"
-  ],
-  "School District:Lancaster - Conestoga Valley": [
-    "PA House District:43"
-  ],
-  "PA House District:43": [
-    "School District:Lancaster - Conestoga Valley",
-    "School District:Lancaster - Lampeter-Strasburg"
-  ],
-  "School District:Adams - Conewago Valley": [
-    "PA House District:193",
-    "PA House District:91"
-  ],
-  "School District:Columbia - Central Columbia": [
-    "PA House District:109"
-  ],
-  "School District:Fulton - Central Fulton": [
-    "PA House District:78"
-  ],
-  "School District:Greene - Central Greene": [
-    "PA House District:50"
-  ],
-  "School District:York - Central York": [
-    "PA House District:47"
-  ],
-  "School District:Columbia - Benton Area": [
-    "PA House District:109"
-  ],
-  "School District:Washington - Bentworth": [
-    "PA House District:49",
-    "PA House District:39"
-  ],
-  "School District:Somerset - Berlin Brothersvalley": [
-    "PA House District:69"
-  ],
-  "School District:Erie - Corry Area": [
-    "PA House District:65",
-    "PA House District:4"
-  ],
-  "School District:Cumberland - Cumberland Valley": [
-    "PA House District:87",
-    "PA House District:199",
-    "PA House District:92"
-  ],
-  "School District:Clearfield - Curwensville Area": [
-    "PA House District:73"
-  ],
-  "School District:Luzerne - Dallas": [
-    "PA House District:120"
-  ],
-  "School District:York - Dallastown Area": [
-    "PA House District:93"
-  ],
-  "School District:Clarion - Clarion Area": [
-    "PA House District:63"
-  ],
-  "School District:Clarion - Clarion-Limestone Area": [
-    "PA House District:63"
-  ],
-  "School District:Berks - Exeter Township": [
-    "PA House District:130"
-  ],
-  "School District:Potter - Coudersport Area": [
-    "PA House District:67"
-  ],
-  "School District:Bucks - Council Rock": [
-    "PA House District:178",
-    "PA House District:31"
-  ],
-  "School District:Adams - Fairfield Area": [
-    "PA House District:91"
-  ],
-  "School District:Venango - Cranberry Area": [
-    "PA House District:64"
-  ],
-  "School District:Mckean - Kane Area": [
-    "PA House District:67",
-    "PA House District:75"
-  ],
-  "School District:Susquehanna - Elk Lake": [
-    "PA House District:110"
-  ],
-  "School District:Luzerne - Crestwood": [
-    "PA House District:119",
-    "PA House District:116",
-    "PA House District:121"
-  ],
-  "School District:Delaware - Garnet Valley": [
-    "PA House District:160"
-  ],
-  "School District:Allegheny - Gateway": [
-    "PA House District:25"
-  ],
-  "School District:Lawrence - Ellwood City Area": [
-    "PA House District:10"
-  ],
-  "School District:Lancaster - Ephrata Area": [
-    "PA House District:37",
-    "PA House District:99"
-  ],
-  "School District:Erie - Erie City": [
-    "PA House District:2",
-    "PA House District:1"
-  ],
-  "School District:Bedford - Everett Area": [
-    "PA House District:78"
-  ],
-  "School District:Montour - Danville Area": [
-    "PA House District:108",
-    "PA House District:107"
-  ],
-  "School District:Allegheny - Deer Lakes": [
-    "PA House District:54",
-    "PA House District:33"
-  ],
-  "School District:Pike - Delaware Valley": [
-    "PA House District:139",
-    "PA House District:189"
-  ],
-  "School District:Westmoreland - Derry Area": [
-    "PA House District:55"
-  ],
-  "School District:Dauphin - Derry Township": [
-    "PA House District:106"
-  ],
-  "School District:Lancaster - Donegal": [
-    "PA House District:98"
-  ],
-  "School District:York - Dover Area": [
-    "PA House District:196",
-    "PA House District:92"
-  ],
-  "School District:Chester - Downingtown Area": [
-    "PA House District:167",
-    "PA House District:155",
-    "PA House District:158"
-  ],
-  "School District:Somerset - Conemaugh Township Area": [
-    "PA House District:59"
-  ],
-  "School District:Crawford - Conneaut": [
-    "PA House District:6",
-    "PA House District:17"
-  ],
-  "School District:Fayette - Connellsville Area": [
-    "PA House District:51",
-    "PA House District:52"
-  ],
-  "School District:Berks - Conrad Weiser Area": [
-    "PA House District:5",
-    "PA House District:129"
-  ],
-  "School District:Allegheny - Cornell": [
-    "PA House District:45"
-  ],
-  "School District:Lebanon - Cornwall-Lebanon": [
-    "PA House District:101",
-    "PA House District:102"
-  ],
-  "School District:Crawford - Crawford Central": [
-    "PA House District:6"
-  ],
-  "School District:Montgomery - Cheltenham Township": [
-    "PA House District:154"
-  ],
-  "School District:Berks - Daniel Boone Area": [
-    "PA House District:130"
-  ],
-  "School District:Butler - Karns City Area": [
-    "PA House District:11"
-  ],
-  "School District:Butler - Butler Area": [
-    "PA House District:11"
-  ],
-  "School District:Lancaster - Lampeter-Strasburg": [
-    "PA House District:43"
-  ],
-  "School District:Lancaster - Lancaster": [
-    "PA House District:96"
-  ],
-  "PA House District:96": [
-    "School District:Lancaster - Lancaster"
-  ],
-  "School District:Erie - General McLane": [
-    "PA House District:3"
-  ],
-  "School District:Adams - Gettysburg Area": [
-    "PA House District:91"
-  ],
-  "School District:Erie - Girard": [
-    "PA House District:17"
-  ],
-  "School District:Clearfield - Glendale": [
-    "PA House District:72"
-  ],
-  "School District:Clearfield - Harmony Area": [
-    "PA House District:73"
-  ],
-  "School District:Erie - Fort Leboeuf": [
-    "PA House District:2",
-    "PA House District:4"
-  ],
-  "School District:Dauphin - Harrisburg City": [
-    "PA House District:103"
-  ],
-  "School District:Allegheny - Fox Chapel Area": [
-    "PA House District:33",
-    "PA House District:30"
-  ],
-  "School District:Venango - Franklin Area": [
-    "PA House District:64"
-  ],
-  "School District:Westmoreland - Franklin Regional": [
-    "PA House District:54"
-  ],
-  "School District:Fayette - Frazier": [
-    "PA House District:49",
-    "PA House District:52"
   ]
 }

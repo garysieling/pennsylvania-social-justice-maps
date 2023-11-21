@@ -1,51 +1,52 @@
 {
-  "Municipality:Allegheny - South Park Township": [
-    "School District:Allegheny - South Park"
+  "Municipality:Allegheny - Aleppo Township": [
+    "School District:Allegheny - Quaker Valley"
   ],
-  "School District:Allegheny - South Park": [
-    "Municipality:Allegheny - South Park Township"
+  "School District:Allegheny - Quaker Valley": [
+    "Municipality:Allegheny - Aleppo Township",
+    "Municipality:Allegheny - Bell Acres Borough",
+    "Municipality:Allegheny - Edgeworth Borough",
+    "Municipality:Allegheny - Leet Township",
+    "Municipality:Allegheny - Sewickley Heights Borough",
+    "Municipality:Allegheny - Sewickley Hills Borough"
   ],
-  "Municipality:Allegheny - North Versailles Township": [
-    "School District:Allegheny - East Allegheny"
+  "Municipality:Allegheny - Avalon Borough": [
+    "School District:Allegheny - Northgate"
   ],
-  "School District:Allegheny - East Allegheny": [
-    "Municipality:Allegheny - North Versailles Township"
+  "School District:Allegheny - Northgate": [
+    "Municipality:Allegheny - Avalon Borough",
+    "Municipality:Allegheny - Bellevue Borough"
   ],
-  "Municipality:Allegheny - Clairton City": [
-    "School District:Allegheny - Clairton City"
+  "Municipality:Allegheny - Baldwin Borough": [
+    "School District:Allegheny - Baldwin-Whitehall"
   ],
-  "School District:Allegheny - Clairton City": [
-    "Municipality:Allegheny - Clairton City"
+  "School District:Allegheny - Baldwin-Whitehall": [
+    "Municipality:Allegheny - Baldwin Borough",
+    "Municipality:Allegheny - Whitehall Borough"
   ],
-  "Municipality:Allegheny - Duquesne City": [
-    "School District:Allegheny - Duquesne City"
+  "Municipality:Allegheny - Bell Acres Borough": [
+    "School District:Allegheny - Quaker Valley"
   ],
-  "School District:Allegheny - Duquesne City": [
-    "Municipality:Allegheny - Duquesne City"
-  ],
-  "Municipality:Allegheny - Mckeesport City": [
-    "School District:Allegheny - McKeesport Area"
-  ],
-  "School District:Allegheny - McKeesport Area": [
-    "Municipality:Allegheny - Mckeesport City",
-    "Municipality:Allegheny - South Versailles Township",
-    "Municipality:Allegheny - Dravosburg Borough",
-    "Municipality:Allegheny - White Oak Borough"
-  ],
-  "Municipality:Allegheny - Glassport Borough": [
-    "School District:Allegheny - South Allegheny"
-  ],
-  "School District:Allegheny - South Allegheny": [
-    "Municipality:Allegheny - Glassport Borough",
-    "Municipality:Allegheny - Liberty Borough",
-    "Municipality:Allegheny - Port Vue Borough",
-    "Municipality:Allegheny - Lincoln Borough"
+  "Municipality:Allegheny - Bellevue Borough": [
+    "School District:Allegheny - Northgate"
   ],
   "Municipality:Allegheny - Bethel Park Borough": [
     "School District:Allegheny - Bethel Park"
   ],
   "School District:Allegheny - Bethel Park": [
     "Municipality:Allegheny - Bethel Park Borough"
+  ],
+  "Municipality:Allegheny - Braddock Hills Borough": [
+    "School District:Allegheny - Woodland Hills"
+  ],
+  "School District:Allegheny - Woodland Hills": [
+    "Municipality:Allegheny - Braddock Hills Borough",
+    "Municipality:Allegheny - Churchill Borough",
+    "Municipality:Allegheny - Forest Hills Borough",
+    "Municipality:Allegheny - North Braddock Borough",
+    "Municipality:Allegheny - Swissvale Borough",
+    "Municipality:Allegheny - Turtle Creek Borough",
+    "Municipality:Allegheny - Wilkins Township"
   ],
   "Municipality:Allegheny - Brentwood Borough": [
     "School District:Allegheny - Brentwood Borough"
@@ -58,17 +59,82 @@
   ],
   "School District:Allegheny - Chartiers Valley": [
     "Municipality:Allegheny - Bridgeville Borough",
-    "Municipality:Allegheny - Scott Township",
-    "Municipality:Allegheny - Collier Township"
+    "Municipality:Allegheny - Collier Township",
+    "Municipality:Allegheny - Scott Township"
   ],
-  "Municipality:Allegheny - Upper St Clair Township": [
-    "School District:Allegheny - Upper Saint Clair"
+  "Municipality:Allegheny - Carnegie Borough": [
+    "School District:Allegheny - Carlynton"
   ],
-  "School District:Allegheny - Upper Saint Clair": [
-    "Municipality:Allegheny - Upper St Clair Township"
+  "School District:Allegheny - Carlynton": [
+    "Municipality:Allegheny - Carnegie Borough",
+    "Municipality:Allegheny - Crafton Borough",
+    "Municipality:Allegheny - Rosslyn Farms Borough"
   ],
-  "Municipality:Allegheny - South Versailles Township": [
+  "Municipality:Allegheny - Castle Shannon Borough": [
+    "School District:Allegheny - Keystone Oaks"
+  ],
+  "School District:Allegheny - Keystone Oaks": [
+    "Municipality:Allegheny - Castle Shannon Borough",
+    "Municipality:Allegheny - Dormont Borough",
+    "Municipality:Allegheny - Green Tree Borough"
+  ],
+  "Municipality:Allegheny - Churchill Borough": [
+    "School District:Allegheny - Woodland Hills"
+  ],
+  "Municipality:Allegheny - Clairton City": [
+    "School District:Allegheny - Clairton City"
+  ],
+  "School District:Allegheny - Clairton City": [
+    "Municipality:Allegheny - Clairton City"
+  ],
+  "Municipality:Allegheny - Collier Township": [
+    "School District:Allegheny - Chartiers Valley"
+  ],
+  "Municipality:Allegheny - Coraopolis Borough": [
+    "School District:Allegheny - Cornell"
+  ],
+  "School District:Allegheny - Cornell": [
+    "Municipality:Allegheny - Coraopolis Borough",
+    "Municipality:Allegheny - Neville Township"
+  ],
+  "Municipality:Allegheny - Crafton Borough": [
+    "School District:Allegheny - Carlynton"
+  ],
+  "Municipality:Allegheny - Crescent Township": [
+    "School District:Allegheny - Moon Area"
+  ],
+  "School District:Allegheny - Moon Area": [
+    "Municipality:Allegheny - Crescent Township",
+    "Municipality:Allegheny - Moon Township"
+  ],
+  "Municipality:Allegheny - Dormont Borough": [
+    "School District:Allegheny - Keystone Oaks"
+  ],
+  "Municipality:Allegheny - Dravosburg Borough": [
     "School District:Allegheny - McKeesport Area"
+  ],
+  "School District:Allegheny - McKeesport Area": [
+    "Municipality:Allegheny - Dravosburg Borough",
+    "Municipality:Allegheny - Mckeesport City",
+    "Municipality:Allegheny - South Versailles Township",
+    "Municipality:Allegheny - White Oak Borough"
+  ],
+  "Municipality:Allegheny - Duquesne City": [
+    "School District:Allegheny - Duquesne City"
+  ],
+  "School District:Allegheny - Duquesne City": [
+    "Municipality:Allegheny - Duquesne City"
+  ],
+  "Municipality:Allegheny - East Deer Township": [
+    "School District:Allegheny - Deer Lakes"
+  ],
+  "School District:Allegheny - Deer Lakes": [
+    "Municipality:Allegheny - East Deer Township",
+    "Municipality:Allegheny - Frazer Township",
+    "Municipality:Allegheny - West Deer Township"
+  ],
+  "Municipality:Allegheny - Edgeworth Borough": [
+    "School District:Allegheny - Quaker Valley"
   ],
   "Municipality:Allegheny - Elizabeth Township": [
     "School District:Allegheny - Elizabeth Forward"
@@ -77,191 +143,41 @@
     "Municipality:Allegheny - Elizabeth Township",
     "Municipality:Allegheny - Forward Township"
   ],
-  "Municipality:Allegheny - Forward Township": [
-    "School District:Allegheny - Elizabeth Forward"
-  ],
-  "Municipality:Allegheny - Dravosburg Borough": [
-    "School District:Allegheny - McKeesport Area"
-  ],
-  "Municipality:Allegheny - Liberty Borough": [
-    "School District:Allegheny - South Allegheny"
-  ],
-  "Municipality:Allegheny - West Mifflin Borough": [
-    "School District:Allegheny - West Mifflin Area"
-  ],
-  "School District:Allegheny - West Mifflin Area": [
-    "Municipality:Allegheny - West Mifflin Borough"
-  ],
-  "Municipality:Allegheny - Whitehall Borough": [
-    "School District:Allegheny - Baldwin-Whitehall"
-  ],
-  "School District:Allegheny - Baldwin-Whitehall": [
-    "Municipality:Allegheny - Whitehall Borough",
-    "Municipality:Allegheny - Baldwin Borough"
-  ],
-  "Municipality:Allegheny - White Oak Borough": [
-    "School District:Allegheny - McKeesport Area"
-  ],
-  "Municipality:Allegheny - Pleasant Hills Borough": [
-    "School District:Allegheny - West Jefferson Hills"
-  ],
-  "School District:Allegheny - West Jefferson Hills": [
-    "Municipality:Allegheny - Pleasant Hills Borough",
-    "Municipality:Allegheny - Jefferson Hills Borough"
-  ],
-  "Municipality:Allegheny - Port Vue Borough": [
-    "School District:Allegheny - South Allegheny"
-  ],
-  "Municipality:Allegheny - Jefferson Hills Borough": [
-    "School District:Allegheny - West Jefferson Hills"
-  ],
-  "Municipality:Allegheny - Lincoln Borough": [
-    "School District:Allegheny - South Allegheny"
-  ],
-  "Municipality:Allegheny - Castle Shannon Borough": [
-    "School District:Allegheny - Keystone Oaks"
-  ],
-  "School District:Allegheny - Keystone Oaks": [
-    "Municipality:Allegheny - Castle Shannon Borough",
-    "Municipality:Allegheny - Dormont Borough",
-    "Municipality:Allegheny - Greentree Borough"
-  ],
-  "Municipality:Allegheny - Marshall Township": [
-    "School District:Allegheny - North Allegheny"
-  ],
-  "School District:Allegheny - North Allegheny": [
-    "Municipality:Allegheny - Marshall Township",
-    "Municipality:Allegheny - Mccandless Township",
-    "Municipality:Allegheny - Franklin Park Borough"
-  ],
-  "Municipality:Allegheny - Forest Hills Borough": [
-    "School District:Allegheny - Woodland Hills"
-  ],
-  "School District:Allegheny - Woodland Hills": [
-    "Municipality:Allegheny - Forest Hills Borough",
-    "Municipality:Allegheny - Wilkins Township",
-    "Municipality:Allegheny - Churchill Borough",
-    "Municipality:Allegheny - Braddock Hills Borough",
-    "Municipality:Allegheny - North Braddock Borough",
-    "Municipality:Allegheny - Turtle Creek Borough",
-    "Municipality:Allegheny - Swissvale Borough"
-  ],
-  "Municipality:Allegheny - Neville Township": [
-    "School District:Allegheny - Cornell"
-  ],
-  "School District:Allegheny - Cornell": [
-    "Municipality:Allegheny - Neville Township",
-    "Municipality:Allegheny - Coraopolis Borough"
-  ],
-  "Municipality:Allegheny - Mckees Rocks Borough": [
-    "School District:Allegheny - Sto-Rox"
-  ],
-  "School District:Allegheny - Sto-Rox": [
-    "Municipality:Allegheny - Mckees Rocks Borough",
-    "Municipality:Allegheny - Stowe Township"
-  ],
-  "Municipality:Allegheny - East Deer Township": [
-    "School District:Allegheny - Deer Lakes"
-  ],
-  "School District:Allegheny - Deer Lakes": [
-    "Municipality:Allegheny - East Deer Township",
-    "Municipality:Allegheny - West Deer Township",
-    "Municipality:Allegheny - Frazer Township"
-  ],
-  "Municipality:Allegheny - Harrison Township": [
-    "School District:Allegheny - Highlands"
-  ],
-  "School District:Allegheny - Highlands": [
-    "Municipality:Allegheny - Harrison Township",
-    "Municipality:Allegheny - Fawn Township"
-  ],
-  "Municipality:Allegheny - Baldwin Borough": [
-    "School District:Allegheny - Baldwin-Whitehall"
-  ],
-  "Municipality:Allegheny - Aleppo Township": [
-    "School District:Allegheny - Quaker Valley"
-  ],
-  "School District:Allegheny - Quaker Valley": [
-    "Municipality:Allegheny - Aleppo Township",
-    "Municipality:Allegheny - Edgeworth Borough",
-    "Municipality:Allegheny - Bell Acres Borough",
-    "Municipality:Allegheny - Leet Township",
-    "Municipality:Allegheny - Sewickley Heights Borough",
-    "Municipality:Allegheny - Sewickley Hills Borough"
-  ],
-  "Municipality:Allegheny - Avalon Borough": [
-    "School District:Allegheny - Northgate"
-  ],
-  "School District:Allegheny - Northgate": [
-    "Municipality:Allegheny - Avalon Borough",
-    "Municipality:Allegheny - Bellevue Borough"
-  ],
-  "Municipality:Allegheny - Fawn Township": [
-    "School District:Allegheny - Highlands"
-  ],
-  "Municipality:Allegheny - Stowe Township": [
-    "School District:Allegheny - Sto-Rox"
-  ],
-  "Municipality:Allegheny - Wilkins Township": [
-    "School District:Allegheny - Woodland Hills"
-  ],
-  "Municipality:Allegheny - Kennedy Township": [
-    "School District:Allegheny - Montour"
-  ],
-  "School District:Allegheny - Montour": [
-    "Municipality:Allegheny - Kennedy Township",
-    "Municipality:Allegheny - Robinson Township"
-  ],
-  "Municipality:Allegheny - Reserve Township": [
-    "School District:Allegheny - Shaler Area"
-  ],
-  "School District:Allegheny - Shaler Area": [
-    "Municipality:Allegheny - Reserve Township",
-    "Municipality:Allegheny - Etna Borough",
-    "Municipality:Allegheny - Shaler Township"
-  ],
-  "Municipality:Allegheny - Coraopolis Borough": [
-    "School District:Allegheny - Cornell"
-  ],
-  "Municipality:Allegheny - Dormont Borough": [
-    "School District:Allegheny - Keystone Oaks"
-  ],
-  "Municipality:Allegheny - South Fayette Township": [
-    "School District:Allegheny - South Fayette Township"
-  ],
-  "School District:Allegheny - South Fayette Township": [
-    "Municipality:Allegheny - South Fayette Township"
-  ],
-  "Municipality:Allegheny - Edgeworth Borough": [
-    "School District:Allegheny - Quaker Valley"
-  ],
   "Municipality:Allegheny - Emsworth Borough": [
     "School District:Allegheny - Avonworth"
   ],
   "School District:Allegheny - Avonworth": [
     "Municipality:Allegheny - Emsworth Borough",
-    "Municipality:Allegheny - Ohio Township",
-    "Municipality:Allegheny - Kilbuck Township"
-  ],
-  "Municipality:Allegheny - Greentree Borough": [
-    "School District:Allegheny - Keystone Oaks"
-  ],
-  "Municipality:Allegheny - Crafton Borough": [
-    "School District:Allegheny - Carlynton"
-  ],
-  "School District:Allegheny - Carlynton": [
-    "Municipality:Allegheny - Crafton Borough",
-    "Municipality:Allegheny - Carnegie Borough",
-    "Municipality:Allegheny - Rosslyn Farms Borough"
-  ],
-  "Municipality:Allegheny - Ohio Township": [
-    "School District:Allegheny - Avonworth"
+    "Municipality:Allegheny - Kilbuck Township",
+    "Municipality:Allegheny - Ohio Township"
   ],
   "Municipality:Allegheny - Etna Borough": [
     "School District:Allegheny - Shaler Area"
   ],
-  "Municipality:Allegheny - Churchill Borough": [
+  "School District:Allegheny - Shaler Area": [
+    "Municipality:Allegheny - Etna Borough",
+    "Municipality:Allegheny - Reserve Township",
+    "Municipality:Allegheny - Shaler Township"
+  ],
+  "Municipality:Allegheny - Fawn Township": [
+    "School District:Allegheny - Highlands"
+  ],
+  "School District:Allegheny - Highlands": [
+    "Municipality:Allegheny - Fawn Township",
+    "Municipality:Allegheny - Harrison Township"
+  ],
+  "Municipality:Allegheny - Findlay Township": [
+    "School District:Allegheny - West Allegheny"
+  ],
+  "School District:Allegheny - West Allegheny": [
+    "Municipality:Allegheny - Findlay Township",
+    "Municipality:Allegheny - North Fayette Township"
+  ],
+  "Municipality:Allegheny - Forest Hills Borough": [
     "School District:Allegheny - Woodland Hills"
+  ],
+  "Municipality:Allegheny - Forward Township": [
+    "School District:Allegheny - Elizabeth Forward"
   ],
   "Municipality:Allegheny - Fox Chapel Borough": [
     "School District:Allegheny - Fox Chapel Area"
@@ -270,46 +186,28 @@
     "Municipality:Allegheny - Fox Chapel Borough",
     "Municipality:Allegheny - Indiana Township"
   ],
-  "Municipality:Allegheny - Carnegie Borough": [
-    "School District:Allegheny - Carlynton"
+  "Municipality:Allegheny - Franklin Park Borough": [
+    "School District:Allegheny - North Allegheny"
   ],
-  "Municipality:Allegheny - West Deer Township": [
-    "School District:Allegheny - Deer Lakes"
-  ],
-  "Municipality:Allegheny - Bellevue Borough": [
-    "School District:Allegheny - Northgate"
-  ],
-  "Municipality:Allegheny - Braddock Hills Borough": [
-    "School District:Allegheny - Woodland Hills"
-  ],
-  "Municipality:Allegheny - Harmar Township": [
-    "School District:Allegheny - Allegheny Valley"
-  ],
-  "School District:Allegheny - Allegheny Valley": [
-    "Municipality:Allegheny - Harmar Township",
-    "Municipality:Allegheny - Springdale Township",
-    "Municipality:Allegheny - Springdale Borough"
-  ],
-  "Municipality:Allegheny - Homestead Borough": [
-    "School District:Allegheny - Steel Valley"
-  ],
-  "School District:Allegheny - Steel Valley": [
-    "Municipality:Allegheny - Homestead Borough",
-    "Municipality:Allegheny - West Homestead Borough",
-    "Municipality:Allegheny - Munhall Borough"
-  ],
-  "Municipality:Allegheny - Moon Township": [
-    "School District:Allegheny - Moon Area"
-  ],
-  "School District:Allegheny - Moon Area": [
-    "Municipality:Allegheny - Moon Township",
-    "Municipality:Allegheny - Crescent Township"
-  ],
-  "Municipality:Allegheny - Scott Township": [
-    "School District:Allegheny - Chartiers Valley"
+  "School District:Allegheny - North Allegheny": [
+    "Municipality:Allegheny - Franklin Park Borough",
+    "Municipality:Allegheny - Marshall Township",
+    "Municipality:Allegheny - Mccandless Township"
   ],
   "Municipality:Allegheny - Frazer Township": [
     "School District:Allegheny - Deer Lakes"
+  ],
+  "Municipality:Allegheny - Glassport Borough": [
+    "School District:Allegheny - South Allegheny"
+  ],
+  "School District:Allegheny - South Allegheny": [
+    "Municipality:Allegheny - Glassport Borough",
+    "Municipality:Allegheny - Liberty Borough",
+    "Municipality:Allegheny - Lincoln Borough",
+    "Municipality:Allegheny - Port Vue Borough"
+  ],
+  "Municipality:Allegheny - Green Tree Borough": [
+    "School District:Allegheny - Keystone Oaks"
   ],
   "Municipality:Allegheny - Hampton Township": [
     "School District:Allegheny - Hampton Township"
@@ -317,16 +215,77 @@
   "School District:Allegheny - Hampton Township": [
     "Municipality:Allegheny - Hampton Township"
   ],
-  "Municipality:Allegheny - Shaler Township": [
-    "School District:Allegheny - Shaler Area"
+  "Municipality:Allegheny - Harmar Township": [
+    "School District:Allegheny - Allegheny Valley"
   ],
-  "Municipality:Allegheny - Mccandless Township": [
-    "School District:Allegheny - North Allegheny"
+  "School District:Allegheny - Allegheny Valley": [
+    "Municipality:Allegheny - Harmar Township",
+    "Municipality:Allegheny - Springdale Borough",
+    "Municipality:Allegheny - Springdale Township"
+  ],
+  "Municipality:Allegheny - Harrison Township": [
+    "School District:Allegheny - Highlands"
+  ],
+  "Municipality:Allegheny - Homestead Borough": [
+    "School District:Allegheny - Steel Valley"
+  ],
+  "School District:Allegheny - Steel Valley": [
+    "Municipality:Allegheny - Homestead Borough",
+    "Municipality:Allegheny - Munhall Borough",
+    "Municipality:Allegheny - West Homestead Borough"
+  ],
+  "Municipality:Allegheny - Indiana Township": [
+    "School District:Allegheny - Fox Chapel Area"
+  ],
+  "Municipality:Allegheny - Jefferson Hills Borough": [
+    "School District:Allegheny - West Jefferson Hills"
+  ],
+  "School District:Allegheny - West Jefferson Hills": [
+    "Municipality:Allegheny - Jefferson Hills Borough",
+    "Municipality:Allegheny - Pleasant Hills Borough"
+  ],
+  "Municipality:Allegheny - Kennedy Township": [
+    "School District:Allegheny - Montour"
+  ],
+  "School District:Allegheny - Montour": [
+    "Municipality:Allegheny - Kennedy Township",
+    "Municipality:Allegheny - Robinson Township"
   ],
   "Municipality:Allegheny - Kilbuck Township": [
     "School District:Allegheny - Avonworth"
   ],
-  "Municipality:Allegheny - Crescent Township": [
+  "Municipality:Allegheny - Leet Township": [
+    "School District:Allegheny - Quaker Valley"
+  ],
+  "Municipality:Allegheny - Liberty Borough": [
+    "School District:Allegheny - South Allegheny"
+  ],
+  "Municipality:Allegheny - Lincoln Borough": [
+    "School District:Allegheny - South Allegheny"
+  ],
+  "Municipality:Allegheny - Marshall Township": [
+    "School District:Allegheny - North Allegheny"
+  ],
+  "Municipality:Allegheny - Mccandless Township": [
+    "School District:Allegheny - North Allegheny"
+  ],
+  "Municipality:Allegheny - Mckees Rocks Borough": [
+    "School District:Allegheny - Sto-Rox"
+  ],
+  "School District:Allegheny - Sto-Rox": [
+    "Municipality:Allegheny - Mckees Rocks Borough",
+    "Municipality:Allegheny - Stowe Township"
+  ],
+  "Municipality:Allegheny - Mckeesport City": [
+    "School District:Allegheny - McKeesport Area"
+  ],
+  "Municipality:Allegheny - Monroeville Borough": [
+    "School District:Allegheny - Gateway"
+  ],
+  "School District:Allegheny - Gateway": [
+    "Municipality:Allegheny - Monroeville Borough"
+  ],
+  "Municipality:Allegheny - Moon Township": [
     "School District:Allegheny - Moon Area"
   ],
   "Municipality:Allegheny - Mt Lebanon Township": [
@@ -335,67 +294,23 @@
   "School District:Allegheny - Mt Lebanon": [
     "Municipality:Allegheny - Mt Lebanon Township"
   ],
-  "Municipality:Allegheny - North Fayette Township": [
-    "School District:Allegheny - West Allegheny"
-  ],
-  "School District:Allegheny - West Allegheny": [
-    "Municipality:Allegheny - North Fayette Township",
-    "Municipality:Allegheny - Findlay Township"
-  ],
-  "Municipality:Allegheny - Springdale Township": [
-    "School District:Allegheny - Allegheny Valley"
-  ],
-  "Municipality:Allegheny - Collier Township": [
-    "School District:Allegheny - Chartiers Valley"
-  ],
-  "Municipality:Allegheny - Richland Township": [
-    "School District:Allegheny - Pine-Richland"
-  ],
-  "School District:Allegheny - Pine-Richland": [
-    "Municipality:Allegheny - Richland Township",
-    "Municipality:Allegheny - Pine Township"
-  ],
-  "Municipality:Allegheny - Pine Township": [
-    "School District:Allegheny - Pine-Richland"
-  ],
-  "Municipality:Allegheny - Findlay Township": [
-    "School District:Allegheny - West Allegheny"
-  ],
-  "Municipality:Allegheny - Indiana Township": [
-    "School District:Allegheny - Fox Chapel Area"
-  ],
-  "Municipality:Allegheny - Franklin Park Borough": [
-    "School District:Allegheny - North Allegheny"
-  ],
-  "Municipality:Allegheny - Bell Acres Borough": [
-    "School District:Allegheny - Quaker Valley"
-  ],
-  "Municipality:Allegheny - Plum Borough": [
-    "School District:Allegheny - Plum Borough"
-  ],
-  "School District:Allegheny - Plum Borough": [
-    "Municipality:Allegheny - Plum Borough"
-  ],
-  "Municipality:Allegheny - Leet Township": [
-    "School District:Allegheny - Quaker Valley"
-  ],
-  "Municipality:Allegheny - Rosslyn Farms Borough": [
-    "School District:Allegheny - Carlynton"
-  ],
-  "Municipality:Allegheny - West Homestead Borough": [
+  "Municipality:Allegheny - Munhall Borough": [
     "School District:Allegheny - Steel Valley"
+  ],
+  "Municipality:Allegheny - Neville Township": [
+    "School District:Allegheny - Cornell"
   ],
   "Municipality:Allegheny - North Braddock Borough": [
     "School District:Allegheny - Woodland Hills"
   ],
-  "Municipality:Allegheny - Turtle Creek Borough": [
-    "School District:Allegheny - Woodland Hills"
+  "Municipality:Allegheny - North Fayette Township": [
+    "School District:Allegheny - West Allegheny"
   ],
-  "Municipality:Allegheny - Wilkinsburg Borough": [
-    "School District:Allegheny - Wilkinsburg Borough"
+  "Municipality:Allegheny - North Versailles Township": [
+    "School District:Allegheny - East Allegheny"
   ],
-  "School District:Allegheny - Wilkinsburg Borough": [
-    "Municipality:Allegheny - Wilkinsburg Borough"
+  "School District:Allegheny - East Allegheny": [
+    "Municipality:Allegheny - North Versailles Township"
   ],
   "Municipality:Allegheny - Oakmont Borough": [
     "School District:Allegheny - Riverview"
@@ -404,14 +319,8 @@
     "Municipality:Allegheny - Oakmont Borough",
     "Municipality:Allegheny - Verona Borough"
   ],
-  "Municipality:Allegheny - Sewickley Heights Borough": [
-    "School District:Allegheny - Quaker Valley"
-  ],
-  "Municipality:Allegheny - Verona Borough": [
-    "School District:Allegheny - Riverview"
-  ],
-  "Municipality:Allegheny - Swissvale Borough": [
-    "School District:Allegheny - Woodland Hills"
+  "Municipality:Allegheny - Ohio Township": [
+    "School District:Allegheny - Avonworth"
   ],
   "Municipality:Allegheny - Penn Hills Township": [
     "School District:Allegheny - Penn Hills"
@@ -419,33 +328,12 @@
   "School District:Allegheny - Penn Hills": [
     "Municipality:Allegheny - Penn Hills Township"
   ],
-  "Municipality:Allegheny - West View Borough": [
-    "School District:Allegheny - North Hills"
+  "Municipality:Allegheny - Pine Township": [
+    "School District:Allegheny - Pine-Richland"
   ],
-  "School District:Allegheny - North Hills": [
-    "Municipality:Allegheny - West View Borough",
-    "Municipality:Allegheny - Ross Township"
-  ],
-  "Municipality:Allegheny - Sewickley Hills Borough": [
-    "School District:Allegheny - Quaker Valley"
-  ],
-  "Municipality:Allegheny - Springdale Borough": [
-    "School District:Allegheny - Allegheny Valley"
-  ],
-  "Municipality:Allegheny - Munhall Borough": [
-    "School District:Allegheny - Steel Valley"
-  ],
-  "Municipality:Allegheny - Monroeville Borough": [
-    "School District:Allegheny - Gateway"
-  ],
-  "School District:Allegheny - Gateway": [
-    "Municipality:Allegheny - Monroeville Borough"
-  ],
-  "Municipality:Allegheny - Ross Township": [
-    "School District:Allegheny - North Hills"
-  ],
-  "Municipality:Allegheny - Robinson Township": [
-    "School District:Allegheny - Montour"
+  "School District:Allegheny - Pine-Richland": [
+    "Municipality:Allegheny - Pine Township",
+    "Municipality:Allegheny - Richland Township"
   ],
   "Municipality:Allegheny - Pittsburgh City": [
     "School District:Allegheny - Pittsburgh"
@@ -453,174 +341,142 @@
   "School District:Allegheny - Pittsburgh": [
     "Municipality:Allegheny - Pittsburgh City"
   ],
-  "Municipality:Montgomery - Abington Township": [
-    "School District:Montgomery - Abington"
+  "Municipality:Allegheny - Pleasant Hills Borough": [
+    "School District:Allegheny - West Jefferson Hills"
   ],
-  "School District:Montgomery - Abington": [
-    "Municipality:Montgomery - Abington Township"
+  "Municipality:Allegheny - Plum Borough": [
+    "School District:Allegheny - Plum Borough"
   ],
-  "Municipality:Montgomery - Springfield Township": [
-    "School District:Montgomery - Springfield Township"
+  "School District:Allegheny - Plum Borough": [
+    "Municipality:Allegheny - Plum Borough"
   ],
-  "School District:Montgomery - Springfield Township": [
-    "Municipality:Montgomery - Springfield Township"
+  "Municipality:Allegheny - Port Vue Borough": [
+    "School District:Allegheny - South Allegheny"
   ],
-  "Municipality:Montgomery - Whitemarsh Township": [
-    "School District:Montgomery - Colonial"
+  "Municipality:Allegheny - Reserve Township": [
+    "School District:Allegheny - Shaler Area"
   ],
-  "School District:Montgomery - Colonial": [
-    "Municipality:Montgomery - Whitemarsh Township",
-    "Municipality:Montgomery - Plymouth Township"
+  "Municipality:Allegheny - Richland Township": [
+    "School District:Allegheny - Pine-Richland"
   ],
-  "Municipality:Montgomery - Plymouth Township": [
-    "School District:Montgomery - Colonial"
+  "Municipality:Allegheny - Robinson Township": [
+    "School District:Allegheny - Montour"
   ],
-  "Municipality:Montgomery - Norristown Borough": [
-    "School District:Montgomery - Norristown Area"
+  "Municipality:Allegheny - Ross Township": [
+    "School District:Allegheny - North Hills"
   ],
-  "School District:Montgomery - Norristown Area": [
-    "Municipality:Montgomery - Norristown Borough",
-    "Municipality:Montgomery - West Norriton Township",
-    "Municipality:Montgomery - East Norriton Township"
+  "School District:Allegheny - North Hills": [
+    "Municipality:Allegheny - Ross Township",
+    "Municipality:Allegheny - West View Borough"
   ],
-  "Municipality:Montgomery - Jenkintown Borough": [
-    "School District:Montgomery - Jenkintown"
+  "Municipality:Allegheny - Rosslyn Farms Borough": [
+    "School District:Allegheny - Carlynton"
   ],
-  "School District:Montgomery - Jenkintown": [
-    "Municipality:Montgomery - Jenkintown Borough"
+  "Municipality:Allegheny - Scott Township": [
+    "School District:Allegheny - Chartiers Valley"
   ],
-  "Municipality:Montgomery - West Norriton Township": [
-    "School District:Montgomery - Norristown Area"
+  "Municipality:Allegheny - Sewickley Heights Borough": [
+    "School District:Allegheny - Quaker Valley"
   ],
-  "Municipality:Montgomery - Cheltenham Township": [
-    "School District:Montgomery - Cheltenham Township"
+  "Municipality:Allegheny - Sewickley Hills Borough": [
+    "School District:Allegheny - Quaker Valley"
   ],
-  "School District:Montgomery - Cheltenham Township": [
-    "Municipality:Montgomery - Cheltenham Township"
+  "Municipality:Allegheny - Shaler Township": [
+    "School District:Allegheny - Shaler Area"
   ],
-  "Municipality:Montgomery - Upper Dublin Township": [
-    "School District:Montgomery - Upper Dublin"
+  "Municipality:Allegheny - South Fayette Township": [
+    "School District:Allegheny - South Fayette Township"
   ],
-  "School District:Montgomery - Upper Dublin": [
-    "Municipality:Montgomery - Upper Dublin Township"
+  "School District:Allegheny - South Fayette Township": [
+    "Municipality:Allegheny - South Fayette Township"
   ],
-  "Municipality:Montgomery - East Norriton Township": [
-    "School District:Montgomery - Norristown Area"
+  "Municipality:Allegheny - South Park Township": [
+    "School District:Allegheny - South Park"
   ],
-  "Municipality:Montgomery - Whitpain Township": [
-    "School District:Montgomery - Wissahickon"
+  "School District:Allegheny - South Park": [
+    "Municipality:Allegheny - South Park Township"
   ],
-  "School District:Montgomery - Wissahickon": [
-    "Municipality:Montgomery - Whitpain Township",
-    "Municipality:Montgomery - Lower Gwynedd Township"
+  "Municipality:Allegheny - South Versailles Township": [
+    "School District:Allegheny - McKeesport Area"
   ],
-  "Municipality:Montgomery - Upper Frederick Township": [
-    "School District:Berks - Boyertown Area"
+  "Municipality:Allegheny - Springdale Borough": [
+    "School District:Allegheny - Allegheny Valley"
   ],
-  "School District:Berks - Boyertown Area": [
-    "Municipality:Montgomery - Upper Frederick Township",
-    "Municipality:Montgomery - New Hanover Township",
-    "Municipality:Montgomery - Douglass Township"
+  "Municipality:Allegheny - Springdale Township": [
+    "School District:Allegheny - Allegheny Valley"
   ],
-  "Municipality:Montgomery - Upper Salford Township": [
-    "School District:Montgomery - Souderton Area"
+  "Municipality:Allegheny - Stowe Township": [
+    "School District:Allegheny - Sto-Rox"
   ],
-  "School District:Montgomery - Souderton Area": [
-    "Municipality:Montgomery - Upper Salford Township",
-    "Municipality:Montgomery - Lower Salford Township",
-    "Municipality:Montgomery - Franconia Township",
-    "Municipality:Montgomery - Salford Township"
+  "Municipality:Allegheny - Swissvale Borough": [
+    "School District:Allegheny - Woodland Hills"
   ],
-  "Municipality:Montgomery - Worcester Township": [
-    "School District:Montgomery - Methacton"
+  "Municipality:Allegheny - Turtle Creek Borough": [
+    "School District:Allegheny - Woodland Hills"
   ],
-  "School District:Montgomery - Methacton": [
-    "Municipality:Montgomery - Worcester Township",
-    "Municipality:Montgomery - Lower Providence Township"
+  "Municipality:Allegheny - Upper St Clair Township": [
+    "School District:Allegheny - Upper Saint Clair"
   ],
-  "Municipality:Montgomery - Trappe Borough": [
-    "School District:Montgomery - Perkiomen Valley"
+  "School District:Allegheny - Upper Saint Clair": [
+    "Municipality:Allegheny - Upper St Clair Township"
   ],
-  "School District:Montgomery - Perkiomen Valley": [
-    "Municipality:Montgomery - Trappe Borough",
-    "Municipality:Montgomery - Skippack Township",
-    "Municipality:Montgomery - Lower Frederick Township",
-    "Municipality:Montgomery - Perkiomen Township"
+  "Municipality:Allegheny - Verona Borough": [
+    "School District:Allegheny - Riverview"
   ],
-  "Municipality:Montgomery - Lower Gwynedd Township": [
-    "School District:Montgomery - Wissahickon"
+  "Municipality:Allegheny - West Deer Township": [
+    "School District:Allegheny - Deer Lakes"
   ],
-  "Municipality:Montgomery - Lansdale Borough": [
-    "School District:Montgomery - North Penn"
+  "Municipality:Allegheny - West Homestead Borough": [
+    "School District:Allegheny - Steel Valley"
   ],
-  "School District:Montgomery - North Penn": [
-    "Municipality:Montgomery - Lansdale Borough",
-    "Municipality:Montgomery - Montgomery Township",
-    "Municipality:Montgomery - Towamencin Township",
-    "Municipality:Montgomery - Upper Gwynedd Township",
-    "Municipality:Montgomery - Hatfield Township"
+  "Municipality:Allegheny - West Mifflin Borough": [
+    "School District:Allegheny - West Mifflin Area"
   ],
-  "Municipality:Montgomery - Skippack Township": [
-    "School District:Montgomery - Perkiomen Valley"
+  "School District:Allegheny - West Mifflin Area": [
+    "Municipality:Allegheny - West Mifflin Borough"
   ],
-  "Municipality:Montgomery - New Hanover Township": [
-    "School District:Berks - Boyertown Area"
+  "Municipality:Allegheny - West View Borough": [
+    "School District:Allegheny - North Hills"
   ],
-  "Municipality:Montgomery - Lower Frederick Township": [
-    "School District:Montgomery - Perkiomen Valley"
+  "Municipality:Allegheny - White Oak Borough": [
+    "School District:Allegheny - McKeesport Area"
   ],
-  "Municipality:Montgomery - Lower Salford Township": [
-    "School District:Montgomery - Souderton Area"
+  "Municipality:Allegheny - Whitehall Borough": [
+    "School District:Allegheny - Baldwin-Whitehall"
   ],
-  "Municipality:Montgomery - Franconia Township": [
-    "School District:Montgomery - Souderton Area"
+  "Municipality:Allegheny - Wilkins Township": [
+    "School District:Allegheny - Woodland Hills"
   ],
-  "Municipality:Montgomery - Horsham Township": [
-    "School District:Montgomery - Hatboro-Horsham"
+  "Municipality:Allegheny - Wilkinsburg Borough": [
+    "School District:Allegheny - Wilkinsburg Borough"
   ],
-  "School District:Montgomery - Hatboro-Horsham": [
-    "Municipality:Montgomery - Horsham Township",
-    "Municipality:Montgomery - Hatboro Borough"
+  "School District:Allegheny - Wilkinsburg Borough": [
+    "Municipality:Allegheny - Wilkinsburg Borough"
   ],
-  "Municipality:Montgomery - Montgomery Township": [
-    "School District:Montgomery - North Penn"
+  "Municipality:Bucks - Bedminster Township": [
+    "School District:Bucks - Pennridge"
   ],
-  "Municipality:Montgomery - Perkiomen Township": [
-    "School District:Montgomery - Perkiomen Valley"
+  "School District:Bucks - Pennridge": [
+    "Municipality:Bucks - Bedminster Township",
+    "Municipality:Bucks - East Rockhill Township",
+    "Municipality:Bucks - Hilltown Township",
+    "Municipality:Bucks - West Rockhill Township"
   ],
-  "Municipality:Montgomery - Towamencin Township": [
-    "School District:Montgomery - North Penn"
+  "Municipality:Bucks - Bensalem Township": [
+    "School District:Bucks - Bensalem Township"
   ],
-  "Municipality:Montgomery - Upper Gwynedd Township": [
-    "School District:Montgomery - North Penn"
+  "School District:Bucks - Bensalem Township": [
+    "Municipality:Bucks - Bensalem Township"
   ],
-  "Municipality:Montgomery - Hatfield Township": [
-    "School District:Montgomery - North Penn"
+  "Municipality:Bucks - Bridgeton Township": [
+    "School District:Bucks - Palisades"
   ],
-  "Municipality:Bucks - Upper Makefield Township": [
-    "School District:Bucks - Council Rock"
-  ],
-  "School District:Bucks - Council Rock": [
-    "Municipality:Bucks - Upper Makefield Township",
-    "Municipality:Bucks - Newtown Township",
-    "Municipality:Bucks - Northampton Township",
-    "Municipality:Bucks - Wrightstown Township"
-  ],
-  "Municipality:Bucks - Newtown Township": [
-    "School District:Bucks - Council Rock"
-  ],
-  "Municipality:Bucks - Morrisville Borough": [
-    "School District:Bucks - Morrisville Borough"
-  ],
-  "School District:Bucks - Morrisville Borough": [
-    "Municipality:Bucks - Morrisville Borough"
-  ],
-  "Municipality:Bucks - Lower Makefield Township": [
-    "School District:Bucks - Pennsbury"
-  ],
-  "School District:Bucks - Pennsbury": [
-    "Municipality:Bucks - Lower Makefield Township",
-    "Municipality:Bucks - Falls Township"
+  "School District:Bucks - Palisades": [
+    "Municipality:Bucks - Bridgeton Township",
+    "Municipality:Bucks - Durham Township",
+    "Municipality:Bucks - Nockamixon Township",
+    "Municipality:Bucks - Springfield Township",
+    "Municipality:Bucks - Tinicum Township"
   ],
   "Municipality:Bucks - Bristol Borough": [
     "School District:Bucks - Bristol Borough"
@@ -634,45 +490,104 @@
   "School District:Bucks - Bristol Township": [
     "Municipality:Bucks - Bristol Township"
   ],
-  "Municipality:Bucks - Middletown Township": [
+  "Municipality:Bucks - Buckingham Township": [
+    "School District:Bucks - Central Bucks"
+  ],
+  "School District:Bucks - Central Bucks": [
+    "Municipality:Bucks - Buckingham Township",
+    "Municipality:Bucks - Doylestown Township",
+    "Municipality:Bucks - New Britain Township",
+    "Municipality:Bucks - Plumstead Township",
+    "Municipality:Bucks - Warrington Township",
+    "Municipality:Bucks - Warwick Township"
+  ],
+  "Municipality:Bucks - Doylestown Township": [
+    "School District:Bucks - Central Bucks"
+  ],
+  "Municipality:Bucks - Durham Township": [
+    "School District:Bucks - Palisades"
+  ],
+  "Municipality:Bucks - East Rockhill Township": [
+    "School District:Bucks - Pennridge"
+  ],
+  "Municipality:Bucks - Falls Township": [
+    "School District:Bucks - Pennsbury"
+  ],
+  "School District:Bucks - Pennsbury": [
+    "Municipality:Bucks - Falls Township",
+    "Municipality:Bucks - Lower Makefield Township"
+  ],
+  "Municipality:Bucks - Haycock Township": [
+    "School District:Bucks - Quakertown Community"
+  ],
+  "School District:Bucks - Quakertown Community": [
+    "Municipality:Bucks - Haycock Township",
+    "Municipality:Bucks - Milford Township",
+    "Municipality:Bucks - Richland Township"
+  ],
+  "Municipality:Bucks - Hilltown Township": [
+    "School District:Bucks - Pennridge"
+  ],
+  "Municipality:Bucks - Lower Makefield Township": [
+    "School District:Bucks - Pennsbury"
+  ],
+  "Municipality:Bucks - Lower Southampton Township": [
     "School District:Bucks - Neshaminy"
   ],
   "School District:Bucks - Neshaminy": [
-    "Municipality:Bucks - Middletown Township",
-    "Municipality:Bucks - Lower Southampton Township"
+    "Municipality:Bucks - Lower Southampton Township",
+    "Municipality:Bucks - Middletown Township"
   ],
-  "Municipality:Bucks - Bensalem Township": [
-    "School District:Bucks - Bensalem Township"
+  "Municipality:Bucks - Middletown Township": [
+    "School District:Bucks - Neshaminy"
   ],
-  "School District:Bucks - Bensalem Township": [
-    "Municipality:Bucks - Bensalem Township"
+  "Municipality:Bucks - Milford Township": [
+    "School District:Bucks - Quakertown Community"
+  ],
+  "Municipality:Bucks - Morrisville Borough": [
+    "School District:Bucks - Morrisville Borough"
+  ],
+  "School District:Bucks - Morrisville Borough": [
+    "Municipality:Bucks - Morrisville Borough"
+  ],
+  "Municipality:Bucks - New Britain Township": [
+    "School District:Bucks - Central Bucks"
+  ],
+  "Municipality:Bucks - Newtown Township": [
+    "School District:Bucks - Council Rock"
+  ],
+  "School District:Bucks - Council Rock": [
+    "Municipality:Bucks - Newtown Township",
+    "Municipality:Bucks - Northampton Township",
+    "Municipality:Bucks - Upper Makefield Township",
+    "Municipality:Bucks - Wrightstown Township"
+  ],
+  "Municipality:Bucks - Nockamixon Township": [
+    "School District:Bucks - Palisades"
   ],
   "Municipality:Bucks - Northampton Township": [
     "School District:Bucks - Council Rock"
   ],
-  "Municipality:Montgomery - Hatboro Borough": [
-    "School District:Montgomery - Hatboro-Horsham"
+  "Municipality:Bucks - Plumstead Township": [
+    "School District:Bucks - Central Bucks"
   ],
-  "Municipality:Montgomery - Upper Moreland Township": [
-    "School District:Montgomery - Upper Moreland Township"
+  "Municipality:Bucks - Richland Township": [
+    "School District:Bucks - Quakertown Community"
   ],
-  "School District:Montgomery - Upper Moreland Township": [
-    "Municipality:Montgomery - Upper Moreland Township"
+  "Municipality:Bucks - Solebury Township": [
+    "School District:Bucks - New Hope-Solebury"
   ],
-  "Municipality:Montgomery - Lower Moreland Township": [
-    "School District:Montgomery - Lower Moreland Township"
+  "School District:Bucks - New Hope-Solebury": [
+    "Municipality:Bucks - Solebury Township"
   ],
-  "School District:Montgomery - Lower Moreland Township": [
-    "Municipality:Montgomery - Lower Moreland Township"
+  "Municipality:Bucks - Springfield Township": [
+    "School District:Bucks - Palisades"
   ],
-  "Municipality:Montgomery - Bryn Athyn Borough": [
-    "School District:Montgomery - Bryn Athyn"
+  "Municipality:Bucks - Tinicum Township": [
+    "School District:Bucks - Palisades"
   ],
-  "School District:Montgomery - Bryn Athyn": [
-    "Municipality:Montgomery - Bryn Athyn Borough"
-  ],
-  "Municipality:Bucks - Lower Southampton Township": [
-    "School District:Bucks - Neshaminy"
+  "Municipality:Bucks - Upper Makefield Township": [
+    "School District:Bucks - Council Rock"
   ],
   "Municipality:Bucks - Upper Southampton Township": [
     "School District:Bucks - Centennial"
@@ -687,62 +602,311 @@
   "Municipality:Bucks - Warrington Township": [
     "School District:Bucks - Central Bucks"
   ],
-  "School District:Bucks - Central Bucks": [
-    "Municipality:Bucks - Warrington Township",
-    "Municipality:Bucks - Warwick Township",
-    "Municipality:Bucks - Buckingham Township",
-    "Municipality:Bucks - New Britain Township",
-    "Municipality:Bucks - Plumstead Township",
-    "Municipality:Bucks - Doylestown Township"
+  "Municipality:Bucks - Warwick Township": [
+    "School District:Bucks - Central Bucks"
   ],
-  "Municipality:Philadelphia - Philadelphia City": [
-    "School District:Philadelphia - Philadelphia City"
+  "Municipality:Bucks - West Rockhill Township": [
+    "School District:Bucks - Pennridge"
   ],
-  "School District:Philadelphia - Philadelphia City": [
-    "Municipality:Philadelphia - Philadelphia City"
+  "Municipality:Bucks - Wrightstown Township": [
+    "School District:Bucks - Council Rock"
   ],
-  "Municipality:Montgomery - Lower Merion Township": [
-    "School District:Montgomery - Lower Merion"
+  "Municipality:Chester - Birmingham Township": [
+    "School District:Chester - Unionville-Chadds Ford"
   ],
-  "School District:Montgomery - Lower Merion": [
-    "Municipality:Montgomery - Lower Merion Township"
+  "School District:Chester - Unionville-Chadds Ford": [
+    "Municipality:Chester - Birmingham Township",
+    "Municipality:Chester - East Marlborough Township",
+    "Municipality:Chester - Newlin Township",
+    "Municipality:Chester - Pennsbury Township",
+    "Municipality:Chester - Pocopson Township",
+    "Municipality:Chester - West Marlborough Township",
+    "Municipality:Delaware - Chadds Ford Township"
   ],
-  "Municipality:Delaware - Yeadon Borough": [
-    "School District:Delaware - William Penn"
+  "Municipality:Chester - Caln Township": [
+    "School District:Chester - Coatesville Area"
   ],
-  "School District:Delaware - William Penn": [
-    "Municipality:Delaware - Yeadon Borough",
-    "Municipality:Delaware - Colwyn Borough",
-    "Municipality:Delaware - Darby Borough",
-    "Municipality:Delaware - Lansdowne Borough",
-    "Municipality:Delaware - Aldan Borough"
+  "School District:Chester - Coatesville Area": [
+    "Municipality:Chester - Caln Township",
+    "Municipality:Chester - East Fallowfield Township",
+    "Municipality:Chester - Sadsbury Township",
+    "Municipality:Chester - Valley Township",
+    "Municipality:Chester - West Brandywine Township",
+    "Municipality:Chester - West Caln Township"
   ],
-  "Municipality:Delaware - Colwyn Borough": [
-    "School District:Delaware - William Penn"
+  "Municipality:Chester - Charlestown Township": [
+    "School District:Chester - Great Valley"
   ],
-  "Municipality:Delaware - Darby Borough": [
-    "School District:Delaware - William Penn"
+  "School District:Chester - Great Valley": [
+    "Municipality:Chester - Charlestown Township",
+    "Municipality:Chester - East Whiteland Township",
+    "Municipality:Chester - Willistown Township"
   ],
-  "Municipality:Delaware - Lansdowne Borough": [
-    "School District:Delaware - William Penn"
+  "Municipality:Chester - East Bradford Township": [
+    "School District:Chester - West Chester Area"
   ],
-  "Municipality:Montgomery - Upper Merion Township": [
-    "School District:Montgomery - Upper Merion Area"
+  "School District:Chester - West Chester Area": [
+    "Municipality:Chester - East Bradford Township",
+    "Municipality:Chester - East Goshen Township",
+    "Municipality:Chester - West Goshen Township",
+    "Municipality:Chester - West Whiteland Township",
+    "Municipality:Chester - Westtown Township",
+    "Municipality:Delaware - Thornbury Township"
   ],
-  "School District:Montgomery - Upper Merion Area": [
-    "Municipality:Montgomery - Upper Merion Township"
+  "Municipality:Chester - East Brandywine Township": [
+    "School District:Chester - Downingtown Area"
+  ],
+  "School District:Chester - Downingtown Area": [
+    "Municipality:Chester - East Brandywine Township",
+    "Municipality:Chester - Upper Uwchlan Township",
+    "Municipality:Chester - Uwchlan Township",
+    "Municipality:Chester - Wallace Township",
+    "Municipality:Chester - West Bradford Township",
+    "Municipality:Chester - West Pikeland Township"
+  ],
+  "Municipality:Chester - East Coventry Township": [
+    "School District:Chester - Owen J Roberts"
+  ],
+  "School District:Chester - Owen J Roberts": [
+    "Municipality:Chester - East Coventry Township",
+    "Municipality:Chester - East Nantmeal Township",
+    "Municipality:Chester - East Vincent Township",
+    "Municipality:Chester - North Coventry Township",
+    "Municipality:Chester - South Coventry Township",
+    "Municipality:Chester - Warwick Township",
+    "Municipality:Chester - West Vincent Township"
+  ],
+  "Municipality:Chester - East Fallowfield Township": [
+    "School District:Chester - Coatesville Area"
+  ],
+  "Municipality:Chester - East Goshen Township": [
+    "School District:Chester - West Chester Area"
+  ],
+  "Municipality:Chester - East Marlborough Township": [
+    "School District:Chester - Unionville-Chadds Ford"
+  ],
+  "Municipality:Chester - East Nantmeal Township": [
+    "School District:Chester - Owen J Roberts"
+  ],
+  "Municipality:Chester - East Nottingham Township": [
+    "School District:Chester - Oxford Area"
+  ],
+  "School District:Chester - Oxford Area": [
+    "Municipality:Chester - East Nottingham Township",
+    "Municipality:Chester - Elk Township",
+    "Municipality:Chester - Lower Oxford Township",
+    "Municipality:Chester - Upper Oxford Township",
+    "Municipality:Chester - West Nottingham Township"
+  ],
+  "Municipality:Chester - East Pikeland Township": [
+    "School District:Chester - Phoenixville Area"
+  ],
+  "School District:Chester - Phoenixville Area": [
+    "Municipality:Chester - East Pikeland Township",
+    "Municipality:Chester - Phoenixville Borough",
+    "Municipality:Chester - Schuylkill Township"
+  ],
+  "Municipality:Chester - East Vincent Township": [
+    "School District:Chester - Owen J Roberts"
+  ],
+  "Municipality:Chester - East Whiteland Township": [
+    "School District:Chester - Great Valley"
+  ],
+  "Municipality:Chester - Easttown Township": [
+    "School District:Chester - Tredyffrin-Easttown"
+  ],
+  "School District:Chester - Tredyffrin-Easttown": [
+    "Municipality:Chester - Easttown Township",
+    "Municipality:Chester - Tredyffrin Township"
+  ],
+  "Municipality:Chester - Elk Township": [
+    "School District:Chester - Oxford Area"
+  ],
+  "Municipality:Chester - Franklin Township": [
+    "School District:Chester - Avon Grove"
+  ],
+  "School District:Chester - Avon Grove": [
+    "Municipality:Chester - Franklin Township",
+    "Municipality:Chester - London Britain Township",
+    "Municipality:Chester - London Grove Township",
+    "Municipality:Chester - New London Township",
+    "Municipality:Chester - Penn Township"
+  ],
+  "Municipality:Chester - Highland Township": [
+    "School District:Chester - Octorara Area"
+  ],
+  "School District:Chester - Octorara Area": [
+    "Municipality:Chester - Highland Township",
+    "Municipality:Chester - Londonderry Township",
+    "Municipality:Chester - West Fallowfield Township",
+    "Municipality:Chester - West Sadsbury Township"
+  ],
+  "Municipality:Chester - Honey Brook Township": [
+    "School District:Berks - Twin Valley"
+  ],
+  "School District:Berks - Twin Valley": [
+    "Municipality:Chester - Honey Brook Township",
+    "Municipality:Chester - West Nantmeal Township"
+  ],
+  "Municipality:Chester - Kennett Township": [
+    "School District:Chester - Kennett Consolidated"
+  ],
+  "School District:Chester - Kennett Consolidated": [
+    "Municipality:Chester - Kennett Township",
+    "Municipality:Chester - New Garden Township"
+  ],
+  "Municipality:Chester - London Britain Township": [
+    "School District:Chester - Avon Grove"
+  ],
+  "Municipality:Chester - London Grove Township": [
+    "School District:Chester - Avon Grove"
+  ],
+  "Municipality:Chester - Londonderry Township": [
+    "School District:Chester - Octorara Area"
+  ],
+  "Municipality:Chester - Lower Oxford Township": [
+    "School District:Chester - Oxford Area"
+  ],
+  "Municipality:Chester - New Garden Township": [
+    "School District:Chester - Kennett Consolidated"
+  ],
+  "Municipality:Chester - New London Township": [
+    "School District:Chester - Avon Grove"
+  ],
+  "Municipality:Chester - Newlin Township": [
+    "School District:Chester - Unionville-Chadds Ford"
+  ],
+  "Municipality:Chester - North Coventry Township": [
+    "School District:Chester - Owen J Roberts"
+  ],
+  "Municipality:Chester - Penn Township": [
+    "School District:Chester - Avon Grove"
+  ],
+  "Municipality:Chester - Pennsbury Township": [
+    "School District:Chester - Unionville-Chadds Ford"
+  ],
+  "Municipality:Chester - Phoenixville Borough": [
+    "School District:Chester - Phoenixville Area"
+  ],
+  "Municipality:Chester - Pocopson Township": [
+    "School District:Chester - Unionville-Chadds Ford"
+  ],
+  "Municipality:Chester - Sadsbury Township": [
+    "School District:Chester - Coatesville Area"
+  ],
+  "Municipality:Chester - Schuylkill Township": [
+    "School District:Chester - Phoenixville Area"
+  ],
+  "Municipality:Chester - South Coventry Township": [
+    "School District:Chester - Owen J Roberts"
+  ],
+  "Municipality:Chester - Tredyffrin Township": [
+    "School District:Chester - Tredyffrin-Easttown"
+  ],
+  "Municipality:Chester - Upper Oxford Township": [
+    "School District:Chester - Oxford Area"
+  ],
+  "Municipality:Chester - Upper Uwchlan Township": [
+    "School District:Chester - Downingtown Area"
+  ],
+  "Municipality:Chester - Uwchlan Township": [
+    "School District:Chester - Downingtown Area"
+  ],
+  "Municipality:Chester - Valley Township": [
+    "School District:Chester - Coatesville Area"
+  ],
+  "Municipality:Chester - Wallace Township": [
+    "School District:Chester - Downingtown Area"
+  ],
+  "Municipality:Chester - Warwick Township": [
+    "School District:Chester - Owen J Roberts"
+  ],
+  "Municipality:Chester - West Bradford Township": [
+    "School District:Chester - Downingtown Area"
+  ],
+  "Municipality:Chester - West Brandywine Township": [
+    "School District:Chester - Coatesville Area"
+  ],
+  "Municipality:Chester - West Caln Township": [
+    "School District:Chester - Coatesville Area"
+  ],
+  "Municipality:Chester - West Fallowfield Township": [
+    "School District:Chester - Octorara Area"
+  ],
+  "Municipality:Chester - West Goshen Township": [
+    "School District:Chester - West Chester Area"
+  ],
+  "Municipality:Chester - West Marlborough Township": [
+    "School District:Chester - Unionville-Chadds Ford"
+  ],
+  "Municipality:Chester - West Nantmeal Township": [
+    "School District:Berks - Twin Valley"
+  ],
+  "Municipality:Chester - West Nottingham Township": [
+    "School District:Chester - Oxford Area"
+  ],
+  "Municipality:Chester - West Pikeland Township": [
+    "School District:Chester - Downingtown Area"
+  ],
+  "Municipality:Chester - West Sadsbury Township": [
+    "School District:Chester - Octorara Area"
+  ],
+  "Municipality:Chester - West Vincent Township": [
+    "School District:Chester - Owen J Roberts"
+  ],
+  "Municipality:Chester - West Whiteland Township": [
+    "School District:Chester - West Chester Area"
+  ],
+  "Municipality:Chester - Westtown Township": [
+    "School District:Chester - West Chester Area"
+  ],
+  "Municipality:Chester - Willistown Township": [
+    "School District:Chester - Great Valley"
   ],
   "Municipality:Delaware - Aldan Borough": [
     "School District:Delaware - William Penn"
   ],
-  "Municipality:Delaware - Sharon Hill Borough": [
-    "School District:Delaware - Southeast Delco"
+  "School District:Delaware - William Penn": [
+    "Municipality:Delaware - Aldan Borough",
+    "Municipality:Delaware - Colwyn Borough",
+    "Municipality:Delaware - Darby Borough",
+    "Municipality:Delaware - Lansdowne Borough",
+    "Municipality:Delaware - Yeadon Borough"
   ],
-  "School District:Delaware - Southeast Delco": [
-    "Municipality:Delaware - Sharon Hill Borough",
-    "Municipality:Delaware - Collingdale Borough",
-    "Municipality:Delaware - Folcroft Borough",
-    "Municipality:Delaware - Darby Township"
+  "Municipality:Delaware - Aston Township": [
+    "School District:Delaware - Penn-Delco"
+  ],
+  "School District:Delaware - Penn-Delco": [
+    "Municipality:Delaware - Aston Township",
+    "Municipality:Delaware - Brookhaven Borough"
+  ],
+  "Municipality:Delaware - Bethel Township": [
+    "School District:Delaware - Garnet Valley"
+  ],
+  "School District:Delaware - Garnet Valley": [
+    "Municipality:Delaware - Bethel Township",
+    "Municipality:Delaware - Chester Heights Borough",
+    "Municipality:Delaware - Concord Township"
+  ],
+  "Municipality:Delaware - Brookhaven Borough": [
+    "School District:Delaware - Penn-Delco"
+  ],
+  "Municipality:Delaware - Chadds Ford Township": [
+    "School District:Chester - Unionville-Chadds Ford"
+  ],
+  "Municipality:Delaware - Chester City": [
+    "School District:Delaware - Chester-Upland"
+  ],
+  "School District:Delaware - Chester-Upland": [
+    "Municipality:Delaware - Chester City",
+    "Municipality:Delaware - Chester Township",
+    "Municipality:Delaware - Upland Borough"
+  ],
+  "Municipality:Delaware - Chester Heights Borough": [
+    "School District:Delaware - Garnet Valley"
+  ],
+  "Municipality:Delaware - Chester Township": [
+    "School District:Delaware - Chester-Upland"
   ],
   "Municipality:Delaware - Clifton Heights Borough": [
     "School District:Delaware - Upper Darby"
@@ -754,42 +918,51 @@
   "Municipality:Delaware - Collingdale Borough": [
     "School District:Delaware - Southeast Delco"
   ],
-  "Municipality:Delaware - Folcroft Borough": [
-    "School District:Delaware - Southeast Delco"
+  "School District:Delaware - Southeast Delco": [
+    "Municipality:Delaware - Collingdale Borough",
+    "Municipality:Delaware - Darby Township",
+    "Municipality:Delaware - Folcroft Borough",
+    "Municipality:Delaware - Sharon Hill Borough"
   ],
-  "Municipality:Delaware - Tinicum Township": [
-    "School District:Delaware - Interboro"
+  "Municipality:Delaware - Colwyn Borough": [
+    "School District:Delaware - William Penn"
   ],
-  "School District:Delaware - Interboro": [
-    "Municipality:Delaware - Tinicum Township",
-    "Municipality:Delaware - Norwood Borough",
-    "Municipality:Delaware - Prospect Park Borough",
-    "Municipality:Delaware - Glenolden Borough"
+  "Municipality:Delaware - Concord Township": [
+    "School District:Delaware - Garnet Valley"
+  ],
+  "Municipality:Delaware - Darby Borough": [
+    "School District:Delaware - William Penn"
   ],
   "Municipality:Delaware - Darby Township": [
     "School District:Delaware - Southeast Delco"
   ],
-  "Municipality:Delaware - Nether Providence Township": [
-    "School District:Delaware - Wallingford-Swarthmore"
-  ],
-  "School District:Delaware - Wallingford-Swarthmore": [
-    "Municipality:Delaware - Nether Providence Township",
-    "Municipality:Delaware - Swarthmore Borough",
-    "Municipality:Delaware - Rose Valley Borough"
-  ],
-  "Municipality:Delaware - Radnor Township": [
-    "School District:Delaware - Radnor Township"
-  ],
-  "School District:Delaware - Radnor Township": [
-    "Municipality:Delaware - Radnor Township"
-  ],
-  "Municipality:Delaware - Ridley Township": [
+  "Municipality:Delaware - Eddystone Borough": [
     "School District:Delaware - Ridley"
   ],
   "School District:Delaware - Ridley": [
-    "Municipality:Delaware - Ridley Township",
     "Municipality:Delaware - Eddystone Borough",
-    "Municipality:Delaware - Ridley Park Borough"
+    "Municipality:Delaware - Ridley Park Borough",
+    "Municipality:Delaware - Ridley Township"
+  ],
+  "Municipality:Delaware - Edgmont Township": [
+    "School District:Delaware - Rose Tree Media"
+  ],
+  "School District:Delaware - Rose Tree Media": [
+    "Municipality:Delaware - Edgmont Township",
+    "Municipality:Delaware - Middletown Township",
+    "Municipality:Delaware - Upper Providence Township"
+  ],
+  "Municipality:Delaware - Folcroft Borough": [
+    "School District:Delaware - Southeast Delco"
+  ],
+  "Municipality:Delaware - Glenolden Borough": [
+    "School District:Delaware - Interboro"
+  ],
+  "School District:Delaware - Interboro": [
+    "Municipality:Delaware - Glenolden Borough",
+    "Municipality:Delaware - Norwood Borough",
+    "Municipality:Delaware - Prospect Park Borough",
+    "Municipality:Delaware - Tinicum Township"
   ],
   "Municipality:Delaware - Haverford Township": [
     "School District:Delaware - Haverford Township"
@@ -797,17 +970,20 @@
   "School District:Delaware - Haverford Township": [
     "Municipality:Delaware - Haverford Township"
   ],
-  "Municipality:Delaware - Swarthmore Borough": [
-    "School District:Delaware - Wallingford-Swarthmore"
+  "Municipality:Delaware - Lansdowne Borough": [
+    "School District:Delaware - William Penn"
   ],
-  "Municipality:Delaware - Rose Valley Borough": [
-    "School District:Delaware - Wallingford-Swarthmore"
+  "Municipality:Delaware - Lower Chichester Township": [
+    "School District:Delaware - Chichester"
   ],
-  "Municipality:Delaware - Eddystone Borough": [
-    "School District:Delaware - Ridley"
+  "School District:Delaware - Chichester": [
+    "Municipality:Delaware - Lower Chichester Township",
+    "Municipality:Delaware - Marcus Hook Borough",
+    "Municipality:Delaware - Trainer Borough",
+    "Municipality:Delaware - Upper Chichester Township"
   ],
-  "Municipality:Delaware - Norwood Borough": [
-    "School District:Delaware - Interboro"
+  "Municipality:Delaware - Marcus Hook Borough": [
+    "School District:Delaware - Chichester"
   ],
   "Municipality:Delaware - Marple Township": [
     "School District:Delaware - Marple Newtown"
@@ -816,6 +992,9 @@
     "Municipality:Delaware - Marple Township",
     "Municipality:Delaware - Newtown Township"
   ],
+  "Municipality:Delaware - Middletown Township": [
+    "School District:Delaware - Rose Tree Media"
+  ],
   "Municipality:Delaware - Morton Borough": [
     "School District:Delaware - Springfield"
   ],
@@ -823,107 +1002,142 @@
     "Municipality:Delaware - Morton Borough",
     "Municipality:Delaware - Springfield Township"
   ],
-  "Municipality:Delaware - Prospect Park Borough": [
-    "School District:Delaware - Interboro"
+  "Municipality:Delaware - Nether Providence Township": [
+    "School District:Delaware - Wallingford-Swarthmore"
   ],
-  "Municipality:Delaware - Ridley Park Borough": [
-    "School District:Delaware - Ridley"
-  ],
-  "Municipality:Chester - Willistown Township": [
-    "School District:Chester - Great Valley"
-  ],
-  "School District:Chester - Great Valley": [
-    "Municipality:Chester - Willistown Township",
-    "Municipality:Chester - East Whiteland Township",
-    "Municipality:Chester - Charlestown Township"
-  ],
-  "Municipality:Chester - Phoenixville Borough": [
-    "School District:Chester - Phoenixville Area"
-  ],
-  "School District:Chester - Phoenixville Area": [
-    "Municipality:Chester - Phoenixville Borough",
-    "Municipality:Chester - East Pikeland Township",
-    "Municipality:Chester - Schuylkill Township"
-  ],
-  "Municipality:Chester - Tredyffrin Township": [
-    "School District:Chester - Tredyffrin-Easttown"
-  ],
-  "School District:Chester - Tredyffrin-Easttown": [
-    "Municipality:Chester - Tredyffrin Township",
-    "Municipality:Chester - Easttown Township"
-  ],
-  "Municipality:Delaware - Edgmont Township": [
-    "School District:Delaware - Rose Tree Media"
-  ],
-  "School District:Delaware - Rose Tree Media": [
-    "Municipality:Delaware - Edgmont Township",
-    "Municipality:Delaware - Upper Providence Township",
-    "Municipality:Delaware - Middletown Township"
-  ],
-  "Municipality:Delaware - Glenolden Borough": [
-    "School District:Delaware - Interboro"
-  ],
-  "Municipality:Chester - East Pikeland Township": [
-    "School District:Chester - Phoenixville Area"
-  ],
-  "Municipality:Chester - East Whiteland Township": [
-    "School District:Chester - Great Valley"
-  ],
-  "Municipality:Delaware - Upper Providence Township": [
-    "School District:Delaware - Rose Tree Media"
+  "School District:Delaware - Wallingford-Swarthmore": [
+    "Municipality:Delaware - Nether Providence Township",
+    "Municipality:Delaware - Rose Valley Borough",
+    "Municipality:Delaware - Swarthmore Borough"
   ],
   "Municipality:Delaware - Newtown Township": [
     "School District:Delaware - Marple Newtown"
   ],
-  "Municipality:Chester - Charlestown Township": [
-    "School District:Chester - Great Valley"
+  "Municipality:Delaware - Norwood Borough": [
+    "School District:Delaware - Interboro"
   ],
-  "Municipality:Chester - Easttown Township": [
-    "School District:Chester - Tredyffrin-Easttown"
+  "Municipality:Delaware - Prospect Park Borough": [
+    "School District:Delaware - Interboro"
+  ],
+  "Municipality:Delaware - Radnor Township": [
+    "School District:Delaware - Radnor Township"
+  ],
+  "School District:Delaware - Radnor Township": [
+    "Municipality:Delaware - Radnor Township"
+  ],
+  "Municipality:Delaware - Ridley Park Borough": [
+    "School District:Delaware - Ridley"
+  ],
+  "Municipality:Delaware - Ridley Township": [
+    "School District:Delaware - Ridley"
+  ],
+  "Municipality:Delaware - Rose Valley Borough": [
+    "School District:Delaware - Wallingford-Swarthmore"
+  ],
+  "Municipality:Delaware - Sharon Hill Borough": [
+    "School District:Delaware - Southeast Delco"
   ],
   "Municipality:Delaware - Springfield Township": [
     "School District:Delaware - Springfield"
   ],
+  "Municipality:Delaware - Swarthmore Borough": [
+    "School District:Delaware - Wallingford-Swarthmore"
+  ],
+  "Municipality:Delaware - Thornbury Township": [
+    "School District:Chester - West Chester Area"
+  ],
+  "Municipality:Delaware - Tinicum Township": [
+    "School District:Delaware - Interboro"
+  ],
+  "Municipality:Delaware - Trainer Borough": [
+    "School District:Delaware - Chichester"
+  ],
+  "Municipality:Delaware - Upland Borough": [
+    "School District:Delaware - Chester-Upland"
+  ],
+  "Municipality:Delaware - Upper Chichester Township": [
+    "School District:Delaware - Chichester"
+  ],
   "Municipality:Delaware - Upper Darby Township": [
     "School District:Delaware - Upper Darby"
   ],
-  "Municipality:Chester - Schuylkill Township": [
-    "School District:Chester - Phoenixville Area"
+  "Municipality:Delaware - Upper Providence Township": [
+    "School District:Delaware - Rose Tree Media"
   ],
-  "Municipality:Chester - East Coventry Township": [
-    "School District:Chester - Owen J Roberts"
+  "Municipality:Delaware - Yeadon Borough": [
+    "School District:Delaware - William Penn"
   ],
-  "School District:Chester - Owen J Roberts": [
-    "Municipality:Chester - East Coventry Township",
-    "Municipality:Chester - East Vincent Township",
-    "Municipality:Chester - North Coventry Township",
-    "Municipality:Chester - East Nantmeal Township",
-    "Municipality:Chester - West Vincent Township",
-    "Municipality:Chester - South Coventry Township",
-    "Municipality:Chester - Warwick Township"
+  "Municipality:Montgomery - Abington Township": [
+    "School District:Montgomery - Abington"
   ],
-  "Municipality:Chester - East Vincent Township": [
-    "School District:Chester - Owen J Roberts"
+  "School District:Montgomery - Abington": [
+    "Municipality:Montgomery - Abington Township"
   ],
-  "Municipality:Montgomery - Lower Pottsgrove Township": [
-    "School District:Montgomery - Pottsgrove"
+  "Municipality:Montgomery - Bryn Athyn Borough": [
+    "School District:Montgomery - Bryn Athyn"
   ],
-  "School District:Montgomery - Pottsgrove": [
-    "Municipality:Montgomery - Lower Pottsgrove Township",
-    "Municipality:Montgomery - West Pottsgrove Township",
-    "Municipality:Montgomery - Upper Pottsgrove Township"
+  "School District:Montgomery - Bryn Athyn": [
+    "Municipality:Montgomery - Bryn Athyn Borough"
+  ],
+  "Municipality:Montgomery - Cheltenham Township": [
+    "School District:Montgomery - Cheltenham Township"
+  ],
+  "School District:Montgomery - Cheltenham Township": [
+    "Municipality:Montgomery - Cheltenham Township"
   ],
   "Municipality:Montgomery - Douglass Township": [
     "School District:Berks - Boyertown Area"
   ],
-  "Municipality:Montgomery - Pottstown Borough": [
-    "School District:Montgomery - Pottstown"
+  "School District:Berks - Boyertown Area": [
+    "Municipality:Montgomery - Douglass Township",
+    "Municipality:Montgomery - New Hanover Township",
+    "Municipality:Montgomery - Upper Frederick Township"
   ],
-  "School District:Montgomery - Pottstown": [
-    "Municipality:Montgomery - Pottstown Borough"
+  "Municipality:Montgomery - East Norriton Township": [
+    "School District:Montgomery - Norristown Area"
   ],
-  "Municipality:Montgomery - West Pottsgrove Township": [
-    "School District:Montgomery - Pottsgrove"
+  "School District:Montgomery - Norristown Area": [
+    "Municipality:Montgomery - East Norriton Township",
+    "Municipality:Montgomery - Norristown Borough",
+    "Municipality:Montgomery - West Norriton Township"
+  ],
+  "Municipality:Montgomery - Franconia Township": [
+    "School District:Montgomery - Souderton Area"
+  ],
+  "School District:Montgomery - Souderton Area": [
+    "Municipality:Montgomery - Franconia Township",
+    "Municipality:Montgomery - Lower Salford Township",
+    "Municipality:Montgomery - Salford Township",
+    "Municipality:Montgomery - Upper Salford Township"
+  ],
+  "Municipality:Montgomery - Hatboro Borough": [
+    "School District:Montgomery - Hatboro-Horsham"
+  ],
+  "School District:Montgomery - Hatboro-Horsham": [
+    "Municipality:Montgomery - Hatboro Borough",
+    "Municipality:Montgomery - Horsham Township"
+  ],
+  "Municipality:Montgomery - Hatfield Township": [
+    "School District:Montgomery - North Penn"
+  ],
+  "School District:Montgomery - North Penn": [
+    "Municipality:Montgomery - Hatfield Township",
+    "Municipality:Montgomery - Lansdale Borough",
+    "Municipality:Montgomery - Montgomery Township",
+    "Municipality:Montgomery - Towamencin Township",
+    "Municipality:Montgomery - Upper Gwynedd Township"
+  ],
+  "Municipality:Montgomery - Horsham Township": [
+    "School District:Montgomery - Hatboro-Horsham"
+  ],
+  "Municipality:Montgomery - Jenkintown Borough": [
+    "School District:Montgomery - Jenkintown"
+  ],
+  "School District:Montgomery - Jenkintown": [
+    "Municipality:Montgomery - Jenkintown Borough"
+  ],
+  "Municipality:Montgomery - Lansdale Borough": [
+    "School District:Montgomery - North Penn"
   ],
   "Municipality:Montgomery - Limerick Township": [
     "School District:Montgomery - Spring-Ford Area"
@@ -932,281 +1146,51 @@
     "Municipality:Montgomery - Limerick Township",
     "Municipality:Montgomery - Upper Providence Township"
   ],
-  "Municipality:Chester - North Coventry Township": [
-    "School District:Chester - Owen J Roberts"
+  "Municipality:Montgomery - Lower Frederick Township": [
+    "School District:Montgomery - Perkiomen Valley"
   ],
-  "Municipality:Montgomery - Upper Pottsgrove Township": [
+  "School District:Montgomery - Perkiomen Valley": [
+    "Municipality:Montgomery - Lower Frederick Township",
+    "Municipality:Montgomery - Perkiomen Township",
+    "Municipality:Montgomery - Skippack Township",
+    "Municipality:Montgomery - Trappe Borough"
+  ],
+  "Municipality:Montgomery - Lower Gwynedd Township": [
+    "School District:Montgomery - Wissahickon"
+  ],
+  "School District:Montgomery - Wissahickon": [
+    "Municipality:Montgomery - Lower Gwynedd Township",
+    "Municipality:Montgomery - Whitpain Township"
+  ],
+  "Municipality:Montgomery - Lower Merion Township": [
+    "School District:Montgomery - Lower Merion"
+  ],
+  "School District:Montgomery - Lower Merion": [
+    "Municipality:Montgomery - Lower Merion Township"
+  ],
+  "Municipality:Montgomery - Lower Moreland Township": [
+    "School District:Montgomery - Lower Moreland Township"
+  ],
+  "School District:Montgomery - Lower Moreland Township": [
+    "Municipality:Montgomery - Lower Moreland Township"
+  ],
+  "Municipality:Montgomery - Lower Pottsgrove Township": [
     "School District:Montgomery - Pottsgrove"
+  ],
+  "School District:Montgomery - Pottsgrove": [
+    "Municipality:Montgomery - Lower Pottsgrove Township",
+    "Municipality:Montgomery - Upper Pottsgrove Township",
+    "Municipality:Montgomery - West Pottsgrove Township"
   ],
   "Municipality:Montgomery - Lower Providence Township": [
     "School District:Montgomery - Methacton"
   ],
-  "Municipality:Montgomery - Upper Providence Township": [
-    "School District:Montgomery - Spring-Ford Area"
-  ],
-  "Municipality:Delaware - Lower Chichester Township": [
-    "School District:Delaware - Chichester"
-  ],
-  "School District:Delaware - Chichester": [
-    "Municipality:Delaware - Lower Chichester Township",
-    "Municipality:Delaware - Upper Chichester Township",
-    "Municipality:Delaware - Trainer Borough",
-    "Municipality:Delaware - Marcus Hook Borough"
-  ],
-  "Municipality:Chester - Caln Township": [
-    "School District:Chester - Coatesville Area"
-  ],
-  "School District:Chester - Coatesville Area": [
-    "Municipality:Chester - Caln Township",
-    "Municipality:Chester - East Fallowfield Township",
-    "Municipality:Chester - West Caln Township",
-    "Municipality:Chester - West Brandywine Township",
-    "Municipality:Chester - Sadsbury Township",
-    "Municipality:Chester - Valley Township"
-  ],
-  "Municipality:Delaware - Thornbury Township": [
-    "School District:Chester - West Chester Area"
-  ],
-  "School District:Chester - West Chester Area": [
-    "Municipality:Delaware - Thornbury Township",
-    "Municipality:Chester - East Bradford Township",
-    "Municipality:Chester - West Whiteland Township",
-    "Municipality:Chester - East Goshen Township",
-    "Municipality:Chester - West Goshen Township",
-    "Municipality:Chester - Westtown Township"
-  ],
-  "Municipality:Delaware - Upper Chichester Township": [
-    "School District:Delaware - Chichester"
-  ],
-  "Municipality:Delaware - Upland Borough": [
-    "School District:Delaware - Chester-Upland"
-  ],
-  "School District:Delaware - Chester-Upland": [
-    "Municipality:Delaware - Upland Borough",
-    "Municipality:Delaware - Chester Township",
-    "Municipality:Delaware - Chester City"
-  ],
-  "Municipality:Delaware - Chester Township": [
-    "School District:Delaware - Chester-Upland"
-  ],
-  "Municipality:Delaware - Brookhaven Borough": [
-    "School District:Delaware - Penn-Delco"
-  ],
-  "School District:Delaware - Penn-Delco": [
-    "Municipality:Delaware - Brookhaven Borough",
-    "Municipality:Delaware - Aston Township"
-  ],
-  "Municipality:Chester - Wallace Township": [
-    "School District:Chester - Downingtown Area"
-  ],
-  "School District:Chester - Downingtown Area": [
-    "Municipality:Chester - Wallace Township",
-    "Municipality:Chester - East Brandywine Township",
-    "Municipality:Chester - West Pikeland Township",
-    "Municipality:Chester - Upper Uwchlan Township",
-    "Municipality:Chester - West Bradford Township",
-    "Municipality:Chester - Uwchlan Township"
-  ],
-  "Municipality:Delaware - Chester Heights Borough": [
-    "School District:Delaware - Garnet Valley"
-  ],
-  "School District:Delaware - Garnet Valley": [
-    "Municipality:Delaware - Chester Heights Borough",
-    "Municipality:Delaware - Concord Township",
-    "Municipality:Delaware - Bethel Township"
-  ],
-  "Municipality:Delaware - Chadds Ford Township": [
-    "School District:Chester - Unionville-Chadds Ford"
-  ],
-  "School District:Chester - Unionville-Chadds Ford": [
-    "Municipality:Delaware - Chadds Ford Township",
-    "Municipality:Chester - Birmingham Township",
-    "Municipality:Chester - East Marlborough Township",
-    "Municipality:Chester - Pocopson Township",
-    "Municipality:Chester - West Marlborough Township",
-    "Municipality:Chester - Newlin Township",
-    "Municipality:Chester - Pennsbury Township"
-  ],
-  "Municipality:Delaware - Trainer Borough": [
-    "School District:Delaware - Chichester"
-  ],
-  "Municipality:Delaware - Aston Township": [
-    "School District:Delaware - Penn-Delco"
-  ],
-  "Municipality:Chester - East Nantmeal Township": [
-    "School District:Chester - Owen J Roberts"
-  ],
-  "Municipality:Chester - East Brandywine Township": [
-    "School District:Chester - Downingtown Area"
-  ],
-  "Municipality:Chester - Penn Township": [
-    "School District:Chester - Avon Grove"
-  ],
-  "School District:Chester - Avon Grove": [
-    "Municipality:Chester - Penn Township",
-    "Municipality:Chester - Franklin Township",
-    "Municipality:Chester - London Britain Township",
-    "Municipality:Chester - New London Township",
-    "Municipality:Chester - London Grove Township"
-  ],
-  "Municipality:Chester - Birmingham Township": [
-    "School District:Chester - Unionville-Chadds Ford"
-  ],
-  "Municipality:Chester - East Bradford Township": [
-    "School District:Chester - West Chester Area"
-  ],
-  "Municipality:Chester - Franklin Township": [
-    "School District:Chester - Avon Grove"
-  ],
-  "Municipality:Chester - Highland Township": [
-    "School District:Chester - Octorara Area"
-  ],
-  "School District:Chester - Octorara Area": [
-    "Municipality:Chester - Highland Township",
-    "Municipality:Chester - West Fallowfield Township",
-    "Municipality:Chester - West Sadsbury Township",
-    "Municipality:Chester - Londonderry Township"
-  ],
-  "Municipality:Chester - East Nottingham Township": [
-    "School District:Chester - Oxford Area"
-  ],
-  "School District:Chester - Oxford Area": [
-    "Municipality:Chester - East Nottingham Township",
-    "Municipality:Chester - Elk Township",
-    "Municipality:Chester - West Nottingham Township",
-    "Municipality:Chester - Upper Oxford Township",
-    "Municipality:Chester - Lower Oxford Township"
-  ],
-  "Municipality:Chester - East Marlborough Township": [
-    "School District:Chester - Unionville-Chadds Ford"
-  ],
-  "Municipality:Chester - London Britain Township": [
-    "School District:Chester - Avon Grove"
-  ],
-  "Municipality:Chester - West Vincent Township": [
-    "School District:Chester - Owen J Roberts"
-  ],
-  "Municipality:Chester - West Whiteland Township": [
-    "School District:Chester - West Chester Area"
-  ],
-  "Municipality:Chester - East Fallowfield Township": [
-    "School District:Chester - Coatesville Area"
-  ],
-  "Municipality:Chester - East Goshen Township": [
-    "School District:Chester - West Chester Area"
-  ],
-  "Municipality:Delaware - Concord Township": [
-    "School District:Delaware - Garnet Valley"
-  ],
-  "Municipality:Delaware - Bethel Township": [
-    "School District:Delaware - Garnet Valley"
-  ],
-  "Municipality:Chester - Pocopson Township": [
-    "School District:Chester - Unionville-Chadds Ford"
-  ],
-  "Municipality:Chester - West Fallowfield Township": [
-    "School District:Chester - Octorara Area"
-  ],
-  "Municipality:Chester - Elk Township": [
-    "School District:Chester - Oxford Area"
-  ],
-  "Municipality:Chester - West Marlborough Township": [
-    "School District:Chester - Unionville-Chadds Ford"
-  ],
-  "Municipality:Chester - West Nantmeal Township": [
-    "School District:Berks - Twin Valley"
-  ],
-  "School District:Berks - Twin Valley": [
-    "Municipality:Chester - West Nantmeal Township",
-    "Municipality:Chester - Honey Brook Township"
-  ],
-  "Municipality:Chester - West Nottingham Township": [
-    "School District:Chester - Oxford Area"
-  ],
-  "Municipality:Chester - West Pikeland Township": [
-    "School District:Chester - Downingtown Area"
-  ],
-  "Municipality:Chester - West Sadsbury Township": [
-    "School District:Chester - Octorara Area"
-  ],
-  "Municipality:Chester - West Goshen Township": [
-    "School District:Chester - West Chester Area"
-  ],
-  "Municipality:Chester - West Caln Township": [
-    "School District:Chester - Coatesville Area"
-  ],
-  "Municipality:Chester - West Brandywine Township": [
-    "School District:Chester - Coatesville Area"
-  ],
-  "Municipality:Chester - Upper Oxford Township": [
-    "School District:Chester - Oxford Area"
-  ],
-  "Municipality:Chester - Newlin Township": [
-    "School District:Chester - Unionville-Chadds Ford"
-  ],
-  "Municipality:Chester - Upper Uwchlan Township": [
-    "School District:Chester - Downingtown Area"
-  ],
-  "Municipality:Chester - West Bradford Township": [
-    "School District:Chester - Downingtown Area"
-  ],
-  "Municipality:Chester - Londonderry Township": [
-    "School District:Chester - Octorara Area"
-  ],
-  "Municipality:Chester - Lower Oxford Township": [
-    "School District:Chester - Oxford Area"
-  ],
-  "Municipality:Chester - New London Township": [
-    "School District:Chester - Avon Grove"
-  ],
-  "Municipality:Chester - New Garden Township": [
-    "School District:Chester - Kennett Consolidated"
-  ],
-  "School District:Chester - Kennett Consolidated": [
-    "Municipality:Chester - New Garden Township",
-    "Municipality:Chester - Kennett Township"
-  ],
-  "Municipality:Delaware - Middletown Township": [
-    "School District:Delaware - Rose Tree Media"
-  ],
-  "Municipality:Delaware - Chester City": [
-    "School District:Delaware - Chester-Upland"
-  ],
-  "Municipality:Chester - Sadsbury Township": [
-    "School District:Chester - Coatesville Area"
-  ],
-  "Municipality:Chester - Uwchlan Township": [
-    "School District:Chester - Downingtown Area"
-  ],
-  "Municipality:Chester - Westtown Township": [
-    "School District:Chester - West Chester Area"
-  ],
-  "Municipality:Delaware - Marcus Hook Borough": [
-    "School District:Delaware - Chichester"
-  ],
-  "Municipality:Chester - Kennett Township": [
-    "School District:Chester - Kennett Consolidated"
-  ],
-  "Municipality:Chester - Honey Brook Township": [
-    "School District:Berks - Twin Valley"
-  ],
-  "Municipality:Chester - London Grove Township": [
-    "School District:Chester - Avon Grove"
-  ],
-  "Municipality:Chester - Pennsbury Township": [
-    "School District:Chester - Unionville-Chadds Ford"
-  ],
-  "Municipality:Chester - Valley Township": [
-    "School District:Chester - Coatesville Area"
-  ],
-  "Municipality:Chester - South Coventry Township": [
-    "School District:Chester - Owen J Roberts"
-  ],
-  "Municipality:Chester - Warwick Township": [
-    "School District:Chester - Owen J Roberts"
-  ],
-  "Municipality:Bucks - Falls Township": [
-    "School District:Bucks - Pennsbury"
+  "School District:Montgomery - Methacton": [
+    "Municipality:Montgomery - Lower Providence Township",
+    "Municipality:Montgomery - Worcester Township"
+  ],
+  "Municipality:Montgomery - Lower Salford Township": [
+    "School District:Montgomery - Souderton Area"
   ],
   "Municipality:Montgomery - Marlborough Township": [
     "School District:Montgomery - Upper Perkiomen"
@@ -1215,88 +1199,104 @@
     "Municipality:Montgomery - Marlborough Township",
     "Municipality:Montgomery - Upper Hanover Township"
   ],
+  "Municipality:Montgomery - Montgomery Township": [
+    "School District:Montgomery - North Penn"
+  ],
+  "Municipality:Montgomery - New Hanover Township": [
+    "School District:Berks - Boyertown Area"
+  ],
+  "Municipality:Montgomery - Norristown Borough": [
+    "School District:Montgomery - Norristown Area"
+  ],
+  "Municipality:Montgomery - Perkiomen Township": [
+    "School District:Montgomery - Perkiomen Valley"
+  ],
+  "Municipality:Montgomery - Plymouth Township": [
+    "School District:Montgomery - Colonial"
+  ],
+  "School District:Montgomery - Colonial": [
+    "Municipality:Montgomery - Plymouth Township",
+    "Municipality:Montgomery - Whitemarsh Township"
+  ],
+  "Municipality:Montgomery - Pottstown Borough": [
+    "School District:Montgomery - Pottstown"
+  ],
+  "School District:Montgomery - Pottstown": [
+    "Municipality:Montgomery - Pottstown Borough"
+  ],
   "Municipality:Montgomery - Salford Township": [
     "School District:Montgomery - Souderton Area"
   ],
-  "Municipality:Bucks - Bedminster Township": [
-    "School District:Bucks - Pennridge"
+  "Municipality:Montgomery - Skippack Township": [
+    "School District:Montgomery - Perkiomen Valley"
   ],
-  "School District:Bucks - Pennridge": [
-    "Municipality:Bucks - Bedminster Township",
-    "Municipality:Bucks - East Rockhill Township",
-    "Municipality:Bucks - West Rockhill Township",
-    "Municipality:Bucks - Hilltown Township"
+  "Municipality:Montgomery - Springfield Township": [
+    "School District:Montgomery - Springfield Township"
   ],
-  "Municipality:Bucks - Warwick Township": [
-    "School District:Bucks - Central Bucks"
+  "School District:Montgomery - Springfield Township": [
+    "Municipality:Montgomery - Springfield Township"
   ],
-  "Municipality:Bucks - Wrightstown Township": [
-    "School District:Bucks - Council Rock"
+  "Municipality:Montgomery - Towamencin Township": [
+    "School District:Montgomery - North Penn"
   ],
-  "Municipality:Bucks - Buckingham Township": [
-    "School District:Bucks - Central Bucks"
+  "Municipality:Montgomery - Trappe Borough": [
+    "School District:Montgomery - Perkiomen Valley"
   ],
-  "Municipality:Bucks - East Rockhill Township": [
-    "School District:Bucks - Pennridge"
+  "Municipality:Montgomery - Upper Dublin Township": [
+    "School District:Montgomery - Upper Dublin"
   ],
-  "Municipality:Bucks - New Britain Township": [
-    "School District:Bucks - Central Bucks"
+  "School District:Montgomery - Upper Dublin": [
+    "Municipality:Montgomery - Upper Dublin Township"
   ],
-  "Municipality:Bucks - Plumstead Township": [
-    "School District:Bucks - Central Bucks"
+  "Municipality:Montgomery - Upper Frederick Township": [
+    "School District:Berks - Boyertown Area"
   ],
-  "Municipality:Bucks - Solebury Township": [
-    "School District:Bucks - New Hope-Solebury"
-  ],
-  "School District:Bucks - New Hope-Solebury": [
-    "Municipality:Bucks - Solebury Township"
-  ],
-  "Municipality:Bucks - West Rockhill Township": [
-    "School District:Bucks - Pennridge"
+  "Municipality:Montgomery - Upper Gwynedd Township": [
+    "School District:Montgomery - North Penn"
   ],
   "Municipality:Montgomery - Upper Hanover Township": [
     "School District:Montgomery - Upper Perkiomen"
   ],
-  "Municipality:Bucks - Doylestown Township": [
-    "School District:Bucks - Central Bucks"
+  "Municipality:Montgomery - Upper Merion Township": [
+    "School District:Montgomery - Upper Merion Area"
   ],
-  "Municipality:Bucks - Richland Township": [
-    "School District:Bucks - Quakertown Community"
+  "School District:Montgomery - Upper Merion Area": [
+    "Municipality:Montgomery - Upper Merion Township"
   ],
-  "School District:Bucks - Quakertown Community": [
-    "Municipality:Bucks - Richland Township",
-    "Municipality:Bucks - Milford Township",
-    "Municipality:Bucks - Haycock Township"
+  "Municipality:Montgomery - Upper Moreland Township": [
+    "School District:Montgomery - Upper Moreland Township"
   ],
-  "Municipality:Bucks - Hilltown Township": [
-    "School District:Bucks - Pennridge"
+  "School District:Montgomery - Upper Moreland Township": [
+    "Municipality:Montgomery - Upper Moreland Township"
   ],
-  "Municipality:Bucks - Milford Township": [
-    "School District:Bucks - Quakertown Community"
+  "Municipality:Montgomery - Upper Pottsgrove Township": [
+    "School District:Montgomery - Pottsgrove"
   ],
-  "Municipality:Bucks - Durham Township": [
-    "School District:Bucks - Palisades"
+  "Municipality:Montgomery - Upper Providence Township": [
+    "School District:Montgomery - Spring-Ford Area"
   ],
-  "School District:Bucks - Palisades": [
-    "Municipality:Bucks - Durham Township",
-    "Municipality:Bucks - Nockamixon Township",
-    "Municipality:Bucks - Tinicum Township",
-    "Municipality:Bucks - Springfield Township",
-    "Municipality:Bucks - Bridgeton Township"
+  "Municipality:Montgomery - Upper Salford Township": [
+    "School District:Montgomery - Souderton Area"
   ],
-  "Municipality:Bucks - Nockamixon Township": [
-    "School District:Bucks - Palisades"
+  "Municipality:Montgomery - West Norriton Township": [
+    "School District:Montgomery - Norristown Area"
   ],
-  "Municipality:Bucks - Haycock Township": [
-    "School District:Bucks - Quakertown Community"
+  "Municipality:Montgomery - West Pottsgrove Township": [
+    "School District:Montgomery - Pottsgrove"
   ],
-  "Municipality:Bucks - Tinicum Township": [
-    "School District:Bucks - Palisades"
+  "Municipality:Montgomery - Whitemarsh Township": [
+    "School District:Montgomery - Colonial"
   ],
-  "Municipality:Bucks - Springfield Township": [
-    "School District:Bucks - Palisades"
+  "Municipality:Montgomery - Whitpain Township": [
+    "School District:Montgomery - Wissahickon"
   ],
-  "Municipality:Bucks - Bridgeton Township": [
-    "School District:Bucks - Palisades"
+  "Municipality:Montgomery - Worcester Township": [
+    "School District:Montgomery - Methacton"
+  ],
+  "Municipality:Philadelphia - Philadelphia City": [
+    "School District:Philadelphia - Philadelphia City"
+  ],
+  "School District:Philadelphia - Philadelphia City": [
+    "Municipality:Philadelphia - Philadelphia City"
   ]
 }

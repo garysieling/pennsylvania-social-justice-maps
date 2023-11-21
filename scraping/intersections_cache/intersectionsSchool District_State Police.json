@@ -1,117 +1,202 @@
 {
-  "School District:Tioga - Northern Tioga": [
-    "State Police:F"
+  "School District:Armstrong - Armstrong": [
+    "State Police:D"
   ],
-  "State Police:F": [
-    "School District:Tioga - Northern Tioga",
-    "School District:Clinton - Keystone Central",
-    "School District:Tioga - Southern Tioga",
-    "School District:Tioga - Wellsboro Area",
-    "School District:Lycoming - Jersey Shore Area",
-    "School District:Cameron - Cameron County"
+  "State Police:D": [
+    "School District:Armstrong - Armstrong"
   ],
-  "School District:Lehigh - Northwestern Lehigh": [
-    "State Police:M"
-  ],
-  "State Police:M": [
-    "School District:Lehigh - Northwestern Lehigh",
-    "School District:Lehigh - Parkland",
-    "School District:Bucks - Pennridge",
-    "School District:Bucks - Quakertown Community",
-    "School District:Bucks - Palisades",
-    "School District:Northampton - Northampton Area",
-    "School District:Northampton - Bangor Area",
-    "School District:Bucks - Central Bucks"
-  ],
-  "School District:Centre - Penns Valley Area": [
-    "State Police:G"
-  ],
-  "State Police:G": [
-    "School District:Centre - Penns Valley Area",
-    "School District:Juniata - Juniata County",
-    "School District:Huntingdon - Huntingdon Area",
-    "School District:Mifflin - Mifflin County",
-    "School District:Bedford - Bedford Area",
-    "School District:Centre - Bald Eagle Area",
-    "School District:Bedford - Everett Area"
-  ],
-  "School District:Philadelphia - Philadelphia City": [
-    "State Police:K"
-  ],
-  "State Police:K": [
-    "School District:Philadelphia - Philadelphia City",
-    "School District:Montgomery - Souderton Area",
-    "School District:Berks - Boyertown Area"
-  ],
-  "School District:Bradford - Towanda Area": [
+  "School District:Bradford - Athens Area": [
     "State Police:P"
   ],
   "State Police:P": [
-    "School District:Bradford - Towanda Area",
+    "School District:Bradford - Athens Area",
     "School District:Luzerne - Lake-Lehman",
     "School District:Bradford - Northeast Bradford",
-    "School District:Wyoming - Tunkhannock Area",
-    "School District:Bradford - Wyalusing Area",
-    "School District:Bradford - Troy Area",
     "School District:Sullivan - Sullivan County",
-    "School District:Bradford - Athens Area"
+    "School District:Bradford - Towanda Area",
+    "School District:Bradford - Troy Area",
+    "School District:Wyoming - Tunkhannock Area",
+    "School District:Bradford - Wyalusing Area"
   ],
-  "School District:Lehigh - Parkland": [
+  "School District:Centre - Bald Eagle Area": [
+    "State Police:G"
+  ],
+  "State Police:G": [
+    "School District:Centre - Bald Eagle Area",
+    "School District:Bedford - Bedford Area",
+    "School District:Bedford - Everett Area",
+    "School District:Huntingdon - Huntingdon Area",
+    "School District:Juniata - Juniata County",
+    "School District:Mifflin - Mifflin County",
+    "School District:Centre - Penns Valley Area"
+  ],
+  "School District:Northampton - Bangor Area": [
     "State Police:M"
   ],
-  "School District:Crawford - Penncrest": [
+  "State Police:M": [
+    "School District:Northampton - Bangor Area",
+    "School District:Bucks - Central Bucks",
+    "School District:Northampton - Northampton Area",
+    "School District:Lehigh - Northwestern Lehigh",
+    "School District:Bucks - Palisades",
+    "School District:Lehigh - Parkland",
+    "School District:Bucks - Pennridge",
+    "School District:Bucks - Quakertown Community"
+  ],
+  "School District:Bedford - Bedford Area": [
+    "State Police:G"
+  ],
+  "School District:Columbia - Benton Area": [
+    "State Police:N"
+  ],
+  "State Police:N": [
+    "School District:Columbia - Benton Area",
+    "School District:Monroe - East Stroudsburg Area",
+    "School District:Luzerne - Hazleton Area",
+    "School District:Carbon - Jim Thorpe Area",
+    "School District:Monroe - Pleasant Valley",
+    "School District:Monroe - Pocono Mountain",
+    "School District:Carbon - Weatherly Area"
+  ],
+  "School District:Cumberland - Big Spring": [
+    "State Police:H"
+  ],
+  "State Police:H": [
+    "School District:Cumberland - Big Spring",
+    "School District:Franklin - Chambersburg Area",
+    "School District:Adams - Gettysburg Area",
+    "School District:Franklin - Tuscarora",
+    "School District:Perry - West Perry"
+  ],
+  "School District:Schuylkill - Blue Mountain": [
+    "State Police:L"
+  ],
+  "State Police:L": [
+    "School District:Schuylkill - Blue Mountain",
+    "School District:Lebanon - Northern Lebanon",
+    "School District:Schuylkill - Tamaqua Area"
+  ],
+  "School District:Berks - Boyertown Area": [
+    "State Police:K"
+  ],
+  "State Police:K": [
+    "School District:Berks - Boyertown Area",
+    "School District:Philadelphia - Philadelphia City",
+    "School District:Montgomery - Souderton Area"
+  ],
+  "School District:Jefferson - Brookville Area": [
+    "State Police:C"
+  ],
+  "State Police:C": [
+    "School District:Jefferson - Brookville Area",
+    "School District:Clearfield - Clearfield Area",
+    "School District:Clearfield - Dubois Area",
+    "School District:Forest - Forest Area",
+    "School District:Jefferson - Punxsutawney Area",
+    "School District:Mckean - Smethport Area",
+    "School District:Elk - Saint Marys Area"
+  ],
+  "School District:Cameron - Cameron County": [
+    "State Police:F"
+  ],
+  "State Police:F": [
+    "School District:Cameron - Cameron County",
+    "School District:Lycoming - Jersey Shore Area",
+    "School District:Clinton - Keystone Central",
+    "School District:Tioga - Northern Tioga",
+    "School District:Tioga - Southern Tioga",
+    "School District:Tioga - Wellsboro Area"
+  ],
+  "School District:Bucks - Central Bucks": [
+    "State Police:M"
+  ],
+  "School District:Greene - Central Greene": [
+    "State Police:B"
+  ],
+  "State Police:B": [
+    "School District:Greene - Central Greene",
+    "School District:Fayette - Connellsville Area",
+    "School District:Washington - Mcguffey",
+    "School District:Fayette - Uniontown Area",
+    "School District:Greene - West Greene"
+  ],
+  "School District:Franklin - Chambersburg Area": [
+    "State Police:H"
+  ],
+  "School District:Clearfield - Clearfield Area": [
+    "State Police:C"
+  ],
+  "School District:Crawford - Conneaut": [
     "State Police:E"
   ],
   "State Police:E": [
-    "School District:Crawford - Penncrest",
-    "School District:Warren - Warren County",
-    "School District:Venango - Titusville Area",
-    "School District:Erie - Corry Area",
     "School District:Crawford - Conneaut",
-    "School District:Venango - Franklin Area"
+    "School District:Erie - Corry Area",
+    "School District:Venango - Franklin Area",
+    "School District:Crawford - Penncrest",
+    "School District:Venango - Titusville Area",
+    "School District:Warren - Warren County"
   ],
-  "School District:Bucks - Pennridge": [
-    "State Police:M"
+  "School District:Fayette - Connellsville Area": [
+    "State Police:B"
   ],
-  "School District:Wayne - Wallenpaupack Area": [
+  "School District:Erie - Corry Area": [
+    "State Police:E"
+  ],
+  "School District:Pike - Delaware Valley": [
     "State Police:R"
   ],
   "State Police:R": [
-    "School District:Wayne - Wallenpaupack Area",
-    "School District:Susquehanna - Montrose Area",
-    "School District:Lackawanna - North Pocono",
-    "School District:Susquehanna - Mountain View",
-    "School District:Wayne - Western Wayne",
-    "School District:Wayne - Wayne Highlands",
+    "School District:Pike - Delaware Valley",
     "School District:Susquehanna - Elk Lake",
-    "School District:Pike - Delaware Valley"
+    "School District:Susquehanna - Montrose Area",
+    "School District:Susquehanna - Mountain View",
+    "School District:Lackawanna - North Pocono",
+    "School District:Wayne - Wallenpaupack Area",
+    "School District:Wayne - Wayne Highlands",
+    "School District:Wayne - Western Wayne"
   ],
-  "School District:Warren - Warren County": [
+  "School District:Clearfield - Dubois Area": [
+    "State Police:C"
+  ],
+  "School District:Monroe - East Stroudsburg Area": [
+    "State Police:N"
+  ],
+  "School District:Susquehanna - Elk Lake": [
+    "State Police:R"
+  ],
+  "School District:Bedford - Everett Area": [
+    "State Police:G"
+  ],
+  "School District:Forest - Forest Area": [
+    "State Police:C"
+  ],
+  "School District:Venango - Franklin Area": [
     "State Police:E"
+  ],
+  "School District:Adams - Gettysburg Area": [
+    "State Police:H"
+  ],
+  "School District:Luzerne - Hazleton Area": [
+    "State Police:N"
+  ],
+  "School District:Huntingdon - Huntingdon Area": [
+    "State Police:G"
+  ],
+  "School District:Lycoming - Jersey Shore Area": [
+    "State Police:F"
+  ],
+  "School District:Carbon - Jim Thorpe Area": [
+    "State Police:N"
   ],
   "School District:Juniata - Juniata County": [
     "State Police:G"
   ],
-  "School District:Monroe - Pleasant Valley": [
-    "State Police:N"
-  ],
-  "State Police:N": [
-    "School District:Monroe - Pleasant Valley",
-    "School District:Monroe - Pocono Mountain",
-    "School District:Luzerne - Hazleton Area",
-    "School District:Carbon - Weatherly Area",
-    "School District:Monroe - East Stroudsburg Area",
-    "School District:Carbon - Jim Thorpe Area",
-    "School District:Columbia - Benton Area"
-  ],
-  "School District:Monroe - Pocono Mountain": [
-    "State Police:N"
-  ],
-  "School District:Bucks - Quakertown Community": [
-    "State Police:M"
-  ],
   "School District:Clinton - Keystone Central": [
     "State Police:F"
+  ],
+  "School District:Luzerne - Lake-Lehman": [
+    "State Police:P"
   ],
   "School District:Westmoreland - Ligonier Valley": [
     "State Police:A"
@@ -119,33 +204,20 @@
   "State Police:A": [
     "School District:Westmoreland - Ligonier Valley"
   ],
-  "School District:Luzerne - Lake-Lehman": [
-    "State Police:P"
+  "School District:Washington - Mcguffey": [
+    "State Police:B"
+  ],
+  "School District:Mifflin - Mifflin County": [
+    "State Police:G"
   ],
   "School District:Susquehanna - Montrose Area": [
     "State Police:R"
   ],
-  "School District:Huntingdon - Huntingdon Area": [
-    "State Police:G"
+  "School District:Susquehanna - Mountain View": [
+    "State Police:R"
   ],
-  "School District:Bucks - Palisades": [
-    "State Police:M"
-  ],
-  "School District:Luzerne - Hazleton Area": [
-    "State Police:N"
-  ],
-  "School District:Washington - Mcguffey": [
-    "State Police:B"
-  ],
-  "State Police:B": [
-    "School District:Washington - Mcguffey",
-    "School District:Fayette - Uniontown Area",
-    "School District:Greene - West Greene",
-    "School District:Greene - Central Greene",
-    "School District:Fayette - Connellsville Area"
-  ],
-  "School District:Mifflin - Mifflin County": [
-    "State Police:G"
+  "School District:Lackawanna - North Pocono": [
+    "State Police:R"
   ],
   "School District:Northampton - Northampton Area": [
     "State Police:M"
@@ -153,11 +225,44 @@
   "School District:Bradford - Northeast Bradford": [
     "State Police:P"
   ],
-  "School District:Lackawanna - North Pocono": [
-    "State Police:R"
+  "School District:Lebanon - Northern Lebanon": [
+    "State Police:L"
   ],
-  "School District:Susquehanna - Mountain View": [
-    "State Police:R"
+  "School District:Tioga - Northern Tioga": [
+    "State Police:F"
+  ],
+  "School District:Lehigh - Northwestern Lehigh": [
+    "State Police:M"
+  ],
+  "School District:Bucks - Palisades": [
+    "State Police:M"
+  ],
+  "School District:Lehigh - Parkland": [
+    "State Police:M"
+  ],
+  "School District:Crawford - Penncrest": [
+    "State Police:E"
+  ],
+  "School District:Bucks - Pennridge": [
+    "State Police:M"
+  ],
+  "School District:Centre - Penns Valley Area": [
+    "State Police:G"
+  ],
+  "School District:Philadelphia - Philadelphia City": [
+    "State Police:K"
+  ],
+  "School District:Monroe - Pleasant Valley": [
+    "State Police:N"
+  ],
+  "School District:Monroe - Pocono Mountain": [
+    "State Police:N"
+  ],
+  "School District:Jefferson - Punxsutawney Area": [
+    "State Police:C"
+  ],
+  "School District:Bucks - Quakertown Community": [
+    "State Police:M"
   ],
   "School District:York - Red Lion Area": [
     "State Police:J"
@@ -165,81 +270,6 @@
   "State Police:J": [
     "School District:York - Red Lion Area",
     "School District:Lancaster - Solanco"
-  ],
-  "School District:Jefferson - Punxsutawney Area": [
-    "State Police:C"
-  ],
-  "State Police:C": [
-    "School District:Jefferson - Punxsutawney Area",
-    "School District:Elk - Saint Marys Area",
-    "School District:Mckean - Smethport Area",
-    "School District:Forest - Forest Area",
-    "School District:Clearfield - Dubois Area",
-    "School District:Jefferson - Brookville Area",
-    "School District:Clearfield - Clearfield Area"
-  ],
-  "School District:Lebanon - Northern Lebanon": [
-    "State Police:L"
-  ],
-  "State Police:L": [
-    "School District:Lebanon - Northern Lebanon",
-    "School District:Schuylkill - Tamaqua Area",
-    "School District:Schuylkill - Blue Mountain"
-  ],
-  "School District:Elk - Saint Marys Area": [
-    "State Police:C"
-  ],
-  "School District:Tioga - Southern Tioga": [
-    "State Police:F"
-  ],
-  "School District:Venango - Titusville Area": [
-    "State Police:E"
-  ],
-  "School District:Perry - West Perry": [
-    "State Police:H"
-  ],
-  "State Police:H": [
-    "School District:Perry - West Perry",
-    "School District:Franklin - Tuscarora",
-    "School District:Cumberland - Big Spring",
-    "School District:Franklin - Chambersburg Area",
-    "School District:Adams - Gettysburg Area"
-  ],
-  "School District:Wayne - Western Wayne": [
-    "State Police:R"
-  ],
-  "School District:Fayette - Uniontown Area": [
-    "State Police:B"
-  ],
-  "School District:Wayne - Wayne Highlands": [
-    "State Police:R"
-  ],
-  "School District:Carbon - Weatherly Area": [
-    "State Police:N"
-  ],
-  "School District:Wyoming - Tunkhannock Area": [
-    "State Police:P"
-  ],
-  "School District:Tioga - Wellsboro Area": [
-    "State Police:F"
-  ],
-  "School District:Greene - West Greene": [
-    "State Police:B"
-  ],
-  "School District:Franklin - Tuscarora": [
-    "State Police:H"
-  ],
-  "School District:Bradford - Wyalusing Area": [
-    "State Police:P"
-  ],
-  "School District:Bradford - Troy Area": [
-    "State Police:P"
-  ],
-  "School District:Sullivan - Sullivan County": [
-    "State Police:P"
-  ],
-  "School District:Schuylkill - Tamaqua Area": [
-    "State Police:L"
   ],
   "School District:Mckean - Smethport Area": [
     "State Police:C"
@@ -250,91 +280,61 @@
   "School District:Montgomery - Souderton Area": [
     "State Police:K"
   ],
-  "School District:Forest - Forest Area": [
-    "State Police:C"
-  ],
-  "School District:Clearfield - Dubois Area": [
-    "State Police:C"
-  ],
-  "School District:Bedford - Bedford Area": [
-    "State Police:G"
-  ],
-  "School District:Monroe - East Stroudsburg Area": [
-    "State Police:N"
-  ],
-  "School District:Lycoming - Jersey Shore Area": [
+  "School District:Tioga - Southern Tioga": [
     "State Police:F"
   ],
-  "School District:Carbon - Jim Thorpe Area": [
-    "State Police:N"
-  ],
-  "School District:Cameron - Cameron County": [
-    "State Police:F"
-  ],
-  "School District:Northampton - Bangor Area": [
-    "State Police:M"
-  ],
-  "School District:Armstrong - Armstrong": [
-    "State Police:D"
-  ],
-  "State Police:D": [
-    "School District:Armstrong - Armstrong"
-  ],
-  "School District:Jefferson - Brookville Area": [
+  "School District:Elk - Saint Marys Area": [
     "State Police:C"
   ],
-  "School District:Bradford - Athens Area": [
+  "School District:Sullivan - Sullivan County": [
     "State Police:P"
   ],
-  "School District:Centre - Bald Eagle Area": [
-    "State Police:G"
-  ],
-  "School District:Cumberland - Big Spring": [
-    "State Police:H"
-  ],
-  "School District:Schuylkill - Blue Mountain": [
+  "School District:Schuylkill - Tamaqua Area": [
     "State Police:L"
   ],
-  "School District:Berks - Boyertown Area": [
-    "State Police:K"
+  "School District:Venango - Titusville Area": [
+    "State Police:E"
   ],
-  "School District:Clearfield - Clearfield Area": [
-    "State Police:C"
+  "School District:Bradford - Towanda Area": [
+    "State Police:P"
   ],
-  "School District:Franklin - Chambersburg Area": [
+  "School District:Bradford - Troy Area": [
+    "State Police:P"
+  ],
+  "School District:Wyoming - Tunkhannock Area": [
+    "State Police:P"
+  ],
+  "School District:Franklin - Tuscarora": [
     "State Police:H"
   ],
-  "School District:Bucks - Central Bucks": [
-    "State Police:M"
-  ],
-  "School District:Greene - Central Greene": [
+  "School District:Fayette - Uniontown Area": [
     "State Police:B"
   ],
-  "School District:Columbia - Benton Area": [
+  "School District:Wayne - Wallenpaupack Area": [
+    "State Police:R"
+  ],
+  "School District:Warren - Warren County": [
+    "State Police:E"
+  ],
+  "School District:Wayne - Wayne Highlands": [
+    "State Police:R"
+  ],
+  "School District:Carbon - Weatherly Area": [
     "State Police:N"
   ],
-  "School District:Erie - Corry Area": [
-    "State Police:E"
+  "School District:Tioga - Wellsboro Area": [
+    "State Police:F"
   ],
-  "School District:Susquehanna - Elk Lake": [
-    "State Police:R"
-  ],
-  "School District:Bedford - Everett Area": [
-    "State Police:G"
-  ],
-  "School District:Pike - Delaware Valley": [
-    "State Police:R"
-  ],
-  "School District:Crawford - Conneaut": [
-    "State Police:E"
-  ],
-  "School District:Fayette - Connellsville Area": [
+  "School District:Greene - West Greene": [
     "State Police:B"
   ],
-  "School District:Adams - Gettysburg Area": [
+  "School District:Perry - West Perry": [
     "State Police:H"
   ],
-  "School District:Venango - Franklin Area": [
-    "State Police:E"
+  "School District:Wayne - Western Wayne": [
+    "State Police:R"
+  ],
+  "School District:Bradford - Wyalusing Area": [
+    "State Police:P"
   ]
 }

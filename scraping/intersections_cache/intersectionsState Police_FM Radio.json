@@ -1,59 +1,191 @@
 {
   "State Police:A": [
-    "FM Radio:WKGO",
+    "FM Radio:KDKA-FM",
+    "FM Radio:WAOB-FM",
+    "FM Radio:WBRX",
+    "FM Radio:WBXQ",
+    "FM Radio:WBZZ",
+    "FM Radio:WCCL",
     "FM Radio:WCOA-FM",
+    "FM Radio:WCOX",
+    "FM Radio:WDSY-FM",
+    "FM Radio:WDVE",
+    "FM Radio:WESA",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WFGY",
+    "FM Radio:WHJB",
+    "FM Radio:WIFT",
+    "FM Radio:WIUP-FM",
+    "FM Radio:WJHT",
+    "FM Radio:WKGO",
+    "FM Radio:WKHB-FM",
+    "FM Radio:WKST-FM",
+    "FM Radio:WKVE",
+    "FM Radio:WKYE",
+    "FM Radio:WLCY",
+    "FM Radio:WLKE",
+    "FM Radio:WLKH",
+    "FM Radio:WLKJ",
+    "FM Radio:WLTJ",
+    "FM Radio:WLWG",
+    "FM Radio:WOGG",
+    "FM Radio:WORD-FM",
+    "FM Radio:WPAI",
+    "FM Radio:WPCL",
+    "FM Radio:WPGB",
+    "FM Radio:WPKV",
     "FM Radio:WQED-FM",
     "FM Radio:WQEJ",
-    "FM Radio:WIUP-FM",
-    "FM Radio:WESA",
-    "FM Radio:WPAI",
-    "FM Radio:WCOX",
-    "FM Radio:WYEP-FM",
-    "FM Radio:WLWG",
-    "FM Radio:WJHT",
     "FM Radio:WQMU",
-    "FM Radio:WLTJ",
     "FM Radio:WQZS",
-    "FM Radio:WLKE",
-    "FM Radio:KDKA-FM",
-    "FM Radio:WBXQ",
-    "FM Radio:WWSW-FM",
-    "FM Radio:WBRX",
-    "FM Radio:WOGG",
-    "FM Radio:WFGI-FM",
-    "FM Radio:WKST-FM",
-    "FM Radio:WKYE",
-    "FM Radio:WRRK",
-    "FM Radio:WPCL",
-    "FM Radio:WLKH",
-    "FM Radio:WFGY",
-    "FM Radio:WPKV",
-    "FM Radio:WYRA",
     "FM Radio:WRKW",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WRRK",
     "FM Radio:WSHH",
     "FM Radio:WWOT",
-    "FM Radio:WBZZ",
-    "FM Radio:WORD-FM",
-    "FM Radio:WCCL",
-    "FM Radio:WIFT",
-    "FM Radio:WDVE",
-    "FM Radio:WKVE",
-    "FM Radio:WKHB-FM",
-    "FM Radio:WPGB",
-    "FM Radio:WRKY-FM",
-    "FM Radio:WLKJ",
+    "FM Radio:WWSW-FM",
     "FM Radio:WXDX-FM",
-    "FM Radio:WLCY",
-    "FM Radio:WAOB-FM",
-    "FM Radio:WHJB",
-    "FM Radio:WDSY-FM"
+    "FM Radio:WYEP-FM",
+    "FM Radio:WYRA"
   ],
-  "FM Radio:WKGO": [
+  "FM Radio:KDKA-FM": [
+    "State Police:A",
+    "State Police:B",
+    "State Police:D"
+  ],
+  "FM Radio:WAOB-FM": [
+    "State Police:A",
+    "State Police:B",
+    "State Police:D"
+  ],
+  "FM Radio:WBRX": [
+    "State Police:A",
+    "State Police:G"
+  ],
+  "FM Radio:WBXQ": [
+    "State Police:A"
+  ],
+  "FM Radio:WBZZ": [
+    "State Police:A",
+    "State Police:B",
+    "State Police:D"
+  ],
+  "FM Radio:WCCL": [
     "State Police:A"
   ],
   "FM Radio:WCOA-FM": [
     "State Police:A",
     "State Police:C",
+    "State Police:D"
+  ],
+  "FM Radio:WCOX": [
+    "State Police:A",
+    "State Police:G"
+  ],
+  "FM Radio:WDSY-FM": [
+    "State Police:A",
+    "State Police:B",
+    "State Police:D"
+  ],
+  "FM Radio:WDVE": [
+    "State Police:A",
+    "State Police:B",
+    "State Police:D"
+  ],
+  "FM Radio:WESA": [
+    "State Police:A",
+    "State Police:B",
+    "State Police:D"
+  ],
+  "FM Radio:WFGI-FM": [
+    "State Police:A",
+    "State Police:B",
+    "State Police:C",
+    "State Police:D",
+    "State Police:G"
+  ],
+  "FM Radio:WFGY": [
+    "State Police:A",
+    "State Police:C",
+    "State Police:G"
+  ],
+  "FM Radio:WHJB": [
+    "State Police:A"
+  ],
+  "FM Radio:WIFT": [
+    "State Police:A",
+    "State Police:C"
+  ],
+  "FM Radio:WIUP-FM": [
+    "State Police:A"
+  ],
+  "FM Radio:WJHT": [
+    "State Police:A"
+  ],
+  "FM Radio:WKGO": [
+    "State Police:A"
+  ],
+  "FM Radio:WKHB-FM": [
+    "State Police:A",
+    "State Police:B"
+  ],
+  "FM Radio:WKST-FM": [
+    "State Police:A",
+    "State Police:B",
+    "State Police:D"
+  ],
+  "FM Radio:WKVE": [
+    "State Police:A",
+    "State Police:B"
+  ],
+  "FM Radio:WKYE": [
+    "State Police:A",
+    "State Police:G"
+  ],
+  "FM Radio:WLCY": [
+    "State Police:A"
+  ],
+  "FM Radio:WLKE": [
+    "State Police:A",
+    "State Police:G"
+  ],
+  "FM Radio:WLKH": [
+    "State Police:A"
+  ],
+  "FM Radio:WLKJ": [
+    "State Police:A"
+  ],
+  "FM Radio:WLTJ": [
+    "State Police:A",
+    "State Police:B",
+    "State Police:D"
+  ],
+  "FM Radio:WLWG": [
+    "State Police:A"
+  ],
+  "FM Radio:WOGG": [
+    "State Police:A",
+    "State Police:B"
+  ],
+  "FM Radio:WORD-FM": [
+    "State Police:A",
+    "State Police:B",
+    "State Police:D"
+  ],
+  "FM Radio:WPAI": [
+    "State Police:A"
+  ],
+  "FM Radio:WPCL": [
+    "State Police:A"
+  ],
+  "FM Radio:WPGB": [
+    "State Police:A",
+    "State Police:B",
+    "State Police:D"
+  ],
+  "FM Radio:WPKV": [
+    "State Police:A",
+    "State Police:B",
     "State Police:D"
   ],
   "FM Radio:WQED-FM": [
@@ -65,81 +197,18 @@
     "State Police:A",
     "State Police:G"
   ],
-  "FM Radio:WIUP-FM": [
-    "State Police:A"
-  ],
-  "FM Radio:WESA": [
-    "State Police:A",
-    "State Police:B",
-    "State Police:D"
-  ],
-  "FM Radio:WPAI": [
-    "State Police:A"
-  ],
-  "FM Radio:WCOX": [
-    "State Police:A",
-    "State Police:G"
-  ],
-  "FM Radio:WYEP-FM": [
-    "State Police:A",
-    "State Police:B",
-    "State Police:D"
-  ],
-  "FM Radio:WLWG": [
-    "State Police:A"
-  ],
-  "FM Radio:WJHT": [
-    "State Police:A"
-  ],
   "FM Radio:WQMU": [
     "State Police:A"
-  ],
-  "FM Radio:WLTJ": [
-    "State Police:A",
-    "State Police:B",
-    "State Police:D"
   ],
   "FM Radio:WQZS": [
     "State Police:A"
   ],
-  "FM Radio:WLKE": [
+  "FM Radio:WRKW": [
     "State Police:A",
-    "State Police:G"
-  ],
-  "FM Radio:KDKA-FM": [
-    "State Police:A",
-    "State Police:B",
-    "State Police:D"
-  ],
-  "FM Radio:WBXQ": [
-    "State Police:A"
-  ],
-  "FM Radio:WWSW-FM": [
-    "State Police:A",
-    "State Police:B",
-    "State Police:D"
-  ],
-  "FM Radio:WBRX": [
-    "State Police:A",
-    "State Police:G"
-  ],
-  "FM Radio:WOGG": [
-    "State Police:A",
-    "State Police:B"
-  ],
-  "FM Radio:WFGI-FM": [
-    "State Police:A",
-    "State Police:B",
     "State Police:C",
-    "State Police:D",
     "State Police:G"
   ],
-  "FM Radio:WKST-FM": [
-    "State Police:A",
-    "State Police:B",
-    "State Police:D"
-  ],
-  "FM Radio:WKYE": [
+  "FM Radio:WRKY-FM": [
     "State Police:A",
     "State Police:G"
   ],
@@ -147,30 +216,6 @@
     "State Police:A",
     "State Police:B",
     "State Police:D"
-  ],
-  "FM Radio:WPCL": [
-    "State Police:A"
-  ],
-  "FM Radio:WLKH": [
-    "State Police:A"
-  ],
-  "FM Radio:WFGY": [
-    "State Police:A",
-    "State Police:C",
-    "State Police:G"
-  ],
-  "FM Radio:WPKV": [
-    "State Police:A",
-    "State Police:B",
-    "State Police:D"
-  ],
-  "FM Radio:WYRA": [
-    "State Police:A"
-  ],
-  "FM Radio:WRKW": [
-    "State Police:A",
-    "State Police:C",
-    "State Police:G"
   ],
   "FM Radio:WSHH": [
     "State Police:A",
@@ -181,110 +226,56 @@
     "State Police:A",
     "State Police:G"
   ],
-  "FM Radio:WBZZ": [
+  "FM Radio:WWSW-FM": [
     "State Police:A",
     "State Police:B",
     "State Police:D"
-  ],
-  "FM Radio:WORD-FM": [
-    "State Police:A",
-    "State Police:B",
-    "State Police:D"
-  ],
-  "FM Radio:WCCL": [
-    "State Police:A"
-  ],
-  "FM Radio:WIFT": [
-    "State Police:A",
-    "State Police:C"
-  ],
-  "FM Radio:WDVE": [
-    "State Police:A",
-    "State Police:B",
-    "State Police:D"
-  ],
-  "FM Radio:WKVE": [
-    "State Police:A",
-    "State Police:B"
-  ],
-  "FM Radio:WKHB-FM": [
-    "State Police:A",
-    "State Police:B"
-  ],
-  "FM Radio:WPGB": [
-    "State Police:A",
-    "State Police:B",
-    "State Police:D"
-  ],
-  "FM Radio:WRKY-FM": [
-    "State Police:A",
-    "State Police:G"
-  ],
-  "FM Radio:WLKJ": [
-    "State Police:A"
   ],
   "FM Radio:WXDX-FM": [
     "State Police:A",
     "State Police:B",
     "State Police:D"
   ],
-  "FM Radio:WLCY": [
-    "State Police:A"
-  ],
-  "FM Radio:WAOB-FM": [
+  "FM Radio:WYEP-FM": [
     "State Police:A",
     "State Police:B",
     "State Police:D"
   ],
-  "FM Radio:WHJB": [
+  "FM Radio:WYRA": [
     "State Police:A"
-  ],
-  "FM Radio:WDSY-FM": [
-    "State Police:A",
-    "State Police:B",
-    "State Police:D"
   ],
   "State Police:B": [
-    "FM Radio:WRCT",
-    "FM Radio:WYFU",
-    "FM Radio:WQED-FM",
-    "FM Radio:WESA",
-    "FM Radio:WYEP-FM",
-    "FM Radio:WNJR",
-    "FM Radio:WCAL",
-    "FM Radio:WLTJ",
     "FM Radio:KDKA-FM",
-    "FM Radio:WWSW-FM",
-    "FM Radio:WOGG",
-    "FM Radio:WJPA-FM",
-    "FM Radio:WFGI-FM",
-    "FM Radio:WKST-FM",
-    "FM Radio:WRRK",
-    "FM Radio:WPKV",
-    "FM Radio:WPKL",
-    "FM Radio:WSHH",
-    "FM Radio:WBZZ",
-    "FM Radio:WORD-FM",
-    "FM Radio:WDVE",
-    "FM Radio:WKVE",
-    "FM Radio:WOGH",
-    "FM Radio:WLYI",
-    "FM Radio:WKHB-FM",
-    "FM Radio:WOGI",
-    "FM Radio:WPGB",
-    "FM Radio:WXDX-FM",
     "FM Radio:WAOB-FM",
+    "FM Radio:WBZZ",
+    "FM Radio:WCAL",
+    "FM Radio:WDSY-FM",
+    "FM Radio:WDVE",
+    "FM Radio:WESA",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WJPA-FM",
+    "FM Radio:WKHB-FM",
+    "FM Radio:WKST-FM",
+    "FM Radio:WKVE",
+    "FM Radio:WLTJ",
+    "FM Radio:WLYI",
     "FM Radio:WMKF",
-    "FM Radio:WDSY-FM"
-  ],
-  "FM Radio:WRCT": [
-    "State Police:B"
-  ],
-  "FM Radio:WYFU": [
-    "State Police:B"
-  ],
-  "FM Radio:WNJR": [
-    "State Police:B"
+    "FM Radio:WNJR",
+    "FM Radio:WOGG",
+    "FM Radio:WOGH",
+    "FM Radio:WOGI",
+    "FM Radio:WORD-FM",
+    "FM Radio:WPGB",
+    "FM Radio:WPKL",
+    "FM Radio:WPKV",
+    "FM Radio:WQED-FM",
+    "FM Radio:WRCT",
+    "FM Radio:WRRK",
+    "FM Radio:WSHH",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WXDX-FM",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WYFU"
   ],
   "FM Radio:WCAL": [
     "State Police:B"
@@ -292,14 +283,17 @@
   "FM Radio:WJPA-FM": [
     "State Police:B"
   ],
-  "FM Radio:WPKL": [
-    "State Police:B"
-  ],
-  "FM Radio:WOGH": [
+  "FM Radio:WLYI": [
     "State Police:B",
     "State Police:D"
   ],
-  "FM Radio:WLYI": [
+  "FM Radio:WMKF": [
+    "State Police:B"
+  ],
+  "FM Radio:WNJR": [
+    "State Police:B"
+  ],
+  "FM Radio:WOGH": [
     "State Police:B",
     "State Police:D"
   ],
@@ -307,64 +301,74 @@
     "State Police:B",
     "State Police:D"
   ],
-  "FM Radio:WMKF": [
+  "FM Radio:WPKL": [
+    "State Police:B"
+  ],
+  "FM Radio:WRCT": [
+    "State Police:B"
+  ],
+  "FM Radio:WYFU": [
     "State Police:B"
   ],
   "State Police:C": [
-    "FM Radio:WRQV",
+    "FM Radio:WBRR",
+    "FM Radio:WCCR-FM",
+    "FM Radio:WCGH",
     "FM Radio:WCOA-FM",
-    "FM Radio:WTWR",
-    "FM Radio:WPMU",
-    "FM Radio:WPSX",
-    "FM Radio:WRVI",
+    "FM Radio:WCOH",
+    "FM Radio:WCOP",
+    "FM Radio:WCOR-FM",
     "FM Radio:WCOT",
     "FM Radio:WCUC-FM",
-    "FM Radio:WMMH",
-    "FM Radio:WRRN",
-    "FM Radio:WCCR-FM",
-    "FM Radio:WPQP",
-    "FM Radio:WWSE",
-    "FM Radio:WKBI-FM",
-    "FM Radio:WHKS",
-    "FM Radio:WFGI-FM",
-    "FM Radio:WPIG",
-    "FM Radio:WQQP",
-    "FM Radio:WCOR-FM",
     "FM Radio:WDDH",
+    "FM Radio:WDSN",
+    "FM Radio:WFGE",
+    "FM Radio:WFGI-FM",
     "FM Radio:WFGY",
     "FM Radio:WGYI",
-    "FM Radio:WQKY",
-    "FM Radio:WRKW",
-    "FM Radio:WBRR",
-    "FM Radio:WJNG",
-    "FM Radio:WFGE",
-    "FM Radio:WKFT",
+    "FM Radio:WHKS",
     "FM Radio:WIFT",
-    "FM Radio:WOKW",
-    "FM Radio:WKQL",
-    "FM Radio:WCOP",
-    "FM Radio:WPXZ-FM",
     "FM Radio:WJKB",
+    "FM Radio:WJNG",
+    "FM Radio:WKBI-FM",
+    "FM Radio:WKFT",
+    "FM Radio:WKQL",
     "FM Radio:WMKX",
-    "FM Radio:WCGH",
-    "FM Radio:WXMT",
-    "FM Radio:WDSN",
-    "FM Radio:WCOH"
+    "FM Radio:WMMH",
+    "FM Radio:WOKW",
+    "FM Radio:WPIG",
+    "FM Radio:WPMU",
+    "FM Radio:WPQP",
+    "FM Radio:WPSX",
+    "FM Radio:WPXZ-FM",
+    "FM Radio:WQKY",
+    "FM Radio:WQQP",
+    "FM Radio:WRKW",
+    "FM Radio:WRQV",
+    "FM Radio:WRRN",
+    "FM Radio:WRVI",
+    "FM Radio:WTWR",
+    "FM Radio:WWSE",
+    "FM Radio:WXMT"
   ],
-  "FM Radio:WRQV": [
+  "FM Radio:WBRR": [
     "State Police:C"
   ],
-  "FM Radio:WTWR": [
+  "FM Radio:WCCR-FM": [
     "State Police:C"
   ],
-  "FM Radio:WPMU": [
-    "State Police:C"
-  ],
-  "FM Radio:WPSX": [
+  "FM Radio:WCGH": [
     "State Police:C",
     "State Police:E"
   ],
-  "FM Radio:WRVI": [
+  "FM Radio:WCOH": [
+    "State Police:C",
+    "State Police:F"
+  ],
+  "FM Radio:WCOP": [
+    "State Police:C"
+  ],
+  "FM Radio:WCOR-FM": [
     "State Police:C"
   ],
   "FM Radio:WCOT": [
@@ -374,57 +378,11 @@
   "FM Radio:WCUC-FM": [
     "State Police:C"
   ],
-  "FM Radio:WMMH": [
-    "State Police:C",
-    "State Police:G"
-  ],
-  "FM Radio:WRRN": [
-    "State Police:C",
-    "State Police:E"
-  ],
-  "FM Radio:WCCR-FM": [
-    "State Police:C"
-  ],
-  "FM Radio:WPQP": [
-    "State Police:C"
-  ],
-  "FM Radio:WWSE": [
-    "State Police:C",
-    "State Police:E"
-  ],
-  "FM Radio:WKBI-FM": [
-    "State Police:C"
-  ],
-  "FM Radio:WHKS": [
-    "State Police:C"
-  ],
-  "FM Radio:WPIG": [
-    "State Police:C",
-    "State Police:F"
-  ],
-  "FM Radio:WQQP": [
-    "State Police:C"
-  ],
-  "FM Radio:WCOR-FM": [
-    "State Police:C"
-  ],
   "FM Radio:WDDH": [
     "State Police:C",
     "State Police:E"
   ],
-  "FM Radio:WGYI": [
-    "State Police:C",
-    "State Police:D",
-    "State Police:E"
-  ],
-  "FM Radio:WQKY": [
-    "State Police:C",
-    "State Police:F"
-  ],
-  "FM Radio:WBRR": [
-    "State Police:C"
-  ],
-  "FM Radio:WJNG": [
+  "FM Radio:WDSN": [
     "State Police:C"
   ],
   "FM Radio:WFGE": [
@@ -432,116 +390,131 @@
     "State Police:F",
     "State Police:G"
   ],
-  "FM Radio:WKFT": [
-    "State Police:C"
-  ],
-  "FM Radio:WOKW": [
-    "State Police:C"
-  ],
-  "FM Radio:WKQL": [
+  "FM Radio:WGYI": [
     "State Police:C",
-    "State Police:D"
+    "State Police:D",
+    "State Police:E"
   ],
-  "FM Radio:WCOP": [
-    "State Police:C"
-  ],
-  "FM Radio:WPXZ-FM": [
+  "FM Radio:WHKS": [
     "State Police:C"
   ],
   "FM Radio:WJKB": [
     "State Police:C",
     "State Police:E"
   ],
+  "FM Radio:WJNG": [
+    "State Police:C"
+  ],
+  "FM Radio:WKBI-FM": [
+    "State Police:C"
+  ],
+  "FM Radio:WKFT": [
+    "State Police:C"
+  ],
+  "FM Radio:WKQL": [
+    "State Police:C",
+    "State Police:D"
+  ],
   "FM Radio:WMKX": [
     "State Police:C",
     "State Police:D"
   ],
-  "FM Radio:WCGH": [
+  "FM Radio:WMMH": [
+    "State Police:C",
+    "State Police:G"
+  ],
+  "FM Radio:WOKW": [
+    "State Police:C"
+  ],
+  "FM Radio:WPIG": [
+    "State Police:C",
+    "State Police:F"
+  ],
+  "FM Radio:WPMU": [
+    "State Police:C"
+  ],
+  "FM Radio:WPQP": [
+    "State Police:C"
+  ],
+  "FM Radio:WPSX": [
+    "State Police:C",
+    "State Police:E"
+  ],
+  "FM Radio:WPXZ-FM": [
+    "State Police:C"
+  ],
+  "FM Radio:WQKY": [
+    "State Police:C",
+    "State Police:F"
+  ],
+  "FM Radio:WQQP": [
+    "State Police:C"
+  ],
+  "FM Radio:WRQV": [
+    "State Police:C"
+  ],
+  "FM Radio:WRRN": [
+    "State Police:C",
+    "State Police:E"
+  ],
+  "FM Radio:WRVI": [
+    "State Police:C"
+  ],
+  "FM Radio:WTWR": [
+    "State Police:C"
+  ],
+  "FM Radio:WWSE": [
     "State Police:C",
     "State Police:E"
   ],
   "FM Radio:WXMT": [
     "State Police:C"
   ],
-  "FM Radio:WDSN": [
-    "State Police:C"
-  ],
-  "FM Radio:WCOH": [
-    "State Police:C",
-    "State Police:F"
-  ],
   "State Police:D": [
-    "FM Radio:WCOA-FM",
-    "FM Radio:WCGT",
-    "FM Radio:WWNW",
-    "FM Radio:WQED-FM",
-    "FM Radio:WVMN",
-    "FM Radio:WESA",
-    "FM Radio:WSAJ-FM",
-    "FM Radio:WYEP-FM",
-    "FM Radio:WKPL",
-    "FM Radio:WLTJ",
     "FM Radio:KDKA-FM",
-    "FM Radio:WWSW-FM",
-    "FM Radio:WYLE",
-    "FM Radio:WFGI-FM",
     "FM Radio:WAKZ",
-    "FM Radio:WKST-FM",
-    "FM Radio:WLLF",
-    "FM Radio:WRRK",
-    "FM Radio:WLER-FM",
-    "FM Radio:WPKV",
-    "FM Radio:WGYI",
-    "FM Radio:WHMJ",
-    "FM Radio:WSHH",
-    "FM Radio:WGYY",
-    "FM Radio:WBZZ",
-    "FM Radio:WORD-FM",
-    "FM Radio:WDVE",
-    "FM Radio:WYFM",
-    "FM Radio:WKQL",
-    "FM Radio:WOGH",
-    "FM Radio:WLYI",
-    "FM Radio:WWIZ",
-    "FM Radio:WOGI",
-    "FM Radio:WPGB",
-    "FM Radio:WMKX",
-    "FM Radio:WXDX-FM",
     "FM Radio:WAOB-FM",
+    "FM Radio:WBZZ",
+    "FM Radio:WCGT",
+    "FM Radio:WCOA-FM",
+    "FM Radio:WDSY-FM",
+    "FM Radio:WDVE",
+    "FM Radio:WESA",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WGYI",
+    "FM Radio:WGYY",
+    "FM Radio:WHMJ",
+    "FM Radio:WKPL",
+    "FM Radio:WKQL",
+    "FM Radio:WKST-FM",
+    "FM Radio:WLER-FM",
+    "FM Radio:WLLF",
+    "FM Radio:WLTJ",
     "FM Radio:WLVX",
-    "FM Radio:WDSY-FM"
-  ],
-  "FM Radio:WCGT": [
-    "State Police:D",
-    "State Police:E"
-  ],
-  "FM Radio:WWNW": [
-    "State Police:D"
-  ],
-  "FM Radio:WVMN": [
-    "State Police:D"
-  ],
-  "FM Radio:WSAJ-FM": [
-    "State Police:D",
-    "State Police:E"
-  ],
-  "FM Radio:WKPL": [
-    "State Police:D"
-  ],
-  "FM Radio:WYLE": [
-    "State Police:D",
-    "State Police:E"
+    "FM Radio:WLYI",
+    "FM Radio:WMKX",
+    "FM Radio:WOGH",
+    "FM Radio:WOGI",
+    "FM Radio:WORD-FM",
+    "FM Radio:WPGB",
+    "FM Radio:WPKV",
+    "FM Radio:WQED-FM",
+    "FM Radio:WRRK",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WSHH",
+    "FM Radio:WVMN",
+    "FM Radio:WWIZ",
+    "FM Radio:WWNW",
+    "FM Radio:WWSW-FM",
+    "FM Radio:WXDX-FM",
+    "FM Radio:WYEP-FM",
+    "FM Radio:WYFM",
+    "FM Radio:WYLE"
   ],
   "FM Radio:WAKZ": [
     "State Police:D"
   ],
-  "FM Radio:WLLF": [
-    "State Police:D"
-  ],
-  "FM Radio:WLER-FM": [
-    "State Police:D"
-  ],
-  "FM Radio:WHMJ": [
+  "FM Radio:WCGT": [
     "State Police:D",
     "State Police:E"
   ],
@@ -549,104 +522,113 @@
     "State Police:D",
     "State Police:E"
   ],
-  "FM Radio:WYFM": [
+  "FM Radio:WHMJ": [
+    "State Police:D",
+    "State Police:E"
+  ],
+  "FM Radio:WKPL": [
     "State Police:D"
   ],
-  "FM Radio:WWIZ": [
+  "FM Radio:WLER-FM": [
+    "State Police:D"
+  ],
+  "FM Radio:WLLF": [
     "State Police:D"
   ],
   "FM Radio:WLVX": [
     "State Police:D"
   ],
+  "FM Radio:WSAJ-FM": [
+    "State Police:D",
+    "State Police:E"
+  ],
+  "FM Radio:WVMN": [
+    "State Police:D"
+  ],
+  "FM Radio:WWIZ": [
+    "State Police:D"
+  ],
+  "FM Radio:WWNW": [
+    "State Police:D"
+  ],
+  "FM Radio:WYFM": [
+    "State Police:D"
+  ],
+  "FM Radio:WYLE": [
+    "State Police:D",
+    "State Police:E"
+  ],
   "State Police:E": [
-    "FM Radio:WEFR",
-    "FM Radio:WQHE",
-    "FM Radio:WMCE-FM",
-    "FM Radio:WYVL",
-    "FM Radio:WCGT",
-    "FM Radio:WFSE",
-    "FM Radio:WTWP",
     "FM Radio:WAWN",
-    "FM Radio:WNJA",
+    "FM Radio:WCGE",
+    "FM Radio:WCGH",
+    "FM Radio:WCGM",
+    "FM Radio:WCGT",
     "FM Radio:WCGV",
-    "FM Radio:WPSX",
-    "FM Radio:WERG",
     "FM Radio:WCOT",
-    "FM Radio:WSAJ-FM",
-    "FM Radio:WQLN-FM",
-    "FM Radio:WVME",
-    "FM Radio:WRRN",
-    "FM Radio:WWSE",
-    "FM Radio:WTWF",
-    "FM Radio:WRQI",
-    "FM Radio:WXBB",
-    "FM Radio:WYLE",
+    "FM Radio:WCTL",
+    "FM Radio:WDDH",
+    "FM Radio:WEFR",
+    "FM Radio:WERG",
+    "FM Radio:WFSE",
+    "FM Radio:WGYI",
+    "FM Radio:WGYY",
+    "FM Radio:WHMJ",
+    "FM Radio:WJKB",
+    "FM Radio:WKZA",
     "FM Radio:WLKW",
     "FM Radio:WLOQ",
-    "FM Radio:WDDH",
-    "FM Radio:WXTA",
-    "FM Radio:WGYI",
-    "FM Radio:WHMJ",
-    "FM Radio:WXKC",
-    "FM Radio:WGYY",
-    "FM Radio:WCGE",
+    "FM Radio:WMCE-FM",
     "FM Radio:WMVL",
-    "FM Radio:WQHZ",
-    "FM Radio:WCGM",
-    "FM Radio:WQFX-FM",
-    "FM Radio:WRTS",
     "FM Radio:WNAE",
-    "FM Radio:WXMJ",
+    "FM Radio:WNJA",
+    "FM Radio:WPSX",
+    "FM Radio:WQFX-FM",
+    "FM Radio:WQHE",
+    "FM Radio:WQHZ",
+    "FM Radio:WQLN-FM",
     "FM Radio:WRKT",
-    "FM Radio:WJKB",
-    "FM Radio:WCGH",
-    "FM Radio:WCTL",
-    "FM Radio:WKZA",
-    "FM Radio:WRQW"
-  ],
-  "FM Radio:WEFR": [
-    "State Police:E"
-  ],
-  "FM Radio:WQHE": [
-    "State Police:E"
-  ],
-  "FM Radio:WMCE-FM": [
-    "State Police:E"
-  ],
-  "FM Radio:WYVL": [
-    "State Police:E"
-  ],
-  "FM Radio:WFSE": [
-    "State Police:E"
-  ],
-  "FM Radio:WTWP": [
-    "State Police:E"
+    "FM Radio:WRQI",
+    "FM Radio:WRQW",
+    "FM Radio:WRRN",
+    "FM Radio:WRTS",
+    "FM Radio:WSAJ-FM",
+    "FM Radio:WTWF",
+    "FM Radio:WTWP",
+    "FM Radio:WVME",
+    "FM Radio:WWSE",
+    "FM Radio:WXBB",
+    "FM Radio:WXKC",
+    "FM Radio:WXMJ",
+    "FM Radio:WXTA",
+    "FM Radio:WYLE",
+    "FM Radio:WYVL"
   ],
   "FM Radio:WAWN": [
     "State Police:E"
   ],
-  "FM Radio:WNJA": [
+  "FM Radio:WCGE": [
+    "State Police:E"
+  ],
+  "FM Radio:WCGM": [
     "State Police:E"
   ],
   "FM Radio:WCGV": [
     "State Police:E"
   ],
+  "FM Radio:WCTL": [
+    "State Police:E"
+  ],
+  "FM Radio:WEFR": [
+    "State Police:E"
+  ],
   "FM Radio:WERG": [
     "State Police:E"
   ],
-  "FM Radio:WQLN-FM": [
+  "FM Radio:WFSE": [
     "State Police:E"
   ],
-  "FM Radio:WVME": [
-    "State Police:E"
-  ],
-  "FM Radio:WTWF": [
-    "State Police:E"
-  ],
-  "FM Radio:WRQI": [
-    "State Police:E"
-  ],
-  "FM Radio:WXBB": [
+  "FM Radio:WKZA": [
     "State Police:E"
   ],
   "FM Radio:WLKW": [
@@ -655,180 +637,110 @@
   "FM Radio:WLOQ": [
     "State Police:E"
   ],
-  "FM Radio:WXTA": [
-    "State Police:E"
-  ],
-  "FM Radio:WXKC": [
-    "State Police:E"
-  ],
-  "FM Radio:WCGE": [
+  "FM Radio:WMCE-FM": [
     "State Police:E"
   ],
   "FM Radio:WMVL": [
     "State Police:E"
   ],
-  "FM Radio:WQHZ": [
+  "FM Radio:WNAE": [
     "State Police:E"
   ],
-  "FM Radio:WCGM": [
+  "FM Radio:WNJA": [
     "State Police:E"
   ],
   "FM Radio:WQFX-FM": [
     "State Police:E"
   ],
-  "FM Radio:WRTS": [
+  "FM Radio:WQHE": [
     "State Police:E"
   ],
-  "FM Radio:WNAE": [
+  "FM Radio:WQHZ": [
     "State Police:E"
   ],
-  "FM Radio:WXMJ": [
+  "FM Radio:WQLN-FM": [
     "State Police:E"
   ],
   "FM Radio:WRKT": [
     "State Police:E"
   ],
-  "FM Radio:WCTL": [
-    "State Police:E"
-  ],
-  "FM Radio:WKZA": [
+  "FM Radio:WRQI": [
     "State Police:E"
   ],
   "FM Radio:WRQW": [
     "State Police:E"
   ],
+  "FM Radio:WRTS": [
+    "State Police:E"
+  ],
+  "FM Radio:WTWF": [
+    "State Police:E"
+  ],
+  "FM Radio:WTWP": [
+    "State Police:E"
+  ],
+  "FM Radio:WVME": [
+    "State Police:E"
+  ],
+  "FM Radio:WXBB": [
+    "State Police:E"
+  ],
+  "FM Radio:WXKC": [
+    "State Police:E"
+  ],
+  "FM Radio:WXMJ": [
+    "State Police:E"
+  ],
+  "FM Radio:WXTA": [
+    "State Police:E"
+  ],
+  "FM Radio:WYVL": [
+    "State Police:E"
+  ],
   "State Police:F": [
-    "FM Radio:WQSU",
-    "FM Radio:WPMY",
-    "FM Radio:WFBV",
-    "FM Radio:WJVM",
-    "FM Radio:WGRC",
-    "FM Radio:WSQV",
-    "FM Radio:WOGA",
-    "FM Radio:WHNA",
-    "FM Radio:WBZD-FM",
-    "FM Radio:WQKX",
-    "FM Radio:WMTT-FM",
-    "FM Radio:WRBT",
+    "FM Radio:DWLIH",
+    "FM Radio:WAVT-FM",
     "FM Radio:WBLJ-FM",
     "FM Radio:WBYL",
-    "FM Radio:WPIG",
-    "FM Radio:WJSA-FM",
-    "FM Radio:WPGM-FM",
-    "FM Radio:WRVV",
-    "FM Radio:WVRT",
-    "FM Radio:WRBG",
-    "FM Radio:WQKY",
-    "FM Radio:WZXR",
-    "FM Radio:WQBR",
-    "FM Radio:WHGL-FM",
-    "FM Radio:WCOG-FM",
-    "FM Radio:WVLY-FM",
-    "FM Radio:WFGE",
-    "FM Radio:WDKC",
-    "FM Radio:WAVT-FM",
-    "FM Radio:WKSB",
-    "FM Radio:WCXR",
-    "FM Radio:WNNK-FM",
-    "FM Radio:WNBT-FM",
-    "FM Radio:WILQ",
-    "FM Radio:WNKI",
+    "FM Radio:WBZD-FM",
     "FM Radio:WCFT-FM",
-    "FM Radio:WQKK",
-    "FM Radio:DWLIH",
+    "FM Radio:WCOG-FM",
     "FM Radio:WCOH",
+    "FM Radio:WCXR",
+    "FM Radio:WDKC",
     "FM Radio:WEGH",
-    "FM Radio:WOTH"
+    "FM Radio:WFBV",
+    "FM Radio:WFGE",
+    "FM Radio:WGRC",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WHNA",
+    "FM Radio:WILQ",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WJVM",
+    "FM Radio:WKSB",
+    "FM Radio:WMTT-FM",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WNKI",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WOGA",
+    "FM Radio:WOTH",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WPIG",
+    "FM Radio:WPMY",
+    "FM Radio:WQBR",
+    "FM Radio:WQKK",
+    "FM Radio:WQKX",
+    "FM Radio:WQKY",
+    "FM Radio:WQSU",
+    "FM Radio:WRBG",
+    "FM Radio:WRBT",
+    "FM Radio:WRVV",
+    "FM Radio:WSQV",
+    "FM Radio:WVLY-FM",
+    "FM Radio:WVRT",
+    "FM Radio:WZXR"
   ],
-  "FM Radio:WQSU": [
-    "State Police:F",
-    "State Police:N"
-  ],
-  "FM Radio:WPMY": [
-    "State Police:F"
-  ],
-  "FM Radio:WFBV": [
-    "State Police:F"
-  ],
-  "FM Radio:WJVM": [
-    "State Police:F",
-    "State Police:G"
-  ],
-  "FM Radio:WGRC": [
-    "State Police:F"
-  ],
-  "FM Radio:WSQV": [
-    "State Police:F"
-  ],
-  "FM Radio:WOGA": [
-    "State Police:F"
-  ],
-  "FM Radio:WHNA": [
-    "State Police:F",
-    "State Police:N"
-  ],
-  "FM Radio:WBZD-FM": [
-    "State Police:F"
-  ],
-  "FM Radio:WQKX": [
-    "State Police:F",
-    "State Police:H",
-    "State Police:L",
-    "State Police:N"
-  ],
-  "FM Radio:WMTT-FM": [
-    "State Police:F"
-  ],
-  "FM Radio:WRBT": [
-    "State Police:F",
-    "State Police:H",
-    "State Police:J",
-    "State Police:L"
-  ],
-  "FM Radio:WBLJ-FM": [
-    "State Police:F",
-    "State Police:L"
-  ],
-  "FM Radio:WBYL": [
-    "State Police:F"
-  ],
-  "FM Radio:WJSA-FM": [
-    "State Police:F",
-    "State Police:G"
-  ],
-  "FM Radio:WPGM-FM": [
-    "State Police:F",
-    "State Police:N"
-  ],
-  "FM Radio:WRVV": [
-    "State Police:F",
-    "State Police:H",
-    "State Police:J",
-    "State Police:L"
-  ],
-  "FM Radio:WVRT": [
-    "State Police:F"
-  ],
-  "FM Radio:WRBG": [
-    "State Police:F"
-  ],
-  "FM Radio:WZXR": [
-    "State Police:F"
-  ],
-  "FM Radio:WQBR": [
-    "State Police:F"
-  ],
-  "FM Radio:WHGL-FM": [
-    "State Police:F",
-    "State Police:P"
-  ],
-  "FM Radio:WCOG-FM": [
-    "State Police:F"
-  ],
-  "FM Radio:WVLY-FM": [
-    "State Police:F"
-  ],
-  "FM Radio:WDKC": [
+  "FM Radio:DWLIH": [
     "State Police:F"
   ],
   "FM Radio:WAVT-FM": [
@@ -837,34 +749,15 @@
     "State Police:N",
     "State Police:P"
   ],
-  "FM Radio:WKSB": [
+  "FM Radio:WBLJ-FM": [
     "State Police:F",
-    "State Police:G",
-    "State Police:L",
-    "State Police:N",
-    "State Police:P"
-  ],
-  "FM Radio:WCXR": [
-    "State Police:F"
-  ],
-  "FM Radio:WNNK-FM": [
-    "State Police:F",
-    "State Police:H",
-    "State Police:J",
     "State Police:L"
   ],
-  "FM Radio:WNBT-FM": [
-    "State Police:F",
-    "State Police:P"
+  "FM Radio:WBYL": [
+    "State Police:F"
   ],
-  "FM Radio:WILQ": [
-    "State Police:F",
-    "State Police:N",
-    "State Police:P"
-  ],
-  "FM Radio:WNKI": [
-    "State Police:F",
-    "State Police:P"
+  "FM Radio:WBZD-FM": [
+    "State Police:F"
   ],
   "FM Radio:WCFT-FM": [
     "State Police:F",
@@ -872,127 +765,179 @@
     "State Police:N",
     "State Police:P"
   ],
-  "FM Radio:WQKK": [
+  "FM Radio:WCOG-FM": [
     "State Police:F"
   ],
-  "FM Radio:DWLIH": [
+  "FM Radio:WCXR": [
+    "State Police:F"
+  ],
+  "FM Radio:WDKC": [
     "State Police:F"
   ],
   "FM Radio:WEGH": [
     "State Police:F"
   ],
+  "FM Radio:WFBV": [
+    "State Police:F"
+  ],
+  "FM Radio:WGRC": [
+    "State Police:F"
+  ],
+  "FM Radio:WHGL-FM": [
+    "State Police:F",
+    "State Police:P"
+  ],
+  "FM Radio:WHNA": [
+    "State Police:F",
+    "State Police:N"
+  ],
+  "FM Radio:WILQ": [
+    "State Police:F",
+    "State Police:N",
+    "State Police:P"
+  ],
+  "FM Radio:WJSA-FM": [
+    "State Police:F",
+    "State Police:G"
+  ],
+  "FM Radio:WJVM": [
+    "State Police:F",
+    "State Police:G"
+  ],
+  "FM Radio:WKSB": [
+    "State Police:F",
+    "State Police:G",
+    "State Police:L",
+    "State Police:N",
+    "State Police:P"
+  ],
+  "FM Radio:WMTT-FM": [
+    "State Police:F"
+  ],
+  "FM Radio:WNBT-FM": [
+    "State Police:F",
+    "State Police:P"
+  ],
+  "FM Radio:WNKI": [
+    "State Police:F",
+    "State Police:P"
+  ],
+  "FM Radio:WNNK-FM": [
+    "State Police:F",
+    "State Police:H",
+    "State Police:J",
+    "State Police:L"
+  ],
+  "FM Radio:WOGA": [
+    "State Police:F"
+  ],
   "FM Radio:WOTH": [
     "State Police:F"
   ],
+  "FM Radio:WPGM-FM": [
+    "State Police:F",
+    "State Police:N"
+  ],
+  "FM Radio:WPMY": [
+    "State Police:F"
+  ],
+  "FM Radio:WQBR": [
+    "State Police:F"
+  ],
+  "FM Radio:WQKK": [
+    "State Police:F"
+  ],
+  "FM Radio:WQKX": [
+    "State Police:F",
+    "State Police:H",
+    "State Police:L",
+    "State Police:N"
+  ],
+  "FM Radio:WQSU": [
+    "State Police:F",
+    "State Police:N"
+  ],
+  "FM Radio:WRBG": [
+    "State Police:F"
+  ],
+  "FM Radio:WRBT": [
+    "State Police:F",
+    "State Police:H",
+    "State Police:J",
+    "State Police:L"
+  ],
+  "FM Radio:WRVV": [
+    "State Police:F",
+    "State Police:H",
+    "State Police:J",
+    "State Police:L"
+  ],
+  "FM Radio:WSQV": [
+    "State Police:F"
+  ],
+  "FM Radio:WVLY-FM": [
+    "State Police:F"
+  ],
+  "FM Radio:WVRT": [
+    "State Police:F"
+  ],
+  "FM Radio:WZXR": [
+    "State Police:F"
+  ],
   "State Police:G": [
-    "FM Radio:WHHN",
-    "FM Radio:WCOB",
-    "FM Radio:WRYV",
-    "FM Radio:WRXV",
-    "FM Radio:WPMN",
-    "FM Radio:WQEJ",
-    "FM Radio:WTLR",
-    "FM Radio:WJVM",
-    "FM Radio:WJRC",
-    "FM Radio:WCOX",
-    "FM Radio:WPSU",
-    "FM Radio:WMMH",
-    "FM Radio:WIBF",
-    "FM Radio:WJSM-FM",
-    "FM Radio:WLKE",
-    "FM Radio:WMAJ",
+    "FM Radio:WALY",
+    "FM Radio:WAPY",
+    "FM Radio:WAYC",
+    "FM Radio:WBHB-FM",
     "FM Radio:WBHV-FM",
     "FM Radio:WBRX",
-    "FM Radio:WIKZ",
-    "FM Radio:WZWW",
-    "FM Radio:WFGI-FM",
-    "FM Radio:WMRF-FM",
-    "FM Radio:WJSA-FM",
-    "FM Radio:WKYE",
-    "FM Radio:WVNW",
-    "FM Radio:WOWY",
-    "FM Radio:WGJC",
-    "FM Radio:WFGY",
-    "FM Radio:WLEJ",
-    "FM Radio:WRKW",
     "FM Radio:WBUS",
-    "FM Radio:WWOT",
-    "FM Radio:WAYC",
-    "FM Radio:WFGE",
-    "FM Radio:WBHB-FM",
-    "FM Radio:WKSB",
-    "FM Radio:WAPY",
-    "FM Radio:WHUN-FM",
-    "FM Radio:WEEO-FM",
-    "FM Radio:WALY",
-    "FM Radio:WSKE",
-    "FM Radio:WRKY-FM",
-    "FM Radio:WCHX",
-    "FM Radio:WQCK",
-    "FM Radio:WDBF-FM",
-    "FM Radio:WQJU",
     "FM Radio:WBVE",
-    "FM Radio:WKPA"
+    "FM Radio:WCHX",
+    "FM Radio:WCOB",
+    "FM Radio:WCOX",
+    "FM Radio:WDBF-FM",
+    "FM Radio:WEEO-FM",
+    "FM Radio:WFGE",
+    "FM Radio:WFGI-FM",
+    "FM Radio:WFGY",
+    "FM Radio:WGJC",
+    "FM Radio:WHHN",
+    "FM Radio:WHUN-FM",
+    "FM Radio:WIBF",
+    "FM Radio:WIKZ",
+    "FM Radio:WJRC",
+    "FM Radio:WJSA-FM",
+    "FM Radio:WJSM-FM",
+    "FM Radio:WJVM",
+    "FM Radio:WKPA",
+    "FM Radio:WKSB",
+    "FM Radio:WKYE",
+    "FM Radio:WLEJ",
+    "FM Radio:WLKE",
+    "FM Radio:WMAJ",
+    "FM Radio:WMMH",
+    "FM Radio:WMRF-FM",
+    "FM Radio:WOWY",
+    "FM Radio:WPMN",
+    "FM Radio:WPSU",
+    "FM Radio:WQCK",
+    "FM Radio:WQEJ",
+    "FM Radio:WQJU",
+    "FM Radio:WRKW",
+    "FM Radio:WRKY-FM",
+    "FM Radio:WRXV",
+    "FM Radio:WRYV",
+    "FM Radio:WSKE",
+    "FM Radio:WTLR",
+    "FM Radio:WVNW",
+    "FM Radio:WWOT",
+    "FM Radio:WZWW"
   ],
-  "FM Radio:WHHN": [
+  "FM Radio:WALY": [
     "State Police:G"
   ],
-  "FM Radio:WCOB": [
-    "State Police:G"
-  ],
-  "FM Radio:WRYV": [
-    "State Police:G"
-  ],
-  "FM Radio:WRXV": [
-    "State Police:G"
-  ],
-  "FM Radio:WPMN": [
-    "State Police:G"
-  ],
-  "FM Radio:WTLR": [
-    "State Police:G"
-  ],
-  "FM Radio:WJRC": [
-    "State Police:G"
-  ],
-  "FM Radio:WPSU": [
-    "State Police:G"
-  ],
-  "FM Radio:WIBF": [
-    "State Police:G"
-  ],
-  "FM Radio:WJSM-FM": [
-    "State Police:G"
-  ],
-  "FM Radio:WMAJ": [
-    "State Police:G"
-  ],
-  "FM Radio:WBHV-FM": [
-    "State Police:G"
-  ],
-  "FM Radio:WIKZ": [
-    "State Police:G",
-    "State Police:H"
-  ],
-  "FM Radio:WZWW": [
-    "State Police:G"
-  ],
-  "FM Radio:WMRF-FM": [
-    "State Police:G"
-  ],
-  "FM Radio:WVNW": [
-    "State Police:G"
-  ],
-  "FM Radio:WOWY": [
-    "State Police:G"
-  ],
-  "FM Radio:WGJC": [
-    "State Police:G"
-  ],
-  "FM Radio:WLEJ": [
-    "State Police:G"
-  ],
-  "FM Radio:WBUS": [
+  "FM Radio:WAPY": [
     "State Police:G"
   ],
   "FM Radio:WAYC": [
@@ -1002,77 +947,145 @@
     "State Police:G",
     "State Police:H"
   ],
-  "FM Radio:WAPY": [
+  "FM Radio:WBHV-FM": [
     "State Police:G"
   ],
-  "FM Radio:WHUN-FM": [
+  "FM Radio:WBUS": [
+    "State Police:G"
+  ],
+  "FM Radio:WBVE": [
+    "State Police:G"
+  ],
+  "FM Radio:WCHX": [
+    "State Police:G"
+  ],
+  "FM Radio:WCOB": [
+    "State Police:G"
+  ],
+  "FM Radio:WDBF-FM": [
     "State Police:G"
   ],
   "FM Radio:WEEO-FM": [
     "State Police:G",
     "State Police:H"
   ],
-  "FM Radio:WALY": [
+  "FM Radio:WGJC": [
     "State Police:G"
   ],
-  "FM Radio:WSKE": [
+  "FM Radio:WHHN": [
     "State Police:G"
   ],
-  "FM Radio:WCHX": [
+  "FM Radio:WHUN-FM": [
     "State Police:G"
   ],
-  "FM Radio:WQCK": [
+  "FM Radio:WIBF": [
     "State Police:G"
   ],
-  "FM Radio:WDBF-FM": [
+  "FM Radio:WIKZ": [
+    "State Police:G",
+    "State Police:H"
+  ],
+  "FM Radio:WJRC": [
     "State Police:G"
   ],
-  "FM Radio:WQJU": [
-    "State Police:G"
-  ],
-  "FM Radio:WBVE": [
+  "FM Radio:WJSM-FM": [
     "State Police:G"
   ],
   "FM Radio:WKPA": [
     "State Police:G"
   ],
+  "FM Radio:WLEJ": [
+    "State Police:G"
+  ],
+  "FM Radio:WMAJ": [
+    "State Police:G"
+  ],
+  "FM Radio:WMRF-FM": [
+    "State Police:G"
+  ],
+  "FM Radio:WOWY": [
+    "State Police:G"
+  ],
+  "FM Radio:WPMN": [
+    "State Police:G"
+  ],
+  "FM Radio:WPSU": [
+    "State Police:G"
+  ],
+  "FM Radio:WQCK": [
+    "State Police:G"
+  ],
+  "FM Radio:WQJU": [
+    "State Police:G"
+  ],
+  "FM Radio:WRXV": [
+    "State Police:G"
+  ],
+  "FM Radio:WRYV": [
+    "State Police:G"
+  ],
+  "FM Radio:WSKE": [
+    "State Police:G"
+  ],
+  "FM Radio:WTLR": [
+    "State Police:G"
+  ],
+  "FM Radio:WVNW": [
+    "State Police:G"
+  ],
+  "FM Radio:WZWW": [
+    "State Police:G"
+  ],
   "State Police:H": [
-    "FM Radio:WZXQ",
-    "FM Radio:WKHW",
-    "FM Radio:WITF-FM",
-    "FM Radio:WZXN",
-    "FM Radio:WPFG",
-    "FM Radio:WJAZ",
-    "FM Radio:WIKG",
-    "FM Radio:WKHL",
-    "FM Radio:WNUU",
-    "FM Radio:WYPM",
-    "FM Radio:WTPA-FM",
-    "FM Radio:WQKX",
-    "FM Radio:WQCM",
-    "FM Radio:WRBT",
-    "FM Radio:WIKZ",
-    "FM Radio:WSOX",
-    "FM Radio:WLAN-FM",
-    "FM Radio:WRVV",
-    "FM Radio:WYCR",
-    "FM Radio:WQLV",
-    "FM Radio:WHKF",
-    "FM Radio:WQBG",
-    "FM Radio:WROZ",
+    "FM Radio:WARM-FM",
     "FM Radio:WBHB-FM",
     "FM Radio:WCAT-FM",
-    "FM Radio:WARM-FM",
     "FM Radio:WEEO-FM",
+    "FM Radio:WGTY",
+    "FM Radio:WHKF",
+    "FM Radio:WIKG",
+    "FM Radio:WIKZ",
+    "FM Radio:WITF-FM",
+    "FM Radio:WJAZ",
+    "FM Radio:WKHL",
+    "FM Radio:WKHW",
+    "FM Radio:WLAN-FM",
     "FM Radio:WNNK-FM",
+    "FM Radio:WNUU",
+    "FM Radio:WPFG",
+    "FM Radio:WQBG",
+    "FM Radio:WQCM",
+    "FM Radio:WQKX",
+    "FM Radio:WQLV",
     "FM Radio:WQXA-FM",
+    "FM Radio:WRBT",
+    "FM Radio:WROZ",
+    "FM Radio:WRVV",
+    "FM Radio:WSOX",
+    "FM Radio:WTPA-FM",
     "FM Radio:WWKL",
-    "FM Radio:WGTY"
+    "FM Radio:WYCR",
+    "FM Radio:WYPM",
+    "FM Radio:WZXN",
+    "FM Radio:WZXQ"
   ],
-  "FM Radio:WZXQ": [
+  "FM Radio:WARM-FM": [
+    "State Police:H",
+    "State Police:J",
+    "State Police:L"
+  ],
+  "FM Radio:WCAT-FM": [
     "State Police:H"
   ],
-  "FM Radio:WKHW": [
+  "FM Radio:WGTY": [
+    "State Police:H",
+    "State Police:J"
+  ],
+  "FM Radio:WHKF": [
+    "State Police:H",
+    "State Police:J"
+  ],
+  "FM Radio:WIKG": [
     "State Police:H"
   ],
   "FM Radio:WITF-FM": [
@@ -1080,42 +1093,57 @@
     "State Police:J",
     "State Police:L"
   ],
-  "FM Radio:WZXN": [
-    "State Police:H"
-  ],
-  "FM Radio:WPFG": [
-    "State Police:H"
-  ],
   "FM Radio:WJAZ": [
-    "State Police:H"
-  ],
-  "FM Radio:WIKG": [
     "State Police:H"
   ],
   "FM Radio:WKHL": [
     "State Police:H",
     "State Police:L"
   ],
+  "FM Radio:WKHW": [
+    "State Police:H"
+  ],
+  "FM Radio:WLAN-FM": [
+    "State Police:H",
+    "State Police:J",
+    "State Police:L"
+  ],
   "FM Radio:WNUU": [
     "State Police:H",
     "State Police:J"
   ],
-  "FM Radio:WYPM": [
+  "FM Radio:WPFG": [
     "State Police:H"
   ],
-  "FM Radio:WTPA-FM": [
-    "State Police:H",
-    "State Police:J"
+  "FM Radio:WQBG": [
+    "State Police:H"
   ],
   "FM Radio:WQCM": [
     "State Police:H"
+  ],
+  "FM Radio:WQLV": [
+    "State Police:H"
+  ],
+  "FM Radio:WQXA-FM": [
+    "State Police:H",
+    "State Police:J",
+    "State Police:L"
+  ],
+  "FM Radio:WROZ": [
+    "State Police:H",
+    "State Police:J",
+    "State Police:L"
   ],
   "FM Radio:WSOX": [
     "State Police:H",
     "State Police:J",
     "State Police:L"
   ],
-  "FM Radio:WLAN-FM": [
+  "FM Radio:WTPA-FM": [
+    "State Police:H",
+    "State Police:J"
+  ],
+  "FM Radio:WWKL": [
     "State Police:H",
     "State Police:J",
     "State Police:L"
@@ -1124,201 +1152,65 @@
     "State Police:H",
     "State Police:J"
   ],
-  "FM Radio:WQLV": [
+  "FM Radio:WYPM": [
     "State Police:H"
   ],
-  "FM Radio:WHKF": [
-    "State Police:H",
-    "State Police:J"
-  ],
-  "FM Radio:WQBG": [
+  "FM Radio:WZXN": [
     "State Police:H"
   ],
-  "FM Radio:WROZ": [
-    "State Police:H",
-    "State Police:J",
-    "State Police:L"
-  ],
-  "FM Radio:WCAT-FM": [
+  "FM Radio:WZXQ": [
     "State Police:H"
-  ],
-  "FM Radio:WARM-FM": [
-    "State Police:H",
-    "State Police:J",
-    "State Police:L"
-  ],
-  "FM Radio:WQXA-FM": [
-    "State Police:H",
-    "State Police:J",
-    "State Police:L"
-  ],
-  "FM Radio:WWKL": [
-    "State Police:H",
-    "State Police:J",
-    "State Police:L"
-  ],
-  "FM Radio:WGTY": [
-    "State Police:H",
-    "State Police:J"
   ],
   "State Police:J": [
-    "FM Radio:WZZD",
-    "FM Radio:WXPN",
-    "FM Radio:WXPH",
-    "FM Radio:WRTJ",
-    "FM Radio:WITF-FM",
-    "FM Radio:WRTI",
-    "FM Radio:WJTL",
-    "FM Radio:WZXY",
-    "FM Radio:WHYY-FM",
-    "FM Radio:WYTL",
-    "FM Radio:WXTU",
-    "FM Radio:WNUU",
-    "FM Radio:WMMR",
-    "FM Radio:WTPA-FM",
-    "FM Radio:WIP-FM",
-    "FM Radio:WDAC",
-    "FM Radio:WRBT",
+    "FM Radio:WARM-FM",
+    "FM Radio:WBEB",
     "FM Radio:WBEN-FM",
+    "FM Radio:WBYN-FM",
+    "FM Radio:WDAC",
+    "FM Radio:WDAS-FM",
+    "FM Radio:WGTY",
+    "FM Radio:WHKF",
+    "FM Radio:WHYY-FM",
+    "FM Radio:WIOQ",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WIP-FM",
+    "FM Radio:WITF-FM",
+    "FM Radio:WJTL",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WMGK",
+    "FM Radio:WMMR",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WNUU",
+    "FM Radio:WOGL",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WRBT",
+    "FM Radio:WRFF",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WRNB",
+    "FM Radio:WROZ",
+    "FM Radio:WRTI",
+    "FM Radio:WRTJ",
+    "FM Radio:WRVV",
     "FM Radio:WSOX",
     "FM Radio:WTDY-FM",
-    "FM Radio:WLAN-FM",
-    "FM Radio:WRVV",
-    "FM Radio:WOGL",
-    "FM Radio:WYCR",
-    "FM Radio:WUSL",
-    "FM Radio:WHKF",
-    "FM Radio:WRNB",
-    "FM Radio:WBEB",
-    "FM Radio:WROZ",
-    "FM Radio:WIOQ",
-    "FM Radio:WRFY-FM",
-    "FM Radio:WMGK",
-    "FM Radio:WARM-FM",
-    "FM Radio:WNNK-FM",
-    "FM Radio:WRFF",
-    "FM Radio:WIOV-FM",
-    "FM Radio:WDAS-FM",
-    "FM Radio:WQXA-FM",
+    "FM Radio:WTPA-FM",
     "FM Radio:WUMR",
+    "FM Radio:WUSL",
     "FM Radio:WWKL",
-    "FM Radio:WBYN-FM",
-    "FM Radio:WGTY"
-  ],
-  "FM Radio:WZZD": [
-    "State Police:J"
-  ],
-  "FM Radio:WXPN": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WXPH": [
-    "State Police:J"
-  ],
-  "FM Radio:WRTJ": [
-    "State Police:J"
-  ],
-  "FM Radio:WRTI": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WJTL": [
-    "State Police:J"
-  ],
-  "FM Radio:WZXY": [
-    "State Police:J"
-  ],
-  "FM Radio:WHYY-FM": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WYTL": [
-    "State Police:J",
-    "State Police:L"
-  ],
-  "FM Radio:WXTU": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WMMR": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WIP-FM": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WDAC": [
-    "State Police:J",
-    "State Police:L"
-  ],
-  "FM Radio:WBEN-FM": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WTDY-FM": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WOGL": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WUSL": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WRNB": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:M"
+    "FM Radio:WXPH",
+    "FM Radio:WXPN",
+    "FM Radio:WXTU",
+    "FM Radio:WYCR",
+    "FM Radio:WYTL",
+    "FM Radio:WZXY",
+    "FM Radio:WZZD"
   ],
   "FM Radio:WBEB": [
     "State Police:J",
     "State Police:K",
     "State Police:M"
   ],
-  "FM Radio:WIOQ": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WRFY-FM": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:L",
-    "State Police:M"
-  ],
-  "FM Radio:WMGK": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WRFF": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WIOV-FM": [
-    "State Police:J",
-    "State Police:L"
-  ],
-  "FM Radio:WDAS-FM": [
-    "State Police:J",
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WUMR": [
+  "FM Radio:WBEN-FM": [
     "State Police:J",
     "State Police:K",
     "State Police:M"
@@ -1329,62 +1221,169 @@
     "State Police:L",
     "State Police:M"
   ],
+  "FM Radio:WDAC": [
+    "State Police:J",
+    "State Police:L"
+  ],
+  "FM Radio:WDAS-FM": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WHYY-FM": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WIOQ": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WIOV-FM": [
+    "State Police:J",
+    "State Police:L"
+  ],
+  "FM Radio:WIP-FM": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WJTL": [
+    "State Police:J"
+  ],
+  "FM Radio:WMGK": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WMMR": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WOGL": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WRFF": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WRFY-FM": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:L",
+    "State Police:M"
+  ],
+  "FM Radio:WRNB": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WRTI": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WRTJ": [
+    "State Police:J"
+  ],
+  "FM Radio:WTDY-FM": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WUMR": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WUSL": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WXPH": [
+    "State Police:J"
+  ],
+  "FM Radio:WXPN": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WXTU": [
+    "State Police:J",
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WYTL": [
+    "State Police:J",
+    "State Police:L"
+  ],
+  "FM Radio:WZXY": [
+    "State Police:J"
+  ],
+  "FM Radio:WZZD": [
+    "State Police:J"
+  ],
   "State Police:K": [
-    "FM Radio:WXPN",
-    "FM Radio:WBYO",
-    "FM Radio:WXVU",
-    "FM Radio:WRDV",
-    "FM Radio:WRTI",
-    "FM Radio:WHYY-FM",
-    "FM Radio:WKDU",
-    "FM Radio:WBMR",
-    "FM Radio:WXTU",
-    "FM Radio:WMMR",
-    "FM Radio:WIP-FM",
-    "FM Radio:WZZO",
-    "FM Radio:WBEN-FM",
-    "FM Radio:WCTO",
-    "FM Radio:WTDY-FM",
-    "FM Radio:WOGL",
-    "FM Radio:WUSL",
-    "FM Radio:WODE-FM",
-    "FM Radio:WRNB",
-    "FM Radio:WLEV",
-    "FM Radio:WBEB",
-    "FM Radio:WIOQ",
-    "FM Radio:WRFY-FM",
-    "FM Radio:WMGK",
-    "FM Radio:WPHI-FM",
     "FM Radio:WAEB-FM",
-    "FM Radio:WRFF",
+    "FM Radio:WBEB",
+    "FM Radio:WBEN-FM",
+    "FM Radio:WBMR",
+    "FM Radio:WBYN-FM",
+    "FM Radio:WBYO",
+    "FM Radio:WCTO",
     "FM Radio:WDAS-FM",
+    "FM Radio:WHYY-FM",
+    "FM Radio:WIOQ",
+    "FM Radio:WIP-FM",
+    "FM Radio:WKDU",
+    "FM Radio:WLEV",
+    "FM Radio:WMGK",
+    "FM Radio:WMMR",
+    "FM Radio:WODE-FM",
+    "FM Radio:WOGL",
+    "FM Radio:WPHI-FM",
+    "FM Radio:WRDV",
+    "FM Radio:WRFF",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WRNB",
+    "FM Radio:WRTI",
+    "FM Radio:WTDY-FM",
     "FM Radio:WUMR",
-    "FM Radio:WBYN-FM"
+    "FM Radio:WUSL",
+    "FM Radio:WXPN",
+    "FM Radio:WXTU",
+    "FM Radio:WXVU",
+    "FM Radio:WZZO"
   ],
-  "FM Radio:WBYO": [
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WXVU": [
-    "State Police:K"
-  ],
-  "FM Radio:WRDV": [
-    "State Police:K",
-    "State Police:M"
-  ],
-  "FM Radio:WKDU": [
-    "State Police:K"
-  ],
-  "FM Radio:WBMR": [
-    "State Police:K"
-  ],
-  "FM Radio:WZZO": [
+  "FM Radio:WAEB-FM": [
     "State Police:K",
     "State Police:L",
     "State Police:M",
     "State Police:N"
   ],
+  "FM Radio:WBMR": [
+    "State Police:K"
+  ],
+  "FM Radio:WBYO": [
+    "State Police:K",
+    "State Police:M"
+  ],
   "FM Radio:WCTO": [
+    "State Police:K",
+    "State Police:L",
+    "State Police:M",
+    "State Police:N"
+  ],
+  "FM Radio:WKDU": [
+    "State Police:K"
+  ],
+  "FM Radio:WLEV": [
     "State Police:K",
     "State Police:L",
     "State Police:M",
@@ -1396,94 +1395,62 @@
     "State Police:M",
     "State Police:N"
   ],
-  "FM Radio:WLEV": [
-    "State Police:K",
-    "State Police:L",
-    "State Police:M",
-    "State Police:N"
-  ],
   "FM Radio:WPHI-FM": [
     "State Police:K"
   ],
-  "FM Radio:WAEB-FM": [
+  "FM Radio:WRDV": [
+    "State Police:K",
+    "State Police:M"
+  ],
+  "FM Radio:WXVU": [
+    "State Police:K"
+  ],
+  "FM Radio:WZZO": [
     "State Police:K",
     "State Police:L",
     "State Police:M",
     "State Police:N"
   ],
   "State Police:L": [
-    "FM Radio:WFCP",
-    "FM Radio:WYBQ",
-    "FM Radio:WZMV",
-    "FM Radio:WITF-FM",
-    "FM Radio:WZXB",
-    "FM Radio:WFBA",
-    "FM Radio:WRTL",
-    "FM Radio:WCDH",
-    "FM Radio:WZRG",
-    "FM Radio:WYTL",
-    "FM Radio:WKHL",
-    "FM Radio:WMGS",
-    "FM Radio:WQKX",
-    "FM Radio:WDAC",
-    "FM Radio:WRBT",
-    "FM Radio:WZZO",
-    "FM Radio:WBLJ-FM",
-    "FM Radio:WCTO",
-    "FM Radio:WSOX",
-    "FM Radio:WLAN-FM",
-    "FM Radio:WRVV",
-    "FM Radio:WBSX",
-    "FM Radio:WVRZ",
-    "FM Radio:WODE-FM",
-    "FM Radio:WFVY",
-    "FM Radio:WLEV",
-    "FM Radio:WROZ",
-    "FM Radio:WAVT-FM",
-    "FM Radio:WRFY-FM",
-    "FM Radio:WKSB",
-    "FM Radio:WARM-FM",
     "FM Radio:WAEB-FM",
-    "FM Radio:WNNK-FM",
-    "FM Radio:WIOV-FM",
-    "FM Radio:WMGH-FM",
-    "FM Radio:WQXA-FM",
+    "FM Radio:WARM-FM",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WBLJ-FM",
+    "FM Radio:WBSX",
+    "FM Radio:WBYN-FM",
+    "FM Radio:WCDH",
     "FM Radio:WCFT-FM",
+    "FM Radio:WCTO",
+    "FM Radio:WDAC",
+    "FM Radio:WFBA",
+    "FM Radio:WFCP",
+    "FM Radio:WFVY",
+    "FM Radio:WIOV-FM",
+    "FM Radio:WITF-FM",
+    "FM Radio:WKHL",
+    "FM Radio:WKSB",
+    "FM Radio:WLAN-FM",
+    "FM Radio:WLEV",
+    "FM Radio:WMGH-FM",
+    "FM Radio:WMGS",
+    "FM Radio:WNNK-FM",
+    "FM Radio:WODE-FM",
+    "FM Radio:WQKX",
+    "FM Radio:WQXA-FM",
+    "FM Radio:WRBT",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WROZ",
+    "FM Radio:WRTL",
+    "FM Radio:WRVV",
+    "FM Radio:WSOX",
+    "FM Radio:WVRZ",
     "FM Radio:WWKL",
-    "FM Radio:WBYN-FM"
-  ],
-  "FM Radio:WFCP": [
-    "State Police:L"
-  ],
-  "FM Radio:WYBQ": [
-    "State Police:L"
-  ],
-  "FM Radio:WZMV": [
-    "State Police:L"
-  ],
-  "FM Radio:WZXB": [
-    "State Police:L"
-  ],
-  "FM Radio:WFBA": [
-    "State Police:L",
-    "State Police:N"
-  ],
-  "FM Radio:WRTL": [
-    "State Police:L"
-  ],
-  "FM Radio:WCDH": [
-    "State Police:L",
-    "State Police:N"
-  ],
-  "FM Radio:WZRG": [
-    "State Police:L",
-    "State Police:N"
-  ],
-  "FM Radio:WMGS": [
-    "State Police:L",
-    "State Police:N",
-    "State Police:P",
-    "State Police:R"
+    "FM Radio:WYBQ",
+    "FM Radio:WYTL",
+    "FM Radio:WZMV",
+    "FM Radio:WZRG",
+    "FM Radio:WZXB",
+    "FM Radio:WZZO"
   ],
   "FM Radio:WBSX": [
     "State Police:L",
@@ -1491,9 +1458,16 @@
     "State Police:P",
     "State Police:R"
   ],
-  "FM Radio:WVRZ": [
+  "FM Radio:WCDH": [
     "State Police:L",
     "State Police:N"
+  ],
+  "FM Radio:WFBA": [
+    "State Police:L",
+    "State Police:N"
+  ],
+  "FM Radio:WFCP": [
+    "State Police:L"
   ],
   "FM Radio:WFVY": [
     "State Police:L"
@@ -1501,54 +1475,80 @@
   "FM Radio:WMGH-FM": [
     "State Police:L"
   ],
-  "State Police:M": [
-    "FM Radio:WDIY",
-    "FM Radio:WXPN",
-    "FM Radio:WBYX",
-    "FM Radio:WBYO",
-    "FM Radio:WJCS",
-    "FM Radio:WRDV",
-    "FM Radio:WWPJ",
-    "FM Radio:WRTI",
-    "FM Radio:WLHI",
-    "FM Radio:WHYY-FM",
-    "FM Radio:WLVR-FM",
-    "FM Radio:WMUH",
-    "FM Radio:WXTU",
-    "FM Radio:WMMR",
-    "FM Radio:WSBG",
-    "FM Radio:WIP-FM",
-    "FM Radio:WZZO",
-    "FM Radio:WBEN-FM",
-    "FM Radio:WCTO",
-    "FM Radio:WTDY-FM",
-    "FM Radio:WOGL",
-    "FM Radio:WUSL",
-    "FM Radio:WODE-FM",
-    "FM Radio:WRNB",
-    "FM Radio:WLEV",
-    "FM Radio:WBEB",
-    "FM Radio:WIOQ",
-    "FM Radio:WRFY-FM",
-    "FM Radio:WMGK",
-    "FM Radio:WAEB-FM",
-    "FM Radio:WRFF",
-    "FM Radio:WDAS-FM",
-    "FM Radio:WUMR",
-    "FM Radio:WBYN-FM",
-    "FM Radio:WKRF"
+  "FM Radio:WMGS": [
+    "State Police:L",
+    "State Police:N",
+    "State Police:P",
+    "State Police:R"
   ],
-  "FM Radio:WDIY": [
-    "State Police:M"
+  "FM Radio:WRTL": [
+    "State Police:L"
+  ],
+  "FM Radio:WVRZ": [
+    "State Police:L",
+    "State Police:N"
+  ],
+  "FM Radio:WYBQ": [
+    "State Police:L"
+  ],
+  "FM Radio:WZMV": [
+    "State Police:L"
+  ],
+  "FM Radio:WZRG": [
+    "State Police:L",
+    "State Police:N"
+  ],
+  "FM Radio:WZXB": [
+    "State Police:L"
+  ],
+  "State Police:M": [
+    "FM Radio:WAEB-FM",
+    "FM Radio:WBEB",
+    "FM Radio:WBEN-FM",
+    "FM Radio:WBYN-FM",
+    "FM Radio:WBYO",
+    "FM Radio:WBYX",
+    "FM Radio:WCTO",
+    "FM Radio:WDAS-FM",
+    "FM Radio:WDIY",
+    "FM Radio:WHYY-FM",
+    "FM Radio:WIOQ",
+    "FM Radio:WIP-FM",
+    "FM Radio:WJCS",
+    "FM Radio:WKRF",
+    "FM Radio:WLEV",
+    "FM Radio:WLHI",
+    "FM Radio:WLVR-FM",
+    "FM Radio:WMGK",
+    "FM Radio:WMMR",
+    "FM Radio:WMUH",
+    "FM Radio:WODE-FM",
+    "FM Radio:WOGL",
+    "FM Radio:WRDV",
+    "FM Radio:WRFF",
+    "FM Radio:WRFY-FM",
+    "FM Radio:WRNB",
+    "FM Radio:WRTI",
+    "FM Radio:WSBG",
+    "FM Radio:WTDY-FM",
+    "FM Radio:WUMR",
+    "FM Radio:WUSL",
+    "FM Radio:WWPJ",
+    "FM Radio:WXPN",
+    "FM Radio:WXTU",
+    "FM Radio:WZZO"
   ],
   "FM Radio:WBYX": [
     "State Police:M",
     "State Police:N"
   ],
+  "FM Radio:WDIY": [
+    "State Police:M"
+  ],
   "FM Radio:WJCS": [
     "State Police:M"
   ],
-  "FM Radio:WWPJ": [
+  "FM Radio:WKRF": [
     "State Police:M",
     "State Police:N"
   ],
@@ -1565,47 +1565,51 @@
     "State Police:M",
     "State Police:N"
   ],
-  "FM Radio:WKRF": [
+  "FM Radio:WWPJ": [
     "State Police:M",
     "State Police:N"
   ],
   "State Police:N": [
-    "FM Radio:WBYX",
-    "FM Radio:WQSU",
-    "FM Radio:WWPJ",
-    "FM Radio:WVIA-FM",
-    "FM Radio:WFBA",
-    "FM Radio:WHSK",
-    "FM Radio:WRTY",
-    "FM Radio:WCDH",
-    "FM Radio:WZRG",
-    "FM Radio:WQFM",
-    "FM Radio:WHNA",
-    "FM Radio:WMGS",
-    "FM Radio:WSBG",
-    "FM Radio:WSJR",
-    "FM Radio:WQKX",
-    "FM Radio:WZZO",
-    "FM Radio:WKBP",
-    "FM Radio:WCTO",
-    "FM Radio:WPGM-FM",
+    "FM Radio:WAEB-FM",
+    "FM Radio:WAVT-FM",
     "FM Radio:WBHT",
     "FM Radio:WBSX",
-    "FM Radio:WKRZ",
-    "FM Radio:WVRZ",
-    "FM Radio:WODE-FM",
-    "FM Radio:WLEV",
-    "FM Radio:WGGY",
-    "FM Radio:WAVT-FM",
-    "FM Radio:WKSB",
-    "FM Radio:WMMZ",
-    "FM Radio:WAEB-FM",
-    "FM Radio:WILQ",
-    "FM Radio:WPZX",
+    "FM Radio:WBYX",
+    "FM Radio:WCDH",
     "FM Radio:WCFT-FM",
-    "FM Radio:WKRF"
+    "FM Radio:WCTO",
+    "FM Radio:WFBA",
+    "FM Radio:WGGY",
+    "FM Radio:WHNA",
+    "FM Radio:WHSK",
+    "FM Radio:WILQ",
+    "FM Radio:WKBP",
+    "FM Radio:WKRF",
+    "FM Radio:WKRZ",
+    "FM Radio:WKSB",
+    "FM Radio:WLEV",
+    "FM Radio:WMGS",
+    "FM Radio:WMMZ",
+    "FM Radio:WODE-FM",
+    "FM Radio:WPGM-FM",
+    "FM Radio:WPZX",
+    "FM Radio:WQFM",
+    "FM Radio:WQKX",
+    "FM Radio:WQSU",
+    "FM Radio:WRTY",
+    "FM Radio:WSBG",
+    "FM Radio:WSJR",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WVRZ",
+    "FM Radio:WWPJ",
+    "FM Radio:WZRG",
+    "FM Radio:WZZO"
   ],
-  "FM Radio:WVIA-FM": [
+  "FM Radio:WBHT": [
+    "State Police:N",
+    "State Police:P"
+  ],
+  "FM Radio:WGGY": [
     "State Police:N",
     "State Police:P",
     "State Police:R"
@@ -1613,30 +1617,10 @@
   "FM Radio:WHSK": [
     "State Police:N"
   ],
-  "FM Radio:WRTY": [
-    "State Police:N"
-  ],
-  "FM Radio:WQFM": [
-    "State Police:N",
-    "State Police:P"
-  ],
-  "FM Radio:WSJR": [
-    "State Police:N",
-    "State Police:P"
-  ],
   "FM Radio:WKBP": [
     "State Police:N"
   ],
-  "FM Radio:WBHT": [
-    "State Police:N",
-    "State Police:P"
-  ],
   "FM Radio:WKRZ": [
-    "State Police:N",
-    "State Police:P",
-    "State Police:R"
-  ],
-  "FM Radio:WGGY": [
     "State Police:N",
     "State Police:P",
     "State Police:R"
@@ -1648,73 +1632,98 @@
   "FM Radio:WPZX": [
     "State Police:N"
   ],
+  "FM Radio:WQFM": [
+    "State Police:N",
+    "State Police:P"
+  ],
+  "FM Radio:WRTY": [
+    "State Police:N"
+  ],
+  "FM Radio:WSJR": [
+    "State Police:N",
+    "State Police:P"
+  ],
+  "FM Radio:WVIA-FM": [
+    "State Police:N",
+    "State Police:P",
+    "State Police:R"
+  ],
   "State Police:P": [
-    "FM Radio:WRGN",
-    "FM Radio:WCII",
-    "FM Radio:WSKG-FM",
-    "FM Radio:WVIA-FM",
-    "FM Radio:WCIH",
-    "FM Radio:WCLH",
-    "FM Radio:WCDR",
-    "FM Radio:WSQE",
-    "FM Radio:WCDJ",
-    "FM Radio:WCOZ",
-    "FM Radio:WQFM",
-    "FM Radio:WENI-FM",
-    "FM Radio:WMGS",
-    "FM Radio:WSJR",
-    "FM Radio:WTTC-FM",
-    "FM Radio:WBHD",
-    "FM Radio:WPEL-FM",
-    "FM Radio:WZBF",
-    "FM Radio:WBHT",
-    "FM Radio:WBSX",
-    "FM Radio:WHWK",
-    "FM Radio:WKRZ",
     "FM Radio:WAAL",
-    "FM Radio:WOKN",
-    "FM Radio:WUSR",
-    "FM Radio:WHGL-FM",
-    "FM Radio:WGGY",
-    "FM Radio:WAVT-FM",
     "FM Radio:WAVR",
-    "FM Radio:WMQX",
-    "FM Radio:WKSB",
-    "FM Radio:WILK-FM",
-    "FM Radio:WMMZ",
-    "FM Radio:WGMF-FM",
-    "FM Radio:WNBT-FM",
-    "FM Radio:WWRR",
-    "FM Radio:WILQ",
+    "FM Radio:WAVT-FM",
+    "FM Radio:WBHD",
+    "FM Radio:WBHT",
     "FM Radio:WBNW-FM",
-    "FM Radio:WNKI",
+    "FM Radio:WBSX",
+    "FM Radio:WCDJ",
+    "FM Radio:WCDR",
     "FM Radio:WCFT-FM",
+    "FM Radio:WCIG",
+    "FM Radio:WCIH",
+    "FM Radio:WCII",
+    "FM Radio:WCLH",
+    "FM Radio:WCOZ",
+    "FM Radio:WENI-FM",
     "FM Radio:WEZX",
-    "FM Radio:WCIG"
+    "FM Radio:WGGY",
+    "FM Radio:WGMF-FM",
+    "FM Radio:WHGL-FM",
+    "FM Radio:WHWK",
+    "FM Radio:WILK-FM",
+    "FM Radio:WILQ",
+    "FM Radio:WKRZ",
+    "FM Radio:WKSB",
+    "FM Radio:WMGS",
+    "FM Radio:WMMZ",
+    "FM Radio:WMQX",
+    "FM Radio:WNBT-FM",
+    "FM Radio:WNKI",
+    "FM Radio:WOKN",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WQFM",
+    "FM Radio:WRGN",
+    "FM Radio:WSJR",
+    "FM Radio:WSKG-FM",
+    "FM Radio:WSQE",
+    "FM Radio:WTTC-FM",
+    "FM Radio:WUSR",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WWRR",
+    "FM Radio:WZBF"
   ],
-  "FM Radio:WRGN": [
+  "FM Radio:WAAL": [
+    "State Police:P",
+    "State Police:R"
+  ],
+  "FM Radio:WAVR": [
     "State Police:P"
   ],
-  "FM Radio:WCII": [
+  "FM Radio:WBHD": [
+    "State Police:P",
+    "State Police:R"
+  ],
+  "FM Radio:WBNW-FM": [
+    "State Police:P",
+    "State Police:R"
+  ],
+  "FM Radio:WCDJ": [
     "State Police:P"
   ],
-  "FM Radio:WSKG-FM": [
+  "FM Radio:WCDR": [
+    "State Police:P"
+  ],
+  "FM Radio:WCIG": [
     "State Police:P",
     "State Police:R"
   ],
   "FM Radio:WCIH": [
     "State Police:P"
   ],
+  "FM Radio:WCII": [
+    "State Police:P"
+  ],
   "FM Radio:WCLH": [
-    "State Police:P"
-  ],
-  "FM Radio:WCDR": [
-    "State Police:P"
-  ],
-  "FM Radio:WSQE": [
-    "State Police:P"
-  ],
-  "FM Radio:WCDJ": [
     "State Police:P"
   ],
   "FM Radio:WCOZ": [
@@ -1723,39 +1732,14 @@
   "FM Radio:WENI-FM": [
     "State Police:P"
   ],
-  "FM Radio:WTTC-FM": [
-    "State Police:P"
-  ],
-  "FM Radio:WBHD": [
+  "FM Radio:WEZX": [
     "State Police:P",
     "State Police:R"
   ],
-  "FM Radio:WPEL-FM": [
-    "State Police:P",
-    "State Police:R"
-  ],
-  "FM Radio:WZBF": [
+  "FM Radio:WGMF-FM": [
     "State Police:P"
   ],
   "FM Radio:WHWK": [
-    "State Police:P",
-    "State Police:R"
-  ],
-  "FM Radio:WAAL": [
-    "State Police:P",
-    "State Police:R"
-  ],
-  "FM Radio:WOKN": [
-    "State Police:P"
-  ],
-  "FM Radio:WUSR": [
-    "State Police:P",
-    "State Police:R"
-  ],
-  "FM Radio:WAVR": [
-    "State Police:P"
-  ],
-  "FM Radio:WMQX": [
     "State Police:P",
     "State Police:R"
   ],
@@ -1763,95 +1747,102 @@
     "State Police:P",
     "State Police:R"
   ],
-  "FM Radio:WGMF-FM": [
+  "FM Radio:WMQX": [
+    "State Police:P",
+    "State Police:R"
+  ],
+  "FM Radio:WOKN": [
     "State Police:P"
+  ],
+  "FM Radio:WPEL-FM": [
+    "State Police:P",
+    "State Police:R"
+  ],
+  "FM Radio:WRGN": [
+    "State Police:P"
+  ],
+  "FM Radio:WSKG-FM": [
+    "State Police:P",
+    "State Police:R"
+  ],
+  "FM Radio:WSQE": [
+    "State Police:P"
+  ],
+  "FM Radio:WTTC-FM": [
+    "State Police:P"
+  ],
+  "FM Radio:WUSR": [
+    "State Police:P",
+    "State Police:R"
   ],
   "FM Radio:WWRR": [
     "State Police:P",
     "State Police:R"
   ],
-  "FM Radio:WBNW-FM": [
-    "State Police:P",
-    "State Police:R"
-  ],
-  "FM Radio:WEZX": [
-    "State Police:P",
-    "State Police:R"
-  ],
-  "FM Radio:WCIG": [
-    "State Police:P",
-    "State Police:R"
+  "FM Radio:WZBF": [
+    "State Police:P"
   ],
   "State Police:R": [
-    "FM Radio:WLKA",
-    "FM Radio:WBYH",
-    "FM Radio:WSKG-FM",
-    "FM Radio:WVIA-FM",
-    "FM Radio:WZZH",
-    "FM Radio:WPAU",
-    "FM Radio:WVMW-FM",
-    "FM Radio:WKGB-FM",
-    "FM Radio:WMGS",
-    "FM Radio:WJOB-FM",
-    "FM Radio:WTRW",
-    "FM Radio:WIYN",
-    "FM Radio:WDNH-FM",
-    "FM Radio:WBHD",
-    "FM Radio:WPEL-FM",
-    "FM Radio:WBSX",
-    "FM Radio:WHWK",
-    "FM Radio:WKRZ",
     "FM Radio:WAAL",
-    "FM Radio:WUSR",
-    "FM Radio:WQFN",
+    "FM Radio:WBHD",
+    "FM Radio:WBNW-FM",
+    "FM Radio:WBSX",
+    "FM Radio:WBYH",
+    "FM Radio:WCDW",
+    "FM Radio:WCIG",
+    "FM Radio:WDNH-FM",
     "FM Radio:WDRE",
+    "FM Radio:WEZX",
     "FM Radio:WGGY",
-    "FM Radio:WLTB",
-    "FM Radio:WMQX",
-    "FM Radio:WILK-FM",
-    "FM Radio:WMXW",
     "FM Radio:WHNB",
+    "FM Radio:WHWK",
+    "FM Radio:WILK-FM",
+    "FM Radio:WIYN",
+    "FM Radio:WJOB-FM",
+    "FM Radio:WKGB-FM",
+    "FM Radio:WKRZ",
+    "FM Radio:WLKA",
+    "FM Radio:WLTB",
+    "FM Radio:WMGS",
+    "FM Radio:WMQX",
+    "FM Radio:WMXW",
+    "FM Radio:WPAU",
+    "FM Radio:WPEL-FM",
+    "FM Radio:WQFN",
+    "FM Radio:WSKG-FM",
+    "FM Radio:WTRW",
+    "FM Radio:WUSR",
+    "FM Radio:WVIA-FM",
+    "FM Radio:WVMW-FM",
     "FM Radio:WWRR",
     "FM Radio:WYCY",
-    "FM Radio:WBNW-FM",
-    "FM Radio:WCDW",
-    "FM Radio:WEZX",
-    "FM Radio:WCIG"
-  ],
-  "FM Radio:WLKA": [
-    "State Police:R"
+    "FM Radio:WZZH"
   ],
   "FM Radio:WBYH": [
     "State Police:R"
   ],
-  "FM Radio:WZZH": [
-    "State Police:R"
-  ],
-  "FM Radio:WPAU": [
-    "State Police:R"
-  ],
-  "FM Radio:WVMW-FM": [
-    "State Police:R"
-  ],
-  "FM Radio:WKGB-FM": [
-    "State Police:R"
-  ],
-  "FM Radio:WJOB-FM": [
-    "State Police:R"
-  ],
-  "FM Radio:WTRW": [
-    "State Police:R"
-  ],
-  "FM Radio:WIYN": [
+  "FM Radio:WCDW": [
     "State Police:R"
   ],
   "FM Radio:WDNH-FM": [
     "State Police:R"
   ],
-  "FM Radio:WQFN": [
+  "FM Radio:WDRE": [
     "State Police:R"
   ],
-  "FM Radio:WDRE": [
+  "FM Radio:WHNB": [
+    "State Police:R"
+  ],
+  "FM Radio:WIYN": [
+    "State Police:R"
+  ],
+  "FM Radio:WJOB-FM": [
+    "State Police:R"
+  ],
+  "FM Radio:WKGB-FM": [
+    "State Police:R"
+  ],
+  "FM Radio:WLKA": [
     "State Police:R"
   ],
   "FM Radio:WLTB": [
@@ -1860,13 +1851,22 @@
   "FM Radio:WMXW": [
     "State Police:R"
   ],
-  "FM Radio:WHNB": [
+  "FM Radio:WPAU": [
+    "State Police:R"
+  ],
+  "FM Radio:WQFN": [
+    "State Police:R"
+  ],
+  "FM Radio:WTRW": [
+    "State Police:R"
+  ],
+  "FM Radio:WVMW-FM": [
     "State Police:R"
   ],
   "FM Radio:WYCY": [
     "State Police:R"
   ],
-  "FM Radio:WCDW": [
+  "FM Radio:WZZH": [
     "State Police:R"
   ]
 }

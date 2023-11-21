@@ -376,13 +376,18 @@ layers.forEach(
                                 }
 
                                 let intersection = false;
-                                if (!intersect(featureA.bbox, featureB.bbox)) {
-                                  intersection = false;
-                                } else {
-                                  intersection = intersect(
-                                    featureA,
-                                    featureB
-                                  );
+                                try {
+                                  if (!intersect(featureA.bbox, featureB.bbox)) {
+                                    intersection = false;
+                                  } else {
+                                    intersection = intersect(
+                                      featureA,
+                                      featureB
+                                    );
+                                  }
+                                } catch (e) {
+                                 console.log(e);
+                                 return 
                                 }
 
                                 let overlap = null;
@@ -394,9 +399,10 @@ layers.forEach(
 
                                     const area1 = area(featureA);
                                     const area2 = area(featureB);
-
-                                    overlapPercent = overlap / (area1 + area2);
-
+      
+                                    // one could totally suround the other...
+                                    overlapPercent = Math.min(overlap / area1, overlap / area2);
+      
                                     if (overlapPercent < .05) {
                                         isIntersection = false;
                                     }

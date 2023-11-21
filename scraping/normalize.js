@@ -1,6 +1,10 @@
 const fs = require('fs');
-const area = require('@turf/area').default;
 const Papa = require('papaparse');
+const intersect = require('@turf/intersect').default;
+const area = require('@turf/area').default;
+const bbox = require('@turf/bbox').default;
+const bboxPolygon = require('@turf/bbox-polygon').default;
+const polygonize = require('@turf/polygonize').default;
 
 const sourceData = [
     {
@@ -60,26 +64,6 @@ const sourceData = [
       ]
     },
     {
-      name: 'Police Department',
-      key: '5',
-      source: '/static/Police.geojson',
-      nameAttribute: ['County', 'Name'],
-     // attributeSource: '/static/Data Sheets - Police.tsv',
-      //attributeSourceKey: ['County', 'Location'],
-      attributeCategoryTypes: {
-      },
-      attributeNumericAttributes: [
-      ],
-      attributesToDisplay: [
-      ]
-    },
-    {
-      name: 'Magesterial Courts',
-      key: '6',
-      source: '/static/MagesterialCourts.geojson',
-      nameAttribute: 'District',
-    },
-    {
       name: 'PA Senate District',
       key: '7',
       source: '/static/Pennsylvania_State_Senate_Boundaries.geojson',
@@ -117,6 +101,26 @@ const sourceData = [
         'Party',
         'District'
       ]
+    },
+    {
+      name: 'Police Department',
+      key: '5',
+      source: '/static/Police.geojson',
+      nameAttribute: ['County', 'Name'],
+     // attributeSource: '/static/Data Sheets - Police.tsv',
+      //attributeSourceKey: ['County', 'Location'],
+      attributeCategoryTypes: {
+      },
+      attributeNumericAttributes: [
+      ],
+      attributesToDisplay: [
+      ]
+    },
+    {
+      name: 'Magesterial Courts',
+      key: '6',
+      source: '/static/MagesterialCourts.geojson',
+      nameAttribute: 'District',
     },
     {
       name: 'State Police',
@@ -164,9 +168,9 @@ function getValueFromRow(row, sourceKey) {
   }
 }
 
-function toJson (filepath) {
+async function toJson (filepath) {
   const file = fs.createReadStream(filepath)
-  return new Promise((resolve, reject) => {
+  return await new Promise((resolve, reject) => {
     Papa.parse(file, {
       header: true,
       complete (results, file) {
@@ -212,49 +216,132 @@ if (key === 'uschlnm20') {
   return result;
 }
 
-function run() {
+
+const judges = {
+  "Honorable David J. Sosovicka": "05-3-03",
+  "Honorable Robert P. Dzvonick": "",
+  "Honorable Richard D. Olasz, Jr.": "05-2-14",
+  "Honorable Thomas Caulfield": "",
+  "Honorable Suzanne Blaschak": "",
+  "Honorable Elissa M. Lang": "",
+  "Honorable Beth S. Mills": "05-2-26",
+  "Honorable Armand A. Martin": "05-3-09",
+  "Honorable Kimberly M. Hoots": "05-2-18",
+  "Honorable William K. Wagner": "05-2-12",
+  "Honorable Tara L. Smith": "05-2-01",
+  "Honorable Gary M. Zyra": "",
+  "Honorable Anthony W. Saveikis": "05-3-17",
+  "Honorable Carla M. Swearingen": "05-2-43",
+  "Honorable Scott H. Schricker": "05-2-47",
+  "Honorable Thomas G. Miller": "05-3-05",
+  "Honorable Maureen McGraw-Desmet": "05-2-21",
+  "Honorable Mary P. Murray": "",
+  "Honorable Carolyn S. Bengel": "05-2-05",
+  "Honorable Thomas R. Torkowsky": "",
+  "Honorable Richard G. King": "05-3-14",
+  "Honorable Dennis R. Joyce": "",
+  "Honorable Blaise Larotonda": "",
+  "Honorable Robert L. Ford": "05-3-02",
+  "Honorable Guy Reschenthaler": "",
+  "Honorable David J. Barton": "05-2-17",
+  "Honorable Eugene F. Riazzi": "05-2-13",
+  "Honorable Leonard J. HRomyak": "",
+  "Honorable Linda I. Zucco": "05-2-32",
+  "Honorable Ronald A. Arnoni": "05-2-20",
+  "Honorable Mary Ann Cercone": "",
+  "Honorable Jeffrey L. Herbst": "05-2-07",
+  "Honorable Richard G. Opiela": "05-2-02",
+  "Honorable Robert P. Ravenstahl , Jr.": "",
+  "Honorable Kevin E. Cooper": "05-3-12",
+  "Honorable Ronald N. Costa , Sr.": "",
+  "Honorable Anthony Ceoffe": "",
+  "Honorable Derwin Rushing": "",
+  "Honorable Randy C. Martini": "",
+  "Honorable Oscar J. Petite, Jr.": "05-2-28",
+  "Honorable Hugh Fitzpatrick McGough": "",
+  "Honorable Eugene N. Ricciardi": "05-2-27",
+  "Honorable James A. Motznik": "",
+  "Honorable James J. Hanley , Jr.": "05-2-36"
+}  
+
+async function run() {
   console.log('run');
-  sourceData.map(
-    async (recordType) => {
-      let popMatch = 0;
-      let popTotal = 0;
-    
-      let rows = [];
-      if (recordType.attributeSource) {
-        data = await toJson(recordType.attributeSource)
+  for (let i = 0; i < sourceData.length; i++)  {
+    const metadata = sourceData[i];
+  
+    metadata.file = '../public/' + metadata.source;
+    const data = JSON.parse(fs.readFileSync(metadata.file ) + '');
+
+    metadata.geojson = data;
+  }
+
+  for (let i = 0; i < sourceData.length; i++)  {
+    const metadata = sourceData[i];
+
+    metadata.geojson.features.map(
+        (feature) => {
+            feature.properties._name = toKey(metadata.nameAttribute, feature.properties);
+
+            if (feature.properties._name === 'District') {
+              //console.log(JSON.stringify(metadata.nameAttribute));
+              console.log(JSON.stringify(feature.properties.Judge));
+              if (!!judges[feature.properties.Judge]) {
+                feature.properties._name = judges[feature.properties.Judge];
+              }
+            }
+            
+            if (!feature.properties._name) {
+                //console.log(metadata);
+                throw feature.properties;
+            }
+          }
+      );
+        
+      //console.log('metadata 1 ' + !!metadata);
+      if (metadata.attributeSource) {
+        metadata.rows = await toJson(metadata.attributeSource);
+      } else {
+        metadata.rows = []
       }
+    }
+
+    for (let i = 0; i < sourceData.length; i++)  {
+      const metadata = sourceData[i];
 
       let popData = {};
-      if (recordType.population) {
+      if (metadata.population) {
+        const censusData = await toJson('./census/' + metadata.population);
+
+        //console.log('census data ' + JSON.stringify(censusData));
         popData = toMap(
-          recordType.populationKey,
-          recordType.populationTransform || ((k) => (k || '').toLowerCase()),
-          await toJson('./census/' + recordType.population)
+          metadata.populationKey,
+          metadata.populationTransform || ((k) => (k || '').toLowerCase()),
+          censusData
         )
       }
-
-      writeGeojson(recordType, rows, popData, () => popMatch++, () => popTotal++);
-
-      console.log('Population matched: ' + popMatch + ' / ' + popTotal + ' for ' + recordType.name);
+      metadata.popData = popData;
     }
-  );
+
+    for (let i = 0; i < sourceData.length; i++)  {
+      const metadata = sourceData[i];
+
+      let popMatch = 0;
+      let popTotal = 0;
+
+      writeGeojson(sourceData, metadata, metadata.popData, () => popMatch++, () => popTotal++);
+      console.log('Population matched: ' + popMatch + ' / ' + popTotal + ' for ' + metadata.name);
+    }
 }
 
-run();
+run().then(
+  () => {
+    console.log('complete');
+  }
+);
 
-function writeGeojson(metadata, rows, popData, matchCb, totalCb) {
-    const file = '../public/' + metadata.source;
-    const data = JSON.parse(fs.readFileSync(file) + '');
-
-      data.features.map(
+function writeGeojson(sourceData, metadata, popData, matchCb, totalCb) {
+      metadata.geojson.features.map(
           (feature) => {
-              feature.properties._name = toKey(metadata.nameAttribute, feature.properties);
-              
-              if (!feature.properties._name) {
-                  console.log(metadata);
-                  throw feature.properties;
-              }
-
               if (popData[feature.properties._name.toLowerCase()]) {
                 feature.properties._population = parseInt(popData[feature.properties._name.toLowerCase()]);
                 matchCb();
@@ -262,7 +349,82 @@ function writeGeojson(metadata, rows, popData, matchCb, totalCb) {
                 if (Object.keys(popData).length > 0) {
                   console.log(feature.properties._name);
                 }
+                //console.log(metadata.name);
+
+                //if (!feature.properties._population) {                 
+                  let featureAbbox = bboxPolygon(bbox(feature));
+
+                  // build a cache of potential hits?
+                  sourceData.filter(x => !!x.populationKey).
+                    map(
+                      (candidate) => {
+                        candidate.geojson.features.map(
+                          (featureB) => {
+                           // if (!!feature.properties._population) {
+                            //  delete feature.properties._population;
+                              //matchCb();
+
+                              //return;
+                            //}
+
+                            if (feature.properties._name === featureB.properties._name) {
+                              return;
+                            } else {
+                              //if (metadata.name === 'Police Department') {
+                               // console.log('testing ' + feature.properties._name + ' === ' + featureB.properties._name);
+                              //}
+                            }
+
+                            let featureBbbox = bboxPolygon(bbox(featureB));
+
+                            try {
+                              if (intersect(featureAbbox, featureBbbox)) {
+                                const polygonA = feature;
+                                const polygonB = featureB;
+                                
+                                let trueIntersection = intersect(
+                                  polygonA,
+                                  polygonB
+                                );
+
+                                if (trueIntersection == null) {
+                                  return;
+                                }
+
+                                let overlap = area(trueIntersection);
+
+                                const area1 = area(polygonA);
+                                const area2 = area(polygonB);
+
+                                // min, because one could surround the other
+                                overlapPercent = Math.min(overlap / area1, overlap / area2);
+
+                                if (overlapPercent > .95 && featureB.properties._population) {
+                                    console.log('Found a real intersection between ' +
+                                      feature.properties._name + ' and ' + featureB.properties._name + ' overlapPercent: ' + overlapPercent + ', pop: ' + featureB.properties._population);
+
+                                    feature.properties._population = featureB.properties._population;
+
+                                    matchCb();
+                                } else {
+                                  if (overlapPercent > .75) {
+                                    console.log('failed a real intersection between ' +
+                                    feature.properties._name + ' and ' + featureB.properties._name + ' overlapPercent: ' + overlapPercent + ', pop: ' + featureB.properties._population);
+                                  }
+
+                                }
+                              }
+                            } catch (e) {
+                              console.log(e);
+                              return 
+                             } 
+                          }
+                        )
+                      }       
+                    )
               }
+
+       
 
               totalCb();
 
@@ -275,21 +437,21 @@ function writeGeojson(metadata, rows, popData, matchCb, totalCb) {
                   feature.properties._sort = feature.properties._name;
               }
 
-              
-               if (rows.length > 0) {
+               
+               if (metadata.rows.length > 0) {
                 // console.log(rows.length + ' ____ ' + JSON.stringify(rows));
                }
 
-                for (let j = 0; j < rows.length; j++) {
+                for (let j = 0; j < metadata.rows.length; j++) {
                  // console.log(j);
-                    const row = rows[j];
+                    const row = metadata.rows[j];
                     //console.log(row);
                     const joinKey = row[metadata.attributeSourceKey];
 
                    // console.log('joinKey: ' + joinKey);
 
                     if (joinKey == feature.properties._name) {
-                      console.log('found match! ' + feature.properties._name);
+                      //console.log('found match! ' + feature.properties._name);
 
                       metadata.attributesToDisplay.map(
                         (attr) => {
@@ -307,7 +469,7 @@ function writeGeojson(metadata, rows, popData, matchCb, totalCb) {
           }
       )
     
-      data.features.sort(
+      metadata.geojson.features.sort(
         (featureA, featureB) => {
           let nameA = featureA.properties._sort;
           let nameB = featureB.properties._sort;
@@ -326,7 +488,7 @@ function writeGeojson(metadata, rows, popData, matchCb, totalCb) {
 
 
 //        console.log(data);
-      fs.writeFileSync(file, 
-          JSON.stringify(data)
+      fs.writeFileSync(metadata.file, 
+          JSON.stringify(metadata.geojson)
       );
   }

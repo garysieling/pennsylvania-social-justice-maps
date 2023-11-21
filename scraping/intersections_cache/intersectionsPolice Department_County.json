@@ -1,9 +1,13 @@
 {
-  "Police Department:Montgomery - State Police - Troop K - Skippack": [
-    "County:Montgomery"
+  "Police Department:Bucks - Buckingham  Police": [
+    "County:Bucks"
   ],
-  "County:Montgomery": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  "County:Bucks": [
+    "Police Department:Bucks - Buckingham  Police",
+    "Police Department:Bucks - PA State Police (Dublin)"
+  ],
+  "Police Department:Bucks - PA State Police (Dublin)": [
+    "County:Bucks"
   ],
   "Police Department:Chester - PA State Police Avondale": [
     "County:Chester"
@@ -15,32 +19,28 @@
   "Police Department:Chester - PA State Police Embreeville": [
     "County:Chester"
   ],
-  "Police Department:Bucks - Buckingham  Police": [
-    "County:Bucks"
+  "Police Department:Delaware - Marple": [
+    "County:Delaware"
   ],
-  "County:Bucks": [
-    "Police Department:Bucks - Buckingham  Police",
-    "Police Department:Bucks - PA State Police (Dublin)"
-  ],
-  "Police Department:Bucks - PA State Police (Dublin)": [
-    "County:Bucks"
+  "County:Delaware": [
+    "Police Department:Delaware - Marple",
+    "Police Department:Delaware - Newtown",
+    "Police Department:Delaware - PSP MEDIA STATION",
+    "Police Department:Delaware - Radnor"
   ],
   "Police Department:Delaware - Newtown": [
     "County:Delaware"
   ],
-  "County:Delaware": [
-    "Police Department:Delaware - Newtown",
-    "Police Department:Delaware - Marple",
-    "Police Department:Delaware - Radnor",
-    "Police Department:Delaware - PSP MEDIA STATION"
-  ],
-  "Police Department:Delaware - Marple": [
+  "Police Department:Delaware - PSP MEDIA STATION": [
     "County:Delaware"
   ],
   "Police Department:Delaware - Radnor": [
     "County:Delaware"
   ],
-  "Police Department:Delaware - PSP MEDIA STATION": [
-    "County:Delaware"
+  "Police Department:Montgomery - State Police - Troop K - Skippack": [
+    "County:Montgomery"
+  ],
+  "County:Montgomery": [
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
   ]
 }

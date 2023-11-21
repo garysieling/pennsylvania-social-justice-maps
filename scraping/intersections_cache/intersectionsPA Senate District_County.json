@@ -1,19 +1,187 @@
 {
-  "PA Senate District:41": [
-    "County:Indiana",
-    "County:Armstrong",
-    "County:Butler"
+  "PA Senate District:1": [
+    "County:Philadelphia"
   ],
-  "County:Indiana": [
-    "PA Senate District:41"
+  "County:Philadelphia": [
+    "PA Senate District:1",
+    "PA Senate District:2",
+    "PA Senate District:3",
+    "PA Senate District:4",
+    "PA Senate District:5",
+    "PA Senate District:7",
+    "PA Senate District:8"
   ],
-  "County:Armstrong": [
-    "PA Senate District:41"
+  "PA Senate District:2": [
+    "County:Philadelphia"
+  ],
+  "PA Senate District:3": [
+    "County:Philadelphia"
+  ],
+  "PA Senate District:4": [
+    "County:Montgomery",
+    "County:Philadelphia"
+  ],
+  "County:Montgomery": [
+    "PA Senate District:4",
+    "PA Senate District:7",
+    "PA Senate District:12",
+    "PA Senate District:17",
+    "PA Senate District:24",
+    "PA Senate District:44"
+  ],
+  "PA Senate District:5": [
+    "County:Philadelphia"
+  ],
+  "PA Senate District:6": [
+    "County:Bucks"
+  ],
+  "County:Bucks": [
+    "PA Senate District:6",
+    "PA Senate District:10",
+    "PA Senate District:24"
+  ],
+  "PA Senate District:7": [
+    "County:Montgomery",
+    "County:Philadelphia"
+  ],
+  "PA Senate District:8": [
+    "County:Philadelphia"
+  ],
+  "PA Senate District:9": [
+    "County:Chester",
+    "County:Delaware"
+  ],
+  "County:Chester": [
+    "PA Senate District:9",
+    "PA Senate District:19",
+    "PA Senate District:44"
+  ],
+  "County:Delaware": [
+    "PA Senate District:9",
+    "PA Senate District:17",
+    "PA Senate District:26"
+  ],
+  "PA Senate District:10": [
+    "County:Bucks"
+  ],
+  "PA Senate District:11": [
+    "County:Berks"
+  ],
+  "County:Berks": [
+    "PA Senate District:11",
+    "PA Senate District:24",
+    "PA Senate District:29"
+  ],
+  "PA Senate District:12": [
+    "County:Montgomery"
+  ],
+  "PA Senate District:13": [
+    "County:Lancaster"
+  ],
+  "County:Lancaster": [
+    "PA Senate District:13",
+    "PA Senate District:36"
+  ],
+  "PA Senate District:14": [
+    "County:Carbon",
+    "County:Luzerne"
+  ],
+  "County:Carbon": [
+    "PA Senate District:14"
+  ],
+  "County:Luzerne": [
+    "PA Senate District:14",
+    "PA Senate District:20",
+    "PA Senate District:27"
+  ],
+  "PA Senate District:15": [
+    "County:Dauphin",
+    "County:Perry"
+  ],
+  "County:Dauphin": [
+    "PA Senate District:15",
+    "PA Senate District:48"
+  ],
+  "County:Perry": [
+    "PA Senate District:15"
+  ],
+  "PA Senate District:16": [
+    "County:Lehigh"
+  ],
+  "County:Lehigh": [
+    "PA Senate District:16",
+    "PA Senate District:18"
+  ],
+  "PA Senate District:17": [
+    "County:Delaware",
+    "County:Montgomery"
+  ],
+  "PA Senate District:18": [
+    "County:Lehigh",
+    "County:Northampton"
+  ],
+  "County:Northampton": [
+    "PA Senate District:18",
+    "PA Senate District:40"
+  ],
+  "PA Senate District:19": [
+    "County:Chester"
+  ],
+  "PA Senate District:20": [
+    "County:Luzerne",
+    "County:Pike",
+    "County:Susquehanna",
+    "County:Wayne",
+    "County:Wyoming"
+  ],
+  "County:Pike": [
+    "PA Senate District:20"
+  ],
+  "County:Susquehanna": [
+    "PA Senate District:20",
+    "PA Senate District:23"
+  ],
+  "County:Wayne": [
+    "PA Senate District:20"
+  ],
+  "County:Wyoming": [
+    "PA Senate District:20"
+  ],
+  "PA Senate District:21": [
+    "County:Butler",
+    "County:Clarion",
+    "County:Forest",
+    "County:Venango",
+    "County:Warren"
   ],
   "County:Butler": [
+    "PA Senate District:21",
     "PA Senate District:41",
-    "PA Senate District:47",
+    "PA Senate District:47"
+  ],
+  "County:Clarion": [
     "PA Senate District:21"
+  ],
+  "County:Forest": [
+    "PA Senate District:21"
+  ],
+  "County:Venango": [
+    "PA Senate District:21"
+  ],
+  "County:Warren": [
+    "PA Senate District:21",
+    "PA Senate District:50"
+  ],
+  "PA Senate District:22": [
+    "County:Lackawanna",
+    "County:Monroe"
+  ],
+  "County:Lackawanna": [
+    "PA Senate District:22"
+  ],
+  "County:Monroe": [
+    "PA Senate District:22",
+    "PA Senate District:40"
   ],
   "PA Senate District:23": [
     "County:Bradford",
@@ -31,12 +199,46 @@
   "County:Sullivan": [
     "PA Senate District:23"
   ],
-  "County:Susquehanna": [
-    "PA Senate District:23",
-    "PA Senate District:20"
-  ],
   "County:Union": [
     "PA Senate District:23"
+  ],
+  "PA Senate District:24": [
+    "County:Berks",
+    "County:Bucks",
+    "County:Montgomery"
+  ],
+  "PA Senate District:25": [
+    "County:Cameron",
+    "County:Clinton",
+    "County:Elk",
+    "County:Jefferson",
+    "County:McKean",
+    "County:Potter",
+    "County:Tioga"
+  ],
+  "County:Cameron": [
+    "PA Senate District:25"
+  ],
+  "County:Clinton": [
+    "PA Senate District:25"
+  ],
+  "County:Elk": [
+    "PA Senate District:25"
+  ],
+  "County:Jefferson": [
+    "PA Senate District:25"
+  ],
+  "County:McKean": [
+    "PA Senate District:25"
+  ],
+  "County:Potter": [
+    "PA Senate District:25"
+  ],
+  "County:Tioga": [
+    "PA Senate District:25"
+  ],
+  "PA Senate District:26": [
+    "County:Delaware"
   ],
   "PA Senate District:27": [
     "County:Columbia",
@@ -48,11 +250,6 @@
   "County:Columbia": [
     "PA Senate District:27"
   ],
-  "County:Luzerne": [
-    "PA Senate District:27",
-    "PA Senate District:20",
-    "PA Senate District:14"
-  ],
   "County:Montour": [
     "PA Senate District:27"
   ],
@@ -62,17 +259,6 @@
   "County:Snyder": [
     "PA Senate District:27"
   ],
-  "PA Senate District:15": [
-    "County:Dauphin",
-    "County:Perry"
-  ],
-  "County:Dauphin": [
-    "PA Senate District:15",
-    "PA Senate District:48"
-  ],
-  "County:Perry": [
-    "PA Senate District:15"
-  ],
   "PA Senate District:28": [
     "County:York"
   ],
@@ -81,33 +267,26 @@
     "PA Senate District:31",
     "PA Senate District:48"
   ],
-  "PA Senate District:13": [
-    "County:Lancaster"
+  "PA Senate District:29": [
+    "County:Berks",
+    "County:Schuylkill"
   ],
-  "County:Lancaster": [
-    "PA Senate District:13",
-    "PA Senate District:36"
-  ],
-  "PA Senate District:35": [
-    "County:Bedford",
-    "County:Cambria",
-    "County:Clearfield"
-  ],
-  "County:Bedford": [
-    "PA Senate District:35"
-  ],
-  "County:Cambria": [
-    "PA Senate District:35"
-  ],
-  "County:Clearfield": [
-    "PA Senate District:35"
+  "County:Schuylkill": [
+    "PA Senate District:29"
   ],
   "PA Senate District:30": [
+    "County:Blair",
+    "County:Cumberland",
     "County:Franklin",
     "County:Fulton",
-    "County:Huntingdon",
-    "County:Blair",
-    "County:Cumberland"
+    "County:Huntingdon"
+  ],
+  "County:Blair": [
+    "PA Senate District:30"
+  ],
+  "County:Cumberland": [
+    "PA Senate District:30",
+    "PA Senate District:31"
   ],
   "County:Franklin": [
     "PA Senate District:30",
@@ -119,35 +298,6 @@
   "County:Huntingdon": [
     "PA Senate District:30",
     "PA Senate District:34"
-  ],
-  "County:Blair": [
-    "PA Senate District:30"
-  ],
-  "County:Cumberland": [
-    "PA Senate District:30",
-    "PA Senate District:31"
-  ],
-  "PA Senate District:34": [
-    "County:Huntingdon",
-    "County:Juniata",
-    "County:Centre",
-    "County:Mifflin"
-  ],
-  "County:Juniata": [
-    "PA Senate District:34"
-  ],
-  "County:Centre": [
-    "PA Senate District:34"
-  ],
-  "County:Mifflin": [
-    "PA Senate District:34"
-  ],
-  "PA Senate District:33": [
-    "County:Franklin",
-    "County:Adams"
-  ],
-  "County:Adams": [
-    "PA Senate District:33"
   ],
   "PA Senate District:31": [
     "County:Cumberland",
@@ -163,243 +313,91 @@
   "County:Somerset": [
     "PA Senate District:32"
   ],
-  "PA Senate District:47": [
-    "County:Lawrence",
-    "County:Beaver",
-    "County:Butler"
+  "PA Senate District:33": [
+    "County:Adams",
+    "County:Franklin"
   ],
-  "County:Lawrence": [
-    "PA Senate District:47"
+  "County:Adams": [
+    "PA Senate District:33"
   ],
-  "County:Beaver": [
-    "PA Senate District:47"
+  "PA Senate District:34": [
+    "County:Centre",
+    "County:Huntingdon",
+    "County:Juniata",
+    "County:Mifflin"
   ],
-  "PA Senate District:50": [
-    "County:Erie",
-    "County:Crawford",
-    "County:Mercer",
-    "County:Warren"
+  "County:Centre": [
+    "PA Senate District:34"
   ],
-  "County:Erie": [
-    "PA Senate District:50",
-    "PA Senate District:49"
+  "County:Juniata": [
+    "PA Senate District:34"
   ],
-  "County:Crawford": [
-    "PA Senate District:50"
+  "County:Mifflin": [
+    "PA Senate District:34"
   ],
-  "County:Mercer": [
-    "PA Senate District:50"
+  "PA Senate District:35": [
+    "County:Bedford",
+    "County:Cambria",
+    "County:Clearfield"
   ],
-  "County:Warren": [
-    "PA Senate District:50",
-    "PA Senate District:21"
+  "County:Bedford": [
+    "PA Senate District:35"
   ],
-  "PA Senate District:49": [
-    "County:Erie"
+  "County:Cambria": [
+    "PA Senate District:35"
   ],
-  "PA Senate District:21": [
-    "County:Forest",
-    "County:Butler",
-    "County:Clarion",
-    "County:Venango",
-    "County:Warren"
+  "County:Clearfield": [
+    "PA Senate District:35"
   ],
-  "County:Forest": [
-    "PA Senate District:21"
-  ],
-  "County:Clarion": [
-    "PA Senate District:21"
-  ],
-  "County:Venango": [
-    "PA Senate District:21"
-  ],
-  "PA Senate District:42": [
-    "County:Allegheny"
-  ],
-  "County:Allegheny": [
-    "PA Senate District:42",
-    "PA Senate District:37",
-    "PA Senate District:45",
-    "PA Senate District:38",
-    "PA Senate District:43"
+  "PA Senate District:36": [
+    "County:Lancaster"
   ],
   "PA Senate District:37": [
     "County:Allegheny"
   ],
-  "PA Senate District:45": [
-    "County:Allegheny"
+  "County:Allegheny": [
+    "PA Senate District:37",
+    "PA Senate District:38",
+    "PA Senate District:42",
+    "PA Senate District:43",
+    "PA Senate District:45"
   ],
   "PA Senate District:38": [
     "County:Allegheny"
   ],
-  "PA Senate District:18": [
-    "County:Lehigh",
-    "County:Northampton"
+  "PA Senate District:39": [
+    "County:Westmoreland"
   ],
-  "County:Lehigh": [
-    "PA Senate District:18",
-    "PA Senate District:16"
-  ],
-  "County:Northampton": [
-    "PA Senate District:18",
-    "PA Senate District:40"
-  ],
-  "PA Senate District:43": [
-    "County:Allegheny"
-  ],
-  "PA Senate District:7": [
-    "County:Montgomery",
-    "County:Philadelphia"
-  ],
-  "County:Montgomery": [
-    "PA Senate District:7",
-    "PA Senate District:4",
-    "PA Senate District:44",
-    "PA Senate District:24",
-    "PA Senate District:17",
-    "PA Senate District:12"
-  ],
-  "County:Philadelphia": [
-    "PA Senate District:7",
-    "PA Senate District:8",
-    "PA Senate District:4",
-    "PA Senate District:3",
-    "PA Senate District:1",
-    "PA Senate District:2",
-    "PA Senate District:5"
-  ],
-  "PA Senate District:8": [
-    "County:Philadelphia"
-  ],
-  "PA Senate District:4": [
-    "County:Montgomery",
-    "County:Philadelphia"
-  ],
-  "PA Senate District:3": [
-    "County:Philadelphia"
-  ],
-  "PA Senate District:48": [
-    "County:Dauphin",
-    "County:York",
-    "County:Lebanon"
-  ],
-  "County:Lebanon": [
-    "PA Senate District:48"
-  ],
-  "PA Senate District:20": [
-    "County:Wayne",
-    "County:Wyoming",
-    "County:Luzerne",
-    "County:Pike",
-    "County:Susquehanna"
-  ],
-  "County:Wayne": [
-    "PA Senate District:20"
-  ],
-  "County:Wyoming": [
-    "PA Senate District:20"
-  ],
-  "County:Pike": [
-    "PA Senate District:20"
-  ],
-  "PA Senate District:14": [
-    "County:Carbon",
-    "County:Luzerne"
-  ],
-  "County:Carbon": [
-    "PA Senate District:14"
-  ],
-  "PA Senate District:11": [
-    "County:Berks"
-  ],
-  "County:Berks": [
-    "PA Senate District:11",
-    "PA Senate District:24",
-    "PA Senate District:29"
-  ],
-  "PA Senate District:19": [
-    "County:Chester"
-  ],
-  "County:Chester": [
-    "PA Senate District:19",
-    "PA Senate District:44",
-    "PA Senate District:9"
-  ],
-  "PA Senate District:44": [
-    "County:Montgomery",
-    "County:Chester"
-  ],
-  "PA Senate District:22": [
-    "County:Lackawanna",
-    "County:Monroe"
-  ],
-  "County:Lackawanna": [
-    "PA Senate District:22"
-  ],
-  "County:Monroe": [
-    "PA Senate District:22",
-    "PA Senate District:40"
-  ],
-  "PA Senate District:9": [
-    "County:Chester",
-    "County:Delaware"
-  ],
-  "County:Delaware": [
-    "PA Senate District:9",
-    "PA Senate District:26",
-    "PA Senate District:17"
-  ],
-  "PA Senate District:16": [
-    "County:Lehigh"
-  ],
-  "PA Senate District:24": [
-    "County:Berks",
-    "County:Bucks",
-    "County:Montgomery"
-  ],
-  "County:Bucks": [
-    "PA Senate District:24",
-    "PA Senate District:10",
-    "PA Senate District:6"
+  "County:Westmoreland": [
+    "PA Senate District:39"
   ],
   "PA Senate District:40": [
     "County:Monroe",
     "County:Northampton"
   ],
-  "PA Senate District:26": [
-    "County:Delaware"
+  "PA Senate District:41": [
+    "County:Armstrong",
+    "County:Butler",
+    "County:Indiana"
   ],
-  "PA Senate District:10": [
-    "County:Bucks"
+  "County:Armstrong": [
+    "PA Senate District:41"
   ],
-  "PA Senate District:17": [
-    "County:Montgomery",
-    "County:Delaware"
+  "County:Indiana": [
+    "PA Senate District:41"
   ],
-  "PA Senate District:12": [
+  "PA Senate District:42": [
+    "County:Allegheny"
+  ],
+  "PA Senate District:43": [
+    "County:Allegheny"
+  ],
+  "PA Senate District:44": [
+    "County:Chester",
     "County:Montgomery"
   ],
-  "PA Senate District:1": [
-    "County:Philadelphia"
-  ],
-  "PA Senate District:2": [
-    "County:Philadelphia"
-  ],
-  "PA Senate District:5": [
-    "County:Philadelphia"
-  ],
-  "PA Senate District:6": [
-    "County:Bucks"
-  ],
-  "PA Senate District:36": [
-    "County:Lancaster"
-  ],
-  "PA Senate District:29": [
-    "County:Berks",
-    "County:Schuylkill"
-  ],
-  "County:Schuylkill": [
-    "PA Senate District:29"
+  "PA Senate District:45": [
+    "County:Allegheny"
   ],
   "PA Senate District:46": [
     "County:Greene",
@@ -411,40 +409,42 @@
   "County:Washington": [
     "PA Senate District:46"
   ],
-  "PA Senate District:39": [
-    "County:Westmoreland"
+  "PA Senate District:47": [
+    "County:Beaver",
+    "County:Butler",
+    "County:Lawrence"
   ],
-  "County:Westmoreland": [
-    "PA Senate District:39"
+  "County:Beaver": [
+    "PA Senate District:47"
   ],
-  "PA Senate District:25": [
-    "County:Elk",
-    "County:Jefferson",
-    "County:Cameron",
-    "County:Clinton",
-    "County:McKean",
-    "County:Potter",
-    "County:Tioga"
+  "County:Lawrence": [
+    "PA Senate District:47"
   ],
-  "County:Elk": [
-    "PA Senate District:25"
+  "PA Senate District:48": [
+    "County:Dauphin",
+    "County:Lebanon",
+    "County:York"
   ],
-  "County:Jefferson": [
-    "PA Senate District:25"
+  "County:Lebanon": [
+    "PA Senate District:48"
   ],
-  "County:Cameron": [
-    "PA Senate District:25"
+  "PA Senate District:49": [
+    "County:Erie"
   ],
-  "County:Clinton": [
-    "PA Senate District:25"
+  "County:Erie": [
+    "PA Senate District:49",
+    "PA Senate District:50"
   ],
-  "County:McKean": [
-    "PA Senate District:25"
+  "PA Senate District:50": [
+    "County:Crawford",
+    "County:Erie",
+    "County:Mercer",
+    "County:Warren"
   ],
-  "County:Potter": [
-    "PA Senate District:25"
+  "County:Crawford": [
+    "PA Senate District:50"
   ],
-  "County:Tioga": [
-    "PA Senate District:25"
+  "County:Mercer": [
+    "PA Senate District:50"
   ]
 }

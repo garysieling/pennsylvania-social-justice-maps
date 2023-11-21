@@ -1,374 +1,417 @@
 {
-  "Police Department:Montgomery - State Police - Troop K - Skippack": [
-    "Municipality:Montgomery - Upper Frederick Township",
-    "Municipality:Montgomery - Upper Salford Township",
-    "Municipality:Montgomery - Worcester Township",
-    "Municipality:Montgomery - Skippack Township",
-    "Municipality:Montgomery - Perkiomen Township",
-    "Municipality:Montgomery - Salford Township",
-    "Municipality:Montgomery - Upper Hanover Township"
+  "Police Department:Bucks - Bristol Borough Police": [
+    "Municipality:Bucks - Bristol Borough"
   ],
-  "Municipality:Montgomery - Upper Frederick Township": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  "Municipality:Bucks - Bristol Borough": [
+    "Police Department:Bucks - Bristol Borough Police"
   ],
-  "Municipality:Montgomery - Upper Salford Township": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  "Police Department:Bucks - Bristol  Police": [
+    "Municipality:Bucks - Bristol Township"
   ],
-  "Municipality:Montgomery - Worcester Township": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  "Municipality:Bucks - Bristol Township": [
+    "Police Department:Bucks - Bristol  Police"
   ],
-  "Municipality:Montgomery - Skippack Township": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  "Police Department:Bucks - Buckingham  Police": [
+    "Municipality:Bucks - Buckingham Township"
   ],
-  "Municipality:Montgomery - Perkiomen Township": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  "Municipality:Bucks - Buckingham Township": [
+    "Police Department:Bucks - Buckingham  Police"
   ],
-  "Municipality:Montgomery - Salford Township": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  "Police Department:Bucks - Central Bucks Regional Police": [
+    "Municipality:Bucks - Chalfont Borough",
+    "Municipality:Bucks - Doylestown Borough",
+    "Municipality:Bucks - New Britain Borough"
   ],
-  "Municipality:Montgomery - Upper Hanover Township": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  "Municipality:Bucks - Chalfont Borough": [
+    "Police Department:Bucks - Central Bucks Regional Police"
   ],
-  "Police Department:Montgomery - Lower Moreland": [
-    "Municipality:Montgomery - Lower Moreland Township"
+  "Municipality:Bucks - Doylestown Borough": [
+    "Police Department:Bucks - Central Bucks Regional Police"
   ],
-  "Municipality:Montgomery - Lower Moreland Township": [
-    "Police Department:Montgomery - Lower Moreland"
+  "Municipality:Bucks - New Britain Borough": [
+    "Police Department:Bucks - Central Bucks Regional Police"
   ],
-  "Police Department:Montgomery - Cheltenham": [
-    "Municipality:Montgomery - Cheltenham Township"
+  "Police Department:Bucks - Doylestown  Police": [
+    "Municipality:Bucks - Doylestown Township"
   ],
-  "Municipality:Montgomery - Cheltenham Township": [
-    "Police Department:Montgomery - Cheltenham"
+  "Municipality:Bucks - Doylestown Township": [
+    "Police Department:Bucks - Doylestown  Police"
   ],
-  "Police Department:Montgomery - Bryn Athyn": [
-    "Municipality:Montgomery - Bryn Athyn Borough"
+  "Police Department:Bucks - Dublin Borough Police": [
+    "Municipality:Bucks - Dublin Borough"
   ],
-  "Municipality:Montgomery - Bryn Athyn Borough": [
-    "Police Department:Montgomery - Bryn Athyn"
+  "Municipality:Bucks - Dublin Borough": [
+    "Police Department:Bucks - Dublin Borough Police"
   ],
-  "Police Department:Montgomery - Springfield": [
-    "Municipality:Montgomery - Springfield Township"
+  "Police Department:Bucks - Falls  Police": [
+    "Municipality:Bucks - Falls Township"
   ],
-  "Municipality:Montgomery - Springfield Township": [
-    "Police Department:Montgomery - Springfield"
+  "Municipality:Bucks - Falls Township": [
+    "Police Department:Bucks - Falls  Police"
   ],
-  "Police Department:Montgomery - Abington": [
-    "Municipality:Montgomery - Abington Township"
+  "Police Department:Bucks - Hilltown  Police": [
+    "Municipality:Bucks - Hilltown Township"
   ],
-  "Municipality:Montgomery - Abington Township": [
-    "Police Department:Montgomery - Abington"
+  "Municipality:Bucks - Hilltown Township": [
+    "Police Department:Bucks - Hilltown  Police"
   ],
-  "Police Department:Montgomery - Rockledge": [
-    "Municipality:Montgomery - Rockledge Borough"
+  "Police Department:Bucks - Hulmeville Borough Police": [
+    "Municipality:Bucks - Hulmeville Borough"
   ],
-  "Municipality:Montgomery - Rockledge Borough": [
-    "Police Department:Montgomery - Rockledge"
+  "Municipality:Bucks - Hulmeville Borough": [
+    "Police Department:Bucks - Hulmeville Borough Police"
   ],
-  "Police Department:Montgomery - Whitemarsh": [
-    "Municipality:Montgomery - Whitemarsh Township"
+  "Police Department:Bucks - Langhorne Borough Police": [
+    "Municipality:Bucks - Langhorne Borough"
   ],
-  "Municipality:Montgomery - Whitemarsh Township": [
-    "Police Department:Montgomery - Whitemarsh"
+  "Municipality:Bucks - Langhorne Borough": [
+    "Police Department:Bucks - Langhorne Borough Police"
   ],
-  "Police Department:Montgomery - Jenkintown": [
-    "Municipality:Montgomery - Jenkintown Borough"
+  "Police Department:Bucks - Lower Makefield  Police": [
+    "Municipality:Bucks - Lower Makefield Township"
   ],
-  "Municipality:Montgomery - Jenkintown Borough": [
-    "Police Department:Montgomery - Jenkintown"
+  "Municipality:Bucks - Lower Makefield Township": [
+    "Police Department:Bucks - Lower Makefield  Police"
   ],
-  "Police Department:Montgomery - Lower Merion": [
-    "Municipality:Montgomery - Lower Merion Township"
+  "Police Department:Bucks - Lower Southampton  Police": [
+    "Municipality:Bucks - Lower Southampton Township"
   ],
-  "Municipality:Montgomery - Lower Merion Township": [
-    "Police Department:Montgomery - Lower Merion"
+  "Municipality:Bucks - Lower Southampton Township": [
+    "Police Department:Bucks - Lower Southampton  Police"
   ],
-  "Police Department:Montgomery - Upper Moreland": [
-    "Municipality:Montgomery - Upper Moreland Township"
+  "Police Department:Bucks - Middletown  Police": [
+    "Municipality:Bucks - Middletown Township"
   ],
-  "Municipality:Montgomery - Upper Moreland Township": [
-    "Police Department:Montgomery - Upper Moreland"
+  "Municipality:Bucks - Middletown Township": [
+    "Police Department:Bucks - Middletown  Police"
   ],
-  "Police Department:Montgomery - Hatboro": [
-    "Municipality:Montgomery - Hatboro Borough"
+  "Police Department:Bucks - Morrisville Borough Police": [
+    "Municipality:Bucks - Morrisville Borough"
   ],
-  "Municipality:Montgomery - Hatboro Borough": [
-    "Police Department:Montgomery - Hatboro"
+  "Municipality:Bucks - Morrisville Borough": [
+    "Police Department:Bucks - Morrisville Borough Police"
   ],
-  "Police Department:Montgomery - West Conshohocken": [
-    "Municipality:Montgomery - West Conshohocken Borough"
+  "Police Department:Bucks - New Britain  Police": [
+    "Municipality:Bucks - New Britain Township"
   ],
-  "Municipality:Montgomery - West Conshohocken Borough": [
-    "Police Department:Montgomery - West Conshohocken"
+  "Municipality:Bucks - New Britain Township": [
+    "Police Department:Bucks - New Britain  Police"
   ],
-  "Police Department:Montgomery - Horsham": [
-    "Municipality:Montgomery - Horsham Township"
+  "Police Department:Bucks - New Hope Borough Police": [
+    "Municipality:Bucks - New Hope Borough"
   ],
-  "Municipality:Montgomery - Horsham Township": [
-    "Police Department:Montgomery - Horsham"
+  "Municipality:Bucks - New Hope Borough": [
+    "Police Department:Bucks - New Hope Borough Police"
   ],
-  "Police Department:Montgomery - Upper Dublin": [
-    "Municipality:Montgomery - Upper Dublin Township"
+  "Police Department:Bucks - Newtown Borough Police": [
+    "Municipality:Bucks - Newtown Borough"
   ],
-  "Municipality:Montgomery - Upper Dublin Township": [
-    "Police Department:Montgomery - Upper Dublin"
+  "Municipality:Bucks - Newtown Borough": [
+    "Police Department:Bucks - Newtown Borough Police"
   ],
-  "Police Department:Montgomery - Conshohocken": [
-    "Municipality:Montgomery - Conshohocken Borough"
+  "Police Department:Bucks - Newtown  Police": [
+    "Municipality:Bucks - Newtown Township",
+    "Municipality:Bucks - Wrightstown Township"
   ],
-  "Municipality:Montgomery - Conshohocken Borough": [
-    "Police Department:Montgomery - Conshohocken"
+  "Municipality:Bucks - Newtown Township": [
+    "Police Department:Bucks - Newtown  Police"
   ],
-  "Police Department:Montgomery - Ambler": [
-    "Municipality:Montgomery - Ambler Borough"
+  "Municipality:Bucks - Wrightstown Township": [
+    "Police Department:Bucks - Newtown  Police"
   ],
-  "Municipality:Montgomery - Ambler Borough": [
-    "Police Department:Montgomery - Ambler"
+  "Police Department:Bucks - Northampton  Police": [
+    "Municipality:Bucks - Northampton Township"
   ],
-  "Police Department:Montgomery - Plymouth": [
-    "Municipality:Montgomery - Plymouth Township"
+  "Municipality:Bucks - Northampton Township": [
+    "Police Department:Bucks - Northampton  Police"
   ],
-  "Municipality:Montgomery - Plymouth Township": [
-    "Police Department:Montgomery - Plymouth"
+  "Police Department:Bucks - PA State Police (Bensalem)": [
+    "Municipality:Bucks - Bensalem Township"
   ],
-  "Police Department:Montgomery - Lower Gwynedd": [
-    "Municipality:Montgomery - Lower Gwynedd Township"
+  "Municipality:Bucks - Bensalem Township": [
+    "Police Department:Bucks - PA State Police (Bensalem)"
   ],
-  "Municipality:Montgomery - Lower Gwynedd Township": [
-    "Police Department:Montgomery - Lower Gwynedd"
+  "Police Department:Bucks - PA State Police (Dublin)": [
+    "Municipality:Bucks - Bedminster Township",
+    "Municipality:Bucks - Durham Township",
+    "Municipality:Bucks - Haycock Township",
+    "Municipality:Bucks - Milford Township",
+    "Municipality:Bucks - Nockamixon Township",
+    "Municipality:Bucks - Richland Township",
+    "Municipality:Bucks - Springfield Township"
   ],
-  "Police Department:Montgomery - Whitpain": [
-    "Municipality:Montgomery - Whitpain Township"
+  "Municipality:Bucks - Bedminster Township": [
+    "Police Department:Bucks - PA State Police (Dublin)"
   ],
-  "Municipality:Montgomery - Whitpain Township": [
-    "Police Department:Montgomery - Whitpain"
+  "Municipality:Bucks - Durham Township": [
+    "Police Department:Bucks - PA State Police (Dublin)"
   ],
-  "Police Department:Montgomery - Montgomery": [
-    "Municipality:Montgomery - Montgomery Township"
+  "Municipality:Bucks - Haycock Township": [
+    "Police Department:Bucks - PA State Police (Dublin)"
   ],
-  "Municipality:Montgomery - Montgomery Township": [
-    "Police Department:Montgomery - Montgomery"
+  "Municipality:Bucks - Milford Township": [
+    "Police Department:Bucks - PA State Police (Dublin)"
   ],
-  "Police Department:Montgomery - East Norriton": [
-    "Municipality:Montgomery - East Norriton Township"
+  "Municipality:Bucks - Nockamixon Township": [
+    "Police Department:Bucks - PA State Police (Dublin)"
   ],
-  "Municipality:Montgomery - East Norriton Township": [
-    "Police Department:Montgomery - East Norriton"
+  "Municipality:Bucks - Richland Township": [
+    "Police Department:Bucks - PA State Police (Dublin)"
   ],
-  "Police Department:Montgomery - North Wales": [
-    "Municipality:Montgomery - North Wales Borough"
+  "Municipality:Bucks - Springfield Township": [
+    "Police Department:Bucks - PA State Police (Dublin)"
   ],
-  "Municipality:Montgomery - North Wales Borough": [
-    "Police Department:Montgomery - North Wales"
+  "Police Department:Bucks - PA State Police (Trevose)": [
+    "Municipality:Bucks - Langhorne Manor Borough",
+    "Municipality:Bucks - Penndel Borough"
   ],
-  "Police Department:Montgomery - Upper Gwynedd": [
-    "Municipality:Montgomery - Upper Gwynedd Township"
+  "Municipality:Bucks - Langhorne Manor Borough": [
+    "Police Department:Bucks - PA State Police (Trevose)"
   ],
-  "Municipality:Montgomery - Upper Gwynedd Township": [
-    "Police Department:Montgomery - Upper Gwynedd"
+  "Municipality:Bucks - Penndel Borough": [
+    "Police Department:Bucks - PA State Police (Trevose)"
   ],
-  "Police Department:Montgomery - Norristown": [
-    "Municipality:Montgomery - Norristown Borough"
+  "Police Department:Bucks - Pennridge Regional Police": [
+    "Municipality:Bucks - East Rockhill Township",
+    "Municipality:Bucks - West Rockhill Township"
   ],
-  "Municipality:Montgomery - Norristown Borough": [
-    "Police Department:Montgomery - Norristown"
+  "Municipality:Bucks - East Rockhill Township": [
+    "Police Department:Bucks - Pennridge Regional Police"
   ],
-  "Police Department:Montgomery - Lansdale": [
-    "Municipality:Montgomery - Lansdale Borough"
+  "Municipality:Bucks - West Rockhill Township": [
+    "Police Department:Bucks - Pennridge Regional Police"
   ],
-  "Municipality:Montgomery - Lansdale Borough": [
-    "Police Department:Montgomery - Lansdale"
+  "Police Department:Bucks - Perkasie Borough Police": [
+    "Municipality:Bucks - Perkasie Borough",
+    "Municipality:Bucks - Sellersville Borough"
   ],
-  "Police Department:Montgomery - Bridgeport": [
-    "Municipality:Montgomery - Bridgeport Borough"
+  "Municipality:Bucks - Perkasie Borough": [
+    "Police Department:Bucks - Perkasie Borough Police"
   ],
-  "Municipality:Montgomery - Bridgeport Borough": [
-    "Police Department:Montgomery - Bridgeport"
+  "Municipality:Bucks - Sellersville Borough": [
+    "Police Department:Bucks - Perkasie Borough Police"
   ],
-  "Police Department:Montgomery - Hatfield": [
-    "Municipality:Montgomery - Hatfield Borough",
-    "Municipality:Montgomery - Hatfield Township"
+  "Police Department:Bucks - Plumstead  Police": [
+    "Municipality:Bucks - Plumstead Township"
   ],
-  "Municipality:Montgomery - Hatfield Borough": [
-    "Police Department:Montgomery - Hatfield"
+  "Municipality:Bucks - Plumstead Township": [
+    "Police Department:Bucks - Plumstead  Police"
   ],
-  "Municipality:Montgomery - Hatfield Township": [
-    "Police Department:Montgomery - Hatfield"
+  "Police Department:Bucks - Quakertown Borough Police": [
+    "Municipality:Bucks - Quakertown Borough"
   ],
-  "Police Department:Montgomery - Upper Merion": [
-    "Municipality:Montgomery - Upper Merion Township"
+  "Municipality:Bucks - Quakertown Borough": [
+    "Police Department:Bucks - Quakertown Borough Police"
   ],
-  "Municipality:Montgomery - Upper Merion Township": [
-    "Police Department:Montgomery - Upper Merion",
-    "Police Department:Montgomery - Valley Nationl Park Rangers"
+  "Police Department:Bucks - Solebury  Police": [
+    "Municipality:Bucks - Solebury Township"
   ],
-  "Police Department:Montgomery - Valley Nationl Park Rangers": [
-    "Municipality:Montgomery - Upper Merion Township"
+  "Municipality:Bucks - Solebury Township": [
+    "Police Department:Bucks - Solebury  Police"
   ],
-  "Police Department:Montgomery - Towamencin": [
-    "Municipality:Montgomery - Towamencin Township"
-  ],
-  "Municipality:Montgomery - Towamencin Township": [
-    "Police Department:Montgomery - Towamencin"
-  ],
-  "Police Department:Montgomery - Lower Salford": [
-    "Municipality:Montgomery - Lower Salford Township"
-  ],
-  "Municipality:Montgomery - Lower Salford Township": [
-    "Police Department:Montgomery - Lower Salford"
-  ],
-  "Police Department:Montgomery - West Norriton": [
-    "Municipality:Montgomery - West Norriton Township"
-  ],
-  "Municipality:Montgomery - West Norriton Township": [
-    "Police Department:Montgomery - West Norriton"
-  ],
-  "Police Department:Montgomery - Franconia": [
-    "Municipality:Montgomery - Franconia Township"
-  ],
-  "Municipality:Montgomery - Franconia Township": [
-    "Police Department:Montgomery - Franconia"
-  ],
-  "Police Department:Montgomery - Souderton": [
-    "Municipality:Montgomery - Souderton Borough"
-  ],
-  "Municipality:Montgomery - Souderton Borough": [
-    "Police Department:Montgomery - Souderton"
-  ],
-  "Police Department:Montgomery - Lower Providence": [
-    "Municipality:Montgomery - Lower Providence Township"
-  ],
-  "Municipality:Montgomery - Lower Providence Township": [
-    "Police Department:Montgomery - Lower Providence"
-  ],
-  "Police Department:Montgomery - Telford": [
-    "Municipality:Montgomery - Telford Borough",
+  "Police Department:Bucks - Telford Borough Police": [
     "Municipality:Bucks - Telford Borough"
   ],
-  "Municipality:Montgomery - Telford Borough": [
+  "Municipality:Bucks - Telford Borough": [
+    "Police Department:Bucks - Telford Borough Police",
     "Police Department:Montgomery - Telford"
   ],
-  "Municipality:Bucks - Telford Borough": [
-    "Police Department:Montgomery - Telford",
-    "Police Department:Bucks - Telford Borough Police"
+  "Police Department:Bucks - Tinicum  Police": [
+    "Municipality:Bucks - Tinicum Township"
   ],
-  "Police Department:Montgomery - Upper Providence": [
-    "Municipality:Montgomery - Upper Providence Township"
+  "Municipality:Bucks - Tinicum Township": [
+    "Police Department:Bucks - Tinicum  Police"
   ],
-  "Municipality:Montgomery - Upper Providence Township": [
-    "Police Department:Montgomery - Upper Providence"
+  "Police Department:Bucks - Tullytown Borough Police": [
+    "Municipality:Bucks - Tullytown Borough"
   ],
-  "Police Department:Montgomery - Collegeville": [
-    "Municipality:Montgomery - Collegeville Borough"
+  "Municipality:Bucks - Tullytown Borough": [
+    "Police Department:Bucks - Tullytown Borough Police"
   ],
-  "Municipality:Montgomery - Collegeville Borough": [
-    "Police Department:Montgomery - Collegeville"
+  "Police Department:Bucks - Upper Makefield  Police": [
+    "Municipality:Bucks - Upper Makefield Township"
   ],
-  "Police Department:Montgomery - Lower Frederick": [
-    "Municipality:Montgomery - Lower Frederick Township"
+  "Municipality:Bucks - Upper Makefield Township": [
+    "Police Department:Bucks - Upper Makefield  Police"
   ],
-  "Municipality:Montgomery - Lower Frederick Township": [
-    "Police Department:Montgomery - Lower Frederick"
+  "Police Department:Bucks - Upper Southampton  Police": [
+    "Municipality:Bucks - Upper Southampton Township"
   ],
-  "Police Department:Montgomery - Marlborough": [
-    "Municipality:Montgomery - Marlborough Township"
+  "Municipality:Bucks - Upper Southampton Township": [
+    "Police Department:Bucks - Upper Southampton  Police"
   ],
-  "Municipality:Montgomery - Marlborough Township": [
-    "Police Department:Montgomery - Marlborough"
+  "Police Department:Bucks - Warminster  Police": [
+    "Municipality:Bucks - Warminster Township"
   ],
-  "Police Department:Montgomery - Upper Perkiomen": [
-    "Municipality:Montgomery - Pennsburg Borough"
+  "Municipality:Bucks - Warminster Township": [
+    "Police Department:Bucks - Warminster  Police"
   ],
-  "Municipality:Montgomery - Pennsburg Borough": [
-    "Police Department:Montgomery - Upper Perkiomen"
+  "Police Department:Bucks - Warrington  Police": [
+    "Municipality:Bucks - Warrington Township"
   ],
-  "Police Department:Montgomery - Limerick": [
-    "Municipality:Montgomery - Limerick Township"
+  "Municipality:Bucks - Warrington Township": [
+    "Police Department:Bucks - Warrington  Police"
   ],
-  "Municipality:Montgomery - Limerick Township": [
-    "Police Department:Montgomery - Limerick"
+  "Police Department:Bucks - Warwick  Police": [
+    "Municipality:Bucks - Warwick Township"
   ],
-  "Police Department:Montgomery - Royersford": [
-    "Municipality:Montgomery - Royersford Borough"
+  "Municipality:Bucks - Warwick Township": [
+    "Police Department:Bucks - Warwick  Police"
   ],
-  "Municipality:Montgomery - Royersford Borough": [
-    "Police Department:Montgomery - Royersford"
+  "Police Department:Bucks - Yardley Borough Police": [
+    "Municipality:Bucks - Yardley Borough"
   ],
-  "Police Department:Montgomery - Lower Pottsgrove": [
-    "Municipality:Montgomery - Lower Pottsgrove Township"
+  "Municipality:Bucks - Yardley Borough": [
+    "Police Department:Bucks - Yardley Borough Police"
   ],
-  "Municipality:Montgomery - Lower Pottsgrove Township": [
-    "Police Department:Montgomery - Lower Pottsgrove"
+  "Police Department:Chester - Birmingham Township": [
+    "Municipality:Chester - Birmingham Township"
   ],
-  "Police Department:Montgomery - New Hanover": [
-    "Municipality:Montgomery - New Hanover Township"
+  "Municipality:Chester - Birmingham Township": [
+    "Police Department:Chester - Birmingham Township"
   ],
-  "Municipality:Montgomery - New Hanover Township": [
-    "Police Department:Montgomery - New Hanover"
+  "Police Department:Chester - Caln Township": [
+    "Municipality:Chester - Caln Township"
   ],
-  "Police Department:Montgomery - Douglass": [
-    "Municipality:Montgomery - Douglass Township"
+  "Municipality:Chester - Caln Township": [
+    "Police Department:Chester - Caln Township"
   ],
-  "Municipality:Montgomery - Douglass Township": [
-    "Police Department:Montgomery - Douglass"
+  "Police Department:Chester - Coatesville City": [
+    "Municipality:Chester - Coatesville City"
   ],
-  "Police Department:Montgomery - Upper Pottsgrove": [
-    "Municipality:Montgomery - Upper Pottsgrove Township"
+  "Municipality:Chester - Coatesville City": [
+    "Police Department:Chester - Coatesville City"
   ],
-  "Municipality:Montgomery - Upper Pottsgrove Township": [
-    "Police Department:Montgomery - Upper Pottsgrove"
+  "Police Department:Chester - Downingtown Borough": [
+    "Municipality:Chester - Downingtown Borough"
   ],
-  "Police Department:Montgomery - Pottstown": [
-    "Municipality:Montgomery - Pottstown Borough"
+  "Municipality:Chester - Downingtown Borough": [
+    "Police Department:Chester - Downingtown Borough"
   ],
-  "Municipality:Montgomery - Pottstown Borough": [
-    "Police Department:Montgomery - Pottstown"
+  "Police Department:Chester - East Brandywine": [
+    "Municipality:Chester - East Brandywine Township"
   ],
-  "Police Department:Montgomery - West Pottsgrove": [
-    "Municipality:Montgomery - West Pottsgrove Township"
+  "Municipality:Chester - East Brandywine Township": [
+    "Police Department:Chester - East Brandywine"
   ],
-  "Municipality:Montgomery - West Pottsgrove Township": [
-    "Police Department:Montgomery - West Pottsgrove"
+  "Police Department:Chester - East Coventry Township": [
+    "Municipality:Chester - East Coventry Township"
   ],
-  "Police Department:Montgomery - Narberth": [
-    "Municipality:Montgomery - Narberth Borough"
+  "Municipality:Chester - East Coventry Township": [
+    "Police Department:Chester - East Coventry Township"
   ],
-  "Municipality:Montgomery - Narberth Borough": [
-    "Police Department:Montgomery - Narberth"
+  "Police Department:Chester - East Fallowfield Township": [
+    "Municipality:Chester - East Fallowfield Township"
+  ],
+  "Municipality:Chester - East Fallowfield Township": [
+    "Police Department:Chester - East Fallowfield Township"
+  ],
+  "Police Department:Chester - East Marlborough Township": [
+    "Municipality:Chester - East Marlborough Township"
+  ],
+  "Municipality:Chester - East Marlborough Township": [
+    "Police Department:Chester - East Marlborough Township"
+  ],
+  "Police Department:Chester - East Pikeland Township": [
+    "Municipality:Chester - East Pikeland Township"
+  ],
+  "Municipality:Chester - East Pikeland Township": [
+    "Police Department:Chester - East Pikeland Township"
+  ],
+  "Police Department:Chester - East Vincent Township": [
+    "Municipality:Chester - East Vincent Township"
+  ],
+  "Municipality:Chester - East Vincent Township": [
+    "Police Department:Chester - East Vincent Township"
+  ],
+  "Police Department:Chester - East Whiteland Township": [
+    "Municipality:Chester - East Whiteland Township"
+  ],
+  "Municipality:Chester - East Whiteland Township": [
+    "Police Department:Chester - East Whiteland Township"
+  ],
+  "Police Department:Chester - Easttown Township": [
+    "Municipality:Chester - Easttown Township"
+  ],
+  "Municipality:Chester - Easttown Township": [
+    "Police Department:Chester - Easttown Township"
+  ],
+  "Police Department:Chester - Hibernia County Park Rangers": [
+    "Municipality:Chester - West Caln Township"
+  ],
+  "Municipality:Chester - West Caln Township": [
+    "Police Department:Chester - Hibernia County Park Rangers",
+    "Police Department:Chester - West Caln Township"
+  ],
+  "Police Department:Chester - Highland Township": [
+    "Municipality:Chester - Highland Township"
+  ],
+  "Municipality:Chester - Highland Township": [
+    "Police Department:Chester - Highland Township"
+  ],
+  "Police Department:Chester - Honey Brook Borough": [
+    "Municipality:Chester - Honey Brook Borough"
+  ],
+  "Municipality:Chester - Honey Brook Borough": [
+    "Police Department:Chester - Honey Brook Borough"
+  ],
+  "Police Department:Chester - Kennett Square Borough": [
+    "Municipality:Chester - Kennett Square Borough"
+  ],
+  "Municipality:Chester - Kennett Square Borough": [
+    "Police Department:Chester - Kennett Square Borough"
+  ],
+  "Police Department:Chester - Kennett Township": [
+    "Municipality:Chester - Kennett Township"
+  ],
+  "Municipality:Chester - Kennett Township": [
+    "Police Department:Chester - Kennett Township"
+  ],
+  "Police Department:Chester - Malvern Borough": [
+    "Municipality:Chester - Malvern Borough"
+  ],
+  "Municipality:Chester - Malvern Borough": [
+    "Police Department:Chester - Malvern Borough"
+  ],
+  "Police Department:Chester - North Coventry Township": [
+    "Municipality:Chester - North Coventry Township"
+  ],
+  "Municipality:Chester - North Coventry Township": [
+    "Police Department:Chester - North Coventry Township"
+  ],
+  "Police Department:Chester - Oxford Borough": [
+    "Municipality:Chester - Oxford Borough"
+  ],
+  "Municipality:Chester - Oxford Borough": [
+    "Police Department:Chester - Oxford Borough"
   ],
   "Police Department:Chester - PA State Police Avondale": [
-    "Municipality:Chester - Penn Township",
-    "Municipality:Chester - Franklin Township",
     "Municipality:Chester - East Nottingham Township",
-    "Municipality:Chester - London Britain Township",
     "Municipality:Chester - Elk Township",
-    "Municipality:Chester - West Marlborough Township",
-    "Municipality:Chester - Upper Oxford Township",
+    "Municipality:Chester - Franklin Township",
+    "Municipality:Chester - London Britain Township",
+    "Municipality:Chester - London Grove Township",
     "Municipality:Chester - Londonderry Township",
     "Municipality:Chester - Lower Oxford Township",
     "Municipality:Chester - New London Township",
-    "Municipality:Chester - London Grove Township",
-    "Municipality:Chester - Pennsbury Township"
-  ],
-  "Municipality:Chester - Penn Township": [
-    "Police Department:Chester - PA State Police Avondale"
-  ],
-  "Municipality:Chester - Franklin Township": [
-    "Police Department:Chester - PA State Police Avondale"
+    "Municipality:Chester - Penn Township",
+    "Municipality:Chester - Pennsbury Township",
+    "Municipality:Chester - Upper Oxford Township",
+    "Municipality:Chester - West Marlborough Township"
   ],
   "Municipality:Chester - East Nottingham Township": [
-    "Police Department:Chester - PA State Police Avondale"
-  ],
-  "Municipality:Chester - London Britain Township": [
     "Police Department:Chester - PA State Police Avondale"
   ],
   "Municipality:Chester - Elk Township": [
     "Police Department:Chester - PA State Police Avondale"
   ],
-  "Municipality:Chester - West Marlborough Township": [
+  "Municipality:Chester - Franklin Township": [
     "Police Department:Chester - PA State Police Avondale"
   ],
-  "Municipality:Chester - Upper Oxford Township": [
+  "Municipality:Chester - London Britain Township": [
+    "Police Department:Chester - PA State Police Avondale"
+  ],
+  "Municipality:Chester - London Grove Township": [
     "Police Department:Chester - PA State Police Avondale"
   ],
   "Municipality:Chester - Londonderry Township": [
@@ -380,34 +423,27 @@
   "Municipality:Chester - New London Township": [
     "Police Department:Chester - PA State Police Avondale"
   ],
-  "Municipality:Chester - London Grove Township": [
+  "Municipality:Chester - Penn Township": [
     "Police Department:Chester - PA State Police Avondale"
   ],
   "Municipality:Chester - Pennsbury Township": [
     "Police Department:Chester - PA State Police Avondale"
   ],
-  "Police Department:Chester - West Vincent Township": [
-    "Municipality:Chester - West Vincent Township"
+  "Municipality:Chester - Upper Oxford Township": [
+    "Police Department:Chester - PA State Police Avondale"
   ],
-  "Municipality:Chester - West Vincent Township": [
-    "Police Department:Chester - West Vincent Township"
-  ],
-  "Police Department:Chester - Tredyffrin Township": [
-    "Municipality:Chester - Tredyffrin Township"
-  ],
-  "Municipality:Chester - Tredyffrin Township": [
-    "Police Department:Chester - Tredyffrin Township",
-    "Police Department:Chester - Valley Forge Natl Park Rangers"
+  "Municipality:Chester - West Marlborough Township": [
+    "Police Department:Chester - PA State Police Avondale"
   ],
   "Police Department:Chester - PA State Police Embreeville": [
     "Municipality:Chester - Charlestown Township",
     "Municipality:Chester - East Nantmeal Township",
-    "Municipality:Chester - West Nantmeal Township",
-    "Municipality:Chester - Newlin Township",
-    "Municipality:Chester - West Bradford Township",
     "Municipality:Chester - Honey Brook Township",
+    "Municipality:Chester - Newlin Township",
     "Municipality:Chester - South Coventry Township",
-    "Municipality:Chester - Warwick Township"
+    "Municipality:Chester - Warwick Township",
+    "Municipality:Chester - West Bradford Township",
+    "Municipality:Chester - West Nantmeal Township"
   ],
   "Municipality:Chester - Charlestown Township": [
     "Police Department:Chester - PA State Police Embreeville"
@@ -415,16 +451,10 @@
   "Municipality:Chester - East Nantmeal Township": [
     "Police Department:Chester - PA State Police Embreeville"
   ],
-  "Municipality:Chester - West Nantmeal Township": [
+  "Municipality:Chester - Honey Brook Township": [
     "Police Department:Chester - PA State Police Embreeville"
   ],
   "Municipality:Chester - Newlin Township": [
-    "Police Department:Chester - PA State Police Embreeville"
-  ],
-  "Municipality:Chester - West Bradford Township": [
-    "Police Department:Chester - PA State Police Embreeville"
-  ],
-  "Municipality:Chester - Honey Brook Township": [
     "Police Department:Chester - PA State Police Embreeville"
   ],
   "Municipality:Chester - South Coventry Township": [
@@ -433,53 +463,35 @@
   "Municipality:Chester - Warwick Township": [
     "Police Department:Chester - PA State Police Embreeville"
   ],
-  "Police Department:Chester - Malvern Borough": [
-    "Municipality:Chester - Malvern Borough"
+  "Municipality:Chester - West Bradford Township": [
+    "Police Department:Chester - PA State Police Embreeville"
   ],
-  "Municipality:Chester - Malvern Borough": [
-    "Police Department:Chester - Malvern Borough"
+  "Municipality:Chester - West Nantmeal Township": [
+    "Police Department:Chester - PA State Police Embreeville"
   ],
-  "Police Department:Chester - West Fallowfield Township": [
-    "Municipality:Chester - West Fallowfield Township"
+  "Police Department:Chester - Parkesburg Borough": [
+    "Municipality:Chester - Parkesburg Borough"
   ],
-  "Municipality:Chester - West Fallowfield Township": [
-    "Police Department:Chester - West Fallowfield Township"
+  "Municipality:Chester - Parkesburg Borough": [
+    "Police Department:Chester - Parkesburg Borough"
   ],
-  "Police Department:Chester - Highland Township": [
-    "Municipality:Chester - Highland Township"
+  "Police Department:Chester - Phoenixville Borough": [
+    "Municipality:Chester - Phoenixville Borough"
   ],
-  "Municipality:Chester - Highland Township": [
-    "Police Department:Chester - Highland Township"
+  "Municipality:Chester - Phoenixville Borough": [
+    "Police Department:Chester - Phoenixville Borough"
   ],
-  "Police Department:Chester - Easttown Township": [
-    "Municipality:Chester - Easttown Township"
+  "Police Department:Chester - Sadsbury Township": [
+    "Municipality:Chester - Sadsbury Township"
   ],
-  "Municipality:Chester - Easttown Township": [
-    "Police Department:Chester - Easttown Township"
+  "Municipality:Chester - Sadsbury Township": [
+    "Police Department:Chester - Sadsbury Township"
   ],
-  "Police Department:Chester - Kennett Township": [
-    "Municipality:Chester - Kennett Township"
+  "Police Department:Chester - Schuylkill Township": [
+    "Municipality:Chester - Schuylkill Township"
   ],
-  "Municipality:Chester - Kennett Township": [
-    "Police Department:Chester - Kennett Township"
-  ],
-  "Police Department:Chester - East Marlborough Township": [
-    "Municipality:Chester - East Marlborough Township"
-  ],
-  "Municipality:Chester - East Marlborough Township": [
-    "Police Department:Chester - East Marlborough Township"
-  ],
-  "Police Department:Chester - Upper Uwchlan Township": [
-    "Municipality:Chester - Upper Uwchlan Township"
-  ],
-  "Municipality:Chester - Upper Uwchlan Township": [
-    "Police Department:Chester - Upper Uwchlan Township"
-  ],
-  "Police Department:Chester - Oxford Borough": [
-    "Municipality:Chester - Oxford Borough"
-  ],
-  "Municipality:Chester - Oxford Borough": [
-    "Police Department:Chester - Oxford Borough"
+  "Municipality:Chester - Schuylkill Township": [
+    "Police Department:Chester - Schuylkill Township"
   ],
   "Police Department:Chester - South Coatesville Borough": [
     "Municipality:Chester - Modena Borough",
@@ -491,90 +503,11 @@
   "Municipality:Chester - South Coatesville Borough": [
     "Police Department:Chester - South Coatesville Borough"
   ],
-  "Police Department:Chester - Honey Brook Borough": [
-    "Municipality:Chester - Honey Brook Borough"
+  "Police Department:Chester - Southern Chester County Rdgional Police": [
+    "Municipality:Chester - Avondale Borough"
   ],
-  "Municipality:Chester - Honey Brook Borough": [
-    "Police Department:Chester - Honey Brook Borough"
-  ],
-  "Police Department:Chester - West Pikeland Township": [
-    "Municipality:Chester - West Pikeland Township"
-  ],
-  "Municipality:Chester - West Pikeland Township": [
-    "Police Department:Chester - West Pikeland Township"
-  ],
-  "Police Department:Chester - Uwchlan Township": [
-    "Municipality:Chester - Uwchlan Township"
-  ],
-  "Municipality:Chester - Uwchlan Township": [
-    "Police Department:Chester - Uwchlan Township"
-  ],
-  "Police Department:Chester - Parkesburg Borough": [
-    "Municipality:Chester - Parkesburg Borough"
-  ],
-  "Municipality:Chester - Parkesburg Borough": [
-    "Police Department:Chester - Parkesburg Borough"
-  ],
-  "Police Department:Chester - East Brandywine": [
-    "Municipality:Chester - East Brandywine Township"
-  ],
-  "Municipality:Chester - East Brandywine Township": [
-    "Police Department:Chester - East Brandywine"
-  ],
-  "Police Department:Chester - West Sadsbury Township": [
-    "Municipality:Chester - West Sadsbury Township"
-  ],
-  "Municipality:Chester - West Sadsbury Township": [
-    "Police Department:Chester - West Sadsbury Township"
-  ],
-  "Police Department:Chester - Birmingham Township": [
-    "Municipality:Chester - Birmingham Township"
-  ],
-  "Municipality:Chester - Birmingham Township": [
-    "Police Department:Chester - Birmingham Township"
-  ],
-  "Police Department:Chester - East Whiteland Township": [
-    "Municipality:Chester - East Whiteland Township"
-  ],
-  "Municipality:Chester - East Whiteland Township": [
-    "Police Department:Chester - East Whiteland Township"
-  ],
-  "Police Department:Chester - Sadsbury Township": [
-    "Municipality:Chester - Sadsbury Township"
-  ],
-  "Municipality:Chester - Sadsbury Township": [
-    "Police Department:Chester - Sadsbury Township"
-  ],
-  "Police Department:Chester - Phoenixville Borough": [
-    "Municipality:Chester - Phoenixville Borough"
-  ],
-  "Municipality:Chester - Phoenixville Borough": [
-    "Police Department:Chester - Phoenixville Borough"
-  ],
-  "Police Department:Chester - Caln Township": [
-    "Municipality:Chester - Caln Township"
-  ],
-  "Municipality:Chester - Caln Township": [
-    "Police Department:Chester - Caln Township"
-  ],
-  "Police Department:Chester - Valley Township": [
-    "Municipality:Chester - Valley Township"
-  ],
-  "Municipality:Chester - Valley Township": [
-    "Police Department:Chester - Valley Township"
-  ],
-  "Police Department:Chester - Coatesville City": [
-    "Municipality:Chester - Coatesville City"
-  ],
-  "Municipality:Chester - Coatesville City": [
-    "Police Department:Chester - Coatesville City"
-  ],
-  "Police Department:Chester - West Caln Township": [
-    "Municipality:Chester - West Caln Township"
-  ],
-  "Municipality:Chester - West Caln Township": [
-    "Police Department:Chester - West Caln Township",
-    "Police Department:Chester - Hibernia County Park Rangers"
+  "Municipality:Chester - Avondale Borough": [
+    "Police Department:Chester - Southern Chester County Rdgional Police"
   ],
   "Police Department:Chester - Southern Chester County Regional Police": [
     "Municipality:Chester - New Garden Township"
@@ -582,23 +515,39 @@
   "Municipality:Chester - New Garden Township": [
     "Police Department:Chester - Southern Chester County Regional Police"
   ],
-  "Police Department:Chester - Downingtown Borough": [
-    "Municipality:Chester - Downingtown Borough"
+  "Police Department:Chester - Spring City Borough": [
+    "Municipality:Chester - Spring City Borough"
   ],
-  "Municipality:Chester - Downingtown Borough": [
-    "Police Department:Chester - Downingtown Borough"
+  "Municipality:Chester - Spring City Borough": [
+    "Police Department:Chester - Spring City Borough"
   ],
-  "Police Department:Chester - West Nottingham Township": [
-    "Municipality:Chester - West Nottingham Township"
+  "Police Department:Chester - Tredyffrin Township": [
+    "Municipality:Chester - Tredyffrin Township"
   ],
-  "Municipality:Chester - West Nottingham Township": [
-    "Police Department:Chester - West Nottingham Township"
+  "Municipality:Chester - Tredyffrin Township": [
+    "Police Department:Chester - Tredyffrin Township",
+    "Police Department:Chester - Valley Forge Natl Park Rangers"
   ],
-  "Police Department:Chester - Kennett Square Borough": [
-    "Municipality:Chester - Kennett Square Borough"
+  "Police Department:Chester - Upper Uwchlan Township": [
+    "Municipality:Chester - Upper Uwchlan Township"
   ],
-  "Municipality:Chester - Kennett Square Borough": [
-    "Police Department:Chester - Kennett Square Borough"
+  "Municipality:Chester - Upper Uwchlan Township": [
+    "Police Department:Chester - Upper Uwchlan Township"
+  ],
+  "Police Department:Chester - Uwchlan Township": [
+    "Municipality:Chester - Uwchlan Township"
+  ],
+  "Municipality:Chester - Uwchlan Township": [
+    "Police Department:Chester - Uwchlan Township"
+  ],
+  "Police Department:Chester - Valley Forge Natl Park Rangers": [
+    "Municipality:Chester - Tredyffrin Township"
+  ],
+  "Police Department:Chester - Valley Township": [
+    "Municipality:Chester - Valley Township"
+  ],
+  "Municipality:Chester - Valley Township": [
+    "Police Department:Chester - Valley Township"
   ],
   "Police Department:Chester - West Brandywine Township": [
     "Municipality:Chester - Wallace Township",
@@ -610,47 +559,60 @@
   "Municipality:Chester - West Brandywine Township": [
     "Police Department:Chester - West Brandywine Township"
   ],
-  "Police Department:Chester - Schuylkill Township": [
-    "Municipality:Chester - Schuylkill Township"
-  ],
-  "Municipality:Chester - Schuylkill Township": [
-    "Police Department:Chester - Schuylkill Township"
-  ],
-  "Police Department:Chester - Hibernia County Park Rangers": [
+  "Police Department:Chester - West Caln Township": [
     "Municipality:Chester - West Caln Township"
   ],
-  "Police Department:Chester - Southern Chester County Rdgional Police": [
-    "Municipality:Chester - Avondale Borough"
+  "Police Department:Chester - West Chester Borough": [
+    "Municipality:Chester - East Bradford Township",
+    "Municipality:Chester - West Chester Borough"
   ],
-  "Municipality:Chester - Avondale Borough": [
-    "Police Department:Chester - Southern Chester County Rdgional Police"
+  "Municipality:Chester - East Bradford Township": [
+    "Police Department:Chester - West Chester Borough"
   ],
-  "Police Department:Chester - North Coventry Township": [
-    "Municipality:Chester - North Coventry Township"
+  "Municipality:Chester - West Chester Borough": [
+    "Police Department:Chester - West Chester Borough"
   ],
-  "Municipality:Chester - North Coventry Township": [
-    "Police Department:Chester - North Coventry Township"
+  "Police Department:Chester - West Fallowfield Township": [
+    "Municipality:Chester - West Fallowfield Township"
   ],
-  "Police Department:Chester - East Fallowfield Township": [
-    "Municipality:Chester - East Fallowfield Township"
+  "Municipality:Chester - West Fallowfield Township": [
+    "Police Department:Chester - West Fallowfield Township"
   ],
-  "Municipality:Chester - East Fallowfield Township": [
-    "Police Department:Chester - East Fallowfield Township"
+  "Police Department:Chester - West Goshen Township": [
+    "Municipality:Chester - West Goshen Township"
   ],
-  "Police Department:Chester - East Coventry Township": [
-    "Municipality:Chester - East Coventry Township"
+  "Municipality:Chester - West Goshen Township": [
+    "Police Department:Chester - West Goshen Township"
   ],
-  "Municipality:Chester - East Coventry Township": [
-    "Police Department:Chester - East Coventry Township"
+  "Police Department:Chester - West Nottingham Township": [
+    "Municipality:Chester - West Nottingham Township"
   ],
-  "Police Department:Chester - East Vincent Township": [
-    "Municipality:Chester - East Vincent Township"
+  "Municipality:Chester - West Nottingham Township": [
+    "Police Department:Chester - West Nottingham Township"
   ],
-  "Municipality:Chester - East Vincent Township": [
-    "Police Department:Chester - East Vincent Township"
+  "Police Department:Chester - West Pikeland Township": [
+    "Municipality:Chester - West Pikeland Township"
   ],
-  "Police Department:Chester - Valley Forge Natl Park Rangers": [
-    "Municipality:Chester - Tredyffrin Township"
+  "Municipality:Chester - West Pikeland Township": [
+    "Police Department:Chester - West Pikeland Township"
+  ],
+  "Police Department:Chester - West Sadsbury Township": [
+    "Municipality:Chester - West Sadsbury Township"
+  ],
+  "Municipality:Chester - West Sadsbury Township": [
+    "Police Department:Chester - West Sadsbury Township"
+  ],
+  "Police Department:Chester - West Vincent Township": [
+    "Municipality:Chester - West Vincent Township"
+  ],
+  "Municipality:Chester - West Vincent Township": [
+    "Police Department:Chester - West Vincent Township"
+  ],
+  "Police Department:Chester - West Whiteland Township": [
+    "Municipality:Chester - West Whiteland Township"
+  ],
+  "Municipality:Chester - West Whiteland Township": [
+    "Police Department:Chester - West Whiteland Township"
   ],
   "Police Department:Chester - Westtown/E Goshen": [
     "Municipality:Chester - East Goshen Township",
@@ -666,330 +628,17 @@
   "Municipality:Chester - Westtown Township": [
     "Police Department:Chester - Westtown/E Goshen"
   ],
-  "Police Department:Chester - West Goshen Township": [
-    "Municipality:Chester - West Goshen Township"
-  ],
-  "Municipality:Chester - West Goshen Township": [
-    "Police Department:Chester - West Goshen Township"
-  ],
-  "Police Department:Chester - West Chester Borough": [
-    "Municipality:Chester - East Bradford Township",
-    "Municipality:Chester - West Chester Borough"
-  ],
-  "Municipality:Chester - East Bradford Township": [
-    "Police Department:Chester - West Chester Borough"
-  ],
-  "Municipality:Chester - West Chester Borough": [
-    "Police Department:Chester - West Chester Borough"
-  ],
-  "Police Department:Chester - East Pikeland Township": [
-    "Municipality:Chester - East Pikeland Township"
-  ],
-  "Municipality:Chester - East Pikeland Township": [
-    "Police Department:Chester - East Pikeland Township"
-  ],
-  "Police Department:Chester - Spring City Borough": [
-    "Municipality:Chester - Spring City Borough"
-  ],
-  "Municipality:Chester - Spring City Borough": [
-    "Police Department:Chester - Spring City Borough"
-  ],
   "Police Department:Chester - Willistown Township": [
     "Municipality:Chester - Willistown Township"
   ],
   "Municipality:Chester - Willistown Township": [
     "Police Department:Chester - Willistown Township"
   ],
-  "Police Department:Chester - West Whiteland Township": [
-    "Municipality:Chester - West Whiteland Township"
-  ],
-  "Municipality:Chester - West Whiteland Township": [
-    "Police Department:Chester - West Whiteland Township"
-  ],
-  "Police Department:Bucks - Bristol Borough Police": [
-    "Municipality:Bucks - Bristol Borough"
-  ],
-  "Municipality:Bucks - Bristol Borough": [
-    "Police Department:Bucks - Bristol Borough Police"
-  ],
-  "Police Department:Bucks - Hulmeville Borough Police": [
-    "Municipality:Bucks - Hulmeville Borough"
-  ],
-  "Municipality:Bucks - Hulmeville Borough": [
-    "Police Department:Bucks - Hulmeville Borough Police"
-  ],
-  "Police Department:Bucks - Tullytown Borough Police": [
-    "Municipality:Bucks - Tullytown Borough"
-  ],
-  "Municipality:Bucks - Tullytown Borough": [
-    "Police Department:Bucks - Tullytown Borough Police"
-  ],
-  "Police Department:Bucks - PA State Police (Trevose)": [
-    "Municipality:Bucks - Langhorne Manor Borough",
-    "Municipality:Bucks - Penndel Borough"
-  ],
-  "Municipality:Bucks - Langhorne Manor Borough": [
-    "Police Department:Bucks - PA State Police (Trevose)"
-  ],
-  "Municipality:Bucks - Penndel Borough": [
-    "Police Department:Bucks - PA State Police (Trevose)"
-  ],
-  "Police Department:Bucks - Bristol  Police": [
-    "Municipality:Bucks - Bristol Township"
-  ],
-  "Municipality:Bucks - Bristol Township": [
-    "Police Department:Bucks - Bristol  Police"
-  ],
-  "Police Department:Bucks - Lower Southampton  Police": [
-    "Municipality:Bucks - Lower Southampton Township"
-  ],
-  "Municipality:Bucks - Lower Southampton Township": [
-    "Police Department:Bucks - Lower Southampton  Police"
-  ],
-  "Police Department:Bucks - Langhorne Borough Police": [
-    "Municipality:Bucks - Langhorne Borough"
-  ],
-  "Municipality:Bucks - Langhorne Borough": [
-    "Police Department:Bucks - Langhorne Borough Police"
-  ],
-  "Police Department:Bucks - Upper Southampton  Police": [
-    "Municipality:Bucks - Upper Southampton Township"
-  ],
-  "Municipality:Bucks - Upper Southampton Township": [
-    "Police Department:Bucks - Upper Southampton  Police"
-  ],
-  "Police Department:Bucks - Warminster  Police": [
-    "Municipality:Bucks - Warminster Township"
-  ],
-  "Municipality:Bucks - Warminster Township": [
-    "Police Department:Bucks - Warminster  Police"
-  ],
-  "Police Department:Bucks - Falls  Police": [
-    "Municipality:Bucks - Falls Township"
-  ],
-  "Municipality:Bucks - Falls Township": [
-    "Police Department:Bucks - Falls  Police"
-  ],
-  "Police Department:Bucks - Morrisville Borough Police": [
-    "Municipality:Bucks - Morrisville Borough"
-  ],
-  "Municipality:Bucks - Morrisville Borough": [
-    "Police Department:Bucks - Morrisville Borough Police"
-  ],
-  "Police Department:Bucks - Middletown  Police": [
-    "Municipality:Bucks - Middletown Township"
-  ],
-  "Municipality:Bucks - Middletown Township": [
-    "Police Department:Bucks - Middletown  Police"
-  ],
-  "Police Department:Bucks - Newtown  Police": [
-    "Municipality:Bucks - Newtown Township",
-    "Municipality:Bucks - Wrightstown Township"
-  ],
-  "Municipality:Bucks - Newtown Township": [
-    "Police Department:Bucks - Newtown  Police"
-  ],
-  "Municipality:Bucks - Wrightstown Township": [
-    "Police Department:Bucks - Newtown  Police"
-  ],
-  "Police Department:Bucks - Newtown Borough Police": [
-    "Municipality:Bucks - Newtown Borough"
-  ],
-  "Municipality:Bucks - Newtown Borough": [
-    "Police Department:Bucks - Newtown Borough Police"
-  ],
-  "Police Department:Bucks - Yardley Borough Police": [
-    "Municipality:Bucks - Yardley Borough"
-  ],
-  "Municipality:Bucks - Yardley Borough": [
-    "Police Department:Bucks - Yardley Borough Police"
-  ],
-  "Police Department:Bucks - Northampton  Police": [
-    "Municipality:Bucks - Northampton Township"
-  ],
-  "Municipality:Bucks - Northampton Township": [
-    "Police Department:Bucks - Northampton  Police"
-  ],
-  "Police Department:Bucks - Lower Makefield  Police": [
-    "Municipality:Bucks - Lower Makefield Township"
-  ],
-  "Municipality:Bucks - Lower Makefield Township": [
-    "Police Department:Bucks - Lower Makefield  Police"
-  ],
-  "Police Department:Bucks - Warrington  Police": [
-    "Municipality:Bucks - Warrington Township"
-  ],
-  "Municipality:Bucks - Warrington Township": [
-    "Police Department:Bucks - Warrington  Police"
-  ],
-  "Police Department:Bucks - Warwick  Police": [
-    "Municipality:Bucks - Warwick Township"
-  ],
-  "Municipality:Bucks - Warwick Township": [
-    "Police Department:Bucks - Warwick  Police"
-  ],
-  "Police Department:Bucks - Central Bucks Regional Police": [
-    "Municipality:Bucks - New Britain Borough",
-    "Municipality:Bucks - Chalfont Borough",
-    "Municipality:Bucks - Doylestown Borough"
-  ],
-  "Municipality:Bucks - New Britain Borough": [
-    "Police Department:Bucks - Central Bucks Regional Police"
-  ],
-  "Municipality:Bucks - Chalfont Borough": [
-    "Police Department:Bucks - Central Bucks Regional Police"
-  ],
-  "Municipality:Bucks - Doylestown Borough": [
-    "Police Department:Bucks - Central Bucks Regional Police"
-  ],
-  "Police Department:Bucks - Telford Borough Police": [
-    "Municipality:Bucks - Telford Borough"
-  ],
-  "Police Department:Bucks - Upper Makefield  Police": [
-    "Municipality:Bucks - Upper Makefield Township"
-  ],
-  "Municipality:Bucks - Upper Makefield Township": [
-    "Police Department:Bucks - Upper Makefield  Police"
-  ],
-  "Police Department:Bucks - Doylestown  Police": [
-    "Municipality:Bucks - Doylestown Township"
-  ],
-  "Municipality:Bucks - Doylestown Township": [
-    "Police Department:Bucks - Doylestown  Police"
-  ],
-  "Police Department:Bucks - Pennridge Regional Police": [
-    "Municipality:Bucks - East Rockhill Township",
-    "Municipality:Bucks - West Rockhill Township"
-  ],
-  "Municipality:Bucks - East Rockhill Township": [
-    "Police Department:Bucks - Pennridge Regional Police"
-  ],
-  "Municipality:Bucks - West Rockhill Township": [
-    "Police Department:Bucks - Pennridge Regional Police"
-  ],
-  "Police Department:Bucks - Hilltown  Police": [
-    "Municipality:Bucks - Hilltown Township"
-  ],
-  "Municipality:Bucks - Hilltown Township": [
-    "Police Department:Bucks - Hilltown  Police"
-  ],
-  "Police Department:Bucks - Perkasie Borough Police": [
-    "Municipality:Bucks - Sellersville Borough",
-    "Municipality:Bucks - Perkasie Borough"
-  ],
-  "Municipality:Bucks - Sellersville Borough": [
-    "Police Department:Bucks - Perkasie Borough Police"
-  ],
-  "Municipality:Bucks - Perkasie Borough": [
-    "Police Department:Bucks - Perkasie Borough Police"
-  ],
-  "Police Department:Bucks - New Hope Borough Police": [
-    "Municipality:Bucks - New Hope Borough"
-  ],
-  "Municipality:Bucks - New Hope Borough": [
-    "Police Department:Bucks - New Hope Borough Police"
-  ],
-  "Police Department:Bucks - Dublin Borough Police": [
-    "Municipality:Bucks - Dublin Borough"
-  ],
-  "Municipality:Bucks - Dublin Borough": [
-    "Police Department:Bucks - Dublin Borough Police"
-  ],
-  "Police Department:Bucks - Buckingham  Police": [
-    "Municipality:Bucks - Buckingham Township"
-  ],
-  "Municipality:Bucks - Buckingham Township": [
-    "Police Department:Bucks - Buckingham  Police"
-  ],
-  "Police Department:Bucks - PA State Police (Dublin)": [
-    "Municipality:Bucks - Bedminster Township",
-    "Municipality:Bucks - Richland Township",
-    "Municipality:Bucks - Milford Township",
-    "Municipality:Bucks - Durham Township",
-    "Municipality:Bucks - Nockamixon Township",
-    "Municipality:Bucks - Haycock Township",
-    "Municipality:Bucks - Springfield Township"
-  ],
-  "Municipality:Bucks - Bedminster Township": [
-    "Police Department:Bucks - PA State Police (Dublin)"
-  ],
-  "Municipality:Bucks - Richland Township": [
-    "Police Department:Bucks - PA State Police (Dublin)"
-  ],
-  "Municipality:Bucks - Milford Township": [
-    "Police Department:Bucks - PA State Police (Dublin)"
-  ],
-  "Municipality:Bucks - Durham Township": [
-    "Police Department:Bucks - PA State Police (Dublin)"
-  ],
-  "Municipality:Bucks - Nockamixon Township": [
-    "Police Department:Bucks - PA State Police (Dublin)"
-  ],
-  "Municipality:Bucks - Haycock Township": [
-    "Police Department:Bucks - PA State Police (Dublin)"
-  ],
-  "Municipality:Bucks - Springfield Township": [
-    "Police Department:Bucks - PA State Police (Dublin)"
-  ],
-  "Police Department:Bucks - Solebury  Police": [
-    "Municipality:Bucks - Solebury Township"
-  ],
-  "Municipality:Bucks - Solebury Township": [
-    "Police Department:Bucks - Solebury  Police"
-  ],
-  "Police Department:Bucks - Plumstead  Police": [
-    "Municipality:Bucks - Plumstead Township"
-  ],
-  "Municipality:Bucks - Plumstead Township": [
-    "Police Department:Bucks - Plumstead  Police"
-  ],
-  "Police Department:Bucks - Quakertown Borough Police": [
-    "Municipality:Bucks - Quakertown Borough"
-  ],
-  "Municipality:Bucks - Quakertown Borough": [
-    "Police Department:Bucks - Quakertown Borough Police"
-  ],
-  "Police Department:Bucks - Tinicum  Police": [
-    "Municipality:Bucks - Tinicum Township"
-  ],
-  "Municipality:Bucks - Tinicum Township": [
-    "Police Department:Bucks - Tinicum  Police"
-  ],
-  "Police Department:Bucks - PA State Police (Bensalem)": [
-    "Municipality:Bucks - Bensalem Township"
-  ],
-  "Municipality:Bucks - Bensalem Township": [
-    "Police Department:Bucks - PA State Police (Bensalem)"
-  ],
-  "Police Department:Bucks - New Britain  Police": [
-    "Municipality:Bucks - New Britain Township"
-  ],
-  "Municipality:Bucks - New Britain Township": [
-    "Police Department:Bucks - New Britain  Police"
-  ],
-  "Police Department:Delaware - Parkside": [
-    "Municipality:Delaware - Parkside Borough"
-  ],
-  "Municipality:Delaware - Parkside Borough": [
-    "Police Department:Delaware - Parkside"
-  ],
-  "Police Department:Delaware - Upload": [
-    "Municipality:Delaware - Upland Borough"
-  ],
-  "Municipality:Delaware - Upland Borough": [
-    "Police Department:Delaware - Upload"
-  ],
-  "Police Department:Delaware - Brookhaven": [
-    "Municipality:Delaware - Brookhaven Borough"
-  ],
-  "Municipality:Delaware - Brookhaven Borough": [
-    "Police Department:Delaware - Brookhaven"
-  ],
-  "Police Department:Delaware - Chester": [
-    "Municipality:Delaware - Chester Township"
-  ],
-  "Municipality:Delaware - Chester Township": [
-    "Police Department:Delaware - Chester"
+  "Police Department:Delaware - Aldan": [
+    "Municipality:Delaware - Aldan Borough"
+  ],
+  "Municipality:Delaware - Aldan Borough": [
+    "Police Department:Delaware - Aldan"
   ],
   "Police Department:Delaware - Aston": [
     "Municipality:Delaware - Aston Township"
@@ -1003,81 +652,17 @@
   "Municipality:Delaware - Bethel Township": [
     "Police Department:Delaware - Bethel"
   ],
-  "Police Department:Delaware - Upper Chichester": [
-    "Municipality:Delaware - Upper Chichester Township"
+  "Police Department:Delaware - Brookhaven": [
+    "Municipality:Delaware - Brookhaven Borough"
   ],
-  "Municipality:Delaware - Upper Chichester Township": [
-    "Police Department:Delaware - Upper Chichester"
+  "Municipality:Delaware - Brookhaven Borough": [
+    "Police Department:Delaware - Brookhaven"
   ],
-  "Police Department:Delaware - Marcus Hook": [
-    "Municipality:Delaware - Marcus Hook Borough"
+  "Police Department:Delaware - Chester": [
+    "Municipality:Delaware - Chester Township"
   ],
-  "Municipality:Delaware - Marcus Hook Borough": [
-    "Police Department:Delaware - Marcus Hook"
-  ],
-  "Police Department:Delaware - Trainer": [
-    "Municipality:Delaware - Trainer Borough"
-  ],
-  "Municipality:Delaware - Trainer Borough": [
-    "Police Department:Delaware - Trainer"
-  ],
-  "Police Department:Delaware - Lower Chichester": [
-    "Municipality:Delaware - Lower Chichester Township"
-  ],
-  "Municipality:Delaware - Lower Chichester Township": [
-    "Police Department:Delaware - Lower Chichester"
-  ],
-  "Police Department:Delaware - Newtown": [
-    "Municipality:Delaware - Newtown Township"
-  ],
-  "Municipality:Delaware - Newtown Township": [
-    "Police Department:Delaware - Newtown"
-  ],
-  "Police Department:Delaware - Marple": [
-    "Municipality:Delaware - Marple Township"
-  ],
-  "Municipality:Delaware - Marple Township": [
-    "Police Department:Delaware - Marple"
-  ],
-  "Police Department:Delaware - Upper Providence": [
-    "Municipality:Delaware - Upper Providence Township"
-  ],
-  "Municipality:Delaware - Upper Providence Township": [
-    "Police Department:Delaware - Upper Providence"
-  ],
-  "Police Department:Delaware - Springfield": [
-    "Municipality:Delaware - Springfield Township"
-  ],
-  "Municipality:Delaware - Springfield Township": [
-    "Police Department:Delaware - Springfield"
-  ],
-  "Police Department:Delaware - Morton": [
-    "Municipality:Delaware - Morton Borough"
-  ],
-  "Municipality:Delaware - Morton Borough": [
-    "Police Department:Delaware - Morton"
-  ],
-  "Police Department:Delaware - Swarthmore": [
-    "Municipality:Delaware - Rutledge Borough",
-    "Municipality:Delaware - Swarthmore Borough"
-  ],
-  "Municipality:Delaware - Rutledge Borough": [
-    "Police Department:Delaware - Swarthmore"
-  ],
-  "Municipality:Delaware - Swarthmore Borough": [
-    "Police Department:Delaware - Swarthmore"
-  ],
-  "Police Department:Delaware - Media": [
-    "Municipality:Delaware - Media Borough"
-  ],
-  "Municipality:Delaware - Media Borough": [
-    "Police Department:Delaware - Media"
-  ],
-  "Police Department:Delaware - Nether Providence": [
-    "Municipality:Delaware - Nether Providence Township"
-  ],
-  "Municipality:Delaware - Nether Providence Township": [
-    "Police Department:Delaware - Nether Providence"
+  "Municipality:Delaware - Chester Township": [
+    "Police Department:Delaware - Chester"
   ],
   "Police Department:Delaware - Chester City": [
     "Municipality:Delaware - Chester City"
@@ -1085,35 +670,23 @@
   "Municipality:Delaware - Chester City": [
     "Police Department:Delaware - Chester City"
   ],
-  "Police Department:Delaware - Lansdowne": [
-    "Municipality:Delaware - Lansdowne Borough"
-  ],
-  "Municipality:Delaware - Lansdowne Borough": [
-    "Police Department:Delaware - Lansdowne"
-  ],
-  "Police Department:Delaware - Aldan": [
-    "Municipality:Delaware - Aldan Borough"
-  ],
-  "Municipality:Delaware - Aldan Borough": [
-    "Police Department:Delaware - Aldan"
-  ],
   "Police Department:Delaware - Clifton Heights": [
     "Municipality:Delaware - Clifton Heights Borough"
   ],
   "Municipality:Delaware - Clifton Heights Borough": [
     "Police Department:Delaware - Clifton Heights"
   ],
-  "Police Department:Delaware - East Lansdowne": [
-    "Municipality:Delaware - East Lansdowne Borough"
+  "Police Department:Delaware - Collingdale": [
+    "Municipality:Delaware - Collingdale Borough"
   ],
-  "Municipality:Delaware - East Lansdowne Borough": [
-    "Police Department:Delaware - East Lansdowne"
+  "Municipality:Delaware - Collingdale Borough": [
+    "Police Department:Delaware - Collingdale"
   ],
-  "Police Department:Delaware - Yeadon": [
-    "Municipality:Delaware - Yeadon Borough"
+  "Police Department:Delaware - Colwyn": [
+    "Municipality:Delaware - Colwyn Borough"
   ],
-  "Municipality:Delaware - Yeadon Borough": [
-    "Police Department:Delaware - Yeadon"
+  "Municipality:Delaware - Colwyn Borough": [
+    "Police Department:Delaware - Colwyn"
   ],
   "Police Department:Delaware - Darby": [
     "Municipality:Delaware - Darby Borough",
@@ -1125,29 +698,11 @@
   "Municipality:Delaware - Darby Township": [
     "Police Department:Delaware - Darby"
   ],
-  "Police Department:Delaware - Colwyn": [
-    "Municipality:Delaware - Colwyn Borough"
+  "Police Department:Delaware - East Lansdowne": [
+    "Municipality:Delaware - East Lansdowne Borough"
   ],
-  "Municipality:Delaware - Colwyn Borough": [
-    "Police Department:Delaware - Colwyn"
-  ],
-  "Police Department:Delaware - Sharon Hill": [
-    "Municipality:Delaware - Sharon Hill Borough"
-  ],
-  "Municipality:Delaware - Sharon Hill Borough": [
-    "Police Department:Delaware - Sharon Hill"
-  ],
-  "Police Department:Delaware - Folcroft": [
-    "Municipality:Delaware - Folcroft Borough"
-  ],
-  "Municipality:Delaware - Folcroft Borough": [
-    "Police Department:Delaware - Folcroft"
-  ],
-  "Police Department:Delaware - Collingdale": [
-    "Municipality:Delaware - Collingdale Borough"
-  ],
-  "Municipality:Delaware - Collingdale Borough": [
-    "Police Department:Delaware - Collingdale"
+  "Municipality:Delaware - East Lansdowne Borough": [
+    "Police Department:Delaware - East Lansdowne"
   ],
   "Police Department:Delaware - Eddystone": [
     "Municipality:Delaware - Eddystone Borough"
@@ -1155,11 +710,11 @@
   "Municipality:Delaware - Eddystone Borough": [
     "Police Department:Delaware - Eddystone"
   ],
-  "Police Department:Delaware - Ridley": [
-    "Municipality:Delaware - Ridley Township"
+  "Police Department:Delaware - Folcroft": [
+    "Municipality:Delaware - Folcroft Borough"
   ],
-  "Municipality:Delaware - Ridley Township": [
-    "Police Department:Delaware - Ridley"
+  "Municipality:Delaware - Folcroft Borough": [
+    "Police Department:Delaware - Folcroft"
   ],
   "Police Department:Delaware - Glenolden": [
     "Municipality:Delaware - Glenolden Borough"
@@ -1167,23 +722,41 @@
   "Municipality:Delaware - Glenolden Borough": [
     "Police Department:Delaware - Glenolden"
   ],
-  "Police Department:Delaware - Prospect Park": [
-    "Municipality:Delaware - Prospect Park Borough"
+  "Police Department:Delaware - Haverford": [
+    "Municipality:Delaware - Haverford Township"
   ],
-  "Municipality:Delaware - Prospect Park Borough": [
-    "Police Department:Delaware - Prospect Park"
+  "Municipality:Delaware - Haverford Township": [
+    "Police Department:Delaware - Haverford"
   ],
-  "Police Department:Delaware - Norwood": [
-    "Municipality:Delaware - Norwood Borough"
+  "Police Department:Delaware - Lansdowne": [
+    "Municipality:Delaware - Lansdowne Borough"
   ],
-  "Municipality:Delaware - Norwood Borough": [
-    "Police Department:Delaware - Norwood"
+  "Municipality:Delaware - Lansdowne Borough": [
+    "Police Department:Delaware - Lansdowne"
   ],
-  "Police Department:Delaware - Ridley Park": [
-    "Municipality:Delaware - Ridley Park Borough"
+  "Police Department:Delaware - Lower Chichester": [
+    "Municipality:Delaware - Lower Chichester Township"
   ],
-  "Municipality:Delaware - Ridley Park Borough": [
-    "Police Department:Delaware - Ridley Park"
+  "Municipality:Delaware - Lower Chichester Township": [
+    "Police Department:Delaware - Lower Chichester"
+  ],
+  "Police Department:Delaware - Marcus Hook": [
+    "Municipality:Delaware - Marcus Hook Borough"
+  ],
+  "Municipality:Delaware - Marcus Hook Borough": [
+    "Police Department:Delaware - Marcus Hook"
+  ],
+  "Police Department:Delaware - Marple": [
+    "Municipality:Delaware - Marple Township"
+  ],
+  "Municipality:Delaware - Marple Township": [
+    "Police Department:Delaware - Marple"
+  ],
+  "Police Department:Delaware - Media": [
+    "Municipality:Delaware - Media Borough"
+  ],
+  "Municipality:Delaware - Media Borough": [
+    "Police Department:Delaware - Media"
   ],
   "Police Department:Delaware - Millbourne": [
     "Municipality:Delaware - Millbourne Borough"
@@ -1191,36 +764,36 @@
   "Municipality:Delaware - Millbourne Borough": [
     "Police Department:Delaware - Millbourne"
   ],
-  "Police Department:Delaware - Upper Darby": [
-    "Municipality:Delaware - Upper Darby Township"
+  "Police Department:Delaware - Morton": [
+    "Municipality:Delaware - Morton Borough"
   ],
-  "Municipality:Delaware - Upper Darby Township": [
-    "Police Department:Delaware - Upper Darby"
+  "Municipality:Delaware - Morton Borough": [
+    "Police Department:Delaware - Morton"
   ],
-  "Police Department:Delaware - Haverford": [
-    "Municipality:Delaware - Haverford Township"
+  "Police Department:Delaware - Nether Providence": [
+    "Municipality:Delaware - Nether Providence Township"
   ],
-  "Municipality:Delaware - Haverford Township": [
-    "Police Department:Delaware - Haverford"
+  "Municipality:Delaware - Nether Providence Township": [
+    "Police Department:Delaware - Nether Providence"
   ],
-  "Police Department:Delaware - Radnor": [
-    "Municipality:Delaware - Radnor Township"
+  "Police Department:Delaware - Newtown": [
+    "Municipality:Delaware - Newtown Township"
   ],
-  "Municipality:Delaware - Radnor Township": [
-    "Police Department:Delaware - Radnor"
+  "Municipality:Delaware - Newtown Township": [
+    "Police Department:Delaware - Newtown"
+  ],
+  "Police Department:Delaware - Norwood": [
+    "Municipality:Delaware - Norwood Borough"
+  ],
+  "Municipality:Delaware - Norwood Borough": [
+    "Police Department:Delaware - Norwood"
   ],
   "Police Department:Delaware - PSP MEDIA STATION": [
-    "Municipality:Delaware - Edgmont Township",
-    "Municipality:Delaware - Thornbury Township",
     "Municipality:Delaware - Chadds Ford Township",
     "Municipality:Delaware - Concord Township",
-    "Municipality:Delaware - Middletown Township"
-  ],
-  "Municipality:Delaware - Edgmont Township": [
-    "Police Department:Delaware - PSP MEDIA STATION"
-  ],
-  "Municipality:Delaware - Thornbury Township": [
-    "Police Department:Delaware - PSP MEDIA STATION"
+    "Municipality:Delaware - Edgmont Township",
+    "Municipality:Delaware - Middletown Township",
+    "Municipality:Delaware - Thornbury Township"
   ],
   "Municipality:Delaware - Chadds Ford Township": [
     "Police Department:Delaware - PSP MEDIA STATION"
@@ -1228,7 +801,434 @@
   "Municipality:Delaware - Concord Township": [
     "Police Department:Delaware - PSP MEDIA STATION"
   ],
+  "Municipality:Delaware - Edgmont Township": [
+    "Police Department:Delaware - PSP MEDIA STATION"
+  ],
   "Municipality:Delaware - Middletown Township": [
     "Police Department:Delaware - PSP MEDIA STATION"
+  ],
+  "Municipality:Delaware - Thornbury Township": [
+    "Police Department:Delaware - PSP MEDIA STATION"
+  ],
+  "Police Department:Delaware - Parkside": [
+    "Municipality:Delaware - Parkside Borough"
+  ],
+  "Municipality:Delaware - Parkside Borough": [
+    "Police Department:Delaware - Parkside"
+  ],
+  "Police Department:Delaware - Prospect Park": [
+    "Municipality:Delaware - Prospect Park Borough"
+  ],
+  "Municipality:Delaware - Prospect Park Borough": [
+    "Police Department:Delaware - Prospect Park"
+  ],
+  "Police Department:Delaware - Radnor": [
+    "Municipality:Delaware - Radnor Township"
+  ],
+  "Municipality:Delaware - Radnor Township": [
+    "Police Department:Delaware - Radnor"
+  ],
+  "Police Department:Delaware - Ridley": [
+    "Municipality:Delaware - Ridley Township"
+  ],
+  "Municipality:Delaware - Ridley Township": [
+    "Police Department:Delaware - Ridley"
+  ],
+  "Police Department:Delaware - Ridley Park": [
+    "Municipality:Delaware - Ridley Park Borough"
+  ],
+  "Municipality:Delaware - Ridley Park Borough": [
+    "Police Department:Delaware - Ridley Park"
+  ],
+  "Police Department:Delaware - Sharon Hill": [
+    "Municipality:Delaware - Sharon Hill Borough"
+  ],
+  "Municipality:Delaware - Sharon Hill Borough": [
+    "Police Department:Delaware - Sharon Hill"
+  ],
+  "Police Department:Delaware - Springfield": [
+    "Municipality:Delaware - Springfield Township"
+  ],
+  "Municipality:Delaware - Springfield Township": [
+    "Police Department:Delaware - Springfield"
+  ],
+  "Police Department:Delaware - Swarthmore": [
+    "Municipality:Delaware - Rutledge Borough",
+    "Municipality:Delaware - Swarthmore Borough"
+  ],
+  "Municipality:Delaware - Rutledge Borough": [
+    "Police Department:Delaware - Swarthmore"
+  ],
+  "Municipality:Delaware - Swarthmore Borough": [
+    "Police Department:Delaware - Swarthmore"
+  ],
+  "Police Department:Delaware - Trainer": [
+    "Municipality:Delaware - Trainer Borough"
+  ],
+  "Municipality:Delaware - Trainer Borough": [
+    "Police Department:Delaware - Trainer"
+  ],
+  "Police Department:Delaware - Upload": [
+    "Municipality:Delaware - Upland Borough"
+  ],
+  "Municipality:Delaware - Upland Borough": [
+    "Police Department:Delaware - Upload"
+  ],
+  "Police Department:Delaware - Upper Chichester": [
+    "Municipality:Delaware - Upper Chichester Township"
+  ],
+  "Municipality:Delaware - Upper Chichester Township": [
+    "Police Department:Delaware - Upper Chichester"
+  ],
+  "Police Department:Delaware - Upper Darby": [
+    "Municipality:Delaware - Upper Darby Township"
+  ],
+  "Municipality:Delaware - Upper Darby Township": [
+    "Police Department:Delaware - Upper Darby"
+  ],
+  "Police Department:Delaware - Upper Providence": [
+    "Municipality:Delaware - Upper Providence Township"
+  ],
+  "Municipality:Delaware - Upper Providence Township": [
+    "Police Department:Delaware - Upper Providence"
+  ],
+  "Police Department:Delaware - Yeadon": [
+    "Municipality:Delaware - Yeadon Borough"
+  ],
+  "Municipality:Delaware - Yeadon Borough": [
+    "Police Department:Delaware - Yeadon"
+  ],
+  "Police Department:Montgomery - Abington": [
+    "Municipality:Montgomery - Abington Township"
+  ],
+  "Municipality:Montgomery - Abington Township": [
+    "Police Department:Montgomery - Abington"
+  ],
+  "Police Department:Montgomery - Ambler": [
+    "Municipality:Montgomery - Ambler Borough"
+  ],
+  "Municipality:Montgomery - Ambler Borough": [
+    "Police Department:Montgomery - Ambler"
+  ],
+  "Police Department:Montgomery - Bridgeport": [
+    "Municipality:Montgomery - Bridgeport Borough"
+  ],
+  "Municipality:Montgomery - Bridgeport Borough": [
+    "Police Department:Montgomery - Bridgeport"
+  ],
+  "Police Department:Montgomery - Bryn Athyn": [
+    "Municipality:Montgomery - Bryn Athyn Borough"
+  ],
+  "Municipality:Montgomery - Bryn Athyn Borough": [
+    "Police Department:Montgomery - Bryn Athyn"
+  ],
+  "Police Department:Montgomery - Cheltenham": [
+    "Municipality:Montgomery - Cheltenham Township"
+  ],
+  "Municipality:Montgomery - Cheltenham Township": [
+    "Police Department:Montgomery - Cheltenham"
+  ],
+  "Police Department:Montgomery - Collegeville": [
+    "Municipality:Montgomery - Collegeville Borough"
+  ],
+  "Municipality:Montgomery - Collegeville Borough": [
+    "Police Department:Montgomery - Collegeville"
+  ],
+  "Police Department:Montgomery - Conshohocken": [
+    "Municipality:Montgomery - Conshohocken Borough"
+  ],
+  "Municipality:Montgomery - Conshohocken Borough": [
+    "Police Department:Montgomery - Conshohocken"
+  ],
+  "Police Department:Montgomery - Douglass": [
+    "Municipality:Montgomery - Douglass Township"
+  ],
+  "Municipality:Montgomery - Douglass Township": [
+    "Police Department:Montgomery - Douglass"
+  ],
+  "Police Department:Montgomery - East Norriton": [
+    "Municipality:Montgomery - East Norriton Township"
+  ],
+  "Municipality:Montgomery - East Norriton Township": [
+    "Police Department:Montgomery - East Norriton"
+  ],
+  "Police Department:Montgomery - Franconia": [
+    "Municipality:Montgomery - Franconia Township"
+  ],
+  "Municipality:Montgomery - Franconia Township": [
+    "Police Department:Montgomery - Franconia"
+  ],
+  "Police Department:Montgomery - Hatboro": [
+    "Municipality:Montgomery - Hatboro Borough"
+  ],
+  "Municipality:Montgomery - Hatboro Borough": [
+    "Police Department:Montgomery - Hatboro"
+  ],
+  "Police Department:Montgomery - Hatfield": [
+    "Municipality:Montgomery - Hatfield Borough",
+    "Municipality:Montgomery - Hatfield Township"
+  ],
+  "Municipality:Montgomery - Hatfield Borough": [
+    "Police Department:Montgomery - Hatfield"
+  ],
+  "Municipality:Montgomery - Hatfield Township": [
+    "Police Department:Montgomery - Hatfield"
+  ],
+  "Police Department:Montgomery - Horsham": [
+    "Municipality:Montgomery - Horsham Township"
+  ],
+  "Municipality:Montgomery - Horsham Township": [
+    "Police Department:Montgomery - Horsham"
+  ],
+  "Police Department:Montgomery - Jenkintown": [
+    "Municipality:Montgomery - Jenkintown Borough"
+  ],
+  "Municipality:Montgomery - Jenkintown Borough": [
+    "Police Department:Montgomery - Jenkintown"
+  ],
+  "Police Department:Montgomery - Lansdale": [
+    "Municipality:Montgomery - Lansdale Borough"
+  ],
+  "Municipality:Montgomery - Lansdale Borough": [
+    "Police Department:Montgomery - Lansdale"
+  ],
+  "Police Department:Montgomery - Limerick": [
+    "Municipality:Montgomery - Limerick Township"
+  ],
+  "Municipality:Montgomery - Limerick Township": [
+    "Police Department:Montgomery - Limerick"
+  ],
+  "Police Department:Montgomery - Lower Frederick": [
+    "Municipality:Montgomery - Lower Frederick Township"
+  ],
+  "Municipality:Montgomery - Lower Frederick Township": [
+    "Police Department:Montgomery - Lower Frederick"
+  ],
+  "Police Department:Montgomery - Lower Gwynedd": [
+    "Municipality:Montgomery - Lower Gwynedd Township"
+  ],
+  "Municipality:Montgomery - Lower Gwynedd Township": [
+    "Police Department:Montgomery - Lower Gwynedd"
+  ],
+  "Police Department:Montgomery - Lower Merion": [
+    "Municipality:Montgomery - Lower Merion Township"
+  ],
+  "Municipality:Montgomery - Lower Merion Township": [
+    "Police Department:Montgomery - Lower Merion"
+  ],
+  "Police Department:Montgomery - Lower Moreland": [
+    "Municipality:Montgomery - Lower Moreland Township"
+  ],
+  "Municipality:Montgomery - Lower Moreland Township": [
+    "Police Department:Montgomery - Lower Moreland"
+  ],
+  "Police Department:Montgomery - Lower Pottsgrove": [
+    "Municipality:Montgomery - Lower Pottsgrove Township"
+  ],
+  "Municipality:Montgomery - Lower Pottsgrove Township": [
+    "Police Department:Montgomery - Lower Pottsgrove"
+  ],
+  "Police Department:Montgomery - Lower Providence": [
+    "Municipality:Montgomery - Lower Providence Township"
+  ],
+  "Municipality:Montgomery - Lower Providence Township": [
+    "Police Department:Montgomery - Lower Providence"
+  ],
+  "Police Department:Montgomery - Lower Salford": [
+    "Municipality:Montgomery - Lower Salford Township"
+  ],
+  "Municipality:Montgomery - Lower Salford Township": [
+    "Police Department:Montgomery - Lower Salford"
+  ],
+  "Police Department:Montgomery - Marlborough": [
+    "Municipality:Montgomery - Marlborough Township"
+  ],
+  "Municipality:Montgomery - Marlborough Township": [
+    "Police Department:Montgomery - Marlborough"
+  ],
+  "Police Department:Montgomery - Montgomery": [
+    "Municipality:Montgomery - Montgomery Township"
+  ],
+  "Municipality:Montgomery - Montgomery Township": [
+    "Police Department:Montgomery - Montgomery"
+  ],
+  "Police Department:Montgomery - Narberth": [
+    "Municipality:Montgomery - Narberth Borough"
+  ],
+  "Municipality:Montgomery - Narberth Borough": [
+    "Police Department:Montgomery - Narberth"
+  ],
+  "Police Department:Montgomery - New Hanover": [
+    "Municipality:Montgomery - New Hanover Township"
+  ],
+  "Municipality:Montgomery - New Hanover Township": [
+    "Police Department:Montgomery - New Hanover"
+  ],
+  "Police Department:Montgomery - Norristown": [
+    "Municipality:Montgomery - Norristown Borough"
+  ],
+  "Municipality:Montgomery - Norristown Borough": [
+    "Police Department:Montgomery - Norristown"
+  ],
+  "Police Department:Montgomery - North Wales": [
+    "Municipality:Montgomery - North Wales Borough"
+  ],
+  "Municipality:Montgomery - North Wales Borough": [
+    "Police Department:Montgomery - North Wales"
+  ],
+  "Police Department:Montgomery - Plymouth": [
+    "Municipality:Montgomery - Plymouth Township"
+  ],
+  "Municipality:Montgomery - Plymouth Township": [
+    "Police Department:Montgomery - Plymouth"
+  ],
+  "Police Department:Montgomery - Pottstown": [
+    "Municipality:Montgomery - Pottstown Borough"
+  ],
+  "Municipality:Montgomery - Pottstown Borough": [
+    "Police Department:Montgomery - Pottstown"
+  ],
+  "Police Department:Montgomery - Rockledge": [
+    "Municipality:Montgomery - Rockledge Borough"
+  ],
+  "Municipality:Montgomery - Rockledge Borough": [
+    "Police Department:Montgomery - Rockledge"
+  ],
+  "Police Department:Montgomery - Royersford": [
+    "Municipality:Montgomery - Royersford Borough"
+  ],
+  "Municipality:Montgomery - Royersford Borough": [
+    "Police Department:Montgomery - Royersford"
+  ],
+  "Police Department:Montgomery - Souderton": [
+    "Municipality:Montgomery - Souderton Borough"
+  ],
+  "Municipality:Montgomery - Souderton Borough": [
+    "Police Department:Montgomery - Souderton"
+  ],
+  "Police Department:Montgomery - Springfield": [
+    "Municipality:Montgomery - Springfield Township"
+  ],
+  "Municipality:Montgomery - Springfield Township": [
+    "Police Department:Montgomery - Springfield"
+  ],
+  "Police Department:Montgomery - State Police - Troop K - Skippack": [
+    "Municipality:Montgomery - Perkiomen Township",
+    "Municipality:Montgomery - Salford Township",
+    "Municipality:Montgomery - Skippack Township",
+    "Municipality:Montgomery - Upper Frederick Township",
+    "Municipality:Montgomery - Upper Hanover Township",
+    "Municipality:Montgomery - Upper Salford Township",
+    "Municipality:Montgomery - Worcester Township"
+  ],
+  "Municipality:Montgomery - Perkiomen Township": [
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  ],
+  "Municipality:Montgomery - Salford Township": [
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  ],
+  "Municipality:Montgomery - Skippack Township": [
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  ],
+  "Municipality:Montgomery - Upper Frederick Township": [
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  ],
+  "Municipality:Montgomery - Upper Hanover Township": [
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  ],
+  "Municipality:Montgomery - Upper Salford Township": [
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  ],
+  "Municipality:Montgomery - Worcester Township": [
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  ],
+  "Police Department:Montgomery - Telford": [
+    "Municipality:Bucks - Telford Borough",
+    "Municipality:Montgomery - Telford Borough"
+  ],
+  "Municipality:Montgomery - Telford Borough": [
+    "Police Department:Montgomery - Telford"
+  ],
+  "Police Department:Montgomery - Towamencin": [
+    "Municipality:Montgomery - Towamencin Township"
+  ],
+  "Municipality:Montgomery - Towamencin Township": [
+    "Police Department:Montgomery - Towamencin"
+  ],
+  "Police Department:Montgomery - Upper Dublin": [
+    "Municipality:Montgomery - Upper Dublin Township"
+  ],
+  "Municipality:Montgomery - Upper Dublin Township": [
+    "Police Department:Montgomery - Upper Dublin"
+  ],
+  "Police Department:Montgomery - Upper Gwynedd": [
+    "Municipality:Montgomery - Upper Gwynedd Township"
+  ],
+  "Municipality:Montgomery - Upper Gwynedd Township": [
+    "Police Department:Montgomery - Upper Gwynedd"
+  ],
+  "Police Department:Montgomery - Upper Merion": [
+    "Municipality:Montgomery - Upper Merion Township"
+  ],
+  "Municipality:Montgomery - Upper Merion Township": [
+    "Police Department:Montgomery - Upper Merion",
+    "Police Department:Montgomery - Valley Nationl Park Rangers"
+  ],
+  "Police Department:Montgomery - Upper Moreland": [
+    "Municipality:Montgomery - Upper Moreland Township"
+  ],
+  "Municipality:Montgomery - Upper Moreland Township": [
+    "Police Department:Montgomery - Upper Moreland"
+  ],
+  "Police Department:Montgomery - Upper Perkiomen": [
+    "Municipality:Montgomery - Pennsburg Borough"
+  ],
+  "Municipality:Montgomery - Pennsburg Borough": [
+    "Police Department:Montgomery - Upper Perkiomen"
+  ],
+  "Police Department:Montgomery - Upper Pottsgrove": [
+    "Municipality:Montgomery - Upper Pottsgrove Township"
+  ],
+  "Municipality:Montgomery - Upper Pottsgrove Township": [
+    "Police Department:Montgomery - Upper Pottsgrove"
+  ],
+  "Police Department:Montgomery - Upper Providence": [
+    "Municipality:Montgomery - Upper Providence Township"
+  ],
+  "Municipality:Montgomery - Upper Providence Township": [
+    "Police Department:Montgomery - Upper Providence"
+  ],
+  "Police Department:Montgomery - Valley Nationl Park Rangers": [
+    "Municipality:Montgomery - Upper Merion Township"
+  ],
+  "Police Department:Montgomery - West Conshohocken": [
+    "Municipality:Montgomery - West Conshohocken Borough"
+  ],
+  "Municipality:Montgomery - West Conshohocken Borough": [
+    "Police Department:Montgomery - West Conshohocken"
+  ],
+  "Police Department:Montgomery - West Norriton": [
+    "Municipality:Montgomery - West Norriton Township"
+  ],
+  "Municipality:Montgomery - West Norriton Township": [
+    "Police Department:Montgomery - West Norriton"
+  ],
+  "Police Department:Montgomery - West Pottsgrove": [
+    "Municipality:Montgomery - West Pottsgrove Township"
+  ],
+  "Municipality:Montgomery - West Pottsgrove Township": [
+    "Police Department:Montgomery - West Pottsgrove"
+  ],
+  "Police Department:Montgomery - Whitemarsh": [
+    "Municipality:Montgomery - Whitemarsh Township"
+  ],
+  "Municipality:Montgomery - Whitemarsh Township": [
+    "Police Department:Montgomery - Whitemarsh"
+  ],
+  "Police Department:Montgomery - Whitpain": [
+    "Municipality:Montgomery - Whitpain Township"
+  ],
+  "Municipality:Montgomery - Whitpain Township": [
+    "Police Department:Montgomery - Whitpain"
   ]
 }

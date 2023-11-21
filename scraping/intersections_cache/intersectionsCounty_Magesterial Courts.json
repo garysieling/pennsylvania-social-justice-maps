@@ -25,28 +25,6 @@
   "Magesterial Courts:07-2-05": [
     "County:Bucks"
   ],
-  "County:Montgomery": [
-    "Magesterial Courts:1938-01-19",
-    "Magesterial Courts:1938-01-21",
-    "Magesterial Courts:1938-01-24",
-    "Magesterial Courts:1938-02-02",
-    "Magesterial Courts:1938-02-03"
-  ],
-  "Magesterial Courts:1938-01-19": [
-    "County:Montgomery"
-  ],
-  "Magesterial Courts:1938-01-21": [
-    "County:Montgomery"
-  ],
-  "Magesterial Courts:1938-01-24": [
-    "County:Montgomery"
-  ],
-  "Magesterial Courts:1938-02-02": [
-    "County:Montgomery"
-  ],
-  "Magesterial Courts:1938-02-03": [
-    "County:Montgomery"
-  ],
   "County:Chester": [
     "Magesterial Courts:2015-03-05",
     "Magesterial Courts:2015-04-04",
@@ -76,5 +54,27 @@
   ],
   "Magesterial Courts:2015-03-07": [
     "County:Chester"
+  ],
+  "County:Montgomery": [
+    "Magesterial Courts:1938-01-19",
+    "Magesterial Courts:1938-01-21",
+    "Magesterial Courts:1938-01-24",
+    "Magesterial Courts:1938-02-02",
+    "Magesterial Courts:1938-02-03"
+  ],
+  "Magesterial Courts:1938-01-19": [
+    "County:Montgomery"
+  ],
+  "Magesterial Courts:1938-01-21": [
+    "County:Montgomery"
+  ],
+  "Magesterial Courts:1938-01-24": [
+    "County:Montgomery"
+  ],
+  "Magesterial Courts:1938-02-02": [
+    "County:Montgomery"
+  ],
+  "Magesterial Courts:1938-02-03": [
+    "County:Montgomery"
   ]
 }

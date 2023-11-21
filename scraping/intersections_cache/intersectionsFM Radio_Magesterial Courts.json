@@ -1,44 +1,33 @@
 {
-  "FM Radio:WDIY": [
-    "Magesterial Courts:07-3-03"
+  "FM Radio:WBMR": [
+    "Magesterial Courts:07-2-08",
+    "Magesterial Courts:07-2-05",
+    "Magesterial Courts:1938-01-18",
+    "Magesterial Courts:1938-01-24",
+    "Magesterial Courts:1938-01-28",
+    "Magesterial Courts:1938-02-02"
   ],
-  "Magesterial Courts:07-3-03": [
-    "FM Radio:WDIY",
-    "FM Radio:WBYO",
-    "FM Radio:WLVR-FM"
+  "Magesterial Courts:07-2-08": [
+    "FM Radio:WBMR",
+    "FM Radio:WBYO"
   ],
-  "FM Radio:WZZD": [
-    "Magesterial Courts:2015-02-07",
-    "Magesterial Courts:2015-04-02",
-    "Magesterial Courts:2015-03-01",
-    "Magesterial Courts:2015-03-06"
+  "Magesterial Courts:07-2-05": [
+    "FM Radio:WBMR",
+    "FM Radio:WBYO"
   ],
-  "Magesterial Courts:2015-02-07": [
-    "FM Radio:WZZD",
-    "FM Radio:WRTJ"
+  "Magesterial Courts:1938-01-18": [
+    "FM Radio:WBMR"
   ],
-  "Magesterial Courts:2015-04-02": [
-    "FM Radio:WZZD",
-    "FM Radio:WRTJ"
+  "Magesterial Courts:1938-01-24": [
+    "FM Radio:WBMR",
+    "FM Radio:WBYO"
   ],
-  "Magesterial Courts:2015-03-01": [
-    "FM Radio:WZZD"
+  "Magesterial Courts:1938-01-28": [
+    "FM Radio:WBMR"
   ],
-  "Magesterial Courts:2015-03-06": [
-    "FM Radio:WZZD",
-    "FM Radio:WRTJ",
-    "FM Radio:WYTL"
-  ],
-  "FM Radio:WZXE": [
-    "Magesterial Courts:2015-03-05"
-  ],
-  "Magesterial Courts:2015-03-05": [
-    "FM Radio:WZXE",
-    "FM Radio:WWLU",
-    "FM Radio:WZWG"
-  ],
-  "FM Radio:WWLU": [
-    "Magesterial Courts:2015-03-05"
+  "Magesterial Courts:1938-02-02": [
+    "FM Radio:WBMR",
+    "FM Radio:WBYO"
   ],
   "FM Radio:WBYO": [
     "Magesterial Courts:07-2-08",
@@ -48,57 +37,58 @@
     "Magesterial Courts:1938-02-02",
     "Magesterial Courts:1938-02-03"
   ],
-  "Magesterial Courts:07-2-08": [
+  "Magesterial Courts:07-3-03": [
     "FM Radio:WBYO",
-    "FM Radio:WBMR"
-  ],
-  "Magesterial Courts:07-2-05": [
-    "FM Radio:WBYO",
-    "FM Radio:WBMR"
-  ],
-  "Magesterial Courts:1938-01-24": [
-    "FM Radio:WBYO",
-    "FM Radio:WBMR"
-  ],
-  "Magesterial Courts:1938-02-02": [
-    "FM Radio:WBYO",
-    "FM Radio:WBMR"
+    "FM Radio:WDIY",
+    "FM Radio:WLVR-FM"
   ],
   "Magesterial Courts:1938-02-03": [
     "FM Radio:WBYO"
   ],
-  "FM Radio:WXVU": [
-    "Magesterial Courts:1938-01-06",
-    "Magesterial Courts:1938-01-09",
-    "Magesterial Courts:1938-01-25"
+  "FM Radio:WCUR": [
+    "Magesterial Courts:2015-02-03",
+    "Magesterial Courts:2015-01-01"
   ],
-  "Magesterial Courts:1938-01-06": [
-    "FM Radio:WXVU"
-  ],
-  "Magesterial Courts:1938-01-09": [
-    "FM Radio:WXVU"
-  ],
-  "Magesterial Courts:1938-01-25": [
-    "FM Radio:WXVU"
-  ],
-  "FM Radio:WRTJ": [
-    "Magesterial Courts:2015-02-07",
-    "Magesterial Courts:2015-04-02",
-    "Magesterial Courts:2015-01-01",
-    "Magesterial Courts:2015-03-04",
-    "Magesterial Courts:2015-03-06",
-    "Magesterial Courts:2015-03-07"
-  ],
-  "Magesterial Courts:2015-01-01": [
-    "FM Radio:WRTJ",
+  "Magesterial Courts:2015-02-03": [
     "FM Radio:WCUR"
   ],
-  "Magesterial Courts:2015-03-04": [
+  "Magesterial Courts:2015-01-01": [
+    "FM Radio:WCUR",
     "FM Radio:WRTJ"
   ],
-  "Magesterial Courts:2015-03-07": [
-    "FM Radio:WRTJ",
-    "FM Radio:WZWG"
+  "FM Radio:WDIY": [
+    "Magesterial Courts:07-3-03"
+  ],
+  "FM Radio:WHHS": [
+    "Magesterial Courts:1938-02-04"
+  ],
+  "Magesterial Courts:1938-02-04": [
+    "FM Radio:WHHS"
+  ],
+  "FM Radio:WLBS": [
+    "Magesterial Courts:07-1-04",
+    "Magesterial Courts:07-1-07",
+    "Magesterial Courts:07-1-08",
+    "Magesterial Courts:07-1-10",
+    "Magesterial Courts:Unknown"
+  ],
+  "Magesterial Courts:07-1-04": [
+    "FM Radio:WLBS"
+  ],
+  "Magesterial Courts:07-1-07": [
+    "FM Radio:WLBS"
+  ],
+  "Magesterial Courts:07-1-08": [
+    "FM Radio:WLBS"
+  ],
+  "Magesterial Courts:07-1-10": [
+    "FM Radio:WLBS"
+  ],
+  "Magesterial Courts:Unknown": [
+    "FM Radio:WLBS"
+  ],
+  "FM Radio:WLVR-FM": [
+    "Magesterial Courts:07-3-03"
   ],
   "FM Radio:WRDV": [
     "Magesterial Courts:07-2-01",
@@ -130,51 +120,58 @@
   "Magesterial Courts:1938-02-08": [
     "FM Radio:WRDV"
   ],
-  "FM Radio:WLVR-FM": [
-    "Magesterial Courts:07-3-03"
+  "FM Radio:WRTJ": [
+    "Magesterial Courts:2015-02-07",
+    "Magesterial Courts:2015-04-02",
+    "Magesterial Courts:2015-01-01",
+    "Magesterial Courts:2015-03-04",
+    "Magesterial Courts:2015-03-06",
+    "Magesterial Courts:2015-03-07"
   ],
-  "FM Radio:WLBS": [
-    "Magesterial Courts:07-1-04",
-    "Magesterial Courts:07-1-07",
-    "Magesterial Courts:07-1-08",
-    "Magesterial Courts:07-1-10",
-    "Magesterial Courts:undefined"
+  "Magesterial Courts:2015-02-07": [
+    "FM Radio:WRTJ",
+    "FM Radio:WZZD"
   ],
-  "Magesterial Courts:07-1-04": [
-    "FM Radio:WLBS"
+  "Magesterial Courts:2015-04-02": [
+    "FM Radio:WRTJ",
+    "FM Radio:WZZD"
   ],
-  "Magesterial Courts:07-1-07": [
-    "FM Radio:WLBS"
+  "Magesterial Courts:2015-03-04": [
+    "FM Radio:WRTJ"
   ],
-  "Magesterial Courts:07-1-08": [
-    "FM Radio:WLBS"
+  "Magesterial Courts:2015-03-06": [
+    "FM Radio:WRTJ",
+    "FM Radio:WYTL",
+    "FM Radio:WZZD"
   ],
-  "Magesterial Courts:07-1-10": [
-    "FM Radio:WLBS"
+  "Magesterial Courts:2015-03-07": [
+    "FM Radio:WRTJ",
+    "FM Radio:WZWG"
   ],
-  "Magesterial Courts:undefined": [
-    "FM Radio:WLBS"
+  "FM Radio:WWLU": [
+    "Magesterial Courts:2015-03-05"
   ],
-  "FM Radio:WBMR": [
-    "Magesterial Courts:07-2-08",
-    "Magesterial Courts:07-2-05",
-    "Magesterial Courts:1938-01-18",
-    "Magesterial Courts:1938-01-24",
-    "Magesterial Courts:1938-01-28",
-    "Magesterial Courts:1938-02-02"
+  "Magesterial Courts:2015-03-05": [
+    "FM Radio:WWLU",
+    "FM Radio:WZWG",
+    "FM Radio:WZXE"
   ],
-  "Magesterial Courts:1938-01-18": [
-    "FM Radio:WBMR"
+  "FM Radio:WXVU": [
+    "Magesterial Courts:1938-01-06",
+    "Magesterial Courts:1938-01-09",
+    "Magesterial Courts:1938-01-25"
   ],
-  "Magesterial Courts:1938-01-28": [
-    "FM Radio:WBMR"
+  "Magesterial Courts:1938-01-06": [
+    "FM Radio:WXVU"
   ],
-  "FM Radio:WCUR": [
-    "Magesterial Courts:2015-02-03",
-    "Magesterial Courts:2015-01-01"
+  "Magesterial Courts:1938-01-09": [
+    "FM Radio:WXVU"
   ],
-  "Magesterial Courts:2015-02-03": [
-    "FM Radio:WCUR"
+  "Magesterial Courts:1938-01-25": [
+    "FM Radio:WXVU"
+  ],
+  "FM Radio:WYTL": [
+    "Magesterial Courts:2015-03-06"
   ],
   "FM Radio:WZWG": [
     "Magesterial Courts:2015-03-05",
@@ -184,13 +181,16 @@
   "Magesterial Courts:2015-04-04": [
     "FM Radio:WZWG"
   ],
-  "FM Radio:WYTL": [
+  "FM Radio:WZXE": [
+    "Magesterial Courts:2015-03-05"
+  ],
+  "FM Radio:WZZD": [
+    "Magesterial Courts:2015-02-07",
+    "Magesterial Courts:2015-04-02",
+    "Magesterial Courts:2015-03-01",
     "Magesterial Courts:2015-03-06"
   ],
-  "FM Radio:WHHS": [
-    "Magesterial Courts:1938-02-04"
-  ],
-  "Magesterial Courts:1938-02-04": [
-    "FM Radio:WHHS"
+  "Magesterial Courts:2015-03-01": [
+    "FM Radio:WZZD"
   ]
 }

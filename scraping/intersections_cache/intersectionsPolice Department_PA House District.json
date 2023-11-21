@@ -1,379 +1,11 @@
 {
-  "Police Department:Montgomery - State Police - Troop K - Skippack": [
-    "PA House District:131",
-    "PA House District:70",
-    "PA House District:53",
-    "PA House District:146",
-    "PA House District:147",
-    "PA House District:150"
-  ],
-  "PA House District:131": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack"
-  ],
-  "PA House District:70": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack",
-    "Police Department:Montgomery - Plymouth",
-    "Police Department:Montgomery - East Norriton",
-    "Police Department:Montgomery - Norristown"
-  ],
-  "PA House District:53": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack",
-    "Police Department:Montgomery - Lansdale",
-    "Police Department:Montgomery - Hatfield",
-    "Police Department:Montgomery - Franconia"
-  ],
-  "PA House District:146": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack",
-    "Police Department:Montgomery - Limerick",
-    "Police Department:Montgomery - Lower Pottsgrove",
-    "Police Department:Montgomery - Pottstown"
-  ],
-  "PA House District:147": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack",
-    "Police Department:Montgomery - Lower Salford",
-    "Police Department:Montgomery - Lower Frederick",
-    "Police Department:Montgomery - Marlborough",
-    "Police Department:Montgomery - New Hanover",
-    "Police Department:Montgomery - Douglass"
-  ],
-  "PA House District:150": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack",
-    "Police Department:Montgomery - West Norriton",
-    "Police Department:Montgomery - Lower Providence",
-    "Police Department:Montgomery - Upper Providence"
-  ],
-  "Police Department:Montgomery - Lower Moreland": [
-    "PA House District:152"
-  ],
-  "PA House District:152": [
-    "Police Department:Montgomery - Lower Moreland",
-    "Police Department:Montgomery - Bryn Athyn",
-    "Police Department:Montgomery - Upper Moreland",
-    "Police Department:Montgomery - Hatboro",
-    "Police Department:Montgomery - Upper Dublin"
-  ],
-  "Police Department:Montgomery - Cheltenham": [
-    "PA House District:154"
-  ],
-  "PA House District:154": [
-    "Police Department:Montgomery - Cheltenham",
-    "Police Department:Montgomery - Springfield"
-  ],
-  "Police Department:Montgomery - Bryn Athyn": [
-    "PA House District:152"
-  ],
-  "Police Department:Montgomery - Springfield": [
-    "PA House District:154"
-  ],
-  "Police Department:Montgomery - Abington": [
-    "PA House District:153"
-  ],
-  "PA House District:153": [
-    "Police Department:Montgomery - Abington",
-    "Police Department:Montgomery - Upper Dublin"
-  ],
-  "Police Department:Montgomery - Whitemarsh": [
-    "PA House District:148"
-  ],
-  "PA House District:148": [
-    "Police Department:Montgomery - Whitemarsh",
-    "Police Department:Montgomery - Lower Merion",
-    "Police Department:Montgomery - Plymouth"
-  ],
-  "Police Department:Montgomery - Lower Merion": [
-    "PA House District:148",
-    "PA House District:149",
-    "PA House District:194"
-  ],
-  "PA House District:149": [
-    "Police Department:Montgomery - Lower Merion",
-    "Police Department:Montgomery - Upper Merion",
-    "Police Department:Montgomery - Valley Nationl Park Rangers",
-    "Police Department:Montgomery - West Norriton"
-  ],
-  "PA House District:194": [
-    "Police Department:Montgomery - Lower Merion"
-  ],
-  "Police Department:Montgomery - Upper Moreland": [
-    "PA House District:152"
-  ],
-  "Police Department:Montgomery - Hatboro": [
-    "PA House District:152"
-  ],
-  "Police Department:Montgomery - Horsham": [
-    "PA House District:151"
-  ],
-  "PA House District:151": [
-    "Police Department:Montgomery - Horsham",
-    "Police Department:Montgomery - Upper Dublin",
-    "Police Department:Montgomery - Lower Gwynedd",
-    "Police Department:Montgomery - Montgomery"
-  ],
-  "Police Department:Montgomery - Upper Dublin": [
-    "PA House District:151",
-    "PA House District:153",
-    "PA House District:152"
-  ],
-  "Police Department:Montgomery - Plymouth": [
-    "PA House District:148",
-    "PA House District:70"
-  ],
-  "Police Department:Montgomery - Lower Gwynedd": [
-    "PA House District:61",
-    "PA House District:151"
-  ],
-  "PA House District:61": [
-    "Police Department:Montgomery - Lower Gwynedd",
-    "Police Department:Montgomery - Whitpain",
-    "Police Department:Montgomery - Upper Gwynedd",
-    "Police Department:Montgomery - Towamencin"
-  ],
-  "Police Department:Montgomery - Whitpain": [
-    "PA House District:61"
-  ],
-  "Police Department:Montgomery - Montgomery": [
-    "PA House District:151"
-  ],
-  "Police Department:Montgomery - East Norriton": [
-    "PA House District:70"
-  ],
-  "Police Department:Montgomery - Upper Gwynedd": [
-    "PA House District:61"
-  ],
-  "Police Department:Montgomery - Norristown": [
-    "PA House District:70"
-  ],
-  "Police Department:Montgomery - Lansdale": [
-    "PA House District:53"
-  ],
-  "Police Department:Montgomery - Hatfield": [
-    "PA House District:53"
-  ],
-  "Police Department:Montgomery - Upper Merion": [
-    "PA House District:149"
-  ],
-  "Police Department:Montgomery - Valley Nationl Park Rangers": [
-    "PA House District:149"
-  ],
-  "Police Department:Montgomery - Towamencin": [
-    "PA House District:61"
-  ],
-  "Police Department:Montgomery - Lower Salford": [
-    "PA House District:147"
-  ],
-  "Police Department:Montgomery - West Norriton": [
-    "PA House District:149",
-    "PA House District:150"
-  ],
-  "Police Department:Montgomery - Franconia": [
-    "PA House District:53"
-  ],
-  "Police Department:Montgomery - Lower Providence": [
-    "PA House District:150"
-  ],
-  "Police Department:Montgomery - Upper Providence": [
-    "PA House District:157",
-    "PA House District:150"
-  ],
-  "PA House District:157": [
-    "Police Department:Montgomery - Upper Providence",
-    "Police Department:Chester - Tredyffrin Township",
-    "Police Department:Chester - Schuylkill Township"
-  ],
-  "Police Department:Montgomery - Lower Frederick": [
-    "PA House District:147"
-  ],
-  "Police Department:Montgomery - Marlborough": [
-    "PA House District:147"
-  ],
-  "Police Department:Montgomery - Limerick": [
-    "PA House District:146"
-  ],
-  "Police Department:Montgomery - Lower Pottsgrove": [
-    "PA House District:146"
-  ],
-  "Police Department:Montgomery - New Hanover": [
-    "PA House District:147"
-  ],
-  "Police Department:Montgomery - Douglass": [
-    "PA House District:147"
-  ],
-  "Police Department:Montgomery - Pottstown": [
-    "PA House District:146"
-  ],
-  "Police Department:Chester - PA State Police Avondale": [
-    "PA House District:13",
-    "PA House District:158",
-    "PA House District:160"
-  ],
-  "PA House District:13": [
-    "Police Department:Chester - PA State Police Avondale",
-    "Police Department:Chester - West Fallowfield Township",
-    "Police Department:Chester - Highland Township",
-    "Police Department:Chester - West Nottingham Township"
-  ],
-  "PA House District:158": [
-    "Police Department:Chester - PA State Police Avondale",
-    "Police Department:Chester - PA State Police Embreeville",
-    "Police Department:Chester - East Marlborough Township",
-    "Police Department:Chester - Southern Chester County Regional Police",
-    "Police Department:Chester - West Chester Borough"
-  ],
-  "PA House District:160": [
-    "Police Department:Chester - PA State Police Avondale",
-    "Police Department:Chester - Kennett Township",
-    "Police Department:Delaware - Bethel",
-    "Police Department:Delaware - Upper Chichester",
-    "Police Department:Delaware - PSP MEDIA STATION"
-  ],
-  "Police Department:Chester - West Vincent Township": [
-    "PA House District:155"
-  ],
-  "PA House District:155": [
-    "Police Department:Chester - West Vincent Township",
-    "Police Department:Chester - Upper Uwchlan Township",
-    "Police Department:Chester - Uwchlan Township",
-    "Police Department:Chester - East Brandywine",
-    "Police Department:Chester - West Brandywine Township",
-    "Police Department:Chester - East Pikeland Township"
-  ],
-  "Police Department:Chester - Tredyffrin Township": [
-    "PA House District:157"
-  ],
-  "Police Department:Chester - PA State Police Embreeville": [
-    "PA House District:167",
-    "PA House District:26",
-    "PA House District:158"
-  ],
-  "PA House District:167": [
-    "Police Department:Chester - PA State Police Embreeville",
-    "Police Department:Chester - Easttown Township",
-    "Police Department:Chester - West Pikeland Township",
-    "Police Department:Chester - East Whiteland Township",
-    "Police Department:Chester - Willistown Township",
-    "Police Department:Chester - West Whiteland Township"
-  ],
-  "PA House District:26": [
-    "Police Department:Chester - PA State Police Embreeville",
-    "Police Department:Chester - West Sadsbury Township",
-    "Police Department:Chester - West Caln Township",
-    "Police Department:Chester - West Brandywine Township",
-    "Police Department:Chester - North Coventry Township",
-    "Police Department:Chester - East Coventry Township",
-    "Police Department:Chester - East Vincent Township"
-  ],
-  "Police Department:Chester - West Fallowfield Township": [
-    "PA House District:13"
-  ],
-  "Police Department:Chester - Highland Township": [
-    "PA House District:13"
-  ],
-  "Police Department:Chester - Easttown Township": [
-    "PA House District:167"
-  ],
-  "Police Department:Chester - Kennett Township": [
-    "PA House District:160"
-  ],
-  "Police Department:Chester - East Marlborough Township": [
-    "PA House District:158"
-  ],
-  "Police Department:Chester - Upper Uwchlan Township": [
-    "PA House District:155"
-  ],
-  "Police Department:Chester - West Pikeland Township": [
-    "PA House District:167"
-  ],
-  "Police Department:Chester - Uwchlan Township": [
-    "PA House District:155"
-  ],
-  "Police Department:Chester - East Brandywine": [
-    "PA House District:155"
-  ],
-  "Police Department:Chester - West Sadsbury Township": [
-    "PA House District:26"
-  ],
-  "Police Department:Chester - Birmingham Township": [
-    "PA House District:156"
-  ],
-  "PA House District:156": [
-    "Police Department:Chester - Birmingham Township",
-    "Police Department:Chester - Westtown/E Goshen",
-    "Police Department:Chester - West Goshen Township"
-  ],
-  "Police Department:Chester - East Whiteland Township": [
-    "PA House District:167"
-  ],
-  "Police Department:Chester - Sadsbury Township": [
-    "PA House District:74"
-  ],
-  "PA House District:74": [
-    "Police Department:Chester - Sadsbury Township",
-    "Police Department:Chester - Caln Township",
-    "Police Department:Chester - Valley Township",
-    "Police Department:Chester - East Fallowfield Township"
-  ],
-  "Police Department:Chester - Caln Township": [
-    "PA House District:74"
-  ],
-  "Police Department:Chester - Valley Township": [
-    "PA House District:74"
-  ],
-  "Police Department:Chester - West Caln Township": [
-    "PA House District:26"
-  ],
-  "Police Department:Chester - Southern Chester County Regional Police": [
-    "PA House District:158"
-  ],
-  "Police Department:Chester - West Nottingham Township": [
-    "PA House District:13"
-  ],
-  "Police Department:Chester - West Brandywine Township": [
-    "PA House District:155",
-    "PA House District:26"
-  ],
-  "Police Department:Chester - Schuylkill Township": [
-    "PA House District:157"
-  ],
-  "Police Department:Chester - North Coventry Township": [
-    "PA House District:26"
-  ],
-  "Police Department:Chester - East Fallowfield Township": [
-    "PA House District:74"
-  ],
-  "Police Department:Chester - East Coventry Township": [
-    "PA House District:26"
-  ],
-  "Police Department:Chester - East Vincent Township": [
-    "PA House District:26"
-  ],
-  "Police Department:Chester - Westtown/E Goshen": [
-    "PA House District:156"
-  ],
-  "Police Department:Chester - West Goshen Township": [
-    "PA House District:156"
-  ],
-  "Police Department:Chester - West Chester Borough": [
-    "PA House District:158"
-  ],
-  "Police Department:Chester - East Pikeland Township": [
-    "PA House District:155"
-  ],
-  "Police Department:Chester - Willistown Township": [
-    "PA House District:167"
-  ],
-  "Police Department:Chester - West Whiteland Township": [
-    "PA House District:167"
-  ],
   "Police Department:Bucks - Bristol Borough Police": [
     "PA House District:140"
   ],
   "PA House District:140": [
     "Police Department:Bucks - Bristol Borough Police",
-    "Police Department:Bucks - Tullytown Borough Police",
-    "Police Department:Bucks - Falls  Police"
-  ],
-  "Police Department:Bucks - Tullytown Borough Police": [
-    "PA House District:140"
+    "Police Department:Bucks - Falls  Police",
+    "Police Department:Bucks - Tullytown Borough Police"
   ],
   "Police Department:Bucks - Bristol  Police": [
     "PA House District:141"
@@ -382,65 +14,13 @@
     "Police Department:Bucks - Bristol  Police",
     "Police Department:Bucks - Middletown  Police"
   ],
-  "Police Department:Bucks - Lower Southampton  Police": [
-    "PA House District:142"
-  ],
-  "PA House District:142": [
-    "Police Department:Bucks - Lower Southampton  Police",
-    "Police Department:Bucks - Upper Southampton  Police",
-    "Police Department:Bucks - Middletown  Police"
-  ],
-  "Police Department:Bucks - Upper Southampton  Police": [
-    "PA House District:142"
-  ],
-  "Police Department:Bucks - Warminster  Police": [
+  "Police Department:Bucks - Buckingham  Police": [
     "PA House District:29"
   ],
   "PA House District:29": [
+    "Police Department:Bucks - Buckingham  Police",
     "Police Department:Bucks - Warminster  Police",
-    "Police Department:Bucks - Warwick  Police",
-    "Police Department:Bucks - Buckingham  Police"
-  ],
-  "Police Department:Bucks - Falls  Police": [
-    "PA House District:140"
-  ],
-  "Police Department:Bucks - Middletown  Police": [
-    "PA House District:142",
-    "PA House District:141"
-  ],
-  "Police Department:Bucks - Newtown  Police": [
-    "PA House District:178",
-    "PA House District:31"
-  ],
-  "PA House District:178": [
-    "Police Department:Bucks - Newtown  Police",
-    "Police Department:Bucks - Northampton  Police",
-    "Police Department:Bucks - Upper Makefield  Police",
-    "Police Department:Bucks - Solebury  Police"
-  ],
-  "PA House District:31": [
-    "Police Department:Bucks - Newtown  Police",
-    "Police Department:Bucks - Lower Makefield  Police"
-  ],
-  "Police Department:Bucks - Northampton  Police": [
-    "PA House District:178"
-  ],
-  "Police Department:Bucks - Lower Makefield  Police": [
-    "PA House District:31"
-  ],
-  "Police Department:Bucks - Warrington  Police": [
-    "PA House District:144"
-  ],
-  "PA House District:144": [
-    "Police Department:Bucks - Warrington  Police",
-    "Police Department:Bucks - Hilltown  Police",
-    "Police Department:Bucks - New Britain  Police"
-  ],
-  "Police Department:Bucks - Warwick  Police": [
-    "PA House District:29"
-  ],
-  "Police Department:Bucks - Upper Makefield  Police": [
-    "PA House District:178"
+    "Police Department:Bucks - Warwick  Police"
   ],
   "Police Department:Bucks - Doylestown  Police": [
     "PA House District:143"
@@ -451,31 +31,51 @@
     "Police Department:Bucks - Plumstead  Police",
     "Police Department:Bucks - Tinicum  Police"
   ],
-  "Police Department:Bucks - Pennridge Regional Police": [
-    "PA House District:145"
-  ],
-  "PA House District:145": [
-    "Police Department:Bucks - Pennridge Regional Police",
-    "Police Department:Bucks - PA State Police (Dublin)"
+  "Police Department:Bucks - Falls  Police": [
+    "PA House District:140"
   ],
   "Police Department:Bucks - Hilltown  Police": [
     "PA House District:144"
   ],
-  "Police Department:Bucks - Buckingham  Police": [
-    "PA House District:29"
+  "PA House District:144": [
+    "Police Department:Bucks - Hilltown  Police",
+    "Police Department:Bucks - New Britain  Police",
+    "Police Department:Bucks - Warrington  Police"
   ],
-  "Police Department:Bucks - PA State Police (Dublin)": [
-    "PA House District:143",
-    "PA House District:145"
+  "Police Department:Bucks - Lower Makefield  Police": [
+    "PA House District:31"
   ],
-  "Police Department:Bucks - Solebury  Police": [
+  "PA House District:31": [
+    "Police Department:Bucks - Lower Makefield  Police",
+    "Police Department:Bucks - Newtown  Police"
+  ],
+  "Police Department:Bucks - Lower Southampton  Police": [
+    "PA House District:142"
+  ],
+  "PA House District:142": [
+    "Police Department:Bucks - Lower Southampton  Police",
+    "Police Department:Bucks - Middletown  Police",
+    "Police Department:Bucks - Upper Southampton  Police"
+  ],
+  "Police Department:Bucks - Middletown  Police": [
+    "PA House District:141",
+    "PA House District:142"
+  ],
+  "Police Department:Bucks - New Britain  Police": [
+    "PA House District:144"
+  ],
+  "Police Department:Bucks - Newtown  Police": [
+    "PA House District:31",
     "PA House District:178"
   ],
-  "Police Department:Bucks - Plumstead  Police": [
-    "PA House District:143"
+  "PA House District:178": [
+    "Police Department:Bucks - Newtown  Police",
+    "Police Department:Bucks - Northampton  Police",
+    "Police Department:Bucks - Solebury  Police",
+    "Police Department:Bucks - Upper Makefield  Police"
   ],
-  "Police Department:Bucks - Tinicum  Police": [
-    "PA House District:143"
+  "Police Department:Bucks - Northampton  Police": [
+    "PA House District:178"
   ],
   "Police Department:Bucks - PA State Police (Bensalem)": [
     "PA House District:18"
@@ -483,88 +83,211 @@
   "PA House District:18": [
     "Police Department:Bucks - PA State Police (Bensalem)"
   ],
-  "Police Department:Bucks - New Britain  Police": [
+  "Police Department:Bucks - PA State Police (Dublin)": [
+    "PA House District:143",
+    "PA House District:145"
+  ],
+  "PA House District:145": [
+    "Police Department:Bucks - PA State Police (Dublin)",
+    "Police Department:Bucks - Pennridge Regional Police"
+  ],
+  "Police Department:Bucks - Pennridge Regional Police": [
+    "PA House District:145"
+  ],
+  "Police Department:Bucks - Plumstead  Police": [
+    "PA House District:143"
+  ],
+  "Police Department:Bucks - Solebury  Police": [
+    "PA House District:178"
+  ],
+  "Police Department:Bucks - Tinicum  Police": [
+    "PA House District:143"
+  ],
+  "Police Department:Bucks - Tullytown Borough Police": [
+    "PA House District:140"
+  ],
+  "Police Department:Bucks - Upper Makefield  Police": [
+    "PA House District:178"
+  ],
+  "Police Department:Bucks - Upper Southampton  Police": [
+    "PA House District:142"
+  ],
+  "Police Department:Bucks - Warminster  Police": [
+    "PA House District:29"
+  ],
+  "Police Department:Bucks - Warrington  Police": [
     "PA House District:144"
   ],
-  "Police Department:Delaware - Brookhaven": [
-    "PA House District:161"
+  "Police Department:Bucks - Warwick  Police": [
+    "PA House District:29"
   ],
-  "PA House District:161": [
-    "Police Department:Delaware - Brookhaven",
-    "Police Department:Delaware - Aston",
-    "Police Department:Delaware - Swarthmore",
-    "Police Department:Delaware - Nether Providence",
-    "Police Department:Delaware - Ridley"
+  "Police Department:Chester - Birmingham Township": [
+    "PA House District:156"
   ],
-  "Police Department:Delaware - Chester": [
-    "PA House District:159"
+  "PA House District:156": [
+    "Police Department:Chester - Birmingham Township",
+    "Police Department:Chester - West Goshen Township",
+    "Police Department:Chester - Westtown/E Goshen"
   ],
-  "PA House District:159": [
-    "Police Department:Delaware - Chester",
-    "Police Department:Delaware - Upper Chichester",
-    "Police Department:Delaware - Marcus Hook",
-    "Police Department:Delaware - Trainer",
-    "Police Department:Delaware - Lower Chichester",
-    "Police Department:Delaware - Chester City",
-    "Police Department:Delaware - Eddystone"
+  "Police Department:Chester - Caln Township": [
+    "PA House District:74"
   ],
-  "Police Department:Delaware - Aston": [
-    "PA House District:161"
+  "PA House District:74": [
+    "Police Department:Chester - Caln Township",
+    "Police Department:Chester - East Fallowfield Township",
+    "Police Department:Chester - Sadsbury Township",
+    "Police Department:Chester - Valley Township"
   ],
-  "Police Department:Delaware - Bethel": [
+  "Police Department:Chester - East Brandywine": [
+    "PA House District:155"
+  ],
+  "PA House District:155": [
+    "Police Department:Chester - East Brandywine",
+    "Police Department:Chester - East Pikeland Township",
+    "Police Department:Chester - Upper Uwchlan Township",
+    "Police Department:Chester - Uwchlan Township",
+    "Police Department:Chester - West Brandywine Township",
+    "Police Department:Chester - West Vincent Township"
+  ],
+  "Police Department:Chester - East Coventry Township": [
+    "PA House District:26"
+  ],
+  "PA House District:26": [
+    "Police Department:Chester - East Coventry Township",
+    "Police Department:Chester - East Vincent Township",
+    "Police Department:Chester - North Coventry Township",
+    "Police Department:Chester - PA State Police Embreeville",
+    "Police Department:Chester - West Brandywine Township",
+    "Police Department:Chester - West Caln Township",
+    "Police Department:Chester - West Sadsbury Township"
+  ],
+  "Police Department:Chester - East Fallowfield Township": [
+    "PA House District:74"
+  ],
+  "Police Department:Chester - East Marlborough Township": [
+    "PA House District:158"
+  ],
+  "PA House District:158": [
+    "Police Department:Chester - East Marlborough Township",
+    "Police Department:Chester - PA State Police Avondale",
+    "Police Department:Chester - PA State Police Embreeville",
+    "Police Department:Chester - Southern Chester County Regional Police",
+    "Police Department:Chester - West Chester Borough"
+  ],
+  "Police Department:Chester - East Pikeland Township": [
+    "PA House District:155"
+  ],
+  "Police Department:Chester - East Vincent Township": [
+    "PA House District:26"
+  ],
+  "Police Department:Chester - East Whiteland Township": [
+    "PA House District:167"
+  ],
+  "PA House District:167": [
+    "Police Department:Chester - East Whiteland Township",
+    "Police Department:Chester - Easttown Township",
+    "Police Department:Chester - PA State Police Embreeville",
+    "Police Department:Chester - West Pikeland Township",
+    "Police Department:Chester - West Whiteland Township",
+    "Police Department:Chester - Willistown Township"
+  ],
+  "Police Department:Chester - Easttown Township": [
+    "PA House District:167"
+  ],
+  "Police Department:Chester - Highland Township": [
+    "PA House District:13"
+  ],
+  "PA House District:13": [
+    "Police Department:Chester - Highland Township",
+    "Police Department:Chester - PA State Police Avondale",
+    "Police Department:Chester - West Fallowfield Township",
+    "Police Department:Chester - West Nottingham Township"
+  ],
+  "Police Department:Chester - Kennett Township": [
     "PA House District:160"
   ],
-  "Police Department:Delaware - Upper Chichester": [
-    "PA House District:160",
-    "PA House District:159"
+  "PA House District:160": [
+    "Police Department:Chester - Kennett Township",
+    "Police Department:Chester - PA State Police Avondale",
+    "Police Department:Delaware - Bethel",
+    "Police Department:Delaware - PSP MEDIA STATION",
+    "Police Department:Delaware - Upper Chichester"
   ],
-  "Police Department:Delaware - Marcus Hook": [
-    "PA House District:159"
+  "Police Department:Chester - North Coventry Township": [
+    "PA House District:26"
   ],
-  "Police Department:Delaware - Trainer": [
-    "PA House District:159"
+  "Police Department:Chester - PA State Police Avondale": [
+    "PA House District:13",
+    "PA House District:158",
+    "PA House District:160"
   ],
-  "Police Department:Delaware - Lower Chichester": [
-    "PA House District:159"
+  "Police Department:Chester - PA State Police Embreeville": [
+    "PA House District:26",
+    "PA House District:158",
+    "PA House District:167"
   ],
-  "Police Department:Delaware - Newtown": [
-    "PA House District:168"
+  "Police Department:Chester - Sadsbury Township": [
+    "PA House District:74"
   ],
-  "PA House District:168": [
-    "Police Department:Delaware - Newtown",
-    "Police Department:Delaware - Upper Providence",
-    "Police Department:Delaware - PSP MEDIA STATION"
+  "Police Department:Chester - Schuylkill Township": [
+    "PA House District:157"
   ],
-  "Police Department:Delaware - Marple": [
-    "PA House District:165"
+  "PA House District:157": [
+    "Police Department:Chester - Schuylkill Township",
+    "Police Department:Chester - Tredyffrin Township",
+    "Police Department:Montgomery - Upper Providence"
   ],
-  "PA House District:165": [
-    "Police Department:Delaware - Marple",
-    "Police Department:Delaware - Springfield",
-    "Police Department:Delaware - Radnor"
+  "Police Department:Chester - Southern Chester County Regional Police": [
+    "PA House District:158"
   ],
-  "Police Department:Delaware - Upper Providence": [
-    "PA House District:168"
+  "Police Department:Chester - Tredyffrin Township": [
+    "PA House District:157"
   ],
-  "Police Department:Delaware - Springfield": [
-    "PA House District:165"
+  "Police Department:Chester - Upper Uwchlan Township": [
+    "PA House District:155"
   ],
-  "Police Department:Delaware - Swarthmore": [
-    "PA House District:161"
+  "Police Department:Chester - Uwchlan Township": [
+    "PA House District:155"
   ],
-  "Police Department:Delaware - Nether Providence": [
-    "PA House District:161"
+  "Police Department:Chester - Valley Township": [
+    "PA House District:74"
   ],
-  "Police Department:Delaware - Chester City": [
-    "PA House District:159"
+  "Police Department:Chester - West Brandywine Township": [
+    "PA House District:26",
+    "PA House District:155"
   ],
-  "Police Department:Delaware - Lansdowne": [
-    "PA House District:164"
+  "Police Department:Chester - West Caln Township": [
+    "PA House District:26"
   ],
-  "PA House District:164": [
-    "Police Department:Delaware - Lansdowne",
-    "Police Department:Delaware - Yeadon",
-    "Police Department:Delaware - Upper Darby"
+  "Police Department:Chester - West Chester Borough": [
+    "PA House District:158"
+  ],
+  "Police Department:Chester - West Fallowfield Township": [
+    "PA House District:13"
+  ],
+  "Police Department:Chester - West Goshen Township": [
+    "PA House District:156"
+  ],
+  "Police Department:Chester - West Nottingham Township": [
+    "PA House District:13"
+  ],
+  "Police Department:Chester - West Pikeland Township": [
+    "PA House District:167"
+  ],
+  "Police Department:Chester - West Sadsbury Township": [
+    "PA House District:26"
+  ],
+  "Police Department:Chester - West Vincent Township": [
+    "PA House District:155"
+  ],
+  "Police Department:Chester - West Whiteland Township": [
+    "PA House District:167"
+  ],
+  "Police Department:Chester - Westtown/E Goshen": [
+    "PA House District:156"
+  ],
+  "Police Department:Chester - Willistown Township": [
+    "PA House District:167"
   ],
   "Police Department:Delaware - Aldan": [
     "PA House District:163"
@@ -572,48 +295,64 @@
   "PA House District:163": [
     "Police Department:Delaware - Aldan",
     "Police Department:Delaware - Clifton Heights",
-    "Police Department:Delaware - Upper Darby",
-    "Police Department:Delaware - Haverford"
+    "Police Department:Delaware - Haverford",
+    "Police Department:Delaware - Upper Darby"
+  ],
+  "Police Department:Delaware - Aston": [
+    "PA House District:161"
+  ],
+  "PA House District:161": [
+    "Police Department:Delaware - Aston",
+    "Police Department:Delaware - Brookhaven",
+    "Police Department:Delaware - Nether Providence",
+    "Police Department:Delaware - Ridley",
+    "Police Department:Delaware - Swarthmore"
+  ],
+  "Police Department:Delaware - Bethel": [
+    "PA House District:160"
+  ],
+  "Police Department:Delaware - Brookhaven": [
+    "PA House District:161"
+  ],
+  "Police Department:Delaware - Chester": [
+    "PA House District:159"
+  ],
+  "PA House District:159": [
+    "Police Department:Delaware - Chester",
+    "Police Department:Delaware - Chester City",
+    "Police Department:Delaware - Eddystone",
+    "Police Department:Delaware - Lower Chichester",
+    "Police Department:Delaware - Marcus Hook",
+    "Police Department:Delaware - Trainer",
+    "Police Department:Delaware - Upper Chichester"
+  ],
+  "Police Department:Delaware - Chester City": [
+    "PA House District:159"
   ],
   "Police Department:Delaware - Clifton Heights": [
     "PA House District:163"
   ],
-  "Police Department:Delaware - Yeadon": [
-    "PA House District:191",
-    "PA House District:164"
-  ],
-  "PA House District:191": [
-    "Police Department:Delaware - Yeadon",
-    "Police Department:Delaware - Darby"
-  ],
   "Police Department:Delaware - Darby": [
     "PA House District:191"
+  ],
+  "PA House District:191": [
+    "Police Department:Delaware - Darby",
+    "Police Department:Delaware - Yeadon"
+  ],
+  "Police Department:Delaware - Eddystone": [
+    "PA House District:159"
   ],
   "Police Department:Delaware - Folcroft": [
     "PA House District:162"
   ],
   "PA House District:162": [
     "Police Department:Delaware - Folcroft",
-    "Police Department:Delaware - Ridley",
     "Police Department:Delaware - Glenolden",
+    "Police Department:Delaware - Ridley",
     "Police Department:Delaware - Ridley Park"
-  ],
-  "Police Department:Delaware - Eddystone": [
-    "PA House District:159"
-  ],
-  "Police Department:Delaware - Ridley": [
-    "PA House District:162",
-    "PA House District:161"
   ],
   "Police Department:Delaware - Glenolden": [
     "PA House District:162"
-  ],
-  "Police Department:Delaware - Ridley Park": [
-    "PA House District:162"
-  ],
-  "Police Department:Delaware - Upper Darby": [
-    "PA House District:163",
-    "PA House District:164"
   ],
   "Police Department:Delaware - Haverford": [
     "PA House District:163",
@@ -623,12 +362,273 @@
     "Police Department:Delaware - Haverford",
     "Police Department:Delaware - Radnor"
   ],
-  "Police Department:Delaware - Radnor": [
-    "PA House District:166",
+  "Police Department:Delaware - Lansdowne": [
+    "PA House District:164"
+  ],
+  "PA House District:164": [
+    "Police Department:Delaware - Lansdowne",
+    "Police Department:Delaware - Upper Darby",
+    "Police Department:Delaware - Yeadon"
+  ],
+  "Police Department:Delaware - Lower Chichester": [
+    "PA House District:159"
+  ],
+  "Police Department:Delaware - Marcus Hook": [
+    "PA House District:159"
+  ],
+  "Police Department:Delaware - Marple": [
     "PA House District:165"
   ],
+  "PA House District:165": [
+    "Police Department:Delaware - Marple",
+    "Police Department:Delaware - Radnor",
+    "Police Department:Delaware - Springfield"
+  ],
+  "Police Department:Delaware - Nether Providence": [
+    "PA House District:161"
+  ],
+  "Police Department:Delaware - Newtown": [
+    "PA House District:168"
+  ],
+  "PA House District:168": [
+    "Police Department:Delaware - Newtown",
+    "Police Department:Delaware - PSP MEDIA STATION",
+    "Police Department:Delaware - Upper Providence"
+  ],
   "Police Department:Delaware - PSP MEDIA STATION": [
-    "PA House District:168",
+    "PA House District:160",
+    "PA House District:168"
+  ],
+  "Police Department:Delaware - Radnor": [
+    "PA House District:165",
+    "PA House District:166"
+  ],
+  "Police Department:Delaware - Ridley": [
+    "PA House District:161",
+    "PA House District:162"
+  ],
+  "Police Department:Delaware - Ridley Park": [
+    "PA House District:162"
+  ],
+  "Police Department:Delaware - Springfield": [
+    "PA House District:165"
+  ],
+  "Police Department:Delaware - Swarthmore": [
+    "PA House District:161"
+  ],
+  "Police Department:Delaware - Trainer": [
+    "PA House District:159"
+  ],
+  "Police Department:Delaware - Upper Chichester": [
+    "PA House District:159",
     "PA House District:160"
+  ],
+  "Police Department:Delaware - Upper Darby": [
+    "PA House District:163",
+    "PA House District:164"
+  ],
+  "Police Department:Delaware - Upper Providence": [
+    "PA House District:168"
+  ],
+  "Police Department:Delaware - Yeadon": [
+    "PA House District:164",
+    "PA House District:191"
+  ],
+  "Police Department:Montgomery - Abington": [
+    "PA House District:153"
+  ],
+  "PA House District:153": [
+    "Police Department:Montgomery - Abington",
+    "Police Department:Montgomery - Upper Dublin"
+  ],
+  "Police Department:Montgomery - Bryn Athyn": [
+    "PA House District:152"
+  ],
+  "PA House District:152": [
+    "Police Department:Montgomery - Bryn Athyn",
+    "Police Department:Montgomery - Hatboro",
+    "Police Department:Montgomery - Lower Moreland",
+    "Police Department:Montgomery - Upper Dublin",
+    "Police Department:Montgomery - Upper Moreland"
+  ],
+  "Police Department:Montgomery - Cheltenham": [
+    "PA House District:154"
+  ],
+  "PA House District:154": [
+    "Police Department:Montgomery - Cheltenham",
+    "Police Department:Montgomery - Springfield"
+  ],
+  "Police Department:Montgomery - Douglass": [
+    "PA House District:147"
+  ],
+  "PA House District:147": [
+    "Police Department:Montgomery - Douglass",
+    "Police Department:Montgomery - Lower Frederick",
+    "Police Department:Montgomery - Lower Salford",
+    "Police Department:Montgomery - Marlborough",
+    "Police Department:Montgomery - New Hanover",
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  ],
+  "Police Department:Montgomery - East Norriton": [
+    "PA House District:70"
+  ],
+  "PA House District:70": [
+    "Police Department:Montgomery - East Norriton",
+    "Police Department:Montgomery - Norristown",
+    "Police Department:Montgomery - Plymouth",
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  ],
+  "Police Department:Montgomery - Franconia": [
+    "PA House District:53"
+  ],
+  "PA House District:53": [
+    "Police Department:Montgomery - Franconia",
+    "Police Department:Montgomery - Hatfield",
+    "Police Department:Montgomery - Lansdale",
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  ],
+  "Police Department:Montgomery - Hatboro": [
+    "PA House District:152"
+  ],
+  "Police Department:Montgomery - Hatfield": [
+    "PA House District:53"
+  ],
+  "Police Department:Montgomery - Horsham": [
+    "PA House District:151"
+  ],
+  "PA House District:151": [
+    "Police Department:Montgomery - Horsham",
+    "Police Department:Montgomery - Lower Gwynedd",
+    "Police Department:Montgomery - Montgomery",
+    "Police Department:Montgomery - Upper Dublin"
+  ],
+  "Police Department:Montgomery - Lansdale": [
+    "PA House District:53"
+  ],
+  "Police Department:Montgomery - Limerick": [
+    "PA House District:146"
+  ],
+  "PA House District:146": [
+    "Police Department:Montgomery - Limerick",
+    "Police Department:Montgomery - Lower Pottsgrove",
+    "Police Department:Montgomery - Pottstown",
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  ],
+  "Police Department:Montgomery - Lower Frederick": [
+    "PA House District:147"
+  ],
+  "Police Department:Montgomery - Lower Gwynedd": [
+    "PA House District:61",
+    "PA House District:151"
+  ],
+  "PA House District:61": [
+    "Police Department:Montgomery - Lower Gwynedd",
+    "Police Department:Montgomery - Towamencin",
+    "Police Department:Montgomery - Upper Gwynedd",
+    "Police Department:Montgomery - Whitpain"
+  ],
+  "Police Department:Montgomery - Lower Merion": [
+    "PA House District:148",
+    "PA House District:149",
+    "PA House District:194"
+  ],
+  "PA House District:148": [
+    "Police Department:Montgomery - Lower Merion",
+    "Police Department:Montgomery - Plymouth",
+    "Police Department:Montgomery - Whitemarsh"
+  ],
+  "PA House District:149": [
+    "Police Department:Montgomery - Lower Merion",
+    "Police Department:Montgomery - Upper Merion",
+    "Police Department:Montgomery - Valley Nationl Park Rangers",
+    "Police Department:Montgomery - West Norriton"
+  ],
+  "PA House District:194": [
+    "Police Department:Montgomery - Lower Merion"
+  ],
+  "Police Department:Montgomery - Lower Moreland": [
+    "PA House District:152"
+  ],
+  "Police Department:Montgomery - Lower Pottsgrove": [
+    "PA House District:146"
+  ],
+  "Police Department:Montgomery - Lower Providence": [
+    "PA House District:150"
+  ],
+  "PA House District:150": [
+    "Police Department:Montgomery - Lower Providence",
+    "Police Department:Montgomery - State Police - Troop K - Skippack",
+    "Police Department:Montgomery - Upper Providence",
+    "Police Department:Montgomery - West Norriton"
+  ],
+  "Police Department:Montgomery - Lower Salford": [
+    "PA House District:147"
+  ],
+  "Police Department:Montgomery - Marlborough": [
+    "PA House District:147"
+  ],
+  "Police Department:Montgomery - Montgomery": [
+    "PA House District:151"
+  ],
+  "Police Department:Montgomery - New Hanover": [
+    "PA House District:147"
+  ],
+  "Police Department:Montgomery - Norristown": [
+    "PA House District:70"
+  ],
+  "Police Department:Montgomery - Plymouth": [
+    "PA House District:70",
+    "PA House District:148"
+  ],
+  "Police Department:Montgomery - Pottstown": [
+    "PA House District:146"
+  ],
+  "Police Department:Montgomery - Springfield": [
+    "PA House District:154"
+  ],
+  "Police Department:Montgomery - State Police - Troop K - Skippack": [
+    "PA House District:53",
+    "PA House District:70",
+    "PA House District:131",
+    "PA House District:146",
+    "PA House District:147",
+    "PA House District:150"
+  ],
+  "PA House District:131": [
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
+  ],
+  "Police Department:Montgomery - Towamencin": [
+    "PA House District:61"
+  ],
+  "Police Department:Montgomery - Upper Dublin": [
+    "PA House District:151",
+    "PA House District:152",
+    "PA House District:153"
+  ],
+  "Police Department:Montgomery - Upper Gwynedd": [
+    "PA House District:61"
+  ],
+  "Police Department:Montgomery - Upper Merion": [
+    "PA House District:149"
+  ],
+  "Police Department:Montgomery - Upper Moreland": [
+    "PA House District:152"
+  ],
+  "Police Department:Montgomery - Upper Providence": [
+    "PA House District:150",
+    "PA House District:157"
+  ],
+  "Police Department:Montgomery - Valley Nationl Park Rangers": [
+    "PA House District:149"
+  ],
+  "Police Department:Montgomery - West Norriton": [
+    "PA House District:149",
+    "PA House District:150"
+  ],
+  "Police Department:Montgomery - Whitemarsh": [
+    "PA House District:148"
+  ],
+  "Police Department:Montgomery - Whitpain": [
+    "PA House District:61"
   ]
 }

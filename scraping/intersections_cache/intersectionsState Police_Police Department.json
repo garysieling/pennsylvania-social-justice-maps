@@ -6,13 +6,13 @@
     "State Police:J"
   ],
   "State Police:K": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack",
-    "Police Department:Delaware - PSP MEDIA STATION"
-  ],
-  "Police Department:Montgomery - State Police - Troop K - Skippack": [
-    "State Police:K"
+    "Police Department:Delaware - PSP MEDIA STATION",
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
   ],
   "Police Department:Delaware - PSP MEDIA STATION": [
+    "State Police:K"
+  ],
+  "Police Department:Montgomery - State Police - Troop K - Skippack": [
     "State Police:K"
   ],
   "State Police:M": [

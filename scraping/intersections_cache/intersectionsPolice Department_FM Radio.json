@@ -1,141 +1,4 @@
 {
-  "Police Department:Montgomery - State Police - Troop K - Skippack": [
-    "FM Radio:WBYO",
-    "FM Radio:WBMR"
-  ],
-  "FM Radio:WBYO": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack",
-    "Police Department:Bucks - Pennridge Regional Police",
-    "Police Department:Bucks - Hilltown  Police",
-    "Police Department:Bucks - PA State Police (Dublin)"
-  ],
-  "FM Radio:WBMR": [
-    "Police Department:Montgomery - State Police - Troop K - Skippack",
-    "Police Department:Montgomery - Hatfield",
-    "Police Department:Montgomery - Towamencin",
-    "Police Department:Montgomery - Lower Salford",
-    "Police Department:Montgomery - Franconia",
-    "Police Department:Bucks - Pennridge Regional Police",
-    "Police Department:Bucks - Hilltown  Police",
-    "Police Department:Bucks - New Britain  Police"
-  ],
-  "Police Department:Montgomery - Abington": [
-    "FM Radio:WRDV"
-  ],
-  "FM Radio:WRDV": [
-    "Police Department:Montgomery - Abington",
-    "Police Department:Montgomery - Horsham",
-    "Police Department:Montgomery - Upper Dublin",
-    "Police Department:Bucks - Warminster  Police",
-    "Police Department:Bucks - Northampton  Police",
-    "Police Department:Bucks - Warrington  Police",
-    "Police Department:Bucks - Warwick  Police"
-  ],
-  "Police Department:Montgomery - Lower Merion": [
-    "FM Radio:WXVU",
-    "FM Radio:WHHS"
-  ],
-  "FM Radio:WXVU": [
-    "Police Department:Montgomery - Lower Merion",
-    "Police Department:Montgomery - Upper Merion",
-    "Police Department:Delaware - Marple",
-    "Police Department:Delaware - Haverford",
-    "Police Department:Delaware - Radnor"
-  ],
-  "FM Radio:WHHS": [
-    "Police Department:Montgomery - Lower Merion",
-    "Police Department:Delaware - Upper Darby",
-    "Police Department:Delaware - Haverford"
-  ],
-  "Police Department:Montgomery - Horsham": [
-    "FM Radio:WRDV"
-  ],
-  "Police Department:Montgomery - Upper Dublin": [
-    "FM Radio:WRDV"
-  ],
-  "Police Department:Montgomery - Hatfield": [
-    "FM Radio:WBMR"
-  ],
-  "Police Department:Montgomery - Upper Merion": [
-    "FM Radio:WXVU"
-  ],
-  "Police Department:Montgomery - Towamencin": [
-    "FM Radio:WBMR"
-  ],
-  "Police Department:Montgomery - Lower Salford": [
-    "FM Radio:WBMR"
-  ],
-  "Police Department:Montgomery - Franconia": [
-    "FM Radio:WBMR"
-  ],
-  "Police Department:Chester - PA State Police Avondale": [
-    "FM Radio:WZXE",
-    "FM Radio:WWLU",
-    "FM Radio:WZWG"
-  ],
-  "FM Radio:WZXE": [
-    "Police Department:Chester - PA State Police Avondale"
-  ],
-  "FM Radio:WWLU": [
-    "Police Department:Chester - PA State Police Avondale"
-  ],
-  "FM Radio:WZWG": [
-    "Police Department:Chester - PA State Police Avondale",
-    "Police Department:Chester - West Fallowfield Township"
-  ],
-  "Police Department:Chester - PA State Police Embreeville": [
-    "FM Radio:WZZD",
-    "FM Radio:WRTJ",
-    "FM Radio:WYTL"
-  ],
-  "FM Radio:WZZD": [
-    "Police Department:Chester - PA State Police Embreeville",
-    "Police Department:Chester - Upper Uwchlan Township",
-    "Police Department:Chester - West Brandywine Township"
-  ],
-  "FM Radio:WRTJ": [
-    "Police Department:Chester - PA State Police Embreeville",
-    "Police Department:Chester - West Caln Township",
-    "Police Department:Chester - West Brandywine Township",
-    "Police Department:Chester - East Fallowfield Township"
-  ],
-  "FM Radio:WYTL": [
-    "Police Department:Chester - PA State Police Embreeville"
-  ],
-  "Police Department:Chester - West Fallowfield Township": [
-    "FM Radio:WZWG"
-  ],
-  "Police Department:Chester - Upper Uwchlan Township": [
-    "FM Radio:WZZD"
-  ],
-  "Police Department:Chester - Birmingham Township": [
-    "FM Radio:WCUR"
-  ],
-  "FM Radio:WCUR": [
-    "Police Department:Chester - Birmingham Township",
-    "Police Department:Chester - Westtown/E Goshen",
-    "Police Department:Chester - West Goshen Township",
-    "Police Department:Chester - West Chester Borough"
-  ],
-  "Police Department:Chester - West Caln Township": [
-    "FM Radio:WRTJ"
-  ],
-  "Police Department:Chester - West Brandywine Township": [
-    "FM Radio:WZZD",
-    "FM Radio:WRTJ"
-  ],
-  "Police Department:Chester - East Fallowfield Township": [
-    "FM Radio:WRTJ"
-  ],
-  "Police Department:Chester - Westtown/E Goshen": [
-    "FM Radio:WCUR"
-  ],
-  "Police Department:Chester - West Goshen Township": [
-    "FM Radio:WCUR"
-  ],
-  "Police Department:Chester - West Chester Borough": [
-    "FM Radio:WCUR"
-  ],
   "Police Department:Bucks - Bristol  Police": [
     "FM Radio:WLBS"
   ],
@@ -144,35 +7,50 @@
     "Police Department:Bucks - Falls  Police",
     "Police Department:Bucks - Middletown  Police"
   ],
-  "Police Department:Bucks - Warminster  Police": [
-    "FM Radio:WRDV"
-  ],
   "Police Department:Bucks - Falls  Police": [
     "FM Radio:WLBS"
+  ],
+  "Police Department:Bucks - Hilltown  Police": [
+    "FM Radio:WBMR",
+    "FM Radio:WBYO"
+  ],
+  "FM Radio:WBMR": [
+    "Police Department:Bucks - Hilltown  Police",
+    "Police Department:Bucks - New Britain  Police",
+    "Police Department:Bucks - Pennridge Regional Police",
+    "Police Department:Montgomery - Franconia",
+    "Police Department:Montgomery - Hatfield",
+    "Police Department:Montgomery - Lower Salford",
+    "Police Department:Montgomery - State Police - Troop K - Skippack",
+    "Police Department:Montgomery - Towamencin"
+  ],
+  "FM Radio:WBYO": [
+    "Police Department:Bucks - Hilltown  Police",
+    "Police Department:Bucks - PA State Police (Dublin)",
+    "Police Department:Bucks - Pennridge Regional Police",
+    "Police Department:Montgomery - State Police - Troop K - Skippack"
   ],
   "Police Department:Bucks - Middletown  Police": [
     "FM Radio:WLBS"
   ],
+  "Police Department:Bucks - New Britain  Police": [
+    "FM Radio:WBMR"
+  ],
   "Police Department:Bucks - Northampton  Police": [
     "FM Radio:WRDV"
   ],
-  "Police Department:Bucks - Warrington  Police": [
-    "FM Radio:WRDV"
-  ],
-  "Police Department:Bucks - Warwick  Police": [
-    "FM Radio:WRDV"
-  ],
-  "Police Department:Bucks - Pennridge Regional Police": [
-    "FM Radio:WBYO",
-    "FM Radio:WBMR"
-  ],
-  "Police Department:Bucks - Hilltown  Police": [
-    "FM Radio:WBYO",
-    "FM Radio:WBMR"
+  "FM Radio:WRDV": [
+    "Police Department:Bucks - Northampton  Police",
+    "Police Department:Bucks - Warminster  Police",
+    "Police Department:Bucks - Warrington  Police",
+    "Police Department:Bucks - Warwick  Police",
+    "Police Department:Montgomery - Abington",
+    "Police Department:Montgomery - Horsham",
+    "Police Department:Montgomery - Upper Dublin"
   ],
   "Police Department:Bucks - PA State Police (Dublin)": [
-    "FM Radio:WDIY",
     "FM Radio:WBYO",
+    "FM Radio:WDIY",
     "FM Radio:WLVR-FM"
   ],
   "FM Radio:WDIY": [
@@ -181,21 +59,139 @@
   "FM Radio:WLVR-FM": [
     "Police Department:Bucks - PA State Police (Dublin)"
   ],
-  "Police Department:Bucks - New Britain  Police": [
-    "FM Radio:WBMR"
+  "Police Department:Bucks - Pennridge Regional Police": [
+    "FM Radio:WBMR",
+    "FM Radio:WBYO"
+  ],
+  "Police Department:Bucks - Warminster  Police": [
+    "FM Radio:WRDV"
+  ],
+  "Police Department:Bucks - Warrington  Police": [
+    "FM Radio:WRDV"
+  ],
+  "Police Department:Bucks - Warwick  Police": [
+    "FM Radio:WRDV"
+  ],
+  "Police Department:Chester - Birmingham Township": [
+    "FM Radio:WCUR"
+  ],
+  "FM Radio:WCUR": [
+    "Police Department:Chester - Birmingham Township",
+    "Police Department:Chester - West Chester Borough",
+    "Police Department:Chester - West Goshen Township",
+    "Police Department:Chester - Westtown/E Goshen"
+  ],
+  "Police Department:Chester - East Fallowfield Township": [
+    "FM Radio:WRTJ"
+  ],
+  "FM Radio:WRTJ": [
+    "Police Department:Chester - East Fallowfield Township",
+    "Police Department:Chester - PA State Police Embreeville",
+    "Police Department:Chester - West Brandywine Township",
+    "Police Department:Chester - West Caln Township"
+  ],
+  "Police Department:Chester - PA State Police Avondale": [
+    "FM Radio:WWLU",
+    "FM Radio:WZWG",
+    "FM Radio:WZXE"
+  ],
+  "FM Radio:WWLU": [
+    "Police Department:Chester - PA State Police Avondale"
+  ],
+  "FM Radio:WZWG": [
+    "Police Department:Chester - PA State Police Avondale",
+    "Police Department:Chester - West Fallowfield Township"
+  ],
+  "FM Radio:WZXE": [
+    "Police Department:Chester - PA State Police Avondale"
+  ],
+  "Police Department:Chester - PA State Police Embreeville": [
+    "FM Radio:WRTJ",
+    "FM Radio:WYTL",
+    "FM Radio:WZZD"
+  ],
+  "FM Radio:WYTL": [
+    "Police Department:Chester - PA State Police Embreeville"
+  ],
+  "FM Radio:WZZD": [
+    "Police Department:Chester - PA State Police Embreeville",
+    "Police Department:Chester - Upper Uwchlan Township",
+    "Police Department:Chester - West Brandywine Township"
+  ],
+  "Police Department:Chester - Upper Uwchlan Township": [
+    "FM Radio:WZZD"
+  ],
+  "Police Department:Chester - West Brandywine Township": [
+    "FM Radio:WRTJ",
+    "FM Radio:WZZD"
+  ],
+  "Police Department:Chester - West Caln Township": [
+    "FM Radio:WRTJ"
+  ],
+  "Police Department:Chester - West Chester Borough": [
+    "FM Radio:WCUR"
+  ],
+  "Police Department:Chester - West Fallowfield Township": [
+    "FM Radio:WZWG"
+  ],
+  "Police Department:Chester - West Goshen Township": [
+    "FM Radio:WCUR"
+  ],
+  "Police Department:Chester - Westtown/E Goshen": [
+    "FM Radio:WCUR"
+  ],
+  "Police Department:Delaware - Chester City": [
+    "FM Radio:WSRN-FM"
+  ],
+  "FM Radio:WSRN-FM": [
+    "Police Department:Delaware - Chester City",
+    "Police Department:Delaware - Nether Providence",
+    "Police Department:Delaware - Ridley",
+    "Police Department:Delaware - Springfield",
+    "Police Department:Delaware - Upper Providence"
+  ],
+  "Police Department:Delaware - Eddystone": [
+    "FM Radio:WRSD"
+  ],
+  "FM Radio:WRSD": [
+    "Police Department:Delaware - Eddystone",
+    "Police Department:Delaware - Nether Providence",
+    "Police Department:Delaware - Ridley",
+    "Police Department:Delaware - Ridley Park",
+    "Police Department:Delaware - Swarthmore"
+  ],
+  "Police Department:Delaware - Haverford": [
+    "FM Radio:WHHS",
+    "FM Radio:WXVU"
+  ],
+  "FM Radio:WHHS": [
+    "Police Department:Delaware - Haverford",
+    "Police Department:Delaware - Upper Darby",
+    "Police Department:Montgomery - Lower Merion"
+  ],
+  "FM Radio:WXVU": [
+    "Police Department:Delaware - Haverford",
+    "Police Department:Delaware - Marple",
+    "Police Department:Delaware - Radnor",
+    "Police Department:Montgomery - Lower Merion",
+    "Police Department:Montgomery - Upper Merion"
   ],
   "Police Department:Delaware - Marple": [
     "FM Radio:WXVU"
   ],
-  "Police Department:Delaware - Upper Providence": [
+  "Police Department:Delaware - Nether Providence": [
+    "FM Radio:WRSD",
     "FM Radio:WSRN-FM"
   ],
-  "FM Radio:WSRN-FM": [
-    "Police Department:Delaware - Upper Providence",
-    "Police Department:Delaware - Springfield",
-    "Police Department:Delaware - Nether Providence",
-    "Police Department:Delaware - Chester City",
-    "Police Department:Delaware - Ridley"
+  "Police Department:Delaware - Radnor": [
+    "FM Radio:WXVU"
+  ],
+  "Police Department:Delaware - Ridley": [
+    "FM Radio:WRSD",
+    "FM Radio:WSRN-FM"
+  ],
+  "Police Department:Delaware - Ridley Park": [
+    "FM Radio:WRSD"
   ],
   "Police Department:Delaware - Springfield": [
     "FM Radio:WSRN-FM"
@@ -203,38 +199,42 @@
   "Police Department:Delaware - Swarthmore": [
     "FM Radio:WRSD"
   ],
-  "FM Radio:WRSD": [
-    "Police Department:Delaware - Swarthmore",
-    "Police Department:Delaware - Nether Providence",
-    "Police Department:Delaware - Eddystone",
-    "Police Department:Delaware - Ridley",
-    "Police Department:Delaware - Ridley Park"
-  ],
-  "Police Department:Delaware - Nether Providence": [
-    "FM Radio:WSRN-FM",
-    "FM Radio:WRSD"
-  ],
-  "Police Department:Delaware - Chester City": [
-    "FM Radio:WSRN-FM"
-  ],
-  "Police Department:Delaware - Eddystone": [
-    "FM Radio:WRSD"
-  ],
-  "Police Department:Delaware - Ridley": [
-    "FM Radio:WSRN-FM",
-    "FM Radio:WRSD"
-  ],
-  "Police Department:Delaware - Ridley Park": [
-    "FM Radio:WRSD"
-  ],
   "Police Department:Delaware - Upper Darby": [
     "FM Radio:WHHS"
   ],
-  "Police Department:Delaware - Haverford": [
-    "FM Radio:WXVU",
-    "FM Radio:WHHS"
+  "Police Department:Delaware - Upper Providence": [
+    "FM Radio:WSRN-FM"
   ],
-  "Police Department:Delaware - Radnor": [
+  "Police Department:Montgomery - Abington": [
+    "FM Radio:WRDV"
+  ],
+  "Police Department:Montgomery - Franconia": [
+    "FM Radio:WBMR"
+  ],
+  "Police Department:Montgomery - Hatfield": [
+    "FM Radio:WBMR"
+  ],
+  "Police Department:Montgomery - Horsham": [
+    "FM Radio:WRDV"
+  ],
+  "Police Department:Montgomery - Lower Merion": [
+    "FM Radio:WHHS",
+    "FM Radio:WXVU"
+  ],
+  "Police Department:Montgomery - Lower Salford": [
+    "FM Radio:WBMR"
+  ],
+  "Police Department:Montgomery - State Police - Troop K - Skippack": [
+    "FM Radio:WBMR",
+    "FM Radio:WBYO"
+  ],
+  "Police Department:Montgomery - Towamencin": [
+    "FM Radio:WBMR"
+  ],
+  "Police Department:Montgomery - Upper Dublin": [
+    "FM Radio:WRDV"
+  ],
+  "Police Department:Montgomery - Upper Merion": [
     "FM Radio:WXVU"
   ]
 }

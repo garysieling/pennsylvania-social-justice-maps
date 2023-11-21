@@ -1,100 +1,173 @@
 {
-  "School District:Chester - Octorara Area": [
-    "Magesterial Courts:2015-03-07"
+  "School District:Montgomery - Abington": [
+    "Magesterial Courts:1938-01-04",
+    "Magesterial Courts:1938-01-05"
   ],
-  "Magesterial Courts:2015-03-07": [
-    "School District:Chester - Octorara Area",
-    "School District:Chester - Coatesville Area"
+  "Magesterial Courts:1938-01-04": [
+    "School District:Montgomery - Abington"
   ],
-  "School District:Bucks - Pennsbury": [
-    "Magesterial Courts:07-1-11",
-    "Magesterial Courts:07-1-10",
-    "Magesterial Courts:undefined"
+  "Magesterial Courts:1938-01-05": [
+    "School District:Montgomery - Abington"
   ],
-  "Magesterial Courts:07-1-11": [
-    "School District:Bucks - Pennsbury",
-    "School District:Bucks - Morrisville Borough"
+  "School District:Chester - Avon Grove": [
+    "Magesterial Courts:2015-03-05",
+    "Magesterial Courts:2015-04-04"
   ],
-  "Magesterial Courts:07-1-10": [
-    "School District:Bucks - Pennsbury"
+  "Magesterial Courts:2015-03-05": [
+    "School District:Chester - Avon Grove",
+    "School District:Chester - Oxford Area"
   ],
-  "Magesterial Courts:undefined": [
-    "School District:Bucks - Pennsbury"
+  "Magesterial Courts:2015-04-04": [
+    "School District:Chester - Avon Grove",
+    "School District:Chester - Kennett Consolidated",
+    "School District:Chester - Unionville-Chadds Ford"
   ],
-  "School District:Montgomery - Perkiomen Valley": [
-    "Magesterial Courts:1938-01-20",
-    "Magesterial Courts:1938-01-24",
+  "School District:Bucks - Bensalem Township": [
+    "Magesterial Courts:07-1-01",
+    "Magesterial Courts:07-1-12"
+  ],
+  "Magesterial Courts:07-1-01": [
+    "School District:Bucks - Bensalem Township"
+  ],
+  "Magesterial Courts:07-1-12": [
+    "School District:Bucks - Bensalem Township"
+  ],
+  "School District:Berks - Boyertown Area": [
     "Magesterial Courts:1938-02-03"
   ],
-  "Magesterial Courts:1938-01-20": [
-    "School District:Montgomery - Perkiomen Valley",
-    "School District:Montgomery - Methacton",
-    "School District:Montgomery - Spring-Ford Area"
-  ],
-  "Magesterial Courts:1938-01-24": [
-    "School District:Montgomery - Perkiomen Valley",
-    "School District:Montgomery - Methacton",
-    "School District:Montgomery - Souderton Area"
-  ],
   "Magesterial Courts:1938-02-03": [
+    "School District:Berks - Boyertown Area",
     "School District:Montgomery - Perkiomen Valley",
-    "School District:Montgomery - Pottsgrove",
-    "School District:Berks - Boyertown Area"
+    "School District:Montgomery - Pottsgrove"
   ],
-  "School District:Chester - Phoenixville Area": [
-    "Magesterial Courts:2015-02-01",
-    "Magesterial Courts:2015-03-01"
+  "School District:Bucks - Bristol Borough": [
+    "Magesterial Courts:07-1-02"
   ],
-  "Magesterial Courts:2015-02-01": [
-    "School District:Chester - Phoenixville Area",
-    "School District:Chester - Great Valley"
+  "Magesterial Courts:07-1-02": [
+    "School District:Bucks - Bristol Borough",
+    "School District:Bucks - Bristol Township"
   ],
-  "Magesterial Courts:2015-03-01": [
-    "School District:Chester - Phoenixville Area",
-    "School District:Chester - Owen J Roberts"
+  "School District:Bucks - Bristol Township": [
+    "Magesterial Courts:07-1-02",
+    "Magesterial Courts:07-1-04",
+    "Magesterial Courts:07-1-03"
   ],
-  "School District:Bucks - Pennridge": [
+  "Magesterial Courts:07-1-04": [
+    "School District:Bucks - Bristol Township"
+  ],
+  "Magesterial Courts:07-1-03": [
+    "School District:Bucks - Bristol Township"
+  ],
+  "School District:Montgomery - Bryn Athyn": [
+    "Magesterial Courts:1938-02-08"
+  ],
+  "Magesterial Courts:1938-02-08": [
+    "School District:Montgomery - Bryn Athyn",
+    "School District:Montgomery - Lower Moreland Township",
+    "School District:Montgomery - Upper Moreland Township"
+  ],
+  "School District:Bucks - Centennial": [
+    "Magesterial Courts:07-2-01",
+    "Magesterial Courts:07-1-09"
+  ],
+  "Magesterial Courts:07-2-01": [
+    "School District:Bucks - Centennial",
+    "School District:Bucks - Council Rock"
+  ],
+  "Magesterial Courts:07-1-09": [
+    "School District:Bucks - Centennial"
+  ],
+  "School District:Bucks - Central Bucks": [
+    "Magesterial Courts:07-3-02",
     "Magesterial Courts:07-2-08",
-    "Magesterial Courts:07-3-03",
-    "Magesterial Courts:07-2-05"
+    "Magesterial Courts:07-2-02",
+    "Magesterial Courts:07-3-01",
+    "Magesterial Courts:07-3-03"
+  ],
+  "Magesterial Courts:07-3-02": [
+    "School District:Bucks - Central Bucks"
   ],
   "Magesterial Courts:07-2-08": [
-    "School District:Bucks - Pennridge",
+    "School District:Bucks - Central Bucks",
+    "School District:Bucks - Pennridge"
+  ],
+  "Magesterial Courts:07-2-02": [
     "School District:Bucks - Central Bucks"
+  ],
+  "Magesterial Courts:07-3-01": [
+    "School District:Bucks - Central Bucks",
+    "School District:Bucks - New Hope-Solebury"
   ],
   "Magesterial Courts:07-3-03": [
-    "School District:Bucks - Pennridge",
-    "School District:Bucks - Quakertown Community",
+    "School District:Bucks - Central Bucks",
     "School District:Bucks - Palisades",
-    "School District:Bucks - Central Bucks"
-  ],
-  "Magesterial Courts:07-2-05": [
     "School District:Bucks - Pennridge",
     "School District:Bucks - Quakertown Community"
   ],
-  "School District:Chester - Tredyffrin-Easttown": [
-    "Magesterial Courts:2015-04-01",
-    "Magesterial Courts:2015-01-02"
-  ],
-  "Magesterial Courts:2015-04-01": [
-    "School District:Chester - Tredyffrin-Easttown",
-    "School District:Chester - Great Valley"
-  ],
-  "Magesterial Courts:2015-01-02": [
-    "School District:Chester - Tredyffrin-Easttown",
-    "School District:Chester - Great Valley",
-    "School District:Chester - West Chester Area"
-  ],
-  "School District:Bucks - Quakertown Community": [
-    "Magesterial Courts:07-3-03",
-    "Magesterial Courts:07-2-05"
-  ],
-  "School District:Montgomery - Jenkintown": [
-    "Magesterial Courts:1938-01-02"
+  "School District:Montgomery - Cheltenham Township": [
+    "Magesterial Courts:1938-01-02",
+    "Magesterial Courts:1938-01-03"
   ],
   "Magesterial Courts:1938-01-02": [
-    "School District:Montgomery - Jenkintown",
+    "School District:Montgomery - Cheltenham Township",
+    "School District:Montgomery - Jenkintown"
+  ],
+  "Magesterial Courts:1938-01-03": [
     "School District:Montgomery - Cheltenham Township"
+  ],
+  "School District:Chester - Coatesville Area": [
+    "Magesterial Courts:2015-04-02",
+    "Magesterial Courts:2015-03-06",
+    "Magesterial Courts:2015-03-07"
+  ],
+  "Magesterial Courts:2015-04-02": [
+    "School District:Chester - Coatesville Area",
+    "School District:Chester - Downingtown Area"
+  ],
+  "Magesterial Courts:2015-03-06": [
+    "School District:Chester - Coatesville Area",
+    "School District:Chester - Downingtown Area",
+    "School District:Berks - Twin Valley"
+  ],
+  "Magesterial Courts:2015-03-07": [
+    "School District:Chester - Coatesville Area",
+    "School District:Chester - Octorara Area"
+  ],
+  "School District:Montgomery - Colonial": [
+    "Magesterial Courts:1938-01-13",
+    "Magesterial Courts:1938-01-23"
+  ],
+  "Magesterial Courts:1938-01-13": [
+    "School District:Montgomery - Colonial"
+  ],
+  "Magesterial Courts:1938-01-23": [
+    "School District:Montgomery - Colonial"
+  ],
+  "School District:Bucks - Council Rock": [
+    "Magesterial Courts:07-2-01",
+    "Magesterial Courts:07-2-07"
+  ],
+  "Magesterial Courts:07-2-07": [
+    "School District:Bucks - Council Rock"
+  ],
+  "School District:Allegheny - Deer Lakes": [
+    "Magesterial Courts:District"
+  ],
+  "Magesterial Courts:District": [
+    "School District:Allegheny - Deer Lakes"
+  ],
+  "School District:Chester - Downingtown Area": [
+    "Magesterial Courts:2015-02-07",
+    "Magesterial Courts:2015-04-02",
+    "Magesterial Courts:2015-01-01",
+    "Magesterial Courts:2015-03-06"
+  ],
+  "Magesterial Courts:2015-02-07": [
+    "School District:Chester - Downingtown Area"
+  ],
+  "Magesterial Courts:2015-01-01": [
+    "School District:Chester - Downingtown Area",
+    "School District:Chester - West Chester Area"
   ],
   "School District:Chester - Great Valley": [
     "Magesterial Courts:2015-04-01",
@@ -102,18 +175,40 @@
     "Magesterial Courts:2015-01-02",
     "Magesterial Courts:2015-02-01"
   ],
+  "Magesterial Courts:2015-04-01": [
+    "School District:Chester - Great Valley",
+    "School District:Chester - Tredyffrin-Easttown"
+  ],
   "Magesterial Courts:2015-04-03": [
     "School District:Chester - Great Valley",
     "School District:Chester - West Chester Area"
   ],
+  "Magesterial Courts:2015-01-02": [
+    "School District:Chester - Great Valley",
+    "School District:Chester - Tredyffrin-Easttown",
+    "School District:Chester - West Chester Area"
+  ],
+  "Magesterial Courts:2015-02-01": [
+    "School District:Chester - Great Valley",
+    "School District:Chester - Phoenixville Area"
+  ],
+  "School District:Montgomery - Hatboro-Horsham": [
+    "Magesterial Courts:1938-01-14",
+    "Magesterial Courts:1938-01-22"
+  ],
+  "Magesterial Courts:1938-01-14": [
+    "School District:Montgomery - Hatboro-Horsham",
+    "School District:Montgomery - Upper Moreland Township"
+  ],
+  "Magesterial Courts:1938-01-22": [
+    "School District:Montgomery - Hatboro-Horsham"
+  ],
+  "School District:Montgomery - Jenkintown": [
+    "Magesterial Courts:1938-01-02"
+  ],
   "School District:Chester - Kennett Consolidated": [
     "Magesterial Courts:2015-04-04",
     "Magesterial Courts:2015-03-04"
-  ],
-  "Magesterial Courts:2015-04-04": [
-    "School District:Chester - Kennett Consolidated",
-    "School District:Chester - Unionville-Chadds Ford",
-    "School District:Chester - Avon Grove"
   ],
   "Magesterial Courts:2015-03-04": [
     "School District:Chester - Kennett Consolidated",
@@ -136,37 +231,26 @@
   "School District:Montgomery - Lower Moreland Township": [
     "Magesterial Courts:1938-02-08"
   ],
-  "Magesterial Courts:1938-02-08": [
-    "School District:Montgomery - Lower Moreland Township",
-    "School District:Montgomery - Upper Moreland Township",
-    "School District:Montgomery - Bryn Athyn"
+  "School District:Montgomery - Methacton": [
+    "Magesterial Courts:1938-01-20",
+    "Magesterial Courts:1938-01-24"
   ],
-  "School District:Chester - Owen J Roberts": [
-    "Magesterial Courts:2015-03-01"
+  "Magesterial Courts:1938-01-20": [
+    "School District:Montgomery - Methacton",
+    "School District:Montgomery - Perkiomen Valley",
+    "School District:Montgomery - Spring-Ford Area"
   ],
-  "School District:Chester - Oxford Area": [
-    "Magesterial Courts:2015-03-05"
-  ],
-  "Magesterial Courts:2015-03-05": [
-    "School District:Chester - Oxford Area",
-    "School District:Chester - Avon Grove"
-  ],
-  "School District:Bucks - Palisades": [
-    "Magesterial Courts:07-3-03"
+  "Magesterial Courts:1938-01-24": [
+    "School District:Montgomery - Methacton",
+    "School District:Montgomery - Perkiomen Valley",
+    "School District:Montgomery - Souderton Area"
   ],
   "School District:Bucks - Morrisville Borough": [
     "Magesterial Courts:07-1-11"
   ],
-  "School District:Montgomery - Hatboro-Horsham": [
-    "Magesterial Courts:1938-01-14",
-    "Magesterial Courts:1938-01-22"
-  ],
-  "Magesterial Courts:1938-01-14": [
-    "School District:Montgomery - Hatboro-Horsham",
-    "School District:Montgomery - Upper Moreland Township"
-  ],
-  "Magesterial Courts:1938-01-22": [
-    "School District:Montgomery - Hatboro-Horsham"
+  "Magesterial Courts:07-1-11": [
+    "School District:Bucks - Morrisville Borough",
+    "School District:Bucks - Pennsbury"
   ],
   "School District:Bucks - Neshaminy": [
     "Magesterial Courts:07-1-07",
@@ -178,9 +262,8 @@
   "Magesterial Courts:07-1-08": [
     "School District:Bucks - Neshaminy"
   ],
-  "School District:Montgomery - Methacton": [
-    "Magesterial Courts:1938-01-20",
-    "Magesterial Courts:1938-01-24"
+  "School District:Bucks - New Hope-Solebury": [
+    "Magesterial Courts:07-3-01"
   ],
   "School District:Montgomery - Norristown Area": [
     "Magesterial Courts:1938-01-01",
@@ -215,6 +298,51 @@
   "Magesterial Courts:1938-01-28": [
     "School District:Montgomery - North Penn"
   ],
+  "School District:Chester - Octorara Area": [
+    "Magesterial Courts:2015-03-07"
+  ],
+  "School District:Chester - Owen J Roberts": [
+    "Magesterial Courts:2015-03-01"
+  ],
+  "Magesterial Courts:2015-03-01": [
+    "School District:Chester - Owen J Roberts",
+    "School District:Chester - Phoenixville Area"
+  ],
+  "School District:Chester - Oxford Area": [
+    "Magesterial Courts:2015-03-05"
+  ],
+  "School District:Bucks - Palisades": [
+    "Magesterial Courts:07-3-03"
+  ],
+  "School District:Bucks - Pennridge": [
+    "Magesterial Courts:07-2-08",
+    "Magesterial Courts:07-3-03",
+    "Magesterial Courts:07-2-05"
+  ],
+  "Magesterial Courts:07-2-05": [
+    "School District:Bucks - Pennridge",
+    "School District:Bucks - Quakertown Community"
+  ],
+  "School District:Bucks - Pennsbury": [
+    "Magesterial Courts:07-1-11",
+    "Magesterial Courts:07-1-10",
+    "Magesterial Courts:Unknown"
+  ],
+  "Magesterial Courts:07-1-10": [
+    "School District:Bucks - Pennsbury"
+  ],
+  "Magesterial Courts:Unknown": [
+    "School District:Bucks - Pennsbury"
+  ],
+  "School District:Montgomery - Perkiomen Valley": [
+    "Magesterial Courts:1938-01-20",
+    "Magesterial Courts:1938-01-24",
+    "Magesterial Courts:1938-02-03"
+  ],
+  "School District:Chester - Phoenixville Area": [
+    "Magesterial Courts:2015-02-01",
+    "Magesterial Courts:2015-03-01"
+  ],
   "School District:Montgomery - Pottsgrove": [
     "Magesterial Courts:1938-01-11",
     "Magesterial Courts:1938-01-12",
@@ -232,11 +360,17 @@
     "Magesterial Courts:1938-01-11",
     "Magesterial Courts:1938-01-12"
   ],
-  "School District:Montgomery - Springfield Township": [
-    "Magesterial Courts:1938-01-08"
+  "School District:Bucks - Quakertown Community": [
+    "Magesterial Courts:07-3-03",
+    "Magesterial Courts:07-2-05"
   ],
-  "Magesterial Courts:1938-01-08": [
-    "School District:Montgomery - Springfield Township"
+  "School District:Montgomery - Souderton Area": [
+    "Magesterial Courts:1938-01-24",
+    "Magesterial Courts:1938-02-02"
+  ],
+  "Magesterial Courts:1938-02-02": [
+    "School District:Montgomery - Souderton Area",
+    "School District:Montgomery - Upper Perkiomen"
   ],
   "School District:Montgomery - Spring-Ford Area": [
     "Magesterial Courts:1938-01-19",
@@ -244,6 +378,29 @@
   ],
   "Magesterial Courts:1938-01-19": [
     "School District:Montgomery - Spring-Ford Area"
+  ],
+  "School District:Montgomery - Springfield Township": [
+    "Magesterial Courts:1938-01-08"
+  ],
+  "Magesterial Courts:1938-01-08": [
+    "School District:Montgomery - Springfield Township"
+  ],
+  "School District:Chester - Tredyffrin-Easttown": [
+    "Magesterial Courts:2015-04-01",
+    "Magesterial Courts:2015-01-02"
+  ],
+  "School District:Berks - Twin Valley": [
+    "Magesterial Courts:2015-03-06"
+  ],
+  "School District:Chester - Unionville-Chadds Ford": [
+    "Magesterial Courts:2015-04-04",
+    "Magesterial Courts:2015-03-04"
+  ],
+  "School District:Montgomery - Upper Dublin": [
+    "Magesterial Courts:1938-01-10"
+  ],
+  "Magesterial Courts:1938-01-10": [
+    "School District:Montgomery - Upper Dublin"
   ],
   "School District:Montgomery - Upper Merion Area": [
     "Magesterial Courts:1938-01-09",
@@ -262,20 +419,6 @@
   "School District:Montgomery - Upper Perkiomen": [
     "Magesterial Courts:1938-02-02"
   ],
-  "Magesterial Courts:1938-02-02": [
-    "School District:Montgomery - Upper Perkiomen",
-    "School District:Montgomery - Souderton Area"
-  ],
-  "School District:Chester - Unionville-Chadds Ford": [
-    "Magesterial Courts:2015-04-04",
-    "Magesterial Courts:2015-03-04"
-  ],
-  "School District:Montgomery - Upper Dublin": [
-    "Magesterial Courts:1938-01-10"
-  ],
-  "Magesterial Courts:1938-01-10": [
-    "School District:Montgomery - Upper Dublin"
-  ],
   "School District:Chester - West Chester Area": [
     "Magesterial Courts:2015-02-03",
     "Magesterial Courts:2015-04-03",
@@ -285,150 +428,7 @@
   "Magesterial Courts:2015-02-03": [
     "School District:Chester - West Chester Area"
   ],
-  "Magesterial Courts:2015-01-01": [
-    "School District:Chester - West Chester Area",
-    "School District:Chester - Downingtown Area"
-  ],
-  "School District:Bucks - New Hope-Solebury": [
-    "Magesterial Courts:07-3-01"
-  ],
-  "Magesterial Courts:07-3-01": [
-    "School District:Bucks - New Hope-Solebury",
-    "School District:Bucks - Central Bucks"
-  ],
-  "School District:Berks - Twin Valley": [
-    "Magesterial Courts:2015-03-06"
-  ],
-  "Magesterial Courts:2015-03-06": [
-    "School District:Berks - Twin Valley",
-    "School District:Chester - Coatesville Area",
-    "School District:Chester - Downingtown Area"
-  ],
   "School District:Montgomery - Wissahickon": [
     "Magesterial Courts:1938-01-21"
-  ],
-  "School District:Montgomery - Souderton Area": [
-    "Magesterial Courts:1938-01-24",
-    "Magesterial Courts:1938-02-02"
-  ],
-  "School District:Bucks - Bensalem Township": [
-    "Magesterial Courts:07-1-01",
-    "Magesterial Courts:07-1-12"
-  ],
-  "Magesterial Courts:07-1-01": [
-    "School District:Bucks - Bensalem Township"
-  ],
-  "Magesterial Courts:07-1-12": [
-    "School District:Bucks - Bensalem Township"
-  ],
-  "School District:Montgomery - Abington": [
-    "Magesterial Courts:1938-01-04",
-    "Magesterial Courts:1938-01-05"
-  ],
-  "Magesterial Courts:1938-01-04": [
-    "School District:Montgomery - Abington"
-  ],
-  "Magesterial Courts:1938-01-05": [
-    "School District:Montgomery - Abington"
-  ],
-  "School District:Montgomery - Bryn Athyn": [
-    "Magesterial Courts:1938-02-08"
-  ],
-  "School District:Chester - Avon Grove": [
-    "Magesterial Courts:2015-03-05",
-    "Magesterial Courts:2015-04-04"
-  ],
-  "School District:Bucks - Bristol Borough": [
-    "Magesterial Courts:07-1-02"
-  ],
-  "Magesterial Courts:07-1-02": [
-    "School District:Bucks - Bristol Borough",
-    "School District:Bucks - Bristol Township"
-  ],
-  "School District:Berks - Boyertown Area": [
-    "Magesterial Courts:1938-02-03"
-  ],
-  "School District:Chester - Coatesville Area": [
-    "Magesterial Courts:2015-04-02",
-    "Magesterial Courts:2015-03-06",
-    "Magesterial Courts:2015-03-07"
-  ],
-  "Magesterial Courts:2015-04-02": [
-    "School District:Chester - Coatesville Area",
-    "School District:Chester - Downingtown Area"
-  ],
-  "School District:Bucks - Bristol Township": [
-    "Magesterial Courts:07-1-02",
-    "Magesterial Courts:07-1-04",
-    "Magesterial Courts:07-1-03"
-  ],
-  "Magesterial Courts:07-1-04": [
-    "School District:Bucks - Bristol Township"
-  ],
-  "Magesterial Courts:07-1-03": [
-    "School District:Bucks - Bristol Township"
-  ],
-  "School District:Montgomery - Colonial": [
-    "Magesterial Courts:1938-01-13",
-    "Magesterial Courts:1938-01-23"
-  ],
-  "Magesterial Courts:1938-01-13": [
-    "School District:Montgomery - Colonial"
-  ],
-  "Magesterial Courts:1938-01-23": [
-    "School District:Montgomery - Colonial"
-  ],
-  "School District:Bucks - Centennial": [
-    "Magesterial Courts:07-2-01",
-    "Magesterial Courts:07-1-09"
-  ],
-  "Magesterial Courts:07-2-01": [
-    "School District:Bucks - Centennial",
-    "School District:Bucks - Council Rock"
-  ],
-  "Magesterial Courts:07-1-09": [
-    "School District:Bucks - Centennial"
-  ],
-  "School District:Bucks - Central Bucks": [
-    "Magesterial Courts:07-3-02",
-    "Magesterial Courts:07-2-08",
-    "Magesterial Courts:07-2-02",
-    "Magesterial Courts:07-3-01",
-    "Magesterial Courts:07-3-03"
-  ],
-  "Magesterial Courts:07-3-02": [
-    "School District:Bucks - Central Bucks"
-  ],
-  "Magesterial Courts:07-2-02": [
-    "School District:Bucks - Central Bucks"
-  ],
-  "School District:Bucks - Council Rock": [
-    "Magesterial Courts:07-2-01",
-    "Magesterial Courts:07-2-07"
-  ],
-  "Magesterial Courts:07-2-07": [
-    "School District:Bucks - Council Rock"
-  ],
-  "School District:Allegheny - Deer Lakes": [
-    "Magesterial Courts:District"
-  ],
-  "Magesterial Courts:District": [
-    "School District:Allegheny - Deer Lakes"
-  ],
-  "School District:Chester - Downingtown Area": [
-    "Magesterial Courts:2015-02-07",
-    "Magesterial Courts:2015-04-02",
-    "Magesterial Courts:2015-01-01",
-    "Magesterial Courts:2015-03-06"
-  ],
-  "Magesterial Courts:2015-02-07": [
-    "School District:Chester - Downingtown Area"
-  ],
-  "School District:Montgomery - Cheltenham Township": [
-    "Magesterial Courts:1938-01-02",
-    "Magesterial Courts:1938-01-03"
-  ],
-  "Magesterial Courts:1938-01-03": [
-    "School District:Montgomery - Cheltenham Township"
   ]
 }
