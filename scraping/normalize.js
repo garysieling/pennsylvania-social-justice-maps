@@ -142,6 +142,15 @@ let trim = (value) => (value + '').trim().replace(/[ ]+/g, ' ');
 
 
 
+function replaceAbbr(value) {
+  return value
+    .replace(/\bSt \b/, "St. ")
+    .replace(/\bSaint\b/, "St.")
+    .replace(/\bMt \b/, "Mt. ")
+    .replace(/\bMount\b/, "Mt.")
+    .replace(/\bJ\b/, "J.")
+}
+
 
 function getValueFromRow(row, sourceKey) {
   if (Array.isArray(sourceKey)) {
@@ -149,9 +158,9 @@ function getValueFromRow(row, sourceKey) {
       (key) => trim(row[key])
     ).join(" - ");
 
-    return result;
+    return replaceAbbr(result);
   } else {
-    return (row[sourceKey] + '').trim();
+    return replaceAbbr((row[sourceKey] + '').trim());
   }
 }
 
@@ -173,9 +182,9 @@ function toJson (filepath) {
 
 function toKey(valueOrValues, src) {
   if(typeof valueOrValues === 'string') {
-    return trim(src[valueOrValues]);
+    return replaceAbbr(trim(src[valueOrValues]));
   } else {
-      return trim(valueOrValues.map(
+      return replaceAbbr(trim(valueOrValues.map(
               (v) => {
                   let res = src[v];
 
@@ -185,7 +194,7 @@ function toKey(valueOrValues, src) {
 
                   return res;
               }
-          ).join(" - "));
+          ).join(" - ")));
   }
 }
 
@@ -249,6 +258,10 @@ function writeGeojson(metadata, rows, popData, matchCb, totalCb) {
               if (popData[feature.properties._name.toLowerCase()]) {
                 feature.properties._population = parseInt(popData[feature.properties._name.toLowerCase()]);
                 matchCb();
+              } else {
+                if (Object.keys(popData).length > 0) {
+                  console.log(feature.properties._name);
+                }
               }
 
               totalCb();
