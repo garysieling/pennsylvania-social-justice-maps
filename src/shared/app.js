@@ -53,12 +53,24 @@ const sourceData = [
   {
     name: 'Police Department',
     key: '5',
-    source: '/static/Police.geojson'
+    source: '/static/Police.geojson',
+    attributesToDisplay: [
+      '_population'
+    ],   
+    attributeCategoryTypes: {
+      '_population': 'Ordered'
+    }
   },
   {
     name: 'Magesterial Courts',
     key: '6',
-    source: '/static/MagesterialCourts.geojson'
+    source: '/static/MagesterialCourts.geojson',
+    attributesToDisplay: [
+      '_population'
+    ],   
+    attributeCategoryTypes: {
+      '_population': 'Ordered'
+    }
   },
   {
     name: 'PA Senate District',
@@ -91,7 +103,13 @@ const sourceData = [
   {
     name: 'State Police',
     key: '9',
-    source: '/static/StatePolice.geojson'
+    source: '/static/StatePolice.geojson',
+    attributesToDisplay: [
+      '_population'
+    ],   
+    attributeCategoryTypes: {
+      '_population': 'Ordered'
+    }
   },
   {
     name: 'FM Radio',

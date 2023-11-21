@@ -25,6 +25,7 @@
     "@turf/concave": "^6.5.0",
     "@turf/helpers": "^6.5.0",
     "@turf/intersect": "^6.5.0",
+    "@turf/polygonize": "^6.5.0",
     "@turf/union": "^6.5.0",
     "d3-scale-chromatic": "^3.0.0",
     "gatsby": "^5.6.1",
