@@ -7,14 +7,12 @@ import {
 } from "react-leaflet";
 
 import {  
-  Grid, 
-  Button
+  Grid
 } from "theme-ui";
 
 import * as COLOR_SCHEMES from 'd3-scale-chromatic';
 
-import Legend from '../components/Legend';
-import Description from '../components/Description';
+import {Legend, recomputeColoration} from '../components/Legend';import Description from '../components/Description';
 import RenderingControls from '../components/RenderingControls';
 import Facets from '../components/Facets';
 import CopyLink from '../components/CopyLink';
@@ -24,7 +22,6 @@ import {
   position,
   zoom,
   pageStyles,
-  recomputeColoration,
   loadBaseLayer
 } from '../shared/app';
 
