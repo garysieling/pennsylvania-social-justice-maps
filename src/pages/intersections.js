@@ -1,5 +1,7 @@
 import * as React from "react";
 
+import { loadPatterns } from "../shared/patterns";
+
 import { 
   MapContainer, 
   TileLayer,
@@ -41,6 +43,8 @@ const IndexPage = () => {
   const [legend, setLegend] = React.useState({});
   const [description, setDescription] = React.useState('');
   const [selectedIntersections, setIntersections] = React.useState({});
+
+  loadPatterns();
 
   function setColoration({facet, attribute, rangeColorScheme}) {
     console.time("setColoration");

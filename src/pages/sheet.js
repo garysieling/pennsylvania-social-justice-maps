@@ -1,5 +1,7 @@
 import * as React from "react";
 
+import { loadPatterns } from "../shared/patterns";
+
 import { 
   MapContainer, 
   TileLayer,
@@ -56,6 +58,8 @@ const IndexPage = () => {
   React.useEffect(
     () => loadBaseLayer(updateFacets)
   );
+
+  loadPatterns();
 
   const facetClicker = (e) => {
     console.time("facetClicker");
