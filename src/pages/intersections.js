@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { loadPatterns, nextPattern } from "../shared/patterns";
+import { loadPatterns, nextPattern, layerStyle } from "../shared/patterns";
 
 import { 
   MapContainer, 
@@ -230,16 +230,7 @@ const IndexPage = () => {
                   return tooltipContents;
                 }, popupOptions);
             }}
-            style={
-              (reference) => {
-                const colorFromFacet = reference.properties.tileRenderColor;
-                return {
-                  color: colorFromFacet,
-                  opacity: '100%',
-                  fillColor: 'url(#' + nextPattern() +  ')'
-                };
-              }
-            }
+            style={layerStyle}
             data={filteredGeojson} />
         );
       }

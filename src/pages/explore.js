@@ -11,7 +11,7 @@ import {
   Button
 } from "theme-ui";
 
-import { loadPatterns, nextPattern } from '../shared/patterns';
+import { loadPatterns, layerStyle } from '../shared/patterns';
 
 import * as COLOR_SCHEMES from 'd3-scale-chromatic';
 
@@ -165,20 +165,13 @@ const IndexPage = () => {
                   return tooltipContents;
                 }, popupOptions);
             }}
-            style={
-              (reference) => {
-                const colorFromFacet = reference.properties.tileRenderColor;
-                return {
-                  color: colorFromFacet,
-                  opacity: '100%',
-                  fillColor: 'url(#' + nextPattern() +  ')'
-                };
-              }
-            }
+            style={layerStyle}
             data={filteredGeojson} />
         );
       }
     );
+
+    //map.getPane('tilePane').style.opacity = 0.5;
 
   const result = (
     <Grid
@@ -208,14 +201,14 @@ const IndexPage = () => {
               <Legend data={legend} />
             </div>
         </Grid>
-          <MapContainer style={{ height: '600px' }} center={position} zoom={zoom} scrollWheelZoom={true}>
-            <TileLayer
-              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            />
-            { facetLayers }
-          </MapContainer>
-          <CopyLink facets={facets} coloration={coloration} />
+        <MapContainer style={{ height: '600px' }} center={position} zoom={zoom} scrollWheelZoom={true}>
+          <TileLayer
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          />
+          { facetLayers }
+        </MapContainer>
+        <CopyLink facets={facets} coloration={coloration} />
       </main>
     </Grid>
   );
