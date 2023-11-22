@@ -11,7 +11,7 @@ import {
   Button
 } from "theme-ui";
 
-import { loadPatterns } from '../shared/patterns';
+import { loadPatterns, nextPattern } from '../shared/patterns';
 
 import * as COLOR_SCHEMES from 'd3-scale-chromatic';
 
@@ -171,7 +171,7 @@ const IndexPage = () => {
                 return {
                   color: colorFromFacet,
                   opacity: '100%',
-                  fillColor: 'url(#stripes1)'         
+                  fillColor: 'url(#' + nextPattern() +  ')'
                 };
               }
             }

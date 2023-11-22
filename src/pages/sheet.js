@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { loadPatterns } from "../shared/patterns";
+import { loadPatterns, nextPattern } from "../shared/patterns";
 
 import { 
   MapContainer, 
@@ -167,9 +167,10 @@ const IndexPage = () => {
             style={
               (reference) => {
                 const colorFromFacet = reference.properties.tileRenderColor;
-                
                 return {
-                  color: colorFromFacet
+                  color: colorFromFacet,
+                  opacity: '100%',
+                  fillColor: 'url(#' + nextPattern() +  ')'
                 };
               }
             }
