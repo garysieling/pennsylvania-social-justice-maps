@@ -44,11 +44,17 @@ setTimeout(
 
 function postLoad() {
     if (window.google && window.google.accounts && window.google.accounts.oauth2 && window.google.accounts.oauth2.initTokenClient) {
+        console.log('postLoad');
         tokenClient = window.google.accounts.oauth2.initTokenClient({
             client_id: CLIENT_ID,
             scope: SCOPES,
-            callback: '', // defined later
+            callback: (response) => {
+                debugger;
+                console.log(response);
+            }
         });
+
+        window.tokenClient = tokenClient;
 
         gisInited = true;
         maybeEnableButtons();
@@ -68,31 +74,110 @@ const SheetPicker = () => {
     const [sheetId, setSheetId] = React.useState('');
     const [signout, setSignout] = React.useState('Sign Out');
     const [content, setContent] = React.useState('');
+    const [accessToken, setAccessToken] = React.useState('');
         
+    
+    function removeOptions(selectElement) {
+        let i, L = selectElement.options.length - 1;
+        for(i = L; i >= 0; i--) {
+            selectElement.remove(i);
+        }
+      }
+
+    function toSelect(name, data, cbDisplay, cbValue) {
+        const select = document.getElementById(name);
+        removeOptions(select);
+
+        select.options[select.options.length] = new Option('', '');
+
+        select.options =
+            data.map(
+              (record, i) => {
+                select.options[select.options.length] = 
+                  new Option(cbDisplay(record), cbValue(record, i));
+              });
+      }
+
+      async function listSheets() {
+        let response;
+        try {
+          response = await gapi.client.sheets.spreadsheets.get({
+            spreadsheetId: sheetId
+          });
+          
+          window.sheetResponse = response;
+
+          toSelect(
+            'sheet_name',
+            response.result.sheets,
+            (sheet) => sheet.properties.title,
+            (sheet) => sheet.properties.title
+          );
+
+          
+        } catch (err) {
+          document.getElementById('content').innerText = err.message;
+          return;
+        }
+        
+        //document.getElementById('content').innerText = output;
+      }
+
+
+      function pickerCallback(data) {
+        let url = 'nothing';
+        if (data[google.picker.Response.ACTION] == google.picker.Action.PICKED) {            
+          let doc = data[google.picker.Response.DOCUMENTS][0];
+          
+          gapi.client.setToken({access_token: accessToken});
+
+          sheetId = doc.id;
+          listSheets();
+        }
+      }
+
+      function onReady() {
+        //document.getElementById('signout_button').style.visibility = 'visible';
+        //document.getElementById('authorize_button').innerText = 'Refresh';
+
+        const picker = new google.picker.PickerBuilder()
+                .enableFeature(google.picker.Feature.NAV_HIDDEN)
+                .addView(google.picker.ViewId.SPREADSHEETS)
+                .setOAuthToken(accessToken)
+                .setDeveloperKey(API_KEY)
+                .setCallback(pickerCallback)
+                .build();
+          picker.setVisible(true);
+      }
+
     function handleAuthClick() {
         if (!tokenClient) {
             return;
         }
-        
-        tokenClient.callback = async (resp) => {
-            if (resp.error !== undefined) {
-                throw (resp);
-            }
-            setSignoutVisibility('visible');
-            setAuthorizeButtonText('Refresh');
 
-            const sheetId = document.getElementById('sheet_id').value;
-
-            if (!!sheetId) {
-                await listData(sheetId);
+        const callback = async (response) => {
+            console.log('tokenClient.callback');
+            console.log(response);
+            if (response.error !== undefined) {
+              throw (response);
             }
-        }
+
+            debugger;
+            
+            setAccessToken(response.access_token);
+
+            //onReady();
+        };
+ 
+        //tokenClient.callback = callback;
 
         if (window.gapi.client.getToken() === null) {
             // Prompt the user to select a Google Account and ask for consent to share their data
             // when establishing a new session.
+            console.log('requesting access token 1');
             tokenClient.requestAccessToken({prompt: 'consent'});
         } else {
+            console.log('requesting access token 2');
             // Skip display of account chooser and consent dialog for an existing session.
             tokenClient.requestAccessToken({prompt: ''});
         }
@@ -140,6 +225,7 @@ const SheetPicker = () => {
         <div>
             <button id="authorize_button" style={{visibility: authorizeVisibility}} onClick={handleAuthClick}>{authorizeButtonText}</button>
             <button id="signout_button" style={{visibility: signoutVisibility}} onClick={handleSignoutClick}>{signout}</button>
+            <input type="text" id="access_token" value={accessToken} readOnly={true} />
             <input type="text" id="sheet_id" value={sheetId} readOnly={true} />
             <div>
                 {content}

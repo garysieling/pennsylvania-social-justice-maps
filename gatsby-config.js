@@ -15,18 +15,17 @@ module.exports = {
       }
     }
   ],
+  developMiddleware: app => {
+    app.use((req, res, next) => {
+     res.set('Cross-Origin-Opener-Policy', 'same-origin');
+     res.set('Referrer-Policy', 'origin-when-cross-origin');
+     next();
+   });
+ },
   headers: [
     {
       source: `/sheet`,
       headers: [
-        {
-          key: `cross-origin-opener-policy`,
-          value: `unsafe-none`,
-        },
-        {
-          key: `referrer-policy`,
-          value: `origin-when-cross-origin` //strict-origin-when-cross-origin
-        },
           {
           key: `x-xss-protection`,
           value: `0`,
@@ -39,6 +38,10 @@ module.exports = {
           key: `x-frame-options`,
           value: `DENY`,
         },
+        {
+          key: `Access-Control-Allow-Origin`,
+          value: `*`
+        }
       ]
     }
   ]
