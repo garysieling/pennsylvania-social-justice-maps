@@ -1,0 +1,189 @@
+/*---------------------------------------------------------
+Global Layout Print Adustments
+**** DO NOT ADD YOUR STYLES HERE! (See further down) ***
+----------------------------------------------------------*/
+
+.noprint {display:none !important}
+
+body {
+	font-size: 13px;
+	font-family: 'Arial', sans-serif;
+	background: #ffffff;
+}
+
+
+section.PrintHeader {
+	
+	display:block;
+	border-bottom:2px solid black;
+	margin-bottom:5px;
+}
+section.PrintHeader .SiteName {
+	font-family: Georgia, serif;
+	font-size:24px;
+	font-weight:bold;
+	color: #1F389C;
+		
+}
+
+section.PrintHeader .SiteURL {
+	font-size:10px;	
+}
+
+section.PrintHeader .SiteDate {
+	font-size:14px;	
+	font-weight:bold;
+	float:right;
+	padding-top:15px;
+}
+
+div.PageWrapper .PageTopActions  {
+		margin-top:8px;
+		font-family: 'PTSans', sans-serif;
+		color:#666666;
+		padding:0;	
+		overflow: visible;
+		border-top:1px solid #959595;
+		border-bottom:1px solid #959595;
+		border-left:none;
+		border-right:none;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;		
+	}
+
+.dtsSortBtn,
+.flexslider-container,
+header {display:none}
+
+
+.QuickSearch {display:none;}
+.SiteName {display:block;float:none;margin:0;padding:0;}
+
+.Container,
+.PageWrapper,
+.PageContents {display:block;width:100%;overflow:visible !important;}
+
+section.PageHeading,section.PageHeading.Home {height:1px;display:none;}
+
+
+
+.Container .PageContents {border:none !important;margin:0;border-color:#FFFFFF;}
+
+div.PageWrapper {background:#ffffff;padding:0;margin:0}
+
+
+.PageTopActions .PageTopActions-Share {display:none;}
+
+#PageHome .PageContents-Column-Left,
+#PageHome .PageContents-Column-Right {display:none;}
+#PageHome .PageContents-Column-Center {float:none;display:block;width:100%;margin:0;padding:0;}
+
+section.Container>.PageContents>aside {display:none;}
+
+footer {
+	padding-top: 10px;
+	border-top: none;
+}
+
+footer .PrintOnly {
+	border-top:2px solid black;
+}
+
+footer p {background:none;text-align:center;margin-top:0px;padding-top:0px;}
+
+
+.Container .PageContents {
+	border: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius:0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	background: #fff;
+	padding: 5px; 
+	overflow: auto;
+	position: relative;
+	margin-top: 0px;
+	color:#404040;
+	
+}
+
+div.PageWrapper .with_sidebar {width:100%;float: none;border-right:none;}
+
+
+/* Clearfix */
+footer:before {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+/*--------------------------------------------
+Hacks and Fixes
+---------------------------------------------*/
+
+/* Clearfix */
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: none;
+	visibility: visible;
+
+}
+ 
+.clearfix {
+	display: block;
+}
+ 
+
+
+/*--------------------------------------------
+Specific Page Fixes
+**Add your specific page adjustments here!*
+---------------------------------------------*/
+
+.ExNom-AppointeeWrapper,
+.ExNom-Appointee {page-break-inside:avoid !important;}
+	
+.MemberInfoList-MemberWrapper,
+.MemberInfoContact-Member,
+.MemberInfoCteeList-Member {page-break-inside:avoid !important;}
+
+#LT-IntroDisplay .BillInfo-Container,
+#LT-Actions .Action-Wrapper {page-break-inside:avoid !important;}
+
+
+.DSU-SubscribeContainer-CteeInfo,
+.DSU-SubscribeContainer-BillInfo {display:none;}
+table.CteeInfo-InCtee .CteeInfo-InCtee-ShortTitle div {height: auto; overflow:visible;}	
+
+.BillInfo-NavLinks  {display:none;}
+.BillInfo-NavLinks2 {display:none;}
+.BillInfo-AgencyNotify {display:none;}
+
+
+.TextSearch-ResultItem {page-break-inside:avoid !important;}
+
+/* ===============================================================	
+*  Roll Calls
+*  PageID: RCVotesSum 
+*  PageID: PageRollCallView
+*  ===============================================================*/	
+#RCVotesSum {}
+	#RCVotesSum .RCVotesHeaders {width: 30px;}
+	#RCVotesSum .RCVotesLine {width: 97px;}
+	#RCVotesSum .RCVotesTotals {width: 60px; text-align:right;}
+	#RCVotesSum .RCVotesTotalCount {margin-top:-10px; width:91px;}	
+	
+#PageRollCallView {}
+
+	#PageRollCallView .RollCalls-ListContainer {margin-bottom: 0px; font-size:11px; padding: 0px;}
+	#PageRollCallView .Column-OneFourth {margin-bottom: 0px; padding: 0px;}	
+	#PageRollCallView .RollCalls-Vote-House {text-align:left; padding-top:0px; padding-bottom:0px; padding-left:2px; padding-right:2px;}
+	#PageRollCallView .RollCalls-Vote-Senate {text-align:left; padding:10px;}
+	#PageRollCallView .Speaker {padding-top: 14px;}		

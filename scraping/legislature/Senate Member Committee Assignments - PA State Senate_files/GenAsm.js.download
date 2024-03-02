@@ -1,0 +1,51 @@
+/*
+ * AddBillSummaryTooltip()
+ * 
+ * @element: Using a jquery selector, the element to attach the event to. 
+ * @SessionYear: the session year
+ * @SessionInd: SessionIndicator
+ * @BillBody: The bill body
+ * @BillType: The bill type
+ * @BillNoL: THe Bill no.
+ * Example: 
+ * jQuery(document).ready(function() {
+	    AddBillSummaryTooltip('#Ex1_HB780',2013,0,'H','B','780')  
+	 });
+ */
+function AddBillSummaryTooltip(element,SessionYear,SessionInd,BillBody,BillType,BillNo) {
+     jQuery(element).qtip({
+        content: {
+            text: function(event, api) {
+                jQuery.ajax({
+                    url: g_ServerURL + '/cfdocs/cfc/GenAsm.cfc?returnformat=plain',
+					data: {
+						method: 'GetBillSummaryTooltip',
+						SessionYear: SessionYear,
+						SessionInd: SessionInd,
+						BillBody: BillBody,
+						BillType: BillType,
+						BillNo: BillNo,
+						IsAjaxRequest: 1
+					}
+                })
+				
+                .then(function(content) {
+                    // Set the tooltip content upon successful retrieval
+                   api.set('content.text', content);
+                }, function(xhr, status, error) {
+                    // Upon failure... set the tooltip content to error
+                    api.set('content.text', "Failed to load bill information" + ': ' + error);
+                });
+    
+                return 'Loading...'; // Set some initial text
+            }
+								
+        },
+		position: {
+			effect: false,
+			viewport: jQuery(window)
+		}		
+     });
+}//AddBillSummaryTooltip
+	
+// Create the tooltips only when document ready

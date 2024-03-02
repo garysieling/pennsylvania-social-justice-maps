@@ -10,7 +10,7 @@ const DISCOVERY_DOC = 'https://sheets.googleapis.com/$discovery/rest?version=v4'
 
 
 window.onTokenReceived = function(resp) {
-    console.log('token client callbacl')
+    console.log('token client callback')
     if (resp.error !== undefined) {
         throw (resp);
     }
@@ -44,7 +44,6 @@ class SheetPicker extends React.Component {
         
                 if (window.gapi.client.getToken() === null) {
                     console.log('requesting token')
-
                     // Prompt the user to select a Google Account and ask for consent to share their data
                     // when establishing a new session.
                     window.tokenClient.requestAccessToken({prompt: 'consent'});

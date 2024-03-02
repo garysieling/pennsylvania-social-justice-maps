@@ -1,0 +1,184 @@
+/* Layout.js
+ * @requires jQuery (http://jquery.com)
+ * 
+ * !!!!!!!!!!!!!! IMPORTANT!!!!!!!!!!!!!!!!!!!!!!!!!!
+ * This is the uncompressed version of Layout-Min.js. When you make a change here, you MUST minify your version to get the 
+ * change to be picked up. You can minify here: http://www.jsmini.com/. Select option: "Basic compression (removes whitespace & comments only)"
+ * Once minified, paste into Layout-Min.js.
+ * 
+ */
+	
+//Tooltip default settings according to this layout
+	jQuery.fn.qtip.defaults = jQuery.extend(true, {}, jQuery.fn.qtip.defaults, {
+		show: {
+			effect: function() { jQuery(this).fadeIn(150); }
+		},
+		hide: {
+			effect: function() { jQuery(this).fadeOut(150); },
+			delay: 250, //This assists with the fixed setting so the user has time to hover over bubble.
+			fixed: true // Make it fixed so it can be hovered over
+		},
+		position: {
+			my: 'bottom center',
+			at: 'top center'
+		},
+		style: {
+			classes: 'qtip-tipsy'
+		}
+	});
+		
+				
+jQuery(document).ready(function() {
+	
+	
+	//Form Validator defaults.
+	jQuery.validator.setDefaults({
+		showErrors: function(map, list) {
+			if (list.length) {
+				var defaultMessage = "There were errors in your input. Please check the following:<br/><br/>";
+				var errorMessage = "";
+				// there's probably a way to simplify this
+				jQuery.each(list, function(index, errorObj){
+					errorMessage += '   - ' + errorObj.message + '<br/>';
+				});
+				var errorMessage = defaultMessage + errorMessage;
+				_alert(errorMessage);
+				return false;
+			}
+		},
+		//Remove validation event handlers.
+		onfocusout: function() {},
+		onkeyup: function() {},
+		onclick: function() {}
+	});
+	
+	//Set date picker defaults
+	jQuery.datepicker.setDefaults({
+		showButtonPanel: true ,
+		showOn: "both",
+		buttonImage: UI.CalendarImage,
+		buttonImageOnly: true,
+		changeMonth: true,
+		changeYear: true
+	});
+	
+	/* This will add a border to extend from top to bottom of the content area 
+	 * by dynamically determining the height of two columns and then applying a class accordingly
+	 */
+	try {
+		
+		var Left = '.with_sidebar';
+		var Left_Height = jQuery(Left).height();
+		
+		var Right = '.PageContents aside';
+		var Right_Height = jQuery(Right).height();
+
+		//console.log("Left: " + Left_Height);
+		//console.log("Right: " + Right_Height);
+		
+		// If the RIGHT column is heigher than the LEFT, add border to the RIGHT column  
+		if (Left_Height < Right_Height) {
+			//console.log('Adding border to RIGHT column');
+			jQuery(Right).addClass('Column-BorderLeft');
+		}
+		
+		// If the LEFT column is heigher than the RIGHT, add border to the LEFT column  
+		if (Left_Height > Right_Height) {
+			//console.log('Adding border to LEFT column');
+			jQuery(Left).addClass('Column-BorderRight');
+		}
+	}
+	catch(err) {
+		//Not important to throw error if it doesn't work
+	}	
+
+	// Form hints	
+	jQuery("#FormQuickSearch label").inFieldLabels({ fadeOpacity: 0.4 });
+	
+	jQuery('#QuickSearch').qtip({
+		content: 'You can enter a variety of search terms here. Examples:<br/>Bill/Resolution: "SB923" or "2011SB923"<br/>Amendment: "A477" or "2013A477"<br/>Keyword: "budget". <br/>',		
+		position: {
+			my: 'right center',
+			at: 'left center'
+		},		
+		show: {event: 'focus'},
+		hide: {event: 'blur'},
+		solo:true
+	});
+	
+	// Twitter widget (in the footer)
+	
+	
+	// Drop down menus
+	jQuery("header nav ul li").hover(function() {
+		if(jQuery(this).find("ul").size != 0) {
+			jQuery(this).find("ul:first").stop(true, true).fadeIn("fast");
+		}
+	}, function() {
+		jQuery(this).find("ul:first").stop(true, true).fadeOut("fast");
+	});
+	
+	jQuery("header nav ul li").each(function() {
+		jQuery("ul li:last a", this).css({ 'border' : 'none' });
+	});
+	
+	// Tooltips
+	jQuery("a[rel=tooltip],a[title],span.icon[title]").qtip();
+	
+	
+	// Attach tooltip events to social media links.
+	jQuery("ul.Social li a").each(function() {
+		var title_text = jQuery(this).attr("title");
+		jQuery(this).qtip({
+				content: function() {
+					return title_text;
+				},
+				position: {
+					my: 'top center',
+					at: 'bottom center'
+				}
+		});
+	});
+	
+	// Tabs
+	jQuery(".Tabs").find(".Tabs-Pane:first").show().end().find("ul.Tabs-Nav li:first").addClass("Tabs-Current");
+	jQuery(".Tabs ul.Tabs-Nav li a").click(function() {
+		var tab_container = jQuery(this).parent().parent().parent();
+		jQuery(this).parent().parent().find("li").removeClass("Tabs-Current");
+		jQuery(this).parent().addClass("Tabs-Current");
+		jQuery(".Tabs-Pane", tab_container).hide();
+		jQuery("#"+jQuery(this).attr("class")+".Tabs-Pane", tab_container).show();
+	});
+	
+	// Toggle lists
+	jQuery(".ToggleList ul li .ToggleList-Title").click(function() {
+		var content_container = jQuery(this).parent().find(".ToggleList-Content");
+		if(content_container.is(":visible")) {
+			content_container.slideUp("fast");
+			jQuery(this).find("a.ToggleList-ToggleLink").text(jQuery(this).find("a.ToggleList-ToggleLink").data("open_text"));
+		} else {
+			content_container.slideDown("fast");
+			jQuery(this).find("a.ToggleList-ToggleLink").text(jQuery(this).find("a.ToggleList-ToggleLink").data("close_text"));
+		}
+	});
+	
+	jQuery(".ToggleList ul li .ToggleList-Title").each(function() {
+		jQuery(this).find("a.ToggleList-ToggleLink").text(jQuery(this).find("a.ToggleList-ToggleLink").data("open_text"));
+		if(jQuery(this).parent().hasClass("ToggleList-Opened")) {
+			jQuery(this).parent().find(".ToggleList-Content").show();
+		}
+	});
+
+  	//Set even/odd of table rows
+	jQuery(".DataTable-Grid tbody tr:even,.DataTable tbody tr:even").css("background-color", "#ffffff");
+	jQuery(".DataTable-Grid tbody tr:odd,.DataTable tbody tr:odd").css("background-color", "#FAFAFA");
+
+});//document ready
+
+
+function MessageDismiss(Element) {
+	jQuery(Element).fadeOut();
+}
+
+
+

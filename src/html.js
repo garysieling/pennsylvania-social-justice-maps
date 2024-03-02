@@ -11,6 +11,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
@@ -22,12 +23,10 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
       </body>
-      
+
       <script async defer src="https://apis.google.com/js/api.js"></script>
       <script async defer src="https://accounts.google.com/gsi/client"></script>
-      <script>
-        
-      </script>
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     </html>
   )
 }

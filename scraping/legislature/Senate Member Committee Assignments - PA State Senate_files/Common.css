@@ -1,0 +1,1082 @@
+/* Generic Classes */
+/* ===============================================================	
+*  Generic Classes
+*  These clases can be used anywhere. If you need to overwrite them,
+*  specify your page ID in the approproate section and overwrite accordingly
+*  ===============================================================*/
+/* Recent Roll Call votes table */
+table.RecentRollCallVotes {}
+table.RecentRollCallVotes td.RecentRollCallVotes-Measure {width:auto;}
+table.RecentRollCallVotes td.RecentRollCallVotes-Counts {width:45%}
+table.RecentRollCallVotes .RollCalls-Vote-Yeas {width:83px;float:left; }
+table.RecentRollCallVotes .RollCalls-Vote-Nays {width:83px;float:left;}
+table.RecentRollCallVotes .RollCalls-Vote-Lve {width:75px;float:left; }
+table.RecentRollCallVotes .RollCalls-Vote-NVote {width:75px;float:left; }
+
+
+
+
+/* Generic Class for roll call votes (thumbs up, thumbs down, etc) */
+.RollCalls-Vote-Yeas {color:#008000;}
+.RollCalls-Vote-Nays {color:#ff0000;}
+.RollCalls-Vote-Lve {color:#000000;}
+.RollCalls-Vote-NVote {color:#000000;}	
+
+/* ========================= end generic classes ================================= */
+
+/* DSU */
+
+.DSU-SubscribeContainer-BillInfo /* used on bill info page. */
+{
+	float:right;
+	width: 200px; 
+	margin-left:10px; 
+	padding-top:5px;
+	padding-left:10px;
+	padding-bottom:0px;
+	height:60px;
+}
+
+.DSU-SubscribeContainer-BillInfo.Message-Info {margin-bottom:2px; padding-bottom:2px !important;}
+
+.DSU-SubscribeContainer-CteeInfo /* used on committee info page. */
+{
+	width: 98%;
+	padding: 5px;
+	text-align:left;
+	font-size: 12pt;
+	margin-bottom:10px;
+	margin-top:-20px;		
+}
+
+/* Banner that dynamically displays subscription info for palegis notifications*/
+.DSU-PALegisNotificationsBannerWrapper {
+	background-repeat:no-repeat;
+	min-height:107px;
+	margin-bottom:10px;		
+	position:relative;
+}
+	
+	.DSU-PALegisNotificationsBannerWrapper .DSU-PALegisNotificationsBanner-NotSubscribed,
+	.DSU-PALegisNotificationsBannerWrapper .DSU-PALegisNotificationsBanner-Subscribed {
+	}
+	
+	.DSU-PALegisNotificationsBanner-NotSubscribed {
+		background-image: url('/Resources/Images/Banners/Generic/PALegisNotifications-Ctee.jpg?v=20131202');
+
+	}
+	
+	.DSU-PALegisNotificationsBanner-Subscribed {
+		background-image: url('/Resources/Images/Banners/Generic/PALegisNotifications-Ctee-Subscribed.jpg?v=20131202')
+	}
+	.DSU-PALegisNotificationsBannerWrapper .DSU-PALegisNotificationsBanner-Text1 {
+		font-family:PTSansNarrowRegular, Arial;
+		color:#003366;
+		margin-left:115px;
+		padding-top:28px;
+		font-size:20px;
+		width:604px;
+		
+	}
+	.DSU-PALegisNotificationsBanner-NotSubscribed .DSU-PALegisNotificationsBanner-Text1 {
+		padding-top:45px;
+	}
+	.DSU-PALegisNotificationsBanner-Subscribed .DSU-PALegisNotificationsBanner-Text1 {
+		padding-top:35px;
+	}
+	
+	.DSU-PALegisNotificationsBanner a {
+		text-decoration:none;
+	}
+	
+	.DSU-PALegisNotificationsBanner-ManageLinks {
+		position:absolute;
+		bottom:5px;
+		left:115px;
+		
+	}
+	.DSU-PALegisNotificationsBanner-ManageLinks a,
+	.DSU-PALegisNotificationsBanner-ManageLinks a:active,
+	.DSU-PALegisNotificationsBanner-ManageLinks a:visited {
+		font-family:PTSansNarrowRegular, Arial;
+		font-size:16px;
+		color:#FEE97E;
+		font-weight:normal;
+	}
+
+
+/* End DSU */
+
+/* Bill Information */
+
+.BillInfo {}
+	.BillInfo tr th {
+		vertical-align:top;
+		white-space:nowrap;
+		font-weight:bold;
+		text-align:left;
+		padding-right:5px;
+	}
+	
+	.BillInfo tr td {
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+	.BillInfo-Actions-AltColor {
+		background-color: #FAFAFA;
+	}
+	
+/* Main Bill Information */
+.BillInfo-Wrapper{} 
+	
+	.BillInfo-BillHeader {
+		text-align:center;
+	}
+	.BillInfo-NavLinks {
+		width:100%;
+	}
+	
+	.BillInfo-NavLinks div {
+		width:75px;
+	}
+	.BillInfo-NavLinks-LinkPrevious {width:50%;float:left;text-align:left;}
+	.BillInfo-NavLinks-LinkNext {width:50%;float:right;text-align:right;}
+	
+	
+	.BillInfo-NavLinks2 {
+		width:450px;
+		height:30px;
+		margin:auto;
+		padding-bottom:20px;
+	}	
+	
+		.BillInfo-NavLinks2 span.icon {
+			margin-right:5px;
+			font-size:24px;
+		}
+		.BillInfo-NavLinks2 div {
+			font-weight:bold;
+			font-size:120%;
+			display:block;
+			float:left;
+			width:32%;
+			height:30px;
+			text-align:center;
+		}	
+		
+	
+		.BillInfo-NavLinks2-Active {font-size:140% !important;}
+		
+	.BillInfo-AgencyNotify {
+		border: 1px solid yellow; background-color: #FFFFCC; padding: 10px; text-align:center;font-weight: bold;
+	}
+	
+	.BillInfo-Section {
+		overflow: hidden;
+		clear: both; 
+		padding:5px;
+		margin-bottom:8px;
+		
+	}
+	.BillInfo-Section-Header {
+		float:left;
+		font-weight:bold;
+		width:110px;
+	}
+	.BillInfo-Section-Data {
+		margin-left:115px;
+	}
+	
+	.BillInfo-SectionWrapper {position:relative;}
+	
+		.BillInfo-SectionWrapper .BillInfo-ShortTitle { }
+		.BillInfo-SectionWrapper .BillInfo-PrimeSponsor {}
+		.BillInfo-SectionWrapper .BillInfo-LastAction {}
+		.BillInfo-SectionWrapper .BillInfo-CosponMemo {}
+		.BillInfo-SectionWrapper .BillInfo-PN {}
+		
+		.BillInfo-SectionWrapper .BillInfo-PNTable {
+			
+		}
+		
+		.BillInfo-SectionWrapper .BillInfo-PNTable thead tr th {
+			text-align:center !important;
+		}
+		
+		.BillInfo-SectionWrapper .BillInfo-PNTable a {
+			text-decoration:none;
+		}
+	
+	.BillInfo-LowerNav {width:300px;margin:auto;}
+	.BillInfo-LowerNav span.icon {margin-right:5px;}
+	
+/* //End Bill Information */	
+
+/* =========================
+ * Member List 
+ * =========================
+ * Page: mbrList.cfm
+ * 
+ * */
+
+.MemberInfoList-ListContainer
+	{
+		width: 98%;
+		margin-top: 20px;
+		
+	}
+	.MemberInfoList-ListSortNav {
+
+	}
+	.MemberInfoList-ListSortNav ul {}
+	.MemberInfoList-ListSortNav ul li {
+		/*
+		float:left;
+		width:auto;
+		border:1px solid red;
+		padding:10px 20px 10px 20px;
+		*/
+	}
+	.MemberInfoList-ListSortNav .Selected {}
+	
+	.MemberInfoList-MemberWrapper
+	{
+
+		height: 77px;
+		text-align: left;
+		margin:10px 0 10px 0;
+		
+	}
+	
+	.MemberInfoList-PhotoThumb
+	{
+		float:left; 
+		margin-right: 10px; 
+
+	}
+	
+	
+	
+	.MemberInfoList-MemberBio {
+		margin-left:60px;
+	}
+
+/* Member Bio Page */
+.NonMemberBio-Main {}
+.MemberBio {}
+	.MemberBio aside {
+		float: left !important; 
+		width: 210px !important;
+		margin-top:10px;
+	}
+	
+	.MemberBio .MemberBio-Main {
+		width: auto; 
+		margin-left: 230px;
+	}
+	
+	.MemberBio .MemberBio-Main h4 {
+		margin-top:20px;
+		margin-bottom:5px;
+	}
+	
+	.MemberBio-MemberPhoto {}
+	
+	.MemberBio-SocialLinks {}
+	.MemberBio-SocialLinks a {text-decoration:none;}
+	.MemberBio-SocialLinks .icon{
+		font-size:32px;
+	}
+	
+	.MemberBio-ContactInfo address {
+		font-weight:normal;
+		font-style:normal;
+		margin-bottom:25px;	
+	}
+	
+	.MemberBio-DistrictInfo {font-weight:bold;}
+	.MemberBio-DistrictInfo a {font-weight:normal;}
+	
+	.MemberBio-TermInfo {}
+	
+	.MemberBio address {
+		margin-bottom:15px;
+	}
+
+/* Non member bio */
+.NonMemberBio-Main {}
+	
+	.NonMemberBio-Main address {
+		font-weight:normal;
+		font-style:normal;
+		margin-bottom:25px;	
+	}
+	
+	.NonMemberBio-MemberPhoto {
+		float:right;
+		margin-top:-30px;
+		margin-right:30px;
+	}
+
+/* Member Information - Officers */	
+table.MemberInfo-OfficerTable {}
+		
+	table.MemberInfo-OfficerTable tbody tr th {
+		text-align:left;
+		font-weight:bold;
+	}
+	
+/* Member Info - Committee Listing */
+.MemberInfoCteeList {}
+	.MemberInfoCteeList .MemberInfoCteeList-Member {
+		margin-bottom:10px;
+		padding-bottom:10px;
+		
+		border-bottom: 1px solid  #DDDDDD;
+	}	
+	.MemberInfoCteeList-PhotoThumb {
+		
+		/*height: 55px; 
+		width: 55px; 
+		overflow: hidden; */
+		float:left; 
+		margin-right: 10px; 
+	}	
+	
+	.MemberInfoCteeList-Bio {
+		float:left;
+		width:250px;
+		font-weight:bold;
+	}
+	
+	.MemberInfoCteeList-List {
+		float:left;
+		width:45%;
+	}
+	
+/* ===============================================================	
+*  Member Info - COntact 
+*  ===============================================================*/
+.MemberInfoContact-Member {
+	margin-bottom:10px;
+	padding-bottom:10px;
+	height:55px;
+	border-bottom: 1px solid  #DDDDDD;
+}	
+	.MemberInfoContact-PhotoThumb {
+		
+		height: 55px; 
+		width: 55px; 
+		overflow: hidden; 
+		float:left; 
+		margin-right: 10px; 
+	}	
+	
+	.MemberInfoContact-Bio {
+		float:left;
+		width:250px;
+	}
+	
+	.MemberInfoContact-SocialContainer {
+		margin-left:315px;
+		width:auto;
+		/*float:right;*/
+		height:55px;
+	}
+	.MemberInfoContact-SocialContainer a {text-decoration:none;}
+	.MemberInfoContact-SocialContainer .MemberInfoContact-SocialItem {
+		float:left;
+		width:10%;
+	}
+	
+	.MemberInfoContact-SocialContainer .MemberInfoContact-SocialItem .icon {
+		font-size:24px;
+	}
+	
+	
+	.FilterNav
+	{
+	
+	}
+	
+	.FIlterNav label {float:left;display:inline;}
+	
+	/*This is the size of the icon in the select box */
+	.dd-option-icon {font-size:24px;}	
+	
+
+
+/* ===============================================================	
+*  Committee Information / Standing Committees
+*  ===============================================================*/
+.CteeInfo-HeaderNameContainer {text-align:center;}
+	
+	.CteeInfo-OfficerContainer {
+		width: 80%;
+		padding: 10px 0 10px 0;
+		margin: 5px auto 20px auto;
+		height:190px;
+	}
+	
+	.CteeInfo-OfficerName {font-size:130%;font-weight:bold;text-align:center;}
+	.CteeInfo-OfficerPosition {font-size:130%; text-align:center;}
+	.CteeInfo-OfficerPhoto {margin:auto;text-align:center;}
+	
+	.CteeInfo-MajorityList {}
+	
+	.CteeInfo-MajorityList,
+	.CteeInfo-MinorityList {
+		margin-bottom:25px;
+	}
+	.CteeInfo-MajorityList ul li span,
+	.CteeInfo-MinorityList ul li span {
+		font-size: 85%;
+	}
+	
+	.CteeInfo-Meetings-ViewAll
+	{
+		float: right;
+		top: 10px;
+		right: 0px;
+	}
+	
+	.CteeInfo-ViewAll {float:right;}
+	
+	/* Alot of these are declared in cms_display.cfc */
+	
+	.CMS-MeetingDetail {margin-bottom:5px; }
+	.CMS-MeetingDetail-Wrapper {margin-bottom:10px; }
+	
+	.CMS-MeetingDetail .CMS-MeetingDetail-Header {padding-top:1px;padding-bottom:1px;}
+	
+	.CMS-House-Notice {width:75%; text-align:justify; }
+	.CMS-House-Header { margin-top:10px; }
+	
+	.CMS-MeetingDetail .CMS-MeetingDetail-Detail {}
+	
+	.CMS-MeetingDetail .CMSSchedule-Cancelled {display:inline-block; text-align:left; color:red; margin-left:5px; }
+	
+	.CMS-MeetingDetail .CMSSchedule-Broadcasted {display:block; margin:auto;text-align:left;}
+	
+	/* start 3 cells of the meeting schedule */
+	.CMS-MeetingDetail .CMS-MeetingDetail-CurrMeeting { width:100%; }
+	.CMS-MeetingDetail .CMS-MeetingDetail-CurrMeeting td { padding:5px; }
+	.CMS-MeetingDetail .CMS-MeetingDetail-CurrMeeting .CMS-MeetingDetail-Time { width:10%; vertical-align:top;  }
+	.CMS-MeetingDetail .CMS-MeetingDetail-CurrMeeting .CMS-MeetingDetail-Agenda { text-align:left; width:65%; vertical-align:top; }
+	.CMS-MeetingDetail-Agenda-Wrapper { width:95%; }
+	.CMS-MeetingDetail .CMS-MeetingDetail-CurrMeeting .CMS-MeetingDetail-Location {width:20%; vertical-align:top; }
+	/* end 3 cells of the meeting schedule */
+	
+	.CMS-MeetingDetail-Agenda-CommitteeName {font-weight:bold;}
+	.CMS-MeetingDetail-Agenda-Summary {}
+	
+	.CMS-CompleteSchedule {}
+	
+	
+	.CMS-Senate-Disclaimer { clear:both; width:100%; text-align:center; padding-bottom:10px; padding-top:10px; }
+	
+	table.CteeVotes {}
+	table.CteeVotes .CteeVotes-Date {}
+	table.CteeVotes .CteeVotes-Bill {}
+	table.CteeVotes .CteeVotes-Action {}
+	
+	
+	table.CteeInfo-InCtee {}
+	table.CteeInfo-InCtee tbody tr td {vertical-align:top;}
+	table.CteeInfo-InCtee .CteeInfo-InCtee-BillNbr {}
+	table.CteeInfo-InCtee .CteeInfo-InCtee-Sponsors {width:100px;}
+	table.CteeInfo-InCtee .CteeInfo-InCtee-ShortTitle div {height: 20px; overflow:hidden}	
+	
+	
+	
+/* ===============================================================	
+*  DTSearch related search results
+*  ===============================================================*/	
+.TextSearch-ResultsWrapper {}
+	
+	.TextSearch-Loader p {
+		font-size: 150%;
+		font-weight: bold;
+		text-align: center;
+	}
+	.TextSearch-FilterNav {}
+	.TextSearch-FilterNav select {
+		width: 145px;
+		font-size: 90%;
+	}
+	
+	.TextSearch-Header { display: none; }
+	
+	.TextSearch-ResultItem { margin-bottom: 15px; }
+	.TextSearch-ResultItem-HeaderContainer { clear: both; width: 100%; }
+	.TextSearch-ResultItem-HeaderContainer .TextSearch-ResultItem-DocumentTitle {
+		font-weight: bold;
+		float: left;
+		width: 100%;
+	}
+	.TextSearch-ResultItem-HeaderContainer .TextSearch-ResultItem-HitStats {
+		white-space: nowrap;
+		vertical-align: bottom;
+		padding-bottom: 0;
+		float: right;
+		padding-left: 50px;
+		font-weight: normal;
+	}
+	.TextSearch-ResultsItem-Summary {
+		margin-left: 15px;
+		clear: both;
+	}
+	
+	.TextSearch-ResultsItem-FieldLabel {
+		font-style: italic;
+		width: 110px;
+		white-space: nowrap;
+	}
+	
+	.TextSearch-ResultsItem-DocLinks {
+		font-weight: bold;
+		/*font-size: 110%;*/
+	}
+	
+/* ===============================================================	
+*  DTSearch related search results
+*  PageID: TopicIndexPublic / TopicIndex
+*  ===============================================================*/	
+
+/* TopicIndexPublic */
+#TopicIndexPublic .TopicIndex-Topic-Major-Count {font-size:90%;}
+#TopicIndexPublic table.TopicIndex-TopicList tbody tr td {vertical-align:top}	
+
+/* TopicIndex */
+#TopicIndex .TopicIndex-IntroText p {text-align:center;font-size:125%;}
+#TopicIndex .TopicIndex-FontJumbo {font-size:200%}
+
+#TopicIndex .TopicIndex-Topic-Wrapper {
+	width:100%; margin-top:15px;
+}
+#TopicIndex .TopicIndex-Topic-Container {
+}
+#TopicIndex .TopicIndex-Topic-Description {
+	text-indent:-15px;
+	padding-left:25px;
+	padding-top:8px;
+	pading-bottom:8px;
+}
+
+#TopicIndex .TopicIndex-Topic-Container .TopicIndex-PrintLink {text-align:right;}
+
+#TopicIndex .TopicIndex-Minor-Heading {}
+
+#TopicIndex .TopicIndex-Minor-Bill { text-indent:-15px; margin:5px;}
+
+#TopicIndex .TopicIndex-SessionSelectContainer {margin:auto;width:50%}
+#TopicIndex .TopicIndex-AlphabetContainer {text-align:center;margin:10px 10px;}
+#TopicIndex .TopicIndex-AlphabetContainer a {font-size:125%;}
+#TopicIndex .ButtonHover {padding:6px;}
+
+#TopicIndex .TopicIndex-LetterSelected {}
+
+/* ===============================================================	
+*  Executive Nominations Information
+*  PageID: ExNom
+*  ===============================================================*/	
+#ExNom {}
+	.ExNom-FilterNav div {
+			 display: block;
+		    float: left;
+		    font-size: 120%;
+		    font-weight: bold;
+		    height: 30px;
+		    text-align: center;
+		    width: 32%;
+			
+	}
+	
+	.ExNom-FormSearch {}
+	.ExNom-FormSearch select {width:350px;}
+	.ExNom-FormSearch .row {overflow:visible !important; }
+	.ExNom-FormSearch button {float:right;}
+	
+	.ExNom-FormSearch #ConfirmDate {width:100px;}
+	
+	div.ExNom-AppointeeWrapper {}
+	div.ExNom-AppointeeList {
+		
+	}
+	
+	.ExNom-ExpiredLink {font-size:75%;}
+	
+	.ExNom-Appointee {
+		margin-bottom:10px;
+		padding-left:10px;
+		padding-right:10px;
+		padding-top:10px;
+		padding-bottom:10px;	
+		width:95%;
+	}
+	
+	.ExNom-Appointee-Name {font-weight:bold;font-size:14px;}
+	.ExNom-Appointee-Details {margin-top:5px;margin-left:10px;}
+	.ExNom-Appointee-Details-Label {font-weight:bold;float:left;width:80px;}
+	.ExNom-Appointee-Details-ExpireDate {}
+	.ExNom-Appointee-Details-AppointedDate {}
+	.ExNom-Appointee-Details-Links {width:215px;float:right; border:1px dashed #acacac;}
+	
+	.ExNom-Appointee-Details-Links .ExNom-Appointee-Details-Links-Letter,
+	.ExNom-Appointee-Details-Links .ExNom-Appointee-Details-Links-RollCallPDF,
+	.ExNom-Appointee-Details-Links .ExNom-Appointee-Details-Links-RollCallHTTP {
+		padding:4px;
+		
+	}
+	
+	/* Recent noms */
+	table.ExNom-RecentNomsTable td.ExNom-Appointee-Name {font-weight:normal;font-size:inherit;width:40%;}
+	table.ExNom-RecentNomsTable td.ExNom-Appointee-PositionName {font-weight:normal;font-size:inherit;width:50%;}
+	table.ExNom-RecentNomsTable td.ExNom-Appointee-Details-AppointedDate {width:10%;text-align:center;}
+	table.ExNom-RecentNomsTable td.Actions {width:5%;}
+	
+	/* ---  End ExNom --- */
+	
+/* ===============================================================	
+*  GenAsm HomePages
+*  PageID: PageHome, PageSenate, PageHouse
+*  ===============================================================*/	
+
+div#PageHome { padding-top: 0; }
+
+		
+	div#PageHome .PageContents .PageContents-Column-Left,
+	div#PageSenate .PageContents .PageContents-Column-Left,
+	div#PageHouse .PageContents .PageContents-Column-Left {
+		float:left;
+		width:250px;
+		padding-left:3px;
+		padding-right:3px;
+	}
+	
+	div#PageHome .PageContents .PageContents-Column-Right,
+	div#PageSenate .PageContents .PageContents-Column-Right,
+	div#PageHouse .PageContents .PageContents-Column-Right {
+		float:right;
+		width:250px;
+		padding-right:3px;
+	}
+	
+	div#PageHome .PageContents .PageContents-Column-Center,
+	div#PageSenate .PageContents .PageContents-Column-Center,
+	div#PageHouse .PageContents .PageContents-Column-Center {
+		margin-left:260px;
+		width:725px;
+		padding-left:5px;
+		padding-right:5px;
+	}
+	
+	div#PageHome .PageContents .PageContents-Border-ThreeColumns {
+		border-left:1px solid #C9C9C9;
+		border-right: 1px solid #C9C9C9;
+	}
+
+	
+
+/* These styles accompany the div.Tabs style already attached to the tabset */
+#PageHome div.TabsetHome ul.Tabs-Nav li {
+	margin-right: 0px;
+}
+	
+	#PageHome div.TabsetHome ul.Tabs-Nav li a {
+		font-family: 'Prociono';
+		color: #1F389C !important;
+		white-space: nowrap;
+		font-size: 18px;
+		padding: 8px 10px;
+	}
+	
+	#PageHome div.TabsetHome ul.Tabs-Nav li.Tabs-Current a {
+		white-space: nowrap;
+	}
+	
+	#PageHome div.TabsetHome ul.Tabs-Nav li {
+	}
+	
+#PageHome div.TabsetHome .CMS-Item{}
+#PageHome div.TabsetHome .CMS-Item-HeaderDate {font-size:13px;font-weight:bold;margin-top:5px;}
+#PageHome div.TabsetHome .CMS-Item-MeetingLocation {}
+#PageHome div.TabsetHome .CMS-Item-MeetingDetail {} /* this is hidden */
+#PageHome div.TabsetHome .CMS-Item-iCalLinks {font-size:11px;padding-top:5px;padding-bottom:5px;}
+
+#PageHome div.TabsetHome .Widget-FloorSchedule-CompleteSchedule,
+#PageHome div.TabsetHome .CMS-Item-CompleteSchedule {font-size:11px;font-weight:bold;text-align:right;}
+
+
+#PageHome div.TabsetHome .CMS-Item li {
+	padding-bottom:5px;
+}
+
+	
+/* Member Bio */
+#PageHome div.TabsetHome .MemberBio {
+	height: 150px;
+}
+	
+	#PageHome div.TabsetHome .MemberBio-Photo {
+		float: left;
+		padding: 5px;
+		text-align: center;
+		border: 1px solid #EBEBEB;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		background: #fff;
+		margin-bottom: 8px;
+		width: 100px;
+		height: 140px;
+	}
+	
+	#PageHome div.TabsetHome .MemberBio-Details {
+		margin-left: 120px;
+		width: 85%;
+	}
+	
+	#PageHome div.TabsetHome .MemberBio-Name {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	
+	#PageHome div.TabsetHome .MemberBio-District {
+		font-weight: bold;
+	}
+	
+	#PageHome div.TabsetHome .MemberBio-Snippet {
+		padding-top: 8px;
+	}
+	
+	#PageHome div.TabsetHome .MemberBio-LearnMore {
+		padding-top: 12px;
+	}
+
+/* Rollcall votes */
+#PageHome div.TabsetHome .RecentRollCallVotes {
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+	
+	#PageHome div.TabsetHome .RecentRollCallVotes dt {
+		font-weight: bold;
+	}
+	
+	#PageHome div.TabsetHome.RecentRollCallVotes dd {
+		margin-left: 12px;
+	}	
+	
+	#PageHome div.TabsetHome .RecentRollCallVotes dd .RollCalls-Vote-Yeas {width:83px;float:left;}
+	#PageHome div.TabsetHome .RecentRollCallVotes dd .RollCalls-Vote-Nays {width:83px;float:left;}
+	#PageHome div.TabsetHome .RecentRollCallVotes dd .RollCalls-Vote-Lve {width:75px;float:left;}
+	#PageHome div.TabsetHome .RecentRollCallVotes dd .RollCalls-Vote-NVote {width:75px;float:left;}
+	.RecentRollCallVotes-Counts {width:45%}
+
+
+
+
+
+#PageHouse .HomeBanner {
+	background: url('/Resources/Images/House-HomePageBanner1.jpg?t=20131114');		
+	height:200px;
+}
+
+#PageSenate .HomeBanner {
+	background: url('/Resources/Images/Senate-HomePageBanner1.jpg');		
+	height:200px;
+}
+
+
+#PageHouse .PageContents-Column-Left .Widget h5 {margin-top:15px;margin-bottom:10px;}
+#PageSenate .PageContents-Column-Left .Widget h5 {margin-top:15px;margin-bottom:10px;}
+
+.HomeBanner .HomeBanner-Overlay {
+	z-index:400;
+	position:relative;
+	top:35px;
+	height:132px;
+	width:665px;
+	background: rgba(255, 255, 255, 0.65);
+}
+
+/* Used only during active session */
+.HomeBanner .HomeBanner-Overlay-Alt {
+	z-index:400;
+	position:relative;
+	top:20px;
+	height:160px;
+	width:665px;
+	background: rgba(255, 255, 255, 0.65);
+}
+
+.HomeBanner-Overlay-Contents {color:z-index:500}
+.HomeBanner-Overlay-Icon {float:left;font-size:96px;padding-left:10px;height:100px;}
+.HomeBanner-Overlay-TextWrapper {padding-top:14px;}
+.HomeBanner-Overlay-Text1,.HomeBanner-Overlay-Text2 {font-size:28px;}
+.HomeBanner-Overlay-Text2 {margin-left:10px;}
+
+.HomeBanner-Overlay-Text1-Alt1 {font-size:26px;}
+.HomeBanner-Overlay-Text2-Alt1 {font-size:28px;}
+
+.HomeBanner-Overlay-Text1-Alt1-NonVoting {font-size:30px;} /* Used on non-voting session days. This is used to offset becuase HomeBanner-Overlay-Text2-Alt1 won't be used */
+
+.HomeBanner-Overlay-Votes {margin-top:20px;margin-left:15px;}
+.HomeBanner-Overlay-Votes .HomeBanner-Overlay-Votes-Title {font-weight:bold;font-size:16px;}
+.HomeBanner-Overlay-Votes .HomeBanner-Overlay-Votes-Text {font-weight:bold;}
+
+/* ===============================================================	
+*  Session Information
+*  PageID: SessionInformation
+*  ===============================================================*/
+#SessionInformation {}
+	#SessionInformation .SessionInfo-Item { clear: both;margin-left:10px;height:20px;padding-top:5px;padding-bottom:5px;}
+	#SessionInformation .SessionInfo-WatchSession{}
+	#SessionInformation .SessionInfo-RSSLink {float:left;width:20px;}
+	#SessionInformation .SessionInfo-RSSLink a {text-decoration:none;}
+	#SessionInformation .SessionInfo-Item-Link {float:left;}
+	
+	
+	
+/* ===============================================================	
+*  Session Days
+*  PageID: PageSessionDays
+*  ===============================================================*/	
+#PageSessionDays{}	
+	#PageSessionDays .ConveneInfo {background-color:#eeeeee;border:1px dashed #808080;}
+	#PageSessionDays .ConveneInfo .ConveneInfo-Icon {font-size:32px;float:left;width:45px;border:1px solid #eeeeee;}
+	#PageSessionDays .ConveneInfo .ConveneInfo-Text1-Alt1 {font-size:24px;}
+	#PageSessionDays .ConveneInfo .ConveneInfo-Text1 {font-size:32px;}
+	#PageSessionDays .ConveneInfo .ConveneInfo-Remarks {}
+	#PageSessionDays .ConveneInfo .ConveneInfo-TextWatchSession {font-size:24px;}
+		
+	
+/* ===============================================================	
+*  Session Days
+*  PageID: PageSessionDays
+*  ===============================================================*/	
+#PrevSessionInfo{}	
+	#PrevSessionInfo .ConveneInfo {background-color:#eeeeee;border:1px dashed #808080;}
+	#PrevSessionInfo .ConveneInfo .ConveneInfo-Icon {font-size:32px;float:left;width:45px;border:1px solid #eeeeee;}
+	#PrevSessionInfo .ConveneInfo .ConveneInfo-Text1-Alt1 {font-size:24px;}
+	#PrevSessionInfo .ConveneInfo .ConveneInfo-Text1 {font-size:32px;}
+	#PrevSessionInfo .ConveneInfo .ConveneInfo-Remarks {}
+	#PrevSessionInfo .ConveneInfo .ConveneInfo-TextWatchSession {font-size:24px;}		
+
+
+/* ===============================================================	
+*  RSS Feeds (House and Senate)
+*  PageID: PageRSSFeeds
+*  ===============================================================*/
+#PageRSSFeeds {}	
+	#PageRSSFeeds .FeedInfo {margin-bottom:10px;}
+	#PageRSSFeeds .FeedInfo .FeedInfo-Icon {float:left;}
+	#PageRSSFeeds .FeedInfo .FeedInfo-Info {float:left;}
+	
+	#PageRSSFeeds .AppStores { margin-top:15px}
+	#PageRSSFeeds .AppStores .AppStores-App {height:60px;text-align:center;border:1px solid #c0c0c0;padding-top:10px;padding-bottom:5px;}	
+/* ===============================================================	
+*  Roll Calls
+*  PageID: RCVotesSum
+*  PageID: PageRollCallView
+*  ===============================================================*/	
+#RCVotesSum {}
+	#RCVotesSum .RCVotesHeaders {width: 60px;}
+	#RCVotesSum .RCVotesLine {width: 120px;}
+	#RCVotesSum .RCVotesTotals {width: 50px; text-align:right;}
+	#RCVotesSum .RCVotesTotalCount {margin-top:-10px; width:111px;}	
+
+#PageRollCallView {}
+
+	#PageRollCallView .RollCalls-ListContainer {}
+	#PageRollCallView .RollCalls-Vote-House {text-align:left; padding:10px;}
+	#PageRollCallView .RollCalls-Vote-Senate {text-align:left; padding:10px;}
+	#PageRollCallView .Speaker {padding-top: 47px;}		
+
+/* ===============================================================	
+*  Amendments By Date/Amendment List
+*  PageID: PageAmendsByDate, PageAmendsList
+*  ===============================================================*/	
+	#PageAmendsByDate .AmendsByDate-BillNo {
+		font-weight:bold;
+		font-size:110%;
+		margin-bottom:8px;
+	}
+	
+	#PageAmendsByDate .AmendsByDate-Wrapper {
+		margin-bottom:8px;
+		margin-top:8px;
+	}
+	
+	#PageAmendsByDate .AmendsByDate-AmendNo {float:left; width:60px; font-weight:bold;margin-bottom:3px;}
+	#PageAmendsByDate .AmendsByDate-FileTypes {float:left;width:85px;margin-bottom:3px;}
+	#PageAmendsByDate .AmendsByDate-FileTypes span.icon {display:inline-block;width:18px;}
+	#PageAmendsByDate .AmendsByDate-MemberName {float:left; width:100px;margin-bottom:3px;}
+	#PageAmendsByDate .AmendsByDate-RCVotes {float:left; width:60px;}
+	#PageAmendsByDate .AmendsByDate-WithdrawnFlag {float:left; width:100px;color:red;font-weight:bold;margin-bottom:3px;}
+	
+	
+	#PageAmendsList .AmendList-Wrapper {
+		margin-bottom:5px;
+		margin-top:5px;
+		width:100%;
+		padding:5px;
+	}
+	
+	#PageAmendsList .AmendList-AmendNo {float:left; width:75px;font-weight:bold;}
+	#PageAmendsList .AmendList-FileTypes {float:left;width:100px;}
+	#PageAmendsList .AmendList-FileTypes span.icon {display:inline-block;width:18px;}
+	#PageAmendsList .AmendList-MemberName {float:left; width:100px;}
+	#PageAmendsList .AmendList-RCVotes {float:left; width:100px;}
+	#PageAmendsList .AmendList-WithdrawnFlag {float:left; width:100px;color:red;font-weight:bold;}
+	
+
+/* ===============================================================	
+*  CoSponsorship
+*  PageID: CSMshowMemoPublic
+*  ===============================================================*/	
+#CSMshowMemoPublic ul {margin-left: 40px; margin-top: 10px; margin-bottom: 10px;}	
+#CSMshowMemoPublic ul li {list-style-type: disc;}	
+	
+/* ===============================================================	
+*  Legislative Directory
+*  PageID: PageLD_SearchResults
+*  ===============================================================*/	
+
+#PageLD_Search .LD-HelpLink {float:right;margin-top:-15px;}
+#PageLD_Search .LD-HelpLink .icon {font-size:18px;}
+
+#PageLD_Search .Formset {height:165px;}
+#PageLD_Search .Formset select {max-width:350px;}
+
+#PageLD_Search .Column-OneHalf {width:37%}
+#PageLD_Search .Column-OneHalf.Column-Last {width:58%}
+
+#PageLD_SearchResults .DataTable-Grid {font-size:85%;}
+
+/* ===============================================================
+*  ERROR PAGE
+*  PageID: PageError
+*  ===============================================================*/
+
+#PageError {}
+	#PageError h1 {font-size:38px;text-align:center;font-weight:bold;font-family:PTSans;padding-top:15px;}
+	#PageError h1 small {color:red;}
+	#PageError .PageContents p {text-align:center;font-size:18px;}
+	#PageError a.button {font-size:36px;font-family:PTSans;text-align:center;}
+	#PageError .RequestedPage {display:block;font-family:"Courier New", Courier, monospace;margin:5px 5px;color:#800000;font-weight:bold;}
+
+/* ===============================================================
+*  HOUSE RTKL
+*  PageID: HouseRTKLForm
+*  ===============================================================*/
+#HouseRTKLForm {}
+	#HouseRTKLForm .FormType2 .row { margin-bottom: 0; }
+	#HouseRTKLForm .FormType2 .row label[for=records]{display:block;margin:20px 0 5px;width:550px}
+	#HouseRTKLForm .FormType2 .row textarea{min-height:150px;width:600px}
+	#HouseRTKLForm #internal{margin-top:40px}
+	#HouseRTKLForm #intfieldset{font-weight:700;margin-bottom:20px;padding:5px}
+	#HouseRTKLForm #intfieldset legend{padding:0 5px}
+	#HouseRTKLForm #intfieldset .intlabel{font-style:italic;font-weight:400}
+	#HouseRTKLForm .intlabel{font-weight:700;margin-bottom:5px}
+	#HouseRTKLForm .intlabel span{font-style:normal;margin-left:30px}
+	#HouseRTKLForm #contact{margin-left:50px}
+	#HouseRTKLForm #records_print{border:1px solid #000;height:auto;padding:0 5px;width:540px}
+	#HouseRTKLForm .FormType2 .row label,#HouseRTKLForm .FormType2 .row input[type=text]{width:200px}
+	#HouseRTKLForm #records_print,#HouseRTKLForm #internal{display:none}
+
+/* ===============================================================
+*  	Tooltips (still inherits global styling)
+*  ===============================================================*/
+
+/* Bill summary is used for displaying a uniform tooltip across all bill links */
+.ToolTip-BillSummary {}
+	.ToolTip-BillSummary-Title {font-size:14px;margin-bottom:8px;font-weight:bold;}
+	.ToolTip-BillSummary-PrimeSponsor-Label  {font-weight:bold;margin-top:4px;margin-bottom:4px;}
+	.ToolTip-BillSummary-PrimeSponsor-Label .ToolTip-BillSummary-PrimeSponsor-Value { font-weight:normal;}
+	.ToolTip-BillSummary-ShortTitle {font-weight:normal;}
+	.ToolTip-BillSummary-BillInfoLink {font-weight:normal;margin-top:8px;text-align:right;}
+	
+/* ===============================================================
+*  	WIDGETS
+*  ===============================================================*/
+
+/* Floor Schedule */
+.Widget-FloorSchedule  {
+	font-size:13px;
+}
+
+	.Widget-FloorSchedule .FloorSchedule-ConveneText {}
+	.Widget-FloorSchedule .FloorSchedule-ConveneDateTime {font-weight:bold;}
+	.Widget-FloorSchedule-IconWrapper {float:left;width:10%;margin-top:6px;}
+	.Widget-FloorSchedule-IconWrapper .icon {font-size:20px;}
+	.Widget-FloorSchedule-TextWrapper {float:right;width:85%;}
+	.Widget-FloorSchedule-LinksWrapper {}
+	.Widget-FloorSchedule-LinksWrapper ul li:before {
+		font-family: 'icomoon';
+    	content: "\e245";
+    	/*margin:0 5px 0 -15px;	*/
+		font-size:11px;
+	}
+	.Widget-FloorSchedule-LinksWrapper a {font-size:10px !important;}
+
+/* Find my legislator  */
+.Widget-FindMyLegislator {
+		
+	}
+	
+	.Widget-FindMyLegislator h6 {
+		text-align:left;
+		font-weight:bold;
+	}
+	.Widget-FindMyLegislator ul li {
+		padding:5px;
+	}
+	
+	.Widget-FindMyLegislator ul li:before {
+		font-family: 'icomoon';
+    	content: "\e20b";
+    	/*margin:0 5px 0 -15px;	*/
+		font-size:8px;
+	}
+	
+	
+ /* Sidebar legislation search */
+.Widget-FindLegislation .FormType1 {
+}
+        
+	.Widget-FindLegislation .FormType1 div.row label {
+		display: block;
+		float: left;
+		width: 62px;
+		margin-top: 5px;
+	}
+	
+	.Widget-FindLegislation form input[type =
+	"text"] {
+		min-width: 90px;
+		width: 90px;
+		margin-right: 4px;
+	}
+	
+	.Widget-FindLegislation form select {
+		min-width: 110px;
+		width: 110px;
+		margin-right: 4px;
+	}
+	
+/* RSS Link */
+.RSSLink {
+	float:right;
+	margin-top:10px;
+	font-size:14px;
+	font-weight:bold;
+	color:#666666;
+	display:table-cell;
+}
+	.RSSLink-Label {display:table-cell;vertical-align:middle;padding-right:4px;}
+	.RSSLink a {display:table-cell;}
+        
+	
+

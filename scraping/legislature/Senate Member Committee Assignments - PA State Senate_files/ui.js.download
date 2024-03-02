@@ -1,0 +1,373 @@
+ //Ajax Utility
+var AjaxUtil = function(){
+
+	return {
+		SendError: function(ErrorMessage,jqXHR,exception){
+			
+			
+			if (typeof(jqXHR) != 'undefined') {
+
+				if (jqXHR.status === 0) {
+	               var StatusMessage = 'Not connect.\n Verify Network.';
+	            } else if (jqXHR.status == 404) {
+	                var StatusMessage = 'Requested page not found. [404]';
+	            } else if (jqXHR.status == 500) {
+	                var StatusMessage = 'Internal Server Error [500].';
+	            } else if (exception === 'parsererror') {
+	                var StatusMessage = 'Requested JSON parse failed.';
+	            } else if (exception === 'timeout') {
+	                var StatusMessage = 'Time out error.';
+	            } else if (exception === 'abort') {
+	                var StatusMessage = 'Ajax request aborted.';
+	            } else {
+	                var StatusMessage = 'Uncaught Error.\n' + jqXHR.responseText;
+	            }
+				
+				var ResponseText = jqXHR.responseText;
+				//We're not going to send if the "error page" was reached to avoid a pointless email
+				var Pattern = new RegExp('We apologize for the inconvenience, but an error has occurred')
+				var TestResults = Pattern.test(ResponseText);
+				
+				if(TestResults) {
+					var IsFromErrorCFM = true;
+				}
+				else {
+					var IsFromErrorCFM = true;
+				}			
+				
+			}
+			else {
+				var ResponseText = "";
+			}
+
+			jQuery.ajax({
+				type: "get",
+				url: g_ComponentsRoot + "/ErrorHandler.cfc?returnFormat=json",
+				data: {
+					method: "ErrorHandler",
+					Exception: ErrorMessage,						
+					Ajax_IsAjaxRequest: true,
+					Ajax_ManualThrow: true,
+					Ajax_ResponseText: ResponseText,
+					DisplayErrorPage: false
+		
+				},
+				dataType: "json",
+				
+				success: function(returnObj) {			
+					//Do Nothing		
+				},
+				
+				error: function(xhr, textStatus, errorThrown){
+					//Do nothing
+				}
+			});
+		}//SendError
+	}
+	
+}();
+
+/* 
+ * **************************************************************************************
+ *  								Window Library Class
+ * **************************************************************************************
+ */
+
+/*
+ * @title - The text to display in the loader
+ * @modal - true = shows overlay (default); false = hides overlay
+ */
+var Loader = function() {
+	
+	return {
+		Show: function(Paramaters) {
+	
+				var Paramaters = Paramaters || {}; // Set default
+						
+				var MessageHTML = '<div>';           
+				MessageHTML += '<div style="margin-left:auto;margin-right:auto;text-align:center;padding-top:10px;"><img src="' + g_LayoutImages + '/Loaders/Spinner-100x100.png"/></div>';
+				MessageHTML += '</div>';
+	
+	            //position:absolute;bottom:5px;width:90%;
+
+				g_jQuerydialog = jQuery('<div></div>')
+				.html(MessageHTML)
+				.dialog({
+					autoOpen: false,
+					show: 'fade',
+					hide: 'fade',
+	                width:225, 
+	                minHeight:175, 
+					resizable: false,
+					closeOnEscape: false,	
+					open: function(event, ui) { jQuery(".ui-dialog-titlebar-close").hide(); },		
+					title: Paramaters.title ? Paramaters.title : 'Loading. Please Wait',
+					modal: Paramaters.showOverlay ? Paramaters.showOverlay : true
+				  });
+				 
+	            g_jQuerydialog.dialog('open');
+	             return false;
+		
+			},//Show
+			
+			Hide: function() {
+				g_jQuerydialog.dialog('close');
+				delete g_jQuerydialog;
+			},//Close()
+			
+			//Legacy support
+			Close: function() {
+				g_jQuerydialog.dialog('close');
+				delete g_jQuerydialog;
+			}//Close()
+	}//return
+	
+}();
+
+var UIWindow = function(){
+	return {
+		/***************************************************************************************
+		* Function: URLWin()
+		* Desc: Opens a modal window with an external URL
+		* Usage: UIWindow.FrameDialog.Open({title: 'My Window', url: 'http://www.example.com/SomePage.cfm'})
+		***************************************************************************************/
+		FrameDialog: {
+			Open: function(Paramaters) {
+				Paramaters = Paramaters || {}; // Set default
+				
+				//Set some defaults. These need to be set here becuase of their boolean type
+				Paramaters.closable = (typeof(Paramaters.closable) == "undefined") ? true : Paramaters.closable; 
+				Paramaters.maximizable = (typeof(Paramaters.maximizable) == "undefined") ? false : Paramaters.maximizable; 
+				Paramaters.resizable = (typeof(Paramaters.resizable) == "undefined") ? false : Paramaters.resizable; 
+				Paramaters.minimizable = (typeof(Paramaters.minimizable) == "undefined") ? false : Paramaters.minimizable; 
+				Paramaters.beforeClose = (typeof(Paramaters.beforeClose) == "return true;") ? false : Paramaters.beforeClose; 
+				
+				jQuery.FrameDialog.create({
+						url: Paramaters.url ? Paramaters.url : "&nbsp;",
+						title: Paramaters.title ? Paramaters.title : "&nbsp;",
+						loadingClass: 'jQuery-frameDialog-loadingImage',
+						width: Paramaters.width ? Paramaters.width : Util.SetScreenSize().width,
+						height:Paramaters.height ? Paramaters.height : Util.SetScreenSize().height,
+						buttons: false,
+						show: 'fade',
+						hide: 'fade',
+						beforeClose: Paramaters.beforeClose 
+					});
+				
+			},//Show
+			
+			Close: function() {
+				jQuery.FrameDialog.closeDialog();
+			}//Close()
+			
+		},//FrameDialog()
+	
+		/***************************************************************************************
+		* Function: InlineWin()
+		* Desc: Opens a modal window with an external URL
+		* Usage: UIWindow.InlineDialog.Show({element: 'login', title: 'Window Title' , width: 500, height:200, resizable: true})
+		***************************************************************************************/
+		InlineDialog: {
+			Open: function(Paramaters) {
+				
+				//Set some defaults.
+				Paramaters.title = Paramaters.title ? Paramaters.title : "&nbsp;",
+				Paramaters.width = Paramaters.width ? Paramaters.width : Util.SetScreenSize().width;
+				Paramaters.height = Paramaters.height ? Paramaters.height : Util.SetScreenSize().height,
+				Paramaters.modal = (typeof(Paramaters.modal) == "undefined") ? true : Paramaters.modal; 
+				Paramaters.closable = (typeof(Paramaters.closable) == "undefined") ? true : Paramaters.closable; 
+				Paramaters.maximizable = (typeof(Paramaters.maximizable) == "undefined") ? true : Paramaters.maximizable; 
+				Paramaters.resizable = (typeof(Paramaters.resizable) == "undefined") ? false : Paramaters.resizable; 
+				Paramaters.minimizable = (typeof(Paramaters.minimizable) == "undefined") ? false : Paramaters.minimizable; 
+				Paramaters.buttons = (typeof(Paramaters.buttons) == "undefined") ? { "Ok": function() { jQuery(this).dialog("close"); } } : Paramaters.buttons; 
+				
+				g_jQuerydialog_inline = jQuery(Paramaters.element).dialog({
+					title: Paramaters.title,
+					width: Paramaters.width,
+					height:Paramaters.height,
+					buttons: false,
+					show: 'fade',
+					hide: 'fade',
+					modal: Paramaters.modal
+				});
+			},//Show
+			
+			//This function is here for native support only!
+			Show: function(Paramaters) {
+				this.Open(Paramaters);
+			},//Close()
+	
+			Close: function() {
+				g_jQuerydialog_inline.dialog('close');
+			}//Close()
+			
+		}//InlineWin()
+	}//return
+}();
+
+var Util = function(){
+	return {
+		/***************************************************************************************
+		* Function: Util.GetWindowSize()
+		* Desc: Gets the width of a window. This function does NOT get the screen width!
+		****************************************************************************************/
+		GetWindowSize: function() {
+			var WinSize = new Object();
+			WinSize.width = ''
+			WinSize.height = ''
+			
+			if (window.innerWidth) {
+				WinSize.width = window.innerWidth
+				WinSize.height = window.innerHeight
+				return WinSize;
+			} 
+			else if (document.body.clientWidth) {
+				WinSize.width = document.body.clientWidth
+				WinSize.height = document.body.clientHeight
+				return WinSize
+			} 
+			else {
+				return 100;
+			}
+		},//JSLib.GetWindowSize
+		
+		
+		/***************************************************************************************
+		* Function: Util..SetScreenSize()
+		* Desc: Gets the width and hight of the screen, and returns a new value. Used for popup windows.
+		****************************************************************************************/
+		SetScreenSize: function() {
+			
+			var ScreenSize = new Object();
+			ScreenSize.width = ''
+			ScreenSize.height = ''
+		
+			switch(screen.width)
+				{ 
+					case 800: 
+						ScreenSize.width 	= 600
+						ScreenSize.height 	= 400;
+					break;
+			
+					case 1024: 
+						ScreenSize.width 	= 800;
+						ScreenSize.height 	= 600;
+					break;
+		
+					case 1280: 
+						ScreenSize.width 	= 800;
+						ScreenSize.height 	= 600;
+					break;
+					
+					case 1152: 
+						ScreenSize.width 	= 775;
+						ScreenSize.height 	= 500;
+					break;
+					
+					case 1360: 
+						ScreenSize.width 	= 1100;
+						ScreenSize.height 	= 500;
+					break;
+
+					case 1440: 
+						ScreenSize.width 	= 775;
+						ScreenSize.height 	= 575;
+					break;
+					
+					case 1680: 
+						ScreenSize.width 	= 1280;
+						ScreenSize.height 	= 600;
+					break; 
+					
+					default:
+						ScreenSize.width 	= screen.width - 300;
+						ScreenSize.height 	= screen.height - 200;
+			
+				}//END SWITCH
+				//alert(ScreenSize.width + 'x' + ScreenSize.height);
+				return ScreenSize;
+		
+		}//WindowLib.GetWindowSize
+	}//return
+}();
+
+
+/*
+ * This is a private function modification for jquery UI. Don't use it.
+*/
+jQuery.widget("ui.dialog", jQuery.extend({}, jQuery.ui.dialog.prototype, {
+    _title: function(title) {
+        if (!this.options.title ) {
+            title.html("&#160;");
+        } else {
+            title.html(this.options.title);
+        }
+    }
+}));
+
+/*
+ * Creates a generic alert message
+ * Example: _alert('This is a UI styled alert. Goodbye old-school alert window!')
+*/
+function _alert(MessageHTML) {
+	//Replace line breaks with html breaks
+	var BR_RegEx = new RegExp("\\n", "g");
+	MessageHTML = MessageHTML.replace(BR_RegEx, "<br/>");
+	MessageHTML = '<br/><p>' + MessageHTML + '</p><br/>'
+	var alertDialog = jQuery('<div id="Dialog-Alert"></div>').html(MessageHTML);
+	alertDialog.dialog({
+		title: '<span aria-hidden="true" class="icon icon-info-2" style="float:left;"></span>&nbsp;Important Message',
+		modal: true,
+		resizable: false,
+		width: 400,
+		height: 'auto',
+		show: 'fade',
+		hide: 'fade',
+		buttons: {
+			"  Ok  ": function() {
+				jQuery(this).dialog("close");
+			}
+		}
+	});
+}
+
+/*
+ * Creates a generic confirm message
+*/
+function _confirm(MessageHTML, callback) {
+	//Replace line breaks with html breaks
+	var BR_RegEx = new RegExp("\\n", "g");
+	MessageHTML = MessageHTML.replace(BR_RegEx,"<br/>" );
+	
+	var confirmDialog = jQuery('<div id="Confirm-Alert"></div>').html(MessageHTML);
+	confirmDialog.dialog({
+		title: '<span aria-hidden="true" class="icon icon-warning" style="float:left;"></span>&nbsp;Confirmation Message',
+		modal: true,
+		resizable: false,
+		width: 450,
+		height: 175,
+		show: 'fade',
+		hide: 'fade',
+		buttons: {
+			"  Ok  ": function() {
+				callback(true);
+				jQuery(this).dialog("close");
+			},
+			"  Cancel  ": function() {
+				callback(false);
+				jQuery(this).dialog("close");
+			}
+		}
+	});
+}
+
+/*
+ * ScrollTo()
+ * Creates a 'smooth' scrolling to an element
+ */
+function ScrollTo(element,speed) {
+	
+	optionSpeed = typeof(speed) != 'undefined' ? speed : "1500";
+	
+     jQuery('html, body').animate({scrollTop: jQuery(element).offset().top}, optionSpeed);
+}

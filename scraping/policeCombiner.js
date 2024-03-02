@@ -34,6 +34,10 @@ fire police for delco: http://www.delcofirepolice.org/districts/
 
 const layer = [
     {
+      source: 'Pittsburgh_Police_Zones.geojson',
+      County: 'Allegheny'
+    },
+    {
       source: 'Montgomery_County_Police_Districts.geojson',
       County: 'Montgomery'
     },
@@ -49,6 +53,10 @@ const layer = [
     {
       source: 'DelawareCountyPolice.geojson',
       County: 'Delaware'
+    },    
+    {
+      source: 'Harrisburg_Police.geojson',
+      County: 'Dauphin'
     }
   ].map(
     (layer) => {
@@ -67,7 +75,9 @@ const layer = [
             (feature) => {
               //console.log('before', feature.properties);
               console.log(layer.County);
-              if (feature.properties.Name) {
+              if (feature.properties.County === 'Dauphin') {
+                feature.properties.Name = 'Pittsburgh - ' + feature.properties.Name;
+              } else if (feature.properties.Name) {
                 feature.properties.Name =
                   feature.properties.Name
                           .replace("Police Department", "")
@@ -77,6 +87,13 @@ const layer = [
 
                 return feature;
               }
+              else if (feature.properties.zone) {
+                feature.properties.zone =
+                  feature.properties.zone + '';
+                feature.properties.County = layer.County;
+
+                return feature;
+              } 
               else if (feature.properties.DEPT_NAME) {
                 const name = 
                   feature.properties.DEPT_NAME
